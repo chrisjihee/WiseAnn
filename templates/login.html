@@ -1,0 +1,51 @@
+{% extends "index.html" %}
+{% block script_header %}
+    <script type="text/javascript" src="/static/js/base64.js"></script>
+    <script type="text/javascript">
+        const doLogin = function () {
+            const userpass = $("#username").val() + ":" + $("#password").val();
+            const authcode = Base64.encode(userpass);
+            $.ajax({
+                url: "/api/login/",
+                type: "get",
+                async: true,
+                beforeSend: function (req) {
+                    req.setRequestHeader("Authorization", authcode);
+                },
+                success: function (data, type, res) {
+                    {% comment %}setLoginString();{% endcomment %}
+                    {% comment %}window.location = "/";{% endcomment %}
+                    const r = JSON.parse(res.responseText);
+                    const s = '로그인에 성공하였습니다. ' +
+                        r["user"]["fullname"] + '님 안녕하세요! ' +
+                        '<a href="/' + r["user"]["app"] + '">' + r["user"]["app"] + ' 태스크 목록</a>으로 이동하세요.';
+                    $("#guide").removeClass("alert-info").removeClass("alert-danger").addClass("alert-success").html(s);
+                    $("#username").attr("disabled", true);
+                    $("#password").attr("disabled", true);
+                    $("#signin").attr("disabled", true);
+                    console.log("[login.html:doLogin.ajax.success]", res.status, res.statusText, r["user"]);
+                },
+                error: function (res) {
+                    const s = '로그인에 실패하였습니다. 사용자 정보를 다시 확인해주세요.';
+                    $("#guide").removeClass("alert-info").removeClass("alert-success").addClass("alert-danger").html(s);
+                    console.log("[login.html:doLogin.ajax.error]", res.status, res.statusText);
+                }
+            });
+        };
+    </script>
+{% endblock script_header %}
+{% block body %}
+    <div>
+        <form class="form-signin well" onsubmit="doLogin(); return false;">
+            {% csrf_token %}
+            <label for="username" class="sr-only">Email address</label>
+            <input id="username" type="email" class="form-control" placeholder="Email address" required autofocus
+                   value="ZA.chrisjihee@etri.re.kr">
+            <label for="password" class="sr-only">Password</label>
+            <input id="password" type="password" class="form-control" placeholder="Password" required
+                   value="chrisjihee">
+            {% comment %}<label style="font-weight: normal"><input type="checkbox" value="remember-me"> Remember me</label>{% endcomment %}
+            <button id="signin" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        </form>
+    </div>
+{% endblock body %}

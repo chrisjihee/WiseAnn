@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WiseAnn</title>
+    <meta name="description" content="Exobrain, WiseQA, NLP, annotation, Zero Anaphora Resolution"/>
+    <meta name="author" content="Jihee Ryu"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/static/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="/static/css/annotation.css"/>
+    <script type="text/javascript" src="/static/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap.js"></script>
+</head>
+
+<body>
+{% block script_header %}
+{% endblock script_header %}
+{% block header %}
+    <table align="center" class="table" style="width:1000px">
+        <thead style="border-bottom:hidden">
+        <tr>
+            <th>
+                <h1 style="margin-bottom:30px">[WiseAnn] WiseQA Annotation Workbench</h1>
+                <div id="guide" class="alert alert-info" style="text-align:center; margin-bottom:0">{{ guide }}</div>
+            </th>
+        </tr>
+        </thead>
+    </table>
+{% endblock header %}
+{% block body %}
+    <table align="center" class="table" style="width:1000px; margin-bottom:90px">
+        <tbody style="border-bottom:1px solid #ddd">
+        <tr>
+            <td style="width:40%;">
+                <a href="/ZA"><img src="/static/images/ZA.png" alt="Zero Anaphora Resolution" style="width:100%"/></a>
+            </td>
+            <td style="width:60%;">
+                <h3><a href="/ZA">생략어 복원 (Zero Anaphora Resolution)</a></h3>
+                <p>문장 내에 생략된 대상을 문서 내부 또는 외부에서 찾아내는 태스크입니다.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:40%;">
+                <img src="/static/images/faith%20hope%20love.jpg" alt="믿음, 소망, 사랑" style="width:100%"/>
+            </td>
+            <td style="width:60%;">
+                <p>그 밖의 태스크가 준비되고 있습니다.</p>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+{% endblock body %}
+{% block footer %}
+    <footer class="footer">
+        <div class="well" style="text-align:center; margin:0;">
+            본 태스크들은 <a href="http://exobrain.kr/onedintro">엑소브레인(Exobrain) 프로젝트 1세부과제</a>인
+            휴먼 지식증강 서비스를 위한 지능진화형 WiseQA 플랫폼 기술 개발의 한 부분입니다.
+        </div>
+    </footer>
+{% endblock footer %}
+{% block script_footer %}
+{% endblock script_footer %}
+</body>
+
+</html>
