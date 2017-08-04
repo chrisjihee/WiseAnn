@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+{% block script_header %}
+    <script type="text/javascript">
+        if (!getAuthCode())
+            window.location = "/login/";
+        $(function () {
+            $("#username").text(username);
+        });
+    </script>
+{% endblock script_header %}
+{% block body %}
+    <div class="row" style="width:1000px; margin-left:auto; margin-right:auto; margin-bottom:90px">
+        <div class="col-md-offset-8 col-md-3 well well-sm"
+             style="text-align:center; font-size:9pt; height:35px; margin-bottom:0;">
+            <i class="glyphicon glyphicon-user"> </i>
+            <span id="username"></span>
+        </div>
+        <div class="col-md-1" style="padding-left:8px; padding-right:8px">
+            <button id="signout" class="btn btn-block btn-danger" onclick="doLogout()">
+                <i class="glyphicon glyphicon-off"> </i>
+            </button>
+        </div>
+    </div>
+{% endblock body %}

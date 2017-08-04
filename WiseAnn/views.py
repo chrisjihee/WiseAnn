@@ -3,13 +3,10 @@ from __future__ import unicode_literals
 
 from base64 import decodestring
 
-from django.http import *
-from django.shortcuts import render
-from django.views.decorators.csrf import *
+from django.http import JsonResponse
 from django.views.decorators.cache import never_cache
 
 import ZA.models
-from WiseAnn import *
 
 user = None
 

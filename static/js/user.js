@@ -1,11 +1,115 @@
 /**
+ * 전역변수
+ */
+var username, authcode;
+
+/**
+ * 쿠키에서 AuthCode를 가져옴
+ */
+const getAuthCode = function () {
+    username = getCookie("username");
+    authcode = getCookie("authcode");
+    return authcode && authcode.trim().length > 0 ? authcode : false;
+};
+
+/**
+ * 쿠키에 AuthCode를 저장함
+ */
+const setAuthCode = function (long) {
+    if (username && username.trim().length > 0)
+        setCookie("username", username, long);
+    if (authcode && authcode.trim().length > 0)
+        setCookie("authcode", authcode, long);
+};
+
+/**
+ * 쿠키에 있는 AuthCode를 비움
+ */
+const clearAuthCode = function () {
+    setCookie("authcode", "", false);
+    setCookie("username", "", false);
+};
+
+/**
+ * 쿠키에서 값을 불러옴
+ */
+const getCookie = function (name) {
+    var cookieData = document.cookie;
+    var start = cookieData.indexOf(name + '=');
+    var value = '';
+    if (start !== -1) {
+        start += name.length + 1;
+        var end = cookieData.indexOf(';', start);
+        if (end === -1)
+            end = cookieData.length;
+        value = cookieData.substring(start, end);
+    }
+    return value;
+};
+
+/**
+ * 쿠키에 값을 저장함
+ */
+const setCookie = function (name, value, long) {
+    var expire = new Date();
+    if (long)
+        expire.setDate(expire.getDate() + 30);
+    else
+        expire.setDate(expire.getDate() + 1);
+    document.cookie = name + '=' + value + '; path=/; expires=' + expire.toGMTString() + ';';
+};
+
+/**
+ * 로그인
+ */
+const doLogin = function () {
+    username = $("#username").val();
+    authcode = Base64.encode(username + ":" + $("#password").val());
+    $.ajax({
+        url: "/api/login/",
+        type: "get",
+        async: true,
+        beforeSend: function (req) {
+            req.setRequestHeader("Authorization", authcode);
+        },
+        success: function (data, type, res) {
+            setAuthCode(authcode, username, $("#remember").is(":checked"));
+            const r = JSON.parse(res.responseText);
+            const s = '로그인에 성공하였습니다. ' +
+                r["user"]["fullname"] + '님 안녕하세요! ' +
+                '<a href="/' + r["user"]["app"] + '/">' + r["user"]["app"] + ' 태스크 목록</a>으로 이동합니다.';
+            $("#guide").removeClass("alert-info").removeClass("alert-danger").addClass("alert-success").html(s);
+            $("#username").attr("disabled", true);
+            $("#password").attr("disabled", true);
+            $("#signin").attr("disabled", true);
+            console.log("[login.html:doLogin.ajax.success]", res.status, res.statusText, r["user"]);
+            setTimeout(function () {
+                window.location = '/' + r["user"]["app"] + '/';
+            }, 1000);
+        },
+        error: function (res) {
+            const s = '로그인에 실패하였습니다. 사용자 정보를 다시 확인해주세요.';
+            $("#guide").removeClass("alert-info").removeClass("alert-success").addClass("alert-danger").html(s);
+            console.log("[login.html:doLogin.ajax.error]", res.status, res.statusText);
+        }
+    });
+};
+
+/**
+ * 로그아웃
+ */
+const doLogout = function () {
+    clearAuthCode();
+    window.location = "/login/";
+};
+
+/**
  *
  *  Base64 encode / decode
  *  http://www.webtoolkit.info/
  *
  **/
 const Base64 = {
-
     // private property
     _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
 
@@ -137,5 +241,4 @@ const Base64 = {
 
         return string;
     }
-
 };

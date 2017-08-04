@@ -1,19 +1,14 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.http import *
-from django.shortcuts import render
-from django.views.decorators.csrf import *
-from WiseAnn.settings import *
-
-from WiseAnn import *
-from ZA import *
-from ZA.models import *
 import json
 
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 
-def index(request):
-    return HttpResponse("This is ZA annotation page")
+from WiseAnn import *
+from WiseAnn.settings import *
+from ZA.models import *
 
 
 @csrf_exempt
