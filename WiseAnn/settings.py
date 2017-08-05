@@ -24,7 +24,7 @@ SECRET_KEY = '&+8wq#v821hzic1p&-v!a6*6e5uiba041rbs^^kkyz(74z3#^$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['129.254.181.70', '192.168.0.2', '127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', '192.168.0.2', '129.254.181.70', '116.121.197.166', 'chrislove.iptime.org']
 
 # Application definition
 
