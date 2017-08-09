@@ -16,22 +16,31 @@ def get_user(username, password=None):
     for x in [ZA.models.User]:
         try:
             if password is not None:
-                return x.objects.get(username=username, password=password)
+                user = x.objects.get(username=username, password=password)
+                return user
             else:
-                return x.objects.get(username=username)
+                user = x.objects.get(username=username)
+                return user
         except x.DoesNotExist:
             pass
     return None
 
 
+def auth_user(request):
+    global user
+    if "HTTP_AUTHORIZATION" in request.META:
+        (u, p) = decodestring(request.META["HTTP_AUTHORIZATION"]).split(":", 2)
+        user = get_user(u, p)
+    return user
+
+
 def need_auth(call):
     def try_auth(request, *args, **kwargs):
         global user
-        if "HTTP_AUTHORIZATION" in request.META:
-            (u, p) = decodestring(request.META["HTTP_AUTHORIZATION"]).split(":")
-            user = get_user(u, p)
-            if user is not None:
-                return call(request, *args, **kwargs)
+        user = None
+        auth_user(request)
+        if user is not None:
+            return call(request, *args, **kwargs)
         return JsonResponse({"status": 401, "msg": "Unauthorized"}, status=401)
 
     return try_auth

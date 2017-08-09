@@ -3,12 +3,36 @@ from __future__ import unicode_literals
 
 import json
 
-from django.http import JsonResponse
+from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 
 from WiseAnn import *
 from WiseAnn.settings import *
+from WiseAnn.views import *
 from ZA.models import *
+
+guide = dict()
+guide["ZA"] = "ZA 태스크를 위한 텍스트가 준비되어 있습니다. 태스크를 진행할 텍스트를 선택하세요."
+
+
+@never_cache
+def index(request):
+    user = auth_user(request)
+    print(">>>>>(1)", user)
+    msg = "user is none" if user is None else "user is user"
+    if user is not None:
+        texts1 = [x.text.textname for x in user.task_set.filter(finished=False)]
+        texts2 = [x.text.textname for x in user.task_set.filter(finished=True)]
+        progress = float(len(texts2)) / (len(texts1) + len(texts2)) * 100
+        print(">>>>>(2)", len(texts1))
+        print(">>>>>(2)", progress)
+        # return JsonResponse({"status": 200, "msg": "OK -- OK?"})
+        return render(request, 'ZA.html', {"guide": guide["ZA"] + msg,
+                                           "texts_not_finished": texts1,
+                                           "texts_finished": texts2,
+                                           "progress": progress})
+    else:
+        return render(request, 'ZA.html', {"guide": guide["ZA"] + msg})
 
 
 @csrf_exempt
