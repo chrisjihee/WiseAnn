@@ -22,16 +22,25 @@ guide["ZA_no_user"] = "로그인 정보가 없습니다. 페이지를 다시 로
 def task(request, textname):
     user = auth_user(request)
     print(">>>>>(1)", user)
-    print(">>>>>(2)")
+    print(">>>>>(2.1)")
     print(textname)
+    print(">>>>>(2.2)")
     msg = "user is none" if user is None else "user is user"
+    print(">>>>>(3.0)")
     if user is not None:
+        print(">>>>>(3)")
         try:
-            text = Text.objects.get(textname=textname)
-            return render(request, 'ZA_task.html', {"guide": guide["ZA_task"] + msg, "text": text})
+            print(">>>>>(3.1)")
+            textname = Text.objects.get(textname=textname).textname
+            textcont = read_text(textname)
+            print(">>>>>(3.2)")
+            return render(request, 'ZA_task.html', {"guide": guide["ZA_task"] + msg,
+                                                    "textname": textname,
+                                                    "textcont": textcont})
         except (KeyError, Text.DoesNotExist):
             return render(request, 'ZA_task.html', {"guide": guide["ZA_no_task"] + msg})
     else:
+        print(">>>>>(3.x)")
         return render(request, 'ZA_task.html', {"guide": guide["ZA_no_user"] + msg})
 
 
@@ -84,6 +93,16 @@ def reset_users(filename=os.path.join(BASE_DIR, "data/users.json")):
     else:
         print(">>> [ZA.views.reset_users] No file: %s" % filename)
     return num
+
+
+def read_text(textname, dirname=os.path.join(BASE_DIR, "data/texts")):
+    if os.path.isdir(dirname):
+        filename = os.path.join(dirname, textname + ".ann.json")
+        if os.path.isfile(filename):
+            data = open(filename).read()
+            text = json.loads(data)
+            return text
+    return None
 
 
 def reset_texts(dirname=os.path.join(BASE_DIR, "data/texts")):

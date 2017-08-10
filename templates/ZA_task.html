@@ -15,27 +15,73 @@
 
         $(function () {
             $("#username").text(username);
+            {#            $("div").selectable();#}
+            $("div.selectable").selectable();
+            $("#selectable").selectable();
         });
+
+        const goList = function () {
+            window.location = "/ZA/";
+        };
     </script>
 {% endblock script_header %}
 
 {% block body %}
+    <ol id="selectable">
+        <li class="ui-widget-content">Item 1</li>
+        <li class="ui-widget-content">Item 2</li>
+        <li class="ui-widget-content">Item 3</li>
+        <li class="ui-widget-content">Item 4</li>
+        <li class="ui-widget-content">Item 5</li>
+        <li class="ui-widget-content">Item 6</li>
+        <li class="ui-widget-content">Item 7</li>
+    </ol>
+
     <div class="row" style="width:1040px; margin-left:auto; margin-right:auto; margin-bottom:30px">
-        <div class="col-md-offset-8 col-md-3 well well-sm"
+        <div class="col-md-offset-7 col-md-1" style="padding-left:8px; padding-right:0">
+            <button class="btn btn-block btn-warning" style="max-width:70px" onclick="goList()">
+                <i class="glyphicon glyphicon-th-list"><span style="padding-left:3px; font-size:10.5pt">목록</span></i>
+            </button>
+        </div>
+        <div class="col-md-3 well well-sm"
              style="text-align:center; font-size:9pt; height:35px; margin-bottom:0; max-width:240px">
             <i class="glyphicon glyphicon-user"> </i>
             <span id="username"></span>
         </div>
-        <div class="col-md-1" style="padding-left:8px; padding-right:8px">
+        <div class="col-md-1" style="padding-left:8px; padding-right:0">
             <button id="signout" class="btn btn-block btn-danger" style="max-width:70px" onclick="doLogout()">
                 <i class="glyphicon glyphicon-off"> </i>
             </button>
         </div>
     </div>
 
-    <div class="panel panel-default" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:20px">
+    <div class="panel panel-info" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:20px">
         <div class="panel-heading" style="padding:10px; font-size:11pt">문서 제목</div>
-        <div class="panel-body" style="font-size:10pt; padding-top:10px; padding-bottom:10px">{{ text }}</div>
+        <div class="panel-body" style="font-size:10pt; padding-top:10px; padding-bottom:10px">{{ textname }}</div>
+    </div>
+
+    <div class="panel panel-info" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:20px">
+        <div class="panel-heading" style="padding:10px; font-size:11pt">문서 내용</div>
+        <div class="panel-body" style="font-size:10pt; padding-top:10px; padding-bottom:10px">
+            <table class="table table-condensed table-striped list" style="margin-top:5px; margin-bottom:5px">
+                {% for sent in textcont.sents %}
+                    <tr>
+                        <th style="width:30px; text-align:right;">{{ sent.id }}</th>
+                        <td id="sent{{ sent.id }}">
+                            {% for word in sent.words %}
+                                <div id="sent{{ sent.id }}-word{{ word.id }}"
+                                     style="display:inline-block; padding-right:10px" class="selectable">
+                                    {% for morp in word.morps %}
+                                        <div id="sent{{ sent.id }}-word{{ word.id }}-morp{{ morp.id }}"
+                                             style="display:inline-block">{{ morp.str }}</div>
+                                    {% endfor %}
+                                </div>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
     </div>
 
     <table>
