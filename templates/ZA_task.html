@@ -1,0 +1,77 @@
+{% extends "index.html" %}
+
+{% block script_header %}
+    <script type="text/javascript">
+        if (!getAuthCode())
+            window.location = "/login/";
+        $.ajax({
+            url: "/ZA/",
+            type: "get",
+            async: true,
+            beforeSend: function (req) {
+                req.setRequestHeader("Authorization", authcode);
+            }
+        });
+
+        $(function () {
+            $("#username").text(username);
+        });
+    </script>
+{% endblock script_header %}
+
+{% block body %}
+    <div class="row" style="width:1040px; margin-left:auto; margin-right:auto; margin-bottom:30px">
+        <div class="col-md-offset-8 col-md-3 well well-sm"
+             style="text-align:center; font-size:9pt; height:35px; margin-bottom:0; max-width:240px">
+            <i class="glyphicon glyphicon-user"> </i>
+            <span id="username"></span>
+        </div>
+        <div class="col-md-1" style="padding-left:8px; padding-right:8px">
+            <button id="signout" class="btn btn-block btn-danger" style="max-width:70px" onclick="doLogout()">
+                <i class="glyphicon glyphicon-off"> </i>
+            </button>
+        </div>
+    </div>
+
+    <div class="panel panel-default" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:20px">
+        <div class="panel-heading" style="padding:10px; font-size:11pt">문서 제목</div>
+        <div class="panel-body" style="font-size:10pt; padding-top:10px; padding-bottom:10px">{{ text }}</div>
+    </div>
+
+    <table>
+        <tr>
+            <td align="center" style="border: none; padding: 0px; padding-top: 17px; padding-right: 10px;">
+                <div class="panel panel-default" style="width: 180px;">
+                    <div class="panel-body btn-group"
+                         style="padding-top:12px; padding-left: 0px; padding-right: 0px; height: 54px;">
+                        <button class="btn btn-default btn-sm" id="append"><i class="glyphicon glyphicon-plus"> </i>
+                            Append
+                        </button>
+                        <button class="btn btn-default btn-sm" id="delete"><i class="glyphicon glyphicon-minus"> </i>
+                            Delete
+                        </button>
+                    </div>
+                    <div class="panel-footer" style="padding: 3px; font-size: 10pt; font-family: 'Calibri';">Context
+                        Mode
+                    </div>
+                </div>
+            </td>
+            <td align="center" style="border: none; padding: 0px; padding-top: 17px;">
+                <div class="panel panel-default" style="width:160px;">
+                    <div class="panel-body"
+                         style="padding-top:7px; padding-left: 0px; padding-right: 0px; height: 54px;">
+                        <button class="btn btn-default btn-sm" id="save"><i class="glyphicon glyphicon-saved"> </i> Save
+                        </button>
+                        <button class="btn btn-danger  btn-sm" id="home"><i class="glyphicon glyphicon-home"> </i> Home
+                        </button>
+                    </div>
+                    <div class="panel-footer" style="padding: 3px; font-size: 10pt; font-family: 'Calibri';">Command
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+
+
+{% endblock body %}

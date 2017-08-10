@@ -1,0 +1,80 @@
+{% extends "index.html" %}
+
+{% block script_header %}
+    <script type="text/javascript">
+        if (!getAuthCode())
+            window.location = "/login/";
+        $.ajax({
+            url: "/ZA/",
+            type: "get",
+            async: true,
+            beforeSend: function (req) {
+                req.setRequestHeader("Authorization", authcode);
+            }
+        });
+
+        $(function () {
+            $("#username").text(username);
+        });
+    </script>
+{% endblock script_header %}
+
+{% block body %}
+    <div class="row" style="width:1040px; margin-left:auto; margin-right:auto; margin-bottom:30px">
+        <div class="col-md-offset-8 col-md-3 well well-sm"
+             style="text-align:center; font-size:9pt; height:35px; margin-bottom:0; max-width:240px">
+            <i class="glyphicon glyphicon-user"> </i>
+            <span id="username"></span>
+        </div>
+        <div class="col-md-1" style="padding-left:8px; padding-right:8px">
+            <button id="signout" class="btn btn-block btn-danger" style="max-width:70px" onclick="doLogout()">
+                <i class="glyphicon glyphicon-off"> </i>
+            </button>
+        </div>
+    </div>
+
+    <div class="panel panel-default" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:20px">
+        <div class="panel-heading" style="padding:10px; font-size:11pt">Annotation 진행 정도</div>
+        <div class="panel-body" style="padding-top:20px; padding-bottom:0">
+            <div class="progress" style="height:40px">
+                {% if progress >= 1.0 %}
+                    <div class="progress-bar" style="width:{{ progress }}%; padding:13px">
+                        <b class="progress-msg">{{ progress }}%</b>
+                        {% if progress >= 4.0 %}<b class="progress-msg">완료</b>{% endif %}
+                    </div>
+                {% else %}
+                    <div class="progress-msg" style="font-size:10pt; color:gray; padding-top:7px; padding-left:10px">
+                        아직 진행된 것이 없습니다.
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-warning" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:20px">
+        <div class="panel-heading" style="padding:10px; font-size:11pt">Annotation 필요 문서</div>
+        <div class="panel-body" style="padding-top:2px; padding-bottom:10px">
+            {% for x in texts_yet_finished %}
+                <div class="col-md-1" style="width:33.3%; height:30px; font-size:10pt; padding:0">
+                    <a href="/ZA/{{ x.name }}">{{ x.label }}</a>
+                </div>
+            {% empty %}
+                <div class="col-md-1" style="width:100%; height:30px; font-size:10pt; color:gray; padding:0">없음</div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="panel panel-success" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:90px">
+        <div class="panel-heading" style="padding:10px; font-size:11pt">Annotation 완료 문서</div>
+        <div class="panel-body" style="padding-top:2px; padding-bottom:10px">
+            {% for x in texts_yes_finished %}
+                <div class="col-md-1" style="width:20%; height:30px; font-size:10pt; padding:0">
+                    <a href="/ZA/{{ x.name }}">{{ x.label }}</a>
+                </div>
+            {% empty %}
+                <div class="col-md-1" style="width:100%; height:30px; font-size:10pt; color:gray; padding:0">없음</div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock body %}

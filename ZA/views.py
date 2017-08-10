@@ -13,6 +13,26 @@ from ZA.models import *
 
 guide = dict()
 guide["ZA"] = "ZA 태스크를 위한 텍스트가 준비되어 있습니다. 태스크를 진행할 텍스트를 선택하세요."
+guide["ZA_task"] = "로딩된 문서에 대한 Annotation 태스크를 시작합니다. ZA 현상이 있는 부분을 가이드에 따라 태깅하세요."
+guide["ZA_no_task"] = "존재하지 않는 문서입니다. 이전 페이지로 돌아가세요."
+guide["ZA_no_user"] = "로그인 정보가 없습니다. 페이지를 다시 로드하세요."
+
+
+@never_cache
+def task(request, textname):
+    user = auth_user(request)
+    print(">>>>>(1)", user)
+    print(">>>>>(2)")
+    print(textname)
+    msg = "user is none" if user is None else "user is user"
+    if user is not None:
+        try:
+            text = Text.objects.get(textname=textname)
+            return render(request, 'ZA_task.html', {"guide": guide["ZA_task"] + msg, "text": text})
+        except (KeyError, Text.DoesNotExist):
+            return render(request, 'ZA_task.html', {"guide": guide["ZA_no_task"] + msg})
+    else:
+        return render(request, 'ZA_task.html', {"guide": guide["ZA_no_user"] + msg})
 
 
 @never_cache
@@ -21,18 +41,18 @@ def index(request):
     print(">>>>>(1)", user)
     msg = "user is none" if user is None else "user is user"
     if user is not None:
-        texts1 = [x.text.textname for x in user.task_set.filter(finished=False)]
-        texts2 = [x.text.textname for x in user.task_set.filter(finished=True)]
-        progress = float(len(texts2)) / (len(texts1) + len(texts2)) * 100
-        print(">>>>>(2)", len(texts1))
-        print(">>>>>(2)", progress)
+        yes = [x.text.textname for x in user.task_set.filter(finished=True)]
+        yet = [x.text.textname for x in user.task_set.filter(finished=False)]
+        progress = float(len(yes)) / (len(yes) + len(yet)) * 100
+        texts_yes_finished = [{"i": i + 1, "name": x, "label": x} for (i, x) in enumerate(yes)]
+        texts_yet_finished = [{"i": i + 1, "name": x, "label": x} for (i, x) in enumerate(yet)]
+        return render(request, 'ZA_index.html', {"guide": guide["ZA"] + msg,
+                                                 "progress": progress,
+                                                 "texts_yes_finished": texts_yes_finished,
+                                                 "texts_yet_finished": texts_yet_finished})
         # return JsonResponse({"status": 200, "msg": "OK -- OK?"})
-        return render(request, 'ZA.html', {"guide": guide["ZA"] + msg,
-                                           "texts_not_finished": texts1,
-                                           "texts_finished": texts2,
-                                           "progress": progress})
     else:
-        return render(request, 'ZA.html', {"guide": guide["ZA"] + msg})
+        return render(request, 'ZA_index.html', {"guide": guide["ZA"] + msg})
 
 
 @csrf_exempt
@@ -46,12 +66,12 @@ def reset(request):
         return JsonResponse({"status": 401, "msg": "Unauthorized"}, status=401)
 
 
-def reset_users(file=os.path.join(BASE_DIR, "data/users.json")):
+def reset_users(filename=os.path.join(BASE_DIR, "data/users.json")):
     num = 0
-    if os.path.isfile(file):
+    if os.path.isfile(filename):
         for x in User.objects.all():
             x.delete()
-        data = open(file).read()
+        data = open(filename).read()
         for x in json.loads(data):
             User(app=x["app"],
                  level=x["level"],
@@ -62,21 +82,21 @@ def reset_users(file=os.path.join(BASE_DIR, "data/users.json")):
             num += 1
         print(">>> [ZA.views.reset_users] Insert: %d users" % num)
     else:
-        print(">>> [ZA.views.reset_users] No file: %s" % file)
+        print(">>> [ZA.views.reset_users] No file: %s" % filename)
     return num
 
 
-def reset_texts(dir=os.path.join(BASE_DIR, "data/texts")):
+def reset_texts(dirname=os.path.join(BASE_DIR, "data/texts")):
     num = 0
-    if os.path.isdir(dir):
+    if os.path.isdir(dirname):
         for x in Text.objects.all():
             x.delete()
-        for x in sorted(os.listdir(dir)):
+        for x in sorted(os.listdir(dirname)):
             Text(textname=x.replace(".txt", "")).save()
             num += 1
         print(">>> [ZA.views.reset_texts] Insert: %d texts" % num)
     else:
-        print(">>> [ZA.views.reset_texts] No dir: %s" % dir)
+        print(">>> [ZA.views.reset_texts] No dir: %s" % dirname)
     return num
 
 
