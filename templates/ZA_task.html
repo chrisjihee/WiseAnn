@@ -15,9 +15,6 @@
 
         $(function () {
             $("#username").text(username);
-            {#            $("div").selectable();#}
-            $("div.selectable").selectable();
-            $("#selectable").selectable();
         });
 
         const goList = function () {
@@ -27,16 +24,6 @@
 {% endblock script_header %}
 
 {% block body %}
-    <ol id="selectable">
-        <li class="ui-widget-content">Item 1</li>
-        <li class="ui-widget-content">Item 2</li>
-        <li class="ui-widget-content">Item 3</li>
-        <li class="ui-widget-content">Item 4</li>
-        <li class="ui-widget-content">Item 5</li>
-        <li class="ui-widget-content">Item 6</li>
-        <li class="ui-widget-content">Item 7</li>
-    </ol>
-
     <div class="row" style="width:1040px; margin-left:auto; margin-right:auto; margin-bottom:30px">
         <div class="col-md-offset-7 col-md-1" style="padding-left:8px; padding-right:0">
             <button class="btn btn-block btn-warning" style="max-width:70px" onclick="goList()">
@@ -64,23 +51,55 @@
         <div class="panel-heading" style="padding:10px; font-size:11pt">문서 내용</div>
         <div class="panel-body" style="font-size:10pt; padding-top:10px; padding-bottom:10px">
             <table class="table table-condensed table-striped list" style="margin-top:5px; margin-bottom:5px">
+                <tr>
+                    <th style="width:30px; text-align:center;">ID</th>
+                    <th style="text-align:center;">문장</th>
+                </tr>
                 {% for sent in textcont.sents %}
                     <tr>
-                        <th style="width:30px; text-align:right;">{{ sent.id }}</th>
-                        <td id="sent{{ sent.id }}">
+                        <th style="width:30px; text-align:right; line-height:200%; padding-top:20px;">{{ sent.id }}</th>
+                        <td class="sent" id="sent{{ sent.id }}" style="line-height:200%; padding-top:20px;">
                             {% for word in sent.words %}
-                                <div id="sent{{ sent.id }}-word{{ word.id }}"
-                                     style="display:inline-block; padding-right:10px" class="selectable">
+                                <div class="row" style="display:inline-block; padding:0; margin:0;">
+                                    {% comment %}<div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                                    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>{% endcomment %}
+                                    <div class="cate col-md-10 col-md-offset-3" style="border: 1px solid red; padding:0; margin:0;">NN
+                                    </div>
+                                    <span class="word col-md-10 col-md-offset-3"
+                                          style="border: 1px solid blue; padding:0; margin:0;">
+                                        {% for morp in word.morps %}
+                                            <div class="morp" id="sent{{ sent.id }}-word{{ word.id }}-morp{{ morp.id }}"
+                                                 style="display:inline-block">{{ morp.str }}</div>
+                                        {% endfor %}
+                                    </span>
+                                    <span class="word col-xs-10" style="border: 1px solid blue; padding:0; margin:0;">
+                                        {% for morp in word.morps %}
+                                            <div class="morp" id="sent{{ sent.id }}-word{{ word.id }}-morp{{ morp.id }}"
+                                                 style="display:inline-block">{{ morp.str }}</div>
+                                        {% endfor %}
+                                    </span>
+                                </div>
+
+                                {% comment %}<div class="word" id="sent{{ sent.id }}-word{{ word.id }}"
+                                     style="display:inline-block; padding-right:10px">
                                     {% for morp in word.morps %}
-                                        <div id="sent{{ sent.id }}-word{{ word.id }}-morp{{ morp.id }}"
+                                        <div class="morp" id="sent{{ sent.id }}-word{{ word.id }}-morp{{ morp.id }}"
                                              style="display:inline-block">{{ morp.str }}</div>
                                     {% endfor %}
-                                </div>
+                                </div>{% endcomment %}
                             {% endfor %}
                         </td>
                     </tr>
                 {% endfor %}
             </table>
+            <script>
+                $(".morp").mousedown(function () {
+                    $(this).prepend("{")
+                })
+                $(".morp").mouseup(function () {
+                    $(this).append("}");
+                })
+            </script>
         </div>
     </div>
 
