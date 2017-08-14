@@ -23,11 +23,13 @@
 
         $(function () {
             $("#username").text(username);
+            const sent_td = $("td.sent");
             const max_h = Math.ceil(Math.pow($(".sent").width(), 0.75)) - 25;
-            const offset = $("td.sent").offset().left;
+            const offset = sent_td.offset().left;
 
             {% for sent in textcont.sents %}
-                $("div#{{ sent.id }}.deps").append('<canvas id="{{ sent.id }}" class="deps" width="' + (document.body.scrollWidth - 1) + '" height="' + max_h + '" style="position:relative; top:15px;">');
+                sent_td.width(document.body.clientWidth - 1);
+                $("div#{{ sent.id }}.deps").append('<canvas id="{{ sent.id }}" class="deps" width="' + sent_td.width() + '" height="' + max_h + '" style="position:relative; top:15px;">');
                 {% for word in sent.words %}
                     {% if word.head > 0 %}
                         linkTwo($("canvas#{{ sent.id }}.deps")[0], offset, $("#{{ sent.id }}.sent #{{ word.id }}.word"), $("#{{ sent.id }}.sent #{{ word.head }}.word"), max_h);
@@ -53,25 +55,27 @@
             생략어 복원 Annotation
         </div>
         <div class="well well-sm"
-             style="display:inline-block; text-align:center; font-size:9pt; width:300px; height:35px; margin-bottom:0">
+             style="display:inline-block; text-align:center; font-size:11pt; width:400px; height:35px; margin-bottom:0">
             <i class="glyphicon glyphicon-file"> </i>
             <span id="textname">{{ textname }}</span>
         </div>
+        <button onclick="goList()" class="btn btn-warning" style="width:70px; position:relative; top:-4px;">
+            <i class="glyphicon glyphicon-th-list"><span
+                    style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">목록</span></i>
+        </button>
         <div class="well well-sm"
-             style="display:inline-block; text-align:center; font-size:9pt; width:300px; height:35px; margin-bottom:0">
+             style="display:inline-block; text-align:center; font-size:11pt; width:350px; height:35px; margin-bottom:0">
             <i class="glyphicon glyphicon-user"> </i>
             <span id="username"></span>
         </div>
-        <button onclick="goList()" class="btn btn-warning" style="width:70px; position:relative; top:-1px;">
-            <i class="glyphicon glyphicon-th-list"><span style="padding-left:3px; font-size:10.5pt">목록</span></i>
-        </button>
-        <button onclick="doLogout()" class="btn btn-danger" style="width:70px; position:relative; top:-1px;">
-            <i class="glyphicon glyphicon-off"> </i>
+        <button onclick="doLogout()" class="btn btn-danger" style="width:70px; position:relative; top:-4px;">
+            <i class="glyphicon glyphicon-off"><span
+                    style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">종료</span></i>
         </button>
     </div>
 
     <table class="table table-condensed table-striped list"
-           style="font-size:11pt; margin-bottom:100px; display:inline-block; width:max-content;">
+           style="font-size:11pt; margin-bottom:30px; display:inline-block; width:max-content;">
         <tr>
             <th style="width:50px; text-align:right; padding-right:8px;">idx</th>
             <th style="width:50px; text-align:center;">cmd</th>
