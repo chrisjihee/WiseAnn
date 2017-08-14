@@ -5,123 +5,51 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "\""
-            },
-            {
-              "id": 1,
-              "str": "일주일"
-            },
-            {
-              "id": 2,
-              "str": "내"
-            }
-          ]
+          "text": "\"일주일내",
+          "head": 2,
+          "label": "NP_AJT"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "돈"
-            }
-          ]
+          "text": "돈",
+          "head": 2,
+          "label": "NP_OBJ"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "달"
-            },
-            {
-              "id": 1,
-              "str": "라"
-            },
-            {
-              "id": 2,
-              "str": "\""
-            },
-            {
-              "id": 3,
-              "str": "…"
-            },
-            {
-              "id": 4,
-              "str": "랜섬웨어"
-            }
-          ]
+          "text": "달라\"…랜섬웨어",
+          "head": 3,
+          "label": "NP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "대란"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "대란,",
+          "head": 7,
+          "label": "NP_CNJ"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "韓"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            },
-            {
-              "id": 2,
-              "str": "도"
-            }
-          ]
+          "text": "韓에도",
+          "head": 7,
+          "label": "NP_AJT"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "수백"
-            },
-            {
-              "id": 1,
-              "str": "여"
-            },
-            {
-              "id": 2,
-              "str": "개"
-            }
-          ]
+          "text": "수백여개",
+          "head": 7,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "공격"
-            }
-          ]
+          "text": "공격",
+          "head": 7,
+          "label": "NP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "징후"
-            },
-            {
-              "id": 1,
-              "str": "."
-            }
-          ]
+          "text": "징후.",
+          "head": -1,
+          "label": "NP"
         }
       ]
     },
@@ -130,266 +58,117 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "데이터"
-            }
-          ]
+          "text": "데이터",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "파일"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "파일을",
+          "head": 2,
+          "label": "NP_OBJ"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "암호화하"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "암호화하고",
+          "head": 4,
+          "label": "VP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "몸값"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "몸값을",
+          "head": 4,
+          "label": "NP_OBJ"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "요구하"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "요구하는",
+          "head": 6,
+          "label": "VP_MOD"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "'"
-            },
-            {
-              "id": 1,
-              "str": "워너크라이"
-            }
-          ]
+          "text": "'워너크라이",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "랜섬웨어"
-            },
-            {
-              "id": 1,
-              "str": "("
-            },
-            {
-              "id": 2,
-              "str": "Ransom"
-            },
-            {
-              "id": 3,
-              "str": "."
-            },
-            {
-              "id": 4,
-              "str": "Wannacry"
-            },
-            {
-              "id": 5,
-              "str": ")"
-            },
-            {
-              "id": 6,
-              "str": "'"
-            },
-            {
-              "id": 7,
-              "str": "가"
-            }
-          ]
+          "text": "랜섬웨어(Ransom.Wannacry)'가",
+          "head": 10,
+          "label": "NP_SBJ"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "미국"
-            },
-            {
-              "id": 1,
-              "str": "과"
-            }
-          ]
+          "text": "미국과",
+          "head": 8,
+          "label": "NP_CNJ"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "유럽"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "유럽을",
+          "head": 9,
+          "label": "NP_OBJ"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "중심"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "중심으로",
+          "head": 10,
+          "label": "NP_AJT"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "확산되"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "확산되고",
+          "head": 11,
+          "label": "VP"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "있는",
+          "head": 12,
+          "label": "VP_MOD"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "가운데"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "가운데,",
+          "head": 17,
+          "label": "NP_AJT"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "국내"
-            }
-          ]
+          "text": "국내",
+          "head": 14,
+          "label": "NP"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "기업들"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "기업들의",
+          "head": 16,
+          "label": "NP_MOD"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "피해"
-            }
-          ]
+          "text": "피해",
+          "head": 16,
+          "label": "NP"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "상황"
-            },
-            {
-              "id": 1,
-              "str": "도"
-            }
-          ]
+          "text": "상황도",
+          "head": 17,
+          "label": "NP_SBJ"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "가시화되"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "가시화되고",
+          "head": 18,
+          "label": "VP"
         },
         {
           "id": 18,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "있다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -398,155 +177,75 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "국내"
-            }
-          ]
+          "text": "국내",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "보안"
-            }
-          ]
+          "text": "보안",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "관제업체들"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "관제업체들을",
+          "head": 3,
+          "label": "NP_OBJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "통하"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "통해",
+          "head": 4,
+          "label": "VP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "파악되"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "파악된",
+          "head": 6,
+          "label": "VP_MOD"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "공격"
-            }
-          ]
+          "text": "공격",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "징후"
-            },
-            {
-              "id": 1,
-              "str": "만"
-            }
-          ]
+          "text": "징후만",
+          "head": 9,
+          "label": "NP_SBJ"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "수백"
-            },
-            {
-              "id": 1,
-              "str": "여"
-            }
-          ]
+          "text": "수백여",
+          "head": 8,
+          "label": "NP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "개"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            }
-          ]
+          "text": "개에",
+          "head": 9,
+          "label": "NP_AJT"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "달하"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "달하는",
+          "head": 10,
+          "label": "VP_MOD"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "것"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "것으로",
+          "head": 11,
+          "label": "NP_AJT"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "나타나"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "나타났다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -555,175 +254,75 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "업무"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "업무가",
+          "head": 1,
+          "label": "NP_SBJ"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "개시되"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "개시되는",
+          "head": 3,
+          "label": "VP_MOD"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "오"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "오는",
+          "head": 3,
+          "label": "VP_MOD"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "15"
-            },
-            {
-              "id": 1,
-              "str": "일"
-            },
-            {
-              "id": 2,
-              "str": "을"
-            }
-          ]
+          "text": "15일을",
+          "head": 8,
+          "label": "NP_OBJ"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "기점"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "기점으로",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "공격"
-            }
-          ]
+          "text": "공격",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "징후"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "징후가",
+          "head": 8,
+          "label": "NP_SBJ"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "1000"
-            },
-            {
-              "id": 1,
-              "str": "여"
-            },
-            {
-              "id": 2,
-              "str": "곳"
-            },
-            {
-              "id": 3,
-              "str": "을"
-            }
-          ]
+          "text": "1000여곳을",
+          "head": 8,
+          "label": "NP_OBJ"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "넘"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "넘을",
+          "head": 9,
+          "label": "VP_MOD"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "것"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "라는"
-            }
-          ]
+          "text": "것이라는",
+          "head": 10,
+          "label": "VNP_MOD"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "관측"
-            },
-            {
-              "id": 1,
-              "str": "도"
-            }
-          ]
+          "text": "관측도",
+          "head": 11,
+          "label": "NP_SBJ"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "나오"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "나온다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -732,241 +331,111 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "14"
-            },
-            {
-              "id": 1,
-              "str": "일"
-            }
-          ]
+          "text": "14일",
+          "head": 2,
+          "label": "NP_AJT"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "보안업계"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            }
-          ]
+          "text": "보안업계에",
+          "head": 2,
+          "label": "NP_AJT"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "따르"
-            },
-            {
-              "id": 1,
-              "str": "면"
-            }
-          ]
+          "text": "따르면",
+          "head": 17,
+          "label": "VP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "주말"
-            }
-          ]
+          "text": "주말",
+          "head": 4,
+          "label": "NP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이틀간"
-            }
-          ]
+          "text": "이틀간",
+          "head": 9,
+          "label": "NP_AJT"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "국내"
-            }
-          ]
+          "text": "국내",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "기업들"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "기업들의",
+          "head": 7,
+          "label": "NP_MOD"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "컴퓨터"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "컴퓨터를",
+          "head": 9,
+          "label": "NP_OBJ"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "대상"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "대상으로",
+          "head": 9,
+          "label": "NP_AJT"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "발견되"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "발견된",
+          "head": 10,
+          "label": "VP_MOD"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "'"
-            },
-            {
-              "id": 1,
-              "str": "워너크라"
-            },
-            {
-              "id": 2,
-              "str": "이"
-            }
-          ]
+          "text": "'워너크라이",
+          "head": 11,
+          "label": "NP_SBJ"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "랜섬웨어"
-            },
-            {
-              "id": 1,
-              "str": "'"
-            }
-          ]
+          "text": "랜섬웨어'",
+          "head": 17,
+          "label": "NP"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "공격"
-            }
-          ]
+          "text": "공격",
+          "head": 13,
+          "label": "NP"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "징후"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "징후가",
+          "head": 15,
+          "label": "NP_SBJ"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "수백"
-            },
-            {
-              "id": 1,
-              "str": "여"
-            },
-            {
-              "id": 2,
-              "str": "개"
-            },
-            {
-              "id": 3,
-              "str": "에"
-            }
-          ]
+          "text": "수백여개에",
+          "head": 15,
+          "label": "NP_AJT"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "달하"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "달한",
+          "head": 16,
+          "label": "VP_MOD"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "것"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "것으로",
+          "head": 17,
+          "label": "NP_AJT"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "파악되"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "파악됐다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -975,257 +444,111 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "컴퓨터"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "컴퓨터를",
+          "head": 1,
+          "label": "NP_OBJ"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "사용하"
-            },
-            {
-              "id": 1,
-              "str": "지"
-            }
-          ]
+          "text": "사용하지",
+          "head": 2,
+          "label": "VP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "않"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "않는",
+          "head": 4,
+          "label": "VP_MOD"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "주말"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "주말인",
+          "head": 4,
+          "label": "VNP_MOD"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "탓"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            }
-          ]
+          "text": "탓에",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "구체적"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "구체적인",
+          "head": 7,
+          "label": "VNP_MOD"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "피해"
-            }
-          ]
+          "text": "피해",
+          "head": 7,
+          "label": "NP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "상황"
-            },
-            {
-              "id": 1,
-              "str": "은"
-            }
-          ]
+          "text": "상황은",
+          "head": 8,
+          "label": "NP_SBJ"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "집계되"
-            },
-            {
-              "id": 1,
-              "str": "지"
-            }
-          ]
+          "text": "집계되지",
+          "head": 9,
+          "label": "VP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "않"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "지만"
-            }
-          ]
+          "text": "않았지만",
+          "head": 17,
+          "label": "VP"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "월요일"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "월요일인",
+          "head": 11,
+          "label": "VNP_MOD"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "15"
-            },
-            {
-              "id": 1,
-              "str": "일"
-            },
-            {
-              "id": 2,
-              "str": "부터"
-            }
-          ]
+          "text": "15일부터",
+          "head": 15,
+          "label": "NP_AJT"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "구체적"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "구체적인",
+          "head": 14,
+          "label": "VNP_MOD"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "피해"
-            }
-          ]
+          "text": "피해",
+          "head": 14,
+          "label": "NP"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "사례"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "사례가",
+          "head": 15,
+          "label": "NP_SBJ"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "구체화되"
-            },
-            {
-              "id": 1,
-              "str": "ㄹ"
-            }
-          ]
+          "text": "구체화될",
+          "head": 16,
+          "label": "VP_MOD"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "것"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "것으로",
+          "head": 17,
+          "label": "NP_AJT"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "보이"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "보인다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -1234,500 +557,225 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "관제"
-            }
-          ]
+          "text": "관제",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "보안업체"
-            }
-          ]
+          "text": "보안업체",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "A"
-            },
-            {
-              "id": 1,
-              "str": "사"
-            }
-          ]
+          "text": "A사",
+          "head": 3,
+          "label": "NP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "관계자"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "관계자는",
+          "head": 35,
+          "label": "NP_SBJ"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "\""
-            },
-            {
-              "id": 1,
-              "str": "월요일"
-            }
-          ]
+          "text": "\"월요일",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "피해"
-            }
-          ]
+          "text": "피해",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "상황"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "상황을",
+          "head": 7,
+          "label": "NP_OBJ"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "봐야"
-            },
-            {
-              "id": 1,
-              "str": "겠"
-            },
-            {
-              "id": 2,
-              "str": "지만"
-            },
-            {
-              "id": 3,
-              "str": ","
-            }
-          ]
+          "text": "봐야겠지만,",
+          "head": 12,
+          "label": "VP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이미"
-            }
-          ]
+          "text": "이미",
+          "head": 12,
+          "label": "AP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "공격"
-            }
-          ]
+          "text": "공격",
+          "head": 10,
+          "label": "NP"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "징후"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "징후가",
+          "head": 12,
+          "label": "NP_SBJ"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "수백"
-            },
-            {
-              "id": 1,
-              "str": "여"
-            },
-            {
-              "id": 2,
-              "str": "개"
-            },
-            {
-              "id": 3,
-              "str": "에"
-            }
-          ]
+          "text": "수백여개에",
+          "head": 12,
+          "label": "NP_AJT"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "달하"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "달하고",
+          "head": 20,
+          "label": "VP"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "현재"
-            },
-            {
-              "id": 1,
-              "str": "도"
-            }
-          ]
+          "text": "현재도",
+          "head": 20,
+          "label": "NP_AJT"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "파악"
-            }
-          ]
+          "text": "파악",
+          "head": 15,
+          "label": "NP"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "중"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "중인",
+          "head": 16,
+          "label": "VNP_MOD"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "만큼"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "만큼,",
+          "head": 20,
+          "label": "NP_AJT"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "1000"
-            },
-            {
-              "id": 1,
-              "str": "여"
-            },
-            {
-              "id": 2,
-              "str": "개"
-            },
-            {
-              "id": 3,
-              "str": "가"
-            }
-          ]
+          "text": "1000여개가",
+          "head": 18,
+          "label": "NP_SBJ"
         },
         {
           "id": 18,
-          "morps": [
-            {
-              "id": 0,
-              "str": "넘"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "넘을",
+          "head": 19,
+          "label": "VP_MOD"
         },
         {
           "id": 19,
-          "morps": [
-            {
-              "id": 0,
-              "str": "수"
-            },
-            {
-              "id": 1,
-              "str": "도"
-            }
-          ]
+          "text": "수도",
+          "head": 20,
+          "label": "NP_SBJ"
         },
         {
           "id": 20,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "다"
-            },
-            {
-              "id": 2,
-              "str": "\""
-            },
-            {
-              "id": 3,
-              "str": "며"
-            }
-          ]
+          "text": "있다\"며",
+          "head": 35,
+          "label": "VP"
         },
         {
           "id": 21,
-          "morps": [
-            {
-              "id": 0,
-              "str": "\""
-            },
-            {
-              "id": 1,
-              "str": "컴퓨터"
-            }
-          ]
+          "text": "\"컴퓨터",
+          "head": 22,
+          "label": "NP"
         },
         {
           "id": 22,
-          "morps": [
-            {
-              "id": 0,
-              "str": "외"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            },
-            {
-              "id": 2,
-              "str": "도"
-            }
-          ]
+          "text": "외에도",
+          "head": 23,
+          "label": "NP_AJT"
         },
         {
           "id": 23,
-          "morps": [
-            {
-              "id": 0,
-              "str": "같"
-            },
-            {
-              "id": 1,
-              "str": "은"
-            }
-          ]
+          "text": "같은",
+          "head": 25,
+          "label": "VP_MOD"
         },
         {
           "id": 24,
-          "morps": [
-            {
-              "id": 0,
-              "str": "윈도우"
-            }
-          ]
+          "text": "윈도우",
+          "head": 25,
+          "label": "NP"
         },
         {
           "id": 25,
-          "morps": [
-            {
-              "id": 0,
-              "str": "OS"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "OS를",
+          "head": 26,
+          "label": "NP_OBJ"
         },
         {
           "id": 26,
-          "morps": [
-            {
-              "id": 0,
-              "str": "공유하"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "공유하는",
+          "head": 30,
+          "label": "VP_MOD"
         },
         {
           "id": 27,
-          "morps": [
-            {
-              "id": 0,
-              "str": "은행"
-            }
-          ]
+          "text": "은행",
+          "head": 28,
+          "label": "NP"
         },
         {
           "id": 28,
-          "morps": [
-            {
-              "id": 0,
-              "str": "ATM"
-            },
-            {
-              "id": 1,
-              "str": "과"
-            }
-          ]
+          "text": "ATM과",
+          "head": 30,
+          "label": "NP_CNJ"
         },
         {
           "id": 29,
-          "morps": [
-            {
-              "id": 0,
-              "str": "프랜차이즈"
-            }
-          ]
+          "text": "프랜차이즈",
+          "head": 30,
+          "label": "NP"
         },
         {
           "id": 30,
-          "morps": [
-            {
-              "id": 0,
-              "str": "POS"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            },
-            {
-              "id": 2,
-              "str": "도"
-            }
-          ]
+          "text": "POS에도",
+          "head": 32,
+          "label": "NP_AJT"
         },
         {
           "id": 31,
-          "morps": [
-            {
-              "id": 0,
-              "str": "영향"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "영향을",
+          "head": 32,
+          "label": "NP_OBJ"
         },
         {
           "id": 32,
-          "morps": [
-            {
-              "id": 0,
-              "str": "미치"
-            },
-            {
-              "id": 1,
-              "str": "ㄹ"
-            }
-          ]
+          "text": "미칠",
+          "head": 33,
+          "label": "VP_MOD"
         },
         {
           "id": 33,
-          "morps": [
-            {
-              "id": 0,
-              "str": "수"
-            }
-          ]
+          "text": "수",
+          "head": 34,
+          "label": "NP_SBJ"
         },
         {
           "id": 34,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "있을",
+          "head": 35,
+          "label": "VP_MOD"
         },
         {
           "id": 35,
-          "morps": [
-            {
-              "id": 0,
-              "str": "것"
-            },
-            {
-              "id": 1,
-              "str": "\""
-            },
-            {
-              "id": 2,
-              "str": "이라고"
-            }
-          ]
+          "text": "것\"이라고",
+          "head": 36,
+          "label": "VNP_CMP"
         },
         {
           "id": 36,
-          "morps": [
-            {
-              "id": 0,
-              "str": "우려하"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "우려했다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -1736,327 +784,147 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "현재"
-            }
-          ]
+          "text": "현재",
+          "head": 8,
+          "label": "AP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "'"
-            },
-            {
-              "id": 1,
-              "str": "워너크라이"
-            }
-          ]
+          "text": "'워너크라이",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "랜섬웨어"
-            },
-            {
-              "id": 1,
-              "str": "'"
-            },
-            {
-              "id": 2,
-              "str": "를"
-            }
-          ]
+          "text": "랜섬웨어'를",
+          "head": 3,
+          "label": "NP_OBJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "심"
-            },
-            {
-              "id": 1,
-              "str": "은"
-            }
-          ]
+          "text": "심은",
+          "head": 4,
+          "label": "VP_MOD"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "해커들"
-            },
-            {
-              "id": 1,
-              "str": "은"
-            }
-          ]
+          "text": "해커들은",
+          "head": 8,
+          "label": "NP_SBJ"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "피해자"
-            },
-            {
-              "id": 1,
-              "str": "에게"
-            }
-          ]
+          "text": "피해자에게",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "300"
-            },
-            {
-              "id": 1,
-              "str": "달러"
-            },
-            {
-              "id": 2,
-              "str": "를"
-            }
-          ]
+          "text": "300달러를",
+          "head": 8,
+          "label": "NP_OBJ"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "비트코인"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "비트코인으로",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "요구하"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "요구하고",
+          "head": 9,
+          "label": "VP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "있고",
+          "head": 12,
+          "label": "VP"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "3"
-            },
-            {
-              "id": 1,
-              "str": "일"
-            }
-          ]
+          "text": "3일",
+          "head": 11,
+          "label": "NP"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "내"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            }
-          ]
+          "text": "내에",
+          "head": 12,
+          "label": "NP_AJT"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "지불하"
-            },
-            {
-              "id": 1,
-              "str": "지"
-            }
-          ]
+          "text": "지불하지",
+          "head": 13,
+          "label": "VP"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "않"
-            },
-            {
-              "id": 1,
-              "str": "으면"
-            }
-          ]
+          "text": "않으면",
+          "head": 14,
+          "label": "VP"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "2"
-            },
-            {
-              "id": 1,
-              "str": "배"
-            },
-            {
-              "id": 2,
-              "str": ","
-            }
-          ]
+          "text": "2배,",
+          "head": 17,
+          "label": "NP"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "7"
-            },
-            {
-              "id": 1,
-              "str": "일"
-            }
-          ]
+          "text": "7일",
+          "head": 16,
+          "label": "NP"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "내"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            }
-          ]
+          "text": "내에",
+          "head": 17,
+          "label": "NP_AJT"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "지불하"
-            },
-            {
-              "id": 1,
-              "str": "지"
-            }
-          ]
+          "text": "지불하지",
+          "head": 18,
+          "label": "VP"
         },
         {
           "id": 18,
-          "morps": [
-            {
-              "id": 0,
-              "str": "않"
-            },
-            {
-              "id": 1,
-              "str": "으면"
-            }
-          ]
+          "text": "않으면",
+          "head": 21,
+          "label": "VP"
         },
         {
           "id": 19,
-          "morps": [
-            {
-              "id": 0,
-              "str": "암호화"
-            }
-          ]
+          "text": "암호화",
+          "head": 20,
+          "label": "NP"
         },
         {
           "id": 20,
-          "morps": [
-            {
-              "id": 0,
-              "str": "파일"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "파일을",
+          "head": 21,
+          "label": "NP_OBJ"
         },
         {
           "id": 21,
-          "morps": [
-            {
-              "id": 0,
-              "str": "삭제하"
-            },
-            {
-              "id": 1,
-              "str": "겠"
-            },
-            {
-              "id": 2,
-              "str": "다고"
-            }
-          ]
+          "text": "삭제하겠다고",
+          "head": 22,
+          "label": "VP_CMP"
         },
         {
           "id": 22,
-          "morps": [
-            {
-              "id": 0,
-              "str": "경고하"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "경고하고",
+          "head": 23,
+          "label": "VP"
         },
         {
           "id": 23,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "있다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -2065,146 +933,69 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "기업"
-            }
-          ]
+          "text": "기업",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "입장"
-            },
-            {
-              "id": 1,
-              "str": "에서"
-            },
-            {
-              "id": 2,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "입장에선",
+          "head": 10,
+          "label": "NP_AJT"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "소액"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "소액인",
+          "head": 3,
+          "label": "VNP_MOD"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "만큼"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "만큼,",
+          "head": 10,
+          "label": "NP_AJT"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "신고"
-            }
-          ]
+          "text": "신고",
+          "head": 5,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "대신"
-            }
-          ]
+          "text": "대신",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "금액"
-            }
-          ]
+          "text": "금액",
+          "head": 7,
+          "label": "NP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "지불"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "지불을",
+          "head": 8,
+          "label": "NP_OBJ"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "통하"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "통해",
+          "head": 9,
+          "label": "VP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "해결하"
-            },
-            {
-              "id": 1,
-              "str": "라는"
-            }
-          ]
+          "text": "해결하라는",
+          "head": 10,
+          "label": "VP_MOD"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "의미"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "의미다.",
+          "head": -1,
+          "label": "VNP"
         }
       ]
     },
@@ -2213,136 +1004,57 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "특히"
-            }
-          ]
+          "text": "특히",
+          "head": 3,
+          "label": "AP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이번"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            },
-            {
-              "id": 2,
-              "str": "는"
-            }
-          ]
+          "text": "이번에는",
+          "head": 3,
+          "label": "NP_AJT"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "인터넷"
-            },
-            {
-              "id": 1,
-              "str": "만"
-            }
-          ]
+          "text": "인터넷만",
+          "head": 3,
+          "label": "NP_OBJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "연결되"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            },
-            {
-              "id": 2,
-              "str": "있"
-            },
-            {
-              "id": 3,
-              "str": "으면"
-            }
-          ]
+          "text": "연결돼있으면",
+          "head": 5,
+          "label": "VP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "자동"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "자동으로",
+          "head": 5,
+          "label": "NP_AJT"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "감염시키"
-            },
-            {
-              "id": 1,
-              "str": "어서"
-            }
-          ]
+          "text": "감염시켜서",
+          "head": 8,
+          "label": "VP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "'"
-            },
-            {
-              "id": 1,
-              "str": "변종"
-            },
-            {
-              "id": 2,
-              "str": "'"
-            }
-          ]
+          "text": "'변종'",
+          "head": 7,
+          "label": "NP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "랜섬웨어"
-            },
-            {
-              "id": 1,
-              "str": "로"
-            }
-          ]
+          "text": "랜섬웨어로",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "불리"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "불린다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -2351,182 +1063,93 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "사용자"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "사용자의",
+          "head": 1,
+          "label": "NP_MOD"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "활동"
-            },
-            {
-              "id": 1,
-              "str": "과"
-            }
-          ]
+          "text": "활동과",
+          "head": 3,
+          "label": "NP_AJT"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "관계"
-            }
-          ]
+          "text": "관계",
+          "head": 3,
+          "label": "NP_SBJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "없이"
-            }
-          ]
+          "text": "없이",
+          "head": 8,
+          "label": "AP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "기업"
-            }
-          ]
+          "text": "기업",
+          "head": 5,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "네트워크"
-            }
-          ]
+          "text": "네트워크",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "내"
-            },
-            {
-              "id": 1,
-              "str": "에서"
-            }
-          ]
+          "text": "내에서",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "스스로"
-            }
-          ]
+          "text": "스스로",
+          "head": 8,
+          "label": "AP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "확산되"
-            },
-            {
-              "id": 1,
-              "str": "ㄹ"
-            }
-          ]
+          "text": "확산될",
+          "head": 9,
+          "label": "VP_MOD"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "수"
-            }
-          ]
+          "text": "수",
+          "head": 10,
+          "label": "NP_SBJ"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "있는",
+          "head": 11,
+          "label": "VP_MOD"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "능력"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "능력을",
+          "head": 12,
+          "label": "NP_OBJ"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "가지"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "가지고",
+          "head": 13,
+          "label": "VP"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "다는"
-            }
-          ]
+          "text": "있다는",
+          "head": 14,
+          "label": "VP_MOD"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "말"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "말이다.",
+          "head": -1,
+          "label": "VNP"
         }
       ]
     },
@@ -2535,162 +1158,69 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이"
-            },
-            {
-              "id": 1,
-              "str": "에따"
-            },
-            {
-              "id": 2,
-              "str": "르"
-            },
-            {
-              "id": 3,
-              "str": "어"
-            }
-          ]
+          "text": "이에따라",
+          "head": 6,
+          "label": "VP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "인터넷"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            }
-          ]
+          "text": "인터넷에",
+          "head": 2,
+          "label": "NP_AJT"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "연결되"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "연결된",
+          "head": 4,
+          "label": "VP_MOD"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "기업용"
-            }
-          ]
+          "text": "기업용",
+          "head": 4,
+          "label": "NP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "컴퓨터"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "컴퓨터를",
+          "head": 5,
+          "label": "NP_OBJ"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "중심"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "중심으로",
+          "head": 6,
+          "label": "NP_AJT"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "피하"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "피해",
+          "head": 8,
+          "label": "VP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "확산"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            }
-          ]
+          "text": "확산이",
+          "head": 8,
+          "label": "NP_SBJ"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "불가피하"
-            },
-            {
-              "id": 1,
-              "str": "ㄹ"
-            }
-          ]
+          "text": "불가피할",
+          "head": 9,
+          "label": "VP_MOD"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "것"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "라는"
-            }
-          ]
+          "text": "것이라는",
+          "head": 10,
+          "label": "VNP_MOD"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "전망"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "전망이다.",
+          "head": -1,
+          "label": "VNP"
         }
       ]
     },
@@ -2699,260 +1229,129 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "보안업계"
-            },
-            {
-              "id": 1,
-              "str": "에서"
-            },
-            {
-              "id": 2,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "보안업계에선",
+          "head": 6,
+          "label": "NP_AJT"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "윈도"
-            }
-          ]
+          "text": "윈도",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "보안"
-            }
-          ]
+          "text": "보안",
+          "head": 3,
+          "label": "NP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "업데이트"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "업데이트가",
+          "head": 6,
+          "label": "NP_SBJ"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "최신"
-            }
-          ]
+          "text": "최신",
+          "head": 5,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "상태"
-            },
-            {
-              "id": 1,
-              "str": "로"
-            }
-          ]
+          "text": "상태로",
+          "head": 6,
+          "label": "NP_AJT"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "적용되"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "적용돼",
+          "head": 7,
+          "label": "VP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "지"
-            }
-          ]
+          "text": "있지",
+          "head": 8,
+          "label": "VP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "않"
-            },
-            {
-              "id": 1,
-              "str": "은"
-            }
-          ]
+          "text": "않은",
+          "head": 9,
+          "label": "VP_MOD"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "컴퓨터"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "컴퓨터는",
+          "head": 19,
+          "label": "NP_SBJ"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "감염"
-            }
-          ]
+          "text": "감염",
+          "head": 11,
+          "label": "NP"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "위험"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            }
-          ]
+          "text": "위험이",
+          "head": 12,
+          "label": "NP_SBJ"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "기"
-            }
-          ]
+          "text": "있기",
+          "head": 13,
+          "label": "VP"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "때문"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            }
-          ]
+          "text": "때문에",
+          "head": 19,
+          "label": "NP_AJT"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "당장"
-            }
-          ]
+          "text": "당장",
+          "head": 19,
+          "label": "NP_AJT"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "업데이트"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "업데이트를",
+          "head": 17,
+          "label": "NP_OBJ"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "다운로드"
-            }
-          ]
+          "text": "다운로드",
+          "head": 17,
+          "label": "NP_OBJ"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "받"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "받는",
+          "head": 18,
+          "label": "VP_MOD"
         },
         {
           "id": 18,
-          "morps": [
-            {
-              "id": 0,
-              "str": "것"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            }
-          ]
+          "text": "것이",
+          "head": 19,
+          "label": "NP_SBJ"
         },
         {
           "id": 19,
-          "morps": [
-            {
-              "id": 0,
-              "str": "필요하"
-            },
-            {
-              "id": 1,
-              "str": "다고"
-            }
-          ]
+          "text": "필요하다고",
+          "head": 20,
+          "label": "VP_CMP"
         },
         {
           "id": 20,
-          "morps": [
-            {
-              "id": 0,
-              "str": "조언하"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "조언한다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -2961,162 +1360,69 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "또"
-            }
-          ]
+          "text": "또",
+          "head": 6,
+          "label": "AP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "랜섬웨어"
-            }
-          ]
+          "text": "랜섬웨어",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "공격"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "공격을",
+          "head": 3,
+          "label": "NP_OBJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "발견하"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "을"
-            }
-          ]
+          "text": "발견했을",
+          "head": 4,
+          "label": "VP_MOD"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "시"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "시,",
+          "head": 6,
+          "label": "NP_AJT"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "한국인터넷진흥원"
-            },
-            {
-              "id": 1,
-              "str": "("
-            },
-            {
-              "id": 2,
-              "str": "KISA"
-            },
-            {
-              "id": 3,
-              "str": ")"
-            },
-            {
-              "id": 4,
-              "str": "에"
-            }
-          ]
+          "text": "한국인터넷진흥원(KISA)에",
+          "head": 6,
+          "label": "NP_AJT"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "신고하"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "신고하고",
+          "head": 9,
+          "label": "VP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "기술적"
-            }
-          ]
+          "text": "기술적",
+          "head": 8,
+          "label": "NP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "지원"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "지원을",
+          "head": 9,
+          "label": "NP_OBJ"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "받"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "받아",
+          "head": 10,
+          "label": "VP"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "복구하"
-            },
-            {
-              "id": 1,
-              "str": "어야"
-            },
-            {
-              "id": 2,
-              "str": "하"
-            },
-            {
-              "id": 3,
-              "str": "ㄴ다"
-            },
-            {
-              "id": 4,
-              "str": "."
-            }
-          ]
+          "text": "복구해야한다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     }

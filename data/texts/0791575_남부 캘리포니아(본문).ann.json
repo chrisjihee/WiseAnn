@@ -5,21 +5,15 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "남부"
-            }
-          ]
+          "text": "남부",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "캘리포니아"
-            }
-          ]
+          "text": "캘리포니아",
+          "head": -1,
+          "label": "NP"
         }
       ]
     },
@@ -28,159 +22,75 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "남부"
-            }
-          ]
+          "text": "남부",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "캘리포니아"
-            }
-          ]
+          "text": "캘리포니아",
+          "head": 3,
+          "label": "NP_SBJ"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "또는"
-            }
-          ]
+          "text": "또는",
+          "head": 3,
+          "label": "AP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "서"
-            },
-            {
-              "id": 1,
-              "str": "던"
-            }
-          ]
+          "text": "서던",
+          "head": 6,
+          "label": "VP_MOD"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "캘리포니아"
-            },
-            {
-              "id": 1,
-              "str": "("
-            },
-            {
-              "id": 2,
-              "str": "Southern"
-            }
-          ]
+          "text": "캘리포니아(Southern",
+          "head": 5,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "California"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "California,",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "SoCal"
-            },
-            {
-              "id": 1,
-              "str": ")"
-            },
-            {
-              "id": 2,
-              "str": "는"
-            }
-          ]
+          "text": "SoCal)는",
+          "head": 11,
+          "label": "NP_SBJ"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "미국"
-            }
-          ]
+          "text": "미국",
+          "head": 8,
+          "label": "NP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "캘리포니아"
-            }
-          ]
+          "text": "캘리포니아",
+          "head": 9,
+          "label": "NP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "주의"
-            }
-          ]
+          "text": "주의",
+          "head": 10,
+          "label": "NP"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "남부"
-            },
-            {
-              "id": 1,
-              "str": "("
-            },
-            {
-              "id": 2,
-              "str": "南部"
-            },
-            {
-              "id": 3,
-              "str": ")"
-            },
-            {
-              "id": 4,
-              "str": "를"
-            }
-          ]
+          "text": "남부(南部)를",
+          "head": 11,
+          "label": "NP_OBJ"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "말하"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "말한다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -189,75 +99,27 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "한자"
-            },
-            {
-              "id": 1,
-              "str": "로"
-            }
-          ]
+          "text": "한자로",
+          "head": 1,
+          "label": "NP_AJT"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "음역하"
-            },
-            {
-              "id": 1,
-              "str": "어서"
-            }
-          ]
+          "text": "음역해서",
+          "head": 2,
+          "label": "VP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "남가주"
-            },
-            {
-              "id": 1,
-              "str": "("
-            },
-            {
-              "id": 2,
-              "str": "南加州"
-            },
-            {
-              "id": 3,
-              "str": ")"
-            },
-            {
-              "id": 4,
-              "str": "라고"
-            },
-            {
-              "id": 5,
-              "str": "도"
-            }
-          ]
+          "text": "남가주(南加州)라고도",
+          "head": 3,
+          "label": "VNP_CMP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "하"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "한다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -266,112 +128,57 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이"
-            }
-          ]
+          "text": "이",
+          "head": 1,
+          "label": "DP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "지역"
-            },
-            {
-              "id": 1,
-              "str": "은"
-            }
-          ]
+          "text": "지역은",
+          "head": 7,
+          "label": "NP_SBJ"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "로스앤젤레스"
-            }
-          ]
+          "text": "로스앤젤레스",
+          "head": 3,
+          "label": "NP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "대도시권"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "대도시권,",
+          "head": 6,
+          "label": "NP_CNJ"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "샌디에이고"
-            }
-          ]
+          "text": "샌디에이고",
+          "head": 5,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "대도시권"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "대도시권,",
+          "head": 6,
+          "label": "NP_CNJ"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "인랜드엠파이어"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "인랜드엠파이어가",
+          "head": 7,
+          "label": "NP_SBJ"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "포함되"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "포함되어",
+          "head": 8,
+          "label": "VP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "있다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -380,212 +187,105 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "도시"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "도시의",
+          "head": 1,
+          "label": "NP_MOD"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "범위"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "범위는",
+          "head": 8,
+          "label": "NP_SBJ"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "태평양"
-            }
-          ]
+          "text": "태평양",
+          "head": 3,
+          "label": "NP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "연안"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "연안의",
+          "head": 4,
+          "label": "NP_MOD"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "벤투라"
-            },
-            {
-              "id": 1,
-              "str": "에서"
-            }
-          ]
+          "text": "벤투라에서",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "로스앤젤레스"
-            }
-          ]
+          "text": "로스앤젤레스",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "대도시권"
-            },
-            {
-              "id": 1,
-              "str": "과"
-            }
-          ]
+          "text": "대도시권과",
+          "head": 7,
+          "label": "NP_CNJ"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "인렌드엠파이어"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "인렌드엠파이어를",
+          "head": 8,
+          "label": "NP_OBJ"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "거치"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "거쳐",
+          "head": 13,
+          "label": "VP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "샌디에고"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "샌디에고,",
+          "head": 12,
+          "label": "NP_CNJ"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "그리고"
-            }
-          ]
+          "text": "그리고",
+          "head": 12,
+          "label": "AP"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "멕시코"
-            }
-          ]
+          "text": "멕시코",
+          "head": 12,
+          "label": "NP"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "국경"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "국경을",
+          "head": 13,
+          "label": "NP_OBJ"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "넘"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "넘어",
+          "head": 15,
+          "label": "VP"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "티후아나"
-            },
-            {
-              "id": 1,
-              "str": "까지"
-            }
-          ]
+          "text": "티후아나까지",
+          "head": 15,
+          "label": "NP_AJT"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "확대되"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "확대되어",
+          "head": 16,
+          "label": "VP"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "있다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -594,209 +294,111 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이"
-            }
-          ]
+          "text": "이",
+          "head": 1,
+          "label": "DP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "지역"
-            }
-          ]
+          "text": "지역",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "대도시권"
-            },
-            {
-              "id": 1,
-              "str": "은"
-            }
-          ]
+          "text": "대도시권은",
+          "head": 9,
+          "label": "NP_SBJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "샌프란시스코"
-            }
-          ]
+          "text": "샌프란시스코",
+          "head": 4,
+          "label": "NP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "베이"
-            }
-          ]
+          "text": "베이",
+          "head": 5,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "에어리어"
-            },
-            {
-              "id": 1,
-              "str": "와"
-            }
-          ]
+          "text": "에어리어와",
+          "head": 6,
+          "label": "NP_AJT"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "함께"
-            }
-          ]
+          "text": "함께",
+          "head": 9,
+          "label": "AP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "캘리포니아"
-            }
-          ]
+          "text": "캘리포니아",
+          "head": 8,
+          "label": "NP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "뿐"
-            },
-            {
-              "id": 1,
-              "str": "만"
-            }
-          ]
+          "text": "뿐만",
+          "head": 9,
+          "label": "NP_CMP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "아니"
-            },
-            {
-              "id": 1,
-              "str": "라"
-            }
-          ]
+          "text": "아니라",
+          "head": 16,
+          "label": "VP"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "미국"
-            }
-          ]
+          "text": "미국",
+          "head": 11,
+          "label": "NP"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "국내"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "국내의",
+          "head": 14,
+          "label": "NP_MOD"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "주요"
-            }
-          ]
+          "text": "주요",
+          "head": 13,
+          "label": "NP"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "문화"
-            },
-            {
-              "id": 1,
-              "str": "와"
-            }
-          ]
+          "text": "문화와",
+          "head": 14,
+          "label": "NP_CNJ"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "경제"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "경제의",
+          "head": 15,
+          "label": "NP_MOD"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "중심"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            }
-          ]
+          "text": "중심이",
+          "head": 16,
+          "label": "NP_CMP"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "되"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "되고",
+          "head": 17,
+          "label": "VP"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "있다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -805,158 +407,69 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "남부"
-            }
-          ]
+          "text": "남부",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "캘리포니아"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "캘리포니아의",
+          "head": 2,
+          "label": "NP_MOD"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "서쪽"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            },
-            {
-              "id": 2,
-              "str": "는"
-            }
-          ]
+          "text": "서쪽에는",
+          "head": 6,
+          "label": "NP_AJT"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "태평양"
-            },
-            {
-              "id": 1,
-              "str": "과"
-            }
-          ]
+          "text": "태평양과",
+          "head": 5,
+          "label": "NP_CNJ"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "채널"
-            }
-          ]
+          "text": "채널",
+          "head": 5,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "제도"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "제도가",
+          "head": 6,
+          "label": "NP_SBJ"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "으며"
-            },
-            {
-              "id": 2,
-              "str": ","
-            }
-          ]
+          "text": "있으며,",
+          "head": 10,
+          "label": "VP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "남쪽"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            },
-            {
-              "id": 2,
-              "str": "는"
-            }
-          ]
+          "text": "남쪽에는",
+          "head": 10,
+          "label": "NP_AJT"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "미국"
-            },
-            {
-              "id": 1,
-              "str": "-"
-            },
-            {
-              "id": 2,
-              "str": "멕시코"
-            }
-          ]
+          "text": "미국-멕시코",
+          "head": 9,
+          "label": "NP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "국경"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            }
-          ]
+          "text": "국경이",
+          "head": 10,
+          "label": "NP_SBJ"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "있다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -965,142 +478,69 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "동쪽"
-            },
-            {
-              "id": 1,
-              "str": "은"
-            }
-          ]
+          "text": "동쪽은",
+          "head": 10,
+          "label": "NP_SBJ"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "콜로라도"
-            }
-          ]
+          "text": "콜로라도",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "사막"
-            },
-            {
-              "id": 1,
-              "str": "과"
-            }
-          ]
+          "text": "사막과",
+          "head": 6,
+          "label": "NP_CNJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "콜로라도"
-            }
-          ]
+          "text": "콜로라도",
+          "head": 4,
+          "label": "NP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "강이"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "강이,",
+          "head": 6,
+          "label": "NP_CNJ"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "네바다"
-            }
-          ]
+          "text": "네바다",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "주"
-            },
-            {
-              "id": 1,
-              "str": "와"
-            },
-            {
-              "id": 2,
-              "str": "의"
-            }
-          ]
+          "text": "주와의",
+          "head": 7,
+          "label": "NP_MOD"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "경계"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            },
-            {
-              "id": 2,
-              "str": "는"
-            }
-          ]
+          "text": "경계에는",
+          "head": 10,
+          "label": "NP_AJT"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "모하비"
-            }
-          ]
+          "text": "모하비",
+          "head": 9,
+          "label": "NP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "사막"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            }
-          ]
+          "text": "사막이",
+          "head": 10,
+          "label": "NP_SBJ"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "다"
-            },
-            {
-              "id": 2,
-              "str": "."
-            }
-          ]
+          "text": "있다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     }

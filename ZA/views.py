@@ -101,6 +101,14 @@ def read_text(textname, dirname=os.path.join(BASE_DIR, "data/texts")):
         if os.path.isfile(filename):
             data = open(filename).read()
             text = json.loads(data)
+            for sent in text["sents"]:
+                for word in sent["words"]:
+                    if word["label"].startswith("N"):
+                        word["label_color"] = "darkgreen"
+                    elif word["label"].startswith("V"):
+                        word["label_color"] = "darkblue"
+                    else:
+                        word["label_color"] = "gray"
             return text
     return None
 

@@ -898,7 +898,7 @@ $.fn.position = function( options ) {
 	// Clone to reuse original targetOffset later
 	basePosition = $.extend( {}, targetOffset );
 
-	// Force my and at to have valid horizontal and vertical positions
+	// Force m1y and at to have valid horizontal and vertical positions
 	// if a value is missing or invalid, it will be converted to center
 	$.each( [ "my", "at" ], function() {
 		var pos = ( options[ this ] || "" ).split( " " ),
@@ -963,17 +963,17 @@ $.fn.position = function( options ) {
 			collisionHeight = elemHeight + marginTop + parseCss( this, "marginBottom" ) +
 				scrollInfo.height,
 			position = $.extend( {}, basePosition ),
-			myOffset = getOffsets( offsets.my, elem.outerWidth(), elem.outerHeight() );
+			myOffset = getOffsets( offsets.m1y, elem.outerWidth(), elem.outerHeight() );
 
-		if ( options.my[ 0 ] === "right" ) {
+		if ( options.m1y[ 0 ] === "right" ) {
 			position.left -= elemWidth;
-		} else if ( options.my[ 0 ] === "center" ) {
+		} else if ( options.m1y[ 0 ] === "center" ) {
 			position.left -= elemWidth / 2;
 		}
 
-		if ( options.my[ 1 ] === "bottom" ) {
+		if ( options.m1y[ 1 ] === "bottom" ) {
 			position.top -= elemHeight;
-		} else if ( options.my[ 1 ] === "center" ) {
+		} else if ( options.m1y[ 1 ] === "center" ) {
 			position.top -= elemHeight / 2;
 		}
 
@@ -996,7 +996,7 @@ $.fn.position = function( options ) {
 					collisionWidth: collisionWidth,
 					collisionHeight: collisionHeight,
 					offset: [ atOffset[ 0 ] + myOffset[ 0 ], atOffset [ 1 ] + myOffset[ 1 ] ],
-					my: options.my,
+					m1y: options.m1y,
 					at: options.at,
 					within: within,
 					elem: elem
@@ -1149,9 +1149,9 @@ $.ui.position = {
 				collisionPosLeft = position.left - data.collisionPosition.marginLeft,
 				overLeft = collisionPosLeft - offsetLeft,
 				overRight = collisionPosLeft + data.collisionWidth - outerWidth - offsetLeft,
-				myOffset = data.my[ 0 ] === "left" ?
+				myOffset = data.m1y[ 0 ] === "left" ?
 					-data.elemWidth :
-					data.my[ 0 ] === "right" ?
+					data.m1y[ 0 ] === "right" ?
 						data.elemWidth :
 						0,
 				atOffset = data.at[ 0 ] === "left" ?
@@ -1185,10 +1185,10 @@ $.ui.position = {
 				collisionPosTop = position.top - data.collisionPosition.marginTop,
 				overTop = collisionPosTop - offsetTop,
 				overBottom = collisionPosTop + data.collisionHeight - outerHeight - offsetTop,
-				top = data.my[ 1 ] === "top",
+				top = data.m1y[ 1 ] === "top",
 				myOffset = top ?
 					-data.elemHeight :
-					data.my[ 1 ] === "bottom" ?
+					data.m1y[ 1 ] === "bottom" ?
 						data.elemHeight :
 						0,
 				atOffset = data.at[ 1 ] === "top" ?
@@ -7364,7 +7364,7 @@ var widgetsMenu = $.widget( "ui.menu", {
 		items: "> *",
 		menus: "ul",
 		position: {
-			my: "left top",
+			m1y: "left top",
 			at: "right top"
 		},
 		role: "menu",
@@ -8017,7 +8017,7 @@ $.widget( "ui.autocomplete", {
 		delay: 300,
 		minLength: 1,
 		position: {
-			my: "left top",
+			m1y: "left top",
 			at: "left bottom",
 			collision: "none"
 		},
@@ -11720,7 +11720,7 @@ $.widget( "ui.dialog", {
 		minWidth: 150,
 		modal: false,
 		position: {
-			my: "center",
+			m1y: "center",
 			at: "center",
 			of: window,
 			collision: "fit",
@@ -12213,7 +12213,7 @@ $.widget( "ui.dialog", {
 					top = ui.offset.top - that.document.scrollTop();
 
 				options.position = {
-					my: "left top",
+					m1y: "left top",
 					at: "left" + ( left >= 0 ? "+" : "" ) + left + " " +
 						"top" + ( top >= 0 ? "+" : "" ) + top,
 					of: that.window
@@ -12271,7 +12271,7 @@ $.widget( "ui.dialog", {
 				options.height = that.uiDialog.height();
 				options.width = that.uiDialog.width();
 				options.position = {
-					my: "left top",
+					m1y: "left top",
 					at: "left" + ( left >= 0 ? "+" : "" ) + left + " " +
 						"top" + ( top >= 0 ? "+" : "" ) + top,
 					of: that.window
@@ -12794,7 +12794,7 @@ var widgetsSelectmenu = $.widget( "ui.selectmenu", [ $.ui.formResetMixin, {
 			button: "ui-icon-triangle-1-s"
 		},
 		position: {
-			my: "left top",
+			m1y: "left top",
 			at: "left bottom",
 			collision: "none"
 		},
@@ -15664,7 +15664,7 @@ $.widget( "ui.tooltip", {
 		// Disabled elements have inconsistent behavior across browsers (#8661)
 		items: "[title]:not([disabled])",
 		position: {
-			my: "left top+15",
+			m1y: "left top+15",
 			at: "left bottom",
 			collision: "flipfit flip"
 		},

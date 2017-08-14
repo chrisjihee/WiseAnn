@@ -5,21 +5,15 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "슈퍼볼"
-            }
-          ]
+          "text": "슈퍼볼",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "50"
-            }
-          ]
+          "text": "50",
+          "head": -1,
+          "label": "NP"
         }
       ]
     },
@@ -28,292 +22,153 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "슈퍼볼"
-            },
-            {
-              "id": 1,
-              "str": "50"
-            },
-            {
-              "id": 2,
-              "str": "은"
-            }
-          ]
+          "text": "슈퍼볼50은",
+          "head": 24,
+          "label": "NP_SBJ"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "2016"
-            },
-            {
-              "id": 1,
-              "str": "년"
-            }
-          ]
+          "text": "2016년",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "2"
-            },
-            {
-              "id": 1,
-              "str": "월"
-            }
-          ]
+          "text": "2월",
+          "head": 3,
+          "label": "NP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "7"
-            },
-            {
-              "id": 1,
-              "str": "일"
-            },
-            {
-              "id": 2,
-              "str": "("
-            },
-            {
-              "id": 3,
-              "str": "현지기준"
-            },
-            {
-              "id": 4,
-              "str": ")"
-            }
-          ]
+          "text": "7일(현지기준)",
+          "head": 10,
+          "label": "NP_AJT"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "캘리포니아"
-            }
-          ]
+          "text": "캘리포니아",
+          "head": 5,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "주"
-            }
-          ]
+          "text": "주",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "산타"
-            }
-          ]
+          "text": "산타",
+          "head": 7,
+          "label": "NP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "클라라"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "클라라의",
+          "head": 9,
+          "label": "NP_MOD"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "리바이스"
-            }
-          ]
+          "text": "리바이스",
+          "head": 9,
+          "label": "NP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "스타디움"
-            },
-            {
-              "id": 1,
-              "str": "에서"
-            }
-          ]
+          "text": "스타디움에서",
+          "head": 10,
+          "label": "NP_AJT"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "열리"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "열린",
+          "head": 24,
+          "label": "VP_MOD"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "내셔널"
-            }
-          ]
+          "text": "내셔널",
+          "head": 12,
+          "label": "NP"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "풋볼"
-            }
-          ]
+          "text": "풋볼",
+          "head": 13,
+          "label": "NP"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "콘퍼런스"
-            }
-          ]
+          "text": "콘퍼런스",
+          "head": 14,
+          "label": "NP"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "챔피언"
-            }
-          ]
+          "text": "챔피언",
+          "head": 16,
+          "label": "NP"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "캐롤라이나"
-            }
-          ]
+          "text": "캐롤라이나",
+          "head": 16,
+          "label": "NP"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "팬서스"
-            },
-            {
-              "id": 1,
-              "str": "와"
-            }
-          ]
+          "text": "팬서스와",
+          "head": 19,
+          "label": "NP_AJT"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "아메리칸"
-            }
-          ]
+          "text": "아메리칸",
+          "head": 18,
+          "label": "NP"
         },
         {
           "id": 18,
-          "morps": [
-            {
-              "id": 0,
-              "str": "풋볼"
-            }
-          ]
+          "text": "풋볼",
+          "head": 19,
+          "label": "NP"
         },
         {
           "id": 19,
-          "morps": [
-            {
-              "id": 0,
-              "str": "콘퍼런스"
-            }
-          ]
+          "text": "콘퍼런스",
+          "head": 20,
+          "label": "NP"
         },
         {
           "id": 20,
-          "morps": [
-            {
-              "id": 0,
-              "str": "챔피언"
-            }
-          ]
+          "text": "챔피언",
+          "head": 22,
+          "label": "NP"
         },
         {
           "id": 21,
-          "morps": [
-            {
-              "id": 0,
-              "str": "덴버"
-            }
-          ]
+          "text": "덴버",
+          "head": 22,
+          "label": "NP"
         },
         {
           "id": 22,
-          "morps": [
-            {
-              "id": 0,
-              "str": "브롱코스"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "브롱코스의",
+          "head": 24,
+          "label": "NP_MOD"
         },
         {
           "id": 23,
-          "morps": [
-            {
-              "id": 0,
-              "str": "슈퍼볼"
-            }
-          ]
+          "text": "슈퍼볼",
+          "head": 24,
+          "label": "NP"
         },
         {
           "id": 24,
-          "morps": [
-            {
-              "id": 0,
-              "str": "경기"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "경기이다.",
+          "head": -1,
+          "label": "VNP"
         }
       ]
     },
@@ -322,454 +177,213 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "슈퍼볼"
-            }
-          ]
+          "text": "슈퍼볼",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "뒤"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            }
-          ]
+          "text": "뒤에",
+          "head": 4,
+          "label": "NP_AJT"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "로마"
-            }
-          ]
+          "text": "로마",
+          "head": 3,
+          "label": "NP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "숫자"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "숫자를",
+          "head": 4,
+          "label": "NP_OBJ"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "붙이"
-            },
-            {
-              "id": 1,
-              "str": "던"
-            }
-          ]
+          "text": "붙이던",
+          "head": 6,
+          "label": "VP_MOD"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "기존"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "기존의",
+          "head": 6,
+          "label": "NP_MOD"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "방식"
-            },
-            {
-              "id": 1,
-              "str": "과"
-            },
-            {
-              "id": 2,
-              "str": "는"
-            }
-          ]
+          "text": "방식과는",
+          "head": 7,
+          "label": "NP_AJT"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "다르"
-            },
-            {
-              "id": 1,
-              "str": "게"
-            }
-          ]
+          "text": "다르게",
+          "head": 34,
+          "label": "VP_AJT"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "("
-            },
-            {
-              "id": 1,
-              "str": "'"
-            },
-            {
-              "id": 2,
-              "str": "슈퍼볼"
-            }
-          ]
+          "text": "('슈퍼볼",
+          "head": 9,
+          "label": "NP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "50"
-            },
-            {
-              "id": 1,
-              "str": "'"
-            },
-            {
-              "id": 2,
-              "str": "을"
-            }
-          ]
+          "text": "50'을",
+          "head": 11,
+          "label": "NP_OBJ"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "로마숫자"
-            },
-            {
-              "id": 1,
-              "str": "로"
-            }
-          ]
+          "text": "로마숫자로",
+          "head": 11,
+          "label": "NP_AJT"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "표기하"
-            },
-            {
-              "id": 1,
-              "str": "면"
-            }
-          ]
+          "text": "표기하면",
+          "head": 15,
+          "label": "VP"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "'"
-            },
-            {
-              "id": 1,
-              "str": "SUPER"
-            }
-          ]
+          "text": "'SUPER",
+          "head": 13,
+          "label": "NP"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "BOWL"
-            }
-          ]
+          "text": "BOWL",
+          "head": 14,
+          "label": "NP"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "L"
-            },
-            {
-              "id": 1,
-              "str": "'"
-            },
-            {
-              "id": 2,
-              "str": "로"
-            }
-          ]
+          "text": "L'로",
+          "head": 15,
+          "label": "NP_AJT"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "표기하"
-            },
-            {
-              "id": 1,
-              "str": "어야"
-            }
-          ]
+          "text": "표기해야",
+          "head": 16,
+          "label": "VP"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "하"
-            },
-            {
-              "id": 1,
-              "str": "는데"
-            },
-            {
-              "id": 2,
-              "str": ","
-            }
-          ]
+          "text": "하는데,",
+          "head": 23,
+          "label": "VP"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이"
-            }
-          ]
+          "text": "이",
+          "head": 18,
+          "label": "DP"
         },
         {
           "id": 18,
-          "morps": [
-            {
-              "id": 0,
-              "str": "경우"
-            }
-          ]
+          "text": "경우",
+          "head": 23,
+          "label": "NP_AJT"
         },
         {
           "id": 19,
-          "morps": [
-            {
-              "id": 0,
-              "str": "영어"
-            }
-          ]
+          "text": "영어",
+          "head": 20,
+          "label": "NP"
         },
         {
           "id": 20,
-          "morps": [
-            {
-              "id": 0,
-              "str": "철자"
-            }
-          ]
+          "text": "철자",
+          "head": 21,
+          "label": "NP"
         },
         {
           "id": 21,
-          "morps": [
-            {
-              "id": 0,
-              "str": "L"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            }
-          ]
+          "text": "L이",
+          "head": 23,
+          "label": "NP_SBJ"
         },
         {
           "id": 22,
-          "morps": [
-            {
-              "id": 0,
-              "str": "연속적"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "연속적으로",
+          "head": 23,
+          "label": "NP_AJT"
         },
         {
           "id": 23,
-          "morps": [
-            {
-              "id": 0,
-              "str": "표기되"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "표기되어",
+          "head": 25,
+          "label": "VP"
         },
         {
           "id": 24,
-          "morps": [
-            {
-              "id": 0,
-              "str": "혼란"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "혼란을",
+          "head": 25,
+          "label": "NP_OBJ"
         },
         {
           "id": 25,
-          "morps": [
-            {
-              "id": 0,
-              "str": "야기하"
-            },
-            {
-              "id": 1,
-              "str": "ㄹ"
-            }
-          ]
+          "text": "야기할",
+          "head": 26,
+          "label": "VP_MOD"
         },
         {
           "id": 26,
-          "morps": [
-            {
-              "id": 0,
-              "str": "수"
-            }
-          ]
+          "text": "수",
+          "head": 27,
+          "label": "NP_SBJ"
         },
         {
           "id": 27,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "다는"
-            }
-          ]
+          "text": "있다는",
+          "head": 28,
+          "label": "VP_MOD"
         },
         {
           "id": 28,
-          "morps": [
-            {
-              "id": 0,
-              "str": "우려"
-            },
-            {
-              "id": 1,
-              "str": ")"
-            }
-          ]
+          "text": "우려)",
+          "head": 34,
+          "label": "NP"
         },
         {
           "id": 29,
-          "morps": [
-            {
-              "id": 0,
-              "str": "예외적"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "예외적으로",
+          "head": 34,
+          "label": "NP_AJT"
         },
         {
           "id": 30,
-          "morps": [
-            {
-              "id": 0,
-              "str": "아라비아"
-            }
-          ]
+          "text": "아라비아",
+          "head": 31,
+          "label": "NP"
         },
         {
           "id": 31,
-          "morps": [
-            {
-              "id": 0,
-              "str": "숫자"
-            }
-          ]
+          "text": "숫자",
+          "head": 32,
+          "label": "NP"
         },
         {
           "id": 32,
-          "morps": [
-            {
-              "id": 0,
-              "str": "'"
-            },
-            {
-              "id": 1,
-              "str": "50"
-            },
-            {
-              "id": 2,
-              "str": "'"
-            },
-            {
-              "id": 3,
-              "str": "을"
-            }
-          ]
+          "text": "'50'을",
+          "head": 34,
+          "label": "NP_OBJ"
         },
         {
           "id": 33,
-          "morps": [
-            {
-              "id": 0,
-              "str": "공식적"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "공식적으로",
+          "head": 34,
+          "label": "NP_AJT"
         },
         {
           "id": 34,
-          "morps": [
-            {
-              "id": 0,
-              "str": "사용하"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "사용하였다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -778,278 +392,141 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "국가"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "국가는",
+          "head": 5,
+          "label": "NP_SBJ"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "미국"
-            }
-          ]
+          "text": "미국",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "여가수"
-            }
-          ]
+          "text": "여가수",
+          "head": 3,
+          "label": "NP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "레이디"
-            }
-          ]
+          "text": "레이디",
+          "head": 4,
+          "label": "NP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "가가"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "가가가",
+          "head": 5,
+          "label": "NP_SBJ"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "부르"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "으며"
-            },
-            {
-              "id": 3,
-              "str": ","
-            }
-          ]
+          "text": "불렀으며,",
+          "head": 18,
+          "label": "VP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "하프타임"
-            }
-          ]
+          "text": "하프타임",
+          "head": 7,
+          "label": "NP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "쇼"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "쇼는",
+          "head": 18,
+          "label": "NP_SBJ"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "영국"
-            }
-          ]
+          "text": "영국",
+          "head": 10,
+          "label": "NP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "락"
-            }
-          ]
+          "text": "락",
+          "head": 10,
+          "label": "NP"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "밴드"
-            }
-          ]
+          "text": "밴드",
+          "head": 11,
+          "label": "NP"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "콜드플레이"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "콜드플레이가",
+          "head": 18,
+          "label": "NP_SBJ"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "비욘세"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "비욘세,",
+          "head": 16,
+          "label": "NP_CNJ"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "브루노"
-            }
-          ]
+          "text": "브루노",
+          "head": 14,
+          "label": "NP"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "마스"
-            },
-            {
-              "id": 1,
-              "str": "와"
-            }
-          ]
+          "text": "마스와",
+          "head": 16,
+          "label": "NP_CNJ"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "마크"
-            }
-          ]
+          "text": "마크",
+          "head": 16,
+          "label": "NP"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "론슨"
-            },
-            {
-              "id": 1,
-              "str": "과"
-            }
-          ]
+          "text": "론슨과",
+          "head": 17,
+          "label": "NP_AJT"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "함께"
-            }
-          ]
+          "text": "함께",
+          "head": 18,
+          "label": "AP"
         },
         {
           "id": 18,
-          "morps": [
-            {
-              "id": 0,
-              "str": "하"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            }
-          ]
+          "text": "해",
+          "head": 22,
+          "label": "VP"
         },
         {
           "id": 19,
-          "morps": [
-            {
-              "id": 0,
-              "str": "많"
-            },
-            {
-              "id": 1,
-              "str": "은"
-            }
-          ]
+          "text": "많은",
+          "head": 20,
+          "label": "VP_MOD"
         },
         {
           "id": 20,
-          "morps": [
-            {
-              "id": 0,
-              "str": "팬들"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "팬들의",
+          "head": 21,
+          "label": "NP_MOD"
         },
         {
           "id": 21,
-          "morps": [
-            {
-              "id": 0,
-              "str": "주목"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "주목을",
+          "head": 22,
+          "label": "NP_OBJ"
         },
         {
           "id": 22,
-          "morps": [
-            {
-              "id": 0,
-              "str": "받"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "받았다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -1058,205 +535,87 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이날"
-            }
-          ]
+          "text": "이날",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "경기"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "경기는",
+          "head": 7,
+          "label": "NP_SBJ"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "덴버"
-            }
-          ]
+          "text": "덴버",
+          "head": 3,
+          "label": "NP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "브롱코스"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "브롱코스가",
+          "head": 7,
+          "label": "NP_SBJ"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "캐롤라이나"
-            }
-          ]
+          "text": "캐롤라이나",
+          "head": 5,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "팬서스"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "팬서스를",
+          "head": 7,
+          "label": "NP_OBJ"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "24"
-            },
-            {
-              "id": 1,
-              "str": "-"
-            },
-            {
-              "id": 2,
-              "str": "10"
-            },
-            {
-              "id": 3,
-              "str": "으로"
-            }
-          ]
+          "text": "24-10으로",
+          "head": 7,
+          "label": "NP_AJT"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이기"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "으며"
-            },
-            {
-              "id": 3,
-              "str": ","
-            }
-          ]
+          "text": "이겼으며,",
+          "head": 13,
+          "label": "VP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "MVP"
-            },
-            {
-              "id": 1,
-              "str": "로"
-            },
-            {
-              "id": 2,
-              "str": "는"
-            }
-          ]
+          "text": "MVP로는",
+          "head": 13,
+          "label": "NP_AJT"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "브롱코스"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "브롱코스의",
+          "head": 10,
+          "label": "NP_MOD"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "라인"
-            },
-            {
-              "id": 1,
-              "str": "백"
-            },
-            {
-              "id": 2,
-              "str": "커"
-            }
-          ]
+          "text": "라인백커",
+          "head": 11,
+          "label": "NP_AJT"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "보"
-            },
-            {
-              "id": 1,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "본",
+          "head": 12,
+          "label": "VP_MOD"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "밀러"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "밀러가",
+          "head": 13,
+          "label": "NP_SBJ"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "선정되"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "선정되었다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -1265,333 +624,159 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이"
-            },
-            {
-              "id": 1,
-              "str": "로써"
-            }
-          ]
+          "text": "이로써",
+          "head": 5,
+          "label": "NP_AJT"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "덴버"
-            }
-          ]
+          "text": "덴버",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "브롱코스"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "브롱코스는",
+          "head": 5,
+          "label": "NP_SBJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "17"
-            },
-            {
-              "id": 1,
-              "str": "년"
-            },
-            {
-              "id": 2,
-              "str": "만"
-            },
-            {
-              "id": 3,
-              "str": "에"
-            }
-          ]
+          "text": "17년만에",
+          "head": 5,
+          "label": "NP_AJT"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "트로피"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "트로피를",
+          "head": 5,
+          "label": "NP_OBJ"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "들어올리"
-            },
-            {
-              "id": 1,
-              "str": "게"
-            }
-          ]
+          "text": "들어올리게",
+          "head": 6,
+          "label": "VP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "되"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "으며"
-            },
-            {
-              "id": 3,
-              "str": ","
-            }
-          ]
+          "text": "되었으며,",
+          "head": 19,
+          "label": "VP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "덴버"
-            }
-          ]
+          "text": "덴버",
+          "head": 8,
+          "label": "NP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "브롱코스"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "브롱코스의",
+          "head": 10,
+          "label": "NP_MOD"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "스타"
-            }
-          ]
+          "text": "스타",
+          "head": 10,
+          "label": "NP"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "쿼터백"
-            }
-          ]
+          "text": "쿼터백",
+          "head": 12,
+          "label": "NP"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "페이튼"
-            }
-          ]
+          "text": "페이튼",
+          "head": 12,
+          "label": "NP"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "매닝"
-            },
-            {
-              "id": 1,
-              "str": "은"
-            }
-          ]
+          "text": "매닝은",
+          "head": 19,
+          "label": "NP_SBJ"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "이번"
-            }
-          ]
+          "text": "이번",
+          "head": 14,
+          "label": "NP"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "우승"
-            },
-            {
-              "id": 1,
-              "str": "으로"
-            }
-          ]
+          "text": "우승으로",
+          "head": 19,
+          "label": "NP_AJT"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "개인"
-            }
-          ]
+          "text": "개인",
+          "head": 16,
+          "label": "NP"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "2"
-            },
-            {
-              "id": 1,
-              "str": "번째"
-            }
-          ]
+          "text": "2번째",
+          "head": 17,
+          "label": "NP"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "슈퍼볼"
-            }
-          ]
+          "text": "슈퍼볼",
+          "head": 18,
+          "label": "NP"
         },
         {
           "id": 18,
-          "morps": [
-            {
-              "id": 0,
-              "str": "우승"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "우승을",
+          "head": 19,
+          "label": "NP_OBJ"
         },
         {
           "id": 19,
-          "morps": [
-            {
-              "id": 0,
-              "str": "기록하"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "으며"
-            },
-            {
-              "id": 3,
-              "str": ","
-            }
-          ]
+          "text": "기록하였으며,",
+          "head": 25,
+          "label": "VP"
         },
         {
           "id": 20,
-          "morps": [
-            {
-              "id": 0,
-              "str": "팀"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "팀의",
+          "head": 24,
+          "label": "NP_MOD"
         },
         {
           "id": 21,
-          "morps": [
-            {
-              "id": 0,
-              "str": "통산"
-            }
-          ]
+          "text": "통산",
+          "head": 22,
+          "label": "NP"
         },
         {
           "id": 22,
-          "morps": [
-            {
-              "id": 0,
-              "str": "3"
-            },
-            {
-              "id": 1,
-              "str": "번째"
-            }
-          ]
+          "text": "3번째",
+          "head": 24,
+          "label": "NP"
         },
         {
           "id": 23,
-          "morps": [
-            {
-              "id": 0,
-              "str": "슈퍼볼"
-            }
-          ]
+          "text": "슈퍼볼",
+          "head": 24,
+          "label": "NP"
         },
         {
           "id": 24,
-          "morps": [
-            {
-              "id": 0,
-              "str": "우승"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "우승을",
+          "head": 25,
+          "label": "NP_OBJ"
         },
         {
           "id": 25,
-          "morps": [
-            {
-              "id": 0,
-              "str": "견인하"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "견인하였다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     }

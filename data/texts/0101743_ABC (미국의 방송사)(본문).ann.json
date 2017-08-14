@@ -5,42 +5,21 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "ABC"
-            }
-          ]
+          "text": "ABC",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "("
-            },
-            {
-              "id": 1,
-              "str": "미국"
-            },
-            {
-              "id": 2,
-              "str": "의"
-            }
-          ]
+          "text": "(미국의",
+          "head": 2,
+          "label": "NP_MOD"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "방송사"
-            },
-            {
-              "id": 1,
-              "str": ")"
-            }
-          ]
+          "text": "방송사)",
+          "head": -1,
+          "label": "NP"
         }
       ]
     },
@@ -49,110 +28,45 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "미국방송회사"
-            },
-            {
-              "id": 1,
-              "str": "("
-            },
-            {
-              "id": 2,
-              "str": "美國放送協會"
-            },
-            {
-              "id": 3,
-              "str": ")"
-            },
-            {
-              "id": 4,
-              "str": "는"
-            }
-          ]
+          "text": "미국방송회사(美國放送協會)는",
+          "head": 6,
+          "label": "NP_SBJ"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "미국"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "미국의",
+          "head": 4,
+          "label": "NP_MOD"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "텔레비전"
-            },
-            {
-              "id": 1,
-              "str": ","
-            }
-          ]
+          "text": "텔레비전,",
+          "head": 3,
+          "label": "NP_CNJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "라디오"
-            }
-          ]
+          "text": "라디오",
+          "head": 4,
+          "label": "NP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "방송"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "방송을",
+          "head": 5,
+          "label": "NP_OBJ"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "운영하"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "운영하는",
+          "head": 6,
+          "label": "VP_MOD"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "방송사"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "방송사이다.",
+          "head": -1,
+          "label": "VNP"
         }
       ]
     },
@@ -161,89 +75,39 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "1948"
-            },
-            {
-              "id": 1,
-              "str": "년"
-            }
-          ]
+          "text": "1948년",
+          "head": 1,
+          "label": "NP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "4"
-            },
-            {
-              "id": 1,
-              "str": "월"
-            }
-          ]
+          "text": "4월",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "19"
-            },
-            {
-              "id": 1,
-              "str": "일"
-            },
-            {
-              "id": 2,
-              "str": "에"
-            }
-          ]
+          "text": "19일에",
+          "head": 5,
+          "label": "NP_AJT"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "텔레비전"
-            }
-          ]
+          "text": "텔레비전",
+          "head": 4,
+          "label": "NP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "방송"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "방송을",
+          "head": 5,
+          "label": "NP_OBJ"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "시작하"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "시작하였다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -252,137 +116,63 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "현재"
-            }
-          ]
+          "text": "현재",
+          "head": 4,
+          "label": "AP"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "월트"
-            }
-          ]
+          "text": "월트",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "디즈니"
-            }
-          ]
+          "text": "디즈니",
+          "head": 3,
+          "label": "NP"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "컴퍼니"
-            },
-            {
-              "id": 1,
-              "str": "가"
-            }
-          ]
+          "text": "컴퍼니가",
+          "head": 4,
+          "label": "NP_SBJ"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "소유하"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "소유하고",
+          "head": 5,
+          "label": "VP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "있"
-            },
-            {
-              "id": 1,
-              "str": "으며"
-            },
-            {
-              "id": 2,
-              "str": ","
-            }
-          ]
+          "text": "있으며,",
+          "head": 9,
+          "label": "VP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "디즈니"
-            },
-            {
-              "id": 1,
-              "str": "-"
-            },
-            {
-              "id": 2,
-              "str": "ABC"
-            }
-          ]
+          "text": "디즈니-ABC",
+          "head": 7,
+          "label": "NP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "텔레비전"
-            }
-          ]
+          "text": "텔레비전",
+          "head": 8,
+          "label": "NP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "그룹"
-            },
-            {
-              "id": 1,
-              "str": "에"
-            }
-          ]
+          "text": "그룹에",
+          "head": 9,
+          "label": "NP_AJT"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "속하"
-            },
-            {
-              "id": 1,
-              "str": "어"
-            },
-            {
-              "id": 2,
-              "str": "있"
-            },
-            {
-              "id": 3,
-              "str": "다"
-            },
-            {
-              "id": 4,
-              "str": "."
-            }
-          ]
+          "text": "속해있다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -391,238 +181,117 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "1939"
-            },
-            {
-              "id": 1,
-              "str": "년"
-            }
-          ]
+          "text": "1939년",
+          "head": 5,
+          "label": "NP_AJT"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "미국연방통신위원회"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "미국연방통신위원회는",
+          "head": 5,
+          "label": "NP_SBJ"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "NBC"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "NBC의",
+          "head": 3,
+          "label": "NP_MOD"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "독점적"
-            },
-            {
-              "id": 1,
-              "str": "이"
-            },
-            {
-              "id": 2,
-              "str": "ㄴ"
-            }
-          ]
+          "text": "독점적인",
+          "head": 4,
+          "label": "VNP_MOD"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "시장지배"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "시장지배를",
+          "head": 5,
+          "label": "NP_OBJ"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "인지하"
-            },
-            {
-              "id": 1,
-              "str": "고"
-            }
-          ]
+          "text": "인지하고",
+          "head": 17,
+          "label": "VP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "NBC"
-            },
-            {
-              "id": 1,
-              "str": "의"
-            }
-          ]
+          "text": "NBC의",
+          "head": 8,
+          "label": "NP_MOD"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "두"
-            }
-          ]
+          "text": "두",
+          "head": 8,
+          "label": "DP"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "네트워크"
-            },
-            {
-              "id": 1,
-              "str": "를"
-            }
-          ]
+          "text": "네트워크를",
+          "head": 17,
+          "label": "NP_OBJ"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "NBC"
-            }
-          ]
+          "text": "NBC",
+          "head": 10,
+          "label": "NP"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "레드"
-            }
-          ]
+          "text": "레드",
+          "head": 11,
+          "label": "NP"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "네트워크"
-            },
-            {
-              "id": 1,
-              "str": "와"
-            }
-          ]
+          "text": "네트워크와",
+          "head": 14,
+          "label": "NP_CNJ"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "NBC"
-            }
-          ]
+          "text": "NBC",
+          "head": 13,
+          "label": "NP"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "블루"
-            }
-          ]
+          "text": "블루",
+          "head": 14,
+          "label": "NP"
         },
         {
           "id": 14,
-          "morps": [
-            {
-              "id": 0,
-              "str": "네트워크"
-            }
-          ]
+          "text": "네트워크",
+          "head": 16,
+          "label": "NP"
         },
         {
           "id": 15,
-          "morps": [
-            {
-              "id": 0,
-              "str": "두"
-            }
-          ]
+          "text": "두",
+          "head": 16,
+          "label": "DP"
         },
         {
           "id": 16,
-          "morps": [
-            {
-              "id": 0,
-              "str": "회사"
-            },
-            {
-              "id": 1,
-              "str": "로"
-            }
-          ]
+          "text": "회사로",
+          "head": 17,
+          "label": "NP_AJT"
         },
         {
           "id": 17,
-          "morps": [
-            {
-              "id": 0,
-              "str": "분리시키"
-            },
-            {
-              "id": 1,
-              "str": "기"
-            },
-            {
-              "id": 2,
-              "str": "로"
-            }
-          ]
+          "text": "분리시키기로",
+          "head": 18,
+          "label": "VP_AJT"
         },
         {
           "id": 18,
-          "morps": [
-            {
-              "id": 0,
-              "str": "결정하"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "결정했다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -631,112 +300,57 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "1942"
-            },
-            {
-              "id": 1,
-              "str": "년"
-            }
-          ]
+          "text": "1942년",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "NBC"
-            }
-          ]
+          "text": "NBC",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "레드"
-            },
-            {
-              "id": 1,
-              "str": "와"
-            }
-          ]
+          "text": "레드와",
+          "head": 4,
+          "label": "NP_CNJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "NBC"
-            }
-          ]
+          "text": "NBC",
+          "head": 4,
+          "label": "NP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "블루"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "블루는",
+          "head": 8,
+          "label": "NP_SBJ"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "완전히"
-            }
-          ]
+          "text": "완전히",
+          "head": 8,
+          "label": "AP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "다른"
-            }
-          ]
+          "text": "다른",
+          "head": 7,
+          "label": "DP"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "회사"
-            },
-            {
-              "id": 1,
-              "str": "로"
-            }
-          ]
+          "text": "회사로",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "분리되"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "분리되었다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     },
@@ -745,189 +359,87 @@
       "words": [
         {
           "id": 0,
-          "morps": [
-            {
-              "id": 0,
-              "str": "1944"
-            },
-            {
-              "id": 1,
-              "str": "년"
-            }
-          ]
+          "text": "1944년",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 1,
-          "morps": [
-            {
-              "id": 0,
-              "str": "NBC"
-            }
-          ]
+          "text": "NBC",
+          "head": 2,
+          "label": "NP"
         },
         {
           "id": 2,
-          "morps": [
-            {
-              "id": 0,
-              "str": "블루"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "블루는",
+          "head": 8,
+          "label": "NP_SBJ"
         },
         {
           "id": 3,
-          "morps": [
-            {
-              "id": 0,
-              "str": "ABC"
-            }
-          ]
+          "text": "ABC",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 4,
-          "morps": [
-            {
-              "id": 0,
-              "str": "("
-            },
-            {
-              "id": 1,
-              "str": "American"
-            }
-          ]
+          "text": "(American",
+          "head": 5,
+          "label": "NP"
         },
         {
           "id": 5,
-          "morps": [
-            {
-              "id": 0,
-              "str": "Broadcasting"
-            }
-          ]
+          "text": "Broadcasting",
+          "head": 6,
+          "label": "NP"
         },
         {
           "id": 6,
-          "morps": [
-            {
-              "id": 0,
-              "str": "Company"
-            },
-            {
-              "id": 1,
-              "str": ")"
-            },
-            {
-              "id": 2,
-              "str": "로"
-            }
-          ]
+          "text": "Company)로",
+          "head": 8,
+          "label": "NP_AJT"
         },
         {
           "id": 7,
-          "morps": [
-            {
-              "id": 0,
-              "str": "사명"
-            },
-            {
-              "id": 1,
-              "str": "을"
-            }
-          ]
+          "text": "사명을",
+          "head": 8,
+          "label": "NP_OBJ"
         },
         {
           "id": 8,
-          "morps": [
-            {
-              "id": 0,
-              "str": "바꾸"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "고"
-            },
-            {
-              "id": 3,
-              "str": ","
-            }
-          ]
+          "text": "바꾸었고,",
+          "head": 12,
+          "label": "VP"
         },
         {
           "id": 9,
-          "morps": [
-            {
-              "id": 0,
-              "str": "NBC"
-            }
-          ]
+          "text": "NBC",
+          "head": 12,
+          "label": "AP"
         },
         {
           "id": 10,
-          "morps": [
-            {
-              "id": 0,
-              "str": "레드"
-            },
-            {
-              "id": 1,
-              "str": "는"
-            }
-          ]
+          "text": "레드는",
+          "head": 12,
+          "label": "NP_SBJ"
         },
         {
           "id": 11,
-          "morps": [
-            {
-              "id": 0,
-              "str": "NBC"
-            },
-            {
-              "id": 1,
-              "str": "로"
-            }
-          ]
+          "text": "NBC로",
+          "head": 12,
+          "label": "NP_AJT"
         },
         {
           "id": 12,
-          "morps": [
-            {
-              "id": 0,
-              "str": "불리"
-            },
-            {
-              "id": 1,
-              "str": "게"
-            }
-          ]
+          "text": "불리게",
+          "head": 13,
+          "label": "VP"
         },
         {
           "id": 13,
-          "morps": [
-            {
-              "id": 0,
-              "str": "되"
-            },
-            {
-              "id": 1,
-              "str": "었"
-            },
-            {
-              "id": 2,
-              "str": "다"
-            },
-            {
-              "id": 3,
-              "str": "."
-            }
-          ]
+          "text": "되었다.",
+          "head": -1,
+          "label": "VP"
         }
       ]
     }

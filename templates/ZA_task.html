@@ -13,130 +13,107 @@
             }
         });
 
-        $(function () {
-            $("#username").text(username);
-        });
-
         const goList = function () {
             window.location = "/ZA/";
         };
+
+        const showDeps = function (x) {
+            $("div#" + x + ".deps").slideToggle("slow");
+        };
+
+        $(function () {
+            $("#username").text(username);
+            const max_h = Math.ceil(Math.pow($(".sent").width(), 0.75)) - 25;
+            const offset = $("td.sent").offset().left;
+
+            {% for sent in textcont.sents %}
+                $("div#{{ sent.id }}.deps").append('<canvas id="{{ sent.id }}" class="deps" width="' + (document.body.scrollWidth - 1) + '" height="' + max_h + '" style="position:relative; top:15px;">');
+                {% for word in sent.words %}
+                    {% if word.head > 0 %}
+                        linkTwo($("canvas#{{ sent.id }}.deps")[0], offset, $("#{{ sent.id }}.sent #{{ word.id }}.word"), $("#{{ sent.id }}.sent #{{ word.head }}.word"), max_h);
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+
+            $(".word").mousedown(function () {
+                $(this).prepend("{")
+            }).mouseup(function () {
+                $(this).append("}");
+            });
+        });
     </script>
 {% endblock script_header %}
 
+{% block header %}
+{% endblock header %}
+
 {% block body %}
-    <div class="row" style="width:1040px; margin-left:auto; margin-right:auto; margin-bottom:30px">
-        <div class="col-md-offset-7 col-md-1" style="padding-left:8px; padding-right:0">
-            <button class="btn btn-block btn-warning" style="max-width:70px" onclick="goList()">
-                <i class="glyphicon glyphicon-th-list"><span style="padding-left:3px; font-size:10.5pt">목록</span></i>
-            </button>
+    <div style="padding-top:10px; padding-bottom:30px; padding-left:10px">
+        <div style="display:inline-block; font-size:16pt; font-weight:bold; position:relative; top:3px; margin-right:10px;">
+            생략어 복원 Annotation
         </div>
-        <div class="col-md-3 well well-sm"
-             style="text-align:center; font-size:9pt; height:35px; margin-bottom:0; max-width:240px">
+        <div class="well well-sm"
+             style="display:inline-block; text-align:center; font-size:9pt; width:300px; height:35px; margin-bottom:0">
+            <i class="glyphicon glyphicon-file"> </i>
+            <span id="textname">{{ textname }}</span>
+        </div>
+        <div class="well well-sm"
+             style="display:inline-block; text-align:center; font-size:9pt; width:300px; height:35px; margin-bottom:0">
             <i class="glyphicon glyphicon-user"> </i>
             <span id="username"></span>
         </div>
-        <div class="col-md-1" style="padding-left:8px; padding-right:0">
-            <button id="signout" class="btn btn-block btn-danger" style="max-width:70px" onclick="doLogout()">
-                <i class="glyphicon glyphicon-off"> </i>
-            </button>
-        </div>
+        <button onclick="goList()" class="btn btn-warning" style="width:70px; position:relative; top:-1px;">
+            <i class="glyphicon glyphicon-th-list"><span style="padding-left:3px; font-size:10.5pt">목록</span></i>
+        </button>
+        <button onclick="doLogout()" class="btn btn-danger" style="width:70px; position:relative; top:-1px;">
+            <i class="glyphicon glyphicon-off"> </i>
+        </button>
     </div>
 
-    <div class="panel panel-info" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:20px">
-        <div class="panel-heading" style="padding:10px; font-size:11pt">문서 제목</div>
-        <div class="panel-body" style="font-size:10pt; padding-top:10px; padding-bottom:10px">{{ textname }}</div>
-    </div>
-
-    <div class="panel panel-info" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:20px">
-        <div class="panel-heading" style="padding:10px; font-size:11pt">문서 내용</div>
-        <div class="panel-body" style="font-size:10pt; padding-top:10px; padding-bottom:10px">
-            <table class="table table-condensed table-striped list" style="margin-top:5px; margin-bottom:5px">
-                <tr>
-                    <th style="width:30px; text-align:center;">ID</th>
-                    <th style="text-align:center;">문장</th>
-                </tr>
-                {% for sent in textcont.sents %}
-                    <tr>
-                        <th style="width:30px; text-align:right; line-height:200%; padding-top:20px;">{{ sent.id }}</th>
-                        <td class="sent" id="sent{{ sent.id }}" style="line-height:200%; padding-top:20px;">
-                            {% for word in sent.words %}
-                                <div class="row" style="display:inline-block; padding:0; margin:0;">
-                                    {% comment %}<div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
-                                    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>{% endcomment %}
-                                    <div class="cate col-md-10 col-md-offset-3" style="border: 1px solid red; padding:0; margin:0;">NN
-                                    </div>
-                                    <span class="word col-md-10 col-md-offset-3"
-                                          style="border: 1px solid blue; padding:0; margin:0;">
-                                        {% for morp in word.morps %}
-                                            <div class="morp" id="sent{{ sent.id }}-word{{ word.id }}-morp{{ morp.id }}"
-                                                 style="display:inline-block">{{ morp.str }}</div>
-                                        {% endfor %}
-                                    </span>
-                                    <span class="word col-xs-10" style="border: 1px solid blue; padding:0; margin:0;">
-                                        {% for morp in word.morps %}
-                                            <div class="morp" id="sent{{ sent.id }}-word{{ word.id }}-morp{{ morp.id }}"
-                                                 style="display:inline-block">{{ morp.str }}</div>
-                                        {% endfor %}
-                                    </span>
-                                </div>
-
-                                {% comment %}<div class="word" id="sent{{ sent.id }}-word{{ word.id }}"
-                                     style="display:inline-block; padding-right:10px">
-                                    {% for morp in word.morps %}
-                                        <div class="morp" id="sent{{ sent.id }}-word{{ word.id }}-morp{{ morp.id }}"
-                                             style="display:inline-block">{{ morp.str }}</div>
-                                    {% endfor %}
-                                </div>{% endcomment %}
-                            {% endfor %}
-                        </td>
-                    </tr>
-                {% endfor %}
-            </table>
-            <script>
-                $(".morp").mousedown(function () {
-                    $(this).prepend("{")
-                })
-                $(".morp").mouseup(function () {
-                    $(this).append("}");
-                })
-            </script>
-        </div>
-    </div>
-
-    <table>
+    <table class="table table-condensed table-striped list"
+           style="font-size:11pt; margin-bottom:100px; display:inline-block; width:max-content;">
         <tr>
-            <td align="center" style="border: none; padding: 0px; padding-top: 17px; padding-right: 10px;">
-                <div class="panel panel-default" style="width: 180px;">
-                    <div class="panel-body btn-group"
-                         style="padding-top:12px; padding-left: 0px; padding-right: 0px; height: 54px;">
-                        <button class="btn btn-default btn-sm" id="append"><i class="glyphicon glyphicon-plus"> </i>
-                            Append
-                        </button>
-                        <button class="btn btn-default btn-sm" id="delete"><i class="glyphicon glyphicon-minus"> </i>
-                            Delete
-                        </button>
-                    </div>
-                    <div class="panel-footer" style="padding: 3px; font-size: 10pt; font-family: 'Calibri';">Context
-                        Mode
-                    </div>
-                </div>
-            </td>
-            <td align="center" style="border: none; padding: 0px; padding-top: 17px;">
-                <div class="panel panel-default" style="width:160px;">
-                    <div class="panel-body"
-                         style="padding-top:7px; padding-left: 0px; padding-right: 0px; height: 54px;">
-                        <button class="btn btn-default btn-sm" id="save"><i class="glyphicon glyphicon-saved"> </i> Save
-                        </button>
-                        <button class="btn btn-danger  btn-sm" id="home"><i class="glyphicon glyphicon-home"> </i> Home
-                        </button>
-                    </div>
-                    <div class="panel-footer" style="padding: 3px; font-size: 10pt; font-family: 'Calibri';">Command
-                    </div>
-                </div>
-            </td>
+            <th style="width:50px; text-align:right; padding-right:8px;">idx</th>
+            <th style="width:50px; text-align:center;">cmd</th>
+            <th style="text-align:center;">sentence</th>
         </tr>
+        {% for sent in textcont.sents %}
+            <tr>
+                <th style="text-align:right; vertical-align:top; padding-top:5px">{{ sent.id }}</th>
+                <td style="text-align:center; vertical-align:top; padding-top:5px">
+                    <button onclick="showDeps({{ sent.id }})" class="btn btn-info">
+                        <i class="glyphicon glyphicon-search"> </i>
+                    </button>
+                    <button onclick="" class="btn btn-primary">
+                        <i class="glyphicon glyphicon-plus"> </i>
+                    </button>
+                    <button onclick="" class="btn btn-danger">
+                        <i class="glyphicon glyphicon-minus"> </i>
+                    </button>
+                </td>
+                <td class="sent" style="line-height:150%; padding-top:5px;">
+                    <div id="{{ sent.id }}" class="deps" style="display:none;"></div>
+                    <table class="sent" id="{{ sent.id }}">
+                        <tr>
+                            {% for word in sent.words %}
+                                <td>
+                                    <table class="word" id="{{ word.id }}"
+                                           style="display:inline-block; width:max-content; padding-right:3px;">
+                                        <tr>
+                                            <td class="word_label"
+                                                style="text-align:center; font-size:9pt; font-family:Consolas; color:{{ word.label_color }}">{{ word.label }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="word_text"
+                                                style="padding-left:10px; padding-right:10px;">{{ word.text }}</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            {% endfor %}
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        {% endfor %}
     </table>
-
-
-
 {% endblock body %}
