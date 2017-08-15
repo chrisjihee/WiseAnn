@@ -104,11 +104,11 @@ def read_text(textname, dirname=os.path.join(BASE_DIR, "data/texts")):
             for sent in text["sents"]:
                 for word in sent["words"]:
                     if word["label"].startswith("N"):
-                        word["label_color"] = "darkgreen"
+                        word["label_color"] = "forestgreen"
                     elif word["label"].startswith("V"):
-                        word["label_color"] = "skyblue"
+                        word["label_color"] = "deepskyblue"
                     else:
-                        word["label_color"] = "gray"
+                        word["label_color"] = "darkslategray"
             return text
     return None
 

@@ -20,9 +20,48 @@
             window.location = "/ZA/";
         };
 
-        const showDeps = function (x) {
-            $("div#" + x + ".deps").slideToggle("slow");
+        const showDeps = function (i) {
+            $("div#" + i + ".deps").slideToggle("slow");
         };
+
+        const addAnte = function (i, x) {
+            $("table#" + i + ".sent .btn-group input:checked").closest(".btn-group").addClass("focused-info bs-callout-info");
+            $("table#" + i + ".sent .btn-group input:not(:checked)").closest(".btn-group").removeClass("focused-info bs-callout-info");
+        };
+
+        const addFocus = function (i, x) {
+            $("table#" + i + ".sent .btn-group input:checked").closest(".btn-group").addClass("focused-success bs-callout-success");
+            $("table#" + i + ".sent .btn-group input:not(:checked)").closest(".btn-group").removeClass("focused-success bs-callout-success");
+        };
+
+        const addZero = function (i, x) {
+            $("#addZeroModel").on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var recipient = button.data('whatever');
+                var modal = $(this);
+                console.log();
+                var word_texts = $("table#" + i + ".sent .btn-group input:checked").siblings().find("td.word_text").map(function () {
+                    return $(this).text();
+                }).toArray();
+                modal.find("#target").text(word_texts.join(" "));
+            });
+            //$(x).prop("disabled", true);
+            //$("table#" + i + ".sent td.word_text").prepend('<button onclick="selectAnt()" class="btn btn-info" style="padding:0">(?)</button> ');
+        };
+
+        const selectAnt = function () {
+            console.log("select antecedent");
+        };
+
+        const delAnnotaion = function (i, x) {
+            console.log($("table#" + i + ".sent"));
+        };
+
+        {% comment %}$(".word").mousedown(function () {
+            $(this).prepend("{");
+        }).mouseup(function () {
+            $(this).append("}");
+        });{% endcomment %}
 
         const test = function () {
             console.log("autosave1 = " + $(":radio[name=autosave]:checked").val());
@@ -34,45 +73,103 @@
         $(function () {
             $("#username").text(username);
             const sent_td = $("td.sent");
-            const max_h = Math.ceil(Math.pow($(".sent").width(), 0.75)) - 25;
             const offset = sent_td.offset().left;
             autosave = $(":radio[name=autosave]:checked").val() === "yes";
             taskdone = $(":radio[name=taskdone]:checked").val() === "yes";
+            var max_h, act_h, h, d;
 
             {% for sent in textcont.sents %}
+                max_h = Math.ceil(Math.pow($("#{{ sent.id }}.sent").width(), 0.75) - Math.pow($("#{{ sent.id }}.sent").width(), 0.95) / 12);
+                act_h = 0;
                 sent_td.width(document.body.clientWidth - 1);
-                $("div#{{ sent.id }}.deps").append('<canvas id="{{ sent.id }}" class="deps" width="' + sent_td.width() + '" height="' + max_h + '" style="position:relative; top:15px;">');
+                $("div#{{ sent.id }}.deps").append('<canvas id="{{ sent.id }}" class="deps" width="' + sent_td.width() + '" height="' + max_h + '" style="position:relative; top:11px;">');
                 {% for word in sent.words %}
                     {% if word.head > 0 %}
-                        linkTwo($("canvas#{{ sent.id }}.deps")[0], offset, $("#{{ sent.id }}.sent #{{ word.id }}.word"), $("#{{ sent.id }}.sent #{{ word.head }}.word"), max_h);
+                        h = linkTwo($("canvas#{{ sent.id }}.deps")[0], offset, $("#{{ sent.id }}.sent #{{ word.id }}.word"), $("#{{ sent.id }}.sent #{{ word.head }}.word"), max_h);
+                        act_h = Math.max(act_h, h);
                     {% endif %}
                 {% endfor %}
+                d = -(max_h - act_h - 5);
+                $("div#{{ sent.id }}.deps").css("height", act_h + 10).css("position", "relative").css("top", d);
             {% endfor %}
 
-            $(".word").mousedown(function () {
-                $(this).prepend("{");
-            }).mouseup(function () {
-                $(this).append("}");
-            });
-
-            $("label").click(function () {
+            $("label.autosave, label.taskdone, label.zerotype").click(function () {
                 $(this).removeClass("btn-default").addClass("btn-primary");
                 $(this).siblings().removeClass("btn-primary").addClass("btn-default");
                 setTimeout(function () {
-                    $("#list").focus();
+                    {#                    $("#list").focus();#}
                     autosave = $(":radio[name=autosave]:checked").val() === "yes";
                     taskdone = $(":radio[name=taskdone]:checked").val() === "yes";
                 }, 1);
             });
+
+            $("label.word").click(function () {
+                var sent_id = $(this).parents().closest("table.sent").attr("id")
+                setTimeout(function () {
+                    {#                    $("td#" + sent_id + ".cmd button.cmd2").focus();#}
+                }, 1);
+            });
+
+            //$("input[name=autosave]").attr("disabled", true);
         });
     </script>
+    <style>
+        .focused-info {
+            border-color: #ccc;
+            border-color: rgba(82, 168, 236, .8);
+            outline: 0;
+            outline: thin dotted \9;
+            -webkit-box-shadow: 0 0 8px rgba(82, 168, 236, .6);
+            box-shadow: 0 0 8px rgba(82, 168, 236, .6);
+        }
+
+        .focused-success {
+            border-color: #ccc;
+            border-color: rgba(90, 236, 98, 0.8);
+            outline: 0;
+            outline: thin dotted \9;
+            -webkit-box-shadow: 0 0 8px rgba(90, 236, 98, .6);
+            box-shadow: 0 0 8px rgba(90, 236, 98, .6);
+        }
+
+        .bs-callout {
+            border: 1px solid transparent;
+            border-left-width: 7px;
+            border-radius: 5px;
+        }
+
+        .bs-callout-info {
+            border: 1px solid #1b809e;
+            border-left-width: 7px;
+            border-left-color: #1b809e;
+        }
+
+        .bs-callout-success {
+            border: 1px solid #5b9d5f;
+            border-left-width: 7px;
+            border-left-color: #5b9d5f;
+        }
+
+        .bs-callout-danger {
+            border: 1px solid #ce4844;
+            border-left-width: 7px;
+            border-left-color: #ce4844;
+        }
+
+        .bs-callout-warning {
+            border: 1px solid #aa6708;
+            border-left-width: 7px;
+            border-left-color: #aa6708;
+        }
+
+    </style>
 {% endblock script_header %}
 
 {% block header %}
 {% endblock header %}
 
 {% block body %}
-    <div style="margin-top:10px; margin-left:10px; margin-bottom:30px;">
+    <div style="margin-top:10px; margin-left:10px; margin-bottom:30px; color:black">
         <div style="display:inline-block; font-size:16pt; font-weight:bold; position:relative; top:3px; margin-right:10px;">
             생략어 복원 Annotation
         </div>
@@ -85,12 +182,12 @@
 
         <div class="btn-group" data-toggle="buttons" style="position:relative; top:-4px;">
             <label class="autosave btn btn-primary active">
-                <input type="radio" name="autosave" value="yes" checked><i
+                <input type="radio" name="autosave" style="display:none" value="yes" checked><i
                     class="glyphicon glyphicon-floppy-saved"><span
                     style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">저장</span></i>
             </label>
             <label class="autosave btn btn-default">
-                <input type="radio" name="autosave" value="no"><i
+                <input type="radio" name="autosave" style="display:none" value="no"><i
                     class="glyphicon glyphicon-floppy-remove"><span
                     style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">연습</span></i>
             </label>
@@ -98,11 +195,13 @@
 
         <div class="btn-group" data-toggle="buttons" style="position:relative; top:-4px;">
             <label class="taskdone btn btn-primary active">
-                <input type="radio" name="taskdone" value="no" checked><i class="glyphicon glyphicon-pencil"><span
+                <input type="radio" name="taskdone" style="display:none" value="no" checked><i
+                    class="glyphicon glyphicon-pencil"><span
                     style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">진행</span></i>
             </label>
             <label class="taskdone btn btn-default">
-                <input type="radio" name="taskdone" value="yes"><i class="glyphicon glyphicon-lock"><span
+                <input type="radio" name="taskdone" style="display:none" value="yes"><i
+                    class="glyphicon glyphicon-lock"><span
                     style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">완료</span></i>
             </label>
         </div>
@@ -129,43 +228,88 @@
         </button>
     </div>
 
-    <table class="table table-condensed table-striped list">
+    <table class="table table-condensed table-striped list" style="display:inline-block; width:max-content;">
         <tr>
-            <th style="width:50px; text-align:right; padding-right:8px;">idx</th>
-            <th style="width:50px; text-align:center;">cmd</th>
+            <th style="text-align:right; padding-right:8px;">id</th>
+            <th style="text-align:center;">command</th>
             <th style="text-align:center;">sentence</th>
         </tr>
         {% for sent in textcont.sents %}
             <tr>
                 <th style="text-align:right; vertical-align:top; padding-top:5px">{{ sent.id }}</th>
-                <td style="text-align:right; vertical-align:top; padding-top:5px">
-                    <button onclick="showDeps({{ sent.id }})" class="btn btn-info">
-                        <i class="glyphicon glyphicon-search"> </i>
-                    </button>
-                    <button onclick="" class="btn btn-primary">
-                        <i class="glyphicon glyphicon-plus"> </i>
-                    </button>
-                    <button onclick="" class="btn btn-danger">
-                        <i class="glyphicon glyphicon-minus"> </i>
-                    </button>
+                <td class="cmd" id="{{ sent.id }}" style="text-align:right; vertical-align:top; padding-top:5px">
+                    <table align="center">
+                        <tr>
+                            <td style="padding:1px">
+                                <button onclick="showDeps({{ sent.id }})" class="cmd1 btn btn-sm btn-warning">
+                                    <i class="glyphicon glyphicon-search"><span
+                                            style="padding-left:3px; font-size:9.5pt; position:relative; top:-2px;">의존성</span></i>
+                                </button>
+                            </td>
+                            <td style="padding:1px">
+                                <button onclick="addAnte({{ sent.id }}, this)" class="cmd2 btn btn-sm btn-primary">
+                                    <i class="glyphicon glyphicon-tag"><span
+                                            style="padding-left:3px; font-size:9.5pt; position:relative; top:-2px;">선행어</span></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding:1px">
+                                <button onclick="addFocus({{ sent.id }}, this)" class="cmd3 btn btn-sm btn-success">
+                                    <i class="glyphicon glyphicon-tag"><span
+                                            style="padding-left:3px; font-size:9.5pt; position:relative; top:-2px;">포커스</span></i>
+                                </button>
+                            </td>
+                            <td style="padding:1px">
+                                <button onclick="addZero({{ sent.id }}, this)" class="cmd4 btn btn-sm btn-info"
+                                        data-toggle="modal" data-target="#addZeroModel" data-whatever="test">
+                                    <i class="glyphicon glyphicon-tag"><span
+                                            style="padding-left:3px; font-size:9.5pt; position:relative; top:-2px;">생략어</span></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
                 </td>
-                <td class="sent" style="line-height:150%; padding-top:5px;">
-                    <div id="{{ sent.id }}" class="deps" style="display:none;"></div>
+                <td class="sent" id="{{ sent.id }}" style="line-height:150%; padding-top:5px; vertical-align:middle;">
+                    <div class="deps" id="{{ sent.id }}" style="display:none;"></div>
                     <table class="sent" id="{{ sent.id }}">
                         <tr>
                             {% for word in sent.words %}
                                 <td>
-                                    <table class="word" id="{{ word.id }}"
-                                           style="display:inline-block; width:max-content; padding-right:3px;">
-                                        <tr>
-                                            <td class="word_label"
-                                                style="text-align:center; font-size:9pt; font-family:Consolas; color:{{ word.label_color }}">{{ word.label }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="word_text"
-                                                style="font-size:10pt; padding-left:10px; padding-right:10px;">{{ word.text }}</td>
-                                        </tr>
-                                    </table>
+                                    <div class="btn-group bs-callout  {% comment %}focused bs-callout-info{% endcomment %}"
+                                         data-toggle="buttons"
+                                         style="display:inline-block; width:max-content; padding:5px; margin-right:8px;">
+                                        <label class="word btn btn-default"
+                                               style="padding:5px 3px 0 3px;">
+                                            <input type="checkbox" style="display:none">
+                                            <table class="word" id="{{ word.id }}"
+                                                   style="display:inline-block; width:max-content; padding:0; margin:0;">
+                                                <tr>
+                                                    <td class="word_label"
+                                                        style="text-align:center; font-size:9pt; font-family:Consolas; color:{{ word.label_color }}">{{ word.label }}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="word_text"
+                                                        style="font-size:10pt; padding-left:10px; padding-right:10px;">{{ word.text }}</td>
+                                                </tr>
+                                            </table>
+                                        </label>
+                                        {% comment %}<label class="word btn btn-default">
+                                            <input type="checkbox">
+                                            <table class="word" id="{{ word.id }}"
+                                                   style="display:inline-block; width:max-content; padding:0; margin:0;">
+                                                <tr>
+                                                    <td class="word_label"
+                                                        style="text-align:center; font-size:9pt; font-family:Consolas; color:{{ word.label_color }}">{{ word.label }}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="word_text"
+                                                        style="font-size:10pt; padding-left:10px; padding-right:10px;">{{ word.text }}</td>
+                                                </tr>
+                                            </table>
+                                        </label>{% endcomment %}
+                                    </div>
+
                                 </td>
                             {% endfor %}
                         </tr>
@@ -176,4 +320,49 @@
     </table>
 
     <div style="padding-bottom:300px"></div>
+
+    <div class="modal fade" id="addZeroModel" tabindex="-1" role="dialog" aria-labelledby="addZeroModelLabel" style="top:150px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <h4 class="modal-title">생략어 추가</h4>
+                </div>
+                <div class="modal-body">
+                    <table class="table list">
+                        <tr>
+                            <th style="width:100px">대상 텍스트</th>
+                            <td id="target">?</td>
+                        </tr>
+                        <tr>
+                            <th style="width:100px">생략어 종류</th>
+                            <td>
+                                <div class="btn-group" data-toggle="buttons" style="position:relative; top:4px; margin-bottom: 10px;">
+                                    <label class="zerotype btn btn-primary active">
+                                        <input type="radio" name="zerotype" style="display:none" value="yes" checked><i
+                                            class="glyphicon glyphicon-comment"><span
+                                            style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">주어</span></i>
+                                    </label>
+                                    <label class="zerotype btn btn-default">
+                                        <input type="radio" name="zerotype" style="display:none" value="no"><i
+                                            class="glyphicon glyphicon-comment"><span
+                                            style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">목적어</span></i>
+                                    </label>
+                                    <label class="zerotype btn btn-default">
+                                        <input type="radio" name="zerotype" style="display:none" value="no"><i
+                                            class="glyphicon glyphicon-comment"><span
+                                            style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">관형어</span></i>
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">취소</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">적용</button>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock body %}

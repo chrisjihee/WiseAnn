@@ -7,11 +7,13 @@
  * @param h 높이
  */
 function linkTwo(canvas, offset, a, b, h) {
-    drawCurvedArrow(canvas, getCurvedPoints({
+    const pts = getCurvedPoints({
         sx: a.offset().left + a.width() / 2 - offset,
         ex: b.offset().left + b.width() / 2 - offset,
         sy: h - 5
-    }));
+    });
+    drawCurvedArrow(canvas, pts);
+    return Math.ceil(pts.h);
 }
 
 /**
@@ -56,7 +58,8 @@ function drawCurvedArrow(canvas, pts) {
  * @returns {*}
  */
 function getCurvedPoints(pts) {
-    const h = Math.pow(pts.ex - pts.sx, 0.75);
+    const h = Math.pow(pts.ex - pts.sx, 0.75) - Math.pow(pts.ex - pts.sx, 0.95) / 12; // 높이 결정
+    pts.h = h;
     pts.sx = pts.sx - 5; // 커브의 시작점 약간 이동
     pts.ex = pts.ex - 12; // 커브의 끝점 약간 이동
     pts.ey = pts.sy - 6;
