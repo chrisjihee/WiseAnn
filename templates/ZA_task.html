@@ -1,9 +1,66 @@
 {% extends "index.html" %}
 
 {% block script_header %}
+    <style type="text/css">
+        .bs-callout {
+            border: 1px solid transparent;
+            border-left-width: 7px;
+            border-radius: 5px;
+        }
+
+        .bs-callout-info {
+            border: 1px solid #1b809e;
+            border-left-width: 7px;
+            border-left-color: #1b809e;
+        }
+
+        .bs-callout-success {
+            border: 1px solid #5b9d5f;
+            border-left-width: 7px;
+            border-left-color: #5b9d5f;
+        }
+
+        .bs-callout-danger {
+            border: 1px solid #ce4844;
+            border-left-width: 7px;
+            border-left-color: #ce4844;
+        }
+
+        .bs-callout-warning {
+            border: 1px solid #aa6708;
+            border-left-width: 7px;
+            border-left-color: #aa6708;
+        }
+
+        .focused-info {
+            border-color: #ccc;
+            border-color: rgba(82, 168, 236, .8);
+            outline: 0;
+            outline: thin dotted \9;
+            -webkit-box-shadow: 0 0 8px rgba(82, 168, 236, .6);
+            box-shadow: 0 0 8px rgba(82, 168, 236, .6);
+        }
+
+        .focused-success {
+            border-color: #ccc;
+            border-color: rgba(90, 236, 98, 0.8);
+            outline: 0;
+            outline: thin dotted \9;
+            -webkit-box-shadow: 0 0 8px rgba(90, 236, 98, .6);
+            box-shadow: 0 0 8px rgba(90, 236, 98, .6);
+        }
+    </style>
+
     <script type="text/javascript">
         var autosave = undefined;
         var taskdone = undefined;
+
+        const test = function () {
+            console.log("autosave1 = " + $(":radio[name=autosave]:checked").val());
+            console.log("autosave2 = " + autosave);
+            console.log("taskdone1 = " + $(":radio[name=taskdone]:checked").val());
+            console.log("taskdone2 = " + taskdone);
+        };
 
         if (!getAuthCode())
             window.location = "/login/";
@@ -57,19 +114,6 @@
             console.log($("table#" + i + ".sent"));
         };
 
-        {% comment %}$(".word").mousedown(function () {
-            $(this).prepend("{");
-        }).mouseup(function () {
-            $(this).append("}");
-        });{% endcomment %}
-
-        const test = function () {
-            console.log("autosave1 = " + $(":radio[name=autosave]:checked").val());
-            console.log("autosave2 = " + autosave);
-            console.log("taskdone1 = " + $(":radio[name=taskdone]:checked").val());
-            console.log("taskdone2 = " + taskdone);
-        };
-
         $(function () {
             $("#username").text(username);
             const sent_td = $("td.sent");
@@ -103,66 +147,16 @@
                 }, 1);
             });
 
+            {% comment %}
             $("label.word").click(function () {
                 var sent_id = $(this).parents().closest("table.sent").attr("id")
                 setTimeout(function () {
                     {#                    $("td#" + sent_id + ".cmd button.cmd2").focus();#}
                 }, 1);
             });
-
-            //$("input[name=autosave]").attr("disabled", true);
+            {% endcomment %}
         });
     </script>
-    <style>
-        .focused-info {
-            border-color: #ccc;
-            border-color: rgba(82, 168, 236, .8);
-            outline: 0;
-            outline: thin dotted \9;
-            -webkit-box-shadow: 0 0 8px rgba(82, 168, 236, .6);
-            box-shadow: 0 0 8px rgba(82, 168, 236, .6);
-        }
-
-        .focused-success {
-            border-color: #ccc;
-            border-color: rgba(90, 236, 98, 0.8);
-            outline: 0;
-            outline: thin dotted \9;
-            -webkit-box-shadow: 0 0 8px rgba(90, 236, 98, .6);
-            box-shadow: 0 0 8px rgba(90, 236, 98, .6);
-        }
-
-        .bs-callout {
-            border: 1px solid transparent;
-            border-left-width: 7px;
-            border-radius: 5px;
-        }
-
-        .bs-callout-info {
-            border: 1px solid #1b809e;
-            border-left-width: 7px;
-            border-left-color: #1b809e;
-        }
-
-        .bs-callout-success {
-            border: 1px solid #5b9d5f;
-            border-left-width: 7px;
-            border-left-color: #5b9d5f;
-        }
-
-        .bs-callout-danger {
-            border: 1px solid #ce4844;
-            border-left-width: 7px;
-            border-left-color: #ce4844;
-        }
-
-        .bs-callout-warning {
-            border: 1px solid #aa6708;
-            border-left-width: 7px;
-            border-left-color: #aa6708;
-        }
-
-    </style>
 {% endblock script_header %}
 
 {% block header %}
@@ -276,7 +270,7 @@
                         <tr>
                             {% for word in sent.words %}
                                 <td>
-                                    <div class="btn-group bs-callout  {% comment %}focused bs-callout-info{% endcomment %}"
+                                    <div class="btn-group bs-callout{% comment %} bs-callout-info focused{% endcomment %}"
                                          data-toggle="buttons"
                                          style="display:inline-block; width:max-content; padding:5px; margin-right:8px;">
                                         <label class="word btn btn-default"
@@ -321,7 +315,8 @@
 
     <div style="padding-bottom:300px"></div>
 
-    <div class="modal fade" id="addZeroModel" tabindex="-1" role="dialog" aria-labelledby="addZeroModelLabel" style="top:150px;">
+    <div class="modal fade" id="addZeroModel" tabindex="-1" role="dialog" aria-labelledby="addZeroModelLabel"
+         style="top:150px;">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -337,7 +332,8 @@
                         <tr>
                             <th style="width:100px">생략어 종류</th>
                             <td>
-                                <div class="btn-group" data-toggle="buttons" style="position:relative; top:4px; margin-bottom: 10px;">
+                                <div class="btn-group" data-toggle="buttons"
+                                     style="position:relative; top:4px; margin-bottom: 10px;">
                                     <label class="zerotype btn btn-primary active">
                                         <input type="radio" name="zerotype" style="display:none" value="yes" checked><i
                                             class="glyphicon glyphicon-comment"><span
