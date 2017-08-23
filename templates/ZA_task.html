@@ -2,52 +2,34 @@
 
 {% block script_header %}
     <style type="text/css">
-        .bs-callout {
+        .tagged-none {
             border: 1px solid transparent;
             border-left-width: 7px;
             border-radius: 5px;
         }
 
-        .bs-callout-info {
-            border: 1px solid #1b809e;
+        .tagged-fade {
+            border: 1px solid lightgray;
             border-left-width: 7px;
-            border-left-color: #1b809e;
+            border-radius: 5px;
         }
 
-        .bs-callout-success {
-            border: 1px solid #5b9d5f;
-            border-left-width: 7px;
-            border-left-color: #5b9d5f;
-        }
-
-        .bs-callout-danger {
-            border: 1px solid #ce4844;
-            border-left-width: 7px;
-            border-left-color: #ce4844;
-        }
-
-        .bs-callout-warning {
-            border: 1px solid #aa6708;
-            border-left-width: 7px;
-            border-left-color: #aa6708;
-        }
-
-        .focused-info {
+        .tagged-primary {
             border-color: #ccc;
-            border-color: rgba(82, 168, 236, .8);
+            border-color: rgba(56, 124, 183, 0.8);
             outline: 0;
             outline: thin dotted \9;
-            -webkit-box-shadow: 0 0 8px rgba(82, 168, 236, .6);
-            box-shadow: 0 0 8px rgba(82, 168, 236, .6);
+            -webkit-box-shadow: 0 0 8px rgba(56, 124, 183, .6);
+            box-shadow: 0 0 8px rgba(56, 124, 183, .6);
         }
 
-        .focused-success {
+        .tagged-success {
             border-color: #ccc;
-            border-color: rgba(90, 236, 98, 0.8);
+            border-color: rgba(82, 171, 82, 0.8);
             outline: 0;
             outline: thin dotted \9;
-            -webkit-box-shadow: 0 0 8px rgba(90, 236, 98, .6);
-            box-shadow: 0 0 8px rgba(90, 236, 98, .6);
+            -webkit-box-shadow: 0 0 8px rgba(82, 171, 82, .6);
+            box-shadow: 0 0 8px rgba(82, 171, 82, .6);
         }
     </style>
 
@@ -82,13 +64,13 @@
         };
 
         const addAnte = function (i, x) {
-            $("table#" + i + ".sent .btn-group input:checked").closest(".btn-group").addClass("focused-info bs-callout-info");
-            $("table#" + i + ".sent .btn-group input:not(:checked)").closest(".btn-group").removeClass("focused-info bs-callout-info");
+            $("table#" + i + ".sent .btn-group input:checked").closest(".btn-group").toggleClass("tagged-primary");
+            $("table#" + i + ".sent .btn-group input:checked").parent().toggleClass("active");
         };
 
         const addFocus = function (i, x) {
-            $("table#" + i + ".sent .btn-group input:checked").closest(".btn-group").addClass("focused-success bs-callout-success");
-            $("table#" + i + ".sent .btn-group input:not(:checked)").closest(".btn-group").removeClass("focused-success bs-callout-success");
+            $("table#" + i + ".sent .btn-group input:checked").closest(".btn-group").parent().toggleClass("tagged-success");
+            //$("table#" + i + ".sent .btn-group input:not(:checked)").closest(".btn-group").removeClass("tagged-success tagged-success");
         };
 
         const addZero = function (i, x) {
@@ -269,26 +251,24 @@
                     <table class="sent" id="{{ sent.id }}">
                         <tr>
                             {% for word in sent.words %}
-                                <td>
-                                    <div class="btn-group bs-callout{% comment %} bs-callout-info focused{% endcomment %}"
-                                         data-toggle="buttons"
-                                         style="display:inline-block; width:max-content; padding:5px; margin-right:8px;">
-                                        <label class="word btn btn-default"
-                                               style="padding:5px 3px 0 3px;">
-                                            <input type="checkbox" style="display:none">
-                                            <table class="word" id="{{ word.id }}"
-                                                   style="display:inline-block; width:max-content; padding:0; margin:0;">
-                                                <tr>
-                                                    <td class="word_label"
-                                                        style="text-align:center; font-size:9pt; font-family:Consolas; color:{{ word.label_color }}">{{ word.label }}</td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="word_text"
-                                                        style="font-size:10pt; padding-left:10px; padding-right:10px;">{{ word.text }}</td>
-                                                </tr>
-                                            </table>
-                                        </label>
-                                        {% comment %}<label class="word btn btn-default">
+                                <td style="padding-right:8px;">
+                                    <div class="btn-group tagged-none" style="padding:3px">
+                                        <div class="btn-group tagged-none" data-toggle="buttons" style="padding:3px">
+                                            <label class="word btn btn-default" style="padding:3px 1px 0 1px">
+                                                <input type="checkbox" style="display:none">
+                                                <table class="word" id="{{ word.id }}"
+                                                       style="display:inline-block; width:max-content; padding:0; margin:0">
+                                                    <tr>
+                                                        <td class="word_label"
+                                                            style="text-align:center; font-size:9pt; font-family:Consolas; color:{{ word.label_color }}">{{ word.label }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="word_text"
+                                                            style="font-size:10pt; padding-left:10px; padding-right:10px;">{{ word.text }}</td>
+                                                    </tr>
+                                                </table>
+                                            </label>
+                                            {% comment %}<label class="word btn btn-default">
                                             <input type="checkbox">
                                             <table class="word" id="{{ word.id }}"
                                                    style="display:inline-block; width:max-content; padding:0; margin:0;">
@@ -302,8 +282,8 @@
                                                 </tr>
                                             </table>
                                         </label>{% endcomment %}
+                                        </div>
                                     </div>
-
                                 </td>
                             {% endfor %}
                         </tr>
