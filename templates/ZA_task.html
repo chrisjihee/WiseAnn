@@ -36,13 +36,7 @@
     <script type="text/javascript">
         var autosave = undefined;
         var taskdone = undefined;
-
-        const test = function () {
-            console.log("autosave1 = " + $(":radio[name=autosave]:checked").val());
-            console.log("autosave2 = " + autosave);
-            console.log("taskdone1 = " + $(":radio[name=taskdone]:checked").val());
-            console.log("taskdone2 = " + taskdone);
-        };
+        var zerotype = undefined;
 
         if (!getAuthCode())
             window.location = "/login/";
@@ -54,6 +48,15 @@
                 req.setRequestHeader("Authorization", authcode);
             }
         });
+
+        const test = function () {
+            console.log("autosave1 = " + $(":radio[name=autosave]:checked").val());
+            console.log("autosave2 = " + autosave);
+            console.log("taskdone1 = " + $(":radio[name=taskdone]:checked").val());
+            console.log("taskdone2 = " + taskdone);
+            console.log("zerotype1 = " + $(":radio[name=zerotype]:checked").val());
+            console.log("zerotype2 = " + zerotype);
+        };
 
         const goList = function () {
             window.location = "/ZA/";
@@ -74,16 +77,6 @@
         };
 
         const addZero = function (i, x) {
-            $("#addZeroModel").on('show.bs.modal', function (event) {
-                var button = $(event.relatedTarget);
-                var recipient = button.data('whatever');
-                var modal = $(this);
-                console.log();
-                var word_texts = $("table#" + i + ".sent .btn-group input:checked").siblings().find("td.word_text").map(function () {
-                    return $(this).text();
-                }).toArray();
-                modal.find("#target").text(word_texts.join(" "));
-            });
             //$(x).prop("disabled", true);
             //$("table#" + i + ".sent td.word_text").prepend('<button onclick="selectAnt()" class="btn btn-info" style="padding:0">(?)</button> ');
         };
@@ -102,6 +95,7 @@
             const offset = sent_td.offset().left;
             autosave = $(":radio[name=autosave]:checked").val() === "yes";
             taskdone = $(":radio[name=taskdone]:checked").val() === "yes";
+            zerotype = $(":radio[name=zerotype]:checked").val();
             var max_h, act_h, h, d;
 
             {% for sent in textcont.sents %}
@@ -110,7 +104,7 @@
                 sent_td.width(document.body.clientWidth - 1);
                 $("div#{{ sent.id }}.deps").append('<canvas id="{{ sent.id }}" class="deps" width="' + sent_td.width() + '" height="' + max_h + '" style="position:relative; top:11px;">');
                 {% for word in sent.words %}
-                    {% if word.head > 0 %}
+                    {% if word.head >= 0 %}
                         h = linkTwo($("canvas#{{ sent.id }}.deps")[0], offset, $("#{{ sent.id }}.sent #{{ word.id }}.word"), $("#{{ sent.id }}.sent #{{ word.head }}.word"), max_h);
                         act_h = Math.max(act_h, h);
                     {% endif %}
@@ -123,20 +117,39 @@
                 $(this).removeClass("btn-default").addClass("btn-primary");
                 $(this).siblings().removeClass("btn-primary").addClass("btn-default");
                 setTimeout(function () {
-                    {#                    $("#list").focus();#}
                     autosave = $(":radio[name=autosave]:checked").val() === "yes";
                     taskdone = $(":radio[name=taskdone]:checked").val() === "yes";
+                    zerotype = $(":radio[name=zerotype]:checked").val();
                 }, 1);
             });
 
-            {% comment %}
             $("label.word").click(function () {
                 var sent_id = $(this).parents().closest("table.sent").attr("id")
                 setTimeout(function () {
-                    {#                    $("td#" + sent_id + ".cmd button.cmd2").focus();#}
+                    $("td#" + sent_id + ".cmd button.cmd4").focus();
                 }, 1);
             });
-            {% endcomment %}
+
+            $("#addZeroModel").on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var recipient = button.data('whatever');
+                var modal = $(this);
+                var word_texts = $("table#" + recipient + ".sent .btn-group input:checked").siblings().find("td.word_text").map(function () {
+                    return $(this).text();
+                }).toArray();
+                modal.find("#target").text(word_texts.join(" "));
+            });
+
+            $("#addZeroModel").on('hide.bs.modal', function (event) {
+                console.log($("#target").text());
+                console.log("zerotype3 = " + zerotype);
+            });
+
+            $('[data-toggle="popover"]').popover({
+                container: 'body',
+                template: '<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>',
+                trigger: "click"
+            });
         });
     </script>
 {% endblock script_header %}
@@ -238,7 +251,7 @@
                             </td>
                             <td style="padding:1px">
                                 <button onclick="addZero({{ sent.id }}, this)" class="cmd4 btn btn-sm btn-info"
-                                        data-toggle="modal" data-target="#addZeroModel" data-whatever="test">
+                                        data-toggle="modal" data-target="#addZeroModel" data-whatever="{{ sent.id }}">
                                     <i class="glyphicon glyphicon-tag"><span
                                             style="padding-left:3px; font-size:9.5pt; position:relative; top:-2px;">생략어</span></i>
                                 </button>
@@ -254,7 +267,13 @@
                                 <td style="padding-right:8px;">
                                     <div class="btn-group tagged-none" style="padding:3px">
                                         <div class="btn-group tagged-none" data-toggle="buttons" style="padding:3px">
-                                            <label class="word btn btn-default" style="padding:3px 1px 0 1px">
+                                            <label class="word btn btn-default" style="padding:3px 1px 0 1px"
+                                                   data-toggle="popover" data-placement="top"
+                                                   data-content='<button onclick="addZero({{ sent.id }}, this)" class="cmd4 btn btn-sm btn-info"
+                                        data-toggle="modal" data-target="#addZeroModel" data-whatever="{{ sent.id }}">
+                                    <i class="glyphicon glyphicon-tag"><span
+                                            style="padding-left:3px; font-size:9.5pt; position:relative; top:-2px;">생략어</span></i>
+                                </button>' data-html="true">
                                                 <input type="checkbox" style="display:none">
                                                 <table class="word" id="{{ word.id }}"
                                                        style="display:inline-block; width:max-content; padding:0; margin:0">
@@ -268,20 +287,6 @@
                                                     </tr>
                                                 </table>
                                             </label>
-                                            {% comment %}<label class="word btn btn-default">
-                                            <input type="checkbox">
-                                            <table class="word" id="{{ word.id }}"
-                                                   style="display:inline-block; width:max-content; padding:0; margin:0;">
-                                                <tr>
-                                                    <td class="word_label"
-                                                        style="text-align:center; font-size:9pt; font-family:Consolas; color:{{ word.label_color }}">{{ word.label }}</td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="word_text"
-                                                        style="font-size:10pt; padding-left:10px; padding-right:10px;">{{ word.text }}</td>
-                                                </tr>
-                                            </table>
-                                        </label>{% endcomment %}
                                         </div>
                                     </div>
                                 </td>
@@ -306,7 +311,7 @@
                 <div class="modal-body">
                     <table class="table list">
                         <tr>
-                            <th style="width:100px">대상 텍스트</th>
+                            <th style="width:100px">지배소</th>
                             <td id="target">?</td>
                         </tr>
                         <tr>
@@ -315,22 +320,26 @@
                                 <div class="btn-group" data-toggle="buttons"
                                      style="position:relative; top:4px; margin-bottom: 10px;">
                                     <label class="zerotype btn btn-primary active">
-                                        <input type="radio" name="zerotype" style="display:none" value="yes" checked><i
+                                        <input type="radio" name="zerotype" style="display:none" value="s" checked><i
                                             class="glyphicon glyphicon-comment"><span
                                             style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">주어</span></i>
                                     </label>
                                     <label class="zerotype btn btn-default">
-                                        <input type="radio" name="zerotype" style="display:none" value="no"><i
+                                        <input type="radio" name="zerotype" style="display:none" value="o"><i
                                             class="glyphicon glyphicon-comment"><span
-                                            style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">목적어</span></i>
+                                            style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">목적어-및-필수-부사어</span></i>
                                     </label>
                                     <label class="zerotype btn btn-default">
-                                        <input type="radio" name="zerotype" style="display:none" value="no"><i
+                                        <input type="radio" name="zerotype" style="display:none" value="a"><i
                                             class="glyphicon glyphicon-comment"><span
                                             style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">관형어</span></i>
                                     </label>
                                 </div>
                             </td>
+                        </tr>
+                        <tr>
+                            <th style="width:100px">선행어</th>
+                            <td id="target">?</td>
                         </tr>
                     </table>
                 </div>

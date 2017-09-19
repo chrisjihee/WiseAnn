@@ -18,6 +18,24 @@ guide["ZA_no_task"] = "존재하지 않는 문서입니다. 이전 페이지로 
 guide["ZA_no_user"] = "로그인 정보가 없습니다. 페이지를 다시 로드하세요."
 
 
+def read_text(textname, dirname=os.path.join(BASE_DIR, "data/texts")):
+    if os.path.isdir(dirname):
+        filename = os.path.join(dirname, textname + ".ann.json")
+        if os.path.isfile(filename):
+            data = open(filename).read()
+            text = json.loads(data)
+            for sent in text["sents"]:
+                for word in sent["words"]:
+                    if word["label"].startswith("N"):
+                        word["label_color"] = "forestgreen"
+                    elif word["label"].startswith("V"):
+                        word["label_color"] = "deepskyblue"
+                    else:
+                        word["label_color"] = "darkslategray"
+            return text
+    return None
+
+
 @never_cache
 def task(request, textname):
     user = auth_user(request)
@@ -61,7 +79,7 @@ def index(request):
                                                  "texts_yet_finished": texts_yet_finished})
         # return JsonResponse({"status": 200, "msg": "OK -- OK?"})
     else:
-        return render(request, 'ZA_index.html', {"guide": guide["ZA"] + msg})
+        return render(request, 'ZA_index.html', {"guide": guide["ZA_no_user"] + msg})
 
 
 @csrf_exempt
@@ -93,24 +111,6 @@ def reset_users(filename=os.path.join(BASE_DIR, "data/users.json")):
     else:
         print(">>> [ZA.views.reset_users] No file: %s" % filename)
     return num
-
-
-def read_text(textname, dirname=os.path.join(BASE_DIR, "data/texts")):
-    if os.path.isdir(dirname):
-        filename = os.path.join(dirname, textname + ".ann.json")
-        if os.path.isfile(filename):
-            data = open(filename).read()
-            text = json.loads(data)
-            for sent in text["sents"]:
-                for word in sent["words"]:
-                    if word["label"].startswith("N"):
-                        word["label_color"] = "forestgreen"
-                    elif word["label"].startswith("V"):
-                        word["label_color"] = "deepskyblue"
-                    else:
-                        word["label_color"] = "darkslategray"
-            return text
-    return None
 
 
 def reset_texts(dirname=os.path.join(BASE_DIR, "data/texts")):
