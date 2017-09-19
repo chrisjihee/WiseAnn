@@ -28,9 +28,13 @@ def get_user(username, password=None):
 
 def auth_user(request):
     global user
-    if "HTTP_AUTHORIZATION" in request.META:
-        (u, p) = decodestring(request.META["HTTP_AUTHORIZATION"]).split(":", 2)
-        user = get_user(u, p)
+    if "HTTP_AUTHORIZATION" in request.META and len(request.META["HTTP_AUTHORIZATION"]) > 0:
+        authcode = decodestring(request.META["HTTP_AUTHORIZATION"])
+        parts = authcode.split(":", 2)
+        if len(parts) == 2:
+            (u, p) = authcode.split(":", 2)
+            user = get_user(u, p)
+            return user
     return user
 
 

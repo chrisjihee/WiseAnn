@@ -119,7 +119,7 @@ def reset_texts(dirname=os.path.join(BASE_DIR, "data/texts")):
         for x in Text.objects.all():
             x.delete()
         for x in sorted(os.listdir(dirname)):
-            Text(textname=x.replace(".txt", "")).save()
+            Text(textname=x.split(".")[0]).save()
             num += 1
         print(">>> [ZA.views.reset_texts] Insert: %d texts" % num)
     else:
