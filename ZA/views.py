@@ -38,6 +38,7 @@ def read_text(textname, dirname=os.path.join(BASE_DIR, "data/texts")):
 
 @never_cache
 def task(request, textname):
+    print("textname = " + textname)
     user = auth_user(request)
     print(">>>>>(1)", user)
     print(">>>>>(2.1)")
@@ -50,6 +51,7 @@ def task(request, textname):
         try:
             print(">>>>>(3.1)")
             textname = Text.objects.get(textname=textname).textname
+            print(">>>>>(3.1.5)")
             textcont = read_text(textname)
             print(">>>>>(3.2)")
             return render(request, 'ZA_task.html', {"guide": guide["ZA_task"] + msg,

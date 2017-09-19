@@ -8,5 +8,5 @@ urlpatterns = [
     url(r'^api/reset/', views.reset, name='reset'),
     # Page view
     url(r'^$', views.index, name='index'),
-    url(r'^(?P<textname>.+)', views.task, name='task_view'),
+    url(r'^(?P<textname>[^/]+)$', views.task, name='task_view'),
 ]
