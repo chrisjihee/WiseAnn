@@ -55,8 +55,10 @@ def task(request, textname):
             textcont = read_text(textname)
             print(">>>>>(3.2)")
             return render(request, 'ZA_task.html', {"guide": guide["ZA_task"] + msg,
+                                                    "title": "[title]",
                                                     "textname": textname,
-                                                    "textcont": textcont})
+                                                    "textcont": textcont,
+                                                    "textcont2": json.dumps(textcont)})
         except (KeyError, Text.DoesNotExist):
             return render(request, 'ZA_task.html', {"guide": guide["ZA_no_task"] + msg})
     else:
