@@ -34,16 +34,28 @@
     </style>
 
     <script type="text/javascript">
+        var entities = JSON.parse("{{ entities|escapejs }}");
+        var relations = JSON.parse("{{ relations|escapejs }}");
+
         var title = "{{ title|safe }}";
-        var textcont2 = {# {{ textcont2|safe }} #} JSON.parse("{{ textcont2|escapejs }}");
+        var textcont = {# {{ textcont2|safe }} #} JSON.parse("{{ textcont2|escapejs }}");
 
         var autosave = undefined;
         var taskdone = undefined;
         var zerotype = undefined;
         var antecand = undefined;
         var antecedents = {};
+        var zeroanaphora = {};
+
         antecedents["[TITLE]"] = {ant_text: title, ant_sid: -1, ant_wid: -1, ant_is_title: 1};
         antecedents["[UNKNOWN]"] = {ant_text: "[Unknown]", ant_sid: -1, ant_wid: -1, ant_is_title: 0};
+        textcont["sents"].forEach(function (x) {
+            zeroanaphora[x["id"]] = {};
+        });
+        console.log("antecedents = ", antecedents);
+        console.log("zeroanaphora = ", zeroanaphora);
+        console.log("entities = ", entities);
+        console.log("relations = ", relations);
 
         if (!getAuthCode())
             window.location = "/login/";
@@ -76,6 +88,13 @@
         };
 
         $(function () {
+            for (var x in entities) {
+                var i = entities[x]["ant_sid"];
+                var j = entities[x]["ant_wid"];
+                if (i >= 0 && j >= 0)
+                    addAnte(i, j);
+            }
+
             $("#username").text(username);
             const sent_td = $("td.sent");
             const offset = sent_td.offset().left;
@@ -99,8 +118,17 @@
                 $("div#{{ sent.id }}.deps").css("height", act_h + 10).css("position", "relative").css("top", d);
             {% endfor %}
 
+            $(":checkbox[name=word]").change(function () {
+                if (this.checked)
+                    $(this).parent().popover("show");
+                else
+                    $(this).parent().popover("hide");
+            });
+
+            $("[data-toggle=popover]").popover({container: "body", trigger: "manual"});
+
             $("label.word").click(function () {
-                var sent_id = $(this).parents().closest("table.sent").attr("id")
+                var sent_id = $(this).parents().closest("table.sent").attr("id");
                 setTimeout(function () {
                     $("td#" + sent_id + ".cmd button.cmd4").focus();
                 }, 1);
@@ -130,76 +158,65 @@
                 }, 1);
             });
 
-            $("#addZeroModel").on("show.bs.modal", function (e) {
-                $(":checkbox[name=word]:checked").click();
-                var button = $(e.relatedTarget);
-                var i = button.data("i");
-                var j = button.data("j");
-                var id = button.data("id");
-                var text = button.data("text");
-                var label = $("label#" + id);
-                console.log("id = ", id);
-                console.log("i = ", i, "j = ", j);
-                var modal = $(this);
-                modal.find("span#head_text").text(text);
-                modal.find("span#head_sid").text(i);
-                modal.find("span#head_wid").text(j);
+            $("#addZeroModel")
+                .on("show.bs.modal", function (e) {
+                    $(":checkbox[name=word]:checked").click();
+                    var head = $(e.relatedTarget);
+                    var modal = $(this);
+                    modal.find("span#head_text").text(head.data("text"));
+                    modal.find("span#head_sid").text(head.data("sid"));
+                    modal.find("span#head_wid").text(head.data("wid"));
+                    modal.find("td#ante").html('<div id="ante" class="btn-group" data-toggle="buttons" style="position:relative; top:4px; margin-bottom: 10px;"></div>');
+                    for (var k in antecedents) {
+                        var a = antecedents[k]["ant_text"];
+                        var b = antecedents[k]["ant_sid"];
+                        var c = antecedents[k]["ant_wid"];
+                        modal.find("div#ante").append(
+                            '<label class="antecand btn btn-default"><input type="radio" name="antecand" style="display:none" value="' + k + '">' +
+                            '<span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">' + a + '<sub>(' + b + ',' + c + ')</sub></span>' +
+                            '</label>');
+                    }
 
-                console.log(JSON.stringify({ant_sid: -1, ant_wid: -1, ant_is_title: 1}));
-                modal.find("td#ante").html('<div id="ante" class="btn-group" data-toggle="buttons" style="position:relative; top:4px; margin-bottom: 10px;"></div>');
-                for (var k in antecedents) {
-                    var a = antecedents[k]["ant_text"];
-                    var b = antecedents[k]["ant_sid"];
-                    var c = antecedents[k]["ant_wid"];
-                    modal.find("div#ante").append('<label class="antecand btn btn-default"><input type="radio" name="antecand" style="display:none" value="' + k + '"><span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">' + a + '<sub>(' + b + ',' + c + ')</sub></span></label>');
-                }
+                    $("label.antecand").click(function () {
+                        $(this).removeClass("btn-default").addClass("btn-primary");
+                        $(this).siblings().removeClass("btn-primary").addClass("btn-default");
+                        setTimeout(function () {
+                            antecand = $(":radio[name=antecand]:checked").val();
+                        }, 1);
+                    });
 
-                $("label.antecand").click(function () {
-                    $(this).removeClass("btn-default").addClass("btn-primary");
-                    $(this).siblings().removeClass("btn-primary").addClass("btn-default");
-                    setTimeout(function () {
-                        antecand = $(":radio[name=antecand]:checked").val();
-                    }, 1);
+                    $("label.zerotype").first().click();
+                    $("label.antecand").first().click();
+                })
+                .on("hide.bs.modal", function () {
+                    var ant = antecedents[antecand];
+                    var head = {
+                        head_sid: Number($("span#head_sid").text()),
+                        head_wid: Number($("span#head_wid").text())
+                    };
+                    var za = {
+                        "id": Object.keys(zeroanaphora[head["head_sid"]]).length,
+                        "type": zerotype,
+                        head_wid: head["head_wid"],
+                        ant_text: ant["ant_text"],
+                        ant_sid: ant["ant_sid"],
+                        ant_wid: ant["ant_wid"],
+                        ant_is_title: ant["ant_is_title"]
+                    };
+                    zeroanaphora[head["head_sid"]][za["id"]] = za;
+                    console.log("zeroanaphora = ", zeroanaphora);
+                    {# TODO: addZero로 zero 태깅 기능 옮기고 시각화 구현하기!!! #}
+                    {% comment %}
+                    var sent = textcont["sents"][head["head_sid"]];
+                    if (!("ZA" in sent))
+                        sent["ZA"] = [];
+                    sent["ZA"].push(za);
+                    console.log(sent);
+                    console.log(textcont);
+                    {% endcomment %}
+                    saveAnn();
                 });
-
-                $("label.zerotype").first().click();
-                $("label.antecand").first().click();
-            });
-
-            $("#addZeroModel").on("hide.bs.modal", function (e) {
-                var button = $(e.relatedTarget);
-                console.log(button);
-                var ant = antecedents[antecand];
-                var head = {head_sid: Number($("span#head_sid").text()), head_wid: Number($("span#head_wid").text())};
-                var za = {
-                    "id": 0,
-                    "type": zerotype,
-                    head_wid: head["head_wid"],
-                    ant_text: ant["ant_text"],
-                    ant_sid: ant["ant_sid"],
-                    ant_wid: ant["ant_wid"],
-                    ant_is_title: ant["ant_is_title"]
-                };
-                var sent = textcont2["sents"][head["head_sid"]];
-                console.log(sent);
-
-                if (!("ZA" in sent))
-                    sent["ZA"] = [];
-                sent["ZA"].push(za);
-                console.log(sent);
-                console.log(textcont2);
-            });
-
-            $(":checkbox[name=word]").change(function () {
-                if (this.checked)
-                    $(this).parent().popover("show");
-                else
-                    $(this).parent().popover("hide");
-            });
-
-            $("[data-toggle=popover]").popover({container: "body", trigger: "manual"});
         });
-
 
         const addAnte = function (i, j) {
             var id = i + "-" + j;
@@ -219,6 +236,28 @@
             //$(x).prop("disabled", true);
             //$("table#" + i + ".sent td.word_text").prepend('<button onclick="selectAnt()" class="btn btn-info" style="padding:0">(?)</button> ');
         };
+
+        const saveAnn = function () {
+            $.ajax({
+                url: "{{ textname }}/save/",
+                type: "post",
+                async: true,
+                data: {
+                    entities: JSON.stringify(antecedents),
+                    relations: JSON.stringify(zeroanaphora)
+                },
+                beforeSend: function (req) {
+                    req.setRequestHeader("Authorization", authcode);
+                },
+                success: function () {
+                    alert("Annotation 기록이 모두 저장되었습니다.");
+                },
+                error: function () {
+                    alert("저장에 실패하였습니다. 서버에 문제가 있는 것 같습니다. 담당자에게 연락 바랍니다.");
+                }
+            });
+        };
+
     </script>
 {% endblock script_header %}
 
@@ -323,16 +362,18 @@
                                 <td style="padding-right:8px;">
                                     <div class="btn-group tagged-none" style="padding:3px">
                                         <div class="btn-group tagged-none" data-toggle="buttons" style="padding:3px">
-                                            <label class="word btn btn-default" id="{{ sent.id }}-{{ word.id }}" style="padding:3px 1px 0 1px" data-text="{{ word.text }}" data-toggle="popover" data-placement="top"
+                                            <label class="word btn btn-default" id="{{ sent.id }}-{{ word.id }}" style="padding:3px 1px 0 1px"
+                                                   data-toggle="popover" data-placement="top" data-html="true" data-text="{{ word.text }}"
                                                    data-content='
                                                     <button onclick="addAnte({{ sent.id }}, {{ word.id }})" class="cmd2 btn btn-sm btn-primary">
                                                         <i class="glyphicon glyphicon-tag"><span style="padding-left:3px; font-size:9.5pt; position:relative; top:-2px;">선행어</span></i>
                                                     </button>
-                                                    <button onclick="addZero({{ sent.id }}, {{ word.id }})" class="cmd4 btn btn-sm btn-info" data-toggle="modal" data-target="#addZeroModel" data-text="{{ word.text }}" data-id="{{ sent.id }}-{{ word.id }}" data-i="{{ sent.id }}" data-j="{{ word.id }}">
+                                                    <button onclick="addZero({{ sent.id }}, {{ word.id }})" class="cmd4 btn btn-sm btn-info"
+                                                        data-toggle="modal" data-target="#addZeroModel"
+                                                        data-text="{{ word.text }}" data-sid="{{ sent.id }}" data-wid="{{ word.id }}">
                                                         <i class="glyphicon glyphicon-tag"><span style="padding-left:3px; font-size:9.5pt; position:relative; top:-2px;">생략어</span></i>
                                                     </button>
-                                                   '
-                                                   data-html="true">
+                                                   '>
                                                 <input type="checkbox" name="word" style="display:none" value="{{ sent.id }}-{{ word.id }}">
                                                 <table class="word" id="{{ word.id }}" style="display:inline-block; width:max-content; padding:0; margin:0">
                                                     <tr>
@@ -366,24 +407,31 @@
                         <tr>
                             <th style="width:100px">지배소</th>
                             <td>
-                                <span id="head_text">z</span><sub>(<span id="head_sid">x</span>,<span id="head_wid">y</span>)</sub>
+                                <span id="head_text"></span><sub>(<span id="head_sid"></span>,<span id="head_wid"></span>)</sub>
                             </td>
                         </tr>
                         <tr>
                             <th style="width:100px">생략어 종류</th>
                             <td>
-                                <div class="btn-group" data-toggle="buttons" style="position:relative; top:4px; margin-bottom: 10px;">
+                                <div class="btn-group" data-toggle="buttons"
+                                     style="position:relative; top:4px; margin-bottom: 10px;">
                                     <label class="zerotype btn btn-default">
                                         <input type="radio" name="zerotype" style="display:none" value="s">
-                                        <i class="glyphicon glyphicon-comment"><span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">주어</span></i>
+                                        <i class="glyphicon glyphicon-comment">
+                                            <span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">주어</span>
+                                        </i>
                                     </label>
                                     <label class="zerotype btn btn-default">
                                         <input type="radio" name="zerotype" style="display:none" value="o">
-                                        <i class="glyphicon glyphicon-comment"><span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">목적어-및-필수-부사어</span></i>
+                                        <i class="glyphicon glyphicon-comment">
+                                            <span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">목적어-및-필수-부사어</span>
+                                        </i>
                                     </label>
                                     <label class="zerotype btn btn-default">
                                         <input type="radio" name="zerotype" style="display:none" value="a">
-                                        <i class="glyphicon glyphicon-comment"><span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">관형어</span></i>
+                                        <i class="glyphicon glyphicon-comment">
+                                            <span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">관형어</span>
+                                        </i>
                                     </label>
                                 </div>
                             </td>

@@ -40,6 +40,7 @@ def auth_user(request):
 
 def need_auth(call):
     def try_auth(request, *args, **kwargs):
+        print("-----try_auth-----")
         global user
         user = None
         auth_user(request)

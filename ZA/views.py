@@ -50,20 +50,57 @@ def task(request, textname):
         print(">>>>>(3)")
         try:
             print(">>>>>(3.1)")
-            textname = Text.objects.get(textname=textname).textname
+            text = Text.objects.get(textname=textname)
+            textname = text.textname
             print(">>>>>(3.1.5)")
             textcont = read_text(textname)
+            # print(textcont)
             print(">>>>>(3.2)")
+            task = Task.objects.get(user=user, text=text)
             return render(request, 'ZA_task.html', {"guide": guide["ZA_task"] + msg,
                                                     "title": "[title]",
                                                     "textname": textname,
                                                     "textcont": textcont,
-                                                    "textcont2": json.dumps(textcont)})
+                                                    "textcont2": json.dumps(textcont),
+                                                    "entities": task.entities,
+                                                    "relations": task.relations})
         except (KeyError, Text.DoesNotExist):
             return render(request, 'ZA_task.html', {"guide": guide["ZA_no_task"] + msg})
     else:
         print(">>>>>(3.x)")
         return render(request, 'ZA_task.html', {"guide": guide["ZA_no_user"] + msg})
+
+
+@csrf_exempt
+@need_auth
+@never_cache
+def save(request, textname):
+    print("=" * 80)
+    print(" * save(request, textname)")
+    print("=" * 80)
+    print(" - textname = " + textname)
+    print(" - request = ", request)
+    user = auth_user(request)
+    print(" - user = ")
+    print(user)
+    entities = request.POST.get("entities")
+    print(" - entities = ")
+    print(entities)
+    relations = request.POST.get("relations")
+    print(" - relations = ")
+    print(relations)
+    # User.objects.get(username=username, password=password)
+    text = Text.objects.get(textname=textname)
+    print(" - text = ")
+    print(text)
+    task = Task.objects.get(user=user, text=text)
+    print(" - task = ")
+    print(task)
+    task.entities = entities
+    task.relations = relations
+    task.save()
+    return JsonResponse({"status": 200, "msg": "OK",
+                         "function": "save"}, status=200)
 
 
 @never_cache

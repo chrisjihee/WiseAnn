@@ -4,9 +4,10 @@ from django.conf.urls import url
 from ZA import views
 
 urlpatterns = [
-    # System call
+    # Admin call
     url(r'^api/reset/', views.reset, name='reset'),
-    # Page view
+    # User call
     url(r'^$', views.index, name='index'),
     url(r'^(?P<textname>[^/]+)$', views.task, name='task_view'),
+    url(r'^(?P<textname>[^/]+)/save/', views.save, name='save'),
 ]
