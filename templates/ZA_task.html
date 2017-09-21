@@ -232,7 +232,10 @@
             console.log("antecedents.keys() = ", Object.keys(antecedents));
         };
 
-        const addZero = function (i, x) {
+        const addZero = function (i, j) {
+            console.log("addZero", i, j);
+            var id = i + "-" + j;
+            var label = $("label#" + id);
             //$(x).prop("disabled", true);
             //$("table#" + i + ".sent td.word_text").prepend('<button onclick="selectAnt()" class="btn btn-info" style="padding:0">(?)</button> ');
         };
@@ -250,10 +253,10 @@
                     req.setRequestHeader("Authorization", authcode);
                 },
                 success: function () {
-                    alert("Annotation 기록이 모두 저장되었습니다.");
+                    console.log("Annotation 기록이 모두 저장되었습니다.");
                 },
                 error: function () {
-                    alert("저장에 실패하였습니다. 서버에 문제가 있는 것 같습니다. 담당자에게 연락 바랍니다.");
+                    console.log("Annotation 기록 저장에 실패하였습니다. 서버에 문제가 있는 것 같습니다. 담당자에게 연락 바랍니다.");
                 }
             });
         };
@@ -359,16 +362,16 @@
                     <table class="sent" id="{{ sent.id }}">
                         <tr>
                             {% for word in sent.words %}
-                                <td style="padding-right:8px;">
+                                <td style="padding-right:8px;" data-toggle="buttons">
                                     <div class="btn-group tagged-none" style="padding:3px">
-                                        <div class="btn-group tagged-none" data-toggle="buttons" style="padding:3px">
+                                        <div class="btn-group tagged-none" style="padding:3px">
                                             <label class="word btn btn-default" id="{{ sent.id }}-{{ word.id }}" style="padding:3px 1px 0 1px"
                                                    data-toggle="popover" data-placement="top" data-html="true" data-text="{{ word.text }}"
                                                    data-content='
                                                     <button onclick="addAnte({{ sent.id }}, {{ word.id }})" class="cmd2 btn btn-sm btn-primary">
                                                         <i class="glyphicon glyphicon-tag"><span style="padding-left:3px; font-size:9.5pt; position:relative; top:-2px;">선행어</span></i>
                                                     </button>
-                                                    <button onclick="addZero({{ sent.id }}, {{ word.id }})" class="cmd4 btn btn-sm btn-info"
+                                                    <button class="cmd4 btn btn-sm btn-info"
                                                         data-toggle="modal" data-target="#addZeroModel"
                                                         data-text="{{ word.text }}" data-sid="{{ sent.id }}" data-wid="{{ word.id }}">
                                                         <i class="glyphicon glyphicon-tag"><span style="padding-left:3px; font-size:9.5pt; position:relative; top:-2px;">생략어</span></i>
