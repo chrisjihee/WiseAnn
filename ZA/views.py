@@ -57,8 +57,9 @@ def task(request, textname):
             # print(textcont)
             print(">>>>>(3.2)")
             task = Task.objects.get(user=user, text=text)
+            # print(task.entities)
             return render(request, 'ZA_task.html', {"guide": guide["ZA_task"] + msg,
-                                                    "title": "[title]",
+                                                    "title": "[Title]",
                                                     "textname": textname,
                                                     "textcont": textcont,
                                                     "textcont2": json.dumps(textcont),
@@ -84,11 +85,22 @@ def save(request, textname):
     print(" - user = ")
     print(user)
     entities = request.POST.get("entities")
+    rels = json.loads(request.POST.get("relations"))
+    relations = {}
+    for i in map(lambda x: str(x), sorted(map(lambda x: int(x), rels.keys()))):
+        sid = int(i)
+        zid = 0
+        relations[sid] = {}
+        for j in map(lambda x: str(x), sorted(map(lambda x: int(x), rels[i].keys()))):
+            if "valid" not in rels[i][j] or rels[i][j]["valid"]:
+                relations[sid][zid] = rels[i][j]
+                relations[sid][zid]["id"] = zid
+                zid += 1
     print(" - entities = ")
-    print(entities)
-    relations = request.POST.get("relations")
+    print(json.dumps(entities))
     print(" - relations = ")
-    print(relations)
+    print(json.dumps(relations))
+
     # User.objects.get(username=username, password=password)
     text = Text.objects.get(textname=textname)
     print(" - text = ")
@@ -97,7 +109,7 @@ def save(request, textname):
     print(" - task = ")
     print(task)
     task.entities = entities
-    task.relations = relations
+    task.relations = json.dumps(relations)
     task.save()
     return JsonResponse({"status": 200, "msg": "OK",
                          "function": "save"}, status=200)

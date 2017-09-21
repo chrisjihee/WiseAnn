@@ -35,8 +35,8 @@ class Text(models.Model):
 class Task(models.Model):
     user = models.ForeignKey("User")
     text = models.ForeignKey("Text")
-    entities = models.TextField(default="[]")
-    relations = models.TextField(default="[]")
+    entities = models.TextField(default="{}")
+    relations = models.TextField(default="{}")
     finished = models.BooleanField(default=False)
 
     def __unicode__(self):
