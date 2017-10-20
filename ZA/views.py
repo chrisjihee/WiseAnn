@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 import json
+from collections import OrderedDict
 
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
@@ -133,6 +134,86 @@ def index(request):
         # return JsonResponse({"status": 200, "msg": "OK -- OK?"})
     else:
         return render(request, 'ZA_index.html', {"guide": guide["ZA_no_user"] + msg})
+
+
+def list_files(indir, keyword=None):
+    for (path, _, files) in sorted(os.walk(indir)):
+        for f in sorted(files):
+            if keyword is None or keyword in f:
+                yield os.path.join(path, f)
+
+
+def clone_tagged_za(za1, zi):
+    za2 = OrderedDict()
+    za2["id"] = zi
+    za2["type"] = za1["type"]
+    za2["head_wid"] = za1["head_wid"]
+    za2["ant_sid"] = za1["ant_sid"]
+    za2["ant_wid"] = za1["ant_wid"]
+    za2["ant_is_title"] = za1["ant_is_title"]
+    za2["weight"] = 1.01
+    return za2
+
+
+@csrf_exempt
+def export(request, username):
+    print("[INIT] export")
+    print("=" * 100)
+    print(" Data Export : %s" % username)
+    print("=" * 100)
+
+    # 42maru = A1 + A2 + B1 + B3
+    # knue = A1 + B1 + B2 + C + D
+    user_files = {
+        "42maru": [f for f in list_files("/WorkData/LangEval/WiseAnnData/data") if "A1" in f or "A2" in f or "B1" in f or "B3" in f],
+        "knue": [f for f in list_files("/WorkData/LangEval/WiseAnnData/data") if "A1" in f or "B1" in f or "C" in f or "D" in f],
+    }
+    if username in user_files:
+        num_pass = 0
+        num_fail = 0
+        passed_texts = OrderedDict()
+        failed_texts = []
+        files = user_files[username]
+        outdir = "/WorkData/LangEval/WiseAnnData/result_" + username
+        if not os.path.isdir(outdir):
+            os.makedirs(outdir)
+
+        for x in [x for x in Task.objects.all() if x.user.username != "ZA.chrisjihee@etri.re.kr"]:
+            if x.relations != "{}":
+                rels = json.loads(x.relations, object_pairs_hook=OrderedDict)
+                fs = [f for f in files if x.text.textname in f]
+                if len(fs) != 1:
+                    num_fail += 1
+                    failed_texts.append(x.text.textname)
+                    print("[FAIL] %s" % x.text.textname)
+                    continue
+                fname = os.path.basename(fs[0])
+                doc = json.load(open(fs[0]), object_pairs_hook=OrderedDict)
+                num_valid_za = 0
+
+                for si, zas in rels.items():
+                    si = int(si)
+                    zi = 0
+                    doc["sentence"][si]["ZA"] = list()
+                    for za in sorted(zas.values(), key=lambda zz: zz["head_wid"] * 1000000000 + zz["ant_sid"] * 1000000 + zz["ant_wid"] * 1000000):
+                        if za["valid"]:
+                            doc["sentence"][si]["ZA"].append(clone_tagged_za(za, zi))
+                            zi += 1
+                            num_valid_za += 1
+
+                json.dump(doc, open(os.path.join(outdir, fname), "w"))
+                print("[PASS] \t%s\t~~~>\t%d" % (x.text.textname, num_valid_za))
+                passed_texts[x.text.textname] = num_valid_za
+                num_pass += 1
+
+        print("[EXIT] export")
+        return JsonResponse({"status": 200, "msg": "OK", "username": username,
+                             "num_pass": num_pass, "passed_texts": passed_texts,
+                             "num_fail": num_fail, "failed_texts": failed_texts}, status=200)
+    else:
+        print("[FAIL] %s : %s" % ("Invalid username", username))
+        print("[EXIT] export")
+        return JsonResponse({"status": 400, "msg": "Invalid username", "username": username}, status=400)
 
 
 @csrf_exempt
