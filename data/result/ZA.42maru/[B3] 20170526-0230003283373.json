@@ -1,0 +1,1022 @@
+{
+    "title": {
+        "text": "'저리 비켜'..단체사진 앞줄 나가려고 다른 나라 정상 밀쳐버린 트럼프.", 
+        "NE": ""
+    }, 
+    "metaInfo": {
+        "field": "뉴스3", 
+        "num_sent": 8, 
+        "num_word": 132
+    }, 
+    "sentence": [
+        {
+            "id": 0, 
+            "text": "'저리 비켜'..단체사진 앞줄 나가려고 다른 나라 정상 밀쳐버린 트럼프.", 
+            "morp": [
+                {"id": 0, "lemma": "'", "type": "SS", "position": 0, "weight": 1}, 
+                {"id": 1, "lemma": "저리", "type": "MAG", "position": 1, "weight": 0.00985696}, 
+                {"id": 2, "lemma": "비켜", "type": "VV", "position": 8, "weight": 0}, 
+                {"id": 3, "lemma": "'", "type": "SS", "position": 14, "weight": 1}, 
+                {"id": 4, "lemma": ".", "type": "SF", "position": 15, "weight": 1}, 
+                {"id": 5, "lemma": ".", "type": "SF", "position": 16, "weight": 1}, 
+                {"id": 6, "lemma": "단체", "type": "NNG", "position": 17, "weight": 0.00252147}, 
+                {"id": 7, "lemma": "사진", "type": "NNG", "position": 23, "weight": 0.184744}, 
+                {"id": 8, "lemma": "앞줄", "type": "NNG", "position": 30, "weight": 0.9}, 
+                {"id": 9, "lemma": "나가", "type": "VV", "position": 37, "weight": 0.00897662}, 
+                {"id": 10, "lemma": "려고", "type": "EC", "position": 43, "weight": 0.424175}, 
+                {"id": 11, "lemma": "다른", "type": "MM", "position": 50, "weight": 0.9}, 
+                {"id": 12, "lemma": "나라", "type": "NNG", "position": 57, "weight": 0.735824}, 
+                {"id": 13, "lemma": "정상", "type": "NNG", "position": 64, "weight": 0.184581}, 
+                {"id": 14, "lemma": "밀치", "type": "VV", "position": 71, "weight": 0.014786}, 
+                {"id": 15, "lemma": "어", "type": "EC", "position": 74, "weight": 0.41831}, 
+                {"id": 16, "lemma": "버리", "type": "VX", "position": 77, "weight": 0.212954}, 
+                {"id": 17, "lemma": "ㄴ", "type": "ETM", "position": 80, "weight": 0.302612}, 
+                {"id": 18, "lemma": "트럼프", "type": "NNG", "position": 84, "weight": 0.569809}, 
+                {"id": 19, "lemma": ".", "type": "SF", "position": 93, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "'저리", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "비켜'..단체사진", "type": "", "begin": 2, "end": 7}, 
+                {"id": 2, "text": "앞줄", "type": "", "begin": 8, "end": 8}, 
+                {"id": 3, "text": "나가려고", "type": "", "begin": 9, "end": 10}, 
+                {"id": 4, "text": "다른", "type": "", "begin": 11, "end": 11}, 
+                {"id": 5, "text": "나라", "type": "", "begin": 12, "end": 12}, 
+                {"id": 6, "text": "정상", "type": "", "begin": 13, "end": 13}, 
+                {"id": 7, "text": "밀쳐버린", "type": "", "begin": 14, "end": 17}, 
+                {"id": 8, "text": "트럼프.", "type": "", "begin": 18, "end": 19}
+            ], 
+            "NE": [], 
+            "dependency": [
+                {"id": 0, "text": "'저리", "head": 1, "label": "AP", "mod": [], "weight": 0.680203}, 
+                {"id": 1, "text": "비켜'..단체사진", "head": 3, "label": "VP", "mod": [0], "weight": 0.568552}, 
+                {"id": 2, "text": "앞줄", "head": 3, "label": "NP_AJT", "mod": [], "weight": 0.121929}, 
+                {"id": 3, "text": "나가려고", "head": 7, "label": "VP", "mod": [1, 2], "weight": 0.591357}, 
+                {"id": 4, "text": "다른", "head": 5, "label": "DP", "mod": [], "weight": 0.650221}, 
+                {"id": 5, "text": "나라", "head": 6, "label": "NP", "mod": [4], "weight": 0.343582}, 
+                {"id": 6, "text": "정상", "head": 7, "label": "NP_OBJ", "mod": [5], "weight": 0.0183255}, 
+                {"id": 7, "text": "밀쳐버린", "head": 8, "label": "VP_MOD", "mod": [3, 6], "weight": 0.845062}, 
+                {"id": 8, "text": "트럼프.", "head": -1, "label": "NP", "mod": [7], "weight": 7.67575e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VP", "text": "'저리 비켜'..단체사진", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "앞줄", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP", "text": "P#0@VP사진 P#1@AJT앞줄 나가려고", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 4, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_OBJ", "text": "다른 나라 정상", "begin": 4, "end": 6, "key_begin": 4, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#2@VP려고 P#3@OBJ정상 밀쳐버린", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 5, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP", "text": "P#4@MODㄴ 트럼프.", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": -1, "sub_phrase": [4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "비켜", "sense": 1, "word_id": 1, "weight": 0.135599, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 0, "text": "'저리", "weight": 0.135599}
+                ]}, 
+                {"verb": "나가", "sense": 1, "word_id": 3, "weight": 0.0833681, "argument": [
+                    {"type": "ARG2", "word_id": 2, "text": "앞줄", "weight": 0.0833681}
+                ]}, 
+                {"verb": "밀치", "sense": 1, "word_id": 7, "weight": 0.136416, "argument": [
+                    {"type": "ARGM-PRP", "word_id": 3, "text": "나가려고", "weight": 0.147127}, 
+                    {"type": "ARG1", "word_id": 6, "text": "다른 나라 정상", "weight": 0.125705}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 3, "ant_sid": 0, "ant_wid": 8, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 1, 
+            "text": "벨기에 브뤼셀에서 25일(현지 시각) 열린 북대서양조약기구(NATO) 정상회의에 참석한 도널드 트럼프 대통령이 맨 앞줄로 나서기 위해 다른 나라 정상을 손으로 밀쳐내는 모습이 동영상으로 공개돼 비난을 받고 있다.", 
+            "morp": [
+                {"id": 0, "lemma": "벨기에", "type": "NNP", "position": 94, "weight": 0.9}, 
+                {"id": 1, "lemma": "브뤼셀", "type": "NNP", "position": 104, "weight": 0.9}, 
+                {"id": 2, "lemma": "에서", "type": "JKB", "position": 113, "weight": 0.0823859}, 
+                {"id": 3, "lemma": "25", "type": "SN", "position": 120, "weight": 1}, 
+                {"id": 4, "lemma": "일", "type": "NNB", "position": 122, "weight": 0.126777}, 
+                {"id": 5, "lemma": "(", "type": "SS", "position": 125, "weight": 1}, 
+                {"id": 6, "lemma": "현지", "type": "NNG", "position": 126, "weight": 0.181161}, 
+                {"id": 7, "lemma": "시각", "type": "NNG", "position": 133, "weight": 0.9}, 
+                {"id": 8, "lemma": ")", "type": "SS", "position": 139, "weight": 1}, 
+                {"id": 9, "lemma": "열리", "type": "VV", "position": 141, "weight": 0.9}, 
+                {"id": 10, "lemma": "ㄴ", "type": "ETM", "position": 144, "weight": 0.304215}, 
+                {"id": 11, "lemma": "북대서양", "type": "NNP", "position": 148, "weight": 0.017094}, 
+                {"id": 12, "lemma": "조약", "type": "NNG", "position": 160, "weight": 0.9}, 
+                {"id": 13, "lemma": "기구", "type": "NNG", "position": 166, "weight": 0.9}, 
+                {"id": 14, "lemma": "(", "type": "SS", "position": 172, "weight": 1}, 
+                {"id": 15, "lemma": "NATO", "type": "SL", "position": 173, "weight": 1}, 
+                {"id": 16, "lemma": ")", "type": "SS", "position": 177, "weight": 1}, 
+                {"id": 17, "lemma": "정상", "type": "NNG", "position": 179, "weight": 0.199721}, 
+                {"id": 18, "lemma": "회의", "type": "NNG", "position": 185, "weight": 0.1848}, 
+                {"id": 19, "lemma": "에", "type": "JKB", "position": 191, "weight": 0.153364}, 
+                {"id": 20, "lemma": "참석", "type": "NNG", "position": 195, "weight": 0.9}, 
+                {"id": 21, "lemma": "하", "type": "XSV", "position": 201, "weight": 0.0001}, 
+                {"id": 22, "lemma": "ㄴ", "type": "ETM", "position": 201, "weight": 0.392321}, 
+                {"id": 23, "lemma": "도널드", "type": "NNP", "position": 205, "weight": 0.9}, 
+                {"id": 24, "lemma": "트럼프", "type": "NNP", "position": 215, "weight": 0.0109417}, 
+                {"id": 25, "lemma": "대통령", "type": "NNG", "position": 225, "weight": 0.9}, 
+                {"id": 26, "lemma": "이", "type": "JKS", "position": 234, "weight": 0.0360723}, 
+                {"id": 27, "lemma": "맨", "type": "MM", "position": 238, "weight": 0.0219189}, 
+                {"id": 28, "lemma": "앞줄", "type": "NNG", "position": 242, "weight": 0.9}, 
+                {"id": 29, "lemma": "로", "type": "JKB", "position": 248, "weight": 0.153229}, 
+                {"id": 30, "lemma": "나서", "type": "VV", "position": 252, "weight": 0.9}, 
+                {"id": 31, "lemma": "기", "type": "ETN", "position": 258, "weight": 0.0380514}, 
+                {"id": 32, "lemma": "위하", "type": "VV", "position": 262, "weight": 0.176484}, 
+                {"id": 33, "lemma": "어", "type": "EC", "position": 265, "weight": 0.41831}, 
+                {"id": 34, "lemma": "다른", "type": "MM", "position": 269, "weight": 0.9}, 
+                {"id": 35, "lemma": "나라", "type": "NNG", "position": 276, "weight": 0.735824}, 
+                {"id": 36, "lemma": "정상", "type": "NNG", "position": 283, "weight": 0.184581}, 
+                {"id": 37, "lemma": "을", "type": "JKO", "position": 289, "weight": 0.129611}, 
+                {"id": 38, "lemma": "손", "type": "NNG", "position": 293, "weight": 0.0995229}, 
+                {"id": 39, "lemma": "으로", "type": "JKB", "position": 296, "weight": 0.153406}, 
+                {"id": 40, "lemma": "밀치", "type": "VV", "position": 303, "weight": 0.438125}, 
+                {"id": 41, "lemma": "어", "type": "EC", "position": 306, "weight": 0.41831}, 
+                {"id": 42, "lemma": "내", "type": "VX", "position": 309, "weight": 0.0587845}, 
+                {"id": 43, "lemma": "는", "type": "ETM", "position": 312, "weight": 0.183966}, 
+                {"id": 44, "lemma": "모습", "type": "NNG", "position": 316, "weight": 0.9}, 
+                {"id": 45, "lemma": "이", "type": "JKS", "position": 322, "weight": 0.0360723}, 
+                {"id": 46, "lemma": "동", "type": "XPN", "position": 326, "weight": 0}, 
+                {"id": 47, "lemma": "영상", "type": "NNG", "position": 329, "weight": 0.9}, 
+                {"id": 48, "lemma": "으로", "type": "JKB", "position": 335, "weight": 0.153406}, 
+                {"id": 49, "lemma": "공개", "type": "NNG", "position": 342, "weight": 0.9}, 
+                {"id": 50, "lemma": "되", "type": "XSV", "position": 348, "weight": 0.000224177}, 
+                {"id": 51, "lemma": "어", "type": "EC", "position": 348, "weight": 0.361326}, 
+                {"id": 52, "lemma": "비난", "type": "NNG", "position": 352, "weight": 0.9}, 
+                {"id": 53, "lemma": "을", "type": "JKO", "position": 358, "weight": 0.129611}, 
+                {"id": 54, "lemma": "받", "type": "VV", "position": 362, "weight": 0.765648}, 
+                {"id": 55, "lemma": "고", "type": "EC", "position": 365, "weight": 0.416679}, 
+                {"id": 56, "lemma": "있", "type": "VX", "position": 369, "weight": 0.125953}, 
+                {"id": 57, "lemma": "다", "type": "EF", "position": 372, "weight": 0.180366}, 
+                {"id": 58, "lemma": ".", "type": "SF", "position": 375, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "벨기에", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "브뤼셀에서", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "25일(현지", "type": "", "begin": 3, "end": 6}, 
+                {"id": 3, "text": "시각)", "type": "", "begin": 7, "end": 8}, 
+                {"id": 4, "text": "열린", "type": "", "begin": 9, "end": 10}, 
+                {"id": 5, "text": "북대서양조약기구(NATO)", "type": "", "begin": 11, "end": 16}, 
+                {"id": 6, "text": "정상회의에", "type": "", "begin": 17, "end": 19}, 
+                {"id": 7, "text": "참석한", "type": "", "begin": 20, "end": 22}, 
+                {"id": 8, "text": "도널드", "type": "", "begin": 23, "end": 23}, 
+                {"id": 9, "text": "트럼프", "type": "", "begin": 24, "end": 24}, 
+                {"id": 10, "text": "대통령이", "type": "", "begin": 25, "end": 26}, 
+                {"id": 11, "text": "맨", "type": "", "begin": 27, "end": 27}, 
+                {"id": 12, "text": "앞줄로", "type": "", "begin": 28, "end": 29}, 
+                {"id": 13, "text": "나서기", "type": "", "begin": 30, "end": 31}, 
+                {"id": 14, "text": "위해", "type": "", "begin": 32, "end": 33}, 
+                {"id": 15, "text": "다른", "type": "", "begin": 34, "end": 34}, 
+                {"id": 16, "text": "나라", "type": "", "begin": 35, "end": 35}, 
+                {"id": 17, "text": "정상을", "type": "", "begin": 36, "end": 37}, 
+                {"id": 18, "text": "손으로", "type": "", "begin": 38, "end": 39}, 
+                {"id": 19, "text": "밀쳐내는", "type": "", "begin": 40, "end": 43}, 
+                {"id": 20, "text": "모습이", "type": "", "begin": 44, "end": 45}, 
+                {"id": 21, "text": "동영상으로", "type": "", "begin": 46, "end": 48}, 
+                {"id": 22, "text": "공개돼", "type": "", "begin": 49, "end": 51}, 
+                {"id": 23, "text": "비난을", "type": "", "begin": 52, "end": 53}, 
+                {"id": 24, "text": "받고", "type": "", "begin": 54, "end": 55}, 
+                {"id": 25, "text": "있다.", "type": "", "begin": 56, "end": 58}
+            ], 
+            "NE": [
+                {"id": 0, "text": "벨기에", "type": "LCP_COUNTRY", "begin": 0, "end": 0, "weight": 0.482543, "common_noun": 0}, 
+                {"id": 1, "text": "브뤼셀", "type": "LCP_CAPITALCITY", "begin": 1, "end": 1, "weight": 0.340797, "common_noun": 0}, 
+                {"id": 2, "text": "25일", "type": "DT_DAY", "begin": 3, "end": 4, "weight": 0.482173, "common_noun": 0}, 
+                {"id": 3, "text": "북대서양조약기구", "type": "OGG_POLITICS", "begin": 11, "end": 13, "weight": 0.980314, "common_noun": 0}, 
+                {"id": 4, "text": "NATO", "type": "OGG_POLITICS", "begin": 15, "end": 15, "weight": 0.878453, "common_noun": 0}, 
+                {"id": 5, "text": "도널드 트럼프", "type": "PS_NAME", "begin": 23, "end": 24, "weight": 0.324269, "common_noun": 0}, 
+                {"id": 6, "text": "대통령", "type": "CV_POSITION", "begin": 25, "end": 25, "weight": 0.533846, "common_noun": 0}, 
+                {"id": 7, "text": "손", "type": "AM_PART", "begin": 38, "end": 38, "weight": 0.315326, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "벨기에", "head": 1, "label": "NP", "mod": [], "weight": 0.712387}, 
+                {"id": 1, "text": "브뤼셀에서", "head": 13, "label": "NP_AJT", "mod": [0], "weight": 0.720969}, 
+                {"id": 2, "text": "25일(현지", "head": 3, "label": "NP", "mod": [], "weight": 0.596475}, 
+                {"id": 3, "text": "시각)", "head": 10, "label": "NP_PRN", "mod": [2], "weight": 0.192115}, 
+                {"id": 4, "text": "열린", "head": 6, "label": "VP_MOD", "mod": [], "weight": 0.627896}, 
+                {"id": 5, "text": "북대서양조약기구(NATO)", "head": 6, "label": "NP", "mod": [], "weight": 0.371568}, 
+                {"id": 6, "text": "정상회의에", "head": 7, "label": "NP_AJT", "mod": [4, 5], "weight": 0.64533}, 
+                {"id": 7, "text": "참석한", "head": 10, "label": "VP_MOD", "mod": [6], "weight": 0.723753}, 
+                {"id": 8, "text": "도널드", "head": 9, "label": "NP", "mod": [], "weight": 0.386203}, 
+                {"id": 9, "text": "트럼프", "head": 10, "label": "NP", "mod": [8], "weight": 0.734401}, 
+                {"id": 10, "text": "대통령이", "head": 13, "label": "NP_SBJ", "mod": [3, 7, 9], "weight": 0.748696}, 
+                {"id": 11, "text": "맨", "head": 12, "label": "DP", "mod": [], "weight": 0.660404}, 
+                {"id": 12, "text": "앞줄로", "head": 13, "label": "NP_AJT", "mod": [11], "weight": 0.831444}, 
+                {"id": 13, "text": "나서기", "head": 14, "label": "VP_OBJ", "mod": [1, 10, 12], "weight": 0.696525}, 
+                {"id": 14, "text": "위해", "head": 19, "label": "VP", "mod": [13], "weight": 0.603405}, 
+                {"id": 15, "text": "다른", "head": 16, "label": "DP", "mod": [], "weight": 0.570787}, 
+                {"id": 16, "text": "나라", "head": 17, "label": "NP", "mod": [15], "weight": 0.560681}, 
+                {"id": 17, "text": "정상을", "head": 19, "label": "NP_OBJ", "mod": [16], "weight": 0.826898}, 
+                {"id": 18, "text": "손으로", "head": 19, "label": "NP_AJT", "mod": [], "weight": 0.714263}, 
+                {"id": 19, "text": "밀쳐내는", "head": 20, "label": "VP_MOD", "mod": [14, 17, 18], "weight": 0.746774}, 
+                {"id": 20, "text": "모습이", "head": 22, "label": "NP_SBJ", "mod": [19], "weight": 0.792433}, 
+                {"id": 21, "text": "동영상으로", "head": 22, "label": "NP_AJT", "mod": [], "weight": 0.79708}, 
+                {"id": 22, "text": "공개돼", "head": 24, "label": "VP", "mod": [20, 21], "weight": 0.793612}, 
+                {"id": 23, "text": "비난을", "head": 24, "label": "NP_OBJ", "mod": [], "weight": 0.712615}, 
+                {"id": 24, "text": "받고", "head": 25, "label": "VP", "mod": [22, 23], "weight": 0.719338}, 
+                {"id": 25, "text": "있다.", "head": -1, "label": "VP", "mod": [24], "weight": 8.59358e-06}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "벨기에 브뤼셀에서", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_PRN", "text": "25일(현지 시각)", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "열린 북대서양조약기구(NATO) 정상회의에", "begin": 4, "end": 6, "key_begin": 4, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP_MOD", "text": "P#2@AJT에 참석한", "begin": 4, "end": 7, "key_begin": 7, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "P#1@PRN시각) P#3@MODㄴ 도널드 트럼프 대통령이", "begin": 2, "end": 10, "key_begin": 8, "head_phrase": 6, "sub_phrase": [1, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "맨 앞줄로", "begin": 11, "end": 12, "key_begin": 11, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S_OBJ", "text": "P#0@AJT에서 P#4@SBJ이 P#5@AJT로 나서기", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": 7, "sub_phrase": [0, 4, 5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "S#6@OBJ기 위해", "begin": 0, "end": 14, "key_begin": 14, "head_phrase": 10, "sub_phrase": [6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_OBJ", "text": "다른 나라 정상을", "begin": 15, "end": 17, "key_begin": 15, "head_phrase": 10, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_AJT", "text": "손으로", "begin": 18, "end": 18, "key_begin": 18, "head_phrase": 10, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 10, "label": "S_MOD", "text": "S#7@S어 P#8@OBJ을 P#9@AJT으로 밀쳐내는", "begin": 0, "end": 19, "key_begin": 19, "head_phrase": 11, "sub_phrase": [7, 8, 9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "NP_SBJ", "text": "S#10@MOD는 모습이", "begin": 0, "end": 20, "key_begin": 20, "head_phrase": 13, "sub_phrase": [10], "weight": 0, "element": []}, 
+                {"id": 12, "label": "NP_AJT", "text": "동영상으로", "begin": 21, "end": 21, "key_begin": 21, "head_phrase": 13, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 13, "label": "S", "text": "P#11@SBJ이 P#12@AJT으로 공개돼", "begin": 0, "end": 22, "key_begin": 22, "head_phrase": 15, "sub_phrase": [11, 12], "weight": 0, "element": []}, 
+                {"id": 14, "label": "NP_OBJ", "text": "비난을", "begin": 23, "end": 23, "key_begin": 23, "head_phrase": 15, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 15, "label": "S", "text": "S#13@S어 P#14@OBJ을 받고 있다.", "begin": 0, "end": 25, "key_begin": 24, "head_phrase": -1, "sub_phrase": [13, 14], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "열리", "sense": 1, "word_id": 4, "weight": 0.435846, "argument": [
+                    {"type": "ARG1", "word_id": 3, "text": "25일(현지 시각)", "weight": 0.110704}, 
+                    {"type": "ARG1", "word_id": 6, "text": "열린 북대서양조약기구(NATO) 정상회의", "weight": 0.760988}
+                ]}, 
+                {"verb": "참석", "sense": 1, "word_id": 7, "weight": 0.379966, "argument": [
+                    {"type": "ARG1", "word_id": 6, "text": "열린 북대서양조약기구(NATO) 정상회의", "weight": 0.179115}, 
+                    {"type": "ARG0", "word_id": 10, "text": "도널드 트럼프 대통령", "weight": 0.580818}
+                ]}, 
+                {"verb": "나서", "sense": 1, "word_id": 13, "weight": 0.286005, "argument": [
+                    {"type": "ARG0", "word_id": 10, "text": "도널드 트럼프 대통령", "weight": 0.291811}, 
+                    {"type": "ARG1", "word_id": 12, "text": "맨 앞줄", "weight": 0.280199}
+                ]}, 
+                {"verb": "위하", "sense": 1, "word_id": 14, "weight": 0.252785, "argument": [
+                    {"type": "ARG1", "word_id": 13, "text": "나서기", "weight": 0.252785}
+                ]}, 
+                {"verb": "밀치", "sense": 1, "word_id": 19, "weight": 0.311561, "argument": [
+                    {"type": "ARG0", "word_id": 10, "text": "도널드 트럼프 대통령", "weight": 0.512217}, 
+                    {"type": "ARGM-PRP", "word_id": 14, "text": "위해", "weight": 0.283847}, 
+                    {"type": "ARG1", "word_id": 17, "text": "다른 나라 정상", "weight": 0.27344}, 
+                    {"type": "ARGM-INS", "word_id": 18, "text": "손", "weight": 0.176739}
+                ]}, 
+                {"verb": "공개", "sense": 1, "word_id": 22, "weight": 0.264638, "argument": [
+                    {"type": "ARG1", "word_id": 20, "text": "모습", "weight": 0.40542}, 
+                    {"type": "ARGM-TMP", "word_id": 21, "text": "동영상", "weight": 0.123856}
+                ]}, 
+                {"verb": "받", "sense": 1, "word_id": 24, "weight": 0.446456, "argument": [
+                    {"type": "ARGM-CAU", "word_id": 22, "text": "공개돼", "weight": 0.223468}, 
+                    {"type": "ARG1", "word_id": 23, "text": "비난", "weight": 0.363959}, 
+                    {"type": "AUX", "word_id": 25, "text": "받고 있다.", "weight": 0.751942}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 19, "ant_sid": 1, "ant_wid": 10, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 24, "ant_sid": 1, "ant_wid": 10, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 2, 
+            "text": "CNN과 여러 인터넷 사이트에서 공유되고 있는 이 영상은 나토 정상들이 단체 사진촬영을 준비하던 장면으로, 트럼프 대통령은 맨 앞줄로 나서기 위해 두스코 마르코비치 몬테네그로 총리의 팔을 잡아 제치며 밀어냈다.", 
+            "morp": [
+                {"id": 0, "lemma": "CNN", "type": "SL", "position": 376, "weight": 1}, 
+                {"id": 1, "lemma": "과", "type": "JC", "position": 379, "weight": 0.00444316}, 
+                {"id": 2, "lemma": "여러", "type": "MM", "position": 383, "weight": 0.9}, 
+                {"id": 3, "lemma": "인터넷", "type": "NNG", "position": 390, "weight": 0.9}, 
+                {"id": 4, "lemma": "사이트", "type": "NNG", "position": 400, "weight": 0.9}, 
+                {"id": 5, "lemma": "에서", "type": "JKB", "position": 409, "weight": 0.153407}, 
+                {"id": 6, "lemma": "공유", "type": "NNG", "position": 416, "weight": 0.9}, 
+                {"id": 7, "lemma": "되", "type": "XSV", "position": 422, "weight": 0.000224177}, 
+                {"id": 8, "lemma": "고", "type": "EC", "position": 425, "weight": 0.359917}, 
+                {"id": 9, "lemma": "있", "type": "VX", "position": 429, "weight": 0.125953}, 
+                {"id": 10, "lemma": "는", "type": "ETM", "position": 432, "weight": 0.183966}, 
+                {"id": 11, "lemma": "이", "type": "MM", "position": 436, "weight": 0.00060084}, 
+                {"id": 12, "lemma": "영상", "type": "NNG", "position": 440, "weight": 0.9}, 
+                {"id": 13, "lemma": "은", "type": "JX", "position": 446, "weight": 0.0449928}, 
+                {"id": 14, "lemma": "나토", "type": "NNG", "position": 450, "weight": 0.0128259}, 
+                {"id": 15, "lemma": "정상", "type": "NNG", "position": 457, "weight": 0.184581}, 
+                {"id": 16, "lemma": "들", "type": "XSN", "position": 463, "weight": 0.0299841}, 
+                {"id": 17, "lemma": "이", "type": "JKS", "position": 466, "weight": 0.0731805}, 
+                {"id": 18, "lemma": "단체", "type": "NNG", "position": 470, "weight": 0.209207}, 
+                {"id": 19, "lemma": "사진", "type": "NNG", "position": 477, "weight": 0.184744}, 
+                {"id": 20, "lemma": "촬영", "type": "NNG", "position": 483, "weight": 0.9}, 
+                {"id": 21, "lemma": "을", "type": "JKO", "position": 489, "weight": 0.129611}, 
+                {"id": 22, "lemma": "준비", "type": "NNG", "position": 493, "weight": 0.9}, 
+                {"id": 23, "lemma": "하", "type": "XSV", "position": 499, "weight": 0.0001}, 
+                {"id": 24, "lemma": "던", "type": "ETM", "position": 502, "weight": 0.409388}, 
+                {"id": 25, "lemma": "장면", "type": "NNG", "position": 506, "weight": 0.653099}, 
+                {"id": 26, "lemma": "으로", "type": "JKB", "position": 512, "weight": 0.153406}, 
+                {"id": 27, "lemma": ",", "type": "SP", "position": 518, "weight": 1}, 
+                {"id": 28, "lemma": "트럼프", "type": "NNG", "position": 520, "weight": 0.459762}, 
+                {"id": 29, "lemma": "대통령", "type": "NNG", "position": 530, "weight": 0.9}, 
+                {"id": 30, "lemma": "은", "type": "JX", "position": 539, "weight": 0.0449928}, 
+                {"id": 31, "lemma": "맨", "type": "MM", "position": 543, "weight": 0.0368201}, 
+                {"id": 32, "lemma": "앞줄", "type": "NNG", "position": 547, "weight": 0.9}, 
+                {"id": 33, "lemma": "로", "type": "JKB", "position": 553, "weight": 0.153229}, 
+                {"id": 34, "lemma": "나서", "type": "VV", "position": 557, "weight": 0.9}, 
+                {"id": 35, "lemma": "기", "type": "ETN", "position": 563, "weight": 0.0380514}, 
+                {"id": 36, "lemma": "위하", "type": "VV", "position": 567, "weight": 0.176484}, 
+                {"id": 37, "lemma": "어", "type": "EC", "position": 570, "weight": 0.41831}, 
+                {"id": 38, "lemma": "두스코", "type": "NNP", "position": 574, "weight": 0.6}, 
+                {"id": 39, "lemma": "마르코비치", "type": "NNP", "position": 584, "weight": 0.2}, 
+                {"id": 40, "lemma": "몬테네그", "type": "NNP", "position": 600, "weight": 0.45}, 
+                {"id": 41, "lemma": "로", "type": "JKB", "position": 612, "weight": 0.0822907}, 
+                {"id": 42, "lemma": "총리", "type": "NNG", "position": 616, "weight": 0.9}, 
+                {"id": 43, "lemma": "의", "type": "JKG", "position": 622, "weight": 0.0694213}, 
+                {"id": 44, "lemma": "팔", "type": "NNG", "position": 626, "weight": 0.296558}, 
+                {"id": 45, "lemma": "을", "type": "JKO", "position": 629, "weight": 0.129611}, 
+                {"id": 46, "lemma": "잡", "type": "VV", "position": 633, "weight": 0.776588}, 
+                {"id": 47, "lemma": "아", "type": "EC", "position": 636, "weight": 0.398809}, 
+                {"id": 48, "lemma": "제치", "type": "VV", "position": 640, "weight": 0.225973}, 
+                {"id": 49, "lemma": "며", "type": "EC", "position": 646, "weight": 0.429701}, 
+                {"id": 50, "lemma": "밀어내", "type": "VV", "position": 650, "weight": 0.9}, 
+                {"id": 51, "lemma": "었", "type": "EP", "position": 656, "weight": 0.9}, 
+                {"id": 52, "lemma": "다", "type": "EF", "position": 659, "weight": 0.640954}, 
+                {"id": 53, "lemma": ".", "type": "SF", "position": 662, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "CNN과", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "여러", "type": "", "begin": 2, "end": 2}, 
+                {"id": 2, "text": "인터넷", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "사이트에서", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "공유되고", "type": "", "begin": 6, "end": 8}, 
+                {"id": 5, "text": "있는", "type": "", "begin": 9, "end": 10}, 
+                {"id": 6, "text": "이", "type": "", "begin": 11, "end": 11}, 
+                {"id": 7, "text": "영상은", "type": "", "begin": 12, "end": 13}, 
+                {"id": 8, "text": "나토", "type": "", "begin": 14, "end": 14}, 
+                {"id": 9, "text": "정상들이", "type": "", "begin": 15, "end": 17}, 
+                {"id": 10, "text": "단체", "type": "", "begin": 18, "end": 18}, 
+                {"id": 11, "text": "사진촬영을", "type": "", "begin": 19, "end": 21}, 
+                {"id": 12, "text": "준비하던", "type": "", "begin": 22, "end": 24}, 
+                {"id": 13, "text": "장면으로,", "type": "", "begin": 25, "end": 27}, 
+                {"id": 14, "text": "트럼프", "type": "", "begin": 28, "end": 28}, 
+                {"id": 15, "text": "대통령은", "type": "", "begin": 29, "end": 30}, 
+                {"id": 16, "text": "맨", "type": "", "begin": 31, "end": 31}, 
+                {"id": 17, "text": "앞줄로", "type": "", "begin": 32, "end": 33}, 
+                {"id": 18, "text": "나서기", "type": "", "begin": 34, "end": 35}, 
+                {"id": 19, "text": "위해", "type": "", "begin": 36, "end": 37}, 
+                {"id": 20, "text": "두스코", "type": "", "begin": 38, "end": 38}, 
+                {"id": 21, "text": "마르코비치", "type": "", "begin": 39, "end": 39}, 
+                {"id": 22, "text": "몬테네그로", "type": "", "begin": 40, "end": 41}, 
+                {"id": 23, "text": "총리의", "type": "", "begin": 42, "end": 43}, 
+                {"id": 24, "text": "팔을", "type": "", "begin": 44, "end": 45}, 
+                {"id": 25, "text": "잡아", "type": "", "begin": 46, "end": 47}, 
+                {"id": 26, "text": "제치며", "type": "", "begin": 48, "end": 49}, 
+                {"id": 27, "text": "밀어냈다.", "type": "", "begin": 50, "end": 53}
+            ], 
+            "NE": [
+                {"id": 0, "text": "CNN", "type": "OGG_MEDIA", "begin": 0, "end": 0, "weight": 0.460941, "common_noun": 0}, 
+                {"id": 1, "text": "인터넷", "type": "TMI_SERVICE", "begin": 3, "end": 3, "weight": 1, "common_noun": 0}, 
+                {"id": 2, "text": "나토", "type": "OGG_MILITARY", "begin": 14, "end": 14, "weight": 0.24722, "common_noun": 0}, 
+                {"id": 3, "text": "트럼프", "type": "PS_NAME", "begin": 28, "end": 28, "weight": 0.334625, "common_noun": 0}, 
+                {"id": 4, "text": "대통령", "type": "CV_POSITION", "begin": 29, "end": 29, "weight": 0.568093, "common_noun": 0}, 
+                {"id": 5, "text": "두스코 마르코비치", "type": "PS_NAME", "begin": 38, "end": 39, "weight": 0.0920218, "common_noun": 0}, 
+                {"id": 6, "text": "몬테네그로", "type": "LCP_COUNTRY", "begin": 40, "end": 41, "weight": 0.312116, "common_noun": 0}, 
+                {"id": 7, "text": "총리", "type": "CV_POSITION", "begin": 42, "end": 42, "weight": 0.457597, "common_noun": 0}, 
+                {"id": 8, "text": "팔", "type": "AM_PART", "begin": 44, "end": 44, "weight": 0.366314, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "CNN과", "head": 7, "label": "NP_CNJ", "mod": [], "weight": 0.132354}, 
+                {"id": 1, "text": "여러", "head": 3, "label": "DP", "mod": [], "weight": 0.614217}, 
+                {"id": 2, "text": "인터넷", "head": 3, "label": "NP", "mod": [], "weight": 0.660688}, 
+                {"id": 3, "text": "사이트에서", "head": 4, "label": "NP_AJT", "mod": [1, 2], "weight": 0.749736}, 
+                {"id": 4, "text": "공유되고", "head": 5, "label": "VP", "mod": [3], "weight": 0.790265}, 
+                {"id": 5, "text": "있는", "head": 7, "label": "VP_MOD", "mod": [4], "weight": 0.550631}, 
+                {"id": 6, "text": "이", "head": 7, "label": "DP", "mod": [], "weight": 0.684363}, 
+                {"id": 7, "text": "영상은", "head": 13, "label": "NP_SBJ", "mod": [0, 5, 6], "weight": 0.494307}, 
+                {"id": 8, "text": "나토", "head": 9, "label": "NP", "mod": [], "weight": 0.551233}, 
+                {"id": 9, "text": "정상들이", "head": 12, "label": "NP_SBJ", "mod": [8], "weight": 0.48459}, 
+                {"id": 10, "text": "단체", "head": 11, "label": "NP", "mod": [], "weight": 0.753521}, 
+                {"id": 11, "text": "사진촬영을", "head": 12, "label": "NP_OBJ", "mod": [10], "weight": 0.668999}, 
+                {"id": 12, "text": "준비하던", "head": 13, "label": "VP_MOD", "mod": [9, 11], "weight": 0.823655}, 
+                {"id": 13, "text": "장면으로,", "head": 18, "label": "NP_AJT", "mod": [7, 12], "weight": 0.181888}, 
+                {"id": 14, "text": "트럼프", "head": 15, "label": "NP", "mod": [], "weight": 0.719509}, 
+                {"id": 15, "text": "대통령은", "head": 18, "label": "NP_SBJ", "mod": [14], "weight": 0.563368}, 
+                {"id": 16, "text": "맨", "head": 17, "label": "DP", "mod": [], "weight": 0.625308}, 
+                {"id": 17, "text": "앞줄로", "head": 18, "label": "NP_AJT", "mod": [16], "weight": 0.804012}, 
+                {"id": 18, "text": "나서기", "head": 19, "label": "VP_OBJ", "mod": [13, 15, 17], "weight": 0.744612}, 
+                {"id": 19, "text": "위해", "head": 25, "label": "VP", "mod": [18], "weight": 0.872995}, 
+                {"id": 20, "text": "두스코", "head": 21, "label": "NP", "mod": [], "weight": 0.38412}, 
+                {"id": 21, "text": "마르코비치", "head": 22, "label": "NP", "mod": [20], "weight": 0.706567}, 
+                {"id": 22, "text": "몬테네그로", "head": 25, "label": "NP_AJT", "mod": [21], "weight": 0.738077}, 
+                {"id": 23, "text": "총리의", "head": 24, "label": "NP_MOD", "mod": [], "weight": 0.686126}, 
+                {"id": 24, "text": "팔을", "head": 25, "label": "NP_OBJ", "mod": [23], "weight": 0.803316}, 
+                {"id": 25, "text": "잡아", "head": 26, "label": "VP", "mod": [19, 22, 24], "weight": 0.875757}, 
+                {"id": 26, "text": "제치며", "head": 27, "label": "VP", "mod": [25], "weight": 0.755666}, 
+                {"id": 27, "text": "밀어냈다.", "head": -1, "label": "VP", "mod": [26], "weight": 8.08785e-07}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_CNJ", "text": "CNN과", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "여러 인터넷 사이트에서", "begin": 1, "end": 3, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#1@AJT에서 공유되고 있는", "begin": 1, "end": 5, "key_begin": 4, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "P#0@CNJ과 P#2@MOD는 이 영상은", "begin": 0, "end": 7, "key_begin": 6, "head_phrase": 7, "sub_phrase": [0, 2], "weight": 0, "element": [
+                    {"text": "CNN", "label": "NP_SBJ", "begin": 0, "end": 0, "ne_type": "OGG_MEDIA"}, 
+                    {"text": "여러 인터넷 사이트에서 공유되고 있는 이 영상", "label": "NP_SBJ", "begin": 2, "end": 12, "ne_type": ""}
+                ]}, 
+                {"id": 4, "label": "NP_SBJ", "text": "나토 정상들이", "begin": 8, "end": 9, "key_begin": 8, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_OBJ", "text": "단체 사진촬영을", "begin": 10, "end": 11, "key_begin": 10, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S_MOD", "text": "P#4@SBJ이 P#5@OBJ을 준비하던", "begin": 8, "end": 12, "key_begin": 12, "head_phrase": 7, "sub_phrase": [4, 5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S_AJT", "text": "P#3@SBJ은 S#6@MOD던 장면으로,", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": 10, "sub_phrase": [3, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_SBJ", "text": "트럼프 대통령은", "begin": 14, "end": 15, "key_begin": 14, "head_phrase": 10, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_AJT", "text": "맨 앞줄로", "begin": 16, "end": 17, "key_begin": 16, "head_phrase": 10, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 10, "label": "S_OBJ", "text": "S#7@AJT으로, P#8@SBJ은 P#9@AJT로 나서기", "begin": 0, "end": 18, "key_begin": 18, "head_phrase": 11, "sub_phrase": [7, 8, 9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "S", "text": "S#10@OBJ기 위해", "begin": 0, "end": 19, "key_begin": 19, "head_phrase": 14, "sub_phrase": [10], "weight": 0, "element": []}, 
+                {"id": 12, "label": "NP_AJT", "text": "두스코 마르코비치 몬테네그로", "begin": 20, "end": 22, "key_begin": 20, "head_phrase": 14, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 13, "label": "NP_OBJ", "text": "총리의 팔을", "begin": 23, "end": 24, "key_begin": 23, "head_phrase": 14, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 14, "label": "S", "text": "S#11@S어 P#12@AJT로 P#13@OBJ을 잡아 제치며 밀어냈다.", "begin": 0, "end": 27, "key_begin": 25, "head_phrase": -1, "sub_phrase": [11, 12, 13], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "공유", "sense": 1, "word_id": 4, "weight": 0.357787, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 3, "text": "여러 인터넷 사이트", "weight": 0.116415}, 
+                    {"type": "AUX", "word_id": 5, "text": "공유되고 있는", "weight": 0.676937}, 
+                    {"type": "ARG1", "word_id": 7, "text": "이 영상", "weight": 0.280011}
+                ]}, 
+                {"verb": "준비", "sense": 1, "word_id": 12, "weight": 0.437793, "argument": [
+                    {"type": "ARG0", "word_id": 9, "text": "나토 정상들", "weight": 0.329149}, 
+                    {"type": "ARG1", "word_id": 11, "text": "단체 사진촬영", "weight": 0.546437}
+                ]}, 
+                {"verb": "나서", "sense": 1, "word_id": 18, "weight": 0.324063, "argument": [
+                    {"type": "ARG1", "word_id": 17, "text": "맨 앞줄", "weight": 0.324063}
+                ]}, 
+                {"verb": "위하", "sense": 1, "word_id": 19, "weight": 0.254342, "argument": [
+                    {"type": "ARG1", "word_id": 18, "text": "나서기", "weight": 0.254342}
+                ]}, 
+                {"verb": "잡", "sense": 1, "word_id": 25, "weight": 0.305703, "argument": [
+                    {"type": "ARGM-PRP", "word_id": 19, "text": "위해", "weight": 0.315063}, 
+                    {"type": "ARG1", "word_id": 24, "text": "총리의 팔", "weight": 0.296344}
+                ]}, 
+                {"verb": "제치", "sense": 1, "word_id": 26, "weight": 0.284425, "argument": [
+                    {"type": "ARGM-PRP", "word_id": 19, "text": "위해", "weight": 0.397865}, 
+                    {"type": "ARGM-MNR", "word_id": 25, "text": "잡아", "weight": 0.170984}
+                ]}, 
+                {"verb": "밀어내", "sense": 1, "word_id": 27, "weight": 0.108877, "argument": [
+                    {"type": "ARG1", "word_id": 26, "text": "제치며", "weight": 0.108877}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 25, "ant_sid": 2, "ant_wid": 15, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 26, "ant_sid": 2, "ant_wid": 15, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 2, "type": "o", "head_wid": 26, "ant_sid": 2, "ant_wid": 23, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 3, "type": "s", "head_wid": 27, "ant_sid": 2, "ant_wid": 15, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 4, "type": "o", "head_wid": 27, "ant_sid": 2, "ant_wid": 23, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 3, 
+            "text": " 트럼프 대통령의 행동에 놀란 표정을 지은 마르코비치 총리는 이내 웃음을 지으며 옆으로 물러났다.", 
+            "morp": [
+                {"id": 0, "lemma": "트럼프", "type": "NNG", "position": 664, "weight": 0.378766}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 674, "weight": 0.9}, 
+                {"id": 2, "lemma": "의", "type": "JKG", "position": 683, "weight": 0.0694213}, 
+                {"id": 3, "lemma": "행동", "type": "NNG", "position": 687, "weight": 0.9}, 
+                {"id": 4, "lemma": "에", "type": "JKB", "position": 693, "weight": 0.153364}, 
+                {"id": 5, "lemma": "놀라", "type": "VV", "position": 697, "weight": 0.9}, 
+                {"id": 6, "lemma": "ㄴ", "type": "ETM", "position": 700, "weight": 0.304215}, 
+                {"id": 7, "lemma": "표정", "type": "NNG", "position": 704, "weight": 0.9}, 
+                {"id": 8, "lemma": "을", "type": "JKO", "position": 710, "weight": 0.129611}, 
+                {"id": 9, "lemma": "짓", "type": "VV", "position": 714, "weight": 0.634592}, 
+                {"id": 10, "lemma": "은", "type": "ETM", "position": 717, "weight": 0.109632}, 
+                {"id": 11, "lemma": "마르코비치", "type": "NNP", "position": 721, "weight": 0.2}, 
+                {"id": 12, "lemma": "총리", "type": "NNG", "position": 737, "weight": 0.9}, 
+                {"id": 13, "lemma": "는", "type": "JX", "position": 743, "weight": 0.0287565}, 
+                {"id": 14, "lemma": "이내", "type": "MAG", "position": 747, "weight": 0.0684232}, 
+                {"id": 15, "lemma": "웃음", "type": "NNG", "position": 754, "weight": 0.9}, 
+                {"id": 16, "lemma": "을", "type": "JKO", "position": 760, "weight": 0.129611}, 
+                {"id": 17, "lemma": "짓", "type": "VV", "position": 764, "weight": 0.634592}, 
+                {"id": 18, "lemma": "으며", "type": "EC", "position": 767, "weight": 0.431045}, 
+                {"id": 19, "lemma": "옆", "type": "NNG", "position": 774, "weight": 0.9}, 
+                {"id": 20, "lemma": "으로", "type": "JKB", "position": 777, "weight": 0.153406}, 
+                {"id": 21, "lemma": "물러나", "type": "VV", "position": 784, "weight": 0.9}, 
+                {"id": 22, "lemma": "았", "type": "EP", "position": 790, "weight": 0.9}, 
+                {"id": 23, "lemma": "다", "type": "EF", "position": 793, "weight": 0.640954}, 
+                {"id": 24, "lemma": ".", "type": "SF", "position": 796, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "트럼프", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령의", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "행동에", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "놀란", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "표정을", "type": "", "begin": 7, "end": 8}, 
+                {"id": 5, "text": "지은", "type": "", "begin": 9, "end": 10}, 
+                {"id": 6, "text": "마르코비치", "type": "", "begin": 11, "end": 11}, 
+                {"id": 7, "text": "총리는", "type": "", "begin": 12, "end": 13}, 
+                {"id": 8, "text": "이내", "type": "", "begin": 14, "end": 14}, 
+                {"id": 9, "text": "웃음을", "type": "", "begin": 15, "end": 16}, 
+                {"id": 10, "text": "지으며", "type": "", "begin": 17, "end": 18}, 
+                {"id": 11, "text": "옆으로", "type": "", "begin": 19, "end": 20}, 
+                {"id": 12, "text": "물러났다.", "type": "", "begin": 21, "end": 24}
+            ], 
+            "NE": [
+                {"id": 0, "text": "트럼프", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.332433, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.478495, "common_noun": 0}, 
+                {"id": 2, "text": "마르코비치", "type": "PS_NAME", "begin": 11, "end": 11, "weight": 0.333439, "common_noun": 0}, 
+                {"id": 3, "text": "총리", "type": "CV_POSITION", "begin": 12, "end": 12, "weight": 0.490559, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "트럼프", "head": 1, "label": "NP", "mod": [], "weight": 0.55334}, 
+                {"id": 1, "text": "대통령의", "head": 2, "label": "NP_MOD", "mod": [0], "weight": 0.448341}, 
+                {"id": 2, "text": "행동에", "head": 3, "label": "NP_AJT", "mod": [1], "weight": 0.369579}, 
+                {"id": 3, "text": "놀란", "head": 4, "label": "VP_MOD", "mod": [2], "weight": 0.625653}, 
+                {"id": 4, "text": "표정을", "head": 5, "label": "NP_OBJ", "mod": [3], "weight": 0.762505}, 
+                {"id": 5, "text": "지은", "head": 7, "label": "VP_MOD", "mod": [4], "weight": 0.744786}, 
+                {"id": 6, "text": "마르코비치", "head": 7, "label": "NP", "mod": [], "weight": 0.737323}, 
+                {"id": 7, "text": "총리는", "head": 10, "label": "NP_SBJ", "mod": [5, 6], "weight": 0.787801}, 
+                {"id": 8, "text": "이내", "head": 10, "label": "AP", "mod": [], "weight": 0.725448}, 
+                {"id": 9, "text": "웃음을", "head": 10, "label": "NP_OBJ", "mod": [], "weight": 0.828609}, 
+                {"id": 10, "text": "지으며", "head": 12, "label": "VP", "mod": [7, 8, 9], "weight": 0.846174}, 
+                {"id": 11, "text": "옆으로", "head": 12, "label": "NP_AJT", "mod": [], "weight": 0.788908}, 
+                {"id": 12, "text": "물러났다.", "head": -1, "label": "VP", "mod": [10, 11], "weight": 0.00630399}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "트럼프 대통령의 행동에", "begin": 0, "end": 2, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@AJT에 놀란", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "P#1@MODㄴ 표정을", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP_MOD", "text": "P#2@OBJ을 지은", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "P#3@MOD은 마르코비치 총리는", "begin": 0, "end": 7, "key_begin": 6, "head_phrase": 7, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "AP", "text": "이내", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_OBJ", "text": "웃음을", "begin": 9, "end": 9, "key_begin": 9, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "P#4@SBJ는 P#5@AP이내 P#6@OBJ을 지으며", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": 9, "sub_phrase": [4, 5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_AJT", "text": "옆으로", "begin": 11, "end": 11, "key_begin": 11, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "S#7@S으며 P#8@AJT으로 물러났다.", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": -1, "sub_phrase": [7, 8], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "놀라", "sense": 1, "word_id": 3, "weight": 0.218582, "argument": [
+                    {"type": "ARG2", "word_id": 2, "text": "트럼프 대통령의 행동", "weight": 0.128263}, 
+                    {"type": "ARG1", "word_id": 4, "text": "표정", "weight": 0.308902}
+                ]}, 
+                {"verb": "짓", "sense": 1, "word_id": 5, "weight": 0.271941, "argument": [
+                    {"type": "ARG1", "word_id": 4, "text": "표정", "weight": 0.267904}, 
+                    {"type": "ARG0", "word_id": 7, "text": "마르코비치 총리", "weight": 0.275978}
+                ]}, 
+                {"verb": "짓", "sense": 1, "word_id": 10, "weight": 0.253841, "argument": [
+                    {"type": "ARG0", "word_id": 7, "text": "마르코비치 총리", "weight": 0.325861}, 
+                    {"type": "ARGM-TMP", "word_id": 8, "text": "이내", "weight": 0.22749}, 
+                    {"type": "ARG1", "word_id": 9, "text": "웃음", "weight": 0.208172}
+                ]}, 
+                {"verb": "물러나", "sense": 1, "word_id": 12, "weight": 0.163883, "argument": [
+                    {"type": "ARG1", "word_id": 11, "text": "옆", "weight": 0.163883}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 3, "ant_sid": 3, "ant_wid": 7, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 12, "ant_sid": 3, "ant_wid": 7, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 4, 
+            "text": " 그렇게 앞으로 나선 트럼프 대통령은 마르코비치 총리 쪽은 쳐다보지 않은 채 앞만 쳐다보며 옷매무새를 만졌다.", 
+            "morp": [
+                {"id": 0, "lemma": "그렇", "type": "VA", "position": 798, "weight": 0.0465632}, 
+                {"id": 1, "lemma": "게", "type": "EC", "position": 804, "weight": 0.31879}, 
+                {"id": 2, "lemma": "앞", "type": "NNG", "position": 808, "weight": 0.9}, 
+                {"id": 3, "lemma": "으로", "type": "JKB", "position": 811, "weight": 0.153406}, 
+                {"id": 4, "lemma": "나서", "type": "VV", "position": 818, "weight": 0.9}, 
+                {"id": 5, "lemma": "ㄴ", "type": "ETM", "position": 821, "weight": 0.304215}, 
+                {"id": 6, "lemma": "트럼프", "type": "NNG", "position": 825, "weight": 0.569809}, 
+                {"id": 7, "lemma": "대통령", "type": "NNG", "position": 835, "weight": 0.9}, 
+                {"id": 8, "lemma": "은", "type": "JX", "position": 844, "weight": 0.0449928}, 
+                {"id": 9, "lemma": "마르코비치", "type": "NNP", "position": 848, "weight": 0.2}, 
+                {"id": 10, "lemma": "총리", "type": "NNG", "position": 864, "weight": 0.9}, 
+                {"id": 11, "lemma": "쪽", "type": "NNB", "position": 871, "weight": 0.0149456}, 
+                {"id": 12, "lemma": "은", "type": "JX", "position": 874, "weight": 0.0688243}, 
+                {"id": 13, "lemma": "쳐다보", "type": "VV", "position": 878, "weight": 0.9}, 
+                {"id": 14, "lemma": "지", "type": "EC", "position": 887, "weight": 0.301842}, 
+                {"id": 15, "lemma": "않", "type": "VX", "position": 891, "weight": 0.256301}, 
+                {"id": 16, "lemma": "은", "type": "ETM", "position": 894, "weight": 0.109054}, 
+                {"id": 17, "lemma": "채", "type": "NNB", "position": 898, "weight": 0.190405}, 
+                {"id": 18, "lemma": "앞", "type": "NNG", "position": 902, "weight": 0.9}, 
+                {"id": 19, "lemma": "만", "type": "JX", "position": 905, "weight": 0.0522241}, 
+                {"id": 20, "lemma": "쳐다보", "type": "VV", "position": 909, "weight": 0.9}, 
+                {"id": 21, "lemma": "며", "type": "EC", "position": 918, "weight": 0.429701}, 
+                {"id": 22, "lemma": "옷", "type": "NNG", "position": 922, "weight": 0.9}, 
+                {"id": 23, "lemma": "매무새", "type": "NNG", "position": 925, "weight": 0.9}, 
+                {"id": 24, "lemma": "를", "type": "JKO", "position": 934, "weight": 0.137686}, 
+                {"id": 25, "lemma": "만지", "type": "VV", "position": 938, "weight": 0.776833}, 
+                {"id": 26, "lemma": "었", "type": "EP", "position": 941, "weight": 0.9}, 
+                {"id": 27, "lemma": "다", "type": "EF", "position": 944, "weight": 0.640954}, 
+                {"id": 28, "lemma": ".", "type": "SF", "position": 947, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "그렇게", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "앞으로", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "나선", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "트럼프", "type": "", "begin": 6, "end": 6}, 
+                {"id": 4, "text": "대통령은", "type": "", "begin": 7, "end": 8}, 
+                {"id": 5, "text": "마르코비치", "type": "", "begin": 9, "end": 9}, 
+                {"id": 6, "text": "총리", "type": "", "begin": 10, "end": 10}, 
+                {"id": 7, "text": "쪽은", "type": "", "begin": 11, "end": 12}, 
+                {"id": 8, "text": "쳐다보지", "type": "", "begin": 13, "end": 14}, 
+                {"id": 9, "text": "않은", "type": "", "begin": 15, "end": 16}, 
+                {"id": 10, "text": "채", "type": "", "begin": 17, "end": 17}, 
+                {"id": 11, "text": "앞만", "type": "", "begin": 18, "end": 19}, 
+                {"id": 12, "text": "쳐다보며", "type": "", "begin": 20, "end": 21}, 
+                {"id": 13, "text": "옷매무새를", "type": "", "begin": 22, "end": 24}, 
+                {"id": 14, "text": "만졌다.", "type": "", "begin": 25, "end": 28}
+            ], 
+            "NE": [
+                {"id": 0, "text": "트럼프", "type": "PS_NAME", "begin": 6, "end": 6, "weight": 0.4369, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 7, "end": 7, "weight": 0.629483, "common_noun": 0}, 
+                {"id": 2, "text": "마르코비치", "type": "PS_NAME", "begin": 9, "end": 9, "weight": 0.300863, "common_noun": 0}, 
+                {"id": 3, "text": "총리", "type": "CV_POSITION", "begin": 10, "end": 10, "weight": 0.441222, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "그렇게", "head": 2, "label": "VP_AJT", "mod": [], "weight": 0.338235}, 
+                {"id": 1, "text": "앞으로", "head": 2, "label": "NP_AJT", "mod": [], "weight": 0.643608}, 
+                {"id": 2, "text": "나선", "head": 4, "label": "VP_MOD", "mod": [0, 1], "weight": 0.650996}, 
+                {"id": 3, "text": "트럼프", "head": 4, "label": "NP", "mod": [], "weight": 0.663477}, 
+                {"id": 4, "text": "대통령은", "head": 12, "label": "NP_SBJ", "mod": [2, 3], "weight": 0.758953}, 
+                {"id": 5, "text": "마르코비치", "head": 6, "label": "NP", "mod": [], "weight": 0.730913}, 
+                {"id": 6, "text": "총리", "head": 7, "label": "NP", "mod": [5], "weight": 0.601028}, 
+                {"id": 7, "text": "쪽은", "head": 12, "label": "NP_SBJ", "mod": [6], "weight": 0.641695}, 
+                {"id": 8, "text": "쳐다보지", "head": 9, "label": "VP", "mod": [], "weight": 0.702315}, 
+                {"id": 9, "text": "않은", "head": 10, "label": "VP_MOD", "mod": [8], "weight": 0.777963}, 
+                {"id": 10, "text": "채", "head": 12, "label": "NP_AJT", "mod": [9], "weight": 0.781826}, 
+                {"id": 11, "text": "앞만", "head": 12, "label": "NP_OBJ", "mod": [], "weight": 0.352542}, 
+                {"id": 12, "text": "쳐다보며", "head": 14, "label": "VP", "mod": [4, 7, 10, 11], "weight": 0.806963}, 
+                {"id": 13, "text": "옷매무새를", "head": 14, "label": "NP_OBJ", "mod": [], "weight": 0.732888}, 
+                {"id": 14, "text": "만졌다.", "head": -1, "label": "VP", "mod": [12, 13], "weight": 0.00137571}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VP_AJT", "text": "그렇게", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "앞으로", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#0@AJT게 P#1@AJT으로 나선", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "P#2@MODㄴ 트럼프 대통령은", "begin": 0, "end": 4, "key_begin": 3, "head_phrase": 8, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "마르코비치 총리 쪽은", "begin": 5, "end": 7, "key_begin": 5, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP_MOD", "text": "쳐다보지 않은", "begin": 8, "end": 9, "key_begin": 8, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "P#5@MOD은 채", "begin": 8, "end": 10, "key_begin": 10, "head_phrase": 8, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_OBJ", "text": "앞만", "begin": 11, "end": 11, "key_begin": 11, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "P#3@SBJ은 P#4@SBJ은 P#6@AJT채 P#7@OBJ만 쳐다보며", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": 10, "sub_phrase": [3, 4, 6, 7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_OBJ", "text": "옷매무새를", "begin": 13, "end": 13, "key_begin": 13, "head_phrase": 10, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 10, "label": "S", "text": "S#8@S며 P#9@OBJ를 만졌다.", "begin": 0, "end": 14, "key_begin": 14, "head_phrase": -1, "sub_phrase": [8, 9], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "나서", "sense": 1, "word_id": 2, "weight": 0.253991, "argument": [
+                    {"type": "ARGM-MNR", "word_id": 0, "text": "그렇게", "weight": 0.183641}, 
+                    {"type": "ARG1", "word_id": 1, "text": "앞", "weight": 0.136608}, 
+                    {"type": "ARG0", "word_id": 4, "text": "트럼프 대통령", "weight": 0.441724}
+                ]}, 
+                {"verb": "쳐다보", "sense": 2, "word_id": 8, "weight": 0.352162, "argument": [
+                    {"type": "ARG1", "word_id": 7, "text": "마르코비치 총리 쪽", "weight": 0.208694}, 
+                    {"type": "ARGM-NEG", "word_id": 9, "text": "쳐다보지 않은", "weight": 0.49563}
+                ]}, 
+                {"verb": "쳐다보", "sense": 1, "word_id": 12, "weight": 0.144717, "argument": [
+                    {"type": "ARGM-PRD", "word_id": 10, "text": "채", "weight": 0.116197}, 
+                    {"type": "ARG1", "word_id": 11, "text": "앞", "weight": 0.173236}
+                ]}, 
+                {"verb": "만지", "sense": 1, "word_id": 14, "weight": 0.617206, "argument": [
+                    {"type": "ARG1", "word_id": 13, "text": "옷매무새", "weight": 0.617206}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 12, "ant_sid": 4, "ant_wid": 4, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 14, "ant_sid": 4, "ant_wid": 4, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 5, 
+            "text": "NBC 뉴스의 앵커 조 스카버러는 트위터 계정을 통해 해당 영상을 공유하며 \"이 무슨 깡패인가(what a thug)\"라고 비난했다.", 
+            "morp": [
+                {"id": 0, "lemma": "NBC", "type": "SL", "position": 948, "weight": 1}, 
+                {"id": 1, "lemma": "뉴스", "type": "NNG", "position": 952, "weight": 0.9}, 
+                {"id": 2, "lemma": "의", "type": "JKG", "position": 958, "weight": 0.0694213}, 
+                {"id": 3, "lemma": "앵커", "type": "NNG", "position": 962, "weight": 0.867273}, 
+                {"id": 4, "lemma": "조", "type": "NNP", "position": 969, "weight": 0.000830387}, 
+                {"id": 5, "lemma": "스카버러", "type": "NNG", "position": 973, "weight": 0}, 
+                {"id": 6, "lemma": "는", "type": "JX", "position": 985, "weight": 0.0287565}, 
+                {"id": 7, "lemma": "트위터", "type": "NNG", "position": 989, "weight": 0}, 
+                {"id": 8, "lemma": "계정", "type": "NNG", "position": 999, "weight": 0.18404}, 
+                {"id": 9, "lemma": "을", "type": "JKO", "position": 1005, "weight": 0.129611}, 
+                {"id": 10, "lemma": "통하", "type": "VV", "position": 1009, "weight": 0.9}, 
+                {"id": 11, "lemma": "어", "type": "EC", "position": 1012, "weight": 0.41831}, 
+                {"id": 12, "lemma": "해당", "type": "NNG", "position": 1016, "weight": 0.9}, 
+                {"id": 13, "lemma": "영상", "type": "NNG", "position": 1023, "weight": 0.9}, 
+                {"id": 14, "lemma": "을", "type": "JKO", "position": 1029, "weight": 0.129611}, 
+                {"id": 15, "lemma": "공유", "type": "NNG", "position": 1033, "weight": 0.9}, 
+                {"id": 16, "lemma": "하", "type": "XSV", "position": 1039, "weight": 0.0001}, 
+                {"id": 17, "lemma": "며", "type": "EC", "position": 1042, "weight": 0.371165}, 
+                {"id": 18, "lemma": "\"", "type": "SS", "position": 1046, "weight": 1}, 
+                {"id": 19, "lemma": "이", "type": "MM", "position": 1047, "weight": 0.000372718}, 
+                {"id": 20, "lemma": "무슨", "type": "MM", "position": 1051, "weight": 0.0140035}, 
+                {"id": 21, "lemma": "깡패", "type": "NNG", "position": 1058, "weight": 0.9}, 
+                {"id": 22, "lemma": "이", "type": "VCP", "position": 1064, "weight": 0.0177525}, 
+                {"id": 23, "lemma": "ㄴ가", "type": "EF", "position": 1064, "weight": 0.177706}, 
+                {"id": 24, "lemma": "(", "type": "SS", "position": 1070, "weight": 1}, 
+                {"id": 25, "lemma": "what", "type": "SL", "position": 1071, "weight": 1}, 
+                {"id": 26, "lemma": "a", "type": "SL", "position": 1076, "weight": 1}, 
+                {"id": 27, "lemma": "thug", "type": "SL", "position": 1078, "weight": 1}, 
+                {"id": 28, "lemma": ")", "type": "SS", "position": 1082, "weight": 1}, 
+                {"id": 29, "lemma": "\"", "type": "SS", "position": 1083, "weight": 1}, 
+                {"id": 30, "lemma": "라고", "type": "JKQ", "position": 1084, "weight": 0.00318431}, 
+                {"id": 31, "lemma": "비난", "type": "NNG", "position": 1091, "weight": 0.9}, 
+                {"id": 32, "lemma": "하", "type": "XSV", "position": 1097, "weight": 0.0001}, 
+                {"id": 33, "lemma": "었", "type": "EP", "position": 1097, "weight": 0.9}, 
+                {"id": 34, "lemma": "다", "type": "EF", "position": 1100, "weight": 0.640954}, 
+                {"id": 35, "lemma": ".", "type": "SF", "position": 1103, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "NBC", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "뉴스의", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "앵커", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "조", "type": "", "begin": 4, "end": 4}, 
+                {"id": 4, "text": "스카버러는", "type": "", "begin": 5, "end": 6}, 
+                {"id": 5, "text": "트위터", "type": "", "begin": 7, "end": 7}, 
+                {"id": 6, "text": "계정을", "type": "", "begin": 8, "end": 9}, 
+                {"id": 7, "text": "통해", "type": "", "begin": 10, "end": 11}, 
+                {"id": 8, "text": "해당", "type": "", "begin": 12, "end": 12}, 
+                {"id": 9, "text": "영상을", "type": "", "begin": 13, "end": 14}, 
+                {"id": 10, "text": "공유하며", "type": "", "begin": 15, "end": 17}, 
+                {"id": 11, "text": "\"이", "type": "", "begin": 18, "end": 19}, 
+                {"id": 12, "text": "무슨", "type": "", "begin": 20, "end": 20}, 
+                {"id": 13, "text": "깡패인가(what", "type": "", "begin": 21, "end": 25}, 
+                {"id": 14, "text": "a", "type": "", "begin": 26, "end": 26}, 
+                {"id": 15, "text": "thug)\"라고", "type": "", "begin": 27, "end": 30}, 
+                {"id": 16, "text": "비난했다.", "type": "", "begin": 31, "end": 35}
+            ], 
+            "NE": [
+                {"id": 0, "text": "NBC", "type": "OGG_MEDIA", "begin": 0, "end": 0, "weight": 0.620218, "common_noun": 0}, 
+                {"id": 1, "text": "앵커", "type": "CV_OCCUPATION", "begin": 3, "end": 3, "weight": 0.5325, "common_noun": 0}, 
+                {"id": 2, "text": "조 스카버러", "type": "PS_NAME", "begin": 4, "end": 5, "weight": 0.244357, "common_noun": 0}, 
+                {"id": 3, "text": "트위터", "type": "TMI_SERVICE", "begin": 7, "end": 7, "weight": 0.480501, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "NBC", "head": 1, "label": "NP", "mod": [], "weight": 0.401917}, 
+                {"id": 1, "text": "뉴스의", "head": 2, "label": "NP_MOD", "mod": [0], "weight": 0.50569}, 
+                {"id": 2, "text": "앵커", "head": 4, "label": "NP", "mod": [1], "weight": 0.660637}, 
+                {"id": 3, "text": "조", "head": 4, "label": "NP", "mod": [], "weight": 0.736588}, 
+                {"id": 4, "text": "스카버러는", "head": 7, "label": "NP_SBJ", "mod": [2, 3], "weight": 0.362168}, 
+                {"id": 5, "text": "트위터", "head": 6, "label": "NP", "mod": [], "weight": 0.439529}, 
+                {"id": 6, "text": "계정을", "head": 7, "label": "NP_OBJ", "mod": [5], "weight": 0.823882}, 
+                {"id": 7, "text": "통해", "head": 10, "label": "VP", "mod": [4, 6], "weight": 0.861886}, 
+                {"id": 8, "text": "해당", "head": 9, "label": "NP", "mod": [], "weight": 0.743077}, 
+                {"id": 9, "text": "영상을", "head": 10, "label": "NP_OBJ", "mod": [8], "weight": 0.755004}, 
+                {"id": 10, "text": "공유하며", "head": 15, "label": "VP", "mod": [7, 9], "weight": 0.425381}, 
+                {"id": 11, "text": "\"이", "head": 15, "label": "NP", "mod": [], "weight": 0.0384506}, 
+                {"id": 12, "text": "무슨", "head": 15, "label": "DP", "mod": [], "weight": 0.492484}, 
+                {"id": 13, "text": "깡패인가(what", "head": 14, "label": "NP", "mod": [], "weight": 0.314353}, 
+                {"id": 14, "text": "a", "head": 15, "label": "NP", "mod": [13], "weight": 0.68751}, 
+                {"id": 15, "text": "thug)\"라고", "head": 16, "label": "VNP_CMP", "mod": [10, 11, 12, 14], "weight": 0.0732351}, 
+                {"id": 16, "text": "비난했다.", "head": -1, "label": "VP", "mod": [15], "weight": 6.97598e-07}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "NBC 뉴스의 앵커 조 스카버러는", "begin": 0, "end": 4, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "트위터 계정을", "begin": 5, "end": 6, "key_begin": 5, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ는 P#1@OBJ을 통해", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 4, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_OBJ", "text": "해당 영상을", "begin": 8, "end": 9, "key_begin": 8, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "S#2@S어 P#3@OBJ을 공유하며", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": 5, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S_CMP", "text": "S#4@S며 \"이 무슨 깡패인가(what a thug)\"라고", "begin": 0, "end": 15, "key_begin": 11, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S", "text": "S#5@CMP라고 비난했다.", "begin": 0, "end": 16, "key_begin": 16, "head_phrase": -1, "sub_phrase": [5], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "통하", "sense": 1, "word_id": 7, "weight": 0.592154, "argument": [
+                    {"type": "ARG2", "word_id": 6, "text": "트위터 계정", "weight": 0.592154}
+                ]}, 
+                {"verb": "공유", "sense": 1, "word_id": 10, "weight": 0.301454, "argument": [
+                    {"type": "ARGM-MNR", "word_id": 7, "text": "통해", "weight": 0.158757}, 
+                    {"type": "ARG1", "word_id": 9, "text": "해당 영상", "weight": 0.444152}
+                ]}, 
+                {"verb": "비난", "sense": 1, "word_id": 16, "weight": 0.169901, "argument": [
+                    {"type": "ARG2", "word_id": 15, "text": "\"이 무슨 깡패인가(what a thug)\"", "weight": 0.169901}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 10, "ant_sid": 5, "ant_wid": 4, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 16, "ant_sid": 5, "ant_wid": 4, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 6, 
+            "text": "백악관 측은 이 영상이 논란이 되자 미국 정치전문지 폴리티코에서 \"트럼프 대통령이 마르코비치 총리의 팔을 잡은 것은 가벼운 인사였다.", 
+            "morp": [
+                {"id": 0, "lemma": "백악관", "type": "NNP", "position": 1104, "weight": 0.0880648}, 
+                {"id": 1, "lemma": "측", "type": "NNB", "position": 1114, "weight": 0.0494837}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 1117, "weight": 0.0688243}, 
+                {"id": 3, "lemma": "이", "type": "MM", "position": 1121, "weight": 0.00176496}, 
+                {"id": 4, "lemma": "영상", "type": "NNG", "position": 1125, "weight": 0.9}, 
+                {"id": 5, "lemma": "이", "type": "JKS", "position": 1131, "weight": 0.0360723}, 
+                {"id": 6, "lemma": "논란", "type": "NNG", "position": 1135, "weight": 0.9}, 
+                {"id": 7, "lemma": "이", "type": "JKC", "position": 1141, "weight": 0.000287945}, 
+                {"id": 8, "lemma": "되", "type": "VV", "position": 1145, "weight": 0.542406}, 
+                {"id": 9, "lemma": "자", "type": "EC", "position": 1148, "weight": 0.187099}, 
+                {"id": 10, "lemma": "미국", "type": "NNP", "position": 1152, "weight": 0.0219717}, 
+                {"id": 11, "lemma": "정치", "type": "NNG", "position": 1159, "weight": 0.9}, 
+                {"id": 12, "lemma": "전문", "type": "NNG", "position": 1165, "weight": 0.184561}, 
+                {"id": 13, "lemma": "지", "type": "XSN", "position": 1171, "weight": 0.000168337}, 
+                {"id": 14, "lemma": "폴리티코", "type": "NNG", "position": 1175, "weight": 0}, 
+                {"id": 15, "lemma": "에서", "type": "JKB", "position": 1187, "weight": 0.153407}, 
+                {"id": 16, "lemma": "\"", "type": "SS", "position": 1194, "weight": 1}, 
+                {"id": 17, "lemma": "트럼프", "type": "NNG", "position": 1195, "weight": 0.172974}, 
+                {"id": 18, "lemma": "대통령", "type": "NNG", "position": 1205, "weight": 0.9}, 
+                {"id": 19, "lemma": "이", "type": "JKS", "position": 1214, "weight": 0.0360723}, 
+                {"id": 20, "lemma": "마르코비치", "type": "NNP", "position": 1218, "weight": 0.2}, 
+                {"id": 21, "lemma": "총리", "type": "NNG", "position": 1234, "weight": 0.9}, 
+                {"id": 22, "lemma": "의", "type": "JKG", "position": 1240, "weight": 0.0694213}, 
+                {"id": 23, "lemma": "팔", "type": "NNG", "position": 1244, "weight": 0.296558}, 
+                {"id": 24, "lemma": "을", "type": "JKO", "position": 1247, "weight": 0.129611}, 
+                {"id": 25, "lemma": "잡", "type": "VV", "position": 1251, "weight": 0.776588}, 
+                {"id": 26, "lemma": "은", "type": "ETM", "position": 1254, "weight": 0.109632}, 
+                {"id": 27, "lemma": "것", "type": "NNB", "position": 1258, "weight": 0.228788}, 
+                {"id": 28, "lemma": "은", "type": "JX", "position": 1261, "weight": 0.0688243}, 
+                {"id": 29, "lemma": "가볍", "type": "VA", "position": 1265, "weight": 0.9}, 
+                {"id": 30, "lemma": "ㄴ", "type": "ETM", "position": 1268, "weight": 0.430446}, 
+                {"id": 31, "lemma": "인사", "type": "NNG", "position": 1275, "weight": 0.658704}, 
+                {"id": 32, "lemma": "이", "type": "VCP", "position": 1281, "weight": 0.0177525}, 
+                {"id": 33, "lemma": "었", "type": "EP", "position": 1281, "weight": 0.9}, 
+                {"id": 34, "lemma": "다", "type": "EF", "position": 1284, "weight": 0.640954}, 
+                {"id": 35, "lemma": ".", "type": "SF", "position": 1287, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "백악관", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "측은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "이", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "영상이", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "논란이", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "되자", "type": "", "begin": 8, "end": 9}, 
+                {"id": 6, "text": "미국", "type": "", "begin": 10, "end": 10}, 
+                {"id": 7, "text": "정치전문지", "type": "", "begin": 11, "end": 13}, 
+                {"id": 8, "text": "폴리티코에서", "type": "", "begin": 14, "end": 15}, 
+                {"id": 9, "text": "\"트럼프", "type": "", "begin": 16, "end": 17}, 
+                {"id": 10, "text": "대통령이", "type": "", "begin": 18, "end": 19}, 
+                {"id": 11, "text": "마르코비치", "type": "", "begin": 20, "end": 20}, 
+                {"id": 12, "text": "총리의", "type": "", "begin": 21, "end": 22}, 
+                {"id": 13, "text": "팔을", "type": "", "begin": 23, "end": 24}, 
+                {"id": 14, "text": "잡은", "type": "", "begin": 25, "end": 26}, 
+                {"id": 15, "text": "것은", "type": "", "begin": 27, "end": 28}, 
+                {"id": 16, "text": "가벼운", "type": "", "begin": 29, "end": 30}, 
+                {"id": 17, "text": "인사였다.", "type": "", "begin": 31, "end": 35}
+            ], 
+            "NE": [
+                {"id": 0, "text": "백악관", "type": "OGG_POLITICS", "begin": 0, "end": 0, "weight": 0.451284, "common_noun": 0}, 
+                {"id": 1, "text": "미국", "type": "LCP_COUNTRY", "begin": 10, "end": 10, "weight": 0.855556, "common_noun": 0}, 
+                {"id": 2, "text": "폴리티코", "type": "OGG_MEDIA", "begin": 14, "end": 14, "weight": 0.309839, "common_noun": 0}, 
+                {"id": 3, "text": "트럼프", "type": "PS_NAME", "begin": 17, "end": 17, "weight": 0.322635, "common_noun": 0}, 
+                {"id": 4, "text": "대통령", "type": "CV_POSITION", "begin": 18, "end": 18, "weight": 0.617463, "common_noun": 0}, 
+                {"id": 5, "text": "마르코비치", "type": "PS_NAME", "begin": 20, "end": 20, "weight": 0.344309, "common_noun": 0}, 
+                {"id": 6, "text": "총리", "type": "CV_POSITION", "begin": 21, "end": 21, "weight": 0.468267, "common_noun": 0}, 
+                {"id": 7, "text": "팔", "type": "AM_PART", "begin": 23, "end": 23, "weight": 0.367853, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "백악관", "head": 1, "label": "NP", "mod": [], "weight": 0.5927}, 
+                {"id": 1, "text": "측은", "head": 5, "label": "NP_SBJ", "mod": [0], "weight": 0.375724}, 
+                {"id": 2, "text": "이", "head": 3, "label": "DP", "mod": [], "weight": 0.617639}, 
+                {"id": 3, "text": "영상이", "head": 5, "label": "NP_SBJ", "mod": [2], "weight": 0.746499}, 
+                {"id": 4, "text": "논란이", "head": 5, "label": "NP_CMP", "mod": [], "weight": 0.842766}, 
+                {"id": 5, "text": "되자", "head": 16, "label": "VP", "mod": [1, 3, 4], "weight": 0.752056}, 
+                {"id": 6, "text": "미국", "head": 7, "label": "NP", "mod": [], "weight": 0.239513}, 
+                {"id": 7, "text": "정치전문지", "head": 8, "label": "NP", "mod": [6], "weight": 0.800444}, 
+                {"id": 8, "text": "폴리티코에서", "head": 14, "label": "NP_AJT", "mod": [7], "weight": 0.488955}, 
+                {"id": 9, "text": "\"트럼프", "head": 10, "label": "NP", "mod": [], "weight": 0.760336}, 
+                {"id": 10, "text": "대통령이", "head": 14, "label": "NP_SBJ", "mod": [9], "weight": 0.716729}, 
+                {"id": 11, "text": "마르코비치", "head": 12, "label": "NP", "mod": [], "weight": 0.787561}, 
+                {"id": 12, "text": "총리의", "head": 13, "label": "NP_MOD", "mod": [11], "weight": 0.6255}, 
+                {"id": 13, "text": "팔을", "head": 14, "label": "NP_OBJ", "mod": [12], "weight": 0.799144}, 
+                {"id": 14, "text": "잡은", "head": 15, "label": "VP_MOD", "mod": [8, 10, 13], "weight": 0.864007}, 
+                {"id": 15, "text": "것은", "head": 16, "label": "NP_SBJ", "mod": [14], "weight": 0.82526}, 
+                {"id": 16, "text": "가벼운", "head": 17, "label": "VP_MOD", "mod": [5, 15], "weight": 0.739208}, 
+                {"id": 17, "text": "인사였다.", "head": -1, "label": "VNP", "mod": [16], "weight": 0.000612731}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "백악관 측은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "이 영상이", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_CMP", "text": "논란이", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@SBJ은 P#1@SBJ이 P#2@CMP이 되자", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 9, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "미국 정치전문지 폴리티코에서", "begin": 6, "end": 8, "key_begin": 6, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_SBJ", "text": "\"트럼프 대통령이", "begin": 9, "end": 10, "key_begin": 9, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_OBJ", "text": "마르코비치 총리의 팔을", "begin": 11, "end": 13, "key_begin": 11, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S_MOD", "text": "P#4@AJT에서 P#5@SBJ이 P#6@OBJ을 잡은", "begin": 6, "end": 14, "key_begin": 14, "head_phrase": 8, "sub_phrase": [4, 5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_SBJ", "text": "S#7@MOD은 것은", "begin": 6, "end": 15, "key_begin": 15, "head_phrase": 9, "sub_phrase": [7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S_MOD", "text": "S#3@S자 P#8@SBJ은 가벼운", "begin": 0, "end": 16, "key_begin": 16, "head_phrase": 10, "sub_phrase": [3, 8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "S", "text": "S#9@MODㄴ 인사였다.", "begin": 0, "end": 17, "key_begin": 17, "head_phrase": -1, "sub_phrase": [9], "weight": 0, "element": [
+                    {"text": "인사", "label": "NP", "begin": 31, "end": 31, "ne_type": ""}, 
+                    {"text": "였다.", "label": "VP", "begin": 32, "end": 35, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [
+                {"verb": "되", "sense": 1, "word_id": 5, "weight": 0.601799, "argument": [
+                    {"type": "ARG1", "word_id": 3, "text": "이 영상", "weight": 0.575397}, 
+                    {"type": "ARG2", "word_id": 4, "text": "논란", "weight": 0.628202}
+                ]}, 
+                {"verb": "잡", "sense": 1, "word_id": 14, "weight": 0.406985, "argument": [
+                    {"type": "ARGM-CND", "word_id": 8, "text": "미국 정치전문지 폴리티코", "weight": 0.138682}, 
+                    {"type": "ARG0", "word_id": 10, "text": "\"트럼프 대통령", "weight": 0.739831}, 
+                    {"type": "ARG1", "word_id": 13, "text": "마르코비치 총리의 팔", "weight": 0.342443}
+                ]}, 
+                {"verb": "가볍", "sense": 1, "word_id": 16, "weight": 0.226258, "argument": [
+                    {"type": "ARG2", "word_id": 15, "text": "것", "weight": 0.17704}, 
+                    {"type": "ARG1", "word_id": 17, "text": "인사였다.", "weight": 0.275476}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 7, 
+            "text": " 과거에도 여러 번 그렇게 했다\"고 해명했다.", 
+            "morp": [
+                {"id": 0, "lemma": "과거", "type": "NNG", "position": 1289, "weight": 0.9}, 
+                {"id": 1, "lemma": "에", "type": "JKB", "position": 1295, "weight": 0.153364}, 
+                {"id": 2, "lemma": "도", "type": "JX", "position": 1298, "weight": 0.0912297}, 
+                {"id": 3, "lemma": "여러", "type": "MM", "position": 1302, "weight": 0.9}, 
+                {"id": 4, "lemma": "번", "type": "NNB", "position": 1309, "weight": 0.179863}, 
+                {"id": 5, "lemma": "그렇", "type": "VA", "position": 1313, "weight": 0.101273}, 
+                {"id": 6, "lemma": "게", "type": "EC", "position": 1319, "weight": 0.31879}, 
+                {"id": 7, "lemma": "하", "type": "VX", "position": 1323, "weight": 0.0899221}, 
+                {"id": 8, "lemma": "었", "type": "EP", "position": 1323, "weight": 0.9}, 
+                {"id": 9, "lemma": "다", "type": "EF", "position": 1326, "weight": 0.640954}, 
+                {"id": 10, "lemma": "\"", "type": "SS", "position": 1329, "weight": 1}, 
+                {"id": 11, "lemma": "고", "type": "JKQ", "position": 1330, "weight": 0.000541335}, 
+                {"id": 12, "lemma": "해명", "type": "NNG", "position": 1334, "weight": 0.9}, 
+                {"id": 13, "lemma": "하", "type": "XSV", "position": 1340, "weight": 0.0001}, 
+                {"id": 14, "lemma": "었", "type": "EP", "position": 1340, "weight": 0.9}, 
+                {"id": 15, "lemma": "다", "type": "EF", "position": 1343, "weight": 0.640954}, 
+                {"id": 16, "lemma": ".", "type": "SF", "position": 1346, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "과거에도", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "여러", "type": "", "begin": 3, "end": 3}, 
+                {"id": 2, "text": "번", "type": "", "begin": 4, "end": 4}, 
+                {"id": 3, "text": "그렇게", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "했다\"고", "type": "", "begin": 7, "end": 11}, 
+                {"id": 5, "text": "해명했다.", "type": "", "begin": 12, "end": 16}
+            ], 
+            "NE": [], 
+            "dependency": [
+                {"id": 0, "text": "과거에도", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.684221}, 
+                {"id": 1, "text": "여러", "head": 2, "label": "DP", "mod": [], "weight": 0.658102}, 
+                {"id": 2, "text": "번", "head": 4, "label": "NP_AJT", "mod": [1], "weight": 0.172664}, 
+                {"id": 3, "text": "그렇게", "head": 4, "label": "VP_AJT", "mod": [], "weight": 0.448426}, 
+                {"id": 4, "text": "했다\"고", "head": 5, "label": "VP_CMP", "mod": [0, 2, 3], "weight": 0.640569}, 
+                {"id": 5, "text": "해명했다.", "head": -1, "label": "VP", "mod": [4], "weight": 0.0202192}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "과거에도", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "여러 번", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_AJT", "text": "그렇게", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP_CMP", "text": "P#0@AJT도 P#1@AJT번 P#2@AJT게 했다\"고", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP", "text": "P#3@CMP고 해명했다.", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": -1, "sub_phrase": [3], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "해명", "sense": 1, "word_id": 5, "weight": 0.238285, "argument": [
+                    {"type": "ARG1", "word_id": 4, "text": "하었다\"", "weight": 0.238285}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 4, "ant_sid": 6, "ant_wid": 10, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 5, "ant_sid": 6, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }
+    ], 
+    "entity": [
+        {"id": 0, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 1, "sent_id": 0, "start_eid": 2, "end_eid": 2, "ne_id": -1, "text": "앞줄", "start_eid_short": 2, "end_eid_short": 2, "text_short": "앞줄", "weight": 0.01}, 
+            {"id": 13, "sent_id": 1, "start_eid": 11, "end_eid": 12, "ne_id": -1, "text": "맨 앞줄", "start_eid_short": 11, "end_eid_short": 12, "text_short": "맨 앞줄", "weight": 0.014}, 
+            {"id": 33, "sent_id": 2, "start_eid": 16, "end_eid": 17, "ne_id": -1, "text": "맨 앞줄", "start_eid_short": 16, "end_eid_short": 17, "text_short": "맨 앞줄", "weight": 0.02}
+        ]}, 
+        {"id": 1, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 15, "sent_id": 1, "start_eid": 15, "end_eid": 17, "ne_id": -1, "text": "다른 나라 정상", "start_eid_short": 15, "end_eid_short": 17, "text_short": "다른 나라 정상", "weight": 0.016}, 
+            {"id": 26, "sent_id": 2, "start_eid": 6, "end_eid": 7, "ne_id": -1, "text": "이 영상", "start_eid_short": 6, "end_eid_short": 7, "text_short": "이 영상", "weight": 0.006}, 
+            {"id": 2, "sent_id": 0, "start_eid": 4, "end_eid": 6, "ne_id": -1, "text": "다른 나라 정상", "start_eid_short": 4, "end_eid_short": 6, "text_short": "다른 나라 정상", "weight": 0.01}
+        ]}, 
+        {"id": 2, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 3, "sent_id": 0, "start_eid": 4, "end_eid": 5, "ne_id": -1, "text": "다른 나라", "start_eid_short": 4, "end_eid_short": 5, "text_short": "다른 나라", "weight": 0.01}, 
+            {"id": 16, "sent_id": 1, "start_eid": 15, "end_eid": 16, "ne_id": -1, "text": "다른 나라", "start_eid_short": 15, "end_eid_short": 16, "text_short": "다른 나라", "weight": 0.016}
+        ]}, 
+        {"id": 3, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 4, "sent_id": 0, "start_eid": 4, "end_eid": 4, "ne_id": -1, "text": "다른", "start_eid_short": 4, "end_eid_short": 4, "text_short": "다른", "weight": 0.01}, 
+            {"id": 17, "sent_id": 1, "start_eid": 15, "end_eid": 15, "ne_id": -1, "text": "다른", "start_eid_short": 15, "end_eid_short": 15, "text_short": "다른", "weight": 0.016}
+        ]}, 
+        {"id": 4, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 14, "sent_id": 1, "start_eid": 11, "end_eid": 11, "ne_id": -1, "text": "맨", "start_eid_short": 11, "end_eid_short": 11, "text_short": "맨", "weight": 0.01}, 
+            {"id": 34, "sent_id": 2, "start_eid": 16, "end_eid": 16, "ne_id": -1, "text": "맨", "start_eid_short": 16, "end_eid_short": 16, "text_short": "맨", "weight": 0.016}
+        ]}, 
+        {"id": 5, "type": "AM_PART", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 37, "sent_id": 2, "start_eid": 23, "end_eid": 24, "ne_id": 8, "text": "총리의 팔", "start_eid_short": 23, "end_eid_short": 24, "text_short": "총리의 팔", "weight": 0.004}, 
+            {"id": 76, "sent_id": 6, "start_eid": 11, "end_eid": 13, "ne_id": 7, "text": "마르코비치 총리의 팔", "start_eid_short": 11, "end_eid_short": 13, "text_short": "마르코비치 총리의 팔", "weight": 0.004}
+        ]}, 
+        {"id": 6, "type": "PS_NAME", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 12, "sent_id": 1, "start_eid": 8, "end_eid": 9, "ne_id": 5, "text": "도널드 트럼프", "start_eid_short": 8, "end_eid_short": 9, "text_short": "도널드 트럼프", "weight": 0.17}, 
+            {"id": 31, "sent_id": 2, "start_eid": 14, "end_eid": 15, "ne_id": 4, "text": "트럼프 대통령", "start_eid_short": 14, "end_eid_short": 15, "text_short": "트럼프 대통령", "weight": 0.207}, 
+            {"id": 36, "sent_id": 2, "start_eid": 20, "end_eid": 21, "ne_id": 5, "text": "두스코 마르코비치", "start_eid_short": 20, "end_eid_short": 21, "text_short": "두스코 마르코비치", "weight": 0.142}, 
+            {"id": 32, "sent_id": 2, "start_eid": 14, "end_eid": 14, "ne_id": 3, "text": "트럼프", "start_eid_short": 14, "end_eid_short": 14, "text_short": "트럼프", "weight": 0.202}, 
+            {"id": 38, "sent_id": 2, "start_eid": 23, "end_eid": 23, "ne_id": 7, "text": "총리", "start_eid_short": 23, "end_eid_short": 23, "text_short": "총리", "weight": 0.046}, 
+            {"id": 39, "sent_id": 3, "start_eid": 0, "end_eid": 7, "ne_id": 3, "text": "트럼프 대통령의 행동에 놀란 표정을 지은 마르코비치 총리", "start_eid_short": 6, "end_eid_short": 7, "text_short": "마르코비치 총리", "weight": 0.13}, 
+            {"id": 42, "sent_id": 3, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "트럼프 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "트럼프 대통령", "weight": 0.219}, 
+            {"id": 43, "sent_id": 3, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "트럼프", "start_eid_short": 0, "end_eid_short": 0, "text_short": "트럼프", "weight": 0.214}, 
+            {"id": 44, "sent_id": 3, "start_eid": 6, "end_eid": 6, "ne_id": 2, "text": "마르코비치", "start_eid_short": 6, "end_eid_short": 6, "text_short": "마르코비치", "weight": 0.198}, 
+            {"id": 47, "sent_id": 4, "start_eid": 0, "end_eid": 4, "ne_id": 1, "text": "그렇게 앞으로 나선 트럼프 대통령", "start_eid_short": 3, "end_eid_short": 4, "text_short": "트럼프 대통령", "weight": 0.203}, 
+            {"id": 49, "sent_id": 4, "start_eid": 3, "end_eid": 3, "ne_id": 0, "text": "트럼프", "start_eid_short": 3, "end_eid_short": 3, "text_short": "트럼프", "weight": 0.214}, 
+            {"id": 51, "sent_id": 4, "start_eid": 5, "end_eid": 6, "ne_id": 3, "text": "마르코비치 총리", "start_eid_short": 5, "end_eid_short": 6, "text_short": "마르코비치 총리", "weight": 0.203}, 
+            {"id": 52, "sent_id": 4, "start_eid": 5, "end_eid": 5, "ne_id": 2, "text": "마르코비치", "start_eid_short": 5, "end_eid_short": 5, "text_short": "마르코비치", "weight": 0.204}, 
+            {"id": 74, "sent_id": 6, "start_eid": 9, "end_eid": 10, "ne_id": 4, "text": "\"트럼프 대통령", "start_eid_short": 9, "end_eid_short": 10, "text_short": "\"트럼프 대통령", "weight": 0.189}, 
+            {"id": 75, "sent_id": 6, "start_eid": 9, "end_eid": 9, "ne_id": 3, "text": "\"트럼프", "start_eid_short": 9, "end_eid_short": 9, "text_short": "\"트럼프", "weight": 0.184}, 
+            {"id": 8, "sent_id": 1, "start_eid": 2, "end_eid": 10, "ne_id": 6, "text": "25일(현지 시각) 열린 북대서양조약기구(NATO) 정상회의에 참석한 도널드 트럼프 대통령", "start_eid_short": 8, "end_eid_short": 10, "text_short": "도널드 트럼프 대통령", "weight": 0.192}, 
+            {"id": 77, "sent_id": 6, "start_eid": 11, "end_eid": 12, "ne_id": 6, "text": "마르코비치 총리", "start_eid_short": 11, "end_eid_short": 12, "text_short": "마르코비치 총리", "weight": 0.209}, 
+            {"id": 78, "sent_id": 6, "start_eid": 11, "end_eid": 11, "ne_id": 5, "text": "마르코비치", "start_eid_short": 11, "end_eid_short": 11, "text_short": "마르코비치", "weight": 0.204}
+        ]}, 
+        {"id": 7, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 54, "sent_id": 4, "start_eid": 11, "end_eid": 11, "ne_id": -1, "text": "앞", "start_eid_short": 11, "end_eid_short": 11, "text_short": "앞", "weight": 0.016}, 
+            {"id": 48, "sent_id": 4, "start_eid": 1, "end_eid": 1, "ne_id": -1, "text": "앞", "start_eid_short": 1, "end_eid_short": 1, "text_short": "앞", "weight": 0.01}
+        ]}, 
+        {"id": 8, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 64, "sent_id": 5, "start_eid": 11, "end_eid": 13, "ne_id": -1, "text": "\"이 무슨 깡패이ㄴ가(what", "start_eid_short": 11, "end_eid_short": 13, "text_short": "\"이 무슨 깡패이ㄴ가(what", "weight": 0.006}, 
+            {"id": 53, "sent_id": 4, "start_eid": 8, "end_eid": 10, "ne_id": -1, "text": "쳐다보지 않은 채", "start_eid_short": 10, "end_eid_short": 10, "text_short": "채", "weight": 0.002}
+        ]}, 
+        {"id": 9, "type": "CV_OCCUPATION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 56, "sent_id": 5, "start_eid": 0, "end_eid": 4, "ne_id": 2, "text": "NBC 뉴스의 앵커 조 스카버러", "start_eid_short": 0, "end_eid_short": 4, "text_short": "NBC 뉴스의 앵커 조 스카버러", "weight": 0.01}, 
+            {"id": 57, "sent_id": 5, "start_eid": 0, "end_eid": 2, "ne_id": 1, "text": "NBC 뉴스의 앵커", "start_eid_short": 0, "end_eid_short": 2, "text_short": "NBC 뉴스의 앵커", "weight": 0.015}
+        ]}, 
+        {"id": 10, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 69, "sent_id": 6, "start_eid": 2, "end_eid": 3, "ne_id": -1, "text": "이 영상", "start_eid_short": 2, "end_eid_short": 3, "text_short": "이 영상", "weight": 0.006}, 
+            {"id": 62, "sent_id": 5, "start_eid": 8, "end_eid": 9, "ne_id": -1, "text": "해당 영상", "start_eid_short": 8, "end_eid_short": 9, "text_short": "해당 영상", "weight": 0.002}
+        ]}
+    ]
+}

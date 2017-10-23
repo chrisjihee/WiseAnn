@@ -1,0 +1,1320 @@
+{
+    "title": {
+        "text": "英미러 “손흥민, 키플레이어로 성장했다”.", 
+        "NE": ""
+    }, 
+    "metaInfo": {
+        "field": "뉴스3", 
+        "num_sent": 12, 
+        "num_word": 174
+    }, 
+    "sentence": [
+        {
+            "id": 0, 
+            "text": "英미러 “손흥민, 키플레이어로 성장했다”.", 
+            "morp": [
+                {"id": 0, "lemma": "英", "type": "SH", "position": 0, "weight": 1}, 
+                {"id": 1, "lemma": "미러", "type": "NNG", "position": 3, "weight": 0.55}, 
+                {"id": 2, "lemma": "“", "type": "SS", "position": 10, "weight": 1}, 
+                {"id": 3, "lemma": "손흥민", "type": "NNP", "position": 13, "weight": 0.6}, 
+                {"id": 4, "lemma": ",", "type": "SP", "position": 22, "weight": 1}, 
+                {"id": 5, "lemma": "키플레이어", "type": "NNG", "position": 24, "weight": 0}, 
+                {"id": 6, "lemma": "로", "type": "JKB", "position": 39, "weight": 0.153229}, 
+                {"id": 7, "lemma": "성장", "type": "NNG", "position": 43, "weight": 0.9}, 
+                {"id": 8, "lemma": "하", "type": "XSV", "position": 49, "weight": 0.0001}, 
+                {"id": 9, "lemma": "었", "type": "EP", "position": 49, "weight": 0.9}, 
+                {"id": 10, "lemma": "다", "type": "EF", "position": 52, "weight": 0.640954}, 
+                {"id": 11, "lemma": "”", "type": "SS", "position": 55, "weight": 1}, 
+                {"id": 12, "lemma": ".", "type": "SF", "position": 58, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "英미러", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "“손흥민,", "type": "", "begin": 2, "end": 4}, 
+                {"id": 2, "text": "키플레이어로", "type": "", "begin": 5, "end": 6}, 
+                {"id": 3, "text": "성장했다”.", "type": "", "begin": 7, "end": 12}
+            ], 
+            "NE": [
+                {"id": 0, "text": "손흥민", "type": "PS_NAME", "begin": 3, "end": 3, "weight": 0.309992, "common_noun": 0}, 
+                {"id": 1, "text": "키플레이어", "type": "PS_NAME", "begin": 5, "end": 5, "weight": 0.0965543, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "英미러", "head": 1, "label": "NP", "mod": [], "weight": 0.564523}, 
+                {"id": 1, "text": "“손흥민,", "head": 3, "label": "NP", "mod": [0], "weight": 0.588965}, 
+                {"id": 2, "text": "키플레이어로", "head": 3, "label": "NP_AJT", "mod": [], "weight": 0.706445}, 
+                {"id": 3, "text": "성장했다”.", "head": -1, "label": "NP", "mod": [1, 2], "weight": 0.120052}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "英미러 “손흥민, 키플레이어로 성장했다”.", "begin": 0, "end": 3, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "성장", "sense": 1, "word_id": 3, "weight": 0.180054, "argument": [
+                    {"type": "ARG3", "word_id": 2, "text": "키플레이어", "weight": 0.180054}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 1, 
+            "text": "현지 매체가 손흥민을 칭찬했다.", 
+            "morp": [
+                {"id": 0, "lemma": "현지", "type": "NNG", "position": 59, "weight": 0.396695}, 
+                {"id": 1, "lemma": "매체", "type": "NNG", "position": 66, "weight": 0.9}, 
+                {"id": 2, "lemma": "가", "type": "JKS", "position": 72, "weight": 0.066324}, 
+                {"id": 3, "lemma": "손흥민", "type": "NNG", "position": 76, "weight": 0}, 
+                {"id": 4, "lemma": "을", "type": "JKO", "position": 85, "weight": 0.129611}, 
+                {"id": 5, "lemma": "칭찬", "type": "NNG", "position": 89, "weight": 0.9}, 
+                {"id": 6, "lemma": "하", "type": "XSV", "position": 95, "weight": 0.0001}, 
+                {"id": 7, "lemma": "었", "type": "EP", "position": 95, "weight": 0.9}, 
+                {"id": 8, "lemma": "다", "type": "EF", "position": 98, "weight": 0.640954}, 
+                {"id": 9, "lemma": ".", "type": "SF", "position": 101, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "현지", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "매체가", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "손흥민을", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "칭찬했다.", "type": "", "begin": 5, "end": 9}
+            ], 
+            "NE": [
+                {"id": 0, "text": "손흥민", "type": "PS_NAME", "begin": 3, "end": 3, "weight": 0.350126, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "현지", "head": 1, "label": "NP", "mod": [], "weight": 0.687511}, 
+                {"id": 1, "text": "매체가", "head": 3, "label": "NP_SBJ", "mod": [0], "weight": 0.904918}, 
+                {"id": 2, "text": "손흥민을", "head": 3, "label": "NP_OBJ", "mod": [], "weight": 0.817441}, 
+                {"id": 3, "text": "칭찬했다.", "head": -1, "label": "VP", "mod": [1, 2], "weight": 0.434242}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "현지 매체가", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "손흥민을", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ가 P#1@OBJ을 칭찬했다.", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": -1, "sub_phrase": [0, 1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "칭찬", "sense": 1, "word_id": 3, "weight": 0.286707, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "현지 매체", "weight": 0.248701}, 
+                    {"type": "ARG1", "word_id": 2, "text": "손흥민", "weight": 0.324712}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 2, 
+            "text": "토트넘 홋스퍼는 5월 19일(이하 한국시간) 영국 레스터 킹파워 스타디움에서 레스터 시티를 상대한 '2016-2017 잉글랜드 프리미어리그' 경기에서 해리 케인의 4골 폭격과 손흥민의 2골 1도움 맹활약을 더해 6-1 완승을 거뒀다.", 
+            "morp": [
+                {"id": 0, "lemma": "토트넘", "type": "NNP", "position": 102, "weight": 0.6}, 
+                {"id": 1, "lemma": "홋스퍼", "type": "NNG", "position": 112, "weight": 0}, 
+                {"id": 2, "lemma": "는", "type": "JX", "position": 121, "weight": 0.0287565}, 
+                {"id": 3, "lemma": "5", "type": "SN", "position": 125, "weight": 1}, 
+                {"id": 4, "lemma": "월", "type": "NNB", "position": 126, "weight": 0.408539}, 
+                {"id": 5, "lemma": "19", "type": "SN", "position": 130, "weight": 1}, 
+                {"id": 6, "lemma": "일", "type": "NNB", "position": 132, "weight": 0.126777}, 
+                {"id": 7, "lemma": "(", "type": "SS", "position": 135, "weight": 1}, 
+                {"id": 8, "lemma": "이하", "type": "NNG", "position": 136, "weight": 0.199325}, 
+                {"id": 9, "lemma": "한국", "type": "NNP", "position": 143, "weight": 0.0070955}, 
+                {"id": 10, "lemma": "시간", "type": "NNG", "position": 149, "weight": 0.244963}, 
+                {"id": 11, "lemma": ")", "type": "SS", "position": 155, "weight": 1}, 
+                {"id": 12, "lemma": "영국", "type": "NNP", "position": 157, "weight": 0.9}, 
+                {"id": 13, "lemma": "레스터", "type": "NNP", "position": 164, "weight": 0.35}, 
+                {"id": 14, "lemma": "킹파워", "type": "NNG", "position": 174, "weight": 0}, 
+                {"id": 15, "lemma": "스타디움", "type": "NNG", "position": 184, "weight": 0.9}, 
+                {"id": 16, "lemma": "에서", "type": "JKB", "position": 196, "weight": 0.153407}, 
+                {"id": 17, "lemma": "레스터", "type": "NNP", "position": 203, "weight": 0.35}, 
+                {"id": 18, "lemma": "시티", "type": "NNG", "position": 213, "weight": 0.250659}, 
+                {"id": 19, "lemma": "를", "type": "JKO", "position": 219, "weight": 0.137686}, 
+                {"id": 20, "lemma": "상대", "type": "NNG", "position": 223, "weight": 0.9}, 
+                {"id": 21, "lemma": "하", "type": "XSV", "position": 229, "weight": 0.0001}, 
+                {"id": 22, "lemma": "ㄴ", "type": "ETM", "position": 229, "weight": 0.392321}, 
+                {"id": 23, "lemma": "'", "type": "SS", "position": 233, "weight": 1}, 
+                {"id": 24, "lemma": "2016", "type": "SN", "position": 234, "weight": 1}, 
+                {"id": 25, "lemma": "-", "type": "SS", "position": 238, "weight": 1}, 
+                {"id": 26, "lemma": "2017", "type": "SN", "position": 239, "weight": 1}, 
+                {"id": 27, "lemma": "잉글랜드", "type": "NNP", "position": 244, "weight": 0.9}, 
+                {"id": 28, "lemma": "프리미어리그", "type": "NNG", "position": 257, "weight": 0}, 
+                {"id": 29, "lemma": "'", "type": "SS", "position": 275, "weight": 1}, 
+                {"id": 30, "lemma": "경기", "type": "NNG", "position": 277, "weight": 0.146675}, 
+                {"id": 31, "lemma": "에서", "type": "JKB", "position": 283, "weight": 0.153407}, 
+                {"id": 32, "lemma": "해리", "type": "NNP", "position": 290, "weight": 0.0122983}, 
+                {"id": 33, "lemma": "케인", "type": "NNP", "position": 297, "weight": 0.9}, 
+                {"id": 34, "lemma": "의", "type": "JKG", "position": 303, "weight": 0.0987295}, 
+                {"id": 35, "lemma": "4", "type": "SN", "position": 307, "weight": 1}, 
+                {"id": 36, "lemma": "골", "type": "NNG", "position": 308, "weight": 0.0874695}, 
+                {"id": 37, "lemma": "폭격", "type": "NNG", "position": 312, "weight": 0.9}, 
+                {"id": 38, "lemma": "과", "type": "JC", "position": 318, "weight": 0.017569}, 
+                {"id": 39, "lemma": "손흥민", "type": "NNG", "position": 322, "weight": 0}, 
+                {"id": 40, "lemma": "의", "type": "JKG", "position": 331, "weight": 0.0694213}, 
+                {"id": 41, "lemma": "2", "type": "SN", "position": 335, "weight": 1}, 
+                {"id": 42, "lemma": "골", "type": "NNG", "position": 336, "weight": 0.0874695}, 
+                {"id": 43, "lemma": "1", "type": "SN", "position": 340, "weight": 1}, 
+                {"id": 44, "lemma": "도움", "type": "NNG", "position": 341, "weight": 0.9}, 
+                {"id": 45, "lemma": "맹", "type": "XPN", "position": 348, "weight": 0.00015195}, 
+                {"id": 46, "lemma": "활약", "type": "NNG", "position": 351, "weight": 0.9}, 
+                {"id": 47, "lemma": "을", "type": "JKO", "position": 357, "weight": 0.129611}, 
+                {"id": 48, "lemma": "더하", "type": "VV", "position": 361, "weight": 0.717158}, 
+                {"id": 49, "lemma": "어", "type": "EC", "position": 364, "weight": 0.41831}, 
+                {"id": 50, "lemma": "6", "type": "SN", "position": 368, "weight": 1}, 
+                {"id": 51, "lemma": "-", "type": "SO", "position": 369, "weight": 1}, 
+                {"id": 52, "lemma": "1", "type": "SN", "position": 370, "weight": 1}, 
+                {"id": 53, "lemma": "완승", "type": "NNG", "position": 372, "weight": 0.9}, 
+                {"id": 54, "lemma": "을", "type": "JKO", "position": 378, "weight": 0.129611}, 
+                {"id": 55, "lemma": "거두", "type": "VV", "position": 382, "weight": 0.768924}, 
+                {"id": 56, "lemma": "었", "type": "EP", "position": 385, "weight": 0.9}, 
+                {"id": 57, "lemma": "다", "type": "EF", "position": 388, "weight": 0.640954}, 
+                {"id": 58, "lemma": ".", "type": "SF", "position": 391, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "토트넘", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "홋스퍼는", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "5월", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "19일(이하", "type": "", "begin": 5, "end": 8}, 
+                {"id": 4, "text": "한국시간)", "type": "", "begin": 9, "end": 11}, 
+                {"id": 5, "text": "영국", "type": "", "begin": 12, "end": 12}, 
+                {"id": 6, "text": "레스터", "type": "", "begin": 13, "end": 13}, 
+                {"id": 7, "text": "킹파워", "type": "", "begin": 14, "end": 14}, 
+                {"id": 8, "text": "스타디움에서", "type": "", "begin": 15, "end": 16}, 
+                {"id": 9, "text": "레스터", "type": "", "begin": 17, "end": 17}, 
+                {"id": 10, "text": "시티를", "type": "", "begin": 18, "end": 19}, 
+                {"id": 11, "text": "상대한", "type": "", "begin": 20, "end": 22}, 
+                {"id": 12, "text": "'2016-2017", "type": "", "begin": 23, "end": 26}, 
+                {"id": 13, "text": "잉글랜드", "type": "", "begin": 27, "end": 27}, 
+                {"id": 14, "text": "프리미어리그'", "type": "", "begin": 28, "end": 29}, 
+                {"id": 15, "text": "경기에서", "type": "", "begin": 30, "end": 31}, 
+                {"id": 16, "text": "해리", "type": "", "begin": 32, "end": 32}, 
+                {"id": 17, "text": "케인의", "type": "", "begin": 33, "end": 34}, 
+                {"id": 18, "text": "4골", "type": "", "begin": 35, "end": 36}, 
+                {"id": 19, "text": "폭격과", "type": "", "begin": 37, "end": 38}, 
+                {"id": 20, "text": "손흥민의", "type": "", "begin": 39, "end": 40}, 
+                {"id": 21, "text": "2골", "type": "", "begin": 41, "end": 42}, 
+                {"id": 22, "text": "1도움", "type": "", "begin": 43, "end": 44}, 
+                {"id": 23, "text": "맹활약을", "type": "", "begin": 45, "end": 47}, 
+                {"id": 24, "text": "더해", "type": "", "begin": 48, "end": 49}, 
+                {"id": 25, "text": "6-1", "type": "", "begin": 50, "end": 52}, 
+                {"id": 26, "text": "완승을", "type": "", "begin": 53, "end": 54}, 
+                {"id": 27, "text": "거뒀다.", "type": "", "begin": 55, "end": 58}
+            ], 
+            "NE": [
+                {"id": 0, "text": "토트넘 홋스퍼", "type": "OGG_SPORTS", "begin": 0, "end": 1, "weight": 0.407428, "common_noun": 0}, 
+                {"id": 1, "text": "5월 19일", "type": "DT_OTHERS", "begin": 3, "end": 6, "weight": 0.768847, "common_noun": 0}, 
+                {"id": 2, "text": "한국", "type": "LCP_COUNTRY", "begin": 9, "end": 9, "weight": 0.587874, "common_noun": 0}, 
+                {"id": 3, "text": "영국", "type": "LCP_COUNTRY", "begin": 12, "end": 12, "weight": 0.773515, "common_noun": 0}, 
+                {"id": 4, "text": "레스터", "type": "LCP_CITY", "begin": 13, "end": 13, "weight": 0.365119, "common_noun": 0}, 
+                {"id": 5, "text": "킹파워 스타디움", "type": "AF_BUILDING", "begin": 14, "end": 15, "weight": 0.607426, "common_noun": 0}, 
+                {"id": 6, "text": "레스터 시티", "type": "OGG_SPORTS", "begin": 17, "end": 18, "weight": 0.122356, "common_noun": 0}, 
+                {"id": 7, "text": "2016-2017", "type": "QT_PHONE", "begin": 24, "end": 26, "weight": 0.160169, "common_noun": 0}, 
+                {"id": 8, "text": "잉글랜드", "type": "LCP_COUNTRY", "begin": 27, "end": 27, "weight": 0.470814, "common_noun": 0}, 
+                {"id": 9, "text": "프리미어리그", "type": "OGG_SPORTS", "begin": 28, "end": 28, "weight": 0.37049, "common_noun": 0}, 
+                {"id": 10, "text": "해리 케인", "type": "PS_NAME", "begin": 32, "end": 33, "weight": 0.210461, "common_noun": 0}, 
+                {"id": 11, "text": "4골", "type": "QT_SPORTS", "begin": 35, "end": 36, "weight": 0.403547, "common_noun": 0}, 
+                {"id": 12, "text": "손흥민", "type": "PS_NAME", "begin": 39, "end": 39, "weight": 0.372656, "common_noun": 0}, 
+                {"id": 13, "text": "2골", "type": "QT_SPORTS", "begin": 41, "end": 42, "weight": 0.610937, "common_noun": 0}, 
+                {"id": 14, "text": "1도움", "type": "QT_SPORTS", "begin": 43, "end": 44, "weight": 0.710054, "common_noun": 0}, 
+                {"id": 15, "text": "6-1", "type": "QT_SPORTS", "begin": 50, "end": 52, "weight": 0.598809, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "토트넘", "head": 1, "label": "NP", "mod": [], "weight": 0.603005}, 
+                {"id": 1, "text": "홋스퍼는", "head": 24, "label": "NP_SBJ", "mod": [0], "weight": 0.705218}, 
+                {"id": 2, "text": "5월", "head": 3, "label": "NP", "mod": [], "weight": 0.816508}, 
+                {"id": 3, "text": "19일(이하", "head": 4, "label": "NP", "mod": [2], "weight": 0.340062}, 
+                {"id": 4, "text": "한국시간)", "head": 15, "label": "NP", "mod": [3], "weight": 0.448013}, 
+                {"id": 5, "text": "영국", "head": 6, "label": "NP", "mod": [], "weight": 0.456059}, 
+                {"id": 6, "text": "레스터", "head": 7, "label": "NP", "mod": [5], "weight": 0.283968}, 
+                {"id": 7, "text": "킹파워", "head": 8, "label": "NP", "mod": [6], "weight": 0.716146}, 
+                {"id": 8, "text": "스타디움에서", "head": 11, "label": "NP_AJT", "mod": [7], "weight": 0.235287}, 
+                {"id": 9, "text": "레스터", "head": 10, "label": "NP", "mod": [], "weight": 0.811065}, 
+                {"id": 10, "text": "시티를", "head": 11, "label": "NP_OBJ", "mod": [9], "weight": 0.771815}, 
+                {"id": 11, "text": "상대한", "head": 15, "label": "VP_MOD", "mod": [8, 10], "weight": 0.81175}, 
+                {"id": 12, "text": "'2016-2017", "head": 14, "label": "NP", "mod": [], "weight": 0.384194}, 
+                {"id": 13, "text": "잉글랜드", "head": 14, "label": "NP", "mod": [], "weight": 0.711217}, 
+                {"id": 14, "text": "프리미어리그'", "head": 15, "label": "NP", "mod": [12, 13], "weight": 0.694526}, 
+                {"id": 15, "text": "경기에서", "head": 24, "label": "NP_AJT", "mod": [4, 11, 14], "weight": 0.829772}, 
+                {"id": 16, "text": "해리", "head": 17, "label": "NP", "mod": [], "weight": 0.696629}, 
+                {"id": 17, "text": "케인의", "head": 20, "label": "NP_MOD", "mod": [16], "weight": 0.26983}, 
+                {"id": 18, "text": "4골", "head": 19, "label": "NP", "mod": [], "weight": 0.347163}, 
+                {"id": 19, "text": "폭격과", "head": 20, "label": "NP_CNJ", "mod": [18], "weight": 0.24908}, 
+                {"id": 20, "text": "손흥민의", "head": 23, "label": "NP_MOD", "mod": [17, 19], "weight": 0.76597}, 
+                {"id": 21, "text": "2골", "head": 22, "label": "NP", "mod": [], "weight": 0.312707}, 
+                {"id": 22, "text": "1도움", "head": 23, "label": "NP", "mod": [21], "weight": 0.675841}, 
+                {"id": 23, "text": "맹활약을", "head": 24, "label": "NP_OBJ", "mod": [20, 22], "weight": 0.847488}, 
+                {"id": 24, "text": "더해", "head": 27, "label": "VP", "mod": [1, 15, 23], "weight": 0.857495}, 
+                {"id": 25, "text": "6-1", "head": 26, "label": "NP", "mod": [], "weight": 0.106132}, 
+                {"id": 26, "text": "완승을", "head": 27, "label": "NP_OBJ", "mod": [25], "weight": 0.779966}, 
+                {"id": 27, "text": "거뒀다.", "head": -1, "label": "VP", "mod": [24, 26], "weight": 1.08888e-08}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "토트넘 홋스퍼는", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP", "text": "5월 19일(이하 한국시간)", "begin": 2, "end": 4, "key_begin": 2, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "영국 레스터 킹파워 스타디움에서", "begin": 5, "end": 8, "key_begin": 5, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_OBJ", "text": "레스터 시티를", "begin": 9, "end": 10, "key_begin": 9, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#2@AJT에서 P#3@OBJ를 상대한", "begin": 5, "end": 11, "key_begin": 11, "head_phrase": 5, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "P#1@NP시간) P#4@MODㄴ '2016-2017 잉글랜드 프리미어리그' 경기에서", "begin": 2, "end": 15, "key_begin": 12, "head_phrase": 7, "sub_phrase": [1, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_OBJ", "text": "해리 케인의 4골 폭격과 손흥민의 2골 1도움 맹활약을", "begin": 16, "end": 23, "key_begin": 16, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "P#0@SBJ는 P#5@AJT에서 P#6@OBJ을 더해", "begin": 0, "end": 24, "key_begin": 24, "head_phrase": 9, "sub_phrase": [0, 5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_OBJ", "text": "6-1 완승을", "begin": 25, "end": 26, "key_begin": 25, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "S#7@S어 P#8@OBJ을 거뒀다.", "begin": 0, "end": 27, "key_begin": 27, "head_phrase": -1, "sub_phrase": [7, 8], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "상대", "sense": 1, "word_id": 11, "weight": 0.239773, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 8, "text": "영국 레스터 킹파워 스타디움", "weight": 0.143498}, 
+                    {"type": "ARG1", "word_id": 10, "text": "레스터 시티", "weight": 0.336048}
+                ]}, 
+                {"verb": "더하", "sense": 1, "word_id": 24, "weight": 0.237732, "argument": [
+                    {"type": "ARG1", "word_id": 23, "text": "해리 케인의 4골 폭격과 손흥민의 2골 1도움 맹활약", "weight": 0.237732}
+                ]}, 
+                {"verb": "거두", "sense": 1, "word_id": 27, "weight": 0.328714, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "토트넘 홋스퍼", "weight": 0.26609}, 
+                    {"type": "ARGM-CAU", "word_id": 24, "text": "더해", "weight": 0.239242}, 
+                    {"type": "ARG1", "word_id": 26, "text": "6-1 완승", "weight": 0.48081}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 24, "ant_sid": 2, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 27, "ant_sid": 2, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 3, 
+            "text": "경기 초반부터 수차례 슈팅 기회를 잡던 손흥민은 전반 26분 역습 상황에서 케인의 선제골을 도왔고 10분 뒤에는 감각적인 발리로 골망을 직접 흔들었다.", 
+            "morp": [
+                {"id": 0, "lemma": "경기", "type": "NNG", "position": 392, "weight": 0.321178}, 
+                {"id": 1, "lemma": "초반", "type": "NNG", "position": 399, "weight": 0.9}, 
+                {"id": 2, "lemma": "부터", "type": "JX", "position": 405, "weight": 0.0688504}, 
+                {"id": 3, "lemma": "수", "type": "XPN", "position": 412, "weight": 0.0001}, 
+                {"id": 4, "lemma": "차례", "type": "NNG", "position": 415, "weight": 0.9}, 
+                {"id": 5, "lemma": "슈팅", "type": "NNG", "position": 422, "weight": 0.1825}, 
+                {"id": 6, "lemma": "기회", "type": "NNG", "position": 429, "weight": 0.9}, 
+                {"id": 7, "lemma": "를", "type": "JKO", "position": 435, "weight": 0.137686}, 
+                {"id": 8, "lemma": "잡", "type": "VV", "position": 439, "weight": 0.776588}, 
+                {"id": 9, "lemma": "던", "type": "ETM", "position": 442, "weight": 0.317449}, 
+                {"id": 10, "lemma": "손흥민", "type": "NNP", "position": 446, "weight": 0.6}, 
+                {"id": 11, "lemma": "은", "type": "JX", "position": 455, "weight": 0.0520511}, 
+                {"id": 12, "lemma": "전반", "type": "NNG", "position": 459, "weight": 0.9}, 
+                {"id": 13, "lemma": "26", "type": "SN", "position": 466, "weight": 1}, 
+                {"id": 14, "lemma": "분", "type": "NNB", "position": 468, "weight": 0.322424}, 
+                {"id": 15, "lemma": "역습", "type": "NNG", "position": 472, "weight": 0.9}, 
+                {"id": 16, "lemma": "상황", "type": "NNG", "position": 479, "weight": 0.9}, 
+                {"id": 17, "lemma": "에서", "type": "JKB", "position": 485, "weight": 0.153407}, 
+                {"id": 18, "lemma": "케인", "type": "NNP", "position": 492, "weight": 0.9}, 
+                {"id": 19, "lemma": "의", "type": "JKG", "position": 498, "weight": 0.0987295}, 
+                {"id": 20, "lemma": "선제", "type": "NNG", "position": 502, "weight": 0.9}, 
+                {"id": 21, "lemma": "골", "type": "NNG", "position": 508, "weight": 0.161176}, 
+                {"id": 22, "lemma": "을", "type": "JKO", "position": 511, "weight": 0.129611}, 
+                {"id": 23, "lemma": "돕", "type": "VV", "position": 515, "weight": 0.777582}, 
+                {"id": 24, "lemma": "았", "type": "EP", "position": 515, "weight": 0.9}, 
+                {"id": 25, "lemma": "고", "type": "EC", "position": 521, "weight": 0.190901}, 
+                {"id": 26, "lemma": "10", "type": "SN", "position": 525, "weight": 1}, 
+                {"id": 27, "lemma": "분", "type": "NNB", "position": 527, "weight": 0.322424}, 
+                {"id": 28, "lemma": "뒤", "type": "NNG", "position": 531, "weight": 0.110533}, 
+                {"id": 29, "lemma": "에", "type": "JKB", "position": 534, "weight": 0.153364}, 
+                {"id": 30, "lemma": "는", "type": "JX", "position": 537, "weight": 0.0387928}, 
+                {"id": 31, "lemma": "감각", "type": "NNG", "position": 541, "weight": 0.9}, 
+                {"id": 32, "lemma": "적", "type": "NNG", "position": 547, "weight": 0.0169769}, 
+                {"id": 33, "lemma": "이", "type": "VCP", "position": 550, "weight": 0.0177525}, 
+                {"id": 34, "lemma": "ㄴ", "type": "ETM", "position": 550, "weight": 0.220712}, 
+                {"id": 35, "lemma": "발리", "type": "NNP", "position": 554, "weight": 0.00771648}, 
+                {"id": 36, "lemma": "로", "type": "JKB", "position": 560, "weight": 0.0822907}, 
+                {"id": 37, "lemma": "골", "type": "NNG", "position": 564, "weight": 0.181412}, 
+                {"id": 38, "lemma": "망", "type": "NNG", "position": 567, "weight": 0.9}, 
+                {"id": 39, "lemma": "을", "type": "JKO", "position": 570, "weight": 0.129611}, 
+                {"id": 40, "lemma": "직접", "type": "MAG", "position": 574, "weight": 0.0598865}, 
+                {"id": 41, "lemma": "흔들", "type": "VV", "position": 581, "weight": 0.389004}, 
+                {"id": 42, "lemma": "었", "type": "EP", "position": 587, "weight": 0.9}, 
+                {"id": 43, "lemma": "다", "type": "EF", "position": 590, "weight": 0.640954}, 
+                {"id": 44, "lemma": ".", "type": "SF", "position": 593, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "경기", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "초반부터", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "수차례", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "슈팅", "type": "", "begin": 5, "end": 5}, 
+                {"id": 4, "text": "기회를", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "잡던", "type": "", "begin": 8, "end": 9}, 
+                {"id": 6, "text": "손흥민은", "type": "", "begin": 10, "end": 11}, 
+                {"id": 7, "text": "전반", "type": "", "begin": 12, "end": 12}, 
+                {"id": 8, "text": "26분", "type": "", "begin": 13, "end": 14}, 
+                {"id": 9, "text": "역습", "type": "", "begin": 15, "end": 15}, 
+                {"id": 10, "text": "상황에서", "type": "", "begin": 16, "end": 17}, 
+                {"id": 11, "text": "케인의", "type": "", "begin": 18, "end": 19}, 
+                {"id": 12, "text": "선제골을", "type": "", "begin": 20, "end": 22}, 
+                {"id": 13, "text": "도왔고", "type": "", "begin": 23, "end": 25}, 
+                {"id": 14, "text": "10분", "type": "", "begin": 26, "end": 27}, 
+                {"id": 15, "text": "뒤에는", "type": "", "begin": 28, "end": 30}, 
+                {"id": 16, "text": "감각적인", "type": "", "begin": 31, "end": 34}, 
+                {"id": 17, "text": "발리로", "type": "", "begin": 35, "end": 36}, 
+                {"id": 18, "text": "골망을", "type": "", "begin": 37, "end": 39}, 
+                {"id": 19, "text": "직접", "type": "", "begin": 40, "end": 40}, 
+                {"id": 20, "text": "흔들었다.", "type": "", "begin": 41, "end": 44}
+            ], 
+            "NE": [
+                {"id": 0, "text": "수차례", "type": "QT_COUNT", "begin": 3, "end": 4, "weight": 1, "common_noun": 0}, 
+                {"id": 1, "text": "손흥민", "type": "PS_NAME", "begin": 10, "end": 10, "weight": 0.451281, "common_noun": 0}, 
+                {"id": 2, "text": "전반 26분", "type": "TI_DURATION", "begin": 12, "end": 14, "weight": 0.565139, "common_noun": 0}, 
+                {"id": 3, "text": "케인", "type": "PS_NAME", "begin": 18, "end": 18, "weight": 0.219282, "common_noun": 0}, 
+                {"id": 4, "text": "10분 뒤", "type": "TI_OTHERS", "begin": 26, "end": 28, "weight": 0.666092, "common_noun": 0}, 
+                {"id": 5, "text": "발리", "type": "LCG_ISLAND", "begin": 35, "end": 35, "weight": 0.186136, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "경기", "head": 1, "label": "NP", "mod": [], "weight": 0.776983}, 
+                {"id": 1, "text": "초반부터", "head": 5, "label": "NP_AJT", "mod": [0], "weight": 0.281757}, 
+                {"id": 2, "text": "수차례", "head": 5, "label": "NP_AJT", "mod": [], "weight": 0.503553}, 
+                {"id": 3, "text": "슈팅", "head": 4, "label": "NP", "mod": [], "weight": 0.44784}, 
+                {"id": 4, "text": "기회를", "head": 5, "label": "NP_OBJ", "mod": [3], "weight": 0.784392}, 
+                {"id": 5, "text": "잡던", "head": 6, "label": "VP_MOD", "mod": [1, 2, 4], "weight": 0.710935}, 
+                {"id": 6, "text": "손흥민은", "head": 13, "label": "NP_SBJ", "mod": [5], "weight": 0.744368}, 
+                {"id": 7, "text": "전반", "head": 8, "label": "NP", "mod": [], "weight": 0.54361}, 
+                {"id": 8, "text": "26분", "head": 10, "label": "NP", "mod": [7], "weight": 0.23546}, 
+                {"id": 9, "text": "역습", "head": 10, "label": "NP", "mod": [], "weight": 0.784303}, 
+                {"id": 10, "text": "상황에서", "head": 13, "label": "NP_AJT", "mod": [8, 9], "weight": 0.8112}, 
+                {"id": 11, "text": "케인의", "head": 12, "label": "NP_MOD", "mod": [], "weight": 0.702611}, 
+                {"id": 12, "text": "선제골을", "head": 13, "label": "NP_OBJ", "mod": [11], "weight": 0.791429}, 
+                {"id": 13, "text": "도왔고", "head": 20, "label": "VP", "mod": [6, 10, 12], "weight": 0.848705}, 
+                {"id": 14, "text": "10분", "head": 15, "label": "NP", "mod": [], "weight": 0.745115}, 
+                {"id": 15, "text": "뒤에는", "head": 20, "label": "NP_AJT", "mod": [14], "weight": 0.800206}, 
+                {"id": 16, "text": "감각적인", "head": 17, "label": "VNP_MOD", "mod": [], "weight": 0.779164}, 
+                {"id": 17, "text": "발리로", "head": 20, "label": "NP_AJT", "mod": [16], "weight": 0.791616}, 
+                {"id": 18, "text": "골망을", "head": 20, "label": "NP_OBJ", "mod": [], "weight": 0.767355}, 
+                {"id": 19, "text": "직접", "head": 20, "label": "AP", "mod": [], "weight": 0.763719}, 
+                {"id": 20, "text": "흔들었다.", "head": -1, "label": "VP", "mod": [13, 15, 17, 18, 19], "weight": 0.00014739}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "경기 초반부터", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "수차례", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "슈팅 기회를", "begin": 3, "end": 4, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP_MOD", "text": "P#0@AJT부터 P#1@AJT차례 P#2@OBJ를 잡던", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 4, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "P#3@MOD던 손흥민은", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 7, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "전반 26분 역습 상황에서", "begin": 7, "end": 10, "key_begin": 7, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_OBJ", "text": "케인의 선제골을", "begin": 11, "end": 12, "key_begin": 11, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "P#4@SBJ은 P#5@AJT에서 P#6@OBJ을 도왔고", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": 12, "sub_phrase": [4, 5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_AJT", "text": "10분 뒤에는", "begin": 14, "end": 15, "key_begin": 14, "head_phrase": 12, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_AJT", "text": "감각적인 발리로", "begin": 16, "end": 17, "key_begin": 16, "head_phrase": 12, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 10, "label": "NP_OBJ", "text": "골망을", "begin": 18, "end": 18, "key_begin": 18, "head_phrase": 12, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 11, "label": "AP", "text": "직접", "begin": 19, "end": 19, "key_begin": 19, "head_phrase": 12, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 12, "label": "S", "text": "S#7@S고 P#8@AJT는 P#9@AJT로 P#10@OBJ을 P#11@AP직접 흔들었다.", "begin": 0, "end": 20, "key_begin": 20, "head_phrase": -1, "sub_phrase": [7, 8, 9, 10, 11], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "잡", "sense": 1, "word_id": 5, "weight": 0.274455, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 2, "text": "수차례", "weight": 0.143329}, 
+                    {"type": "ARG1", "word_id": 4, "text": "슈팅 기회", "weight": 0.238072}, 
+                    {"type": "ARG0", "word_id": 6, "text": "손흥민", "weight": 0.441965}
+                ]}, 
+                {"verb": "돕", "sense": 1, "word_id": 13, "weight": 0.425177, "argument": [
+                    {"type": "ARG0", "word_id": 6, "text": "손흥민", "weight": 0.47166}, 
+                    {"type": "ARGM-TMP", "word_id": 10, "text": "전반 26분 역습 상황", "weight": 0.295791}, 
+                    {"type": "ARG1", "word_id": 12, "text": "케인의 선제골", "weight": 0.508078}
+                ]}, 
+                {"verb": "흔들", "sense": 1, "word_id": 20, "weight": 0.345496, "argument": [
+                    {"type": "ARG0", "word_id": 6, "text": "손흥민", "weight": 0.249122}, 
+                    {"type": "ARGM-TMP", "word_id": 15, "text": "10분 뒤", "weight": 0.668789}, 
+                    {"type": "ARGM-LOC", "word_id": 17, "text": "감각적인 발리", "weight": 0.105111}, 
+                    {"type": "ARG1", "word_id": 18, "text": "골망", "weight": 0.411183}, 
+                    {"type": "ARGM-MNR", "word_id": 19, "text": "직접", "weight": 0.293278}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 20, "ant_sid": 3, "ant_wid": 6, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 4, 
+            "text": " 후반 26분 추가골까지 터트린 손흥민은 후반 33분 빈센트 얀센과 교체돼 나왔다.", 
+            "morp": [
+                {"id": 0, "lemma": "후반", "type": "NNG", "position": 595, "weight": 0.9}, 
+                {"id": 1, "lemma": "26", "type": "SN", "position": 602, "weight": 1}, 
+                {"id": 2, "lemma": "분", "type": "NNB", "position": 604, "weight": 0.322424}, 
+                {"id": 3, "lemma": "추가골", "type": "NNG", "position": 608, "weight": 0}, 
+                {"id": 4, "lemma": "까지", "type": "JX", "position": 617, "weight": 0.0687424}, 
+                {"id": 5, "lemma": "터트리", "type": "VV", "position": 624, "weight": 0.9}, 
+                {"id": 6, "lemma": "ㄴ", "type": "ETM", "position": 630, "weight": 0.304215}, 
+                {"id": 7, "lemma": "손흥민", "type": "NNP", "position": 634, "weight": 0.6}, 
+                {"id": 8, "lemma": "은", "type": "JX", "position": 643, "weight": 0.0520511}, 
+                {"id": 9, "lemma": "후반", "type": "NNG", "position": 647, "weight": 0.9}, 
+                {"id": 10, "lemma": "33", "type": "SN", "position": 654, "weight": 1}, 
+                {"id": 11, "lemma": "분", "type": "NNB", "position": 656, "weight": 0.322424}, 
+                {"id": 12, "lemma": "빈센트", "type": "NNP", "position": 660, "weight": 0.9}, 
+                {"id": 13, "lemma": "얀센", "type": "NNG", "position": 670, "weight": 0}, 
+                {"id": 14, "lemma": "과", "type": "JKB", "position": 676, "weight": 0.0503087}, 
+                {"id": 15, "lemma": "교체", "type": "NNG", "position": 680, "weight": 0.9}, 
+                {"id": 16, "lemma": "되", "type": "XSV", "position": 686, "weight": 0.000224177}, 
+                {"id": 17, "lemma": "어", "type": "EC", "position": 686, "weight": 0.361326}, 
+                {"id": 18, "lemma": "나오", "type": "VV", "position": 690, "weight": 0.9}, 
+                {"id": 19, "lemma": "았", "type": "EP", "position": 693, "weight": 0.9}, 
+                {"id": 20, "lemma": "다", "type": "EF", "position": 696, "weight": 0.640954}, 
+                {"id": 21, "lemma": ".", "type": "SF", "position": 699, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "후반", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "26분", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "추가골까지", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "터트린", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "손흥민은", "type": "", "begin": 7, "end": 8}, 
+                {"id": 5, "text": "후반", "type": "", "begin": 9, "end": 9}, 
+                {"id": 6, "text": "33분", "type": "", "begin": 10, "end": 11}, 
+                {"id": 7, "text": "빈센트", "type": "", "begin": 12, "end": 12}, 
+                {"id": 8, "text": "얀센과", "type": "", "begin": 13, "end": 14}, 
+                {"id": 9, "text": "교체돼", "type": "", "begin": 15, "end": 17}, 
+                {"id": 10, "text": "나왔다.", "type": "", "begin": 18, "end": 21}
+            ], 
+            "NE": [
+                {"id": 0, "text": "후반 26분", "type": "TI_DURATION", "begin": 0, "end": 2, "weight": 0.675737, "common_noun": 0}, 
+                {"id": 1, "text": "손흥민", "type": "PS_NAME", "begin": 7, "end": 7, "weight": 0.42175, "common_noun": 0}, 
+                {"id": 2, "text": "후반 33분", "type": "TI_OTHERS", "begin": 9, "end": 11, "weight": 0.717178, "common_noun": 0}, 
+                {"id": 3, "text": "빈센트 얀센", "type": "PS_NAME", "begin": 12, "end": 13, "weight": 0.341613, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "후반", "head": 1, "label": "NP", "mod": [], "weight": 0.210716}, 
+                {"id": 1, "text": "26분", "head": 2, "label": "NP", "mod": [0], "weight": 0.176864}, 
+                {"id": 2, "text": "추가골까지", "head": 3, "label": "NP_OBJ", "mod": [1], "weight": 0.149072}, 
+                {"id": 3, "text": "터트린", "head": 4, "label": "VP_MOD", "mod": [2], "weight": 0.610712}, 
+                {"id": 4, "text": "손흥민은", "head": 9, "label": "NP_SBJ", "mod": [3], "weight": 0.906307}, 
+                {"id": 5, "text": "후반", "head": 6, "label": "NP", "mod": [], "weight": 0.597827}, 
+                {"id": 6, "text": "33분", "head": 9, "label": "NP_AJT", "mod": [5], "weight": 0.697226}, 
+                {"id": 7, "text": "빈센트", "head": 8, "label": "NP", "mod": [], "weight": 0.6912}, 
+                {"id": 8, "text": "얀센과", "head": 9, "label": "NP_AJT", "mod": [7], "weight": 0.773116}, 
+                {"id": 9, "text": "교체돼", "head": 10, "label": "VP", "mod": [4, 6, 8], "weight": 0.823843}, 
+                {"id": 10, "text": "나왔다.", "head": -1, "label": "VP", "mod": [9], "weight": 0.000467274}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_OBJ", "text": "후반 26분 추가골까지", "begin": 0, "end": 2, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@OBJ까지 터트린", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "P#1@MODㄴ 손흥민은", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "후반 33분", "begin": 5, "end": 6, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "빈센트 얀센과", "begin": 7, "end": 8, "key_begin": 7, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#2@SBJ은 P#3@AJT분 P#4@AJT과 교체돼 나왔다.", "begin": 0, "end": 10, "key_begin": 9, "head_phrase": -1, "sub_phrase": [2, 3, 4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "터트리", "sense": 1, "word_id": 3, "weight": 0.216352, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 2, "text": "후반 26분 추가골", "weight": 0.193759}, 
+                    {"type": "ARG0", "word_id": 4, "text": "손흥민", "weight": 0.238945}
+                ]}, 
+                {"verb": "교체", "sense": 1, "word_id": 9, "weight": 0.293179, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 6, "text": "후반 33분", "weight": 0.157508}, 
+                    {"type": "ARG2", "word_id": 8, "text": "빈센트 얀센", "weight": 0.428849}
+                ]}, 
+                {"verb": "나오", "sense": 1, "word_id": 10, "weight": 0.329171, "argument": [
+                    {"type": "ARG0", "word_id": 4, "text": "손흥민", "weight": 0.520632}, 
+                    {"type": "ARGM-MNR", "word_id": 9, "text": "교체돼", "weight": 0.137709}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 10, "ant_sid": 4, "ant_wid": 4, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 5, 
+            "text": "영국 '데일리 미러'는 경기 후 이날 경기의 중요한 관전 포인트 5개를 소개하는 리뷰 기사에서 5번째 주제로 '손흥민은 키 맨(Key man)으로 성장했다\"는 소제목을 달고 손흥민을 주목했다.", 
+            "morp": [
+                {"id": 0, "lemma": "영국", "type": "NNP", "position": 700, "weight": 0.9}, 
+                {"id": 1, "lemma": "'", "type": "SS", "position": 707, "weight": 1}, 
+                {"id": 2, "lemma": "데일리", "type": "NNG", "position": 708, "weight": 0.0645164}, 
+                {"id": 3, "lemma": "미러", "type": "NNG", "position": 718, "weight": 0.55}, 
+                {"id": 4, "lemma": "'", "type": "SS", "position": 724, "weight": 1}, 
+                {"id": 5, "lemma": "는", "type": "JX", "position": 725, "weight": 0.00823314}, 
+                {"id": 6, "lemma": "경기", "type": "NNG", "position": 729, "weight": 0.238288}, 
+                {"id": 7, "lemma": "후", "type": "NNG", "position": 736, "weight": 0.18399}, 
+                {"id": 8, "lemma": "이날", "type": "NNG", "position": 740, "weight": 0.9}, 
+                {"id": 9, "lemma": "경기", "type": "NNG", "position": 747, "weight": 0.135556}, 
+                {"id": 10, "lemma": "의", "type": "JKG", "position": 753, "weight": 0.0694213}, 
+                {"id": 11, "lemma": "중요", "type": "NNG", "position": 757, "weight": 0.9}, 
+                {"id": 12, "lemma": "하", "type": "XSA", "position": 763, "weight": 0.0001}, 
+                {"id": 13, "lemma": "ㄴ", "type": "ETM", "position": 763, "weight": 0.488779}, 
+                {"id": 14, "lemma": "관전", "type": "NNG", "position": 767, "weight": 0.9}, 
+                {"id": 15, "lemma": "포인트", "type": "NNG", "position": 774, "weight": 0.181363}, 
+                {"id": 16, "lemma": "5", "type": "SN", "position": 784, "weight": 1}, 
+                {"id": 17, "lemma": "개", "type": "NNB", "position": 785, "weight": 0.363274}, 
+                {"id": 18, "lemma": "를", "type": "JKO", "position": 788, "weight": 0.0669358}, 
+                {"id": 19, "lemma": "소개", "type": "NNG", "position": 792, "weight": 0.9}, 
+                {"id": 20, "lemma": "하", "type": "XSV", "position": 798, "weight": 0.0001}, 
+                {"id": 21, "lemma": "는", "type": "ETM", "position": 801, "weight": 0.238503}, 
+                {"id": 22, "lemma": "리뷰", "type": "NNG", "position": 805, "weight": 0.639463}, 
+                {"id": 23, "lemma": "기사", "type": "NNG", "position": 812, "weight": 0.9}, 
+                {"id": 24, "lemma": "에서", "type": "JKB", "position": 818, "weight": 0.153407}, 
+                {"id": 25, "lemma": "5", "type": "SN", "position": 825, "weight": 1}, 
+                {"id": 26, "lemma": "번째", "type": "NNB", "position": 826, "weight": 0.415311}, 
+                {"id": 27, "lemma": "주제", "type": "NNG", "position": 833, "weight": 0.9}, 
+                {"id": 28, "lemma": "로", "type": "JKB", "position": 839, "weight": 0.153229}, 
+                {"id": 29, "lemma": "'", "type": "SS", "position": 843, "weight": 1}, 
+                {"id": 30, "lemma": "손흥민", "type": "NNP", "position": 844, "weight": 0.6}, 
+                {"id": 31, "lemma": "은", "type": "JX", "position": 853, "weight": 0.0520511}, 
+                {"id": 32, "lemma": "키", "type": "NNG", "position": 857, "weight": 0.317776}, 
+                {"id": 33, "lemma": "맨", "type": "NNG", "position": 861, "weight": 0.0098552}, 
+                {"id": 34, "lemma": "(", "type": "SS", "position": 864, "weight": 1}, 
+                {"id": 35, "lemma": "Key", "type": "SL", "position": 865, "weight": 1}, 
+                {"id": 36, "lemma": "man", "type": "SL", "position": 869, "weight": 1}, 
+                {"id": 37, "lemma": ")", "type": "SS", "position": 872, "weight": 1}, 
+                {"id": 38, "lemma": "으로", "type": "JKB", "position": 873, "weight": 0.0486063}, 
+                {"id": 39, "lemma": "성장", "type": "NNG", "position": 880, "weight": 0.9}, 
+                {"id": 40, "lemma": "하", "type": "XSV", "position": 886, "weight": 0.0001}, 
+                {"id": 41, "lemma": "었", "type": "EP", "position": 886, "weight": 0.9}, 
+                {"id": 42, "lemma": "다", "type": "EF", "position": 889, "weight": 0.640954}, 
+                {"id": 43, "lemma": "\"", "type": "SS", "position": 892, "weight": 1}, 
+                {"id": 44, "lemma": "는", "type": "JX", "position": 893, "weight": 0.00823314}, 
+                {"id": 45, "lemma": "소", "type": "XPN", "position": 897, "weight": 0.0001}, 
+                {"id": 46, "lemma": "제목", "type": "NNG", "position": 900, "weight": 0.9}, 
+                {"id": 47, "lemma": "을", "type": "JKO", "position": 906, "weight": 0.129611}, 
+                {"id": 48, "lemma": "달", "type": "VV", "position": 910, "weight": 0.187475}, 
+                {"id": 49, "lemma": "고", "type": "EC", "position": 913, "weight": 0.416679}, 
+                {"id": 50, "lemma": "손흥민", "type": "NNG", "position": 917, "weight": 0}, 
+                {"id": 51, "lemma": "을", "type": "JKO", "position": 926, "weight": 0.129611}, 
+                {"id": 52, "lemma": "주목", "type": "NNG", "position": 930, "weight": 0.101212}, 
+                {"id": 53, "lemma": "하", "type": "XSV", "position": 936, "weight": 0.0001}, 
+                {"id": 54, "lemma": "었", "type": "EP", "position": 936, "weight": 0.9}, 
+                {"id": 55, "lemma": "다", "type": "EF", "position": 939, "weight": 0.640954}, 
+                {"id": 56, "lemma": ".", "type": "SF", "position": 942, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "영국", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "'데일리", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "미러'는", "type": "", "begin": 3, "end": 5}, 
+                {"id": 3, "text": "경기", "type": "", "begin": 6, "end": 6}, 
+                {"id": 4, "text": "후", "type": "", "begin": 7, "end": 7}, 
+                {"id": 5, "text": "이날", "type": "", "begin": 8, "end": 8}, 
+                {"id": 6, "text": "경기의", "type": "", "begin": 9, "end": 10}, 
+                {"id": 7, "text": "중요한", "type": "", "begin": 11, "end": 13}, 
+                {"id": 8, "text": "관전", "type": "", "begin": 14, "end": 14}, 
+                {"id": 9, "text": "포인트", "type": "", "begin": 15, "end": 15}, 
+                {"id": 10, "text": "5개를", "type": "", "begin": 16, "end": 18}, 
+                {"id": 11, "text": "소개하는", "type": "", "begin": 19, "end": 21}, 
+                {"id": 12, "text": "리뷰", "type": "", "begin": 22, "end": 22}, 
+                {"id": 13, "text": "기사에서", "type": "", "begin": 23, "end": 24}, 
+                {"id": 14, "text": "5번째", "type": "", "begin": 25, "end": 26}, 
+                {"id": 15, "text": "주제로", "type": "", "begin": 27, "end": 28}, 
+                {"id": 16, "text": "'손흥민은", "type": "", "begin": 29, "end": 31}, 
+                {"id": 17, "text": "키", "type": "", "begin": 32, "end": 32}, 
+                {"id": 18, "text": "맨(Key", "type": "", "begin": 33, "end": 35}, 
+                {"id": 19, "text": "man)으로", "type": "", "begin": 36, "end": 38}, 
+                {"id": 20, "text": "성장했다\"는", "type": "", "begin": 39, "end": 44}, 
+                {"id": 21, "text": "소제목을", "type": "", "begin": 45, "end": 47}, 
+                {"id": 22, "text": "달고", "type": "", "begin": 48, "end": 49}, 
+                {"id": 23, "text": "손흥민을", "type": "", "begin": 50, "end": 51}, 
+                {"id": 24, "text": "주목했다.", "type": "", "begin": 52, "end": 56}
+            ], 
+            "NE": [
+                {"id": 0, "text": "영국", "type": "LCP_COUNTRY", "begin": 0, "end": 0, "weight": 0.548398, "common_noun": 0}, 
+                {"id": 1, "text": "데일리 미러", "type": "OGG_MEDIA", "begin": 2, "end": 3, "weight": 0.434226, "common_noun": 0}, 
+                {"id": 2, "text": "5개", "type": "QT_COUNT", "begin": 16, "end": 17, "weight": 0.761716, "common_noun": 0}, 
+                {"id": 3, "text": "5번째", "type": "QT_ORDER", "begin": 25, "end": 26, "weight": 0.691135, "common_noun": 0}, 
+                {"id": 4, "text": "손흥민은 키 맨", "type": "PS_NAME", "begin": 30, "end": 33, "weight": 0.0671613, "common_noun": 0}, 
+                {"id": 5, "text": "손흥민", "type": "PS_NAME", "begin": 50, "end": 50, "weight": 0.279665, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "영국", "head": 2, "label": "NP", "mod": [], "weight": 0.552294}, 
+                {"id": 1, "text": "'데일리", "head": 2, "label": "NP", "mod": [], "weight": 0.785586}, 
+                {"id": 2, "text": "미러'는", "head": 22, "label": "NP_SBJ", "mod": [0, 1], "weight": 0.769383}, 
+                {"id": 3, "text": "경기", "head": 4, "label": "NP", "mod": [], "weight": 0.794687}, 
+                {"id": 4, "text": "후", "head": 11, "label": "NP_AJT", "mod": [3], "weight": 0.213687}, 
+                {"id": 5, "text": "이날", "head": 6, "label": "NP", "mod": [], "weight": 0.345241}, 
+                {"id": 6, "text": "경기의", "head": 9, "label": "NP_MOD", "mod": [5], "weight": 0.297304}, 
+                {"id": 7, "text": "중요한", "head": 9, "label": "VP_MOD", "mod": [], "weight": 0.240501}, 
+                {"id": 8, "text": "관전", "head": 9, "label": "NP", "mod": [], "weight": 0.735819}, 
+                {"id": 9, "text": "포인트", "head": 10, "label": "NP", "mod": [6, 7, 8], "weight": 0.582124}, 
+                {"id": 10, "text": "5개를", "head": 11, "label": "NP_OBJ", "mod": [9], "weight": 0.696309}, 
+                {"id": 11, "text": "소개하는", "head": 13, "label": "VP_MOD", "mod": [4, 10], "weight": 0.833845}, 
+                {"id": 12, "text": "리뷰", "head": 13, "label": "NP", "mod": [], "weight": 0.751723}, 
+                {"id": 13, "text": "기사에서", "head": 22, "label": "NP_AJT", "mod": [11, 12], "weight": 0.696957}, 
+                {"id": 14, "text": "5번째", "head": 15, "label": "NP", "mod": [], "weight": 0.345543}, 
+                {"id": 15, "text": "주제로", "head": 22, "label": "NP_AJT", "mod": [14], "weight": 0.652293}, 
+                {"id": 16, "text": "'손흥민은", "head": 18, "label": "NP_SBJ", "mod": [], "weight": 0.302414}, 
+                {"id": 17, "text": "키", "head": 18, "label": "NP", "mod": [], "weight": 0.425172}, 
+                {"id": 18, "text": "맨(Key", "head": 19, "label": "NP", "mod": [16, 17], "weight": 0.823951}, 
+                {"id": 19, "text": "man)으로", "head": 22, "label": "NP_AJT", "mod": [18], "weight": 0.715129}, 
+                {"id": 20, "text": "성장했다\"는", "head": 22, "label": "NP_SBJ", "mod": [], "weight": 0.657389}, 
+                {"id": 21, "text": "소제목을", "head": 22, "label": "NP_OBJ", "mod": [], "weight": 0.73002}, 
+                {"id": 22, "text": "달고", "head": 24, "label": "VP", "mod": [2, 13, 15, 19, 20, 21], "weight": 0.766245}, 
+                {"id": 23, "text": "손흥민을", "head": 24, "label": "NP_OBJ", "mod": [], "weight": 0.804408}, 
+                {"id": 24, "text": "주목했다.", "head": -1, "label": "VP", "mod": [22, 23], "weight": 7.87296e-07}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "영국 '데일리 미러'는", "begin": 0, "end": 2, "key_begin": 0, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "경기 후", "begin": 3, "end": 4, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "이날 경기의 중요한 관전 포인트 5개를", "begin": 5, "end": 10, "key_begin": 5, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP_MOD", "text": "P#1@AJT후 P#2@OBJ를 소개하는", "begin": 3, "end": 11, "key_begin": 11, "head_phrase": 4, "sub_phrase": [1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "P#3@MOD는 리뷰 기사에서", "begin": 3, "end": 13, "key_begin": 12, "head_phrase": 9, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "5번째 주제로", "begin": 14, "end": 15, "key_begin": 14, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "'손흥민은 키 맨(Key man)으로", "begin": 16, "end": 19, "key_begin": 16, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_SBJ", "text": "성장했다\"는", "begin": 20, "end": 20, "key_begin": 20, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_OBJ", "text": "소제목을", "begin": 21, "end": 21, "key_begin": 21, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "P#0@SBJ는 P#4@AJT에서 P#5@AJT로 P#6@AJT으로 P#7@SBJ는 P#8@OBJ을 달고", "begin": 0, "end": 22, "key_begin": 22, "head_phrase": 11, "sub_phrase": [0, 4, 5, 6, 7, 8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "NP_OBJ", "text": "손흥민을", "begin": 23, "end": 23, "key_begin": 23, "head_phrase": 11, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 11, "label": "S", "text": "S#9@S고 P#10@OBJ을 주목했다.", "begin": 0, "end": 24, "key_begin": 24, "head_phrase": -1, "sub_phrase": [9, 10], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "중요", "sense": 1, "word_id": 7, "weight": 0.369752, "argument": [
+                    {"type": "ARG1", "word_id": 9, "text": "포인트", "weight": 0.418039}, 
+                    {"type": "ARG1", "word_id": 10, "text": "이날 경기의 중요한 관전 포인트 5개", "weight": 0.321464}
+                ]}, 
+                {"verb": "소개", "sense": 1, "word_id": 11, "weight": 0.438107, "argument": [
+                    {"type": "ARG1", "word_id": 10, "text": "이날 경기의 중요한 관전 포인트 5개", "weight": 0.495829}, 
+                    {"type": "ARG0", "word_id": 13, "text": "리뷰 기사", "weight": 0.380385}
+                ]}, 
+                {"verb": "성장", "sense": 1, "word_id": 20, "weight": 0.0974281, "argument": [
+                    {"type": "ARG3", "word_id": 19, "text": "'손흥민은 키 맨(Key man)", "weight": 0.0974281}
+                ]}, 
+                {"verb": "달", "sense": 1, "word_id": 22, "weight": 0.157047, "argument": [
+                    {"type": "ARGM-PRD", "word_id": 15, "text": "5번째 주제", "weight": 0.179273}, 
+                    {"type": "ARGM-INS", "word_id": 19, "text": "'손흥민은 키 맨(Key man)", "weight": 0.0860689}, 
+                    {"type": "ARG1", "word_id": 21, "text": "소제목", "weight": 0.205798}
+                ]}, 
+                {"verb": "주목", "sense": 1, "word_id": 24, "weight": 0.376759, "argument": [
+                    {"type": "ARG0", "word_id": 2, "text": "영국 '데일리 미러'", "weight": 0.329545}, 
+                    {"type": "ARG1", "word_id": 23, "text": "손흥민", "weight": 0.423972}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 22, "ant_sid": 5, "ant_wid": 2, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 24, "ant_sid": 5, "ant_wid": 2, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 6, 
+            "text": " 이 매체는 \"해리 케인과 델레 알리가 가장 큰 박수 갈채를 받겠지만 손흥민도 또다른 에이스다\"며 손흥민을 주목했다.", 
+            "morp": [
+                {"id": 0, "lemma": "이", "type": "MM", "position": 944, "weight": 0.0020222}, 
+                {"id": 1, "lemma": "매체", "type": "NNG", "position": 948, "weight": 0.9}, 
+                {"id": 2, "lemma": "는", "type": "JX", "position": 954, "weight": 0.0287565}, 
+                {"id": 3, "lemma": "\"", "type": "SS", "position": 958, "weight": 1}, 
+                {"id": 4, "lemma": "해리", "type": "NNG", "position": 959, "weight": 0.0232878}, 
+                {"id": 5, "lemma": "케인", "type": "NNP", "position": 966, "weight": 0.9}, 
+                {"id": 6, "lemma": "과", "type": "JKB", "position": 972, "weight": 0.0270179}, 
+                {"id": 7, "lemma": "델레", "type": "MAG", "position": 976, "weight": 0}, 
+                {"id": 8, "lemma": "알리", "type": "NNP", "position": 983, "weight": 0.000239705}, 
+                {"id": 9, "lemma": "가", "type": "JKS", "position": 989, "weight": 0.0431193}, 
+                {"id": 10, "lemma": "가장", "type": "MAG", "position": 993, "weight": 0.114699}, 
+                {"id": 11, "lemma": "크", "type": "VA", "position": 1000, "weight": 0.131358}, 
+                {"id": 12, "lemma": "ㄴ", "type": "ETM", "position": 1000, "weight": 0.430446}, 
+                {"id": 13, "lemma": "박수", "type": "NNG", "position": 1004, "weight": 0.9}, 
+                {"id": 14, "lemma": "갈채", "type": "NNG", "position": 1011, "weight": 0.9}, 
+                {"id": 15, "lemma": "를", "type": "JKO", "position": 1017, "weight": 0.137686}, 
+                {"id": 16, "lemma": "받", "type": "VV", "position": 1021, "weight": 0.765648}, 
+                {"id": 17, "lemma": "겠", "type": "EP", "position": 1024, "weight": 0.9}, 
+                {"id": 18, "lemma": "지만", "type": "EC", "position": 1027, "weight": 0.194093}, 
+                {"id": 19, "lemma": "손흥민", "type": "NNP", "position": 1034, "weight": 0.6}, 
+                {"id": 20, "lemma": "도", "type": "JX", "position": 1043, "weight": 0.0782363}, 
+                {"id": 21, "lemma": "또", "type": "MAG", "position": 1047, "weight": 0.126115}, 
+                {"id": 22, "lemma": "다른", "type": "MM", "position": 1050, "weight": 0.9}, 
+                {"id": 23, "lemma": "에이스", "type": "NNG", "position": 1057, "weight": 0.726279}, 
+                {"id": 24, "lemma": "이", "type": "VCP", "position": 1066, "weight": 0.0177525}, 
+                {"id": 25, "lemma": "다", "type": "EF", "position": 1066, "weight": 0.353579}, 
+                {"id": 26, "lemma": "\"", "type": "SS", "position": 1069, "weight": 1}, 
+                {"id": 27, "lemma": "며", "type": "EC", "position": 1070, "weight": 0.00532489}, 
+                {"id": 28, "lemma": "손흥민", "type": "NNG", "position": 1074, "weight": 0}, 
+                {"id": 29, "lemma": "을", "type": "JKO", "position": 1083, "weight": 0.129611}, 
+                {"id": 30, "lemma": "주목", "type": "NNG", "position": 1087, "weight": 0.101212}, 
+                {"id": 31, "lemma": "하", "type": "XSV", "position": 1093, "weight": 0.0001}, 
+                {"id": 32, "lemma": "었", "type": "EP", "position": 1093, "weight": 0.9}, 
+                {"id": 33, "lemma": "다", "type": "EF", "position": 1096, "weight": 0.640954}, 
+                {"id": 34, "lemma": ".", "type": "SF", "position": 1099, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "이", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "매체는", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "\"해리", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "케인과", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "델레", "type": "", "begin": 7, "end": 7}, 
+                {"id": 5, "text": "알리가", "type": "", "begin": 8, "end": 9}, 
+                {"id": 6, "text": "가장", "type": "", "begin": 10, "end": 10}, 
+                {"id": 7, "text": "큰", "type": "", "begin": 11, "end": 12}, 
+                {"id": 8, "text": "박수", "type": "", "begin": 13, "end": 13}, 
+                {"id": 9, "text": "갈채를", "type": "", "begin": 14, "end": 15}, 
+                {"id": 10, "text": "받겠지만", "type": "", "begin": 16, "end": 18}, 
+                {"id": 11, "text": "손흥민도", "type": "", "begin": 19, "end": 20}, 
+                {"id": 12, "text": "또다른", "type": "", "begin": 21, "end": 22}, 
+                {"id": 13, "text": "에이스다\"며", "type": "", "begin": 23, "end": 27}, 
+                {"id": 14, "text": "손흥민을", "type": "", "begin": 28, "end": 29}, 
+                {"id": 15, "text": "주목했다.", "type": "", "begin": 30, "end": 34}
+            ], 
+            "NE": [
+                {"id": 0, "text": "해리 케인", "type": "PS_NAME", "begin": 4, "end": 5, "weight": 0.205789, "common_noun": 0}, 
+                {"id": 1, "text": "델레 알리", "type": "PS_NAME", "begin": 7, "end": 8, "weight": 0.104308, "common_noun": 0}, 
+                {"id": 2, "text": "손흥민", "type": "PS_NAME", "begin": 19, "end": 19, "weight": 0.331109, "common_noun": 0}, 
+                {"id": 3, "text": "에이스", "type": "CV_POSITION", "begin": 23, "end": 23, "weight": 0.47189, "common_noun": 0}, 
+                {"id": 4, "text": "손흥민", "type": "PS_NAME", "begin": 28, "end": 28, "weight": 0.290515, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "이", "head": 1, "label": "DP", "mod": [], "weight": 0.686689}, 
+                {"id": 1, "text": "매체는", "head": 13, "label": "NP_SBJ", "mod": [0], "weight": 0.239361}, 
+                {"id": 2, "text": "\"해리", "head": 3, "label": "NP", "mod": [], "weight": 0.632978}, 
+                {"id": 3, "text": "케인과", "head": 5, "label": "NP_CNJ", "mod": [2], "weight": 0.452427}, 
+                {"id": 4, "text": "델레", "head": 5, "label": "AP", "mod": [], "weight": 0.158473}, 
+                {"id": 5, "text": "알리가", "head": 10, "label": "NP_SBJ", "mod": [3, 4], "weight": 0.830557}, 
+                {"id": 6, "text": "가장", "head": 7, "label": "AP", "mod": [], "weight": 0.794888}, 
+                {"id": 7, "text": "큰", "head": 9, "label": "VP_MOD", "mod": [6], "weight": 0.607293}, 
+                {"id": 8, "text": "박수", "head": 9, "label": "NP", "mod": [], "weight": 0.713412}, 
+                {"id": 9, "text": "갈채를", "head": 10, "label": "NP_OBJ", "mod": [7, 8], "weight": 0.787151}, 
+                {"id": 10, "text": "받겠지만", "head": 13, "label": "VP", "mod": [5, 9], "weight": 0.694072}, 
+                {"id": 11, "text": "손흥민도", "head": 13, "label": "NP_SBJ", "mod": [], "weight": 0.675373}, 
+                {"id": 12, "text": "또다른", "head": 13, "label": "DP", "mod": [], "weight": 0.0111303}, 
+                {"id": 13, "text": "에이스다\"며", "head": 15, "label": "VP", "mod": [1, 10, 11, 12], "weight": 0.637187}, 
+                {"id": 14, "text": "손흥민을", "head": 15, "label": "NP_OBJ", "mod": [], "weight": 0.808813}, 
+                {"id": 15, "text": "주목했다.", "head": -1, "label": "VP", "mod": [13, 14], "weight": 3.81332e-06}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "이 매체는", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S", "text": "P#0@SBJ는 \"해리 케인과 델레 알리가 가장 큰 박수 갈채를 받겠지만 손흥민도 또다른 에이스다\"며", "begin": 0, "end": 13, "key_begin": 2, "head_phrase": 3, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "손흥민을", "begin": 14, "end": 14, "key_begin": 14, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "S#1@S며 P#2@OBJ을 주목했다.", "begin": 0, "end": 15, "key_begin": 15, "head_phrase": -1, "sub_phrase": [1, 2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "크", "sense": 1, "word_id": 7, "weight": 0.472333, "argument": [
+                    {"type": "ARGM-EXT", "word_id": 6, "text": "가장", "weight": 0.452346}, 
+                    {"type": "ARG1", "word_id": 9, "text": "갈채", "weight": 0.49232}
+                ]}, 
+                {"verb": "받", "sense": 1, "word_id": 10, "weight": 0.337004, "argument": [
+                    {"type": "ARG0", "word_id": 5, "text": "알리", "weight": 0.292689}, 
+                    {"type": "ARG1", "word_id": 9, "text": "갈채", "weight": 0.381319}
+                ]}, 
+                {"verb": "주목", "sense": 1, "word_id": 15, "weight": 0.270847, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "이 매체", "weight": 0.217383}, 
+                    {"type": "ARG0", "word_id": 11, "text": "손흥민", "weight": 0.261871}, 
+                    {"type": "ARGM-DIS", "word_id": 13, "text": "\"해리 케인과 델레 알리가 가장 큰 박수 갈채를 받겠지만 손흥민도 또다른 에이스다\"며", "weight": 0.132661}, 
+                    {"type": "ARG1", "word_id": 14, "text": "손흥민", "weight": 0.471472}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 7, 
+            "text": "데일리미러는 \"이번 멀티골로 이번 시즌 21번째 골을 기록했다.", 
+            "morp": [
+                {"id": 0, "lemma": "데일리미러", "type": "NNG", "position": 1100, "weight": 0}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 1115, "weight": 0.0287565}, 
+                {"id": 2, "lemma": "\"", "type": "SS", "position": 1119, "weight": 1}, 
+                {"id": 3, "lemma": "이번", "type": "NNG", "position": 1120, "weight": 0.9}, 
+                {"id": 4, "lemma": "멀티골", "type": "NNG", "position": 1127, "weight": 0}, 
+                {"id": 5, "lemma": "로", "type": "JKB", "position": 1136, "weight": 0.153229}, 
+                {"id": 6, "lemma": "이번", "type": "NNG", "position": 1140, "weight": 0.9}, 
+                {"id": 7, "lemma": "시즌", "type": "NNG", "position": 1147, "weight": 0.9}, 
+                {"id": 8, "lemma": "21", "type": "SN", "position": 1154, "weight": 1}, 
+                {"id": 9, "lemma": "번째", "type": "NNB", "position": 1156, "weight": 0.415311}, 
+                {"id": 10, "lemma": "골", "type": "NNG", "position": 1163, "weight": 0.0964558}, 
+                {"id": 11, "lemma": "을", "type": "JKO", "position": 1166, "weight": 0.129611}, 
+                {"id": 12, "lemma": "기록", "type": "NNG", "position": 1170, "weight": 0.9}, 
+                {"id": 13, "lemma": "하", "type": "XSV", "position": 1176, "weight": 0.0001}, 
+                {"id": 14, "lemma": "었", "type": "EP", "position": 1176, "weight": 0.9}, 
+                {"id": 15, "lemma": "다", "type": "EF", "position": 1179, "weight": 0.640954}, 
+                {"id": 16, "lemma": ".", "type": "SF", "position": 1182, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "데일리미러는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "\"이번", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "멀티골로", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "이번", "type": "", "begin": 6, "end": 6}, 
+                {"id": 4, "text": "시즌", "type": "", "begin": 7, "end": 7}, 
+                {"id": 5, "text": "21번째", "type": "", "begin": 8, "end": 9}, 
+                {"id": 6, "text": "골을", "type": "", "begin": 10, "end": 11}, 
+                {"id": 7, "text": "기록했다.", "type": "", "begin": 12, "end": 16}
+            ], 
+            "NE": [
+                {"id": 0, "text": "데일리미러", "type": "OGG_MEDIA", "begin": 0, "end": 0, "weight": 0.272061, "common_noun": 0}, 
+                {"id": 1, "text": "이번 시즌", "type": "DT_SEASON", "begin": 6, "end": 7, "weight": 0.591889, "common_noun": 0}, 
+                {"id": 2, "text": "21번째", "type": "QT_ORDER", "begin": 8, "end": 9, "weight": 0.488087, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "데일리미러는", "head": 7, "label": "NP_SBJ", "mod": [], "weight": 0.71122}, 
+                {"id": 1, "text": "\"이번", "head": 2, "label": "NP", "mod": [], "weight": 0.843712}, 
+                {"id": 2, "text": "멀티골로", "head": 7, "label": "NP_AJT", "mod": [1], "weight": 0.768001}, 
+                {"id": 3, "text": "이번", "head": 4, "label": "NP", "mod": [], "weight": 0.581793}, 
+                {"id": 4, "text": "시즌", "head": 6, "label": "NP", "mod": [3], "weight": 0.499285}, 
+                {"id": 5, "text": "21번째", "head": 6, "label": "NP", "mod": [], "weight": 0.400128}, 
+                {"id": 6, "text": "골을", "head": 7, "label": "NP_OBJ", "mod": [4, 5], "weight": 0.831664}, 
+                {"id": 7, "text": "기록했다.", "head": -1, "label": "VP", "mod": [0, 2, 6], "weight": 0.0388857}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "데일리미러는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "\"이번 멀티골로", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "이번 시즌 21번째 골을", "begin": 3, "end": 6, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@SBJ는 P#1@AJT로 P#2@OBJ을 기록했다.", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": -1, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "기록", "sense": 1, "word_id": 7, "weight": 0.340563, "argument": [
+                    {"type": "ARGM-CAU", "word_id": 2, "text": "\"이번 멀티골", "weight": 0.176829}, 
+                    {"type": "ARG1", "word_id": 6, "text": "이번 시즌 21번째 골", "weight": 0.504296}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 7, "ant_sid": 6, "ant_wid": 11, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 8, 
+            "text": " 바이어 레버쿠젠에서 1,800만 파운드에 영입된 선수의 환상적인 귀환 신고다\"고 적었다.", 
+            "morp": [
+                {"id": 0, "lemma": "바이어", "type": "NNG", "position": 1184, "weight": 0.428824}, 
+                {"id": 1, "lemma": "레버쿠젠", "type": "NNP", "position": 1194, "weight": 0.6}, 
+                {"id": 2, "lemma": "에서", "type": "JKB", "position": 1206, "weight": 0.0823859}, 
+                {"id": 3, "lemma": "1,800", "type": "SN", "position": 1213, "weight": 1}, 
+                {"id": 4, "lemma": "만", "type": "NR", "position": 1218, "weight": 0.0178717}, 
+                {"id": 5, "lemma": "파운드", "type": "NNB", "position": 1222, "weight": 0.364269}, 
+                {"id": 6, "lemma": "에", "type": "JKB", "position": 1231, "weight": 0.135559}, 
+                {"id": 7, "lemma": "영입", "type": "NNG", "position": 1235, "weight": 0.9}, 
+                {"id": 8, "lemma": "되", "type": "XSV", "position": 1241, "weight": 0.000224177}, 
+                {"id": 9, "lemma": "ㄴ", "type": "ETM", "position": 1241, "weight": 0.392321}, 
+                {"id": 10, "lemma": "선수", "type": "NNG", "position": 1245, "weight": 0.9}, 
+                {"id": 11, "lemma": "의", "type": "JKG", "position": 1251, "weight": 0.0694213}, 
+                {"id": 12, "lemma": "환상", "type": "NNG", "position": 1255, "weight": 0.870443}, 
+                {"id": 13, "lemma": "적", "type": "XSN", "position": 1261, "weight": 0.0168756}, 
+                {"id": 14, "lemma": "이", "type": "VCP", "position": 1264, "weight": 0.0165001}, 
+                {"id": 15, "lemma": "ㄴ", "type": "ETM", "position": 1264, "weight": 0.220712}, 
+                {"id": 16, "lemma": "귀환", "type": "NNG", "position": 1268, "weight": 0.9}, 
+                {"id": 17, "lemma": "신고", "type": "NNG", "position": 1275, "weight": 0.184246}, 
+                {"id": 18, "lemma": "이", "type": "VCP", "position": 1281, "weight": 0.0177525}, 
+                {"id": 19, "lemma": "다", "type": "EF", "position": 1281, "weight": 0.353579}, 
+                {"id": 20, "lemma": "\"", "type": "SS", "position": 1284, "weight": 1}, 
+                {"id": 21, "lemma": "고", "type": "JKQ", "position": 1285, "weight": 0.000541335}, 
+                {"id": 22, "lemma": "적", "type": "VV", "position": 1289, "weight": 0.0719471}, 
+                {"id": 23, "lemma": "었", "type": "EP", "position": 1292, "weight": 0.9}, 
+                {"id": 24, "lemma": "다", "type": "EF", "position": 1295, "weight": 0.640954}, 
+                {"id": 25, "lemma": ".", "type": "SF", "position": 1298, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "바이어", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "레버쿠젠에서", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "1,800만", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "파운드에", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "영입된", "type": "", "begin": 7, "end": 9}, 
+                {"id": 5, "text": "선수의", "type": "", "begin": 10, "end": 11}, 
+                {"id": 6, "text": "환상적인", "type": "", "begin": 12, "end": 15}, 
+                {"id": 7, "text": "귀환", "type": "", "begin": 16, "end": 16}, 
+                {"id": 8, "text": "신고다\"고", "type": "", "begin": 17, "end": 21}, 
+                {"id": 9, "text": "적었다.", "type": "", "begin": 22, "end": 25}
+            ], 
+            "NE": [
+                {"id": 0, "text": "바이어 레버쿠젠", "type": "OGG_SPORTS", "begin": 0, "end": 1, "weight": 0.179311, "common_noun": 0}, 
+                {"id": 1, "text": "1,800만 파운드", "type": "QT_PRICE", "begin": 3, "end": 5, "weight": 0.595733, "common_noun": 0}, 
+                {"id": 2, "text": "선수", "type": "CV_OCCUPATION", "begin": 10, "end": 10, "weight": 0.526055, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "바이어", "head": 1, "label": "NP", "mod": [], "weight": 0.471218}, 
+                {"id": 1, "text": "레버쿠젠에서", "head": 4, "label": "NP_AJT", "mod": [0], "weight": 0.12023}, 
+                {"id": 2, "text": "1,800만", "head": 3, "label": "NP", "mod": [], "weight": 0.799415}, 
+                {"id": 3, "text": "파운드에", "head": 4, "label": "NP_AJT", "mod": [2], "weight": 0.685233}, 
+                {"id": 4, "text": "영입된", "head": 5, "label": "VP_MOD", "mod": [1, 3], "weight": 0.242927}, 
+                {"id": 5, "text": "선수의", "head": 6, "label": "NP_MOD", "mod": [4], "weight": 0.0646095}, 
+                {"id": 6, "text": "환상적인", "head": 8, "label": "VNP_MOD", "mod": [5], "weight": 0.812191}, 
+                {"id": 7, "text": "귀환", "head": 8, "label": "NP", "mod": [], "weight": 0.605935}, 
+                {"id": 8, "text": "신고다\"고", "head": 9, "label": "VNP_CMP", "mod": [6, 7], "weight": 0.087691}, 
+                {"id": 9, "text": "적었다.", "head": -1, "label": "VP", "mod": [8], "weight": 1.84066e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "바이어 레버쿠젠에서", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "1,800만 파운드에", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#0@AJT에서 P#1@AJT에 영입된", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VNP_MOD", "text": "P#2@MODㄴ 선수의 환상적인", "begin": 0, "end": 6, "key_begin": 5, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VNP_CMP", "text": "P#3@MODㄴ 귀환 신고다\"고", "begin": 0, "end": 8, "key_begin": 7, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP", "text": "P#4@CMP고 적었다.", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": -1, "sub_phrase": [4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "영입", "sense": 1, "word_id": 4, "weight": 0.225398, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 1, "text": "바이어 레버쿠젠", "weight": 0.326191}, 
+                    {"type": "ARG2", "word_id": 3, "text": "1,800만 파운드", "weight": 0.175293}, 
+                    {"type": "ARG1", "word_id": 5, "text": "선수", "weight": 0.174709}
+                ]}, 
+                {"verb": "적", "sense": 1, "word_id": 9, "weight": 0.334874, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "귀환 신고이다\"", "weight": 0.334874}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 8, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 9, "ant_sid": 7, "ant_wid": 0, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 9, 
+            "text": " 이어 \"그가 만들어낸 골과 도움의 수준은 확실히 돋보인다\"며 \"두 골과 함께 정확한 초 단위의 돌파로 케인의 도움을 만들어낸 장면 등에서 그의 클래스가 묻어나온다\"고 평했다.", 
+            "morp": [
+                {"id": 0, "lemma": "잇", "type": "VV", "position": 1300, "weight": 0.0355953}, 
+                {"id": 1, "lemma": "어", "type": "EC", "position": 1303, "weight": 0.41831}, 
+                {"id": 2, "lemma": "\"", "type": "SS", "position": 1307, "weight": 1}, 
+                {"id": 3, "lemma": "그", "type": "NP", "position": 1308, "weight": 0.00832802}, 
+                {"id": 4, "lemma": "가", "type": "JKS", "position": 1311, "weight": 0.104973}, 
+                {"id": 5, "lemma": "만들", "type": "VV", "position": 1315, "weight": 0.9}, 
+                {"id": 6, "lemma": "어", "type": "EC", "position": 1321, "weight": 0.41831}, 
+                {"id": 7, "lemma": "내", "type": "VX", "position": 1324, "weight": 0.0587845}, 
+                {"id": 8, "lemma": "ㄴ", "type": "ETM", "position": 1324, "weight": 0.302612}, 
+                {"id": 9, "lemma": "골", "type": "NNG", "position": 1328, "weight": 0.574496}, 
+                {"id": 10, "lemma": "과", "type": "JC", "position": 1331, "weight": 0.017569}, 
+                {"id": 11, "lemma": "도움", "type": "NNG", "position": 1335, "weight": 0.9}, 
+                {"id": 12, "lemma": "의", "type": "JKG", "position": 1341, "weight": 0.0694213}, 
+                {"id": 13, "lemma": "수준", "type": "NNG", "position": 1345, "weight": 0.9}, 
+                {"id": 14, "lemma": "은", "type": "JX", "position": 1351, "weight": 0.0449928}, 
+                {"id": 15, "lemma": "확실히", "type": "MAG", "position": 1355, "weight": 0.9}, 
+                {"id": 16, "lemma": "돋보이", "type": "VV", "position": 1365, "weight": 0.9}, 
+                {"id": 17, "lemma": "ㄴ다", "type": "EF", "position": 1371, "weight": 0.0793196}, 
+                {"id": 18, "lemma": "\"", "type": "SS", "position": 1377, "weight": 1}, 
+                {"id": 19, "lemma": "며", "type": "EC", "position": 1378, "weight": 0.00532489}, 
+                {"id": 20, "lemma": "\"", "type": "SS", "position": 1382, "weight": 1}, 
+                {"id": 21, "lemma": "두", "type": "MM", "position": 1383, "weight": 0.00512538}, 
+                {"id": 22, "lemma": "골", "type": "NNG", "position": 1387, "weight": 0.643043}, 
+                {"id": 23, "lemma": "과", "type": "JKB", "position": 1390, "weight": 0.0503087}, 
+                {"id": 24, "lemma": "함께", "type": "MAG", "position": 1394, "weight": 0.9}, 
+                {"id": 25, "lemma": "정확", "type": "NNG", "position": 1401, "weight": 0.95}, 
+                {"id": 26, "lemma": "하", "type": "XSA", "position": 1407, "weight": 0.0001}, 
+                {"id": 27, "lemma": "ㄴ", "type": "ETM", "position": 1407, "weight": 0.488779}, 
+                {"id": 28, "lemma": "초", "type": "NNB", "position": 1411, "weight": 0.16702}, 
+                {"id": 29, "lemma": "단위", "type": "NNG", "position": 1415, "weight": 0.9}, 
+                {"id": 30, "lemma": "의", "type": "JKG", "position": 1421, "weight": 0.0694213}, 
+                {"id": 31, "lemma": "돌파", "type": "NNG", "position": 1425, "weight": 0.9}, 
+                {"id": 32, "lemma": "로", "type": "JKB", "position": 1431, "weight": 0.153229}, 
+                {"id": 33, "lemma": "케인", "type": "NNP", "position": 1435, "weight": 0.9}, 
+                {"id": 34, "lemma": "의", "type": "JKG", "position": 1441, "weight": 0.0987295}, 
+                {"id": 35, "lemma": "도움", "type": "NNG", "position": 1445, "weight": 0.9}, 
+                {"id": 36, "lemma": "을", "type": "JKO", "position": 1451, "weight": 0.129611}, 
+                {"id": 37, "lemma": "만들", "type": "VV", "position": 1455, "weight": 0.9}, 
+                {"id": 38, "lemma": "어", "type": "EC", "position": 1461, "weight": 0.41831}, 
+                {"id": 39, "lemma": "내", "type": "VX", "position": 1464, "weight": 0.0587845}, 
+                {"id": 40, "lemma": "ㄴ", "type": "ETM", "position": 1464, "weight": 0.302612}, 
+                {"id": 41, "lemma": "장면", "type": "NNG", "position": 1468, "weight": 0.653099}, 
+                {"id": 42, "lemma": "등", "type": "NNB", "position": 1475, "weight": 0.0146757}, 
+                {"id": 43, "lemma": "에서", "type": "JKB", "position": 1478, "weight": 0.135597}, 
+                {"id": 44, "lemma": "그", "type": "NP", "position": 1485, "weight": 0.00637967}, 
+                {"id": 45, "lemma": "의", "type": "JKG", "position": 1488, "weight": 0.134696}, 
+                {"id": 46, "lemma": "클래스", "type": "NNG", "position": 1492, "weight": 0.9}, 
+                {"id": 47, "lemma": "가", "type": "JKS", "position": 1501, "weight": 0.066324}, 
+                {"id": 48, "lemma": "묻어나오", "type": "VV", "position": 1505, "weight": 0}, 
+                {"id": 49, "lemma": "ㄴ다", "type": "EF", "position": 1514, "weight": 0.0793196}, 
+                {"id": 50, "lemma": "\"", "type": "SS", "position": 1520, "weight": 1}, 
+                {"id": 51, "lemma": "고", "type": "JKQ", "position": 1521, "weight": 0.000541335}, 
+                {"id": 52, "lemma": "평", "type": "NNG", "position": 1525, "weight": 0.0139079}, 
+                {"id": 53, "lemma": "하", "type": "XSV", "position": 1528, "weight": 0.0001}, 
+                {"id": 54, "lemma": "었", "type": "EP", "position": 1528, "weight": 0.9}, 
+                {"id": 55, "lemma": "다", "type": "EF", "position": 1531, "weight": 0.640954}, 
+                {"id": 56, "lemma": ".", "type": "SF", "position": 1534, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "이어", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "\"그가", "type": "", "begin": 2, "end": 4}, 
+                {"id": 2, "text": "만들어낸", "type": "", "begin": 5, "end": 8}, 
+                {"id": 3, "text": "골과", "type": "", "begin": 9, "end": 10}, 
+                {"id": 4, "text": "도움의", "type": "", "begin": 11, "end": 12}, 
+                {"id": 5, "text": "수준은", "type": "", "begin": 13, "end": 14}, 
+                {"id": 6, "text": "확실히", "type": "", "begin": 15, "end": 15}, 
+                {"id": 7, "text": "돋보인다\"며", "type": "", "begin": 16, "end": 19}, 
+                {"id": 8, "text": "\"두", "type": "", "begin": 20, "end": 21}, 
+                {"id": 9, "text": "골과", "type": "", "begin": 22, "end": 23}, 
+                {"id": 10, "text": "함께", "type": "", "begin": 24, "end": 24}, 
+                {"id": 11, "text": "정확한", "type": "", "begin": 25, "end": 27}, 
+                {"id": 12, "text": "초", "type": "", "begin": 28, "end": 28}, 
+                {"id": 13, "text": "단위의", "type": "", "begin": 29, "end": 30}, 
+                {"id": 14, "text": "돌파로", "type": "", "begin": 31, "end": 32}, 
+                {"id": 15, "text": "케인의", "type": "", "begin": 33, "end": 34}, 
+                {"id": 16, "text": "도움을", "type": "", "begin": 35, "end": 36}, 
+                {"id": 17, "text": "만들어낸", "type": "", "begin": 37, "end": 40}, 
+                {"id": 18, "text": "장면", "type": "", "begin": 41, "end": 41}, 
+                {"id": 19, "text": "등에서", "type": "", "begin": 42, "end": 43}, 
+                {"id": 20, "text": "그의", "type": "", "begin": 44, "end": 45}, 
+                {"id": 21, "text": "클래스가", "type": "", "begin": 46, "end": 47}, 
+                {"id": 22, "text": "묻어나온다\"고", "type": "", "begin": 48, "end": 51}, 
+                {"id": 23, "text": "평했다.", "type": "", "begin": 52, "end": 56}
+            ], 
+            "NE": [
+                {"id": 0, "text": "두 골", "type": "QT_SPORTS", "begin": 21, "end": 22, "weight": 0.466833, "common_noun": 0}, 
+                {"id": 1, "text": "케인", "type": "PS_NAME", "begin": 33, "end": 33, "weight": 0.220234, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "이어", "head": 7, "label": "VP", "mod": [], "weight": 0.446381}, 
+                {"id": 1, "text": "\"그가", "head": 2, "label": "NP_SBJ", "mod": [], "weight": 0.671938}, 
+                {"id": 2, "text": "만들어낸", "head": 5, "label": "VP_MOD", "mod": [1], "weight": 0.762607}, 
+                {"id": 3, "text": "골과", "head": 4, "label": "NP_CNJ", "mod": [], "weight": 0.320579}, 
+                {"id": 4, "text": "도움의", "head": 5, "label": "NP_MOD", "mod": [3], "weight": 0.594801}, 
+                {"id": 5, "text": "수준은", "head": 7, "label": "NP_SBJ", "mod": [2, 4], "weight": 0.56778}, 
+                {"id": 6, "text": "확실히", "head": 7, "label": "AP", "mod": [], "weight": 0.848835}, 
+                {"id": 7, "text": "돋보인다\"며", "head": 23, "label": "VP", "mod": [0, 5, 6], "weight": 0.736457}, 
+                {"id": 8, "text": "\"두", "head": 9, "label": "DP", "mod": [], "weight": 0.542166}, 
+                {"id": 9, "text": "골과", "head": 10, "label": "NP_AJT", "mod": [8], "weight": 0.741005}, 
+                {"id": 10, "text": "함께", "head": 17, "label": "AP", "mod": [9], "weight": 0.0521505}, 
+                {"id": 11, "text": "정확한", "head": 13, "label": "VP_MOD", "mod": [], "weight": 0.459779}, 
+                {"id": 12, "text": "초", "head": 13, "label": "NP", "mod": [], "weight": 0.336941}, 
+                {"id": 13, "text": "단위의", "head": 14, "label": "NP_MOD", "mod": [11, 12], "weight": 0.792009}, 
+                {"id": 14, "text": "돌파로", "head": 17, "label": "NP_AJT", "mod": [13], "weight": 0.150983}, 
+                {"id": 15, "text": "케인의", "head": 16, "label": "NP_MOD", "mod": [], "weight": 0.594726}, 
+                {"id": 16, "text": "도움을", "head": 17, "label": "NP_OBJ", "mod": [15], "weight": 0.787879}, 
+                {"id": 17, "text": "만들어낸", "head": 18, "label": "VP_MOD", "mod": [10, 14, 16], "weight": 0.676189}, 
+                {"id": 18, "text": "장면", "head": 19, "label": "NP", "mod": [17], "weight": 0.731747}, 
+                {"id": 19, "text": "등에서", "head": 22, "label": "NP_AJT", "mod": [18], "weight": 0.412425}, 
+                {"id": 20, "text": "그의", "head": 21, "label": "NP_MOD", "mod": [], "weight": 0.756862}, 
+                {"id": 21, "text": "클래스가", "head": 22, "label": "NP_SBJ", "mod": [20], "weight": 0.813162}, 
+                {"id": 22, "text": "묻어나온다\"고", "head": 23, "label": "VP_CMP", "mod": [19, 21], "weight": 0.607231}, 
+                {"id": 23, "text": "평했다.", "head": -1, "label": "VP", "mod": [7, 22], "weight": 1.89378e-07}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VP", "text": "이어 \"그가 만들어낸 골과 도움의 수준은 확실히 돋보인다\"며", "begin": 0, "end": 7, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_CMP", "text": "\"두 골과 함께 정확한 초 단위의 돌파로 케인의 도움을 만들어낸 장면 등에서 그의 클래스가 묻어나온다\"고", "begin": 8, "end": 22, "key_begin": 8, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP", "text": "P#0@VP며 P#1@CMP고 평했다.", "begin": 0, "end": 23, "key_begin": 23, "head_phrase": -1, "sub_phrase": [0, 1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "잇", "sense": 1, "word_id": 0, "weight": 0, "argument": []}, 
+                {"verb": "만들", "sense": 1, "word_id": 2, "weight": 0.463984, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "\"그", "weight": 0.53852}, 
+                    {"type": "ARG1", "word_id": 5, "text": "수준", "weight": 0.389448}
+                ]}, 
+                {"verb": "돋보이", "sense": 1, "word_id": 7, "weight": 0.288921, "argument": [
+                    {"type": "ARG1", "word_id": 5, "text": "수준", "weight": 0.307714}, 
+                    {"type": "ARGM-EXT", "word_id": 6, "text": "확실히", "weight": 0.270128}
+                ]}, 
+                {"verb": "정확", "sense": 1, "word_id": 11, "weight": 0.289364, "argument": [
+                    {"type": "ARG1", "word_id": 13, "text": "단위", "weight": 0.289364}
+                ]}, 
+                {"verb": "만들", "sense": 1, "word_id": 17, "weight": 0.340472, "argument": [
+                    {"type": "ARGM-INS", "word_id": 14, "text": "돌파", "weight": 0.210709}, 
+                    {"type": "ARG1", "word_id": 16, "text": "도움", "weight": 0.470235}
+                ]}, 
+                {"verb": "묻어나오", "sense": 1, "word_id": 22, "weight": 0.209951, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 19, "text": "등", "weight": 0.132501}, 
+                    {"type": "ARG1", "word_id": 21, "text": "클래스", "weight": 0.2874}
+                ]}, 
+                {"verb": "평", "sense": 1, "word_id": 23, "weight": 0.416344, "argument": [
+                    {"type": "ARG1", "word_id": 22, "text": "\"두 골과 함께 정확한 초 단위의 돌파로 케인의 도움을 만들어낸 장면 등에서 그의 클래스가 묻어나오ㄴ다\"", "weight": 0.416344}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 17, "ant_sid": 9, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 23, "ant_sid": 7, "ant_wid": 0, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 10, 
+            "text": "손흥민은 이날 두 골을 더하며 시즌 21골을 기록해 차범근이 보유했던 한국인 유럽 빅리그 최다골 기록(시즌 19골)을 경신했다.", 
+            "morp": [
+                {"id": 0, "lemma": "손흥민", "type": "NNP", "position": 1535, "weight": 0.6}, 
+                {"id": 1, "lemma": "은", "type": "JX", "position": 1544, "weight": 0.0520511}, 
+                {"id": 2, "lemma": "이날", "type": "NNG", "position": 1548, "weight": 0.9}, 
+                {"id": 3, "lemma": "두", "type": "MM", "position": 1555, "weight": 0.00195503}, 
+                {"id": 4, "lemma": "골", "type": "NNG", "position": 1559, "weight": 0.643043}, 
+                {"id": 5, "lemma": "을", "type": "JKO", "position": 1562, "weight": 0.129611}, 
+                {"id": 6, "lemma": "더하", "type": "VV", "position": 1566, "weight": 0.717158}, 
+                {"id": 7, "lemma": "며", "type": "EC", "position": 1572, "weight": 0.429701}, 
+                {"id": 8, "lemma": "시즌", "type": "NNG", "position": 1576, "weight": 0.9}, 
+                {"id": 9, "lemma": "21", "type": "SN", "position": 1583, "weight": 1}, 
+                {"id": 10, "lemma": "골", "type": "NNG", "position": 1585, "weight": 0.0874695}, 
+                {"id": 11, "lemma": "을", "type": "JKO", "position": 1588, "weight": 0.129611}, 
+                {"id": 12, "lemma": "기록", "type": "NNG", "position": 1592, "weight": 0.9}, 
+                {"id": 13, "lemma": "하", "type": "XSV", "position": 1598, "weight": 0.0001}, 
+                {"id": 14, "lemma": "어", "type": "EC", "position": 1598, "weight": 0.361326}, 
+                {"id": 15, "lemma": "차범근", "type": "NNP", "position": 1602, "weight": 0.9}, 
+                {"id": 16, "lemma": "이", "type": "JKS", "position": 1611, "weight": 0.0234517}, 
+                {"id": 17, "lemma": "보유", "type": "NNG", "position": 1615, "weight": 0.9}, 
+                {"id": 18, "lemma": "하", "type": "XSV", "position": 1621, "weight": 0.0001}, 
+                {"id": 19, "lemma": "었", "type": "EP", "position": 1621, "weight": 0.9}, 
+                {"id": 20, "lemma": "던", "type": "ETM", "position": 1624, "weight": 0.107547}, 
+                {"id": 21, "lemma": "한국", "type": "NNP", "position": 1628, "weight": 0.0280282}, 
+                {"id": 22, "lemma": "인", "type": "XSN", "position": 1634, "weight": 0.00915919}, 
+                {"id": 23, "lemma": "유럽", "type": "NNP", "position": 1638, "weight": 0.9}, 
+                {"id": 24, "lemma": "빅리그", "type": "NNG", "position": 1645, "weight": 0.25}, 
+                {"id": 25, "lemma": "최다골", "type": "NNP", "position": 1655, "weight": 0.6}, 
+                {"id": 26, "lemma": "기록", "type": "NNG", "position": 1665, "weight": 0.9}, 
+                {"id": 27, "lemma": "(", "type": "SS", "position": 1671, "weight": 1}, 
+                {"id": 28, "lemma": "시즌", "type": "NNG", "position": 1672, "weight": 0.9}, 
+                {"id": 29, "lemma": "19", "type": "SN", "position": 1679, "weight": 1}, 
+                {"id": 30, "lemma": "골", "type": "NNG", "position": 1681, "weight": 0.0874695}, 
+                {"id": 31, "lemma": ")", "type": "SS", "position": 1684, "weight": 1}, 
+                {"id": 32, "lemma": "을", "type": "JKO", "position": 1685, "weight": 0.0336085}, 
+                {"id": 33, "lemma": "경신", "type": "NNG", "position": 1689, "weight": 0.0803568}, 
+                {"id": 34, "lemma": "하", "type": "XSV", "position": 1695, "weight": 0.0001}, 
+                {"id": 35, "lemma": "었", "type": "EP", "position": 1695, "weight": 0.9}, 
+                {"id": 36, "lemma": "다", "type": "EF", "position": 1698, "weight": 0.640954}, 
+                {"id": 37, "lemma": ".", "type": "SF", "position": 1701, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "손흥민은", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "이날", "type": "", "begin": 2, "end": 2}, 
+                {"id": 2, "text": "두", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "골을", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "더하며", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "시즌", "type": "", "begin": 8, "end": 8}, 
+                {"id": 6, "text": "21골을", "type": "", "begin": 9, "end": 11}, 
+                {"id": 7, "text": "기록해", "type": "", "begin": 12, "end": 14}, 
+                {"id": 8, "text": "차범근이", "type": "", "begin": 15, "end": 16}, 
+                {"id": 9, "text": "보유했던", "type": "", "begin": 17, "end": 20}, 
+                {"id": 10, "text": "한국인", "type": "", "begin": 21, "end": 22}, 
+                {"id": 11, "text": "유럽", "type": "", "begin": 23, "end": 23}, 
+                {"id": 12, "text": "빅리그", "type": "", "begin": 24, "end": 24}, 
+                {"id": 13, "text": "최다골", "type": "", "begin": 25, "end": 25}, 
+                {"id": 14, "text": "기록(시즌", "type": "", "begin": 26, "end": 28}, 
+                {"id": 15, "text": "19골)을", "type": "", "begin": 29, "end": 32}, 
+                {"id": 16, "text": "경신했다.", "type": "", "begin": 33, "end": 37}
+            ], 
+            "NE": [
+                {"id": 0, "text": "손흥민", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.446289, "common_noun": 0}, 
+                {"id": 1, "text": "두 골", "type": "QT_SPORTS", "begin": 3, "end": 4, "weight": 0.726094, "common_noun": 0}, 
+                {"id": 2, "text": "21골", "type": "QT_SPORTS", "begin": 9, "end": 10, "weight": 0.588167, "common_noun": 0}, 
+                {"id": 3, "text": "차범근", "type": "PS_NAME", "begin": 15, "end": 15, "weight": 0.351723, "common_noun": 0}, 
+                {"id": 4, "text": "한국인", "type": "CV_TRIBE", "begin": 21, "end": 22, "weight": 0.531584, "common_noun": 0}, 
+                {"id": 5, "text": "유럽", "type": "LCG_CONTINENT", "begin": 23, "end": 23, "weight": 0.492898, "common_noun": 0}, 
+                {"id": 6, "text": "19골", "type": "QT_SPORTS", "begin": 29, "end": 30, "weight": 0.575935, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "손흥민은", "head": 4, "label": "NP_SBJ", "mod": [], "weight": 0.709911}, 
+                {"id": 1, "text": "이날", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.752609}, 
+                {"id": 2, "text": "두", "head": 3, "label": "DP", "mod": [], "weight": 0.612345}, 
+                {"id": 3, "text": "골을", "head": 4, "label": "NP_OBJ", "mod": [2], "weight": 0.832258}, 
+                {"id": 4, "text": "더하며", "head": 7, "label": "VP", "mod": [0, 1, 3], "weight": 0.570526}, 
+                {"id": 5, "text": "시즌", "head": 6, "label": "NP", "mod": [], "weight": 0.275732}, 
+                {"id": 6, "text": "21골을", "head": 7, "label": "NP_OBJ", "mod": [5], "weight": 0.732288}, 
+                {"id": 7, "text": "기록해", "head": 9, "label": "VP", "mod": [4, 6], "weight": 0.0853187}, 
+                {"id": 8, "text": "차범근이", "head": 9, "label": "NP_SBJ", "mod": [], "weight": 0.639282}, 
+                {"id": 9, "text": "보유했던", "head": 15, "label": "VP_MOD", "mod": [7, 8], "weight": 0.556353}, 
+                {"id": 10, "text": "한국인", "head": 12, "label": "NP", "mod": [], "weight": 0.242417}, 
+                {"id": 11, "text": "유럽", "head": 12, "label": "NP", "mod": [], "weight": 0.774381}, 
+                {"id": 12, "text": "빅리그", "head": 14, "label": "NP", "mod": [10, 11], "weight": 0.479844}, 
+                {"id": 13, "text": "최다골", "head": 14, "label": "NP", "mod": [], "weight": 0.854782}, 
+                {"id": 14, "text": "기록(시즌", "head": 15, "label": "NP", "mod": [12, 13], "weight": 0.557092}, 
+                {"id": 15, "text": "19골)을", "head": 16, "label": "NP_OBJ", "mod": [9, 14], "weight": 0.756567}, 
+                {"id": 16, "text": "경신했다.", "head": -1, "label": "VP", "mod": [15], "weight": 2.5936e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "손흥민은", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "이날", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "두 골을", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@SBJ은 P#1@AJT이날 P#2@OBJ을 더하며", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "시즌 21골을", "begin": 5, "end": 6, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "S#3@S며 P#4@OBJ을 기록해", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 7, "sub_phrase": [3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_SBJ", "text": "차범근이", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S_MOD", "text": "S#5@S어 P#6@SBJ이 보유했던", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 8, "sub_phrase": [5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_OBJ", "text": "S#7@MOD던 한국인 유럽 빅리그 최다골 기록(시즌 19골)을", "begin": 0, "end": 15, "key_begin": 10, "head_phrase": 9, "sub_phrase": [7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "VP", "text": "P#8@OBJ을 경신했다.", "begin": 0, "end": 16, "key_begin": 16, "head_phrase": -1, "sub_phrase": [8], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "더하", "sense": 1, "word_id": 4, "weight": 0.286291, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 1, "text": "이날", "weight": 0.34633}, 
+                    {"type": "ARG1", "word_id": 3, "text": "두 골", "weight": 0.226251}
+                ]}, 
+                {"verb": "기록", "sense": 1, "word_id": 7, "weight": 0.699623, "argument": [
+                    {"type": "ARG1", "word_id": 6, "text": "시즌 21골", "weight": 0.699623}
+                ]}, 
+                {"verb": "보유", "sense": 1, "word_id": 9, "weight": 0.556464, "argument": [
+                    {"type": "ARG0", "word_id": 8, "text": "차범근", "weight": 0.556464}
+                ]}, 
+                {"verb": "경신", "sense": 1, "word_id": 16, "weight": 0.340593, "argument": [
+                    {"type": "ARG1", "word_id": 15, "text": "한국인 유럽 빅리그 최다골 기록(시즌 19골)", "weight": 0.340593}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 7, "ant_sid": 10, "ant_wid": 0, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 16, "ant_sid": 10, "ant_wid": 0, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 11, 
+            "text": " 이번 시즌 프리미어리그 기록은 14골 5도움이다.", 
+            "morp": [
+                {"id": 0, "lemma": "이번", "type": "NNG", "position": 1703, "weight": 0.9}, 
+                {"id": 1, "lemma": "시즌", "type": "NNG", "position": 1710, "weight": 0.9}, 
+                {"id": 2, "lemma": "프리미어", "type": "NNG", "position": 1717, "weight": 0.0616132}, 
+                {"id": 3, "lemma": "리그", "type": "NNG", "position": 1729, "weight": 0.9}, 
+                {"id": 4, "lemma": "기록", "type": "NNG", "position": 1736, "weight": 0.9}, 
+                {"id": 5, "lemma": "은", "type": "JX", "position": 1742, "weight": 0.0449928}, 
+                {"id": 6, "lemma": "14", "type": "SN", "position": 1746, "weight": 1}, 
+                {"id": 7, "lemma": "골", "type": "NNG", "position": 1748, "weight": 0.0874695}, 
+                {"id": 8, "lemma": "5", "type": "SN", "position": 1752, "weight": 1}, 
+                {"id": 9, "lemma": "도움", "type": "NNG", "position": 1753, "weight": 0.9}, 
+                {"id": 10, "lemma": "이", "type": "VCP", "position": 1759, "weight": 0.0177525}, 
+                {"id": 11, "lemma": "다", "type": "EF", "position": 1762, "weight": 0.353579}, 
+                {"id": 12, "lemma": ".", "type": "SF", "position": 1765, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "이번", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "시즌", "type": "", "begin": 1, "end": 1}, 
+                {"id": 2, "text": "프리미어리그", "type": "", "begin": 2, "end": 3}, 
+                {"id": 3, "text": "기록은", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "14골", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "5도움이다.", "type": "", "begin": 8, "end": 12}
+            ], 
+            "NE": [
+                {"id": 0, "text": "이번 시즌", "type": "DT_SEASON", "begin": 0, "end": 1, "weight": 0.709456, "common_noun": 0}, 
+                {"id": 1, "text": "프리미어리그", "type": "OGG_SPORTS", "begin": 2, "end": 3, "weight": 0.800473, "common_noun": 0}, 
+                {"id": 2, "text": "14골", "type": "QT_SPORTS", "begin": 6, "end": 7, "weight": 0.595206, "common_noun": 0}, 
+                {"id": 3, "text": "5도움", "type": "QT_SPORTS", "begin": 8, "end": 9, "weight": 0.649268, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "이번", "head": 1, "label": "NP", "mod": [], "weight": 0.0439264}, 
+                {"id": 1, "text": "시즌", "head": 2, "label": "NP", "mod": [0], "weight": 0.367107}, 
+                {"id": 2, "text": "프리미어리그", "head": 3, "label": "NP", "mod": [1], "weight": 0.728835}, 
+                {"id": 3, "text": "기록은", "head": 5, "label": "NP_SBJ", "mod": [2], "weight": 0.872345}, 
+                {"id": 4, "text": "14골", "head": 5, "label": "NP", "mod": [], "weight": 0.821737}, 
+                {"id": 5, "text": "5도움이다.", "head": -1, "label": "VNP", "mod": [3, 4], "weight": 0.00584616}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "이번 시즌 프리미어리그 기록은", "begin": 0, "end": 3, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S", "text": "P#0@SBJ은 14골 5도움이다.", "begin": 0, "end": 5, "key_begin": 4, "head_phrase": -1, "sub_phrase": [0], "weight": 0, "element": [
+                    {"text": "14골 5도움", "label": "NP", "begin": 6, "end": 9, "ne_type": ""}, 
+                    {"text": "이다.", "label": "VP", "begin": 10, "end": 12, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }
+    ], 
+    "entity": [
+        {"id": 0, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 3, "sent_id": 1, "start_eid": 0, "end_eid": 1, "ne_id": -1, "text": "현지 매체", "start_eid_short": 0, "end_eid_short": 1, "text_short": "현지 매체", "weight": 0.002}, 
+            {"id": 63, "sent_id": 6, "start_eid": 0, "end_eid": 1, "ne_id": -1, "text": "이 매체", "start_eid_short": 0, "end_eid_short": 1, "text_short": "이 매체", "weight": 0.006}
+        ]}, 
+        {"id": 1, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 29, "sent_id": 3, "start_eid": 0, "end_eid": 0, "ne_id": -1, "text": "경기", "start_eid_short": 0, "end_eid_short": 0, "text_short": "경기", "weight": 0.024}, 
+            {"id": 50, "sent_id": 5, "start_eid": 3, "end_eid": 3, "ne_id": -1, "text": "경기", "start_eid_short": 3, "end_eid_short": 3, "text_short": "경기", "weight": 0.03}, 
+            {"id": 53, "sent_id": 5, "start_eid": 5, "end_eid": 6, "ne_id": -1, "text": "이날 경기", "start_eid_short": 5, "end_eid_short": 6, "text_short": "이날 경기", "weight": 0.0035}, 
+            {"id": 7, "sent_id": 2, "start_eid": 2, "end_eid": 15, "ne_id": -1, "text": "5월 19일(이하 한국시간) 영국 레스터 킹파워 스타디움에서 레스터 시티를 상대한 '2016-2017 잉글랜드 프리미어리그' 경기", "start_eid_short": 12, "end_eid_short": 15, "text_short": "'2016-2017 잉글랜드 프리미어리그' 경기", "weight": 0.02}
+        ]}, 
+        {"id": 2, "type": "DT_OTHERS", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 8, "sent_id": 2, "start_eid": 2, "end_eid": 4, "ne_id": -1, "text": "5월 19일(이하 한국시간)", "start_eid_short": 2, "end_eid_short": 4, "text_short": "5월 19일(이하 한국시간)", "weight": 0.006}, 
+            {"id": 9, "sent_id": 2, "start_eid": 2, "end_eid": 3, "ne_id": 1, "text": "5월 19일(이하", "start_eid_short": 2, "end_eid_short": 3, "text_short": "5월 19일(이하", "weight": 0.01}
+        ]}, 
+        {"id": 3, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "영국", "mention": [
+            {"id": 46, "sent_id": 5, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "영국", "start_eid_short": 0, "end_eid_short": 0, "text_short": "영국", "weight": 0.016}, 
+            {"id": 12, "sent_id": 2, "start_eid": 5, "end_eid": 5, "ne_id": 3, "text": "영국", "start_eid_short": 5, "end_eid_short": 5, "text_short": "영국", "weight": 0.01}
+        ]}, 
+        {"id": 4, "type": "OGG_SPORTS", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 16, "sent_id": 2, "start_eid": 14, "end_eid": 14, "ne_id": 9, "text": "프리미어리그'", "start_eid_short": 14, "end_eid_short": 14, "text_short": "프리미어리그'", "weight": 0.002}, 
+            {"id": 109, "sent_id": 11, "start_eid": 0, "end_eid": 2, "ne_id": 1, "text": "이번 시즌 프리미어리그", "start_eid_short": 0, "end_eid_short": 2, "text_short": "이번 시즌 프리미어리그", "weight": 0.0035}
+        ]}, 
+        {"id": 5, "type": "PS_NAME", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 37, "sent_id": 3, "start_eid": 11, "end_eid": 11, "ne_id": 3, "text": "케인", "start_eid_short": 11, "end_eid_short": 11, "text_short": "케인", "weight": 0.034}, 
+            {"id": 65, "sent_id": 6, "start_eid": 2, "end_eid": 3, "ne_id": 0, "text": "\"해리 케인", "start_eid_short": 2, "end_eid_short": 3, "text_short": "\"해리 케인", "weight": 0.034}, 
+            {"id": 92, "sent_id": 9, "start_eid": 15, "end_eid": 15, "ne_id": 1, "text": "케인", "start_eid_short": 15, "end_eid_short": 15, "text_short": "케인", "weight": 0.04}, 
+            {"id": 19, "sent_id": 2, "start_eid": 16, "end_eid": 17, "ne_id": 10, "text": "해리 케인", "start_eid_short": 16, "end_eid_short": 17, "text_short": "해리 케인", "weight": 0.03}
+        ]}, 
+        {"id": 6, "type": "TI_DURATION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 34, "sent_id": 3, "start_eid": 7, "end_eid": 8, "ne_id": 2, "text": "전반 26분", "start_eid_short": 7, "end_eid_short": 8, "text_short": "전반 26분", "weight": 0.002}, 
+            {"id": 54, "sent_id": 5, "start_eid": 5, "end_eid": 5, "ne_id": -1, "text": "이날", "start_eid_short": 5, "end_eid_short": 5, "text_short": "이날", "weight": 0.006}, 
+            {"id": 97, "sent_id": 10, "start_eid": 1, "end_eid": 1, "ne_id": -1, "text": "이날", "start_eid_short": 1, "end_eid_short": 1, "text_short": "이날", "weight": 0.006}, 
+            {"id": 43, "sent_id": 4, "start_eid": 0, "end_eid": 1, "ne_id": 0, "text": "후반 26분", "start_eid_short": 0, "end_eid_short": 1, "text_short": "후반 26분", "weight": 0.0035}
+        ]}, 
+        {"id": 7, "type": "QT_PHONE", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 0, "sent_id": 0, "start_eid": 0, "end_eid": 1, "ne_id": 0, "text": "英미러 “손흥민", "start_eid_short": 0, "end_eid_short": 1, "text_short": "英미러 “손흥민,", "weight": 0.025}, 
+            {"id": 59, "sent_id": 5, "start_eid": 16, "end_eid": 19, "ne_id": -1, "text": "'손흥민은 키 맨(Key man)", "start_eid_short": 17, "end_eid_short": 19, "text_short": "키 맨(Key man)", "weight": 0.006}, 
+            {"id": 60, "sent_id": 5, "start_eid": 16, "end_eid": 18, "ne_id": 4, "text": "'손흥민은 키 맨(Key", "start_eid_short": 17, "end_eid_short": 18, "text_short": "키 맨(Key", "weight": 0.01}, 
+            {"id": 62, "sent_id": 5, "start_eid": 23, "end_eid": 23, "ne_id": 5, "text": "손흥민", "start_eid_short": 23, "end_eid_short": 23, "text_short": "손흥민", "weight": 0.17}, 
+            {"id": 41, "sent_id": 4, "start_eid": 0, "end_eid": 4, "ne_id": 1, "text": "후반 26분 추가골까지 터트린 손흥민", "start_eid_short": 4, "end_eid_short": 4, "text_short": "손흥민", "weight": 0.108}, 
+            {"id": 22, "sent_id": 2, "start_eid": 20, "end_eid": 20, "ne_id": 12, "text": "손흥민", "start_eid_short": 20, "end_eid_short": 20, "text_short": "손흥민", "weight": 0.17}, 
+            {"id": 68, "sent_id": 6, "start_eid": 11, "end_eid": 11, "ne_id": 2, "text": "손흥민", "start_eid_short": 11, "end_eid_short": 11, "text_short": "손흥민", "weight": 0.17}, 
+            {"id": 70, "sent_id": 6, "start_eid": 13, "end_eid": 13, "ne_id": 3, "text": "에이스이다\"며", "start_eid_short": 13, "end_eid_short": 13, "text_short": "에이스이다\"며", "weight": 0.169}, 
+            {"id": 71, "sent_id": 6, "start_eid": 14, "end_eid": 14, "ne_id": 4, "text": "손흥민", "start_eid_short": 14, "end_eid_short": 14, "text_short": "손흥민", "weight": 0.17}, 
+            {"id": 74, "sent_id": 7, "start_eid": 1, "end_eid": 1, "ne_id": -1, "text": "\"이번", "start_eid_short": 1, "end_eid_short": 1, "text_short": "\"이번", "weight": 0.017}, 
+            {"id": 83, "sent_id": 9, "start_eid": 1, "end_eid": 1, "ne_id": -1, "text": "\"그", "start_eid_short": 1, "end_eid_short": 1, "text_short": "\"그", "weight": 0.029}, 
+            {"id": 27, "sent_id": 3, "start_eid": 0, "end_eid": 6, "ne_id": 1, "text": "경기 초반부터 수차례 슈팅 기회를 잡던 손흥민", "start_eid_short": 6, "end_eid_short": 6, "text_short": "손흥민", "weight": 0.124}, 
+            {"id": 96, "sent_id": 10, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "손흥민", "start_eid_short": 0, "end_eid_short": 0, "text_short": "손흥민", "weight": 0.17}, 
+            {"id": 5, "sent_id": 1, "start_eid": 2, "end_eid": 2, "ne_id": 0, "text": "손흥민", "start_eid_short": 2, "end_eid_short": 2, "text_short": "손흥민", "weight": 0.164}, 
+            {"id": 14, "sent_id": 2, "start_eid": 12, "end_eid": 12, "ne_id": 7, "text": "'2016-2017", "start_eid_short": 12, "end_eid_short": 12, "text_short": "'2016-2017", "weight": 0.029}
+        ]}, 
+        {"id": 8, "type": "QT_SPORTS", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 85, "sent_id": 9, "start_eid": 3, "end_eid": 3, "ne_id": -1, "text": "골", "start_eid_short": 3, "end_eid_short": 3, "text_short": "골", "weight": 0.018}, 
+            {"id": 88, "sent_id": 9, "start_eid": 8, "end_eid": 9, "ne_id": 0, "text": "\"두 골", "start_eid_short": 8, "end_eid_short": 9, "text_short": "\"두 골", "weight": 0.01}, 
+            {"id": 98, "sent_id": 10, "start_eid": 2, "end_eid": 3, "ne_id": 1, "text": "두 골", "start_eid_short": 2, "end_eid_short": 3, "text_short": "두 골", "weight": 0.014}, 
+            {"id": 75, "sent_id": 7, "start_eid": 3, "end_eid": 6, "ne_id": -1, "text": "이번 시즌 21번째 골", "start_eid_short": 3, "end_eid_short": 6, "text_short": "이번 시즌 21번째 골", "weight": 0.014}
+        ]}, 
+        {"id": 9, "type": "DT_SEASON", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 100, "sent_id": 10, "start_eid": 5, "end_eid": 5, "ne_id": -1, "text": "시즌", "start_eid_short": 5, "end_eid_short": 5, "text_short": "시즌", "weight": 0.018}, 
+            {"id": 76, "sent_id": 7, "start_eid": 3, "end_eid": 4, "ne_id": 1, "text": "이번 시즌", "start_eid_short": 3, "end_eid_short": 4, "text_short": "이번 시즌", "weight": 0.014}, 
+            {"id": 110, "sent_id": 11, "start_eid": 0, "end_eid": 1, "ne_id": 0, "text": "이번 시즌", "start_eid_short": 0, "end_eid_short": 1, "text_short": "이번 시즌", "weight": 0.02}
+        ]}, 
+        {"id": 10, "type": "CV_OCCUPATION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 78, "sent_id": 8, "start_eid": 0, "end_eid": 5, "ne_id": 2, "text": "바이어 레버쿠젠에서 1,800만 파운드에 영입된 선수", "start_eid_short": 5, "end_eid_short": 5, "text_short": "선수", "weight": 0.005}, 
+            {"id": 95, "sent_id": 9, "start_eid": 20, "end_eid": 20, "ne_id": -1, "text": "그", "start_eid_short": 20, "end_eid_short": 20, "text_short": "그", "weight": 0.006}
+        ]}, 
+        {"id": 11, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 86, "sent_id": 9, "start_eid": 4, "end_eid": 4, "ne_id": -1, "text": "도움", "start_eid_short": 4, "end_eid_short": 4, "text_short": "도움", "weight": 0.004}, 
+            {"id": 91, "sent_id": 9, "start_eid": 15, "end_eid": 16, "ne_id": -1, "text": "케인의 도움", "start_eid_short": 15, "end_eid_short": 16, "text_short": "케인의 도움", "weight": 0.004}
+        ]}, 
+        {"id": 12, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 108, "sent_id": 11, "start_eid": 0, "end_eid": 3, "ne_id": -1, "text": "이번 시즌 프리미어리그 기록", "start_eid_short": 0, "end_eid_short": 3, "text_short": "이번 시즌 프리미어리그 기록", "weight": 0.0035}, 
+            {"id": 102, "sent_id": 10, "start_eid": 10, "end_eid": 15, "ne_id": -1, "text": "한국인 유럽 빅리그 최다골 기록(시즌 19골)", "start_eid_short": 10, "end_eid_short": 15, "text_short": "한국인 유럽 빅리그 최다골 기록(시즌 19골)", "weight": 0.006}, 
+            {"id": 103, "sent_id": 10, "start_eid": 10, "end_eid": 14, "ne_id": -1, "text": "한국인 유럽 빅리그 최다골 기록(시즌", "start_eid_short": 10, "end_eid_short": 14, "text_short": "한국인 유럽 빅리그 최다골 기록(시즌", "weight": 0.01}
+        ]}
+    ]
+}

@@ -1,0 +1,1623 @@
+{
+    "title": {
+        "text": "침묵 깬 트럼프 \"코미, 기밀유출자\"…'청문회' 승자는?", 
+        "NE": ""
+    }, 
+    "metaInfo": {
+        "field": "뉴스3", 
+        "num_sent": 17, 
+        "num_word": 188
+    }, 
+    "sentence": [
+        {
+            "id": 0, 
+            "text": "침묵 깬 트럼프 \"코미, 기밀유출자\"…'청문회' 승자는?", 
+            "morp": [
+                {"id": 0, "lemma": "침묵", "type": "NNG", "position": 0, "weight": 0.9}, 
+                {"id": 1, "lemma": "깨", "type": "VV", "position": 7, "weight": 0.013994}, 
+                {"id": 2, "lemma": "ㄴ", "type": "ETM", "position": 7, "weight": 0.304215}, 
+                {"id": 3, "lemma": "트럼프", "type": "NNG", "position": 11, "weight": 0.569809}, 
+                {"id": 4, "lemma": "\"", "type": "SS", "position": 21, "weight": 1}, 
+                {"id": 5, "lemma": "코미", "type": "NNG", "position": 22, "weight": 0}, 
+                {"id": 6, "lemma": ",", "type": "SP", "position": 28, "weight": 1}, 
+                {"id": 7, "lemma": "기밀", "type": "NNG", "position": 30, "weight": 0.9}, 
+                {"id": 8, "lemma": "유출", "type": "NNG", "position": 36, "weight": 0.18426}, 
+                {"id": 9, "lemma": "자", "type": "XSN", "position": 42, "weight": 0.00398741}, 
+                {"id": 10, "lemma": "\"", "type": "SS", "position": 45, "weight": 1}, 
+                {"id": 11, "lemma": "…", "type": "SE", "position": 46, "weight": 1}, 
+                {"id": 12, "lemma": "'", "type": "SS", "position": 49, "weight": 1}, 
+                {"id": 13, "lemma": "청문", "type": "NNG", "position": 50, "weight": 0.9}, 
+                {"id": 14, "lemma": "회", "type": "XSN", "position": 56, "weight": 0.010766}, 
+                {"id": 15, "lemma": "'", "type": "SS", "position": 59, "weight": 1}, 
+                {"id": 16, "lemma": "승자", "type": "NNG", "position": 61, "weight": 0.9}, 
+                {"id": 17, "lemma": "는", "type": "JX", "position": 67, "weight": 0.0287565}, 
+                {"id": 18, "lemma": "?", "type": "SF", "position": 70, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "침묵", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "깬", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "트럼프", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "\"코미,", "type": "", "begin": 4, "end": 6}, 
+                {"id": 4, "text": "기밀유출자\"…'청문회'", "type": "", "begin": 7, "end": 15}, 
+                {"id": 5, "text": "승자는?", "type": "", "begin": 16, "end": 18}
+            ], 
+            "NE": [
+                {"id": 0, "text": "트럼프", "type": "PS_NAME", "begin": 3, "end": 3, "weight": 0.157098, "common_noun": 0}, 
+                {"id": 1, "text": "코미", "type": "LCP_COUNTRY", "begin": 5, "end": 5, "weight": 0.306113, "common_noun": 0}, 
+                {"id": 2, "text": "승자", "type": "CV_POSITION", "begin": 16, "end": 16, "weight": 0.573069, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "침묵", "head": 1, "label": "NP_OBJ", "mod": [], "weight": 0.325252}, 
+                {"id": 1, "text": "깬", "head": 5, "label": "VP_MOD", "mod": [0], "weight": 0.817793}, 
+                {"id": 2, "text": "트럼프", "head": 3, "label": "NP", "mod": [], "weight": 0.0311201}, 
+                {"id": 3, "text": "\"코미,", "head": 4, "label": "NP_CNJ", "mod": [2], "weight": 0.637887}, 
+                {"id": 4, "text": "기밀유출자\"…'청문회'", "head": 5, "label": "NP", "mod": [3], "weight": 0.664198}, 
+                {"id": 5, "text": "승자는?", "head": -1, "label": "NP", "mod": [1, 4], "weight": 0.00264337}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_OBJ", "text": "침묵", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@OBJ침묵 깬", "begin": 0, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP", "text": "P#1@MODㄴ 트럼프 \"코미, 기밀유출자\"…'청문회' 승자는?", "begin": 0, "end": 5, "key_begin": 2, "head_phrase": -1, "sub_phrase": [1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "깨", "sense": 1, "word_id": 1, "weight": 0.153655, "argument": [
+                    {"type": "ARG1", "word_id": 0, "text": "침묵", "weight": 0.128392}, 
+                    {"type": "ARG0", "word_id": 5, "text": "트럼프 \"코미, 기밀유출자\"…'청문회' 승자", "weight": 0.178919}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 1, 
+            "text": "[앵커]방금 들어온 속보인데요.", 
+            "morp": [
+                {"id": 0, "lemma": "[", "type": "SS", "position": 71, "weight": 1}, 
+                {"id": 1, "lemma": "앵커", "type": "NNG", "position": 72, "weight": 0.199044}, 
+                {"id": 2, "lemma": "]", "type": "SS", "position": 78, "weight": 1}, 
+                {"id": 3, "lemma": "방금", "type": "MAG", "position": 79, "weight": 0.0166667}, 
+                {"id": 4, "lemma": "들어오", "type": "VV", "position": 86, "weight": 0.9}, 
+                {"id": 5, "lemma": "ㄴ", "type": "ETM", "position": 92, "weight": 0.304215}, 
+                {"id": 6, "lemma": "속보", "type": "NNG", "position": 96, "weight": 0.9}, 
+                {"id": 7, "lemma": "이", "type": "VCP", "position": 102, "weight": 0.0177525}, 
+                {"id": 8, "lemma": "ㄴ데", "type": "EF", "position": 102, "weight": 0.0631875}, 
+                {"id": 9, "lemma": "요", "type": "JX", "position": 108, "weight": 0.00618742}, 
+                {"id": 10, "lemma": ".", "type": "SF", "position": 111, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "[앵커]방금", "type": "", "begin": 0, "end": 3}, 
+                {"id": 1, "text": "들어온", "type": "", "begin": 4, "end": 5}, 
+                {"id": 2, "text": "속보인데요.", "type": "", "begin": 6, "end": 10}
+            ], 
+            "NE": [
+                {"id": 0, "text": "앵커", "type": "CV_OCCUPATION", "begin": 1, "end": 1, "weight": 0.365443, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "[앵커]방금", "head": 1, "label": "AP", "mod": [], "weight": 0.698968}, 
+                {"id": 1, "text": "들어온", "head": 2, "label": "VP_MOD", "mod": [0], "weight": 0.833454}, 
+                {"id": 2, "text": "속보인데요.", "head": -1, "label": "VNP", "mod": [1], "weight": 0.431135}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "AP", "text": "[앵커]방금", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@AP방금 들어온", "begin": 0, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VNP", "text": "P#1@MODㄴ 속보인데요.", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": -1, "sub_phrase": [1], "weight": 0, "element": [
+                    {"text": "속보", "label": "NP", "begin": 6, "end": 6, "ne_type": ""}, 
+                    {"text": "인데요.", "label": "VP", "begin": 7, "end": 10, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [
+                {"verb": "들어오", "sense": 1, "word_id": 1, "weight": 0.129107, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "[앵커]방금", "weight": 0.127403}, 
+                    {"type": "ARG0", "word_id": 2, "text": "속보이ㄴ데", "weight": 0.13081}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 2, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 2, 
+            "text": " 트럼프 대통령이 침묵을 깨고 조금 전 트위터를 통해 코미 전 FBI 국장이 청문회에서 수많은 거짓말을 했다며, 기밀 유출자라고 비난했습니다.", 
+            "morp": [
+                {"id": 0, "lemma": "트럼프", "type": "NNG", "position": 113, "weight": 0.378766}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 123, "weight": 0.9}, 
+                {"id": 2, "lemma": "이", "type": "JKS", "position": 132, "weight": 0.0360723}, 
+                {"id": 3, "lemma": "침묵", "type": "NNG", "position": 136, "weight": 0.9}, 
+                {"id": 4, "lemma": "을", "type": "JKO", "position": 142, "weight": 0.129611}, 
+                {"id": 5, "lemma": "깨", "type": "VV", "position": 146, "weight": 0.724934}, 
+                {"id": 6, "lemma": "고", "type": "EC", "position": 149, "weight": 0.416679}, 
+                {"id": 7, "lemma": "조금", "type": "MAG", "position": 153, "weight": 0.0341207}, 
+                {"id": 8, "lemma": "전", "type": "MM", "position": 160, "weight": 0.00968898}, 
+                {"id": 9, "lemma": "트위터", "type": "NNG", "position": 164, "weight": 0}, 
+                {"id": 10, "lemma": "를", "type": "JKO", "position": 173, "weight": 0.137686}, 
+                {"id": 11, "lemma": "통하", "type": "VV", "position": 177, "weight": 0.9}, 
+                {"id": 12, "lemma": "어", "type": "EC", "position": 180, "weight": 0.41831}, 
+                {"id": 13, "lemma": "코미", "type": "NNP", "position": 184, "weight": 0.1}, 
+                {"id": 14, "lemma": "전", "type": "MM", "position": 191, "weight": 0.00124885}, 
+                {"id": 15, "lemma": "FBI", "type": "SL", "position": 195, "weight": 1}, 
+                {"id": 16, "lemma": "국장", "type": "NNG", "position": 199, "weight": 0.9}, 
+                {"id": 17, "lemma": "이", "type": "JKS", "position": 205, "weight": 0.0360723}, 
+                {"id": 18, "lemma": "청문", "type": "NNG", "position": 209, "weight": 0.9}, 
+                {"id": 19, "lemma": "회", "type": "XSN", "position": 215, "weight": 0.010766}, 
+                {"id": 20, "lemma": "에서", "type": "JKB", "position": 218, "weight": 0.121718}, 
+                {"id": 21, "lemma": "수많", "type": "VA", "position": 225, "weight": 0.9}, 
+                {"id": 22, "lemma": "은", "type": "ETM", "position": 231, "weight": 0.155123}, 
+                {"id": 23, "lemma": "거짓", "type": "NNG", "position": 235, "weight": 0.9}, 
+                {"id": 24, "lemma": "말", "type": "NNG", "position": 241, "weight": 0.148392}, 
+                {"id": 25, "lemma": "을", "type": "JKO", "position": 244, "weight": 0.129611}, 
+                {"id": 26, "lemma": "하", "type": "VX", "position": 248, "weight": 0.000136874}, 
+                {"id": 27, "lemma": "었", "type": "EP", "position": 248, "weight": 0.9}, 
+                {"id": 28, "lemma": "다며", "type": "EC", "position": 251, "weight": 0.190361}, 
+                {"id": 29, "lemma": ",", "type": "SP", "position": 257, "weight": 1}, 
+                {"id": 30, "lemma": "기밀", "type": "NNG", "position": 259, "weight": 0.9}, 
+                {"id": 31, "lemma": "유출", "type": "NNG", "position": 266, "weight": 0.18426}, 
+                {"id": 32, "lemma": "자", "type": "XSN", "position": 272, "weight": 0.00398741}, 
+                {"id": 33, "lemma": "라고", "type": "EC", "position": 275, "weight": 0.0001}, 
+                {"id": 34, "lemma": "비난", "type": "NNG", "position": 282, "weight": 0.9}, 
+                {"id": 35, "lemma": "하", "type": "XSV", "position": 288, "weight": 0.0001}, 
+                {"id": 36, "lemma": "었", "type": "EP", "position": 288, "weight": 0.9}, 
+                {"id": 37, "lemma": "습니다", "type": "EF", "position": 291, "weight": 0.660908}, 
+                {"id": 38, "lemma": ".", "type": "SF", "position": 300, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "트럼프", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령이", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "침묵을", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "깨고", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "조금", "type": "", "begin": 7, "end": 7}, 
+                {"id": 5, "text": "전", "type": "", "begin": 8, "end": 8}, 
+                {"id": 6, "text": "트위터를", "type": "", "begin": 9, "end": 10}, 
+                {"id": 7, "text": "통해", "type": "", "begin": 11, "end": 12}, 
+                {"id": 8, "text": "코미", "type": "", "begin": 13, "end": 13}, 
+                {"id": 9, "text": "전", "type": "", "begin": 14, "end": 14}, 
+                {"id": 10, "text": "FBI", "type": "", "begin": 15, "end": 15}, 
+                {"id": 11, "text": "국장이", "type": "", "begin": 16, "end": 17}, 
+                {"id": 12, "text": "청문회에서", "type": "", "begin": 18, "end": 20}, 
+                {"id": 13, "text": "수많은", "type": "", "begin": 21, "end": 22}, 
+                {"id": 14, "text": "거짓말을", "type": "", "begin": 23, "end": 25}, 
+                {"id": 15, "text": "했다며,", "type": "", "begin": 26, "end": 29}, 
+                {"id": 16, "text": "기밀", "type": "", "begin": 30, "end": 30}, 
+                {"id": 17, "text": "유출자라고", "type": "", "begin": 31, "end": 33}, 
+                {"id": 18, "text": "비난했습니다.", "type": "", "begin": 34, "end": 38}
+            ], 
+            "NE": [
+                {"id": 0, "text": "트럼프", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.343713, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.552147, "common_noun": 0}, 
+                {"id": 2, "text": "트위터", "type": "TMI_SERVICE", "begin": 9, "end": 9, "weight": 0.356649, "common_noun": 0}, 
+                {"id": 3, "text": "코미", "type": "LCP_COUNTRY", "begin": 13, "end": 13, "weight": 0.242164, "common_noun": 0}, 
+                {"id": 4, "text": "FBI", "type": "OGG_POLITICS", "begin": 15, "end": 15, "weight": 0.713932, "common_noun": 0}, 
+                {"id": 5, "text": "국장", "type": "CV_POSITION", "begin": 16, "end": 16, "weight": 0.615285, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "트럼프", "head": 1, "label": "NP", "mod": [], "weight": 0.707343}, 
+                {"id": 1, "text": "대통령이", "head": 3, "label": "NP_SBJ", "mod": [0], "weight": 0.739877}, 
+                {"id": 2, "text": "침묵을", "head": 3, "label": "NP_OBJ", "mod": [], "weight": 0.727468}, 
+                {"id": 3, "text": "깨고", "head": 7, "label": "VP", "mod": [1, 2], "weight": 0.839439}, 
+                {"id": 4, "text": "조금", "head": 7, "label": "AP", "mod": [], "weight": 0.760581}, 
+                {"id": 5, "text": "전", "head": 6, "label": "DP", "mod": [], "weight": 0.519496}, 
+                {"id": 6, "text": "트위터를", "head": 7, "label": "NP_OBJ", "mod": [5], "weight": 0.724538}, 
+                {"id": 7, "text": "통해", "head": 15, "label": "VP", "mod": [3, 4, 6], "weight": 0.597105}, 
+                {"id": 8, "text": "코미", "head": 11, "label": "NP", "mod": [], "weight": 0.569796}, 
+                {"id": 9, "text": "전", "head": 11, "label": "DP", "mod": [], "weight": 0.581184}, 
+                {"id": 10, "text": "FBI", "head": 11, "label": "NP", "mod": [], "weight": 0.702103}, 
+                {"id": 11, "text": "국장이", "head": 15, "label": "NP_SBJ", "mod": [8, 9, 10], "weight": 0.754586}, 
+                {"id": 12, "text": "청문회에서", "head": 15, "label": "NP_AJT", "mod": [], "weight": 0.64297}, 
+                {"id": 13, "text": "수많은", "head": 14, "label": "VP_MOD", "mod": [], "weight": 0.731289}, 
+                {"id": 14, "text": "거짓말을", "head": 15, "label": "NP_OBJ", "mod": [13], "weight": 0.74659}, 
+                {"id": 15, "text": "했다며,", "head": 17, "label": "VP", "mod": [7, 11, 12, 14], "weight": 0.665285}, 
+                {"id": 16, "text": "기밀", "head": 17, "label": "NP", "mod": [], "weight": 0.693152}, 
+                {"id": 17, "text": "유출자라고", "head": 18, "label": "VNP_CMP", "mod": [15, 16], "weight": 0.271785}, 
+                {"id": 18, "text": "비난했습니다.", "head": -1, "label": "VP", "mod": [17], "weight": 0.000388994}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "트럼프 대통령이", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "침묵을", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ이 P#1@OBJ을 깨고", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 5, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "AP", "text": "조금", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "전 트위터를", "begin": 5, "end": 6, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "S#2@S고 P#3@AP조금 P#4@OBJ를 통해", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 9, "sub_phrase": [2, 3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_SBJ", "text": "코미 전 FBI 국장이", "begin": 8, "end": 11, "key_begin": 8, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_AJT", "text": "청문회에서", "begin": 12, "end": 12, "key_begin": 12, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_OBJ", "text": "수많은 거짓말을", "begin": 13, "end": 14, "key_begin": 13, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "S#5@S어 P#6@SBJ이 P#7@AJT에서 P#8@OBJ을 했다며,", "begin": 0, "end": 15, "key_begin": 15, "head_phrase": 10, "sub_phrase": [5, 6, 7, 8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "S_CMP", "text": "S#9@S다며, 기밀 유출자라고", "begin": 0, "end": 17, "key_begin": 16, "head_phrase": 11, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "S", "text": "S#10@CMP라고 비난했습니다.", "begin": 0, "end": 18, "key_begin": 18, "head_phrase": -1, "sub_phrase": [10], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "깨", "sense": 1, "word_id": 3, "weight": 0.29884, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "트럼프 대통령", "weight": 0.353344}, 
+                    {"type": "ARG1", "word_id": 2, "text": "침묵", "weight": 0.244336}
+                ]}, 
+                {"verb": "통하", "sense": 1, "word_id": 7, "weight": 0.606061, "argument": [
+                    {"type": "ARG2", "word_id": 6, "text": "전 트위터", "weight": 0.606061}
+                ]}, 
+                {"verb": "수많", "sense": 1, "word_id": 13, "weight": 0.858724, "argument": [
+                    {"type": "ARG1", "word_id": 14, "text": "수많은 거짓말", "weight": 0.858724}
+                ]}, 
+                {"verb": "비난", "sense": 1, "word_id": 18, "weight": 0.483847, "argument": [
+                    {"type": "ARG2", "word_id": 17, "text": "기밀 유출자라고", "weight": 0.483847}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 7, "ant_sid": 2, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 17, "ant_sid": 2, "ant_wid": 11, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 2, "type": "s", "head_wid": 18, "ant_sid": 2, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 3, 
+            "text": " 미국 언론들은 청문회의 승자로 코미와 상원 정보위원회를 꼽았습니다.", 
+            "morp": [
+                {"id": 0, "lemma": "미국", "type": "NNP", "position": 302, "weight": 0.0892934}, 
+                {"id": 1, "lemma": "언론", "type": "NNG", "position": 309, "weight": 0.9}, 
+                {"id": 2, "lemma": "들", "type": "XSN", "position": 315, "weight": 0.0299841}, 
+                {"id": 3, "lemma": "은", "type": "JX", "position": 318, "weight": 0.100393}, 
+                {"id": 4, "lemma": "청문", "type": "NNG", "position": 322, "weight": 0.9}, 
+                {"id": 5, "lemma": "회", "type": "XSN", "position": 328, "weight": 0.010766}, 
+                {"id": 6, "lemma": "의", "type": "JKG", "position": 331, "weight": 0.120732}, 
+                {"id": 7, "lemma": "승자", "type": "NNG", "position": 335, "weight": 0.9}, 
+                {"id": 8, "lemma": "로", "type": "JKB", "position": 341, "weight": 0.153229}, 
+                {"id": 9, "lemma": "코미", "type": "NNG", "position": 345, "weight": 0}, 
+                {"id": 10, "lemma": "와", "type": "JC", "position": 351, "weight": 0.0169714}, 
+                {"id": 11, "lemma": "상원", "type": "NNG", "position": 355, "weight": 0.776309}, 
+                {"id": 12, "lemma": "정보", "type": "NNG", "position": 362, "weight": 0.183832}, 
+                {"id": 13, "lemma": "위원", "type": "NNG", "position": 368, "weight": 0.184216}, 
+                {"id": 14, "lemma": "회", "type": "XSN", "position": 374, "weight": 0.010766}, 
+                {"id": 15, "lemma": "를", "type": "JKO", "position": 377, "weight": 0.0870227}, 
+                {"id": 16, "lemma": "꼽", "type": "VV", "position": 381, "weight": 0.9}, 
+                {"id": 17, "lemma": "았", "type": "EP", "position": 384, "weight": 0.9}, 
+                {"id": 18, "lemma": "습니다", "type": "EF", "position": 387, "weight": 0.660908}, 
+                {"id": 19, "lemma": ".", "type": "SF", "position": 396, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "미국", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "언론들은", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "청문회의", "type": "", "begin": 4, "end": 6}, 
+                {"id": 3, "text": "승자로", "type": "", "begin": 7, "end": 8}, 
+                {"id": 4, "text": "코미와", "type": "", "begin": 9, "end": 10}, 
+                {"id": 5, "text": "상원", "type": "", "begin": 11, "end": 11}, 
+                {"id": 6, "text": "정보위원회를", "type": "", "begin": 12, "end": 15}, 
+                {"id": 7, "text": "꼽았습니다.", "type": "", "begin": 16, "end": 19}
+            ], 
+            "NE": [
+                {"id": 0, "text": "미국", "type": "LCP_COUNTRY", "begin": 0, "end": 0, "weight": 0.907437, "common_noun": 0}, 
+                {"id": 1, "text": "승자", "type": "CV_POSITION", "begin": 7, "end": 7, "weight": 0.368185, "common_noun": 0}, 
+                {"id": 2, "text": "코미", "type": "LCP_COUNTRY", "begin": 9, "end": 9, "weight": 0.376672, "common_noun": 0}, 
+                {"id": 3, "text": "상원 정보위원회", "type": "OGG_POLITICS", "begin": 11, "end": 14, "weight": 0.790484, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "미국", "head": 1, "label": "NP", "mod": [], "weight": 0.71197}, 
+                {"id": 1, "text": "언론들은", "head": 3, "label": "NP_SBJ", "mod": [0], "weight": 0.832102}, 
+                {"id": 2, "text": "청문회의", "head": 3, "label": "NP_MOD", "mod": [], "weight": 0.680308}, 
+                {"id": 3, "text": "승자로", "head": 7, "label": "NP_AJT", "mod": [2, 1], "weight": 0.791142}, 
+                {"id": 4, "text": "코미와", "head": 6, "label": "NP_CNJ", "mod": [], "weight": 0.777728}, 
+                {"id": 5, "text": "상원", "head": 6, "label": "NP", "mod": [], "weight": 0.44882}, 
+                {"id": 6, "text": "정보위원회를", "head": 7, "label": "NP_OBJ", "mod": [4, 5], "weight": 0.674758}, 
+                {"id": 7, "text": "꼽았습니다.", "head": -1, "label": "VP", "mod": [3, 6], "weight": 0.0606988}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "미국 언론들은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S_AJT", "text": "P#0@SBJ은 청문회의 승자로", "begin": 0, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "코미와 상원 정보위원회를", "begin": 4, "end": 6, "key_begin": 4, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "코미", "label": "NP_OBJ", "begin": 9, "end": 9, "ne_type": "LCP_COUNTRY"}, 
+                    {"text": "상원 정보위원회", "label": "NP_OBJ", "begin": 11, "end": 14, "ne_type": "OGG_POLITICS"}
+                ]}, 
+                {"id": 3, "label": "S", "text": "S#1@AJT로 P#2@OBJ를 꼽았습니다.", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": -1, "sub_phrase": [1, 2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "꼽", "sense": 1, "word_id": 7, "weight": 0.398248, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "미국 언론들", "weight": 0.431827}, 
+                    {"type": "ARG2", "word_id": 3, "text": "청문회의 승자", "weight": 0.178877}, 
+                    {"type": "ARG1", "word_id": 6, "text": "코미와 상원 정보위원회", "weight": 0.58404}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 4, 
+            "text": " 특히 정보위원회는 정파를 떠나서, 국민이 정부로부터 듣고 싶어 하는 증언을 충실히 이끌어 냈다는 평가를 받았습니다.", 
+            "morp": [
+                {"id": 0, "lemma": "특히", "type": "MAG", "position": 398, "weight": 0.9}, 
+                {"id": 1, "lemma": "정보", "type": "NNG", "position": 405, "weight": 0.260071}, 
+                {"id": 2, "lemma": "위원", "type": "NNG", "position": 411, "weight": 0.184216}, 
+                {"id": 3, "lemma": "회", "type": "XSN", "position": 417, "weight": 0.010766}, 
+                {"id": 4, "lemma": "는", "type": "JX", "position": 420, "weight": 0.0641645}, 
+                {"id": 5, "lemma": "정파", "type": "NNG", "position": 424, "weight": 0.9}, 
+                {"id": 6, "lemma": "를", "type": "JKO", "position": 430, "weight": 0.137686}, 
+                {"id": 7, "lemma": "떠나", "type": "VV", "position": 434, "weight": 0.9}, 
+                {"id": 8, "lemma": "아서", "type": "EC", "position": 437, "weight": 0.428178}, 
+                {"id": 9, "lemma": ",", "type": "SP", "position": 443, "weight": 1}, 
+                {"id": 10, "lemma": "국민", "type": "NNG", "position": 445, "weight": 0.524861}, 
+                {"id": 11, "lemma": "이", "type": "JKS", "position": 451, "weight": 0.0360723}, 
+                {"id": 12, "lemma": "정부", "type": "NNG", "position": 455, "weight": 0.209214}, 
+                {"id": 13, "lemma": "로부터", "type": "JKB", "position": 461, "weight": 0.151826}, 
+                {"id": 14, "lemma": "듣", "type": "VV", "position": 471, "weight": 0.9}, 
+                {"id": 15, "lemma": "고", "type": "EC", "position": 474, "weight": 0.416679}, 
+                {"id": 16, "lemma": "싶", "type": "VX", "position": 478, "weight": 0.255916}, 
+                {"id": 17, "lemma": "어", "type": "EC", "position": 481, "weight": 0.257443}, 
+                {"id": 18, "lemma": "하", "type": "VV", "position": 485, "weight": 0.140183}, 
+                {"id": 19, "lemma": "는", "type": "ETM", "position": 488, "weight": 0.184941}, 
+                {"id": 20, "lemma": "증언", "type": "NNG", "position": 492, "weight": 0.9}, 
+                {"id": 21, "lemma": "을", "type": "JKO", "position": 498, "weight": 0.129611}, 
+                {"id": 22, "lemma": "충실히", "type": "MAG", "position": 502, "weight": 0.9}, 
+                {"id": 23, "lemma": "이끌", "type": "VV", "position": 512, "weight": 0.9}, 
+                {"id": 24, "lemma": "어", "type": "EC", "position": 518, "weight": 0.41831}, 
+                {"id": 25, "lemma": "내", "type": "VX", "position": 522, "weight": 0.0587845}, 
+                {"id": 26, "lemma": "었", "type": "EP", "position": 522, "weight": 0.9}, 
+                {"id": 27, "lemma": "다는", "type": "ETM", "position": 525, "weight": 0.107585}, 
+                {"id": 28, "lemma": "평가", "type": "NNG", "position": 532, "weight": 0.9}, 
+                {"id": 29, "lemma": "를", "type": "JKO", "position": 538, "weight": 0.137686}, 
+                {"id": 30, "lemma": "받", "type": "VV", "position": 542, "weight": 0.765648}, 
+                {"id": 31, "lemma": "았", "type": "EP", "position": 545, "weight": 0.9}, 
+                {"id": 32, "lemma": "습니다", "type": "EF", "position": 548, "weight": 0.660908}, 
+                {"id": 33, "lemma": ".", "type": "SF", "position": 557, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "특히", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "정보위원회는", "type": "", "begin": 1, "end": 4}, 
+                {"id": 2, "text": "정파를", "type": "", "begin": 5, "end": 6}, 
+                {"id": 3, "text": "떠나서,", "type": "", "begin": 7, "end": 9}, 
+                {"id": 4, "text": "국민이", "type": "", "begin": 10, "end": 11}, 
+                {"id": 5, "text": "정부로부터", "type": "", "begin": 12, "end": 13}, 
+                {"id": 6, "text": "듣고", "type": "", "begin": 14, "end": 15}, 
+                {"id": 7, "text": "싶어", "type": "", "begin": 16, "end": 17}, 
+                {"id": 8, "text": "하는", "type": "", "begin": 18, "end": 19}, 
+                {"id": 9, "text": "증언을", "type": "", "begin": 20, "end": 21}, 
+                {"id": 10, "text": "충실히", "type": "", "begin": 22, "end": 22}, 
+                {"id": 11, "text": "이끌어", "type": "", "begin": 23, "end": 24}, 
+                {"id": 12, "text": "냈다는", "type": "", "begin": 25, "end": 27}, 
+                {"id": 13, "text": "평가를", "type": "", "begin": 28, "end": 29}, 
+                {"id": 14, "text": "받았습니다.", "type": "", "begin": 30, "end": 33}
+            ], 
+            "NE": [
+                {"id": 0, "text": "정보위원회", "type": "OG_OTHERS", "begin": 1, "end": 3, "weight": 0.632271, "common_noun": 0}, 
+                {"id": 1, "text": "국민", "type": "CV_POSITION", "begin": 10, "end": 10, "weight": 0.207804, "common_noun": 0}, 
+                {"id": 2, "text": "정부", "type": "OGG_POLITICS", "begin": 12, "end": 12, "weight": 0.314229, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "특히", "head": 3, "label": "AP", "mod": [], "weight": 0.558345}, 
+                {"id": 1, "text": "정보위원회는", "head": 3, "label": "NP_SBJ", "mod": [], "weight": 0.544581}, 
+                {"id": 2, "text": "정파를", "head": 3, "label": "NP_OBJ", "mod": [], "weight": 0.763687}, 
+                {"id": 3, "text": "떠나서,", "head": 6, "label": "VP", "mod": [0, 1, 2], "weight": 0.08808}, 
+                {"id": 4, "text": "국민이", "head": 6, "label": "NP_SBJ", "mod": [], "weight": 0.808543}, 
+                {"id": 5, "text": "정부로부터", "head": 6, "label": "NP_AJT", "mod": [], "weight": 0.840172}, 
+                {"id": 6, "text": "듣고", "head": 7, "label": "VP", "mod": [3, 4, 5], "weight": 0.874272}, 
+                {"id": 7, "text": "싶어", "head": 8, "label": "VP", "mod": [6], "weight": 0.348295}, 
+                {"id": 8, "text": "하는", "head": 9, "label": "VP_MOD", "mod": [7], "weight": 0.693495}, 
+                {"id": 9, "text": "증언을", "head": 11, "label": "NP_OBJ", "mod": [8], "weight": 0.720121}, 
+                {"id": 10, "text": "충실히", "head": 11, "label": "AP", "mod": [], "weight": 0.501335}, 
+                {"id": 11, "text": "이끌어", "head": 12, "label": "VP", "mod": [9, 10], "weight": 0.878565}, 
+                {"id": 12, "text": "냈다는", "head": 13, "label": "VP_MOD", "mod": [11], "weight": 0.570936}, 
+                {"id": 13, "text": "평가를", "head": 14, "label": "NP_OBJ", "mod": [12], "weight": 0.80358}, 
+                {"id": 14, "text": "받았습니다.", "head": -1, "label": "VP", "mod": [13], "weight": 0.000334717}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "AP", "text": "특히", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "정보위원회는", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "정파를", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@AP특히 P#1@SBJ는 P#2@OBJ를 떠나서,", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 6, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "국민이", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "정부로부터", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S_MOD", "text": "S#3@S아서, P#4@SBJ이 P#5@AJT로부터 듣고 싶어 하는", "begin": 0, "end": 8, "key_begin": 6, "head_phrase": 7, "sub_phrase": [3, 4, 5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_OBJ", "text": "S#6@MOD는 증언을", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 9, "sub_phrase": [6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "AP", "text": "충실히", "begin": 10, "end": 10, "key_begin": 10, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "VP_MOD", "text": "P#7@OBJ을 P#8@AP충실히 이끌어 냈다는", "begin": 0, "end": 12, "key_begin": 11, "head_phrase": 10, "sub_phrase": [7, 8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "NP_OBJ", "text": "P#9@MOD다는 평가를", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": 11, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "VP", "text": "P#10@OBJ를 받았습니다.", "begin": 0, "end": 14, "key_begin": 14, "head_phrase": -1, "sub_phrase": [10], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "떠나", "sense": 1, "word_id": 3, "weight": 0.368021, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "정보위원회", "weight": 0.553979}, 
+                    {"type": "ARG1", "word_id": 2, "text": "정파", "weight": 0.182063}
+                ]}, 
+                {"verb": "듣", "sense": 1, "word_id": 6, "weight": 0.3922, "argument": [
+                    {"type": "ARG0", "word_id": 4, "text": "국민", "weight": 0.637395}, 
+                    {"type": "ARG2", "word_id": 5, "text": "정부", "weight": 0.148675}, 
+                    {"type": "AUX", "word_id": 7, "text": "싶어", "weight": 0.497839}, 
+                    {"type": "AUX", "word_id": 8, "text": "듣고 싶어 하는", "weight": 0.412219}, 
+                    {"type": "ARG0", "word_id": 9, "text": "증언", "weight": 0.264874}
+                ]}, 
+                {"verb": "하", "sense": 1, "word_id": 8, "weight": 0.198005, "argument": [
+                    {"type": "ARGM-CAU", "word_id": 7, "text": "싶어", "weight": 0.145033}, 
+                    {"type": "ARG1", "word_id": 9, "text": "증언", "weight": 0.250977}
+                ]}, 
+                {"verb": "이끌", "sense": 1, "word_id": 11, "weight": 0.356336, "argument": [
+                    {"type": "ARG1", "word_id": 9, "text": "증언", "weight": 0.156652}, 
+                    {"type": "ARGM-MNR", "word_id": 10, "text": "충실히", "weight": 0.119998}, 
+                    {"type": "AUX", "word_id": 12, "text": "이끌어 냈다는", "weight": 0.792357}
+                ]}, 
+                {"verb": "받", "sense": 1, "word_id": 14, "weight": 0.465587, "argument": [
+                    {"type": "ARG1", "word_id": 13, "text": "평가", "weight": 0.465587}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 11, "ant_sid": 4, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 14, "ant_sid": 4, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 5, 
+            "text": "강신후 기자입니다.", 
+            "morp": [
+                {"id": 0, "lemma": "강신후", "type": "NNP", "position": 558, "weight": 0.05}, 
+                {"id": 1, "lemma": "기자", "type": "NNG", "position": 568, "weight": 0.281745}, 
+                {"id": 2, "lemma": "이", "type": "VCP", "position": 574, "weight": 0.0177525}, 
+                {"id": 3, "lemma": "ㅂ니다", "type": "EF", "position": 574, "weight": 0.36174}, 
+                {"id": 4, "lemma": ".", "type": "SF", "position": 583, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "강신후", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "기자입니다.", "type": "", "begin": 1, "end": 4}
+            ], 
+            "NE": [
+                {"id": 0, "text": "강신후", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.435877, "common_noun": 0}, 
+                {"id": 1, "text": "기자", "type": "CV_OCCUPATION", "begin": 1, "end": 1, "weight": 0.690345, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "강신후", "head": 1, "label": "NP", "mod": [], "weight": 0.797628}, 
+                {"id": 1, "text": "기자입니다.", "head": -1, "label": "VNP", "mod": [0], "weight": 0.701133}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VNP", "text": "강신후 기자입니다.", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "강신후 기자", "label": "NP", "begin": 0, "end": 1, "ne_type": ""}, 
+                    {"text": "입니다.", "label": "VP", "begin": 2, "end": 4, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 6, 
+            "text": "[기자]\"역대 최고의 정치극장이 열렸다\"미 언론이 한목소리로 지목한 최대 승자는 단호하며 침착하게 증언을 이어나간 코미 전 국장입니다.", 
+            "morp": [
+                {"id": 0, "lemma": "[", "type": "SS", "position": 584, "weight": 1}, 
+                {"id": 1, "lemma": "기자", "type": "NNG", "position": 585, "weight": 0.199826}, 
+                {"id": 2, "lemma": "]", "type": "SS", "position": 591, "weight": 1}, 
+                {"id": 3, "lemma": "\"", "type": "SS", "position": 592, "weight": 1}, 
+                {"id": 4, "lemma": "역대", "type": "NNG", "position": 593, "weight": 0.9}, 
+                {"id": 5, "lemma": "최고", "type": "NNG", "position": 600, "weight": 0.9}, 
+                {"id": 6, "lemma": "의", "type": "JKG", "position": 606, "weight": 0.0694213}, 
+                {"id": 7, "lemma": "정치", "type": "NNG", "position": 610, "weight": 0.9}, 
+                {"id": 8, "lemma": "극장", "type": "NNG", "position": 616, "weight": 0.9}, 
+                {"id": 9, "lemma": "이", "type": "JKS", "position": 622, "weight": 0.0360723}, 
+                {"id": 10, "lemma": "열리", "type": "VV", "position": 626, "weight": 0.9}, 
+                {"id": 11, "lemma": "었", "type": "EP", "position": 629, "weight": 0.9}, 
+                {"id": 12, "lemma": "다", "type": "EF", "position": 632, "weight": 0.640954}, 
+                {"id": 13, "lemma": "\"", "type": "SS", "position": 635, "weight": 1}, 
+                {"id": 14, "lemma": "미", "type": "NNP", "position": 636, "weight": 0.0524649}, 
+                {"id": 15, "lemma": "언론", "type": "NNG", "position": 640, "weight": 0.9}, 
+                {"id": 16, "lemma": "이", "type": "JKS", "position": 646, "weight": 0.0360723}, 
+                {"id": 17, "lemma": "한", "type": "NNG", "position": 650, "weight": 0.00860978}, 
+                {"id": 18, "lemma": "목소리", "type": "NNG", "position": 653, "weight": 0.184772}, 
+                {"id": 19, "lemma": "로", "type": "JKB", "position": 662, "weight": 0.153229}, 
+                {"id": 20, "lemma": "지목", "type": "NNG", "position": 666, "weight": 0.9}, 
+                {"id": 21, "lemma": "하", "type": "XSV", "position": 672, "weight": 0.0001}, 
+                {"id": 22, "lemma": "ㄴ", "type": "ETM", "position": 672, "weight": 0.392321}, 
+                {"id": 23, "lemma": "최대", "type": "NNG", "position": 676, "weight": 0.9}, 
+                {"id": 24, "lemma": "승자", "type": "NNG", "position": 683, "weight": 0.9}, 
+                {"id": 25, "lemma": "는", "type": "JX", "position": 689, "weight": 0.0287565}, 
+                {"id": 26, "lemma": "단호", "type": "NNG", "position": 693, "weight": 0.2}, 
+                {"id": 27, "lemma": "하", "type": "XSA", "position": 699, "weight": 0.0001}, 
+                {"id": 28, "lemma": "며", "type": "EC", "position": 702, "weight": 0.363714}, 
+                {"id": 29, "lemma": "침착", "type": "NNG", "position": 706, "weight": 0.9}, 
+                {"id": 30, "lemma": "하", "type": "XSA", "position": 712, "weight": 0.0001}, 
+                {"id": 31, "lemma": "게", "type": "EC", "position": 715, "weight": 0.362254}, 
+                {"id": 32, "lemma": "증언", "type": "NNG", "position": 719, "weight": 0.9}, 
+                {"id": 33, "lemma": "을", "type": "JKO", "position": 725, "weight": 0.129611}, 
+                {"id": 34, "lemma": "잇", "type": "VV", "position": 729, "weight": 0.774833}, 
+                {"id": 35, "lemma": "어", "type": "EC", "position": 732, "weight": 0.41831}, 
+                {"id": 36, "lemma": "나가", "type": "VX", "position": 735, "weight": 0.103911}, 
+                {"id": 37, "lemma": "ㄴ", "type": "ETM", "position": 738, "weight": 0.302612}, 
+                {"id": 38, "lemma": "코미", "type": "NNP", "position": 742, "weight": 0.1}, 
+                {"id": 39, "lemma": "전", "type": "MM", "position": 749, "weight": 0.00124885}, 
+                {"id": 40, "lemma": "국장", "type": "NNG", "position": 753, "weight": 0.9}, 
+                {"id": 41, "lemma": "이", "type": "VCP", "position": 759, "weight": 0.0177525}, 
+                {"id": 42, "lemma": "ㅂ니다", "type": "EF", "position": 759, "weight": 0.36174}, 
+                {"id": 43, "lemma": ".", "type": "SF", "position": 768, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "[기자]\"역대", "type": "", "begin": 0, "end": 4}, 
+                {"id": 1, "text": "최고의", "type": "", "begin": 5, "end": 6}, 
+                {"id": 2, "text": "정치극장이", "type": "", "begin": 7, "end": 9}, 
+                {"id": 3, "text": "열렸다\"미", "type": "", "begin": 10, "end": 14}, 
+                {"id": 4, "text": "언론이", "type": "", "begin": 15, "end": 16}, 
+                {"id": 5, "text": "한목소리로", "type": "", "begin": 17, "end": 19}, 
+                {"id": 6, "text": "지목한", "type": "", "begin": 20, "end": 22}, 
+                {"id": 7, "text": "최대", "type": "", "begin": 23, "end": 23}, 
+                {"id": 8, "text": "승자는", "type": "", "begin": 24, "end": 25}, 
+                {"id": 9, "text": "단호하며", "type": "", "begin": 26, "end": 28}, 
+                {"id": 10, "text": "침착하게", "type": "", "begin": 29, "end": 31}, 
+                {"id": 11, "text": "증언을", "type": "", "begin": 32, "end": 33}, 
+                {"id": 12, "text": "이어나간", "type": "", "begin": 34, "end": 37}, 
+                {"id": 13, "text": "코미", "type": "", "begin": 38, "end": 38}, 
+                {"id": 14, "text": "전", "type": "", "begin": 39, "end": 39}, 
+                {"id": 15, "text": "국장입니다.", "type": "", "begin": 40, "end": 43}
+            ], 
+            "NE": [
+                {"id": 0, "text": "기자", "type": "CV_OCCUPATION", "begin": 1, "end": 1, "weight": 0.565258, "common_noun": 0}, 
+                {"id": 1, "text": "미", "type": "LCP_COUNTRY", "begin": 14, "end": 14, "weight": 0.267379, "common_noun": 0}, 
+                {"id": 2, "text": "한목소리", "type": "QT_COUNT", "begin": 17, "end": 18, "weight": 0.166099, "common_noun": 0}, 
+                {"id": 3, "text": "승자", "type": "CV_POSITION", "begin": 24, "end": 24, "weight": 0.360559, "common_noun": 0}, 
+                {"id": 4, "text": "코미", "type": "PS_NAME", "begin": 38, "end": 38, "weight": 0.279416, "common_noun": 0}, 
+                {"id": 5, "text": "전 국장", "type": "CV_POSITION", "begin": 39, "end": 40, "weight": 0.150749, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "[기자]\"역대", "head": 1, "label": "NP", "mod": [], "weight": 0.316984}, 
+                {"id": 1, "text": "최고의", "head": 2, "label": "NP_MOD", "mod": [0], "weight": 0.601401}, 
+                {"id": 2, "text": "정치극장이", "head": 3, "label": "NP_SBJ", "mod": [1], "weight": 0.724199}, 
+                {"id": 3, "text": "열렸다\"미", "head": 4, "label": "NP", "mod": [2], "weight": 0.363125}, 
+                {"id": 4, "text": "언론이", "head": 6, "label": "NP_SBJ", "mod": [3], "weight": 0.763528}, 
+                {"id": 5, "text": "한목소리로", "head": 6, "label": "NP_AJT", "mod": [], "weight": 0.667408}, 
+                {"id": 6, "text": "지목한", "head": 8, "label": "VP_MOD", "mod": [4, 5], "weight": 0.532078}, 
+                {"id": 7, "text": "최대", "head": 8, "label": "NP", "mod": [], "weight": 0.248687}, 
+                {"id": 8, "text": "승자는", "head": 9, "label": "NP_SBJ", "mod": [6, 7], "weight": 0.568338}, 
+                {"id": 9, "text": "단호하며", "head": 12, "label": "VP", "mod": [8], "weight": 0.713457}, 
+                {"id": 10, "text": "침착하게", "head": 12, "label": "VP_AJT", "mod": [], "weight": 0.393579}, 
+                {"id": 11, "text": "증언을", "head": 12, "label": "NP_OBJ", "mod": [], "weight": 0.631047}, 
+                {"id": 12, "text": "이어나간", "head": 15, "label": "VP_MOD", "mod": [9, 10, 11], "weight": 0.769623}, 
+                {"id": 13, "text": "코미", "head": 15, "label": "NP", "mod": [], "weight": 0.755665}, 
+                {"id": 14, "text": "전", "head": 15, "label": "DP", "mod": [], "weight": 0.55224}, 
+                {"id": 15, "text": "국장입니다.", "head": -1, "label": "VNP", "mod": [12, 13, 14], "weight": 9.85654e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "[기자]\"역대 최고의 정치극장이 열렸다\"미 언론이", "begin": 0, "end": 4, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "한목소리로", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S_MOD", "text": "P#0@SBJ이 P#1@AJT로 지목한", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "S#2@MODㄴ 최대 승자는", "begin": 0, "end": 8, "key_begin": 7, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "P#3@SBJ는 단호하며", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 7, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP_AJT", "text": "침착하게", "begin": 10, "end": 10, "key_begin": 10, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_OBJ", "text": "증언을", "begin": 11, "end": 11, "key_begin": 11, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S_MOD", "text": "S#4@S며 P#5@AJT게 P#6@OBJ을 이어나간", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": 8, "sub_phrase": [4, 5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "S#7@MODㄴ 코미 전 국장입니다.", "begin": 0, "end": 15, "key_begin": 13, "head_phrase": -1, "sub_phrase": [7], "weight": 0, "element": [
+                    {"text": "코미 전 국장", "label": "NP", "begin": 38, "end": 40, "ne_type": ""}, 
+                    {"text": "입니다.", "label": "VP", "begin": 41, "end": 43, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [
+                {"verb": "열리", "sense": 1, "word_id": 3, "weight": 0.360363, "argument": [
+                    {"type": "ARG1", "word_id": 2, "text": "정치극장", "weight": 0.360363}
+                ]}, 
+                {"verb": "지목", "sense": 1, "word_id": 6, "weight": 0.218442, "argument": [
+                    {"type": "ARG0", "word_id": 4, "text": "[기자]\"역대 최고의 정치극장이 열렸다\"미 언론", "weight": 0.324513}, 
+                    {"type": "ARG2", "word_id": 5, "text": "한목소리", "weight": 0.112354}, 
+                    {"type": "ARG1", "word_id": 8, "text": "최대 승자", "weight": 0.218459}
+                ]}, 
+                {"verb": "단호", "sense": 1, "word_id": 9, "weight": 0.384097, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "최대 승자", "weight": 0.384097}
+                ]}, 
+                {"verb": "침착", "sense": 1, "word_id": 10, "weight": 0, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "최대 승자", "weight": 0.384097}
+                ]}, 
+                {"verb": "잇", "sense": 1, "word_id": 12, "weight": 0.256796, "argument": [
+                    {"type": "ARGM-MNR", "word_id": 10, "text": "침착하게", "weight": 0.362459}, 
+                    {"type": "ARG1", "word_id": 11, "text": "증언", "weight": 0.151132}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 7, 
+            "text": "팩트, 즉 사실만 담긴 교과서였다는 평가까지 나왔습니다.", 
+            "morp": [
+                {"id": 0, "lemma": "팩트", "type": "NNG", "position": 769, "weight": 0.15}, 
+                {"id": 1, "lemma": ",", "type": "SP", "position": 775, "weight": 1}, 
+                {"id": 2, "lemma": "즉", "type": "MAJ", "position": 777, "weight": 0.00801197}, 
+                {"id": 3, "lemma": "사실", "type": "NNG", "position": 781, "weight": 0.356597}, 
+                {"id": 4, "lemma": "만", "type": "JX", "position": 787, "weight": 0.0522241}, 
+                {"id": 5, "lemma": "담기", "type": "VV", "position": 791, "weight": 0.147098}, 
+                {"id": 6, "lemma": "ㄴ", "type": "ETM", "position": 794, "weight": 0.304215}, 
+                {"id": 7, "lemma": "교과", "type": "NNG", "position": 798, "weight": 0.9}, 
+                {"id": 8, "lemma": "서", "type": "NNG", "position": 804, "weight": 0.00374413}, 
+                {"id": 9, "lemma": "이", "type": "VCP", "position": 807, "weight": 0.0177525}, 
+                {"id": 10, "lemma": "었", "type": "EP", "position": 807, "weight": 0.9}, 
+                {"id": 11, "lemma": "다는", "type": "ETM", "position": 810, "weight": 0.107585}, 
+                {"id": 12, "lemma": "평가", "type": "NNG", "position": 817, "weight": 0.9}, 
+                {"id": 13, "lemma": "까지", "type": "JX", "position": 823, "weight": 0.0687424}, 
+                {"id": 14, "lemma": "나오", "type": "VV", "position": 830, "weight": 0.9}, 
+                {"id": 15, "lemma": "았", "type": "EP", "position": 833, "weight": 0.9}, 
+                {"id": 16, "lemma": "습니다", "type": "EF", "position": 836, "weight": 0.660908}, 
+                {"id": 17, "lemma": ".", "type": "SF", "position": 845, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "팩트,", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "즉", "type": "", "begin": 2, "end": 2}, 
+                {"id": 2, "text": "사실만", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "담긴", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "교과서였다는", "type": "", "begin": 7, "end": 11}, 
+                {"id": 5, "text": "평가까지", "type": "", "begin": 12, "end": 13}, 
+                {"id": 6, "text": "나왔습니다.", "type": "", "begin": 14, "end": 17}
+            ], 
+            "NE": [], 
+            "dependency": [
+                {"id": 0, "text": "팩트,", "head": 3, "label": "NP", "mod": [], "weight": 0.0555305}, 
+                {"id": 1, "text": "즉", "head": 2, "label": "AP", "mod": [], "weight": 0.171469}, 
+                {"id": 2, "text": "사실만", "head": 3, "label": "NP_OBJ", "mod": [1], "weight": 0.347496}, 
+                {"id": 3, "text": "담긴", "head": 4, "label": "VP_MOD", "mod": [0, 2], "weight": 0.206306}, 
+                {"id": 4, "text": "교과서였다는", "head": 5, "label": "VNP_MOD", "mod": [3], "weight": 0.237418}, 
+                {"id": 5, "text": "평가까지", "head": 6, "label": "NP_SBJ", "mod": [4], "weight": 0.194841}, 
+                {"id": 6, "text": "나왔습니다.", "head": -1, "label": "VP", "mod": [5], "weight": 2.73287e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "팩트,", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "즉 사실만", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#0@NP팩트, P#1@OBJ만 담긴", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VNP_MOD", "text": "P#2@MODㄴ 교과서였다는", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "P#3@MOD다는 평가까지", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#4@SBJ까지 나왔습니다.", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": -1, "sub_phrase": [4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "담기", "sense": 1, "word_id": 3, "weight": 0.223115, "argument": [
+                    {"type": "ARG1", "word_id": 2, "text": "즉 사실", "weight": 0.247033}, 
+                    {"type": "ARG2", "word_id": 4, "text": "교과서였다는", "weight": 0.199197}
+                ]}, 
+                {"verb": "나오", "sense": 1, "word_id": 6, "weight": 0.131191, "argument": [
+                    {"type": "ARG0", "word_id": 5, "text": "평가", "weight": 0.131191}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 4, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 8, 
+            "text": "CNN방송은 공화당 소속의 정보위 부어 위원장과 민주당의 워너 부위원장이 어느 정당 소속인지 구분이 안 될 정도로 청문회를 매끄럽게 진행했다고 치켜 세웠습니다.", 
+            "morp": [
+                {"id": 0, "lemma": "CNN", "type": "SL", "position": 846, "weight": 1}, 
+                {"id": 1, "lemma": "방송", "type": "NNG", "position": 849, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 855, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "공화당", "type": "NNP", "position": 859, "weight": 0.0447353}, 
+                {"id": 4, "lemma": "소속", "type": "NNG", "position": 869, "weight": 0.9}, 
+                {"id": 5, "lemma": "의", "type": "JKG", "position": 875, "weight": 0.0694213}, 
+                {"id": 6, "lemma": "정보", "type": "NNG", "position": 879, "weight": 0.866692}, 
+                {"id": 7, "lemma": "위", "type": "NNG", "position": 885, "weight": 0.165604}, 
+                {"id": 8, "lemma": "붓", "type": "VV", "position": 889, "weight": 0.0110074}, 
+                {"id": 9, "lemma": "어", "type": "EC", "position": 892, "weight": 0.41831}, 
+                {"id": 10, "lemma": "위원", "type": "NNG", "position": 896, "weight": 0.218684}, 
+                {"id": 11, "lemma": "장", "type": "XSN", "position": 902, "weight": 0.0110513}, 
+                {"id": 12, "lemma": "과", "type": "JC", "position": 905, "weight": 0.0096702}, 
+                {"id": 13, "lemma": "민주당", "type": "NNP", "position": 909, "weight": 0.9}, 
+                {"id": 14, "lemma": "의", "type": "JKG", "position": 918, "weight": 0.0987295}, 
+                {"id": 15, "lemma": "워너", "type": "NNP", "position": 922, "weight": 0.0165166}, 
+                {"id": 16, "lemma": "부", "type": "XPN", "position": 929, "weight": 0.00010586}, 
+                {"id": 17, "lemma": "위원", "type": "NNG", "position": 932, "weight": 0.472313}, 
+                {"id": 18, "lemma": "장", "type": "XSN", "position": 938, "weight": 0.0110513}, 
+                {"id": 19, "lemma": "이", "type": "JKS", "position": 941, "weight": 0.0731805}, 
+                {"id": 20, "lemma": "어느", "type": "MM", "position": 945, "weight": 0.0247356}, 
+                {"id": 21, "lemma": "정당", "type": "NNG", "position": 952, "weight": 0.9}, 
+                {"id": 22, "lemma": "소속", "type": "NNG", "position": 959, "weight": 0.9}, 
+                {"id": 23, "lemma": "이", "type": "VCP", "position": 965, "weight": 0.0177525}, 
+                {"id": 24, "lemma": "ㄴ지", "type": "EC", "position": 965, "weight": 0.244091}, 
+                {"id": 25, "lemma": "구분", "type": "NNG", "position": 972, "weight": 0.9}, 
+                {"id": 26, "lemma": "이", "type": "JKC", "position": 978, "weight": 0.000287945}, 
+                {"id": 27, "lemma": "안", "type": "MAG", "position": 982, "weight": 0.0128893}, 
+                {"id": 28, "lemma": "되", "type": "VV", "position": 986, "weight": 0.361346}, 
+                {"id": 29, "lemma": "ㄹ", "type": "ETM", "position": 986, "weight": 0.300746}, 
+                {"id": 30, "lemma": "정도", "type": "NNG", "position": 990, "weight": 0.6587}, 
+                {"id": 31, "lemma": "로", "type": "JKB", "position": 996, "weight": 0.153229}, 
+                {"id": 32, "lemma": "청문", "type": "NNG", "position": 1000, "weight": 0.9}, 
+                {"id": 33, "lemma": "회", "type": "XSN", "position": 1006, "weight": 0.010766}, 
+                {"id": 34, "lemma": "를", "type": "JKO", "position": 1009, "weight": 0.0870227}, 
+                {"id": 35, "lemma": "매끄럽", "type": "VA", "position": 1013, "weight": 0.9}, 
+                {"id": 36, "lemma": "게", "type": "EC", "position": 1022, "weight": 0.31879}, 
+                {"id": 37, "lemma": "진행", "type": "NNG", "position": 1026, "weight": 0.9}, 
+                {"id": 38, "lemma": "하", "type": "XSV", "position": 1032, "weight": 0.0001}, 
+                {"id": 39, "lemma": "었", "type": "EP", "position": 1032, "weight": 0.9}, 
+                {"id": 40, "lemma": "다고", "type": "EC", "position": 1035, "weight": 0.193823}, 
+                {"id": 41, "lemma": "치키", "type": "VV", "position": 1042, "weight": 0.9}, 
+                {"id": 42, "lemma": "어", "type": "EC", "position": 1045, "weight": 0.41831}, 
+                {"id": 43, "lemma": "세우", "type": "VV", "position": 1049, "weight": 0.226296}, 
+                {"id": 44, "lemma": "었", "type": "EP", "position": 1052, "weight": 0.9}, 
+                {"id": 45, "lemma": "습니다", "type": "EF", "position": 1055, "weight": 0.660908}, 
+                {"id": 46, "lemma": ".", "type": "SF", "position": 1064, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "CNN방송은", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "공화당", "type": "", "begin": 3, "end": 3}, 
+                {"id": 2, "text": "소속의", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "정보위", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "부어", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "위원장과", "type": "", "begin": 10, "end": 12}, 
+                {"id": 6, "text": "민주당의", "type": "", "begin": 13, "end": 14}, 
+                {"id": 7, "text": "워너", "type": "", "begin": 15, "end": 15}, 
+                {"id": 8, "text": "부위원장이", "type": "", "begin": 16, "end": 19}, 
+                {"id": 9, "text": "어느", "type": "", "begin": 20, "end": 20}, 
+                {"id": 10, "text": "정당", "type": "", "begin": 21, "end": 21}, 
+                {"id": 11, "text": "소속인지", "type": "", "begin": 22, "end": 24}, 
+                {"id": 12, "text": "구분이", "type": "", "begin": 25, "end": 26}, 
+                {"id": 13, "text": "안", "type": "", "begin": 27, "end": 27}, 
+                {"id": 14, "text": "될", "type": "", "begin": 28, "end": 29}, 
+                {"id": 15, "text": "정도로", "type": "", "begin": 30, "end": 31}, 
+                {"id": 16, "text": "청문회를", "type": "", "begin": 32, "end": 34}, 
+                {"id": 17, "text": "매끄럽게", "type": "", "begin": 35, "end": 36}, 
+                {"id": 18, "text": "진행했다고", "type": "", "begin": 37, "end": 40}, 
+                {"id": 19, "text": "치켜", "type": "", "begin": 41, "end": 42}, 
+                {"id": 20, "text": "세웠습니다.", "type": "", "begin": 43, "end": 46}
+            ], 
+            "NE": [
+                {"id": 0, "text": "CNN방송", "type": "OGG_MEDIA", "begin": 0, "end": 1, "weight": 0.47144, "common_noun": 0}, 
+                {"id": 1, "text": "공화당", "type": "OGG_POLITICS", "begin": 3, "end": 3, "weight": 0.627595, "common_noun": 0}, 
+                {"id": 2, "text": "정보위", "type": "OGG_POLITICS", "begin": 6, "end": 7, "weight": 1, "common_noun": 0}, 
+                {"id": 3, "text": "위원장", "type": "CV_POSITION", "begin": 10, "end": 11, "weight": 0.756435, "common_noun": 0}, 
+                {"id": 4, "text": "민주당", "type": "OGG_POLITICS", "begin": 13, "end": 13, "weight": 0.580578, "common_noun": 0}, 
+                {"id": 5, "text": "워너", "type": "PS_NAME", "begin": 15, "end": 15, "weight": 0.433819, "common_noun": 0}, 
+                {"id": 6, "text": "부위원장", "type": "CV_POSITION", "begin": 16, "end": 18, "weight": 0.845322, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "CNN방송은", "head": 4, "label": "NP_SBJ", "mod": [], "weight": 0.28109}, 
+                {"id": 1, "text": "공화당", "head": 2, "label": "NP", "mod": [], "weight": 0.820049}, 
+                {"id": 2, "text": "소속의", "head": 3, "label": "NP_MOD", "mod": [1], "weight": 0.451076}, 
+                {"id": 3, "text": "정보위", "head": 4, "label": "NP_OBJ", "mod": [2], "weight": 0.40675}, 
+                {"id": 4, "text": "부어", "head": 11, "label": "VP", "mod": [0, 3], "weight": 0.481576}, 
+                {"id": 5, "text": "위원장과", "head": 8, "label": "NP_CNJ", "mod": [], "weight": 0.864016}, 
+                {"id": 6, "text": "민주당의", "head": 8, "label": "NP_MOD", "mod": [], "weight": 0.561936}, 
+                {"id": 7, "text": "워너", "head": 8, "label": "NP", "mod": [], "weight": 0.769138}, 
+                {"id": 8, "text": "부위원장이", "head": 11, "label": "NP_SBJ", "mod": [5, 6, 7], "weight": 0.5098}, 
+                {"id": 9, "text": "어느", "head": 10, "label": "DP", "mod": [], "weight": 0.283099}, 
+                {"id": 10, "text": "정당", "head": 11, "label": "NP", "mod": [9], "weight": 0.793321}, 
+                {"id": 11, "text": "소속인지", "head": 18, "label": "VNP", "mod": [4, 8, 10], "weight": 0.556692}, 
+                {"id": 12, "text": "구분이", "head": 14, "label": "NP_SBJ", "mod": [], "weight": 0.173083}, 
+                {"id": 13, "text": "안", "head": 14, "label": "AP", "mod": [], "weight": 0.765454}, 
+                {"id": 14, "text": "될", "head": 15, "label": "VP_MOD", "mod": [12, 13], "weight": 0.850121}, 
+                {"id": 15, "text": "정도로", "head": 18, "label": "NP_AJT", "mod": [14], "weight": 0.705186}, 
+                {"id": 16, "text": "청문회를", "head": 18, "label": "NP_OBJ", "mod": [], "weight": 0.834036}, 
+                {"id": 17, "text": "매끄럽게", "head": 18, "label": "VP_AJT", "mod": [], "weight": 0.529404}, 
+                {"id": 18, "text": "진행했다고", "head": 19, "label": "VP_CMP", "mod": [11, 15, 16, 17], "weight": 0.697011}, 
+                {"id": 19, "text": "치켜", "head": 20, "label": "VP", "mod": [18], "weight": 0.732853}, 
+                {"id": 20, "text": "세웠습니다.", "head": -1, "label": "VP", "mod": [19], "weight": 6.79869e-06}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "CNN방송은", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "공화당 소속의 정보위", "begin": 1, "end": 3, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ은 P#1@OBJ위 부어", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "위원장과 민주당의 워너 부위원장이", "begin": 5, "end": 8, "key_begin": 5, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "위원장", "label": "NP_SBJ", "begin": 10, "end": 11, "ne_type": "CV_POSITION"}, 
+                    {"text": "민주당의 워너 부위원장", "label": "NP_SBJ", "begin": 13, "end": 18, "ne_type": ""}
+                ]}, 
+                {"id": 4, "label": "S", "text": "S#2@S어 P#3@SBJ이 어느 정당 소속인지", "begin": 0, "end": 11, "key_begin": 9, "head_phrase": 11, "sub_phrase": [2, 3], "weight": 0, "element": [
+                    {"text": "어느 정당 소속", "label": "NP", "begin": 20, "end": 22, "ne_type": ""}, 
+                    {"text": "인지", "label": "VP", "begin": 23, "end": 24, "ne_type": ""}
+                ]}, 
+                {"id": 5, "label": "NP_SBJ", "text": "구분이", "begin": 12, "end": 12, "key_begin": 12, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "AP", "text": "안", "begin": 13, "end": 13, "key_begin": 13, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S_MOD", "text": "P#5@SBJ이 P#6@AP안 될", "begin": 12, "end": 14, "key_begin": 14, "head_phrase": 8, "sub_phrase": [5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_AJT", "text": "S#7@MODㄹ 정도로", "begin": 12, "end": 15, "key_begin": 15, "head_phrase": 11, "sub_phrase": [7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_OBJ", "text": "청문회를", "begin": 16, "end": 16, "key_begin": 16, "head_phrase": 11, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 10, "label": "VP_AJT", "text": "매끄럽게", "begin": 17, "end": 17, "key_begin": 17, "head_phrase": 11, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 11, "label": "S_CMP", "text": "S#4@Sㄴ지 P#8@AJT로 P#9@OBJ를 P#10@AJT게 진행했다고", "begin": 0, "end": 18, "key_begin": 18, "head_phrase": 12, "sub_phrase": [4, 8, 9, 10], "weight": 0, "element": []}, 
+                {"id": 12, "label": "S", "text": "S#11@CMP다고 치켜 세웠습니다.", "begin": 0, "end": 20, "key_begin": 19, "head_phrase": -1, "sub_phrase": [11], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "붓", "sense": 1, "word_id": 4, "weight": 0.317867, "argument": [
+                    {"type": "ARG1", "word_id": 3, "text": "공화당 소속의 정보위", "weight": 0.317867}
+                ]}, 
+                {"verb": "되", "sense": 3, "word_id": 14, "weight": 0.263113, "argument": [
+                    {"type": "ARG1", "word_id": 12, "text": "구분", "weight": 0.305032}, 
+                    {"type": "ARGM-NEG", "word_id": 13, "text": "안", "weight": 0.221193}
+                ]}, 
+                {"verb": "진행", "sense": 1, "word_id": 18, "weight": 0.413011, "argument": [
+                    {"type": "ARG1", "word_id": 16, "text": "청문회", "weight": 0.444306}, 
+                    {"type": "ARGM-MNR", "word_id": 17, "text": "매끄럽게", "weight": 0.381715}
+                ]}, 
+                {"verb": "치키", "sense": 1, "word_id": 19, "weight": 0, "argument": [
+                    {"type": "ARG1", "word_id": 16, "text": "청문회", "weight": 0.444306}
+                ]}, 
+                {"verb": "세우", "sense": 1, "word_id": 20, "weight": 0.211877, "argument": [
+                    {"type": "ARG1", "word_id": 18, "text": "진행했다고", "weight": 0.318623}, 
+                    {"type": "ARGM-MNR", "word_id": 19, "text": "치켜", "weight": 0.105131}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 18, "ant_sid": 8, "ant_wid": 8, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "o", "head_wid": 19, "ant_sid": 8, "ant_wid": 8, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 9, 
+            "text": "이번 청문회의 발단이 된 '코미 메모'를 언론에 유출한 컬럼비아대 리치맨 교수에 대해서는 \"적어도 오늘은 미국에서 가장 유명한 로스쿨 교수가 됐다\"는 호평이 나왔습니다.", 
+            "morp": [
+                {"id": 0, "lemma": "이번", "type": "NNG", "position": 1065, "weight": 0.9}, 
+                {"id": 1, "lemma": "청문", "type": "NNG", "position": 1072, "weight": 0.9}, 
+                {"id": 2, "lemma": "회", "type": "XSN", "position": 1078, "weight": 0.010766}, 
+                {"id": 3, "lemma": "의", "type": "JKG", "position": 1081, "weight": 0.120732}, 
+                {"id": 4, "lemma": "발단", "type": "NNG", "position": 1085, "weight": 0.9}, 
+                {"id": 5, "lemma": "이", "type": "JKC", "position": 1091, "weight": 0.000287945}, 
+                {"id": 6, "lemma": "되", "type": "VV", "position": 1095, "weight": 0.542406}, 
+                {"id": 7, "lemma": "ㄴ", "type": "ETM", "position": 1095, "weight": 0.304215}, 
+                {"id": 8, "lemma": "'", "type": "SS", "position": 1099, "weight": 1}, 
+                {"id": 9, "lemma": "코미", "type": "NNG", "position": 1100, "weight": 0}, 
+                {"id": 10, "lemma": "메모", "type": "NNG", "position": 1107, "weight": 0.9}, 
+                {"id": 11, "lemma": "'", "type": "SS", "position": 1113, "weight": 1}, 
+                {"id": 12, "lemma": "를", "type": "JKO", "position": 1114, "weight": 0.0357023}, 
+                {"id": 13, "lemma": "언론", "type": "NNG", "position": 1118, "weight": 0.9}, 
+                {"id": 14, "lemma": "에", "type": "JKB", "position": 1124, "weight": 0.153364}, 
+                {"id": 15, "lemma": "유출", "type": "NNG", "position": 1128, "weight": 0.207394}, 
+                {"id": 16, "lemma": "하", "type": "XSV", "position": 1134, "weight": 0.0001}, 
+                {"id": 17, "lemma": "ㄴ", "type": "ETM", "position": 1134, "weight": 0.392321}, 
+                {"id": 18, "lemma": "컬럼비아대", "type": "NNP", "position": 1138, "weight": 0.45}, 
+                {"id": 19, "lemma": "리치맨", "type": "NNG", "position": 1154, "weight": 0}, 
+                {"id": 20, "lemma": "교수", "type": "NNG", "position": 1164, "weight": 0.9}, 
+                {"id": 21, "lemma": "에", "type": "JKB", "position": 1170, "weight": 0.153364}, 
+                {"id": 22, "lemma": "대", "type": "NNG", "position": 1174, "weight": 0.0312871}, 
+                {"id": 23, "lemma": "하", "type": "XSV", "position": 1177, "weight": 0.0001}, 
+                {"id": 24, "lemma": "어서", "type": "EC", "position": 1177, "weight": 0.364511}, 
+                {"id": 25, "lemma": "는", "type": "JX", "position": 1183, "weight": 0.0115393}, 
+                {"id": 26, "lemma": "\"", "type": "SS", "position": 1187, "weight": 1}, 
+                {"id": 27, "lemma": "적어도", "type": "MAG", "position": 1188, "weight": 0.9}, 
+                {"id": 28, "lemma": "오늘", "type": "NNG", "position": 1198, "weight": 0.215446}, 
+                {"id": 29, "lemma": "은", "type": "JX", "position": 1204, "weight": 0.0449928}, 
+                {"id": 30, "lemma": "미국", "type": "NNP", "position": 1208, "weight": 0.0448659}, 
+                {"id": 31, "lemma": "에서", "type": "JKB", "position": 1214, "weight": 0.0823859}, 
+                {"id": 32, "lemma": "가장", "type": "MAG", "position": 1221, "weight": 0.0546356}, 
+                {"id": 33, "lemma": "유명", "type": "NNG", "position": 1228, "weight": 0.9}, 
+                {"id": 34, "lemma": "하", "type": "XSA", "position": 1234, "weight": 0.0001}, 
+                {"id": 35, "lemma": "ㄴ", "type": "ETM", "position": 1234, "weight": 0.488779}, 
+                {"id": 36, "lemma": "로스쿨", "type": "NNG", "position": 1238, "weight": 0.05}, 
+                {"id": 37, "lemma": "교수", "type": "NNG", "position": 1248, "weight": 0.9}, 
+                {"id": 38, "lemma": "가", "type": "JKC", "position": 1254, "weight": 0.000442184}, 
+                {"id": 39, "lemma": "되", "type": "VV", "position": 1258, "weight": 0.542406}, 
+                {"id": 40, "lemma": "었", "type": "EP", "position": 1258, "weight": 0.9}, 
+                {"id": 41, "lemma": "다", "type": "EF", "position": 1261, "weight": 0.640954}, 
+                {"id": 42, "lemma": "\"", "type": "SS", "position": 1264, "weight": 1}, 
+                {"id": 43, "lemma": "는", "type": "JX", "position": 1265, "weight": 0.00823314}, 
+                {"id": 44, "lemma": "호평", "type": "NNG", "position": 1269, "weight": 0.321673}, 
+                {"id": 45, "lemma": "이", "type": "JKS", "position": 1275, "weight": 0.0360723}, 
+                {"id": 46, "lemma": "나오", "type": "VV", "position": 1279, "weight": 0.9}, 
+                {"id": 47, "lemma": "았", "type": "EP", "position": 1282, "weight": 0.9}, 
+                {"id": 48, "lemma": "습니다", "type": "EF", "position": 1285, "weight": 0.660908}, 
+                {"id": 49, "lemma": ".", "type": "SF", "position": 1294, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "이번", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "청문회의", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "발단이", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "된", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "'코미", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "메모'를", "type": "", "begin": 10, "end": 12}, 
+                {"id": 6, "text": "언론에", "type": "", "begin": 13, "end": 14}, 
+                {"id": 7, "text": "유출한", "type": "", "begin": 15, "end": 17}, 
+                {"id": 8, "text": "컬럼비아대", "type": "", "begin": 18, "end": 18}, 
+                {"id": 9, "text": "리치맨", "type": "", "begin": 19, "end": 19}, 
+                {"id": 10, "text": "교수에", "type": "", "begin": 20, "end": 21}, 
+                {"id": 11, "text": "대해서는", "type": "", "begin": 22, "end": 25}, 
+                {"id": 12, "text": "\"적어도", "type": "", "begin": 26, "end": 27}, 
+                {"id": 13, "text": "오늘은", "type": "", "begin": 28, "end": 29}, 
+                {"id": 14, "text": "미국에서", "type": "", "begin": 30, "end": 31}, 
+                {"id": 15, "text": "가장", "type": "", "begin": 32, "end": 32}, 
+                {"id": 16, "text": "유명한", "type": "", "begin": 33, "end": 35}, 
+                {"id": 17, "text": "로스쿨", "type": "", "begin": 36, "end": 36}, 
+                {"id": 18, "text": "교수가", "type": "", "begin": 37, "end": 38}, 
+                {"id": 19, "text": "됐다\"는", "type": "", "begin": 39, "end": 43}, 
+                {"id": 20, "text": "호평이", "type": "", "begin": 44, "end": 45}, 
+                {"id": 21, "text": "나왔습니다.", "type": "", "begin": 46, "end": 49}
+            ], 
+            "NE": [
+                {"id": 0, "text": "코미", "type": "LCP_COUNTRY", "begin": 9, "end": 9, "weight": 0.160581, "common_noun": 0}, 
+                {"id": 1, "text": "컬럼비아대", "type": "OGG_EDUCATION", "begin": 18, "end": 18, "weight": 0.391026, "common_noun": 0}, 
+                {"id": 2, "text": "리치맨", "type": "PS_NAME", "begin": 19, "end": 19, "weight": 0.192988, "common_noun": 0}, 
+                {"id": 3, "text": "교수", "type": "CV_OCCUPATION", "begin": 20, "end": 20, "weight": 0.472189, "common_noun": 0}, 
+                {"id": 4, "text": "오늘", "type": "DT_DAY", "begin": 28, "end": 28, "weight": 0.548621, "common_noun": 0}, 
+                {"id": 5, "text": "미국", "type": "LCP_COUNTRY", "begin": 30, "end": 30, "weight": 0.855333, "common_noun": 0}, 
+                {"id": 6, "text": "로스쿨", "type": "OGG_EDUCATION", "begin": 36, "end": 36, "weight": 0.322161, "common_noun": 0}, 
+                {"id": 7, "text": "교수", "type": "CV_OCCUPATION", "begin": 37, "end": 37, "weight": 0.643931, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "이번", "head": 1, "label": "NP", "mod": [], "weight": 0.387982}, 
+                {"id": 1, "text": "청문회의", "head": 2, "label": "NP_MOD", "mod": [0], "weight": 0.200171}, 
+                {"id": 2, "text": "발단이", "head": 3, "label": "NP_CMP", "mod": [1], "weight": 0.665119}, 
+                {"id": 3, "text": "된", "head": 5, "label": "VP_MOD", "mod": [2], "weight": 0.412292}, 
+                {"id": 4, "text": "'코미", "head": 5, "label": "NP", "mod": [], "weight": 0.706148}, 
+                {"id": 5, "text": "메모'를", "head": 7, "label": "NP_OBJ", "mod": [3, 4], "weight": 0.266498}, 
+                {"id": 6, "text": "언론에", "head": 7, "label": "NP_AJT", "mod": [], "weight": 0.710101}, 
+                {"id": 7, "text": "유출한", "head": 10, "label": "VP_MOD", "mod": [5, 6], "weight": 0.811115}, 
+                {"id": 8, "text": "컬럼비아대", "head": 10, "label": "NP", "mod": [], "weight": 0.793827}, 
+                {"id": 9, "text": "리치맨", "head": 10, "label": "NP", "mod": [], "weight": 0.81771}, 
+                {"id": 10, "text": "교수에", "head": 11, "label": "NP_AJT", "mod": [7, 8, 9], "weight": 0.734509}, 
+                {"id": 11, "text": "대해서는", "head": 21, "label": "VP", "mod": [10], "weight": 0.702963}, 
+                {"id": 12, "text": "\"적어도", "head": 19, "label": "AP", "mod": [], "weight": 0.512594}, 
+                {"id": 13, "text": "오늘은", "head": 19, "label": "NP_SBJ", "mod": [], "weight": 0.0018194}, 
+                {"id": 14, "text": "미국에서", "head": 16, "label": "NP_AJT", "mod": [], "weight": 0.381787}, 
+                {"id": 15, "text": "가장", "head": 16, "label": "AP", "mod": [], "weight": 0.720465}, 
+                {"id": 16, "text": "유명한", "head": 18, "label": "VP_MOD", "mod": [14, 15], "weight": 0.299889}, 
+                {"id": 17, "text": "로스쿨", "head": 18, "label": "NP", "mod": [], "weight": 0.686693}, 
+                {"id": 18, "text": "교수가", "head": 19, "label": "NP_CMP", "mod": [16, 17], "weight": 0.711219}, 
+                {"id": 19, "text": "됐다\"는", "head": 20, "label": "VP_MOD", "mod": [12, 13, 18], "weight": 0.295157}, 
+                {"id": 20, "text": "호평이", "head": 21, "label": "NP_SBJ", "mod": [19], "weight": 0.810729}, 
+                {"id": 21, "text": "나왔습니다.", "head": -1, "label": "VP", "mod": [11, 20], "weight": 5.93938e-09}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_CMP", "text": "이번 청문회의 발단이", "begin": 0, "end": 2, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@CMP이 된", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "P#1@MODㄴ '코미 메모'를", "begin": 0, "end": 5, "key_begin": 4, "head_phrase": 4, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "언론에", "begin": 6, "end": 6, "key_begin": 6, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#2@OBJ를 P#3@AJT에 유출한", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 5, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "P#4@MODㄴ 컬럼비아대 리치맨 교수에", "begin": 0, "end": 10, "key_begin": 8, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "VP", "text": "P#5@AJT에 대해서는", "begin": 0, "end": 11, "key_begin": 11, "head_phrase": 9, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "VP_MOD", "text": "\"적어도 오늘은 미국에서 가장 유명한 로스쿨 교수가 됐다\"는", "begin": 12, "end": 19, "key_begin": 12, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_SBJ", "text": "P#7@MOD는 호평이", "begin": 12, "end": 20, "key_begin": 20, "head_phrase": 9, "sub_phrase": [7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "P#6@VP는 P#8@SBJ이 나왔습니다.", "begin": 0, "end": 21, "key_begin": 21, "head_phrase": -1, "sub_phrase": [6, 8], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "되", "sense": 1, "word_id": 3, "weight": 0.655132, "argument": [
+                    {"type": "ARG2", "word_id": 2, "text": "이번 청문회의 발단", "weight": 0.781636}, 
+                    {"type": "ARG1", "word_id": 5, "text": "'코미 메모'", "weight": 0.528628}
+                ]}, 
+                {"verb": "유출", "sense": 1, "word_id": 7, "weight": 0.305127, "argument": [
+                    {"type": "ARG1", "word_id": 5, "text": "'코미 메모'", "weight": 0.472751}, 
+                    {"type": "ARG2", "word_id": 6, "text": "언론", "weight": 0.128502}, 
+                    {"type": "ARG0", "word_id": 10, "text": "컬럼비아대 리치맨 교수", "weight": 0.314128}
+                ]}, 
+                {"verb": "대", "sense": 1, "word_id": 11, "weight": 0.564287, "argument": [
+                    {"type": "ARG2", "word_id": 10, "text": "컬럼비아대 리치맨 교수", "weight": 0.564287}
+                ]}, 
+                {"verb": "유명", "sense": 1, "word_id": 16, "weight": 0.367153, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 14, "text": "미국", "weight": 0.294137}, 
+                    {"type": "ARGM-EXT", "word_id": 15, "text": "가장", "weight": 0.676936}, 
+                    {"type": "ARG1", "word_id": 18, "text": "교수", "weight": 0.130386}
+                ]}, 
+                {"verb": "되", "sense": 1, "word_id": 19, "weight": 0.491607, "argument": [
+                    {"type": "ARG1", "word_id": 13, "text": "오늘", "weight": 0.246495}, 
+                    {"type": "ARG2", "word_id": 18, "text": "교수", "weight": 0.73672}
+                ]}, 
+                {"verb": "나오", "sense": 1, "word_id": 21, "weight": 0.189784, "argument": [
+                    {"type": "ARGM-ADV", "word_id": 11, "text": "대하어서", "weight": 0.237148}, 
+                    {"type": "ARG0", "word_id": 20, "text": "호평", "weight": 0.14242}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 11, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 19, "ant_sid": 9, "ant_wid": 10, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 10, 
+            "text": "반면 트럼프 대통령은 패자로 평가됐습니다.", 
+            "morp": [
+                {"id": 0, "lemma": "반면", "type": "NNG", "position": 1295, "weight": 0.9}, 
+                {"id": 1, "lemma": "트럼프", "type": "NNP", "position": 1302, "weight": 0.000959937}, 
+                {"id": 2, "lemma": "대통령", "type": "NNG", "position": 1312, "weight": 0.9}, 
+                {"id": 3, "lemma": "은", "type": "JX", "position": 1321, "weight": 0.0449928}, 
+                {"id": 4, "lemma": "패자", "type": "NNG", "position": 1325, "weight": 0.9}, 
+                {"id": 5, "lemma": "로", "type": "JKB", "position": 1331, "weight": 0.153229}, 
+                {"id": 6, "lemma": "평가", "type": "NNG", "position": 1335, "weight": 0.9}, 
+                {"id": 7, "lemma": "되", "type": "XSV", "position": 1341, "weight": 0.000224177}, 
+                {"id": 8, "lemma": "었", "type": "EP", "position": 1341, "weight": 0.9}, 
+                {"id": 9, "lemma": "습니다", "type": "EF", "position": 1344, "weight": 0.660908}, 
+                {"id": 10, "lemma": ".", "type": "SF", "position": 1353, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "반면", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "트럼프", "type": "", "begin": 1, "end": 1}, 
+                {"id": 2, "text": "대통령은", "type": "", "begin": 2, "end": 3}, 
+                {"id": 3, "text": "패자로", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "평가됐습니다.", "type": "", "begin": 6, "end": 10}
+            ], 
+            "NE": [
+                {"id": 0, "text": "트럼프", "type": "PS_NAME", "begin": 1, "end": 1, "weight": 0.393272, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 2, "end": 2, "weight": 0.562469, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "반면", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.586577}, 
+                {"id": 1, "text": "트럼프", "head": 2, "label": "NP", "mod": [], "weight": 0.779163}, 
+                {"id": 2, "text": "대통령은", "head": 4, "label": "NP_SBJ", "mod": [1], "weight": 0.487092}, 
+                {"id": 3, "text": "패자로", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.713956}, 
+                {"id": 4, "text": "평가됐습니다.", "head": -1, "label": "VP", "mod": [0, 2, 3], "weight": 0.1456}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "반면", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "트럼프 대통령은", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "패자로", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@AJT반면 P#1@SBJ은 P#2@AJT로 평가됐습니다.", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": -1, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "평가", "sense": 1, "word_id": 4, "weight": 0.155145, "argument": [
+                    {"type": "ARG0", "word_id": 2, "text": "트럼프 대통령", "weight": 0.221327}, 
+                    {"type": "ARG1", "word_id": 3, "text": "패자", "weight": 0.0889624}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 11, 
+            "text": "결정적 증거 여부와 관계없이, 미국 정치권에서 가장 큰 흠결로 꼽히는 거짓말쟁이로 비판받았기 때문입니다.", 
+            "morp": [
+                {"id": 0, "lemma": "결정", "type": "NNG", "position": 1354, "weight": 0.9}, 
+                {"id": 1, "lemma": "적", "type": "XSN", "position": 1360, "weight": 0.0168756}, 
+                {"id": 2, "lemma": "증거", "type": "NNG", "position": 1364, "weight": 0.9}, 
+                {"id": 3, "lemma": "여부", "type": "NNG", "position": 1371, "weight": 0.9}, 
+                {"id": 4, "lemma": "와", "type": "JKB", "position": 1377, "weight": 0.0567862}, 
+                {"id": 5, "lemma": "관계없이", "type": "MAG", "position": 1381, "weight": 0.9}, 
+                {"id": 6, "lemma": ",", "type": "SP", "position": 1393, "weight": 1}, 
+                {"id": 7, "lemma": "미국", "type": "NNP", "position": 1395, "weight": 0.123794}, 
+                {"id": 8, "lemma": "정치", "type": "NNG", "position": 1402, "weight": 0.9}, 
+                {"id": 9, "lemma": "권", "type": "XSN", "position": 1408, "weight": 0.0140728}, 
+                {"id": 10, "lemma": "에서", "type": "JKB", "position": 1411, "weight": 0.121718}, 
+                {"id": 11, "lemma": "가장", "type": "MAG", "position": 1418, "weight": 0.0546356}, 
+                {"id": 12, "lemma": "크", "type": "VA", "position": 1425, "weight": 0.131358}, 
+                {"id": 13, "lemma": "ㄴ", "type": "ETM", "position": 1425, "weight": 0.430446}, 
+                {"id": 14, "lemma": "흠결", "type": "NNG", "position": 1429, "weight": 0.9}, 
+                {"id": 15, "lemma": "로", "type": "JKB", "position": 1435, "weight": 0.153229}, 
+                {"id": 16, "lemma": "꼽히", "type": "VV", "position": 1439, "weight": 0.9}, 
+                {"id": 17, "lemma": "는", "type": "ETM", "position": 1445, "weight": 0.184941}, 
+                {"id": 18, "lemma": "거짓", "type": "NNG", "position": 1449, "weight": 0.9}, 
+                {"id": 19, "lemma": "말", "type": "NNG", "position": 1455, "weight": 0.148392}, 
+                {"id": 20, "lemma": "쟁이", "type": "XSN", "position": 1458, "weight": 0.0190452}, 
+                {"id": 21, "lemma": "로", "type": "JKB", "position": 1464, "weight": 0.121577}, 
+                {"id": 22, "lemma": "비판", "type": "NNG", "position": 1468, "weight": 0.9}, 
+                {"id": 23, "lemma": "받", "type": "VV", "position": 1474, "weight": 0.0147799}, 
+                {"id": 24, "lemma": "았", "type": "EP", "position": 1477, "weight": 0.9}, 
+                {"id": 25, "lemma": "기", "type": "ETN", "position": 1480, "weight": 0.0127802}, 
+                {"id": 26, "lemma": "때문", "type": "NNB", "position": 1484, "weight": 0.9}, 
+                {"id": 27, "lemma": "이", "type": "VCP", "position": 1490, "weight": 0.0607843}, 
+                {"id": 28, "lemma": "ㅂ니다", "type": "EF", "position": 1490, "weight": 0.36174}, 
+                {"id": 29, "lemma": ".", "type": "SF", "position": 1499, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "결정적", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "증거", "type": "", "begin": 2, "end": 2}, 
+                {"id": 2, "text": "여부와", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "관계없이,", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "미국", "type": "", "begin": 7, "end": 7}, 
+                {"id": 5, "text": "정치권에서", "type": "", "begin": 8, "end": 10}, 
+                {"id": 6, "text": "가장", "type": "", "begin": 11, "end": 11}, 
+                {"id": 7, "text": "큰", "type": "", "begin": 12, "end": 13}, 
+                {"id": 8, "text": "흠결로", "type": "", "begin": 14, "end": 15}, 
+                {"id": 9, "text": "꼽히는", "type": "", "begin": 16, "end": 17}, 
+                {"id": 10, "text": "거짓말쟁이로", "type": "", "begin": 18, "end": 21}, 
+                {"id": 11, "text": "비판받았기", "type": "", "begin": 22, "end": 25}, 
+                {"id": 12, "text": "때문입니다.", "type": "", "begin": 26, "end": 29}
+            ], 
+            "NE": [
+                {"id": 0, "text": "미국", "type": "LCP_COUNTRY", "begin": 7, "end": 7, "weight": 0.861429, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "결정적", "head": 1, "label": "NP", "mod": [], "weight": 0.303422}, 
+                {"id": 1, "text": "증거", "head": 2, "label": "NP", "mod": [0], "weight": 0.724677}, 
+                {"id": 2, "text": "여부와", "head": 3, "label": "NP_AJT", "mod": [1], "weight": 0.817464}, 
+                {"id": 3, "text": "관계없이,", "head": 11, "label": "AP", "mod": [2], "weight": 0.811112}, 
+                {"id": 4, "text": "미국", "head": 5, "label": "NP", "mod": [], "weight": 0.581898}, 
+                {"id": 5, "text": "정치권에서", "head": 7, "label": "NP_AJT", "mod": [4], "weight": 0.171249}, 
+                {"id": 6, "text": "가장", "head": 7, "label": "AP", "mod": [], "weight": 0.715621}, 
+                {"id": 7, "text": "큰", "head": 8, "label": "VP_MOD", "mod": [5, 6], "weight": 0.453349}, 
+                {"id": 8, "text": "흠결로", "head": 9, "label": "NP_AJT", "mod": [7], "weight": 0.68614}, 
+                {"id": 9, "text": "꼽히는", "head": 10, "label": "VP_MOD", "mod": [8], "weight": 0.753836}, 
+                {"id": 10, "text": "거짓말쟁이로", "head": 11, "label": "NP_AJT", "mod": [9], "weight": 0.784985}, 
+                {"id": 11, "text": "비판받았기", "head": 12, "label": "VP", "mod": [3, 10], "weight": 0.632586}, 
+                {"id": 12, "text": "때문입니다.", "head": -1, "label": "VNP", "mod": [11], "weight": 0.00111723}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "결정적 증거 여부와", "begin": 0, "end": 2, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "AP", "text": "P#0@AJT와 관계없이,", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 8, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "미국 정치권에서", "begin": 4, "end": 5, "key_begin": 4, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "AP", "text": "가장", "begin": 6, "end": 6, "key_begin": 6, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#2@AJT에서 P#3@AP가장 큰", "begin": 4, "end": 7, "key_begin": 7, "head_phrase": 5, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "P#4@MODㄴ 흠결로", "begin": 4, "end": 8, "key_begin": 8, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "VP_MOD", "text": "P#5@AJT로 꼽히는", "begin": 4, "end": 9, "key_begin": 9, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_AJT", "text": "P#6@MOD는 거짓말쟁이로", "begin": 4, "end": 10, "key_begin": 10, "head_phrase": 8, "sub_phrase": [6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "VP", "text": "P#1@AP관계없이, P#7@AJT로 비판받았기", "begin": 0, "end": 11, "key_begin": 11, "head_phrase": 9, "sub_phrase": [1, 7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "VNP", "text": "P#8@VP기 때문입니다.", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": -1, "sub_phrase": [8], "weight": 0, "element": [
+                    {"text": "때문", "label": "NP", "begin": 26, "end": 26, "ne_type": ""}, 
+                    {"text": "입니다.", "label": "VP", "begin": 27, "end": 29, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [
+                {"verb": "크", "sense": 1, "word_id": 7, "weight": 0.413955, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 5, "text": "미국 정치권", "weight": 0.131256}, 
+                    {"type": "ARGM-EXT", "word_id": 6, "text": "가장", "weight": 0.575967}, 
+                    {"type": "ARG1", "word_id": 8, "text": "흠결", "weight": 0.534641}
+                ]}, 
+                {"verb": "꼽히", "sense": 1, "word_id": 9, "weight": 0.430668, "argument": [
+                    {"type": "ARG2", "word_id": 8, "text": "흠결", "weight": 0.202103}, 
+                    {"type": "ARG1", "word_id": 10, "text": "거짓말쟁이", "weight": 0.659234}
+                ]}, 
+                {"verb": "비판", "sense": 2, "word_id": 11, "weight": 0.107919, "argument": [
+                    {"type": "ARGM-DIS", "word_id": 3, "text": "관계없이,", "weight": 0.0999028}, 
+                    {"type": "ARG2", "word_id": 10, "text": "거짓말쟁이", "weight": 0.115935}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 11, "ant_sid": 10, "ant_wid": 2, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 12, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 12, 
+            "text": "트럼프 저격수로 기대를 모았던 매케인 상원의원은 논점 없는 질문으로 눈총을 샀습니다.", 
+            "morp": [
+                {"id": 0, "lemma": "트럼프", "type": "NNG", "position": 1500, "weight": 0.378766}, 
+                {"id": 1, "lemma": "저격", "type": "NNG", "position": 1510, "weight": 0.9}, 
+                {"id": 2, "lemma": "수", "type": "NNG", "position": 1516, "weight": 0.00933311}, 
+                {"id": 3, "lemma": "로", "type": "JKB", "position": 1519, "weight": 0.153229}, 
+                {"id": 4, "lemma": "기대", "type": "NNG", "position": 1523, "weight": 0.146351}, 
+                {"id": 5, "lemma": "를", "type": "JKO", "position": 1529, "weight": 0.137686}, 
+                {"id": 6, "lemma": "모으", "type": "VV", "position": 1533, "weight": 0.9}, 
+                {"id": 7, "lemma": "았", "type": "EP", "position": 1536, "weight": 0.9}, 
+                {"id": 8, "lemma": "던", "type": "ETM", "position": 1539, "weight": 0.107547}, 
+                {"id": 9, "lemma": "매케인", "type": "NNP", "position": 1543, "weight": 0.2}, 
+                {"id": 10, "lemma": "상원", "type": "NNG", "position": 1553, "weight": 0.272592}, 
+                {"id": 11, "lemma": "의원", "type": "NNG", "position": 1559, "weight": 0.9}, 
+                {"id": 12, "lemma": "은", "type": "JX", "position": 1565, "weight": 0.0449928}, 
+                {"id": 13, "lemma": "논점", "type": "NNG", "position": 1569, "weight": 0.9}, 
+                {"id": 14, "lemma": "없", "type": "VA", "position": 1576, "weight": 0.00587322}, 
+                {"id": 15, "lemma": "는", "type": "ETM", "position": 1579, "weight": 0.26168}, 
+                {"id": 16, "lemma": "질문", "type": "NNG", "position": 1583, "weight": 0.9}, 
+                {"id": 17, "lemma": "으로", "type": "JKB", "position": 1589, "weight": 0.153406}, 
+                {"id": 18, "lemma": "눈총", "type": "NNG", "position": 1596, "weight": 0.9}, 
+                {"id": 19, "lemma": "을", "type": "JKO", "position": 1602, "weight": 0.129611}, 
+                {"id": 20, "lemma": "사", "type": "VV", "position": 1606, "weight": 0.45259}, 
+                {"id": 21, "lemma": "았", "type": "EP", "position": 1606, "weight": 0.9}, 
+                {"id": 22, "lemma": "습니다", "type": "EF", "position": 1609, "weight": 0.660908}, 
+                {"id": 23, "lemma": ".", "type": "SF", "position": 1618, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "트럼프", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "저격수로", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "기대를", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "모았던", "type": "", "begin": 6, "end": 8}, 
+                {"id": 4, "text": "매케인", "type": "", "begin": 9, "end": 9}, 
+                {"id": 5, "text": "상원의원은", "type": "", "begin": 10, "end": 12}, 
+                {"id": 6, "text": "논점", "type": "", "begin": 13, "end": 13}, 
+                {"id": 7, "text": "없는", "type": "", "begin": 14, "end": 15}, 
+                {"id": 8, "text": "질문으로", "type": "", "begin": 16, "end": 17}, 
+                {"id": 9, "text": "눈총을", "type": "", "begin": 18, "end": 19}, 
+                {"id": 10, "text": "샀습니다.", "type": "", "begin": 20, "end": 23}
+            ], 
+            "NE": [
+                {"id": 0, "text": "트럼프", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.0937768, "common_noun": 0}, 
+                {"id": 1, "text": "저격수", "type": "CV_POSITION", "begin": 1, "end": 2, "weight": 0.475194, "common_noun": 0}, 
+                {"id": 2, "text": "매케인", "type": "PS_NAME", "begin": 9, "end": 9, "weight": 0.415333, "common_noun": 0}, 
+                {"id": 3, "text": "상원의원", "type": "CV_POSITION", "begin": 10, "end": 11, "weight": 0.580885, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "트럼프", "head": 1, "label": "NP", "mod": [], "weight": 0.261166}, 
+                {"id": 1, "text": "저격수로", "head": 3, "label": "NP_AJT", "mod": [0], "weight": 0.636956}, 
+                {"id": 2, "text": "기대를", "head": 3, "label": "NP_OBJ", "mod": [], "weight": 0.760401}, 
+                {"id": 3, "text": "모았던", "head": 5, "label": "VP_MOD", "mod": [1, 2], "weight": 0.552531}, 
+                {"id": 4, "text": "매케인", "head": 5, "label": "NP", "mod": [], "weight": 0.703987}, 
+                {"id": 5, "text": "상원의원은", "head": 10, "label": "NP_SBJ", "mod": [3, 4], "weight": 0.77565}, 
+                {"id": 6, "text": "논점", "head": 7, "label": "NP_SBJ", "mod": [], "weight": 0.558829}, 
+                {"id": 7, "text": "없는", "head": 8, "label": "VP_MOD", "mod": [6], "weight": 0.757584}, 
+                {"id": 8, "text": "질문으로", "head": 10, "label": "NP_AJT", "mod": [7], "weight": 0.832203}, 
+                {"id": 9, "text": "눈총을", "head": 10, "label": "NP_OBJ", "mod": [], "weight": 0.757054}, 
+                {"id": 10, "text": "샀습니다.", "head": -1, "label": "VP", "mod": [5, 8, 9], "weight": 0.00864239}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "트럼프 저격수로", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "기대를", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#0@AJT로 P#1@OBJ를 모았던", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "P#2@MOD던 매케인 상원의원은", "begin": 0, "end": 5, "key_begin": 4, "head_phrase": 8, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "논점", "begin": 6, "end": 6, "key_begin": 6, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S_MOD", "text": "P#4@SBJ논점 없는", "begin": 6, "end": 7, "key_begin": 7, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "S#5@MOD는 질문으로", "begin": 6, "end": 8, "key_begin": 8, "head_phrase": 8, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_OBJ", "text": "눈총을", "begin": 9, "end": 9, "key_begin": 9, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "P#3@SBJ은 P#6@AJT으로 P#7@OBJ을 샀습니다.", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": -1, "sub_phrase": [3, 6, 7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "모으", "sense": 1, "word_id": 3, "weight": 0.260151, "argument": [
+                    {"type": "ARG2", "word_id": 1, "text": "트럼프 저격수", "weight": 0.238864}, 
+                    {"type": "ARG1", "word_id": 2, "text": "기대", "weight": 0.420746}, 
+                    {"type": "ARG2", "word_id": 5, "text": "매케인 상원의원", "weight": 0.120843}
+                ]}, 
+                {"verb": "없", "sense": 1, "word_id": 7, "weight": 0.254832, "argument": [
+                    {"type": "ARG2", "word_id": 6, "text": "논점", "weight": 0.207846}, 
+                    {"type": "ARG1", "word_id": 8, "text": "질문", "weight": 0.301818}
+                ]}, 
+                {"verb": "사", "sense": 1, "word_id": 10, "weight": 0.248074, "argument": [
+                    {"type": "ARG0", "word_id": 5, "text": "매케인 상원의원", "weight": 0.202575}, 
+                    {"type": "ARGM-EXT", "word_id": 8, "text": "질문", "weight": 0.0879585}, 
+                    {"type": "ARG1", "word_id": 9, "text": "눈총", "weight": 0.45369}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 13, 
+            "text": "워싱턴 포스트는 코미가 반복적으로 러시아 게이트 관련 보도가 틀렸다고 말했다며 언론들도 패자라고 비판했습니다.", 
+            "morp": [
+                {"id": 0, "lemma": "워싱턴", "type": "NNP", "position": 1619, "weight": 0.9}, 
+                {"id": 1, "lemma": "포스트", "type": "NNG", "position": 1629, "weight": 0.274399}, 
+                {"id": 2, "lemma": "는", "type": "JX", "position": 1638, "weight": 0.0287565}, 
+                {"id": 3, "lemma": "코미", "type": "NNG", "position": 1642, "weight": 0}, 
+                {"id": 4, "lemma": "가", "type": "JKS", "position": 1648, "weight": 0.066324}, 
+                {"id": 5, "lemma": "반복", "type": "NNG", "position": 1652, "weight": 0.9}, 
+                {"id": 6, "lemma": "적", "type": "XSN", "position": 1658, "weight": 0.0168756}, 
+                {"id": 7, "lemma": "으로", "type": "JKB", "position": 1661, "weight": 0.121717}, 
+                {"id": 8, "lemma": "러시아", "type": "NNP", "position": 1668, "weight": 0.9}, 
+                {"id": 9, "lemma": "게이트", "type": "NNG", "position": 1678, "weight": 0.9}, 
+                {"id": 10, "lemma": "관련", "type": "NNG", "position": 1688, "weight": 0.9}, 
+                {"id": 11, "lemma": "보도", "type": "NNG", "position": 1695, "weight": 0.184725}, 
+                {"id": 12, "lemma": "가", "type": "JKS", "position": 1701, "weight": 0.066324}, 
+                {"id": 13, "lemma": "틀리", "type": "VV", "position": 1705, "weight": 0.311723}, 
+                {"id": 14, "lemma": "었", "type": "EP", "position": 1708, "weight": 0.9}, 
+                {"id": 15, "lemma": "다고", "type": "EC", "position": 1711, "weight": 0.193823}, 
+                {"id": 16, "lemma": "말", "type": "NNG", "position": 1718, "weight": 0.176156}, 
+                {"id": 17, "lemma": "하", "type": "XSV", "position": 1721, "weight": 0.0001}, 
+                {"id": 18, "lemma": "었", "type": "EP", "position": 1721, "weight": 0.9}, 
+                {"id": 19, "lemma": "다며", "type": "EC", "position": 1724, "weight": 0.190361}, 
+                {"id": 20, "lemma": "언론", "type": "NNG", "position": 1731, "weight": 0.9}, 
+                {"id": 21, "lemma": "들", "type": "XSN", "position": 1737, "weight": 0.0299841}, 
+                {"id": 22, "lemma": "도", "type": "JX", "position": 1740, "weight": 0.150897}, 
+                {"id": 23, "lemma": "패자", "type": "NNG", "position": 1744, "weight": 0.9}, 
+                {"id": 24, "lemma": "이", "type": "VCP", "position": 1750, "weight": 0.0177525}, 
+                {"id": 25, "lemma": "라고", "type": "EC", "position": 1750, "weight": 0.204147}, 
+                {"id": 26, "lemma": "비판", "type": "NNG", "position": 1757, "weight": 0.9}, 
+                {"id": 27, "lemma": "하", "type": "XSV", "position": 1763, "weight": 0.0001}, 
+                {"id": 28, "lemma": "었", "type": "EP", "position": 1763, "weight": 0.9}, 
+                {"id": 29, "lemma": "습니다", "type": "EF", "position": 1766, "weight": 0.660908}, 
+                {"id": 30, "lemma": ".", "type": "SF", "position": 1775, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "워싱턴", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "포스트는", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "코미가", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "반복적으로", "type": "", "begin": 5, "end": 7}, 
+                {"id": 4, "text": "러시아", "type": "", "begin": 8, "end": 8}, 
+                {"id": 5, "text": "게이트", "type": "", "begin": 9, "end": 9}, 
+                {"id": 6, "text": "관련", "type": "", "begin": 10, "end": 10}, 
+                {"id": 7, "text": "보도가", "type": "", "begin": 11, "end": 12}, 
+                {"id": 8, "text": "틀렸다고", "type": "", "begin": 13, "end": 15}, 
+                {"id": 9, "text": "말했다며", "type": "", "begin": 16, "end": 19}, 
+                {"id": 10, "text": "언론들도", "type": "", "begin": 20, "end": 22}, 
+                {"id": 11, "text": "패자라고", "type": "", "begin": 23, "end": 25}, 
+                {"id": 12, "text": "비판했습니다.", "type": "", "begin": 26, "end": 30}
+            ], 
+            "NE": [
+                {"id": 0, "text": "워싱턴 포스트", "type": "OGG_MEDIA", "begin": 0, "end": 1, "weight": 0.370433, "common_noun": 0}, 
+                {"id": 1, "text": "코미", "type": "LCP_COUNTRY", "begin": 3, "end": 3, "weight": 0.297623, "common_noun": 0}, 
+                {"id": 2, "text": "러시아", "type": "LCP_COUNTRY", "begin": 8, "end": 8, "weight": 0.443346, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "워싱턴", "head": 1, "label": "NP", "mod": [], "weight": 0.79597}, 
+                {"id": 1, "text": "포스트는", "head": 9, "label": "NP_SBJ", "mod": [0], "weight": 0.461667}, 
+                {"id": 2, "text": "코미가", "head": 8, "label": "NP_SBJ", "mod": [], "weight": 0.528586}, 
+                {"id": 3, "text": "반복적으로", "head": 8, "label": "NP_AJT", "mod": [], "weight": 0.253816}, 
+                {"id": 4, "text": "러시아", "head": 6, "label": "NP", "mod": [], "weight": 0.280548}, 
+                {"id": 5, "text": "게이트", "head": 6, "label": "NP", "mod": [], "weight": 0.677472}, 
+                {"id": 6, "text": "관련", "head": 7, "label": "NP", "mod": [4, 5], "weight": 0.739185}, 
+                {"id": 7, "text": "보도가", "head": 8, "label": "NP_SBJ", "mod": [6], "weight": 0.820117}, 
+                {"id": 8, "text": "틀렸다고", "head": 9, "label": "VP_CMP", "mod": [2, 3, 7], "weight": 0.460668}, 
+                {"id": 9, "text": "말했다며", "head": 11, "label": "VP", "mod": [1, 8], "weight": 0.536506}, 
+                {"id": 10, "text": "언론들도", "head": 11, "label": "NP_SBJ", "mod": [], "weight": 0.718446}, 
+                {"id": 11, "text": "패자라고", "head": 12, "label": "VNP_CMP", "mod": [9, 10], "weight": 0.653067}, 
+                {"id": 12, "text": "비판했습니다.", "head": -1, "label": "VP", "mod": [11], "weight": 0.0005833}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "워싱턴 포스트는", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "코미가", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "반복적으로", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "러시아 게이트 관련 보도가", "begin": 4, "end": 7, "key_begin": 4, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S_CMP", "text": "P#1@SBJ가 P#2@AJT으로 P#3@SBJ가 틀렸다고", "begin": 2, "end": 8, "key_begin": 8, "head_phrase": 5, "sub_phrase": [1, 2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#0@SBJ는 S#4@CMP다고 말했다며", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 7, "sub_phrase": [0, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_SBJ", "text": "언론들도", "begin": 10, "end": 10, "key_begin": 10, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S_CMP", "text": "S#5@S다며 P#6@SBJ도 패자라고", "begin": 0, "end": 11, "key_begin": 11, "head_phrase": 8, "sub_phrase": [5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "S#7@CMP라고 비판했습니다.", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": -1, "sub_phrase": [7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "틀리", "sense": 1, "word_id": 8, "weight": 0.326132, "argument": [
+                    {"type": "ARG1", "word_id": 7, "text": "러시아 게이트 관련 보도", "weight": 0.326132}
+                ]}, 
+                {"verb": "말", "sense": 1, "word_id": 9, "weight": 0.313706, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "틀렸다고", "weight": 0.313706}
+                ]}, 
+                {"verb": "비판", "sense": 1, "word_id": 12, "weight": 0.237138, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "워싱턴 포스트", "weight": 0.266498}, 
+                    {"type": "ARGM-CAU", "word_id": 9, "text": "말했다며", "weight": 0.160951}, 
+                    {"type": "ARG0", "word_id": 10, "text": "언론들", "weight": 0.217341}, 
+                    {"type": "ARG2", "word_id": 11, "text": "패자라고", "weight": 0.303763}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 11, "ant_sid": 13, "ant_wid": 2, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "o", "head_wid": 12, "ant_sid": 13, "ant_wid": 2, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 14, 
+            "text": "코미에 대한 평가는 갈렸지만, 청문회에 대한 미 국민들의 기대감은 높았습니다.", 
+            "morp": [
+                {"id": 0, "lemma": "코미", "type": "NNG", "position": 1776, "weight": 0}, 
+                {"id": 1, "lemma": "에", "type": "JKB", "position": 1782, "weight": 0.153364}, 
+                {"id": 2, "lemma": "대", "type": "NNG", "position": 1786, "weight": 0.0312871}, 
+                {"id": 3, "lemma": "하", "type": "XSV", "position": 1789, "weight": 0.0001}, 
+                {"id": 4, "lemma": "ㄴ", "type": "ETM", "position": 1789, "weight": 0.392321}, 
+                {"id": 5, "lemma": "평가", "type": "NNG", "position": 1793, "weight": 0.9}, 
+                {"id": 6, "lemma": "는", "type": "JX", "position": 1799, "weight": 0.0287565}, 
+                {"id": 7, "lemma": "갈리", "type": "VV", "position": 1803, "weight": 0.134863}, 
+                {"id": 8, "lemma": "었", "type": "EP", "position": 1806, "weight": 0.9}, 
+                {"id": 9, "lemma": "지만", "type": "EC", "position": 1809, "weight": 0.194093}, 
+                {"id": 10, "lemma": ",", "type": "SP", "position": 1815, "weight": 1}, 
+                {"id": 11, "lemma": "청문", "type": "NNG", "position": 1817, "weight": 0.9}, 
+                {"id": 12, "lemma": "회", "type": "XSN", "position": 1823, "weight": 0.010766}, 
+                {"id": 13, "lemma": "에", "type": "JKB", "position": 1826, "weight": 0.121683}, 
+                {"id": 14, "lemma": "대", "type": "NNG", "position": 1830, "weight": 0.0312871}, 
+                {"id": 15, "lemma": "하", "type": "XSV", "position": 1833, "weight": 0.0001}, 
+                {"id": 16, "lemma": "ㄴ", "type": "ETM", "position": 1833, "weight": 0.392321}, 
+                {"id": 17, "lemma": "미", "type": "NNP", "position": 1837, "weight": 0.0218237}, 
+                {"id": 18, "lemma": "국민", "type": "NNG", "position": 1841, "weight": 0.278417}, 
+                {"id": 19, "lemma": "들", "type": "XSN", "position": 1847, "weight": 0.0299841}, 
+                {"id": 20, "lemma": "의", "type": "JKG", "position": 1850, "weight": 0.120732}, 
+                {"id": 21, "lemma": "기대", "type": "NNG", "position": 1854, "weight": 0.613022}, 
+                {"id": 22, "lemma": "감", "type": "XSN", "position": 1860, "weight": 0.00406989}, 
+                {"id": 23, "lemma": "은", "type": "JX", "position": 1863, "weight": 0.100393}, 
+                {"id": 24, "lemma": "높", "type": "VA", "position": 1867, "weight": 0.109105}, 
+                {"id": 25, "lemma": "았", "type": "EP", "position": 1870, "weight": 0.9}, 
+                {"id": 26, "lemma": "습니다", "type": "EF", "position": 1873, "weight": 0.660908}, 
+                {"id": 27, "lemma": ".", "type": "SF", "position": 1882, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "코미에", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "대한", "type": "", "begin": 2, "end": 4}, 
+                {"id": 2, "text": "평가는", "type": "", "begin": 5, "end": 6}, 
+                {"id": 3, "text": "갈렸지만,", "type": "", "begin": 7, "end": 10}, 
+                {"id": 4, "text": "청문회에", "type": "", "begin": 11, "end": 13}, 
+                {"id": 5, "text": "대한", "type": "", "begin": 14, "end": 16}, 
+                {"id": 6, "text": "미", "type": "", "begin": 17, "end": 17}, 
+                {"id": 7, "text": "국민들의", "type": "", "begin": 18, "end": 20}, 
+                {"id": 8, "text": "기대감은", "type": "", "begin": 21, "end": 23}, 
+                {"id": 9, "text": "높았습니다.", "type": "", "begin": 24, "end": 27}
+            ], 
+            "NE": [
+                {"id": 0, "text": "코미", "type": "LCP_COUNTRY", "begin": 0, "end": 0, "weight": 0.321739, "common_noun": 0}, 
+                {"id": 1, "text": "미", "type": "LCP_COUNTRY", "begin": 17, "end": 17, "weight": 0.248272, "common_noun": 0}, 
+                {"id": 2, "text": "국민", "type": "CV_POSITION", "begin": 18, "end": 18, "weight": 0.57652, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "코미에", "head": 1, "label": "NP_AJT", "mod": [], "weight": 0.819926}, 
+                {"id": 1, "text": "대한", "head": 2, "label": "VP_MOD", "mod": [0], "weight": 0.697724}, 
+                {"id": 2, "text": "평가는", "head": 3, "label": "NP_SBJ", "mod": [1], "weight": 0.183162}, 
+                {"id": 3, "text": "갈렸지만,", "head": 9, "label": "VP", "mod": [2], "weight": 0.635681}, 
+                {"id": 4, "text": "청문회에", "head": 5, "label": "NP_AJT", "mod": [], "weight": 0.67203}, 
+                {"id": 5, "text": "대한", "head": 7, "label": "VP_MOD", "mod": [4], "weight": 0.0307525}, 
+                {"id": 6, "text": "미", "head": 7, "label": "NP", "mod": [], "weight": 0.694595}, 
+                {"id": 7, "text": "국민들의", "head": 8, "label": "NP_MOD", "mod": [5, 6], "weight": 0.72279}, 
+                {"id": 8, "text": "기대감은", "head": 9, "label": "NP_SBJ", "mod": [7], "weight": 0.743395}, 
+                {"id": 9, "text": "높았습니다.", "head": -1, "label": "VP", "mod": [3, 8], "weight": 0.000458112}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "코미에", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@AJT에 대한", "begin": 0, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "P#1@MODㄴ 평가는", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#2@SBJ는 갈렸지만,", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 7, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "청문회에", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP_MOD", "text": "P#4@AJT에 대한", "begin": 4, "end": 5, "key_begin": 5, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_SBJ", "text": "P#5@MODㄴ 미 국민들의 기대감은", "begin": 4, "end": 8, "key_begin": 6, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "S#3@S지만, P#6@SBJ은 높았습니다.", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": -1, "sub_phrase": [3, 6], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "대", "sense": 1, "word_id": 1, "weight": 0.575221, "argument": [
+                    {"type": "ARG2", "word_id": 0, "text": "코미", "weight": 0.505566}, 
+                    {"type": "ARG1", "word_id": 2, "text": "평가", "weight": 0.644875}
+                ]}, 
+                {"verb": "갈리", "sense": 1, "word_id": 3, "weight": 0.243046, "argument": [
+                    {"type": "ARG1", "word_id": 2, "text": "평가", "weight": 0.243046}
+                ]}, 
+                {"verb": "대", "sense": 1, "word_id": 5, "weight": 0.419585, "argument": [
+                    {"type": "ARG2", "word_id": 4, "text": "청문회", "weight": 0.419585}
+                ]}, 
+                {"verb": "높", "sense": 1, "word_id": 9, "weight": 0.416743, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "미 국민들의 기대감", "weight": 0.416743}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 15, 
+            "text": "[엘렌 클린턴 : 모든 미 국민은 진실이 밝혀지길 원하고, 다시 한번 모두가 긍정적인 나라로 나아가길 바랍니다.", 
+            "morp": [
+                {"id": 0, "lemma": "[", "type": "SS", "position": 1883, "weight": 1}, 
+                {"id": 1, "lemma": "엘렌", "type": "NNP", "position": 1884, "weight": 0.0421607}, 
+                {"id": 2, "lemma": "클린턴", "type": "NNP", "position": 1891, "weight": 0.9}, 
+                {"id": 3, "lemma": ":", "type": "SP", "position": 1901, "weight": 1}, 
+                {"id": 4, "lemma": "모든", "type": "MM", "position": 1903, "weight": 0.9}, 
+                {"id": 5, "lemma": "미", "type": "NNP", "position": 1910, "weight": 0.00725738}, 
+                {"id": 6, "lemma": "국민", "type": "NNG", "position": 1914, "weight": 0.278417}, 
+                {"id": 7, "lemma": "은", "type": "JX", "position": 1920, "weight": 0.0449928}, 
+                {"id": 8, "lemma": "진실", "type": "NNG", "position": 1924, "weight": 0.9}, 
+                {"id": 9, "lemma": "이", "type": "JKS", "position": 1930, "weight": 0.0360723}, 
+                {"id": 10, "lemma": "밝혀지", "type": "VV", "position": 1934, "weight": 0.9}, 
+                {"id": 11, "lemma": "기", "type": "ETN", "position": 1943, "weight": 0.0380514}, 
+                {"id": 12, "lemma": "ㄹ", "type": "JKO", "position": 1943, "weight": 0.00494828}, 
+                {"id": 13, "lemma": "원", "type": "NNG", "position": 1947, "weight": 0.00415471}, 
+                {"id": 14, "lemma": "하", "type": "XSV", "position": 1950, "weight": 0.0001}, 
+                {"id": 15, "lemma": "고", "type": "EC", "position": 1953, "weight": 0.359917}, 
+                {"id": 16, "lemma": ",", "type": "SP", "position": 1956, "weight": 1}, 
+                {"id": 17, "lemma": "다시", "type": "MAG", "position": 1958, "weight": 0.0572153}, 
+                {"id": 18, "lemma": "한", "type": "MM", "position": 1965, "weight": 0.0320197}, 
+                {"id": 19, "lemma": "번", "type": "NNB", "position": 1968, "weight": 0.179863}, 
+                {"id": 20, "lemma": "모두", "type": "NNG", "position": 1972, "weight": 0.022826}, 
+                {"id": 21, "lemma": "가", "type": "JKS", "position": 1978, "weight": 0.066324}, 
+                {"id": 22, "lemma": "긍정", "type": "NNG", "position": 1982, "weight": 0.9}, 
+                {"id": 23, "lemma": "적", "type": "XSN", "position": 1988, "weight": 0.0168756}, 
+                {"id": 24, "lemma": "이", "type": "VCP", "position": 1991, "weight": 0.0165001}, 
+                {"id": 25, "lemma": "ㄴ", "type": "ETM", "position": 1991, "weight": 0.220712}, 
+                {"id": 26, "lemma": "나라", "type": "NNG", "position": 1995, "weight": 0.657386}, 
+                {"id": 27, "lemma": "로", "type": "JKB", "position": 2001, "weight": 0.153229}, 
+                {"id": 28, "lemma": "나아가", "type": "VV", "position": 2005, "weight": 0.9}, 
+                {"id": 29, "lemma": "기", "type": "ETN", "position": 2014, "weight": 0.0380514}, 
+                {"id": 30, "lemma": "ㄹ", "type": "JKO", "position": 2014, "weight": 0.00494828}, 
+                {"id": 31, "lemma": "바라", "type": "VV", "position": 2018, "weight": 0.775054}, 
+                {"id": 32, "lemma": "ㅂ니다", "type": "EF", "position": 2021, "weight": 0.0793776}, 
+                {"id": 33, "lemma": ".", "type": "SF", "position": 2030, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "[엘렌", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "클린턴", "type": "", "begin": 2, "end": 2}, 
+                {"id": 2, "text": ":", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "모든", "type": "", "begin": 4, "end": 4}, 
+                {"id": 4, "text": "미", "type": "", "begin": 5, "end": 5}, 
+                {"id": 5, "text": "국민은", "type": "", "begin": 6, "end": 7}, 
+                {"id": 6, "text": "진실이", "type": "", "begin": 8, "end": 9}, 
+                {"id": 7, "text": "밝혀지길", "type": "", "begin": 10, "end": 12}, 
+                {"id": 8, "text": "원하고,", "type": "", "begin": 13, "end": 16}, 
+                {"id": 9, "text": "다시", "type": "", "begin": 17, "end": 17}, 
+                {"id": 10, "text": "한번", "type": "", "begin": 18, "end": 19}, 
+                {"id": 11, "text": "모두가", "type": "", "begin": 20, "end": 21}, 
+                {"id": 12, "text": "긍정적인", "type": "", "begin": 22, "end": 25}, 
+                {"id": 13, "text": "나라로", "type": "", "begin": 26, "end": 27}, 
+                {"id": 14, "text": "나아가길", "type": "", "begin": 28, "end": 30}, 
+                {"id": 15, "text": "바랍니다.", "type": "", "begin": 31, "end": 33}
+            ], 
+            "NE": [
+                {"id": 0, "text": "엘렌 클린턴", "type": "PS_NAME", "begin": 1, "end": 2, "weight": 0.0800786, "common_noun": 0}, 
+                {"id": 1, "text": "미", "type": "LCP_COUNTRY", "begin": 5, "end": 5, "weight": 0.295065, "common_noun": 0}, 
+                {"id": 2, "text": "국민", "type": "CV_POSITION", "begin": 6, "end": 6, "weight": 0.358871, "common_noun": 0}, 
+                {"id": 3, "text": "한번", "type": "QT_COUNT", "begin": 18, "end": 19, "weight": 0.787068, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "[엘렌", "head": 1, "label": "NP", "mod": [], "weight": 0.683275}, 
+                {"id": 1, "text": "클린턴", "head": 2, "label": "NP", "mod": [0], "weight": 0.577221}, 
+                {"id": 2, "text": ":", "head": 8, "label": "X", "mod": [1], "weight": 0.601862}, 
+                {"id": 3, "text": "모든", "head": 5, "label": "DP", "mod": [], "weight": 0.655098}, 
+                {"id": 4, "text": "미", "head": 5, "label": "NP", "mod": [], "weight": 0.750413}, 
+                {"id": 5, "text": "국민은", "head": 8, "label": "NP_SBJ", "mod": [3, 4], "weight": 0.364701}, 
+                {"id": 6, "text": "진실이", "head": 7, "label": "NP_SBJ", "mod": [], "weight": 0.786806}, 
+                {"id": 7, "text": "밝혀지길", "head": 8, "label": "VP_OBJ", "mod": [6], "weight": 0.657769}, 
+                {"id": 8, "text": "원하고,", "head": 14, "label": "VP", "mod": [2, 5, 7], "weight": 0.748867}, 
+                {"id": 9, "text": "다시", "head": 10, "label": "AP", "mod": [], "weight": 0.688175}, 
+                {"id": 10, "text": "한번", "head": 14, "label": "NP_AJT", "mod": [9], "weight": 0.869041}, 
+                {"id": 11, "text": "모두가", "head": 14, "label": "NP_SBJ", "mod": [], "weight": 0.85844}, 
+                {"id": 12, "text": "긍정적인", "head": 13, "label": "VNP_MOD", "mod": [], "weight": 0.694719}, 
+                {"id": 13, "text": "나라로", "head": 14, "label": "NP_AJT", "mod": [12], "weight": 0.884896}, 
+                {"id": 14, "text": "나아가길", "head": 15, "label": "VP_OBJ", "mod": [8, 10, 11, 13], "weight": 0.782468}, 
+                {"id": 15, "text": "바랍니다.", "head": -1, "label": "VP", "mod": [14], "weight": 0.00335206}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "X", "text": "[엘렌 클린턴 :", "begin": 0, "end": 2, "key_begin": 0, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "모든 미 국민은", "begin": 3, "end": 5, "key_begin": 3, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "진실이", "begin": 6, "end": 6, "key_begin": 6, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S_OBJ", "text": "P#2@SBJ이 밝혀지길", "begin": 6, "end": 7, "key_begin": 7, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "P#0@X: P#1@SBJ은 S#3@OBJㄹ 원하고,", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": 8, "sub_phrase": [0, 1, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "다시 한번", "begin": 9, "end": 10, "key_begin": 9, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_SBJ", "text": "모두가", "begin": 11, "end": 11, "key_begin": 11, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_AJT", "text": "긍정적인 나라로", "begin": 12, "end": 13, "key_begin": 12, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S_OBJ", "text": "S#4@S고, P#5@AJT번 P#6@SBJ가 P#7@AJT로 나아가길", "begin": 0, "end": 14, "key_begin": 14, "head_phrase": 9, "sub_phrase": [4, 5, 6, 7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "S#8@OBJㄹ 바랍니다.", "begin": 0, "end": 15, "key_begin": 15, "head_phrase": -1, "sub_phrase": [8], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "밝혀지", "sense": 1, "word_id": 7, "weight": 0.362129, "argument": [
+                    {"type": "ARG1", "word_id": 6, "text": "진실", "weight": 0.362129}
+                ]}, 
+                {"verb": "원", "sense": 1, "word_id": 8, "weight": 0.418833, "argument": [
+                    {"type": "ARG0", "word_id": 5, "text": "모든 미 국민", "weight": 0.453755}, 
+                    {"type": "ARG1", "word_id": 7, "text": "밝혀지기", "weight": 0.383912}
+                ]}, 
+                {"verb": "나아가", "sense": 1, "word_id": 14, "weight": 0.250084, "argument": [
+                    {"type": "ARG0", "word_id": 11, "text": "모두", "weight": 0.318908}, 
+                    {"type": "ARG3", "word_id": 13, "text": "긍정적인 나라", "weight": 0.18126}
+                ]}, 
+                {"verb": "바라", "sense": 1, "word_id": 15, "weight": 0.529016, "argument": [
+                    {"type": "ARG1", "word_id": 14, "text": "나아가기", "weight": 0.529016}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 15, "ant_sid": 15, "ant_wid": 11, "ant_is_title": 0, "weight": 1.01}
+            ]
+        }, 
+        {
+            "id": 16, 
+            "text": "]", 
+            "morp": [
+                {"id": 0, "lemma": "]", "type": "SS", "position": 2031, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "]", "type": "", "begin": 0, "end": 0}
+            ], 
+            "NE": [], 
+            "dependency": [
+                {"id": 0, "text": "]", "head": -1, "label": "R", "mod": [], "weight": 0.0784354}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "R", "text": "]", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }
+    ], 
+    "entity": [
+        {"id": 0, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 1, "sent_id": 0, "start_eid": 0, "end_eid": 0, "ne_id": -1, "text": "침묵", "start_eid_short": 0, "end_eid_short": 0, "text_short": "침묵", "weight": 0.01}, 
+            {"id": 7, "sent_id": 2, "start_eid": 2, "end_eid": 2, "ne_id": -1, "text": "침묵", "start_eid_short": 2, "end_eid_short": 2, "text_short": "침묵", "weight": 0.016}
+        ]}, 
+        {"id": 1, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "코미", "mention": [
+            {"id": 2, "sent_id": 0, "start_eid": 2, "end_eid": 3, "ne_id": 1, "text": "트럼프 \"코미", "start_eid_short": 2, "end_eid_short": 3, "text_short": "트럼프 \"코미,", "weight": 0.006}, 
+            {"id": 65, "sent_id": 9, "start_eid": 4, "end_eid": 4, "ne_id": 0, "text": "'코미", "start_eid_short": 4, "end_eid_short": 4, "text_short": "'코미", "weight": 0.01}
+        ]}, 
+        {"id": 2, "type": "PS_NAME", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 6, "sent_id": 2, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "트럼프", "start_eid_short": 0, "end_eid_short": 0, "text_short": "트럼프", "weight": 0.079}, 
+            {"id": 3, "sent_id": 0, "start_eid": 2, "end_eid": 2, "ne_id": 0, "text": "트럼프", "start_eid_short": 2, "end_eid_short": 2, "text_short": "트럼프", "weight": 0.073}, 
+            {"id": 5, "sent_id": 2, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "트럼프 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "트럼프 대통령", "weight": 0.078}, 
+            {"id": 75, "sent_id": 10, "start_eid": 1, "end_eid": 2, "ne_id": 1, "text": "트럼프 대통령", "start_eid_short": 1, "end_eid_short": 2, "text_short": "트럼프 대통령", "weight": 0.084}, 
+            {"id": 76, "sent_id": 10, "start_eid": 1, "end_eid": 1, "ne_id": 0, "text": "트럼프", "start_eid_short": 1, "end_eid_short": 1, "text_short": "트럼프", "weight": 0.079}, 
+            {"id": 87, "sent_id": 12, "start_eid": 0, "end_eid": 5, "ne_id": 3, "text": "트럼프 저격수로 기대를 모았던 매케인 상원의원", "start_eid_short": 4, "end_eid_short": 5, "text_short": "매케인 상원의원", "weight": 0.073}, 
+            {"id": 89, "sent_id": 12, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "트럼프", "start_eid_short": 0, "end_eid_short": 0, "text_short": "트럼프", "weight": 0.079}
+        ]}, 
+        {"id": 3, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 12, "sent_id": 2, "start_eid": 9, "end_eid": 9, "ne_id": -1, "text": "전", "start_eid_short": 9, "end_eid_short": 9, "text_short": "전", "weight": 0.016}, 
+            {"id": 9, "sent_id": 2, "start_eid": 5, "end_eid": 5, "ne_id": -1, "text": "전", "start_eid_short": 5, "end_eid_short": 5, "text_short": "전", "weight": 0.01}
+        ]}, 
+        {"id": 4, "type": "CV_POSITION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 43, "sent_id": 6, "start_eid": 14, "end_eid": 15, "ne_id": 5, "text": "전 국장이ㅂ니다.", "start_eid_short": 14, "end_eid_short": 15, "text_short": "전 국장이ㅂ니다.", "weight": 0.006}, 
+            {"id": 10, "sent_id": 2, "start_eid": 8, "end_eid": 11, "ne_id": 5, "text": "코미 전 FBI 국장", "start_eid_short": 8, "end_eid_short": 11, "text_short": "코미 전 FBI 국장", "weight": 0.005}
+        ]}, 
+        {"id": 5, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "코미", "mention": [
+            {"id": 11, "sent_id": 2, "start_eid": 8, "end_eid": 8, "ne_id": 3, "text": "코미", "start_eid_short": 8, "end_eid_short": 8, "text_short": "코미", "weight": 0.07}, 
+            {"id": 22, "sent_id": 3, "start_eid": 4, "end_eid": 4, "ne_id": 2, "text": "코미", "start_eid_short": 4, "end_eid_short": 4, "text_short": "코미", "weight": 0.076}, 
+            {"id": 42, "sent_id": 6, "start_eid": 13, "end_eid": 13, "ne_id": 4, "text": "코미", "start_eid_short": 13, "end_eid_short": 13, "text_short": "코미", "weight": 0.076}, 
+            {"id": 96, "sent_id": 13, "start_eid": 2, "end_eid": 2, "ne_id": 1, "text": "코미", "start_eid_short": 2, "end_eid_short": 2, "text_short": "코미", "weight": 0.076}, 
+            {"id": 104, "sent_id": 14, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "코미", "start_eid_short": 0, "end_eid_short": 0, "text_short": "코미", "weight": 0.076}
+        ]}, 
+        {"id": 6, "type": "", "number": "plural", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 102, "sent_id": 13, "start_eid": 10, "end_eid": 10, "ne_id": -1, "text": "언론들", "start_eid_short": 10, "end_eid_short": 10, "text_short": "언론들", "weight": 0.01}, 
+            {"id": 18, "sent_id": 3, "start_eid": 0, "end_eid": 1, "ne_id": -1, "text": "미국 언론들", "start_eid_short": 0, "end_eid_short": 1, "text_short": "미국 언론들", "weight": 0.006}
+        ]}, 
+        {"id": 7, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "미국", "mention": [
+            {"id": 86, "sent_id": 11, "start_eid": 4, "end_eid": 4, "ne_id": 0, "text": "미국", "start_eid_short": 4, "end_eid_short": 4, "text_short": "미국", "weight": 0.03}, 
+            {"id": 19, "sent_id": 3, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "미국", "start_eid_short": 0, "end_eid_short": 0, "text_short": "미국", "weight": 0.024}, 
+            {"id": 72, "sent_id": 9, "start_eid": 14, "end_eid": 14, "ne_id": 5, "text": "미국", "start_eid_short": 14, "end_eid_short": 14, "text_short": "미국", "weight": 0.03}
+        ]}, 
+        {"id": 8, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 24, "sent_id": 4, "start_eid": 0, "end_eid": 13, "ne_id": -1, "text": "특히 정보위원회는 정파를 떠나서, 국민이 정부로부터 듣고 싶어 하는 증언을 충실히 이끌어 냈다는 평가", "start_eid_short": 13, "end_eid_short": 13, "text_short": "평가", "weight": 0.002}, 
+            {"id": 46, "sent_id": 7, "start_eid": 4, "end_eid": 5, "ne_id": -1, "text": "교과서였다는 평가", "start_eid_short": 5, "end_eid_short": 5, "text_short": "평가", "weight": 0.0035}
+        ]}, 
+        {"id": 9, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 41, "sent_id": 6, "start_eid": 11, "end_eid": 11, "ne_id": -1, "text": "증언", "start_eid_short": 11, "end_eid_short": 11, "text_short": "증언", "weight": 0.01}, 
+            {"id": 25, "sent_id": 4, "start_eid": 0, "end_eid": 9, "ne_id": -1, "text": "특히 정보위원회는 정파를 떠나서, 국민이 정부로부터 듣고 싶어 하는 증언", "start_eid_short": 9, "end_eid_short": 9, "text_short": "증언", "weight": 0.006}
+        ]}, 
+        {"id": 10, "type": "CV_POSITION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 29, "sent_id": 4, "start_eid": 4, "end_eid": 4, "ne_id": 1, "text": "국민", "start_eid_short": 4, "end_eid_short": 4, "text_short": "국민", "weight": 0.006}, 
+            {"id": 109, "sent_id": 15, "start_eid": 0, "end_eid": 1, "ne_id": 0, "text": "[엘렌 클린턴", "start_eid_short": 0, "end_eid_short": 1, "text_short": "[엘렌 클린턴", "weight": 0.012}, 
+            {"id": 110, "sent_id": 15, "start_eid": 3, "end_eid": 5, "ne_id": 2, "text": "모든 미 국민", "start_eid_short": 3, "end_eid_short": 5, "text_short": "모든 미 국민", "weight": 0.017}
+        ]}, 
+        {"id": 11, "type": "CV_OCCUPATION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 4, "sent_id": 1, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "[앵커]방금", "start_eid_short": 0, "end_eid_short": 0, "text_short": "[앵커]방금", "weight": 0.003}, 
+            {"id": 31, "sent_id": 5, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "강신후", "start_eid_short": 0, "end_eid_short": 0, "text_short": "강신후", "weight": 0.004}, 
+            {"id": 32, "sent_id": 5, "start_eid": 1, "end_eid": 1, "ne_id": 1, "text": "기자이ㅂ니다.", "start_eid_short": 1, "end_eid_short": 1, "text_short": "기자이ㅂ니다.", "weight": 0.009}, 
+            {"id": 38, "sent_id": 6, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "[기자]\"역대", "start_eid_short": 0, "end_eid_short": 0, "text_short": "[기자]\"역대", "weight": 0.0045}
+        ]}, 
+        {"id": 12, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 66, "sent_id": 9, "start_eid": 6, "end_eid": 6, "ne_id": -1, "text": "언론", "start_eid_short": 6, "end_eid_short": 6, "text_short": "언론", "weight": 0.01}, 
+            {"id": 34, "sent_id": 6, "start_eid": 0, "end_eid": 4, "ne_id": -1, "text": "[기자]\"역대 최고의 정치극장이 열렸다\"미 언론", "start_eid_short": 3, "end_eid_short": 4, "text_short": "열렸다\"미 언론", "weight": 0.006}
+        ]}, 
+        {"id": 13, "type": "OGG_POLITICS", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 50, "sent_id": 8, "start_eid": 1, "end_eid": 1, "ne_id": 1, "text": "공화당", "start_eid_short": 1, "end_eid_short": 1, "text_short": "공화당", "weight": 0.003}, 
+            {"id": 48, "sent_id": 8, "start_eid": 1, "end_eid": 3, "ne_id": 2, "text": "공화당 소속의 정보위", "start_eid_short": 1, "end_eid_short": 3, "text_short": "공화당 소속의 정보위", "weight": 0.002}
+        ]}, 
+        {"id": 14, "type": "CV_POSITION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 55, "sent_id": 8, "start_eid": 7, "end_eid": 7, "ne_id": 5, "text": "워너", "start_eid_short": 7, "end_eid_short": 7, "text_short": "워너", "weight": 0.004}, 
+            {"id": 53, "sent_id": 8, "start_eid": 5, "end_eid": 5, "ne_id": 3, "text": "위원장", "start_eid_short": 5, "end_eid_short": 5, "text_short": "위원장", "weight": 0.009}
+        ]}, 
+        {"id": 15, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 20, "sent_id": 3, "start_eid": 2, "end_eid": 2, "ne_id": -1, "text": "청문회", "start_eid_short": 2, "end_eid_short": 2, "text_short": "청문회", "weight": 0.058}, 
+            {"id": 14, "sent_id": 2, "start_eid": 12, "end_eid": 12, "ne_id": -1, "text": "청문회", "start_eid_short": 12, "end_eid_short": 12, "text_short": "청문회", "weight": 0.052}, 
+            {"id": 106, "sent_id": 14, "start_eid": 4, "end_eid": 4, "ne_id": -1, "text": "청문회", "start_eid_short": 4, "end_eid_short": 4, "text_short": "청문회", "weight": 0.058}, 
+            {"id": 63, "sent_id": 9, "start_eid": 0, "end_eid": 1, "ne_id": -1, "text": "이번 청문회", "start_eid_short": 0, "end_eid_short": 1, "text_short": "이번 청문회", "weight": 0.024}, 
+            {"id": 60, "sent_id": 8, "start_eid": 16, "end_eid": 16, "ne_id": -1, "text": "청문회", "start_eid_short": 16, "end_eid_short": 16, "text_short": "청문회", "weight": 0.058}
+        ]}, 
+        {"id": 16, "type": "PS_NAME", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 88, "sent_id": 12, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "트럼프 저격수", "start_eid_short": 0, "end_eid_short": 1, "text_short": "트럼프 저격수", "weight": 0.012}, 
+            {"id": 91, "sent_id": 12, "start_eid": 4, "end_eid": 4, "ne_id": 2, "text": "매케인", "start_eid_short": 4, "end_eid_short": 4, "text_short": "매케인", "weight": 0.007}
+        ]}, 
+        {"id": 17, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "미", "mention": [
+            {"id": 108, "sent_id": 14, "start_eid": 6, "end_eid": 6, "ne_id": 1, "text": "미", "start_eid_short": 6, "end_eid_short": 6, "text_short": "미", "weight": 0.01}, 
+            {"id": 112, "sent_id": 15, "start_eid": 4, "end_eid": 4, "ne_id": 1, "text": "미", "start_eid_short": 4, "end_eid_short": 4, "text_short": "미", "weight": 0.016}
+        ]}
+    ]
+}
