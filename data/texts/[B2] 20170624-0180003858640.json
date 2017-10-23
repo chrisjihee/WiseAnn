@@ -1,0 +1,1856 @@
+{
+    "title": {
+        "text": "文대통령, 스포츠 통한 남북교류 시동..평창 초대(종합).", 
+        "NE": ""
+    }, 
+    "metaInfo": {
+        "field": "뉴스2", 
+        "num_sent": 15, 
+        "num_word": 230
+    }, 
+    "sentence": [
+        {
+            "id": 0, 
+            "text": "文대통령, 스포츠 통한 남북교류 시동..평창 초대(종합).", 
+            "morp": [
+                {"id": 0, "lemma": "文", "type": "SH", "position": 0, "weight": 1}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 3, "weight": 0.9}, 
+                {"id": 2, "lemma": ",", "type": "SP", "position": 12, "weight": 1}, 
+                {"id": 3, "lemma": "스포츠", "type": "NNG", "position": 14, "weight": 0.9}, 
+                {"id": 4, "lemma": "통하", "type": "VV", "position": 24, "weight": 0.9}, 
+                {"id": 5, "lemma": "ㄴ", "type": "ETM", "position": 27, "weight": 0.304215}, 
+                {"id": 6, "lemma": "남북", "type": "NNP", "position": 31, "weight": 0.0242336}, 
+                {"id": 7, "lemma": "교류", "type": "NNG", "position": 37, "weight": 0.9}, 
+                {"id": 8, "lemma": "시동", "type": "NNG", "position": 44, "weight": 0.9}, 
+                {"id": 9, "lemma": ".", "type": "SF", "position": 50, "weight": 1}, 
+                {"id": 10, "lemma": ".", "type": "SF", "position": 51, "weight": 1}, 
+                {"id": 11, "lemma": "평창", "type": "NNG", "position": 52, "weight": 0}, 
+                {"id": 12, "lemma": "초대", "type": "NNG", "position": 59, "weight": 0.9}, 
+                {"id": 13, "lemma": "(", "type": "SS", "position": 65, "weight": 1}, 
+                {"id": 14, "lemma": "종합", "type": "NNG", "position": 66, "weight": 0.9}, 
+                {"id": 15, "lemma": ")", "type": "SS", "position": 72, "weight": 1}, 
+                {"id": 16, "lemma": ".", "type": "SF", "position": 73, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "文대통령,", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "스포츠", "type": "", "begin": 3, "end": 3}, 
+                {"id": 2, "text": "통한", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "남북교류", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "시동..평창", "type": "", "begin": 8, "end": 11}, 
+                {"id": 5, "text": "초대(종합).", "type": "", "begin": 12, "end": 16}
+            ], 
+            "NE": [
+                {"id": 0, "text": "文", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.269985, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.251385, "common_noun": 0}, 
+                {"id": 2, "text": "남북", "type": "LCP_COUNTRY", "begin": 6, "end": 6, "weight": 0.347292, "common_noun": 0}, 
+                {"id": 3, "text": "평창", "type": "LCP_COUNTY", "begin": 11, "end": 11, "weight": 0.27777, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "文대통령,", "head": 5, "label": "NP_CNJ", "mod": [], "weight": 0.320318}, 
+                {"id": 1, "text": "스포츠", "head": 2, "label": "NP_SBJ", "mod": [], "weight": 0.0703313}, 
+                {"id": 2, "text": "통한", "head": 4, "label": "VP_MOD", "mod": [1], "weight": 0.213612}, 
+                {"id": 3, "text": "남북교류", "head": 4, "label": "NP", "mod": [], "weight": 0.393422}, 
+                {"id": 4, "text": "시동..평창", "head": 5, "label": "NP", "mod": [2, 3], "weight": 0.670875}, 
+                {"id": 5, "text": "초대(종합).", "head": -1, "label": "NP", "mod": [0, 4], "weight": 0.000654642}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_CNJ", "text": "文대통령,", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "스포츠", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S_MOD", "text": "P#1@SBJ스포츠 통한", "begin": 1, "end": 2, "key_begin": 2, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP", "text": "P#0@CNJ대통령, S#2@MODㄴ 남북교류 시동..평창 초대(종합).", "begin": 0, "end": 5, "key_begin": 3, "head_phrase": -1, "sub_phrase": [0, 2], "weight": 0, "element": [
+                    {"text": "文대통령", "label": "NP", "begin": 0, "end": 1, "ne_type": ""}, 
+                    {"text": "스포츠 통한 남북교류 시동..평창 초대(종합)", "label": "NP", "begin": 3, "end": 15, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [
+                {"verb": "통하", "sense": 1, "word_id": 2, "weight": 0.31792, "argument": [
+                    {"type": "ARG1", "word_id": 4, "text": "시동..평창", "weight": 0.31792}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 1, 
+            "text": "문재인 대통령은 24일 스포츠의 화합 정신을 강조하면서 북한과의 교류를 위한 물꼬를 텄다.", 
+            "morp": [
+                {"id": 0, "lemma": "문재인", "type": "NNP", "position": 74, "weight": 0.6}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 84, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 93, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "24", "type": "SN", "position": 97, "weight": 1}, 
+                {"id": 4, "lemma": "일", "type": "NNB", "position": 99, "weight": 0.126777}, 
+                {"id": 5, "lemma": "스포츠", "type": "NNG", "position": 103, "weight": 0.9}, 
+                {"id": 6, "lemma": "의", "type": "JKG", "position": 112, "weight": 0.0694213}, 
+                {"id": 7, "lemma": "화합", "type": "NNG", "position": 116, "weight": 0.9}, 
+                {"id": 8, "lemma": "정신", "type": "NNG", "position": 123, "weight": 0.184812}, 
+                {"id": 9, "lemma": "을", "type": "JKO", "position": 129, "weight": 0.129611}, 
+                {"id": 10, "lemma": "강조", "type": "NNG", "position": 133, "weight": 0.0993847}, 
+                {"id": 11, "lemma": "하", "type": "XSV", "position": 139, "weight": 0.0001}, 
+                {"id": 12, "lemma": "면서", "type": "EC", "position": 142, "weight": 0.370489}, 
+                {"id": 13, "lemma": "북한", "type": "NNP", "position": 149, "weight": 0.0208765}, 
+                {"id": 14, "lemma": "과", "type": "JKB", "position": 155, "weight": 0.0270179}, 
+                {"id": 15, "lemma": "의", "type": "JKG", "position": 158, "weight": 0.00917577}, 
+                {"id": 16, "lemma": "교류", "type": "NNG", "position": 162, "weight": 0.9}, 
+                {"id": 17, "lemma": "를", "type": "JKO", "position": 168, "weight": 0.137686}, 
+                {"id": 18, "lemma": "위하", "type": "VV", "position": 172, "weight": 0.778555}, 
+                {"id": 19, "lemma": "ㄴ", "type": "ETM", "position": 175, "weight": 0.304215}, 
+                {"id": 20, "lemma": "물꼬", "type": "NNG", "position": 179, "weight": 0.9}, 
+                {"id": 21, "lemma": "를", "type": "JKO", "position": 185, "weight": 0.137686}, 
+                {"id": 22, "lemma": "트", "type": "VV", "position": 189, "weight": 0.77363}, 
+                {"id": 23, "lemma": "었", "type": "EP", "position": 189, "weight": 0.9}, 
+                {"id": 24, "lemma": "다", "type": "EF", "position": 192, "weight": 0.640954}, 
+                {"id": 25, "lemma": ".", "type": "SF", "position": 195, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "문재인", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "24일", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "스포츠의", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "화합", "type": "", "begin": 7, "end": 7}, 
+                {"id": 5, "text": "정신을", "type": "", "begin": 8, "end": 9}, 
+                {"id": 6, "text": "강조하면서", "type": "", "begin": 10, "end": 12}, 
+                {"id": 7, "text": "북한과의", "type": "", "begin": 13, "end": 15}, 
+                {"id": 8, "text": "교류를", "type": "", "begin": 16, "end": 17}, 
+                {"id": 9, "text": "위한", "type": "", "begin": 18, "end": 19}, 
+                {"id": 10, "text": "물꼬를", "type": "", "begin": 20, "end": 21}, 
+                {"id": 11, "text": "텄다.", "type": "", "begin": 22, "end": 25}
+            ], 
+            "NE": [
+                {"id": 0, "text": "문재인", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.67502, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.621554, "common_noun": 0}, 
+                {"id": 2, "text": "24일", "type": "DT_DAY", "begin": 3, "end": 4, "weight": 0.618366, "common_noun": 0}, 
+                {"id": 3, "text": "북한", "type": "LCP_COUNTRY", "begin": 13, "end": 13, "weight": 0.799262, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "문재인", "head": 1, "label": "NP", "mod": [], "weight": 0.690492}, 
+                {"id": 1, "text": "대통령은", "head": 6, "label": "NP_SBJ", "mod": [0], "weight": 0.675199}, 
+                {"id": 2, "text": "24일", "head": 3, "label": "NP", "mod": [], "weight": 0.000130134}, 
+                {"id": 3, "text": "스포츠의", "head": 5, "label": "NP_MOD", "mod": [2], "weight": 0.74106}, 
+                {"id": 4, "text": "화합", "head": 5, "label": "NP", "mod": [], "weight": 0.657652}, 
+                {"id": 5, "text": "정신을", "head": 6, "label": "NP_OBJ", "mod": [3, 4], "weight": 0.764394}, 
+                {"id": 6, "text": "강조하면서", "head": 11, "label": "VP", "mod": [1, 5], "weight": 0.787587}, 
+                {"id": 7, "text": "북한과의", "head": 8, "label": "NP_MOD", "mod": [], "weight": 0.303669}, 
+                {"id": 8, "text": "교류를", "head": 9, "label": "NP_OBJ", "mod": [7], "weight": 0.762183}, 
+                {"id": 9, "text": "위한", "head": 10, "label": "VP_MOD", "mod": [8], "weight": 0.637169}, 
+                {"id": 10, "text": "물꼬를", "head": 11, "label": "NP_OBJ", "mod": [9], "weight": 0.781999}, 
+                {"id": 11, "text": "텄다.", "head": -1, "label": "VP", "mod": [6, 10], "weight": 1.52437e-06}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "문재인 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "24일 스포츠의 화합 정신을", "begin": 2, "end": 5, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ은 P#1@OBJ을 강조하면서", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 6, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_OBJ", "text": "북한과의 교류를", "begin": 7, "end": 8, "key_begin": 7, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#3@OBJ를 위한", "begin": 7, "end": 9, "key_begin": 9, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_OBJ", "text": "P#4@MODㄴ 물꼬를", "begin": 7, "end": 10, "key_begin": 10, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S", "text": "S#2@S면서 P#5@OBJ를 텄다.", "begin": 0, "end": 11, "key_begin": 11, "head_phrase": -1, "sub_phrase": [2, 5], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "강조", "sense": 1, "word_id": 6, "weight": 0.527419, "argument": [
+                    {"type": "ARG1", "word_id": 5, "text": "24일 스포츠의 화합 정신", "weight": 0.527419}
+                ]}, 
+                {"verb": "위하", "sense": 1, "word_id": 9, "weight": 0.353443, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "북한과의 교류", "weight": 0.38251}, 
+                    {"type": "ARG0", "word_id": 10, "text": "물꼬", "weight": 0.324377}
+                ]}, 
+                {"verb": "트", "sense": 1, "word_id": 11, "weight": 0.335389, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "문재인 대통령", "weight": 0.334095}, 
+                    {"type": "ARGM-CAU", "word_id": 6, "text": "강조하면서", "weight": 0.163026}, 
+                    {"type": "ARG1", "word_id": 10, "text": "물꼬", "weight": 0.509047}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 11, "ant_sid": 1, "ant_wid": 1, "ant_is_title": 0, "weight": 0.846952}
+            ]
+        }, 
+        {
+            "id": 2, 
+            "text": " 전북 무주에서 열린 세계태권도 선수권대회에 참석한 북한 인사들에게 환영의 뜻을 전하면서 내년에 열릴 평창동계올림픽에 초대하겠다는 의사도 드러냈다.", 
+            "morp": [
+                {"id": 0, "lemma": "전북", "type": "NNP", "position": 197, "weight": 0.0880744}, 
+                {"id": 1, "lemma": "무주", "type": "NNP", "position": 204, "weight": 0.0678383}, 
+                {"id": 2, "lemma": "에서", "type": "JKB", "position": 210, "weight": 0.0823859}, 
+                {"id": 3, "lemma": "열리", "type": "VV", "position": 217, "weight": 0.9}, 
+                {"id": 4, "lemma": "ㄴ", "type": "ETM", "position": 220, "weight": 0.304215}, 
+                {"id": 5, "lemma": "세계", "type": "NNG", "position": 224, "weight": 0.9}, 
+                {"id": 6, "lemma": "태권", "type": "NNG", "position": 230, "weight": 0.158434}, 
+                {"id": 7, "lemma": "도", "type": "JX", "position": 236, "weight": 0.0676272}, 
+                {"id": 8, "lemma": "선수", "type": "NNG", "position": 240, "weight": 0.9}, 
+                {"id": 9, "lemma": "권", "type": "XSN", "position": 246, "weight": 0.0140728}, 
+                {"id": 10, "lemma": "대회", "type": "NNG", "position": 249, "weight": 0.9}, 
+                {"id": 11, "lemma": "에", "type": "JKB", "position": 255, "weight": 0.153364}, 
+                {"id": 12, "lemma": "참석", "type": "NNG", "position": 259, "weight": 0.9}, 
+                {"id": 13, "lemma": "하", "type": "XSV", "position": 265, "weight": 0.0001}, 
+                {"id": 14, "lemma": "ㄴ", "type": "ETM", "position": 265, "weight": 0.392321}, 
+                {"id": 15, "lemma": "북한", "type": "NNP", "position": 269, "weight": 0.0266595}, 
+                {"id": 16, "lemma": "인사", "type": "NNG", "position": 276, "weight": 0.281933}, 
+                {"id": 17, "lemma": "들", "type": "XSN", "position": 282, "weight": 0.0299841}, 
+                {"id": 18, "lemma": "에게", "type": "JKB", "position": 285, "weight": 0.121677}, 
+                {"id": 19, "lemma": "환영", "type": "NNG", "position": 292, "weight": 0.9}, 
+                {"id": 20, "lemma": "의", "type": "JKG", "position": 298, "weight": 0.0694213}, 
+                {"id": 21, "lemma": "뜻", "type": "NNG", "position": 302, "weight": 0.9}, 
+                {"id": 22, "lemma": "을", "type": "JKO", "position": 305, "weight": 0.129611}, 
+                {"id": 23, "lemma": "전하", "type": "VV", "position": 309, "weight": 0.734674}, 
+                {"id": 24, "lemma": "면서", "type": "EC", "position": 315, "weight": 0.428918}, 
+                {"id": 25, "lemma": "내년", "type": "NNG", "position": 322, "weight": 0.9}, 
+                {"id": 26, "lemma": "에", "type": "JKB", "position": 328, "weight": 0.153364}, 
+                {"id": 27, "lemma": "열리", "type": "VV", "position": 332, "weight": 0.9}, 
+                {"id": 28, "lemma": "ㄹ", "type": "ETM", "position": 335, "weight": 0.300746}, 
+                {"id": 29, "lemma": "평창", "type": "NNP", "position": 339, "weight": 0.9}, 
+                {"id": 30, "lemma": "동계", "type": "NNG", "position": 345, "weight": 0.275029}, 
+                {"id": 31, "lemma": "올림픽", "type": "NNG", "position": 351, "weight": 0.9}, 
+                {"id": 32, "lemma": "에", "type": "JKB", "position": 360, "weight": 0.153364}, 
+                {"id": 33, "lemma": "초대", "type": "NNG", "position": 364, "weight": 0.9}, 
+                {"id": 34, "lemma": "하", "type": "XSV", "position": 370, "weight": 0.0001}, 
+                {"id": 35, "lemma": "겠", "type": "EP", "position": 373, "weight": 0.9}, 
+                {"id": 36, "lemma": "다는", "type": "ETM", "position": 376, "weight": 0.107585}, 
+                {"id": 37, "lemma": "의사", "type": "NNG", "position": 383, "weight": 0.9}, 
+                {"id": 38, "lemma": "도", "type": "JX", "position": 389, "weight": 0.0676272}, 
+                {"id": 39, "lemma": "드러내", "type": "VV", "position": 393, "weight": 0.9}, 
+                {"id": 40, "lemma": "었", "type": "EP", "position": 399, "weight": 0.9}, 
+                {"id": 41, "lemma": "다", "type": "EF", "position": 402, "weight": 0.640954}, 
+                {"id": 42, "lemma": ".", "type": "SF", "position": 405, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "전북", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "무주에서", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "열린", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "세계태권도", "type": "", "begin": 5, "end": 7}, 
+                {"id": 4, "text": "선수권대회에", "type": "", "begin": 8, "end": 11}, 
+                {"id": 5, "text": "참석한", "type": "", "begin": 12, "end": 14}, 
+                {"id": 6, "text": "북한", "type": "", "begin": 15, "end": 15}, 
+                {"id": 7, "text": "인사들에게", "type": "", "begin": 16, "end": 18}, 
+                {"id": 8, "text": "환영의", "type": "", "begin": 19, "end": 20}, 
+                {"id": 9, "text": "뜻을", "type": "", "begin": 21, "end": 22}, 
+                {"id": 10, "text": "전하면서", "type": "", "begin": 23, "end": 24}, 
+                {"id": 11, "text": "내년에", "type": "", "begin": 25, "end": 26}, 
+                {"id": 12, "text": "열릴", "type": "", "begin": 27, "end": 28}, 
+                {"id": 13, "text": "평창동계올림픽에", "type": "", "begin": 29, "end": 32}, 
+                {"id": 14, "text": "초대하겠다는", "type": "", "begin": 33, "end": 36}, 
+                {"id": 15, "text": "의사도", "type": "", "begin": 37, "end": 38}, 
+                {"id": 16, "text": "드러냈다.", "type": "", "begin": 39, "end": 42}
+            ], 
+            "NE": [
+                {"id": 0, "text": "전북", "type": "LCP_PROVINCE", "begin": 0, "end": 0, "weight": 0.44685, "common_noun": 0}, 
+                {"id": 1, "text": "무주", "type": "LCP_COUNTY", "begin": 1, "end": 1, "weight": 0.624858, "common_noun": 0}, 
+                {"id": 2, "text": "세계태권도 선수권대회", "type": "EV_SPORTS", "begin": 5, "end": 10, "weight": 0.43527, "common_noun": 0}, 
+                {"id": 3, "text": "북한", "type": "LCP_COUNTRY", "begin": 15, "end": 15, "weight": 0.815201, "common_noun": 0}, 
+                {"id": 4, "text": "내년", "type": "DT_YEAR", "begin": 25, "end": 25, "weight": 0.546188, "common_noun": 0}, 
+                {"id": 5, "text": "평창동계올림픽", "type": "EV_SPORTS", "begin": 29, "end": 31, "weight": 0.926434, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "전북", "head": 1, "label": "NP", "mod": [], "weight": 0.755428}, 
+                {"id": 1, "text": "무주에서", "head": 2, "label": "NP_AJT", "mod": [0], "weight": 0.532315}, 
+                {"id": 2, "text": "열린", "head": 4, "label": "VP_MOD", "mod": [1], "weight": 0.543838}, 
+                {"id": 3, "text": "세계태권도", "head": 4, "label": "NP", "mod": [], "weight": 0.765507}, 
+                {"id": 4, "text": "선수권대회에", "head": 5, "label": "NP_AJT", "mod": [2, 3], "weight": 0.601794}, 
+                {"id": 5, "text": "참석한", "head": 7, "label": "VP_MOD", "mod": [4], "weight": 0.67586}, 
+                {"id": 6, "text": "북한", "head": 7, "label": "NP", "mod": [], "weight": 0.7825}, 
+                {"id": 7, "text": "인사들에게", "head": 10, "label": "NP_AJT", "mod": [5, 6], "weight": 0.820109}, 
+                {"id": 8, "text": "환영의", "head": 9, "label": "NP_MOD", "mod": [], "weight": 0.598966}, 
+                {"id": 9, "text": "뜻을", "head": 10, "label": "NP_OBJ", "mod": [8], "weight": 0.790588}, 
+                {"id": 10, "text": "전하면서", "head": 16, "label": "VP", "mod": [7, 9], "weight": 0.696042}, 
+                {"id": 11, "text": "내년에", "head": 12, "label": "NP_AJT", "mod": [], "weight": 0.713713}, 
+                {"id": 12, "text": "열릴", "head": 13, "label": "VP_MOD", "mod": [11], "weight": 0.545773}, 
+                {"id": 13, "text": "평창동계올림픽에", "head": 14, "label": "NP_AJT", "mod": [12], "weight": 0.778595}, 
+                {"id": 14, "text": "초대하겠다는", "head": 15, "label": "VP_MOD", "mod": [13], "weight": 0.637428}, 
+                {"id": 15, "text": "의사도", "head": 16, "label": "NP_OBJ", "mod": [14], "weight": 0.272584}, 
+                {"id": 16, "text": "드러냈다.", "head": -1, "label": "VP", "mod": [10, 15], "weight": 0.000618426}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "전북 무주에서", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@AJT에서 열린", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "P#1@MODㄴ 세계태권도 선수권대회에", "begin": 0, "end": 4, "key_begin": 3, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP_MOD", "text": "P#2@AJT에 참석한", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "P#3@MODㄴ 북한 인사들에게", "begin": 0, "end": 7, "key_begin": 6, "head_phrase": 6, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_OBJ", "text": "환영의 뜻을", "begin": 8, "end": 9, "key_begin": 8, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "VP", "text": "P#4@AJT에게 P#5@OBJ을 전하면서", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": 12, "sub_phrase": [4, 5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_AJT", "text": "내년에", "begin": 11, "end": 11, "key_begin": 11, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "VP_MOD", "text": "P#7@AJT에 열릴", "begin": 11, "end": 12, "key_begin": 12, "head_phrase": 9, "sub_phrase": [7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_AJT", "text": "P#8@MODㄹ 평창동계올림픽에", "begin": 11, "end": 13, "key_begin": 13, "head_phrase": 10, "sub_phrase": [8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "VP_MOD", "text": "P#9@AJT에 초대하겠다는", "begin": 11, "end": 14, "key_begin": 14, "head_phrase": 11, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "NP_OBJ", "text": "P#10@MOD다는 의사도", "begin": 11, "end": 15, "key_begin": 15, "head_phrase": 12, "sub_phrase": [10], "weight": 0, "element": []}, 
+                {"id": 12, "label": "VP", "text": "P#6@VP면서 P#11@OBJ도 드러냈다.", "begin": 0, "end": 16, "key_begin": 16, "head_phrase": -1, "sub_phrase": [6, 11], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "열리", "sense": 1, "word_id": 2, "weight": 0.540936, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 1, "text": "전북 무주", "weight": 0.494373}, 
+                    {"type": "ARG1", "word_id": 4, "text": "세계태권도 선수권대회", "weight": 0.519022}, 
+                    {"type": "ARG1", "word_id": 7, "text": "북한 인사들", "weight": 0.609412}
+                ]}, 
+                {"verb": "참석", "sense": 1, "word_id": 5, "weight": 0.330256, "argument": [
+                    {"type": "ARG1", "word_id": 4, "text": "세계태권도 선수권대회", "weight": 0.154412}, 
+                    {"type": "ARG1", "word_id": 7, "text": "북한 인사들", "weight": 0.506101}
+                ]}, 
+                {"verb": "전하", "sense": 1, "word_id": 10, "weight": 0.222346, "argument": [
+                    {"type": "ARG2", "word_id": 7, "text": "북한 인사들", "weight": 0.178925}, 
+                    {"type": "ARG1", "word_id": 9, "text": "환영의 뜻", "weight": 0.265768}
+                ]}, 
+                {"verb": "열리", "sense": 1, "word_id": 12, "weight": 0.403865, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 11, "text": "내년", "weight": 0.478378}, 
+                    {"type": "ARG1", "word_id": 13, "text": "평창동계올림픽", "weight": 0.329352}
+                ]}, 
+                {"verb": "초대", "sense": 1, "word_id": 14, "weight": 0.100267, "argument": [
+                    {"type": "ARG2", "word_id": 13, "text": "평창동계올림픽", "weight": 0.100267}
+                ]}, 
+                {"verb": "드러내", "sense": 1, "word_id": 16, "weight": 0.521269, "argument": [
+                    {"type": "ARG1", "word_id": 15, "text": "의사", "weight": 0.521269}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 10, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.94822}, 
+                {"id": 1, "type": "s", "head_wid": 16, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.904352}
+            ]
+        }, 
+        {
+            "id": 3, 
+            "text": "문 대통령은 이날 전북 무주 태권도원을 방문해 스포츠를 통한 강력한 화합 메시지를 던졌다.", 
+            "morp": [
+                {"id": 0, "lemma": "문", "type": "NNG", "position": 406, "weight": 0.392443}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 410, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 419, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "이날", "type": "NNG", "position": 423, "weight": 0.9}, 
+                {"id": 4, "lemma": "전북", "type": "NNP", "position": 430, "weight": 0.00700609}, 
+                {"id": 5, "lemma": "무주", "type": "NNP", "position": 437, "weight": 0.0678383}, 
+                {"id": 6, "lemma": "태권도원", "type": "NNG", "position": 444, "weight": 0}, 
+                {"id": 7, "lemma": "을", "type": "JKO", "position": 456, "weight": 0.129611}, 
+                {"id": 8, "lemma": "방문", "type": "NNG", "position": 460, "weight": 0.9}, 
+                {"id": 9, "lemma": "하", "type": "XSV", "position": 466, "weight": 0.0001}, 
+                {"id": 10, "lemma": "어", "type": "EC", "position": 466, "weight": 0.361326}, 
+                {"id": 11, "lemma": "스포츠", "type": "NNG", "position": 470, "weight": 0.9}, 
+                {"id": 12, "lemma": "를", "type": "JKO", "position": 479, "weight": 0.137686}, 
+                {"id": 13, "lemma": "통하", "type": "VV", "position": 483, "weight": 0.9}, 
+                {"id": 14, "lemma": "ㄴ", "type": "ETM", "position": 486, "weight": 0.304215}, 
+                {"id": 15, "lemma": "강력하", "type": "VA", "position": 490, "weight": 0.9}, 
+                {"id": 16, "lemma": "ㄴ", "type": "ETM", "position": 496, "weight": 0.430446}, 
+                {"id": 17, "lemma": "화합", "type": "NNG", "position": 500, "weight": 0.9}, 
+                {"id": 18, "lemma": "메시지", "type": "NNG", "position": 507, "weight": 0.9}, 
+                {"id": 19, "lemma": "를", "type": "JKO", "position": 516, "weight": 0.137686}, 
+                {"id": 20, "lemma": "던지", "type": "VV", "position": 520, "weight": 0.619872}, 
+                {"id": 21, "lemma": "었", "type": "EP", "position": 523, "weight": 0.9}, 
+                {"id": 22, "lemma": "다", "type": "EF", "position": 526, "weight": 0.640954}, 
+                {"id": 23, "lemma": ".", "type": "SF", "position": 529, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "문", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "이날", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "전북", "type": "", "begin": 4, "end": 4}, 
+                {"id": 4, "text": "무주", "type": "", "begin": 5, "end": 5}, 
+                {"id": 5, "text": "태권도원을", "type": "", "begin": 6, "end": 7}, 
+                {"id": 6, "text": "방문해", "type": "", "begin": 8, "end": 10}, 
+                {"id": 7, "text": "스포츠를", "type": "", "begin": 11, "end": 12}, 
+                {"id": 8, "text": "통한", "type": "", "begin": 13, "end": 14}, 
+                {"id": 9, "text": "강력한", "type": "", "begin": 15, "end": 16}, 
+                {"id": 10, "text": "화합", "type": "", "begin": 17, "end": 17}, 
+                {"id": 11, "text": "메시지를", "type": "", "begin": 18, "end": 19}, 
+                {"id": 12, "text": "던졌다.", "type": "", "begin": 20, "end": 23}
+            ], 
+            "NE": [
+                {"id": 0, "text": "문", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.565451, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.716214, "common_noun": 0}, 
+                {"id": 2, "text": "전북", "type": "LCP_PROVINCE", "begin": 4, "end": 4, "weight": 0.436837, "common_noun": 0}, 
+                {"id": 3, "text": "무주", "type": "LCP_COUNTY", "begin": 5, "end": 5, "weight": 0.61507, "common_noun": 0}, 
+                {"id": 4, "text": "태권도원", "type": "AF_BUILDING", "begin": 6, "end": 6, "weight": 0.192033, "common_noun": 0}, 
+                {"id": 5, "text": "메시지", "type": "TMI_SERVICE", "begin": 18, "end": 18, "weight": 1, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "문", "head": 1, "label": "NP", "mod": [], "weight": 0.813378}, 
+                {"id": 1, "text": "대통령은", "head": 6, "label": "NP_SBJ", "mod": [0], "weight": 0.687793}, 
+                {"id": 2, "text": "이날", "head": 6, "label": "NP_AJT", "mod": [], "weight": 0.712527}, 
+                {"id": 3, "text": "전북", "head": 4, "label": "NP", "mod": [], "weight": 0.458914}, 
+                {"id": 4, "text": "무주", "head": 5, "label": "NP", "mod": [3], "weight": 0.760876}, 
+                {"id": 5, "text": "태권도원을", "head": 6, "label": "NP_OBJ", "mod": [4], "weight": 0.797708}, 
+                {"id": 6, "text": "방문해", "head": 12, "label": "VP", "mod": [1, 2, 5], "weight": 0.808868}, 
+                {"id": 7, "text": "스포츠를", "head": 8, "label": "NP_OBJ", "mod": [], "weight": 0.759012}, 
+                {"id": 8, "text": "통한", "head": 11, "label": "VP_MOD", "mod": [7], "weight": 0.652006}, 
+                {"id": 9, "text": "강력한", "head": 11, "label": "VP_MOD", "mod": [], "weight": 0.682198}, 
+                {"id": 10, "text": "화합", "head": 11, "label": "NP", "mod": [], "weight": 0.482535}, 
+                {"id": 11, "text": "메시지를", "head": 12, "label": "NP_OBJ", "mod": [8, 9, 10], "weight": 0.787582}, 
+                {"id": 12, "text": "던졌다.", "head": -1, "label": "VP", "mod": [6, 11], "weight": 0.0085393}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "문 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "이날", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "전북 무주 태권도원을", "begin": 3, "end": 5, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@SBJ은 P#1@AJT이날 P#2@OBJ을 방문해", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 7, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "스포츠를", "begin": 7, "end": 7, "key_begin": 7, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP_MOD", "text": "P#4@OBJ를 통한", "begin": 7, "end": 8, "key_begin": 8, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_OBJ", "text": "P#5@MODㄴ 강력한 화합 메시지를", "begin": 7, "end": 11, "key_begin": 9, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "S#3@S어 P#6@OBJ를 던졌다.", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": -1, "sub_phrase": [3, 6], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "방문", "sense": 1, "word_id": 6, "weight": 0.531168, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "문 대통령", "weight": 0.453356}, 
+                    {"type": "ARGM-TMP", "word_id": 2, "text": "이날", "weight": 0.626885}, 
+                    {"type": "ARG1", "word_id": 5, "text": "전북 무주 태권도원", "weight": 0.513261}
+                ]}, 
+                {"verb": "통하", "sense": 1, "word_id": 8, "weight": 0.55419, "argument": [
+                    {"type": "ARG2", "word_id": 7, "text": "스포츠", "weight": 0.55419}
+                ]}, 
+                {"verb": "강력하", "sense": 1, "word_id": 9, "weight": 0.617477, "argument": [
+                    {"type": "ARG1", "word_id": 11, "text": "강력한 화합 메시지", "weight": 0.617477}
+                ]}, 
+                {"verb": "던지", "sense": 1, "word_id": 12, "weight": 0.45959, "argument": [
+                    {"type": "ARG1", "word_id": 11, "text": "강력한 화합 메시지", "weight": 0.45959}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 12, "ant_sid": 3, "ant_wid": 1, "ant_is_title": 0, "weight": 0.526711}
+            ]
+        }, 
+        {
+            "id": 4, 
+            "text": " 문 대통령은 “제일 가까이 있지만 가장 먼 길을 오셨을 것 같다”며 장웅 IOC 위원과 리용선 국제태권도연맹(ITF) 총재, 북한 ITF 시범단에게 인사했다.", 
+            "morp": [
+                {"id": 0, "lemma": "문", "type": "NNG", "position": 531, "weight": 0.392443}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 535, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 544, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "“", "type": "SS", "position": 548, "weight": 1}, 
+                {"id": 4, "lemma": "제일", "type": "MAG", "position": 551, "weight": 0.0100575}, 
+                {"id": 5, "lemma": "가까이", "type": "MAG", "position": 558, "weight": 0.0331085}, 
+                {"id": 6, "lemma": "있", "type": "VA", "position": 568, "weight": 0.0682304}, 
+                {"id": 7, "lemma": "지만", "type": "EC", "position": 571, "weight": 0.315566}, 
+                {"id": 8, "lemma": "가장", "type": "MAG", "position": 578, "weight": 0.0463072}, 
+                {"id": 9, "lemma": "멀", "type": "VA", "position": 585, "weight": 0.129493}, 
+                {"id": 10, "lemma": "ㄴ", "type": "ETM", "position": 585, "weight": 0.430446}, 
+                {"id": 11, "lemma": "길", "type": "NNG", "position": 589, "weight": 0.369575}, 
+                {"id": 12, "lemma": "을", "type": "JKO", "position": 592, "weight": 0.129611}, 
+                {"id": 13, "lemma": "오", "type": "VV", "position": 596, "weight": 0.397899}, 
+                {"id": 14, "lemma": "시었", "type": "EP", "position": 599, "weight": 0.9}, 
+                {"id": 15, "lemma": "을", "type": "ETM", "position": 602, "weight": 0.00734398}, 
+                {"id": 16, "lemma": "것", "type": "NNB", "position": 606, "weight": 0.228788}, 
+                {"id": 17, "lemma": "같", "type": "VA", "position": 610, "weight": 0.101272}, 
+                {"id": 18, "lemma": "다", "type": "EF", "position": 613, "weight": 0.132573}, 
+                {"id": 19, "lemma": "”", "type": "SS", "position": 616, "weight": 1}, 
+                {"id": 20, "lemma": "며", "type": "EC", "position": 619, "weight": 0.00532489}, 
+                {"id": 21, "lemma": "장웅", "type": "NNP", "position": 623, "weight": 0.15}, 
+                {"id": 22, "lemma": "IOC", "type": "SL", "position": 630, "weight": 1}, 
+                {"id": 23, "lemma": "위원", "type": "NNG", "position": 634, "weight": 0.172858}, 
+                {"id": 24, "lemma": "과", "type": "JC", "position": 640, "weight": 0.017569}, 
+                {"id": 25, "lemma": "리용선", "type": "NNG", "position": 644, "weight": 0}, 
+                {"id": 26, "lemma": "국제", "type": "NNG", "position": 654, "weight": 0.184029}, 
+                {"id": 27, "lemma": "태권", "type": "NNG", "position": 660, "weight": 0.158434}, 
+                {"id": 28, "lemma": "도", "type": "XSN", "position": 666, "weight": 0.0001}, 
+                {"id": 29, "lemma": "연맹", "type": "NNG", "position": 669, "weight": 0.9}, 
+                {"id": 30, "lemma": "(", "type": "SS", "position": 675, "weight": 1}, 
+                {"id": 31, "lemma": "ITF", "type": "SL", "position": 676, "weight": 1}, 
+                {"id": 32, "lemma": ")", "type": "SS", "position": 679, "weight": 1}, 
+                {"id": 33, "lemma": "총재", "type": "NNG", "position": 681, "weight": 0.9}, 
+                {"id": 34, "lemma": ",", "type": "SP", "position": 687, "weight": 1}, 
+                {"id": 35, "lemma": "북한", "type": "NNP", "position": 689, "weight": 0.117623}, 
+                {"id": 36, "lemma": "ITF", "type": "SL", "position": 696, "weight": 1}, 
+                {"id": 37, "lemma": "시범", "type": "NNG", "position": 700, "weight": 0.9}, 
+                {"id": 38, "lemma": "단", "type": "XSN", "position": 706, "weight": 0.00809175}, 
+                {"id": 39, "lemma": "에게", "type": "JKB", "position": 709, "weight": 0.121677}, 
+                {"id": 40, "lemma": "인사", "type": "NNG", "position": 716, "weight": 0.208003}, 
+                {"id": 41, "lemma": "하", "type": "XSV", "position": 722, "weight": 0.0001}, 
+                {"id": 42, "lemma": "었", "type": "EP", "position": 722, "weight": 0.9}, 
+                {"id": 43, "lemma": "다", "type": "EF", "position": 725, "weight": 0.640954}, 
+                {"id": 44, "lemma": ".", "type": "SF", "position": 728, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "문", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "“제일", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "가까이", "type": "", "begin": 5, "end": 5}, 
+                {"id": 4, "text": "있지만", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "가장", "type": "", "begin": 8, "end": 8}, 
+                {"id": 6, "text": "먼", "type": "", "begin": 9, "end": 10}, 
+                {"id": 7, "text": "길을", "type": "", "begin": 11, "end": 12}, 
+                {"id": 8, "text": "오셨을", "type": "", "begin": 13, "end": 15}, 
+                {"id": 9, "text": "것", "type": "", "begin": 16, "end": 16}, 
+                {"id": 10, "text": "같다”며", "type": "", "begin": 17, "end": 20}, 
+                {"id": 11, "text": "장웅", "type": "", "begin": 21, "end": 21}, 
+                {"id": 12, "text": "IOC", "type": "", "begin": 22, "end": 22}, 
+                {"id": 13, "text": "위원과", "type": "", "begin": 23, "end": 24}, 
+                {"id": 14, "text": "리용선", "type": "", "begin": 25, "end": 25}, 
+                {"id": 15, "text": "국제태권도연맹(ITF)", "type": "", "begin": 26, "end": 32}, 
+                {"id": 16, "text": "총재,", "type": "", "begin": 33, "end": 34}, 
+                {"id": 17, "text": "북한", "type": "", "begin": 35, "end": 35}, 
+                {"id": 18, "text": "ITF", "type": "", "begin": 36, "end": 36}, 
+                {"id": 19, "text": "시범단에게", "type": "", "begin": 37, "end": 39}, 
+                {"id": 20, "text": "인사했다.", "type": "", "begin": 40, "end": 44}
+            ], 
+            "NE": [
+                {"id": 0, "text": "문", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.571056, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.758795, "common_noun": 0}, 
+                {"id": 2, "text": "장웅", "type": "PS_NAME", "begin": 21, "end": 21, "weight": 0.595056, "common_noun": 0}, 
+                {"id": 3, "text": "IOC", "type": "OGG_SPORTS", "begin": 22, "end": 22, "weight": 0.501431, "common_noun": 0}, 
+                {"id": 4, "text": "위원", "type": "CV_POSITION", "begin": 23, "end": 23, "weight": 0.572585, "common_noun": 0}, 
+                {"id": 5, "text": "리용선", "type": "PS_NAME", "begin": 25, "end": 25, "weight": 0.190291, "common_noun": 0}, 
+                {"id": 6, "text": "국제태권도연맹", "type": "OGG_SPORTS", "begin": 26, "end": 29, "weight": 0.859848, "common_noun": 0}, 
+                {"id": 7, "text": "ITF", "type": "OGG_SPORTS", "begin": 31, "end": 31, "weight": 0.434796, "common_noun": 0}, 
+                {"id": 8, "text": "총재", "type": "CV_POSITION", "begin": 33, "end": 33, "weight": 0.659584, "common_noun": 0}, 
+                {"id": 9, "text": "북한", "type": "LCP_COUNTRY", "begin": 35, "end": 35, "weight": 0.739873, "common_noun": 0}, 
+                {"id": 10, "text": "ITF", "type": "OGG_SCIENCE", "begin": 36, "end": 36, "weight": 0.129338, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "문", "head": 1, "label": "NP", "mod": [], "weight": 0.769553}, 
+                {"id": 1, "text": "대통령은", "head": 10, "label": "NP_SBJ", "mod": [0], "weight": 0.674058}, 
+                {"id": 2, "text": "“제일", "head": 3, "label": "NP_AJT", "mod": [], "weight": 0.247341}, 
+                {"id": 3, "text": "가까이", "head": 4, "label": "AP", "mod": [2], "weight": 0.537831}, 
+                {"id": 4, "text": "있지만", "head": 8, "label": "VP", "mod": [3], "weight": 0.268515}, 
+                {"id": 5, "text": "가장", "head": 6, "label": "AP", "mod": [], "weight": 0.482352}, 
+                {"id": 6, "text": "먼", "head": 7, "label": "VP_MOD", "mod": [5], "weight": 0.639805}, 
+                {"id": 7, "text": "길을", "head": 8, "label": "NP_OBJ", "mod": [6], "weight": 0.352418}, 
+                {"id": 8, "text": "오셨을", "head": 9, "label": "VP_MOD", "mod": [4, 7], "weight": 0.764143}, 
+                {"id": 9, "text": "것", "head": 10, "label": "NP", "mod": [8], "weight": 0.748359}, 
+                {"id": 10, "text": "같다”며", "head": 20, "label": "VP", "mod": [1, 9], "weight": 0.768173}, 
+                {"id": 11, "text": "장웅", "head": 13, "label": "NP", "mod": [], "weight": 0.691854}, 
+                {"id": 12, "text": "IOC", "head": 13, "label": "NP", "mod": [], "weight": 0.609707}, 
+                {"id": 13, "text": "위원과", "head": 19, "label": "NP_CNJ", "mod": [11, 12], "weight": 0.76178}, 
+                {"id": 14, "text": "리용선", "head": 15, "label": "NP", "mod": [], "weight": 0.0308904}, 
+                {"id": 15, "text": "국제태권도연맹(ITF)", "head": 16, "label": "NP", "mod": [14], "weight": 0.753554}, 
+                {"id": 16, "text": "총재,", "head": 19, "label": "NP_CNJ", "mod": [15], "weight": 0.080515}, 
+                {"id": 17, "text": "북한", "head": 19, "label": "NP", "mod": [], "weight": 0.565562}, 
+                {"id": 18, "text": "ITF", "head": 19, "label": "NP", "mod": [], "weight": 0.694811}, 
+                {"id": 19, "text": "시범단에게", "head": 20, "label": "NP_AJT", "mod": [13, 16, 17, 18], "weight": 0.820851}, 
+                {"id": 20, "text": "인사했다.", "head": -1, "label": "VP", "mod": [10, 19], "weight": 1.4544e-07}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "문 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S", "text": "P#0@SBJ은 “제일 가까이 있지만 가장 먼 길을 오셨을 것 같다”며", "begin": 0, "end": 10, "key_begin": 2, "head_phrase": 3, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "장웅 IOC 위원과 리용선 국제태권도연맹(ITF) 총재, 북한 ITF 시범단에게", "begin": 11, "end": 19, "key_begin": 11, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "장웅 IOC 위원", "label": "NP_AJT", "begin": 21, "end": 23, "ne_type": ""}, 
+                    {"text": "리용선 국제태권도연맹(ITF) 총재", "label": "NP_AJT", "begin": 25, "end": 33, "ne_type": ""}, 
+                    {"text": "북한 ITF 시범단", "label": "NP_AJT", "begin": 35, "end": 38, "ne_type": ""}
+                ]}, 
+                {"id": 3, "label": "S", "text": "S#1@S며 P#2@AJT에게 인사했다.", "begin": 0, "end": 20, "key_begin": 20, "head_phrase": -1, "sub_phrase": [1, 2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "있", "sense": 1, "word_id": 4, "weight": 0.183409, "argument": [
+                    {"type": "ARG2", "word_id": 1, "text": "문 대통령", "weight": 0.174609}, 
+                    {"type": "ARGM-EXT", "word_id": 3, "text": "가까이", "weight": 0.192208}
+                ]}, 
+                {"verb": "멀", "sense": 1, "word_id": 6, "weight": 0.501457, "argument": [
+                    {"type": "ARGM-EXT", "word_id": 5, "text": "가장", "weight": 0.452357}, 
+                    {"type": "ARG1", "word_id": 7, "text": "길", "weight": 0.550557}
+                ]}, 
+                {"verb": "오", "sense": 1, "word_id": 8, "weight": 0.303149, "argument": [
+                    {"type": "ARG1", "word_id": 7, "text": "길", "weight": 0.17657}, 
+                    {"type": "AUX", "word_id": 10, "text": "“제일 가까이 있지만 가장 먼 길을 오셨을 것 같다”며", "weight": 0.429727}
+                ]}, 
+                {"verb": "같", "sense": 1, "word_id": 10, "weight": 0, "argument": []}, 
+                {"verb": "인사", "sense": 1, "word_id": 20, "weight": 0.271419, "argument": [
+                    {"type": "ARGM-DIS", "word_id": 10, "text": "“제일 가까이 있지만 가장 먼 길을 오셨을 것 같다”며", "weight": 0.268547}, 
+                    {"type": "ARG2", "word_id": 19, "text": "장웅 IOC 위원과 리용선 국제태권도연맹(ITF) 총재, 북한 ITF 시범단", "weight": 0.274292}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 4, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.835327}, 
+                {"id": 1, "type": "s", "head_wid": 20, "ant_sid": 4, "ant_wid": 1, "ant_is_title": 0, "weight": 0.568426}
+            ]
+        }, 
+        {
+            "id": 5, 
+            "text": " 문 대통령은 이들을 “어려운 여건에서도 민족 화해와 한반도 평화를 위해 대한민국을 방문했다”고 소개했다.", 
+            "morp": [
+                {"id": 0, "lemma": "문", "type": "NNG", "position": 730, "weight": 0.392443}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 734, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 743, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "이", "type": "NP", "position": 747, "weight": 0.00112648}, 
+                {"id": 4, "lemma": "들", "type": "XSN", "position": 750, "weight": 0.055005}, 
+                {"id": 5, "lemma": "을", "type": "JKO", "position": 753, "weight": 0.0819193}, 
+                {"id": 6, "lemma": "“", "type": "SS", "position": 757, "weight": 1}, 
+                {"id": 7, "lemma": "어렵", "type": "VA", "position": 760, "weight": 0.0204736}, 
+                {"id": 8, "lemma": "ㄴ", "type": "ETM", "position": 763, "weight": 0.430446}, 
+                {"id": 9, "lemma": "여건", "type": "NNG", "position": 770, "weight": 0.9}, 
+                {"id": 10, "lemma": "에서", "type": "JKB", "position": 776, "weight": 0.153407}, 
+                {"id": 11, "lemma": "도", "type": "JX", "position": 782, "weight": 0.0912297}, 
+                {"id": 12, "lemma": "민족", "type": "NNG", "position": 786, "weight": 0.9}, 
+                {"id": 13, "lemma": "화해", "type": "NNG", "position": 793, "weight": 0.9}, 
+                {"id": 14, "lemma": "와", "type": "JC", "position": 799, "weight": 0.0169714}, 
+                {"id": 15, "lemma": "한반도", "type": "NNP", "position": 803, "weight": 0.0664666}, 
+                {"id": 16, "lemma": "평화", "type": "NNG", "position": 813, "weight": 0.277679}, 
+                {"id": 17, "lemma": "를", "type": "JKO", "position": 819, "weight": 0.137686}, 
+                {"id": 18, "lemma": "위하", "type": "VV", "position": 823, "weight": 0.778555}, 
+                {"id": 19, "lemma": "어", "type": "EC", "position": 826, "weight": 0.41831}, 
+                {"id": 20, "lemma": "대한민국", "type": "NNP", "position": 830, "weight": 0.0219284}, 
+                {"id": 21, "lemma": "을", "type": "JKO", "position": 842, "weight": 0.0266447}, 
+                {"id": 22, "lemma": "방문", "type": "NNG", "position": 846, "weight": 0.9}, 
+                {"id": 23, "lemma": "하", "type": "XSV", "position": 852, "weight": 0.0001}, 
+                {"id": 24, "lemma": "었", "type": "EP", "position": 852, "weight": 0.9}, 
+                {"id": 25, "lemma": "다", "type": "EF", "position": 855, "weight": 0.640954}, 
+                {"id": 26, "lemma": "”", "type": "SS", "position": 858, "weight": 1}, 
+                {"id": 27, "lemma": "고", "type": "JKQ", "position": 861, "weight": 0.000541335}, 
+                {"id": 28, "lemma": "소개", "type": "NNG", "position": 865, "weight": 0.9}, 
+                {"id": 29, "lemma": "하", "type": "XSV", "position": 871, "weight": 0.0001}, 
+                {"id": 30, "lemma": "었", "type": "EP", "position": 871, "weight": 0.9}, 
+                {"id": 31, "lemma": "다", "type": "EF", "position": 874, "weight": 0.640954}, 
+                {"id": 32, "lemma": ".", "type": "SF", "position": 877, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "문", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "이들을", "type": "", "begin": 3, "end": 5}, 
+                {"id": 3, "text": "“어려운", "type": "", "begin": 6, "end": 8}, 
+                {"id": 4, "text": "여건에서도", "type": "", "begin": 9, "end": 11}, 
+                {"id": 5, "text": "민족", "type": "", "begin": 12, "end": 12}, 
+                {"id": 6, "text": "화해와", "type": "", "begin": 13, "end": 14}, 
+                {"id": 7, "text": "한반도", "type": "", "begin": 15, "end": 15}, 
+                {"id": 8, "text": "평화를", "type": "", "begin": 16, "end": 17}, 
+                {"id": 9, "text": "위해", "type": "", "begin": 18, "end": 19}, 
+                {"id": 10, "text": "대한민국을", "type": "", "begin": 20, "end": 21}, 
+                {"id": 11, "text": "방문했다”고", "type": "", "begin": 22, "end": 27}, 
+                {"id": 12, "text": "소개했다.", "type": "", "begin": 28, "end": 32}
+            ], 
+            "NE": [
+                {"id": 0, "text": "문", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.561026, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.70238, "common_noun": 0}, 
+                {"id": 2, "text": "한반도", "type": "LCG_BAY", "begin": 15, "end": 15, "weight": 0.533661, "common_noun": 0}, 
+                {"id": 3, "text": "대한민국", "type": "LCP_COUNTRY", "begin": 20, "end": 20, "weight": 0.510262, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "문", "head": 1, "label": "NP", "mod": [], "weight": 0.753803}, 
+                {"id": 1, "text": "대통령은", "head": 11, "label": "NP_SBJ", "mod": [0], "weight": 0.116494}, 
+                {"id": 2, "text": "이들을", "head": 11, "label": "NP_OBJ", "mod": [], "weight": 0.75872}, 
+                {"id": 3, "text": "“어려운", "head": 4, "label": "VP_MOD", "mod": [], "weight": 0.631885}, 
+                {"id": 4, "text": "여건에서도", "head": 9, "label": "NP_AJT", "mod": [3], "weight": 0.502463}, 
+                {"id": 5, "text": "민족", "head": 6, "label": "NP", "mod": [], "weight": 0.796424}, 
+                {"id": 6, "text": "화해와", "head": 8, "label": "NP_CNJ", "mod": [5], "weight": 0.472926}, 
+                {"id": 7, "text": "한반도", "head": 8, "label": "NP", "mod": [], "weight": 0.710828}, 
+                {"id": 8, "text": "평화를", "head": 9, "label": "NP_OBJ", "mod": [6, 7], "weight": 0.790474}, 
+                {"id": 9, "text": "위해", "head": 11, "label": "VP", "mod": [4, 8], "weight": 0.810586}, 
+                {"id": 10, "text": "대한민국을", "head": 11, "label": "NP_OBJ", "mod": [], "weight": 0.78688}, 
+                {"id": 11, "text": "방문했다”고", "head": 12, "label": "VP_CMP", "mod": [1, 2, 9, 10], "weight": 0.743819}, 
+                {"id": 12, "text": "소개했다.", "head": -1, "label": "VP", "mod": [11], "weight": 0.00178934}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "문 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "이들을", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S_CMP", "text": "P#0@SBJ은 P#1@OBJ을 “어려운 여건에서도 민족 화해와 한반도 평화를 위해 대한민국을 방문했다”고", "begin": 0, "end": 11, "key_begin": 3, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "S#2@CMP고 소개했다.", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": -1, "sub_phrase": [2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "어렵", "sense": 1, "word_id": 3, "weight": 0.21021, "argument": [
+                    {"type": "ARG1", "word_id": 4, "text": "여건", "weight": 0.21021}
+                ]}, 
+                {"verb": "위하", "sense": 1, "word_id": 9, "weight": 0.374778, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "평화", "weight": 0.374778}
+                ]}, 
+                {"verb": "방문", "sense": 1, "word_id": 11, "weight": 0.466424, "argument": [
+                    {"type": "ARG1", "word_id": 2, "text": "이들", "weight": 0.378041}, 
+                    {"type": "ARGM-PRP", "word_id": 9, "text": "위해", "weight": 0.657508}, 
+                    {"type": "ARG1", "word_id": 10, "text": "대한민국", "weight": 0.363723}
+                ]}, 
+                {"verb": "소개", "sense": 1, "word_id": 12, "weight": 0.266045, "argument": [
+                    {"type": "ARG1", "word_id": 11, "text": "“어려운 여건에서도 민족 화해와 한반도 평화를 위해 대한민국을 방문하었다”", "weight": 0.266045}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 9, "ant_sid": 5, "ant_wid": 1, "ant_is_title": 0, "weight": 0.74552}, 
+                {"id": 1, "type": "s", "head_wid": 12, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.500222}
+            ]
+        }, 
+        {
+            "id": 6, 
+            "text": "이날부터 열전에 돌입한 세계태권도 선수권대회는 이번 정부 들어 처음으로 이뤄진 남북 체육교류협력이다.", 
+            "morp": [
+                {"id": 0, "lemma": "이날", "type": "NNG", "position": 878, "weight": 0.9}, 
+                {"id": 1, "lemma": "부터", "type": "JX", "position": 884, "weight": 0.0688504}, 
+                {"id": 2, "lemma": "열전", "type": "NNG", "position": 891, "weight": 0.321767}, 
+                {"id": 3, "lemma": "에", "type": "JKB", "position": 897, "weight": 0.153364}, 
+                {"id": 4, "lemma": "돌입", "type": "NNG", "position": 901, "weight": 0.9}, 
+                {"id": 5, "lemma": "하", "type": "XSV", "position": 907, "weight": 0.0001}, 
+                {"id": 6, "lemma": "ㄴ", "type": "ETM", "position": 907, "weight": 0.392321}, 
+                {"id": 7, "lemma": "세계", "type": "NNG", "position": 911, "weight": 0.9}, 
+                {"id": 8, "lemma": "태권", "type": "NNG", "position": 917, "weight": 0.158434}, 
+                {"id": 9, "lemma": "도", "type": "JX", "position": 923, "weight": 0.0676272}, 
+                {"id": 10, "lemma": "선수", "type": "NNG", "position": 927, "weight": 0.9}, 
+                {"id": 11, "lemma": "권", "type": "XSN", "position": 933, "weight": 0.0140728}, 
+                {"id": 12, "lemma": "대회", "type": "NNG", "position": 936, "weight": 0.9}, 
+                {"id": 13, "lemma": "는", "type": "JX", "position": 942, "weight": 0.0287565}, 
+                {"id": 14, "lemma": "이번", "type": "NNG", "position": 946, "weight": 0.9}, 
+                {"id": 15, "lemma": "정부", "type": "NNG", "position": 953, "weight": 0.184814}, 
+                {"id": 16, "lemma": "들", "type": "VV", "position": 960, "weight": 0.00176292}, 
+                {"id": 17, "lemma": "어", "type": "EC", "position": 963, "weight": 0.41831}, 
+                {"id": 18, "lemma": "처음", "type": "NNG", "position": 967, "weight": 0.9}, 
+                {"id": 19, "lemma": "으로", "type": "JKB", "position": 973, "weight": 0.153406}, 
+                {"id": 20, "lemma": "이루어지", "type": "VV", "position": 980, "weight": 0.9}, 
+                {"id": 21, "lemma": "ㄴ", "type": "ETM", "position": 983, "weight": 0.304215}, 
+                {"id": 22, "lemma": "남북", "type": "NNP", "position": 990, "weight": 0.0242336}, 
+                {"id": 23, "lemma": "체육", "type": "NNG", "position": 997, "weight": 0.9}, 
+                {"id": 24, "lemma": "교류", "type": "NNG", "position": 1003, "weight": 0.9}, 
+                {"id": 25, "lemma": "협력", "type": "NNG", "position": 1009, "weight": 0.9}, 
+                {"id": 26, "lemma": "이", "type": "VCP", "position": 1015, "weight": 0.0177525}, 
+                {"id": 27, "lemma": "다", "type": "EF", "position": 1018, "weight": 0.353579}, 
+                {"id": 28, "lemma": ".", "type": "SF", "position": 1021, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "이날부터", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "열전에", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "돌입한", "type": "", "begin": 4, "end": 6}, 
+                {"id": 3, "text": "세계태권도", "type": "", "begin": 7, "end": 9}, 
+                {"id": 4, "text": "선수권대회는", "type": "", "begin": 10, "end": 13}, 
+                {"id": 5, "text": "이번", "type": "", "begin": 14, "end": 14}, 
+                {"id": 6, "text": "정부", "type": "", "begin": 15, "end": 15}, 
+                {"id": 7, "text": "들어", "type": "", "begin": 16, "end": 17}, 
+                {"id": 8, "text": "처음으로", "type": "", "begin": 18, "end": 19}, 
+                {"id": 9, "text": "이뤄진", "type": "", "begin": 20, "end": 21}, 
+                {"id": 10, "text": "남북", "type": "", "begin": 22, "end": 22}, 
+                {"id": 11, "text": "체육교류협력이다.", "type": "", "begin": 23, "end": 28}
+            ], 
+            "NE": [
+                {"id": 0, "text": "세계태권도 선수권대회", "type": "EV_SPORTS", "begin": 7, "end": 12, "weight": 0.218819, "common_noun": 0}, 
+                {"id": 1, "text": "정부", "type": "OGG_POLITICS", "begin": 15, "end": 15, "weight": 0.39424, "common_noun": 0}, 
+                {"id": 2, "text": "남북", "type": "LCP_COUNTRY", "begin": 22, "end": 22, "weight": 0.443336, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "이날부터", "head": 2, "label": "NP_AJT", "mod": [], "weight": 0.526395}, 
+                {"id": 1, "text": "열전에", "head": 2, "label": "NP_AJT", "mod": [], "weight": 0.705392}, 
+                {"id": 2, "text": "돌입한", "head": 4, "label": "VP_MOD", "mod": [0, 1], "weight": 0.572388}, 
+                {"id": 3, "text": "세계태권도", "head": 4, "label": "NP", "mod": [], "weight": 0.228373}, 
+                {"id": 4, "text": "선수권대회는", "head": 7, "label": "NP_SBJ", "mod": [2, 3], "weight": 0.245882}, 
+                {"id": 5, "text": "이번", "head": 6, "label": "NP", "mod": [], "weight": 0.21102}, 
+                {"id": 6, "text": "정부", "head": 7, "label": "NP_AJT", "mod": [5], "weight": 0.0943102}, 
+                {"id": 7, "text": "들어", "head": 9, "label": "VP", "mod": [4, 6], "weight": 0.87269}, 
+                {"id": 8, "text": "처음으로", "head": 9, "label": "NP_AJT", "mod": [], "weight": 0.817537}, 
+                {"id": 9, "text": "이뤄진", "head": 11, "label": "VP_MOD", "mod": [7, 8], "weight": 0.692893}, 
+                {"id": 10, "text": "남북", "head": 11, "label": "NP", "mod": [], "weight": 0.771961}, 
+                {"id": 11, "text": "체육교류협력이다.", "head": -1, "label": "VNP", "mod": [9, 10], "weight": 7.1038e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "이날부터", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "열전에", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#0@AJT부터 P#1@AJT에 돌입한", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "P#2@MODㄴ 세계태권도 선수권대회는", "begin": 0, "end": 4, "key_begin": 3, "head_phrase": 5, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "이번 정부", "begin": 5, "end": 6, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#3@SBJ는 P#4@AJT정부 들어", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 7, "sub_phrase": [3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "처음으로", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S_MOD", "text": "S#5@S어 P#6@AJT으로 이뤄진", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 8, "sub_phrase": [5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "S#7@MODㄴ 남북 체육교류협력이다.", "begin": 0, "end": 11, "key_begin": 10, "head_phrase": -1, "sub_phrase": [7], "weight": 0, "element": [
+                    {"text": "남북 체육교류협력", "label": "NP", "begin": 22, "end": 25, "ne_type": ""}, 
+                    {"text": "이다.", "label": "VP", "begin": 26, "end": 28, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [
+                {"verb": "돌입", "sense": 1, "word_id": 2, "weight": 0.299232, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 0, "text": "이날", "weight": 0.269064}, 
+                    {"type": "ARG1", "word_id": 1, "text": "열전", "weight": 0.109118}, 
+                    {"type": "ARG1", "word_id": 4, "text": "세계태권도 선수권대회", "weight": 0.519515}
+                ]}, 
+                {"verb": "들", "sense": 2, "word_id": 7, "weight": 0.268224, "argument": [
+                    {"type": "ARG2", "word_id": 6, "text": "이번 정부", "weight": 0.268224}
+                ]}, 
+                {"verb": "이루어지", "sense": 1, "word_id": 9, "weight": 0.138791, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 7, "text": "들어", "weight": 0.136024}, 
+                    {"type": "ARGM-PRD", "word_id": 8, "text": "처음", "weight": 0.141558}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 7, 
+            "text": " 문 대통령은 악화일로를 걷고 있는 대북 관계에 대한 전환점을 마련하고자 스포츠를 통한 화합에 무게를 뒀다.", 
+            "morp": [
+                {"id": 0, "lemma": "문", "type": "NNG", "position": 1023, "weight": 0.392443}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 1027, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 1036, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "악화", "type": "NNG", "position": 1040, "weight": 0.9}, 
+                {"id": 4, "lemma": "일로", "type": "NNG", "position": 1046, "weight": 0.170621}, 
+                {"id": 5, "lemma": "를", "type": "JKO", "position": 1052, "weight": 0.137686}, 
+                {"id": 6, "lemma": "걷", "type": "VV", "position": 1056, "weight": 0.9}, 
+                {"id": 7, "lemma": "고", "type": "EC", "position": 1059, "weight": 0.416679}, 
+                {"id": 8, "lemma": "있", "type": "VX", "position": 1063, "weight": 0.125953}, 
+                {"id": 9, "lemma": "는", "type": "ETM", "position": 1066, "weight": 0.183966}, 
+                {"id": 10, "lemma": "대북", "type": "NNG", "position": 1070, "weight": 0.658022}, 
+                {"id": 11, "lemma": "관계", "type": "NNG", "position": 1077, "weight": 0.9}, 
+                {"id": 12, "lemma": "에", "type": "JKB", "position": 1083, "weight": 0.153364}, 
+                {"id": 13, "lemma": "대", "type": "NNG", "position": 1087, "weight": 0.0312871}, 
+                {"id": 14, "lemma": "하", "type": "XSV", "position": 1090, "weight": 0.0001}, 
+                {"id": 15, "lemma": "ㄴ", "type": "ETM", "position": 1090, "weight": 0.392321}, 
+                {"id": 16, "lemma": "전환", "type": "NNG", "position": 1094, "weight": 0.9}, 
+                {"id": 17, "lemma": "점", "type": "NNG", "position": 1100, "weight": 0.156686}, 
+                {"id": 18, "lemma": "을", "type": "JKO", "position": 1103, "weight": 0.129611}, 
+                {"id": 19, "lemma": "마련", "type": "NNG", "position": 1107, "weight": 0.0400296}, 
+                {"id": 20, "lemma": "하", "type": "XSV", "position": 1113, "weight": 0.0001}, 
+                {"id": 21, "lemma": "고자", "type": "EC", "position": 1116, "weight": 0.369289}, 
+                {"id": 22, "lemma": "스포츠", "type": "NNG", "position": 1123, "weight": 0.9}, 
+                {"id": 23, "lemma": "를", "type": "JKO", "position": 1132, "weight": 0.137686}, 
+                {"id": 24, "lemma": "통하", "type": "VV", "position": 1136, "weight": 0.9}, 
+                {"id": 25, "lemma": "ㄴ", "type": "ETM", "position": 1139, "weight": 0.304215}, 
+                {"id": 26, "lemma": "화합", "type": "NNG", "position": 1143, "weight": 0.9}, 
+                {"id": 27, "lemma": "에", "type": "JKB", "position": 1149, "weight": 0.153364}, 
+                {"id": 28, "lemma": "무게", "type": "NNG", "position": 1153, "weight": 0.9}, 
+                {"id": 29, "lemma": "를", "type": "JKO", "position": 1159, "weight": 0.137686}, 
+                {"id": 30, "lemma": "두", "type": "VV", "position": 1163, "weight": 0.192556}, 
+                {"id": 31, "lemma": "었", "type": "EP", "position": 1163, "weight": 0.9}, 
+                {"id": 32, "lemma": "다", "type": "EF", "position": 1166, "weight": 0.640954}, 
+                {"id": 33, "lemma": ".", "type": "SF", "position": 1169, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "문", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "악화일로를", "type": "", "begin": 3, "end": 5}, 
+                {"id": 3, "text": "걷고", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "있는", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "대북", "type": "", "begin": 10, "end": 10}, 
+                {"id": 6, "text": "관계에", "type": "", "begin": 11, "end": 12}, 
+                {"id": 7, "text": "대한", "type": "", "begin": 13, "end": 15}, 
+                {"id": 8, "text": "전환점을", "type": "", "begin": 16, "end": 18}, 
+                {"id": 9, "text": "마련하고자", "type": "", "begin": 19, "end": 21}, 
+                {"id": 10, "text": "스포츠를", "type": "", "begin": 22, "end": 23}, 
+                {"id": 11, "text": "통한", "type": "", "begin": 24, "end": 25}, 
+                {"id": 12, "text": "화합에", "type": "", "begin": 26, "end": 27}, 
+                {"id": 13, "text": "무게를", "type": "", "begin": 28, "end": 29}, 
+                {"id": 14, "text": "뒀다.", "type": "", "begin": 30, "end": 33}
+            ], 
+            "NE": [
+                {"id": 0, "text": "문", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.552663, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.636625, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "문", "head": 1, "label": "NP", "mod": [], "weight": 0.707318}, 
+                {"id": 1, "text": "대통령은", "head": 9, "label": "NP_SBJ", "mod": [0], "weight": 0.602184}, 
+                {"id": 2, "text": "악화일로를", "head": 3, "label": "NP_OBJ", "mod": [], "weight": 0.638727}, 
+                {"id": 3, "text": "걷고", "head": 4, "label": "VP", "mod": [2], "weight": 0.760559}, 
+                {"id": 4, "text": "있는", "head": 6, "label": "VP_MOD", "mod": [3], "weight": 0.522987}, 
+                {"id": 5, "text": "대북", "head": 6, "label": "NP", "mod": [], "weight": 0.761483}, 
+                {"id": 6, "text": "관계에", "head": 7, "label": "NP_AJT", "mod": [4, 5], "weight": 0.75208}, 
+                {"id": 7, "text": "대한", "head": 8, "label": "VP_MOD", "mod": [6], "weight": 0.776369}, 
+                {"id": 8, "text": "전환점을", "head": 9, "label": "NP_OBJ", "mod": [7], "weight": 0.616647}, 
+                {"id": 9, "text": "마련하고자", "head": 14, "label": "VP", "mod": [1, 8], "weight": 0.70911}, 
+                {"id": 10, "text": "스포츠를", "head": 11, "label": "NP_OBJ", "mod": [], "weight": 0.681259}, 
+                {"id": 11, "text": "통한", "head": 12, "label": "VP_MOD", "mod": [10], "weight": 0.660181}, 
+                {"id": 12, "text": "화합에", "head": 14, "label": "NP_AJT", "mod": [11], "weight": 0.784393}, 
+                {"id": 13, "text": "무게를", "head": 14, "label": "NP_OBJ", "mod": [], "weight": 0.733157}, 
+                {"id": 14, "text": "뒀다.", "head": -1, "label": "VP", "mod": [9, 12, 13], "weight": 0.00420995}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "문 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "악화일로를", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#1@OBJ를 걷고 있는", "begin": 2, "end": 4, "key_begin": 3, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "P#2@MOD는 대북 관계에", "begin": 2, "end": 6, "key_begin": 5, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#3@AJT에 대한", "begin": 2, "end": 7, "key_begin": 7, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_OBJ", "text": "P#4@MODㄴ 전환점을", "begin": 2, "end": 8, "key_begin": 8, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S", "text": "P#0@SBJ은 P#5@OBJ을 마련하고자", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 11, "sub_phrase": [0, 5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_OBJ", "text": "스포츠를", "begin": 10, "end": 10, "key_begin": 10, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "VP_MOD", "text": "P#7@OBJ를 통한", "begin": 10, "end": 11, "key_begin": 11, "head_phrase": 9, "sub_phrase": [7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_AJT", "text": "P#8@MODㄴ 화합에", "begin": 10, "end": 12, "key_begin": 12, "head_phrase": 11, "sub_phrase": [8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "NP_OBJ", "text": "무게를", "begin": 13, "end": 13, "key_begin": 13, "head_phrase": 11, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 11, "label": "S", "text": "S#6@S고자 P#9@AJT에 P#10@OBJ를 뒀다.", "begin": 0, "end": 14, "key_begin": 14, "head_phrase": -1, "sub_phrase": [6, 9, 10], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "걷", "sense": 1, "word_id": 3, "weight": 0.381206, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "문 대통령", "weight": 0.329899}, 
+                    {"type": "ARG1", "word_id": 2, "text": "악화일로", "weight": 0.20198}, 
+                    {"type": "AUX", "word_id": 4, "text": "걷고 있는", "weight": 0.725779}, 
+                    {"type": "ARG0", "word_id": 6, "text": "대북 관계", "weight": 0.267166}
+                ]}, 
+                {"verb": "대", "sense": 1, "word_id": 7, "weight": 0.501377, "argument": [
+                    {"type": "ARG2", "word_id": 6, "text": "대북 관계", "weight": 0.414561}, 
+                    {"type": "ARG1", "word_id": 8, "text": "전환점", "weight": 0.588193}
+                ]}, 
+                {"verb": "마련", "sense": 1, "word_id": 9, "weight": 0.502819, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "전환점", "weight": 0.502819}
+                ]}, 
+                {"verb": "통하", "sense": 1, "word_id": 11, "weight": 0.453332, "argument": [
+                    {"type": "ARG2", "word_id": 10, "text": "스포츠", "weight": 0.452879}, 
+                    {"type": "ARG1", "word_id": 12, "text": "화합", "weight": 0.453785}
+                ]}, 
+                {"verb": "두", "sense": 1, "word_id": 14, "weight": 0.380476, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "문 대통령", "weight": 0.333589}, 
+                    {"type": "ARG2", "word_id": 12, "text": "화합", "weight": 0.386573}, 
+                    {"type": "ARG1", "word_id": 13, "text": "무게", "weight": 0.421267}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 14, "ant_sid": 7, "ant_wid": 1, "ant_is_title": 0, "weight": 0.511613}
+            ]
+        }, 
+        {
+            "id": 8, 
+            "text": "문 대통령은 “적대국이었던 미국과 중국, 미국과 베트남이 핑퐁외교로 평화를 이뤘다.", 
+            "morp": [
+                {"id": 0, "lemma": "문", "type": "NNG", "position": 1170, "weight": 0.392443}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 1174, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 1183, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "“", "type": "SS", "position": 1187, "weight": 1}, 
+                {"id": 4, "lemma": "적대", "type": "NNG", "position": 1190, "weight": 0.9}, 
+                {"id": 5, "lemma": "국", "type": "XSN", "position": 1196, "weight": 0.0205107}, 
+                {"id": 6, "lemma": "이", "type": "VCP", "position": 1199, "weight": 0.0165001}, 
+                {"id": 7, "lemma": "었", "type": "EP", "position": 1202, "weight": 0.9}, 
+                {"id": 8, "lemma": "던", "type": "ETM", "position": 1205, "weight": 0.107547}, 
+                {"id": 9, "lemma": "미국", "type": "NNP", "position": 1209, "weight": 0.0280581}, 
+                {"id": 10, "lemma": "과", "type": "JC", "position": 1215, "weight": 0.0108215}, 
+                {"id": 11, "lemma": "중국", "type": "NNP", "position": 1219, "weight": 0.0704877}, 
+                {"id": 12, "lemma": ",", "type": "SP", "position": 1225, "weight": 1}, 
+                {"id": 13, "lemma": "미국", "type": "NNP", "position": 1227, "weight": 0.123794}, 
+                {"id": 14, "lemma": "과", "type": "JC", "position": 1233, "weight": 0.0108215}, 
+                {"id": 15, "lemma": "베트남", "type": "NNP", "position": 1237, "weight": 0.9}, 
+                {"id": 16, "lemma": "이", "type": "JKS", "position": 1246, "weight": 0.0234517}, 
+                {"id": 17, "lemma": "핑퐁", "type": "NNG", "position": 1250, "weight": 0.194297}, 
+                {"id": 18, "lemma": "외교", "type": "NNG", "position": 1256, "weight": 0.9}, 
+                {"id": 19, "lemma": "로", "type": "JKB", "position": 1262, "weight": 0.153229}, 
+                {"id": 20, "lemma": "평화", "type": "NNG", "position": 1266, "weight": 0.204865}, 
+                {"id": 21, "lemma": "를", "type": "JKO", "position": 1272, "weight": 0.137686}, 
+                {"id": 22, "lemma": "이루", "type": "VV", "position": 1276, "weight": 0.760047}, 
+                {"id": 23, "lemma": "었", "type": "EP", "position": 1279, "weight": 0.9}, 
+                {"id": 24, "lemma": "다", "type": "EF", "position": 1282, "weight": 0.640954}, 
+                {"id": 25, "lemma": ".", "type": "SF", "position": 1285, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "문", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "“적대국이었던", "type": "", "begin": 3, "end": 8}, 
+                {"id": 3, "text": "미국과", "type": "", "begin": 9, "end": 10}, 
+                {"id": 4, "text": "중국,", "type": "", "begin": 11, "end": 12}, 
+                {"id": 5, "text": "미국과", "type": "", "begin": 13, "end": 14}, 
+                {"id": 6, "text": "베트남이", "type": "", "begin": 15, "end": 16}, 
+                {"id": 7, "text": "핑퐁외교로", "type": "", "begin": 17, "end": 19}, 
+                {"id": 8, "text": "평화를", "type": "", "begin": 20, "end": 21}, 
+                {"id": 9, "text": "이뤘다.", "type": "", "begin": 22, "end": 25}
+            ], 
+            "NE": [
+                {"id": 0, "text": "문", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.571024, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.758507, "common_noun": 0}, 
+                {"id": 2, "text": "미국", "type": "LCP_COUNTRY", "begin": 9, "end": 9, "weight": 0.817737, "common_noun": 0}, 
+                {"id": 3, "text": "중국", "type": "LCP_COUNTRY", "begin": 11, "end": 11, "weight": 0.776842, "common_noun": 0}, 
+                {"id": 4, "text": "미국", "type": "LCP_COUNTRY", "begin": 13, "end": 13, "weight": 0.906439, "common_noun": 0}, 
+                {"id": 5, "text": "베트남", "type": "LCP_COUNTRY", "begin": 15, "end": 15, "weight": 0.559774, "common_noun": 0}, 
+                {"id": 6, "text": "핑퐁", "type": "CV_SPORTS", "begin": 17, "end": 17, "weight": 0.160297, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "문", "head": 1, "label": "NP", "mod": [], "weight": 0.739703}, 
+                {"id": 1, "text": "대통령은", "head": 9, "label": "NP_SBJ", "mod": [0], "weight": 0.795456}, 
+                {"id": 2, "text": "“적대국이었던", "head": 6, "label": "VNP_MOD", "mod": [], "weight": 0.217907}, 
+                {"id": 3, "text": "미국과", "head": 6, "label": "NP_CNJ", "mod": [], "weight": 0.616811}, 
+                {"id": 4, "text": "중국,", "head": 6, "label": "NP_CNJ", "mod": [], "weight": 0.632087}, 
+                {"id": 5, "text": "미국과", "head": 6, "label": "NP_CNJ", "mod": [], "weight": 0.672179}, 
+                {"id": 6, "text": "베트남이", "head": 9, "label": "NP_SBJ", "mod": [2, 3, 4, 5], "weight": 0.789316}, 
+                {"id": 7, "text": "핑퐁외교로", "head": 9, "label": "NP_AJT", "mod": [], "weight": 0.745718}, 
+                {"id": 8, "text": "평화를", "head": 9, "label": "NP_OBJ", "mod": [], "weight": 0.748774}, 
+                {"id": 9, "text": "이뤘다.", "head": -1, "label": "VP", "mod": [1, 6, 7, 8], "weight": 0.0114529}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "문 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "“적대국이었던 미국과 중국, 미국과 베트남이", "begin": 2, "end": 6, "key_begin": 2, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "핑퐁외교로", "begin": 7, "end": 7, "key_begin": 7, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_OBJ", "text": "평화를", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "P#0@SBJ은 P#1@SBJ이 P#2@AJT로 P#3@OBJ를 이뤘다.", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": -1, "sub_phrase": [0, 1, 2, 3], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "이루", "sense": 1, "word_id": 9, "weight": 0.265923, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "문 대통령", "weight": 0.297701}, 
+                    {"type": "ARG0", "word_id": 6, "text": "“적대국이었던 미국과 중국, 미국과 베트남", "weight": 0.181872}, 
+                    {"type": "ARGM-INS", "word_id": 7, "text": "핑퐁외교", "weight": 0.135033}, 
+                    {"type": "ARG1", "word_id": 8, "text": "평화", "weight": 0.449084}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 9, 
+            "text": " 남아프리카공화국에서 흑백 통합리그가 출범할 수 있었던 것도 세계축구연맹(FIFA)의 노력이 있었기 때문”이라고 스포츠를 통한 갈등 극복 역사를 언급하면서 “무주에서 신라와 백제가 하나가 되었듯 오늘 이곳에서 남북이 하나가 되고 세계가 하나가 되길 바란다”고 말했다.", 
+            "morp": [
+                {"id": 0, "lemma": "남아프리카공화국", "type": "NNP", "position": 1287, "weight": 0.9}, 
+                {"id": 1, "lemma": "에서", "type": "JKB", "position": 1311, "weight": 0.0823859}, 
+                {"id": 2, "lemma": "흑백", "type": "NNG", "position": 1318, "weight": 0.9}, 
+                {"id": 3, "lemma": "통합리그", "type": "NNG", "position": 1325, "weight": 0}, 
+                {"id": 4, "lemma": "가", "type": "JKS", "position": 1337, "weight": 0.066324}, 
+                {"id": 5, "lemma": "출범", "type": "NNG", "position": 1341, "weight": 0.9}, 
+                {"id": 6, "lemma": "하", "type": "XSV", "position": 1347, "weight": 0.0001}, 
+                {"id": 7, "lemma": "ㄹ", "type": "ETM", "position": 1347, "weight": 0.387847}, 
+                {"id": 8, "lemma": "수", "type": "NNB", "position": 1351, "weight": 0.215617}, 
+                {"id": 9, "lemma": "있", "type": "VA", "position": 1355, "weight": 0.0518488}, 
+                {"id": 10, "lemma": "었", "type": "EP", "position": 1358, "weight": 0.9}, 
+                {"id": 11, "lemma": "던", "type": "ETM", "position": 1361, "weight": 0.107547}, 
+                {"id": 12, "lemma": "것", "type": "NNB", "position": 1365, "weight": 0.228788}, 
+                {"id": 13, "lemma": "도", "type": "JX", "position": 1368, "weight": 0.103448}, 
+                {"id": 14, "lemma": "세계", "type": "NNG", "position": 1372, "weight": 0.9}, 
+                {"id": 15, "lemma": "축구", "type": "NNG", "position": 1378, "weight": 0.9}, 
+                {"id": 16, "lemma": "연맹", "type": "NNG", "position": 1384, "weight": 0.9}, 
+                {"id": 17, "lemma": "(", "type": "SS", "position": 1390, "weight": 1}, 
+                {"id": 18, "lemma": "FIFA", "type": "SL", "position": 1391, "weight": 1}, 
+                {"id": 19, "lemma": ")", "type": "SS", "position": 1395, "weight": 1}, 
+                {"id": 20, "lemma": "의", "type": "JKG", "position": 1396, "weight": 0.0878251}, 
+                {"id": 21, "lemma": "노력", "type": "NNG", "position": 1400, "weight": 0.9}, 
+                {"id": 22, "lemma": "이", "type": "JKS", "position": 1406, "weight": 0.0360723}, 
+                {"id": 23, "lemma": "있", "type": "VA", "position": 1410, "weight": 0.12767}, 
+                {"id": 24, "lemma": "었", "type": "EP", "position": 1413, "weight": 0.9}, 
+                {"id": 25, "lemma": "기", "type": "ETN", "position": 1416, "weight": 0.0127802}, 
+                {"id": 26, "lemma": "때문", "type": "NNB", "position": 1420, "weight": 0.9}, 
+                {"id": 27, "lemma": "”", "type": "SS", "position": 1426, "weight": 1}, 
+                {"id": 28, "lemma": "이", "type": "VCP", "position": 1429, "weight": 0.00747344}, 
+                {"id": 29, "lemma": "라고", "type": "EC", "position": 1432, "weight": 0.204147}, 
+                {"id": 30, "lemma": "스포츠", "type": "NNG", "position": 1439, "weight": 0.9}, 
+                {"id": 31, "lemma": "를", "type": "JKO", "position": 1448, "weight": 0.137686}, 
+                {"id": 32, "lemma": "통하", "type": "VV", "position": 1452, "weight": 0.9}, 
+                {"id": 33, "lemma": "ㄴ", "type": "ETM", "position": 1455, "weight": 0.304215}, 
+                {"id": 34, "lemma": "갈등", "type": "NNG", "position": 1459, "weight": 0.9}, 
+                {"id": 35, "lemma": "극복", "type": "NNG", "position": 1466, "weight": 0.9}, 
+                {"id": 36, "lemma": "역사", "type": "NNG", "position": 1473, "weight": 0.184777}, 
+                {"id": 37, "lemma": "를", "type": "JKO", "position": 1479, "weight": 0.137686}, 
+                {"id": 38, "lemma": "언급", "type": "NNG", "position": 1483, "weight": 0.9}, 
+                {"id": 39, "lemma": "하", "type": "XSV", "position": 1489, "weight": 0.0001}, 
+                {"id": 40, "lemma": "면서", "type": "EC", "position": 1492, "weight": 0.370489}, 
+                {"id": 41, "lemma": "“", "type": "SS", "position": 1499, "weight": 1}, 
+                {"id": 42, "lemma": "무주", "type": "NNP", "position": 1502, "weight": 0.0565181}, 
+                {"id": 43, "lemma": "에서", "type": "JKB", "position": 1508, "weight": 0.0823859}, 
+                {"id": 44, "lemma": "신라", "type": "NNP", "position": 1515, "weight": 0.9}, 
+                {"id": 45, "lemma": "와", "type": "JC", "position": 1521, "weight": 0.0104534}, 
+                {"id": 46, "lemma": "백제", "type": "NNP", "position": 1525, "weight": 0.9}, 
+                {"id": 47, "lemma": "가", "type": "JKS", "position": 1531, "weight": 0.0431193}, 
+                {"id": 48, "lemma": "하나", "type": "NNG", "position": 1535, "weight": 0.148947}, 
+                {"id": 49, "lemma": "가", "type": "JKC", "position": 1541, "weight": 0.000442184}, 
+                {"id": 50, "lemma": "되", "type": "VV", "position": 1545, "weight": 0.542406}, 
+                {"id": 51, "lemma": "었", "type": "EP", "position": 1548, "weight": 0.9}, 
+                {"id": 52, "lemma": "듯", "type": "EC", "position": 1551, "weight": 0.0868519}, 
+                {"id": 53, "lemma": "오늘", "type": "NNG", "position": 1555, "weight": 0.180782}, 
+                {"id": 54, "lemma": "이곳", "type": "NP", "position": 1562, "weight": 0.9}, 
+                {"id": 55, "lemma": "에서", "type": "JKB", "position": 1568, "weight": 0.126188}, 
+                {"id": 56, "lemma": "남북", "type": "NNP", "position": 1575, "weight": 0.0198808}, 
+                {"id": 57, "lemma": "이", "type": "JKS", "position": 1581, "weight": 0.0234517}, 
+                {"id": 58, "lemma": "하나", "type": "NNG", "position": 1585, "weight": 0.148947}, 
+                {"id": 59, "lemma": "가", "type": "JKC", "position": 1591, "weight": 0.000442184}, 
+                {"id": 60, "lemma": "되", "type": "VV", "position": 1595, "weight": 0.542406}, 
+                {"id": 61, "lemma": "고", "type": "EC", "position": 1598, "weight": 0.416679}, 
+                {"id": 62, "lemma": "세계", "type": "NNG", "position": 1602, "weight": 0.9}, 
+                {"id": 63, "lemma": "가", "type": "JKS", "position": 1608, "weight": 0.066324}, 
+                {"id": 64, "lemma": "하나", "type": "NNG", "position": 1612, "weight": 0.148947}, 
+                {"id": 65, "lemma": "가", "type": "JKC", "position": 1618, "weight": 0.000442184}, 
+                {"id": 66, "lemma": "되", "type": "VV", "position": 1622, "weight": 0.542406}, 
+                {"id": 67, "lemma": "기", "type": "ETN", "position": 1625, "weight": 0.0380514}, 
+                {"id": 68, "lemma": "ㄹ", "type": "JKO", "position": 1625, "weight": 0.00494828}, 
+                {"id": 69, "lemma": "바라", "type": "VV", "position": 1629, "weight": 0.775054}, 
+                {"id": 70, "lemma": "ㄴ다", "type": "EF", "position": 1632, "weight": 0.0793196}, 
+                {"id": 71, "lemma": "”", "type": "SS", "position": 1638, "weight": 1}, 
+                {"id": 72, "lemma": "고", "type": "JKQ", "position": 1641, "weight": 0.000541335}, 
+                {"id": 73, "lemma": "말", "type": "NNG", "position": 1645, "weight": 0.0618649}, 
+                {"id": 74, "lemma": "하", "type": "XSV", "position": 1648, "weight": 0.0001}, 
+                {"id": 75, "lemma": "었", "type": "EP", "position": 1648, "weight": 0.9}, 
+                {"id": 76, "lemma": "다", "type": "EF", "position": 1651, "weight": 0.640954}, 
+                {"id": 77, "lemma": ".", "type": "SF", "position": 1654, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "남아프리카공화국에서", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "흑백", "type": "", "begin": 2, "end": 2}, 
+                {"id": 2, "text": "통합리그가", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "출범할", "type": "", "begin": 5, "end": 7}, 
+                {"id": 4, "text": "수", "type": "", "begin": 8, "end": 8}, 
+                {"id": 5, "text": "있었던", "type": "", "begin": 9, "end": 11}, 
+                {"id": 6, "text": "것도", "type": "", "begin": 12, "end": 13}, 
+                {"id": 7, "text": "세계축구연맹(FIFA)의", "type": "", "begin": 14, "end": 20}, 
+                {"id": 8, "text": "노력이", "type": "", "begin": 21, "end": 22}, 
+                {"id": 9, "text": "있었기", "type": "", "begin": 23, "end": 25}, 
+                {"id": 10, "text": "때문”이라고", "type": "", "begin": 26, "end": 29}, 
+                {"id": 11, "text": "스포츠를", "type": "", "begin": 30, "end": 31}, 
+                {"id": 12, "text": "통한", "type": "", "begin": 32, "end": 33}, 
+                {"id": 13, "text": "갈등", "type": "", "begin": 34, "end": 34}, 
+                {"id": 14, "text": "극복", "type": "", "begin": 35, "end": 35}, 
+                {"id": 15, "text": "역사를", "type": "", "begin": 36, "end": 37}, 
+                {"id": 16, "text": "언급하면서", "type": "", "begin": 38, "end": 40}, 
+                {"id": 17, "text": "“무주에서", "type": "", "begin": 41, "end": 43}, 
+                {"id": 18, "text": "신라와", "type": "", "begin": 44, "end": 45}, 
+                {"id": 19, "text": "백제가", "type": "", "begin": 46, "end": 47}, 
+                {"id": 20, "text": "하나가", "type": "", "begin": 48, "end": 49}, 
+                {"id": 21, "text": "되었듯", "type": "", "begin": 50, "end": 52}, 
+                {"id": 22, "text": "오늘", "type": "", "begin": 53, "end": 53}, 
+                {"id": 23, "text": "이곳에서", "type": "", "begin": 54, "end": 55}, 
+                {"id": 24, "text": "남북이", "type": "", "begin": 56, "end": 57}, 
+                {"id": 25, "text": "하나가", "type": "", "begin": 58, "end": 59}, 
+                {"id": 26, "text": "되고", "type": "", "begin": 60, "end": 61}, 
+                {"id": 27, "text": "세계가", "type": "", "begin": 62, "end": 63}, 
+                {"id": 28, "text": "하나가", "type": "", "begin": 64, "end": 65}, 
+                {"id": 29, "text": "되길", "type": "", "begin": 66, "end": 68}, 
+                {"id": 30, "text": "바란다”고", "type": "", "begin": 69, "end": 72}, 
+                {"id": 31, "text": "말했다.", "type": "", "begin": 73, "end": 77}
+            ], 
+            "NE": [
+                {"id": 0, "text": "남아프리카공화국", "type": "LCP_COUNTRY", "begin": 0, "end": 0, "weight": 0.774242, "common_noun": 0}, 
+                {"id": 1, "text": "흑백", "type": "TM_COLOR", "begin": 2, "end": 2, "weight": 0.236211, "common_noun": 0}, 
+                {"id": 2, "text": "세계축구연맹", "type": "OGG_SPORTS", "begin": 14, "end": 16, "weight": 0.442753, "common_noun": 0}, 
+                {"id": 3, "text": "FIFA", "type": "OGG_SPORTS", "begin": 18, "end": 18, "weight": 0.375168, "common_noun": 0}, 
+                {"id": 4, "text": "무주", "type": "LCP_COUNTY", "begin": 42, "end": 42, "weight": 0.416861, "common_noun": 0}, 
+                {"id": 5, "text": "신라", "type": "LCP_COUNTRY", "begin": 44, "end": 44, "weight": 0.821268, "common_noun": 0}, 
+                {"id": 6, "text": "백제", "type": "LCP_COUNTRY", "begin": 46, "end": 46, "weight": 0.759551, "common_noun": 0}, 
+                {"id": 7, "text": "하나", "type": "QT_COUNT", "begin": 48, "end": 48, "weight": 0.370135, "common_noun": 0}, 
+                {"id": 8, "text": "오늘", "type": "DT_DAY", "begin": 53, "end": 53, "weight": 0.660256, "common_noun": 0}, 
+                {"id": 9, "text": "남북", "type": "LCP_COUNTRY", "begin": 56, "end": 56, "weight": 0.352001, "common_noun": 0}, 
+                {"id": 10, "text": "하나", "type": "QT_COUNT", "begin": 58, "end": 58, "weight": 0.588449, "common_noun": 0}, 
+                {"id": 11, "text": "하나", "type": "QT_COUNT", "begin": 64, "end": 64, "weight": 0.515761, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "남아프리카공화국에서", "head": 3, "label": "NP_AJT", "mod": [], "weight": 0.856482}, 
+                {"id": 1, "text": "흑백", "head": 2, "label": "NP", "mod": [], "weight": 0.671875}, 
+                {"id": 2, "text": "통합리그가", "head": 3, "label": "NP_SBJ", "mod": [1], "weight": 0.813153}, 
+                {"id": 3, "text": "출범할", "head": 4, "label": "VP_MOD", "mod": [0, 2], "weight": 0.769641}, 
+                {"id": 4, "text": "수", "head": 5, "label": "NP_SBJ", "mod": [3], "weight": 0.791406}, 
+                {"id": 5, "text": "있었던", "head": 6, "label": "VP_MOD", "mod": [4], "weight": 0.479785}, 
+                {"id": 6, "text": "것도", "head": 9, "label": "NP_SBJ", "mod": [5], "weight": 0.746617}, 
+                {"id": 7, "text": "세계축구연맹(FIFA)의", "head": 8, "label": "NP_MOD", "mod": [], "weight": 0.48719}, 
+                {"id": 8, "text": "노력이", "head": 9, "label": "NP_SBJ", "mod": [7], "weight": 0.776096}, 
+                {"id": 9, "text": "있었기", "head": 10, "label": "VP", "mod": [6, 8], "weight": 0.772413}, 
+                {"id": 10, "text": "때문”이라고", "head": 16, "label": "VNP_CMP", "mod": [9], "weight": 0.422276}, 
+                {"id": 11, "text": "스포츠를", "head": 12, "label": "NP_OBJ", "mod": [], "weight": 0.733753}, 
+                {"id": 12, "text": "통한", "head": 15, "label": "VP_MOD", "mod": [11], "weight": 0.692816}, 
+                {"id": 13, "text": "갈등", "head": 14, "label": "NP", "mod": [], "weight": 0.492766}, 
+                {"id": 14, "text": "극복", "head": 15, "label": "NP", "mod": [13], "weight": 0.636177}, 
+                {"id": 15, "text": "역사를", "head": 16, "label": "NP_OBJ", "mod": [12, 14], "weight": 0.735243}, 
+                {"id": 16, "text": "언급하면서", "head": 21, "label": "VP", "mod": [10, 15], "weight": 0.675789}, 
+                {"id": 17, "text": "“무주에서", "head": 21, "label": "NP_AJT", "mod": [], "weight": 0.742603}, 
+                {"id": 18, "text": "신라와", "head": 19, "label": "NP_CNJ", "mod": [], "weight": 0.711177}, 
+                {"id": 19, "text": "백제가", "head": 21, "label": "NP_SBJ", "mod": [18], "weight": 0.855001}, 
+                {"id": 20, "text": "하나가", "head": 21, "label": "NP_CMP", "mod": [], "weight": 0.736938}, 
+                {"id": 21, "text": "되었듯", "head": 26, "label": "VP", "mod": [16, 17, 19, 20], "weight": 0.457813}, 
+                {"id": 22, "text": "오늘", "head": 26, "label": "NP_AJT", "mod": [], "weight": 0.608339}, 
+                {"id": 23, "text": "이곳에서", "head": 26, "label": "NP_AJT", "mod": [], "weight": 0.274015}, 
+                {"id": 24, "text": "남북이", "head": 26, "label": "NP_SBJ", "mod": [], "weight": 0.759901}, 
+                {"id": 25, "text": "하나가", "head": 26, "label": "NP_CMP", "mod": [], "weight": 0.843979}, 
+                {"id": 26, "text": "되고", "head": 29, "label": "VP", "mod": [21, 22, 23, 24, 25], "weight": 0.512691}, 
+                {"id": 27, "text": "세계가", "head": 29, "label": "NP_SBJ", "mod": [], "weight": 0.815595}, 
+                {"id": 28, "text": "하나가", "head": 29, "label": "NP_CMP", "mod": [], "weight": 0.771836}, 
+                {"id": 29, "text": "되길", "head": 30, "label": "VP_OBJ", "mod": [26, 27, 28], "weight": 0.613869}, 
+                {"id": 30, "text": "바란다”고", "head": 31, "label": "VP_CMP", "mod": [29], "weight": 0.503955}, 
+                {"id": 31, "text": "말했다.", "head": -1, "label": "VP", "mod": [30], "weight": 1.31863e-06}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "남아프리카공화국에서", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "흑백 통합리그가", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S_MOD", "text": "P#0@AJT에서 P#1@SBJ가 출범할", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "S#2@MODㄹ 수", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S_MOD", "text": "P#3@SBJ수 있었던", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_SBJ", "text": "S#4@MOD던 것도", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 7, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_SBJ", "text": "세계축구연맹(FIFA)의 노력이", "begin": 7, "end": 8, "key_begin": 7, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "P#5@SBJ도 P#6@SBJ이 있었기", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 8, "sub_phrase": [5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S_CMP", "text": "S#7@S기 때문”이라고", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": 12, "sub_phrase": [7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_OBJ", "text": "스포츠를", "begin": 11, "end": 11, "key_begin": 11, "head_phrase": 10, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 10, "label": "VP_MOD", "text": "P#9@OBJ를 통한", "begin": 11, "end": 12, "key_begin": 12, "head_phrase": 11, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "NP_OBJ", "text": "P#10@MODㄴ 갈등 극복 역사를", "begin": 11, "end": 15, "key_begin": 13, "head_phrase": 12, "sub_phrase": [10], "weight": 0, "element": []}, 
+                {"id": 12, "label": "S", "text": "S#8@CMP라고 P#11@OBJ를 언급하면서", "begin": 0, "end": 16, "key_begin": 16, "head_phrase": 16, "sub_phrase": [8, 11], "weight": 0, "element": []}, 
+                {"id": 13, "label": "NP_AJT", "text": "“무주에서", "begin": 17, "end": 17, "key_begin": 17, "head_phrase": 16, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 14, "label": "NP_SBJ", "text": "신라와 백제가", "begin": 18, "end": 19, "key_begin": 18, "head_phrase": 16, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "신라", "label": "NP_SBJ", "begin": 44, "end": 44, "ne_type": "LCP_COUNTRY"}, 
+                    {"text": "백제", "label": "NP_SBJ", "begin": 46, "end": 46, "ne_type": "LCP_COUNTRY"}
+                ]}, 
+                {"id": 15, "label": "NP_CMP", "text": "하나가", "begin": 20, "end": 20, "key_begin": 20, "head_phrase": 16, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 16, "label": "S", "text": "S#12@S면서 P#13@AJT에서 P#14@SBJ가 P#15@CMP가 되었듯", "begin": 0, "end": 21, "key_begin": 21, "head_phrase": 21, "sub_phrase": [12, 13, 14, 15], "weight": 0, "element": []}, 
+                {"id": 17, "label": "NP_AJT", "text": "오늘", "begin": 22, "end": 22, "key_begin": 22, "head_phrase": 21, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 18, "label": "NP_AJT", "text": "이곳에서", "begin": 23, "end": 23, "key_begin": 23, "head_phrase": 21, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 19, "label": "NP_SBJ", "text": "남북이", "begin": 24, "end": 24, "key_begin": 24, "head_phrase": 21, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 20, "label": "NP_CMP", "text": "하나가", "begin": 25, "end": 25, "key_begin": 25, "head_phrase": 21, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 21, "label": "S", "text": "S#16@S듯 P#17@AJT오늘 P#18@AJT에서 P#19@SBJ이 P#20@CMP가 되고", "begin": 0, "end": 26, "key_begin": 26, "head_phrase": 24, "sub_phrase": [16, 17, 18, 19, 20], "weight": 0, "element": []}, 
+                {"id": 22, "label": "NP_SBJ", "text": "세계가", "begin": 27, "end": 27, "key_begin": 27, "head_phrase": 24, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 23, "label": "NP_CMP", "text": "하나가", "begin": 28, "end": 28, "key_begin": 28, "head_phrase": 24, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 24, "label": "S_OBJ", "text": "S#21@S고 P#22@SBJ가 P#23@CMP가 되길", "begin": 0, "end": 29, "key_begin": 29, "head_phrase": 25, "sub_phrase": [21, 22, 23], "weight": 0, "element": []}, 
+                {"id": 25, "label": "S_CMP", "text": "S#24@OBJㄹ 바란다”고", "begin": 0, "end": 30, "key_begin": 30, "head_phrase": 26, "sub_phrase": [24], "weight": 0, "element": []}, 
+                {"id": 26, "label": "S", "text": "S#25@CMP고 말했다.", "begin": 0, "end": 31, "key_begin": 31, "head_phrase": -1, "sub_phrase": [25], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "출범", "sense": 1, "word_id": 3, "weight": 0.458717, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 0, "text": "남아프리카공화국", "weight": 0.233883}, 
+                    {"type": "ARG1", "word_id": 2, "text": "흑백 통합리그", "weight": 0.408518}, 
+                    {"type": "AUX", "word_id": 5, "text": "있었던", "weight": 0.73375}
+                ]}, 
+                {"verb": "있", "sense": 1, "word_id": 9, "weight": 0.504586, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "세계축구연맹(FIFA)의 노력", "weight": 0.504586}
+                ]}, 
+                {"verb": "통하", "sense": 1, "word_id": 12, "weight": 0.471332, "argument": [
+                    {"type": "ARG2", "word_id": 11, "text": "스포츠", "weight": 0.471332}
+                ]}, 
+                {"verb": "언급", "sense": 1, "word_id": 16, "weight": 0.574284, "argument": [
+                    {"type": "ARG1", "word_id": 15, "text": "갈등 극복 역사", "weight": 0.574284}
+                ]}, 
+                {"verb": "되", "sense": 1, "word_id": 21, "weight": 0.446125, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 17, "text": "“무주", "weight": 0.41161}, 
+                    {"type": "ARG1", "word_id": 19, "text": "신라와 백제", "weight": 0.4175}, 
+                    {"type": "ARG2", "word_id": 20, "text": "하나", "weight": 0.509265}
+                ]}, 
+                {"verb": "되", "sense": 1, "word_id": 26, "weight": 0.463054, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 23, "text": "이곳", "weight": 0.254316}, 
+                    {"type": "ARG1", "word_id": 24, "text": "남북", "weight": 0.530624}, 
+                    {"type": "ARG2", "word_id": 25, "text": "하나", "weight": 0.604222}
+                ]}, 
+                {"verb": "되", "sense": 1, "word_id": 29, "weight": 0.431787, "argument": [
+                    {"type": "ARG1", "word_id": 24, "text": "남북", "weight": 0.287015}, 
+                    {"type": "ARG1", "word_id": 27, "text": "세계", "weight": 0.457359}, 
+                    {"type": "ARG2", "word_id": 28, "text": "하나", "weight": 0.550988}
+                ]}, 
+                {"verb": "바라", "sense": 1, "word_id": 30, "weight": 0.48232, "argument": [
+                    {"type": "ARG1", "word_id": 29, "text": "되기", "weight": 0.48232}
+                ]}, 
+                {"verb": "말", "sense": 1, "word_id": 31, "weight": 0.440039, "argument": [
+                    {"type": "ARG1", "word_id": 30, "text": "바라ㄴ다”", "weight": 0.440039}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 16, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.811661}, 
+                {"id": 1, "type": "s", "head_wid": 30, "ant_sid": 9, "ant_wid": 19, "ant_is_title": 0, "weight": 0.444362}, 
+                {"id": 2, "type": "s", "head_wid": 31, "ant_sid": 9, "ant_wid": 24, "ant_is_title": 0, "weight": 0.371331}
+            ]
+        }, 
+        {
+            "id": 10, 
+            "text": "아울러 “이번 성과가 내년 평창동계올림픽에서 북한 선수단이 참여하는 것으로 이어지기를 기대한다”며 동계올림픽 초대장도 건넸다.", 
+            "morp": [
+                {"id": 0, "lemma": "아울러", "type": "MAG", "position": 1655, "weight": 0.9}, 
+                {"id": 1, "lemma": "“", "type": "SS", "position": 1665, "weight": 1}, 
+                {"id": 2, "lemma": "이번", "type": "NNG", "position": 1668, "weight": 0.9}, 
+                {"id": 3, "lemma": "성과", "type": "NNG", "position": 1675, "weight": 0.9}, 
+                {"id": 4, "lemma": "가", "type": "JKS", "position": 1681, "weight": 0.066324}, 
+                {"id": 5, "lemma": "내년", "type": "NNG", "position": 1685, "weight": 0.9}, 
+                {"id": 6, "lemma": "평창", "type": "NNG", "position": 1692, "weight": 0}, 
+                {"id": 7, "lemma": "동계", "type": "NNG", "position": 1698, "weight": 0.180276}, 
+                {"id": 8, "lemma": "올림픽", "type": "NNG", "position": 1704, "weight": 0.9}, 
+                {"id": 9, "lemma": "에서", "type": "JKB", "position": 1713, "weight": 0.153407}, 
+                {"id": 10, "lemma": "북한", "type": "NNP", "position": 1720, "weight": 0.021871}, 
+                {"id": 11, "lemma": "선수", "type": "NNG", "position": 1727, "weight": 0.9}, 
+                {"id": 12, "lemma": "단", "type": "XSN", "position": 1733, "weight": 0.00809175}, 
+                {"id": 13, "lemma": "이", "type": "JKS", "position": 1736, "weight": 0.0731805}, 
+                {"id": 14, "lemma": "참여", "type": "NNG", "position": 1740, "weight": 0.9}, 
+                {"id": 15, "lemma": "하", "type": "XSV", "position": 1746, "weight": 0.0001}, 
+                {"id": 16, "lemma": "는", "type": "ETM", "position": 1749, "weight": 0.238503}, 
+                {"id": 17, "lemma": "것", "type": "NNB", "position": 1753, "weight": 0.228788}, 
+                {"id": 18, "lemma": "으로", "type": "JKB", "position": 1756, "weight": 0.135596}, 
+                {"id": 19, "lemma": "이어지", "type": "VV", "position": 1763, "weight": 0.9}, 
+                {"id": 20, "lemma": "기", "type": "ETN", "position": 1772, "weight": 0.0380514}, 
+                {"id": 21, "lemma": "를", "type": "JKO", "position": 1775, "weight": 0.0983352}, 
+                {"id": 22, "lemma": "기대", "type": "NNG", "position": 1779, "weight": 0.0713323}, 
+                {"id": 23, "lemma": "하", "type": "XSV", "position": 1785, "weight": 0.0001}, 
+                {"id": 24, "lemma": "ㄴ다", "type": "EF", "position": 1785, "weight": 0.0449045}, 
+                {"id": 25, "lemma": "”", "type": "SS", "position": 1791, "weight": 1}, 
+                {"id": 26, "lemma": "며", "type": "EC", "position": 1794, "weight": 0.00532489}, 
+                {"id": 27, "lemma": "동계", "type": "NNG", "position": 1798, "weight": 0.214006}, 
+                {"id": 28, "lemma": "올림픽", "type": "NNG", "position": 1804, "weight": 0.9}, 
+                {"id": 29, "lemma": "초", "type": "XPN", "position": 1814, "weight": 0.0001}, 
+                {"id": 30, "lemma": "대장", "type": "NNG", "position": 1817, "weight": 0.9}, 
+                {"id": 31, "lemma": "도", "type": "JX", "position": 1823, "weight": 0.0676272}, 
+                {"id": 32, "lemma": "건네", "type": "VV", "position": 1827, "weight": 0.9}, 
+                {"id": 33, "lemma": "었", "type": "EP", "position": 1830, "weight": 0.9}, 
+                {"id": 34, "lemma": "다", "type": "EF", "position": 1833, "weight": 0.640954}, 
+                {"id": 35, "lemma": ".", "type": "SF", "position": 1836, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "아울러", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "“이번", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "성과가", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "내년", "type": "", "begin": 5, "end": 5}, 
+                {"id": 4, "text": "평창동계올림픽에서", "type": "", "begin": 6, "end": 9}, 
+                {"id": 5, "text": "북한", "type": "", "begin": 10, "end": 10}, 
+                {"id": 6, "text": "선수단이", "type": "", "begin": 11, "end": 13}, 
+                {"id": 7, "text": "참여하는", "type": "", "begin": 14, "end": 16}, 
+                {"id": 8, "text": "것으로", "type": "", "begin": 17, "end": 18}, 
+                {"id": 9, "text": "이어지기를", "type": "", "begin": 19, "end": 21}, 
+                {"id": 10, "text": "기대한다”며", "type": "", "begin": 22, "end": 26}, 
+                {"id": 11, "text": "동계올림픽", "type": "", "begin": 27, "end": 28}, 
+                {"id": 12, "text": "초대장도", "type": "", "begin": 29, "end": 31}, 
+                {"id": 13, "text": "건넸다.", "type": "", "begin": 32, "end": 35}
+            ], 
+            "NE": [
+                {"id": 0, "text": "내년", "type": "DT_YEAR", "begin": 5, "end": 5, "weight": 0.807279, "common_noun": 0}, 
+                {"id": 1, "text": "평창동계올림픽", "type": "EV_SPORTS", "begin": 6, "end": 8, "weight": 0.907742, "common_noun": 0}, 
+                {"id": 2, "text": "북한", "type": "LCP_COUNTRY", "begin": 10, "end": 10, "weight": 0.548666, "common_noun": 0}, 
+                {"id": 3, "text": "선수", "type": "CV_OCCUPATION", "begin": 11, "end": 11, "weight": 0.439323, "common_noun": 0}, 
+                {"id": 4, "text": "동계올림픽", "type": "EV_SPORTS", "begin": 27, "end": 28, "weight": 0.709374, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "아울러", "head": 10, "label": "AP", "mod": [], "weight": 0.106319}, 
+                {"id": 1, "text": "“이번", "head": 2, "label": "NP", "mod": [], "weight": 0.758893}, 
+                {"id": 2, "text": "성과가", "head": 7, "label": "NP_SBJ", "mod": [1], "weight": 0.279846}, 
+                {"id": 3, "text": "내년", "head": 4, "label": "NP", "mod": [], "weight": 0.590867}, 
+                {"id": 4, "text": "평창동계올림픽에서", "head": 7, "label": "NP_AJT", "mod": [3], "weight": 0.425405}, 
+                {"id": 5, "text": "북한", "head": 6, "label": "NP", "mod": [], "weight": 0.787462}, 
+                {"id": 6, "text": "선수단이", "head": 7, "label": "NP_SBJ", "mod": [5], "weight": 0.798597}, 
+                {"id": 7, "text": "참여하는", "head": 8, "label": "VP_MOD", "mod": [2, 4, 6], "weight": 0.80318}, 
+                {"id": 8, "text": "것으로", "head": 9, "label": "NP_AJT", "mod": [7], "weight": 0.86938}, 
+                {"id": 9, "text": "이어지기를", "head": 10, "label": "VP_OBJ", "mod": [8], "weight": 0.689374}, 
+                {"id": 10, "text": "기대한다”며", "head": 13, "label": "VP", "mod": [0, 9], "weight": 0.571836}, 
+                {"id": 11, "text": "동계올림픽", "head": 12, "label": "NP", "mod": [], "weight": 0.690437}, 
+                {"id": 12, "text": "초대장도", "head": 13, "label": "NP_SBJ", "mod": [11], "weight": 0.242052}, 
+                {"id": 13, "text": "건넸다.", "head": -1, "label": "VP", "mod": [10, 12], "weight": 0.00011876}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "AP", "text": "아울러", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP", "text": "P#0@AP아울러 “이번 성과가 내년 평창동계올림픽에서 북한 선수단이 참여하는 것으로 이어지기를 기대한다”며", "begin": 0, "end": 10, "key_begin": 1, "head_phrase": 3, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "동계올림픽 초대장도", "begin": 11, "end": 12, "key_begin": 11, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#1@VP며 P#2@SBJ도 건넸다.", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": -1, "sub_phrase": [1, 2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "참여", "sense": 1, "word_id": 7, "weight": 0.389618, "argument": [
+                    {"type": "ARG0", "word_id": 2, "text": "성과", "weight": 0.35717}, 
+                    {"type": "ARGM-LOC", "word_id": 4, "text": "평창동계올림픽", "weight": 0.0892988}, 
+                    {"type": "ARG0", "word_id": 6, "text": "선수단", "weight": 0.722387}
+                ]}, 
+                {"verb": "이어지", "sense": 2, "word_id": 9, "weight": 0.196917, "argument": [
+                    {"type": "ARG3", "word_id": 8, "text": "것", "weight": 0.196917}
+                ]}, 
+                {"verb": "기대", "sense": 1, "word_id": 10, "weight": 0.377175, "argument": [
+                    {"type": "ARG1", "word_id": 9, "text": "이어지기", "weight": 0.377175}
+                ]}, 
+                {"verb": "건네", "sense": 1, "word_id": 13, "weight": 0.216074, "argument": [
+                    {"type": "ARGM-DIS", "word_id": 10, "text": "“이번 성과가 내년 평창동계올림픽에서 북한 선수단이 참여하는 것으로 이어지기를 기대한다”며", "weight": 0.139651}, 
+                    {"type": "ARG0", "word_id": 12, "text": "동계올림픽 초대장", "weight": 0.292498}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 9, "ant_sid": 9, "ant_wid": 19, "ant_is_title": 0, "weight": 0.145125}, 
+                {"id": 1, "type": "s", "head_wid": 10, "ant_sid": 9, "ant_wid": 19, "ant_is_title": 0, "weight": 0.227741}, 
+                {"id": 2, "type": "o", "head_wid": 13, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.46629}
+            ]
+        }, 
+        {
+            "id": 11, 
+            "text": " 문 대통령은 “최초로 남북단일팀을 구성해 최고의 성적을 거뒀던 1991년 세계탁구선수권대회와 세계청소년축구대회의 영광을 다시 보고 싶다”면서 남북 단일팀도 제안했다.", 
+            "morp": [
+                {"id": 0, "lemma": "문", "type": "NNG", "position": 1838, "weight": 0.392443}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 1842, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 1851, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "“", "type": "SS", "position": 1855, "weight": 1}, 
+                {"id": 4, "lemma": "최초", "type": "NNG", "position": 1858, "weight": 0.9}, 
+                {"id": 5, "lemma": "로", "type": "JKB", "position": 1864, "weight": 0.153229}, 
+                {"id": 6, "lemma": "남북", "type": "NNP", "position": 1868, "weight": 0.0198808}, 
+                {"id": 7, "lemma": "단일", "type": "NNG", "position": 1874, "weight": 0.9}, 
+                {"id": 8, "lemma": "팀", "type": "NNG", "position": 1880, "weight": 0.184232}, 
+                {"id": 9, "lemma": "을", "type": "JKO", "position": 1883, "weight": 0.129611}, 
+                {"id": 10, "lemma": "구성", "type": "NNG", "position": 1887, "weight": 0.101187}, 
+                {"id": 11, "lemma": "하", "type": "XSV", "position": 1893, "weight": 0.0001}, 
+                {"id": 12, "lemma": "어", "type": "EC", "position": 1893, "weight": 0.361326}, 
+                {"id": 13, "lemma": "최고", "type": "NNG", "position": 1897, "weight": 0.9}, 
+                {"id": 14, "lemma": "의", "type": "JKG", "position": 1903, "weight": 0.0694213}, 
+                {"id": 15, "lemma": "성적", "type": "NNG", "position": 1907, "weight": 0.9}, 
+                {"id": 16, "lemma": "을", "type": "JKO", "position": 1913, "weight": 0.129611}, 
+                {"id": 17, "lemma": "거뒀", "type": "VV", "position": 1917, "weight": 0}, 
+                {"id": 18, "lemma": "던", "type": "ETM", "position": 1923, "weight": 0.317449}, 
+                {"id": 19, "lemma": "1991", "type": "SN", "position": 1927, "weight": 1}, 
+                {"id": 20, "lemma": "년", "type": "NNB", "position": 1931, "weight": 0.414343}, 
+                {"id": 21, "lemma": "세계", "type": "NNG", "position": 1935, "weight": 0.9}, 
+                {"id": 22, "lemma": "탁구", "type": "NNG", "position": 1941, "weight": 0.9}, 
+                {"id": 23, "lemma": "선수", "type": "NNG", "position": 1947, "weight": 0.9}, 
+                {"id": 24, "lemma": "권", "type": "XSN", "position": 1953, "weight": 0.0140728}, 
+                {"id": 25, "lemma": "대회", "type": "NNG", "position": 1956, "weight": 0.9}, 
+                {"id": 26, "lemma": "와", "type": "JC", "position": 1962, "weight": 0.0169714}, 
+                {"id": 27, "lemma": "세계", "type": "NNG", "position": 1966, "weight": 0.9}, 
+                {"id": 28, "lemma": "청", "type": "NNG", "position": 1972, "weight": 0.0884016}, 
+                {"id": 29, "lemma": "소년", "type": "NNG", "position": 1975, "weight": 0.184333}, 
+                {"id": 30, "lemma": "축구", "type": "NNG", "position": 1981, "weight": 0.9}, 
+                {"id": 31, "lemma": "대회", "type": "NNG", "position": 1987, "weight": 0.9}, 
+                {"id": 32, "lemma": "의", "type": "JKG", "position": 1993, "weight": 0.0694213}, 
+                {"id": 33, "lemma": "영광", "type": "NNG", "position": 1997, "weight": 0.717108}, 
+                {"id": 34, "lemma": "을", "type": "JKO", "position": 2003, "weight": 0.129611}, 
+                {"id": 35, "lemma": "다시", "type": "MAG", "position": 2007, "weight": 0.0673101}, 
+                {"id": 36, "lemma": "보", "type": "VV", "position": 2014, "weight": 0.237962}, 
+                {"id": 37, "lemma": "고", "type": "EC", "position": 2017, "weight": 0.416679}, 
+                {"id": 38, "lemma": "싶", "type": "VX", "position": 2021, "weight": 0.255916}, 
+                {"id": 39, "lemma": "다", "type": "EF", "position": 2024, "weight": 0.180366}, 
+                {"id": 40, "lemma": "”", "type": "SS", "position": 2027, "weight": 1}, 
+                {"id": 41, "lemma": "면서", "type": "EC", "position": 2030, "weight": 0.00531519}, 
+                {"id": 42, "lemma": "남북", "type": "NNP", "position": 2037, "weight": 0.0189768}, 
+                {"id": 43, "lemma": "단일", "type": "NNG", "position": 2044, "weight": 0.9}, 
+                {"id": 44, "lemma": "팀", "type": "NNG", "position": 2050, "weight": 0.184232}, 
+                {"id": 45, "lemma": "도", "type": "JX", "position": 2053, "weight": 0.0676272}, 
+                {"id": 46, "lemma": "제안", "type": "NNG", "position": 2057, "weight": 0.323321}, 
+                {"id": 47, "lemma": "하", "type": "XSV", "position": 2063, "weight": 0.0001}, 
+                {"id": 48, "lemma": "었", "type": "EP", "position": 2063, "weight": 0.9}, 
+                {"id": 49, "lemma": "다", "type": "EF", "position": 2066, "weight": 0.640954}, 
+                {"id": 50, "lemma": ".", "type": "SF", "position": 2069, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "문", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "“최초로", "type": "", "begin": 3, "end": 5}, 
+                {"id": 3, "text": "남북단일팀을", "type": "", "begin": 6, "end": 9}, 
+                {"id": 4, "text": "구성해", "type": "", "begin": 10, "end": 12}, 
+                {"id": 5, "text": "최고의", "type": "", "begin": 13, "end": 14}, 
+                {"id": 6, "text": "성적을", "type": "", "begin": 15, "end": 16}, 
+                {"id": 7, "text": "거뒀던", "type": "", "begin": 17, "end": 18}, 
+                {"id": 8, "text": "1991년", "type": "", "begin": 19, "end": 20}, 
+                {"id": 9, "text": "세계탁구선수권대회와", "type": "", "begin": 21, "end": 26}, 
+                {"id": 10, "text": "세계청소년축구대회의", "type": "", "begin": 27, "end": 32}, 
+                {"id": 11, "text": "영광을", "type": "", "begin": 33, "end": 34}, 
+                {"id": 12, "text": "다시", "type": "", "begin": 35, "end": 35}, 
+                {"id": 13, "text": "보고", "type": "", "begin": 36, "end": 37}, 
+                {"id": 14, "text": "싶다”면서", "type": "", "begin": 38, "end": 41}, 
+                {"id": 15, "text": "남북", "type": "", "begin": 42, "end": 42}, 
+                {"id": 16, "text": "단일팀도", "type": "", "begin": 43, "end": 45}, 
+                {"id": 17, "text": "제안했다.", "type": "", "begin": 46, "end": 50}
+            ], 
+            "NE": [
+                {"id": 0, "text": "문", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.571129, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.757811, "common_noun": 0}, 
+                {"id": 2, "text": "남북", "type": "LCP_COUNTRY", "begin": 6, "end": 6, "weight": 0.29908, "common_noun": 0}, 
+                {"id": 3, "text": "1991년", "type": "DT_YEAR", "begin": 19, "end": 20, "weight": 0.842128, "common_noun": 0}, 
+                {"id": 4, "text": "세계탁구선수권대회", "type": "EV_SPORTS", "begin": 21, "end": 25, "weight": 0.857696, "common_noun": 0}, 
+                {"id": 5, "text": "세계청소년축구대회", "type": "EV_SPORTS", "begin": 27, "end": 31, "weight": 0.722631, "common_noun": 0}, 
+                {"id": 6, "text": "남북", "type": "LCP_COUNTRY", "begin": 42, "end": 42, "weight": 0.350997, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "문", "head": 1, "label": "NP", "mod": [], "weight": 0.765383}, 
+                {"id": 1, "text": "대통령은", "head": 17, "label": "NP_SBJ", "mod": [0], "weight": 0.72693}, 
+                {"id": 2, "text": "“최초로", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.750649}, 
+                {"id": 3, "text": "남북단일팀을", "head": 4, "label": "NP_OBJ", "mod": [], "weight": 0.811461}, 
+                {"id": 4, "text": "구성해", "head": 7, "label": "VP", "mod": [2, 3], "weight": 0.0527119}, 
+                {"id": 5, "text": "최고의", "head": 6, "label": "NP_MOD", "mod": [], "weight": 0.699419}, 
+                {"id": 6, "text": "성적을", "head": 7, "label": "NP_OBJ", "mod": [5], "weight": 0.744262}, 
+                {"id": 7, "text": "거뒀던", "head": 8, "label": "VP_MOD", "mod": [4, 6], "weight": 0.698362}, 
+                {"id": 8, "text": "1991년", "head": 13, "label": "NP_AJT", "mod": [7], "weight": 0.718476}, 
+                {"id": 9, "text": "세계탁구선수권대회와", "head": 10, "label": "NP_CNJ", "mod": [], "weight": 0.472872}, 
+                {"id": 10, "text": "세계청소년축구대회의", "head": 11, "label": "NP_MOD", "mod": [9], "weight": 0.696152}, 
+                {"id": 11, "text": "영광을", "head": 13, "label": "NP_OBJ", "mod": [10], "weight": 0.767793}, 
+                {"id": 12, "text": "다시", "head": 13, "label": "AP", "mod": [], "weight": 0.777346}, 
+                {"id": 13, "text": "보고", "head": 14, "label": "VP", "mod": [8, 11, 12], "weight": 0.841364}, 
+                {"id": 14, "text": "싶다”면서", "head": 17, "label": "VP", "mod": [13], "weight": 0.549316}, 
+                {"id": 15, "text": "남북", "head": 16, "label": "NP", "mod": [], "weight": 0.684519}, 
+                {"id": 16, "text": "단일팀도", "head": 17, "label": "NP_SBJ", "mod": [15], "weight": 0.446973}, 
+                {"id": 17, "text": "제안했다.", "head": -1, "label": "VP", "mod": [1, 14, 16], "weight": 0.00011255}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "문 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP", "text": "“최초로 남북단일팀을 구성해 최고의 성적을 거뒀던 1991년 세계탁구선수권대회와 세계청소년축구대회의 영광을 다시 보고 싶다”면서", "begin": 2, "end": 14, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "남북 단일팀도", "begin": 15, "end": 16, "key_begin": 15, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@SBJ은 P#1@VP면서 P#2@SBJ도 제안했다.", "begin": 0, "end": 17, "key_begin": 17, "head_phrase": -1, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "구성", "sense": 1, "word_id": 4, "weight": 0.22028, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 2, "text": "“최초", "weight": 0.146233}, 
+                    {"type": "ARG1", "word_id": 3, "text": "남북단일팀", "weight": 0.294327}
+                ]}, 
+                {"verb": "거뒀", "sense": 1, "word_id": 7, "weight": 0.241666, "argument": [
+                    {"type": "ARGM-PRD", "word_id": 4, "text": "구성해", "weight": 0.115401}, 
+                    {"type": "ARG1", "word_id": 6, "text": "성적", "weight": 0.367931}
+                ]}, 
+                {"verb": "보", "sense": 1, "word_id": 13, "weight": 0.318776, "argument": [
+                    {"type": "ARG1", "word_id": 11, "text": "영광", "weight": 0.332592}, 
+                    {"type": "ARGM-ADV", "word_id": 12, "text": "다시", "weight": 1}, 
+                    {"type": "AUX", "word_id": 14, "text": "“최초로 남북단일팀을 구성해 최고의 성적을 거뒀던 1991년 세계탁구선수권대회와 세계청소년축구대회의 영광을 다시 보고 싶다”면서", "weight": 0.449093}
+                ]}, 
+                {"verb": "제안", "sense": 1, "word_id": 17, "weight": 0.28262, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "문 대통령", "weight": 0.290266}, 
+                    {"type": "ARGM-DIS", "word_id": 14, "text": "“최초로 남북단일팀을 구성해 최고의 성적을 거뒀던 1991년 세계탁구선수권대회와 세계청소년축구대회의 영광을 다시 보고 싶다”면서", "weight": 0.311011}, 
+                    {"type": "ARG1", "word_id": 16, "text": "남북 단일팀", "weight": 0.246583}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 4, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.97435}, 
+                {"id": 1, "type": "s", "head_wid": 13, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.95907}
+            ]
+        }, 
+        {
+            "id": 12, 
+            "text": "이어 “남북선수단 동시입장으로 세계인의 박수갈채를 받았던 2000년 시드니 올림픽의 감동을 다시 느껴보고 싶다”며 “북한 응원단도 참가해 남북 화해의 전기를 마련하면 좋겠다”고도 했다.", 
+            "morp": [
+                {"id": 0, "lemma": "이어", "type": "MAG", "position": 2070, "weight": 0.0644394}, 
+                {"id": 1, "lemma": "“", "type": "SS", "position": 2077, "weight": 1}, 
+                {"id": 2, "lemma": "남북", "type": "NNG", "position": 2080, "weight": 0.0272728}, 
+                {"id": 3, "lemma": "선수", "type": "NNG", "position": 2086, "weight": 0.9}, 
+                {"id": 4, "lemma": "단", "type": "XSN", "position": 2092, "weight": 0.00809175}, 
+                {"id": 5, "lemma": "동시", "type": "NNG", "position": 2096, "weight": 0.9}, 
+                {"id": 6, "lemma": "입장", "type": "NNG", "position": 2102, "weight": 0.184746}, 
+                {"id": 7, "lemma": "으로", "type": "JKB", "position": 2108, "weight": 0.153406}, 
+                {"id": 8, "lemma": "세계", "type": "NNG", "position": 2115, "weight": 0.9}, 
+                {"id": 9, "lemma": "인", "type": "XSN", "position": 2121, "weight": 0.0198339}, 
+                {"id": 10, "lemma": "의", "type": "JKG", "position": 2124, "weight": 0.120732}, 
+                {"id": 11, "lemma": "박수", "type": "NNG", "position": 2128, "weight": 0.9}, 
+                {"id": 12, "lemma": "갈채", "type": "NNG", "position": 2134, "weight": 0.9}, 
+                {"id": 13, "lemma": "를", "type": "JKO", "position": 2140, "weight": 0.137686}, 
+                {"id": 14, "lemma": "받", "type": "VV", "position": 2144, "weight": 0.765648}, 
+                {"id": 15, "lemma": "았", "type": "EP", "position": 2147, "weight": 0.9}, 
+                {"id": 16, "lemma": "던", "type": "ETM", "position": 2150, "weight": 0.107547}, 
+                {"id": 17, "lemma": "2000", "type": "SN", "position": 2154, "weight": 1}, 
+                {"id": 18, "lemma": "년", "type": "NNB", "position": 2158, "weight": 0.414343}, 
+                {"id": 19, "lemma": "시드니", "type": "NNP", "position": 2162, "weight": 0.9}, 
+                {"id": 20, "lemma": "올림픽", "type": "NNG", "position": 2172, "weight": 0.9}, 
+                {"id": 21, "lemma": "의", "type": "JKG", "position": 2181, "weight": 0.0694213}, 
+                {"id": 22, "lemma": "감동", "type": "NNG", "position": 2185, "weight": 0.870444}, 
+                {"id": 23, "lemma": "을", "type": "JKO", "position": 2191, "weight": 0.129611}, 
+                {"id": 24, "lemma": "다시", "type": "MAG", "position": 2195, "weight": 0.0673101}, 
+                {"id": 25, "lemma": "느끼", "type": "VV", "position": 2202, "weight": 0.9}, 
+                {"id": 26, "lemma": "어", "type": "EC", "position": 2205, "weight": 0.41831}, 
+                {"id": 27, "lemma": "보", "type": "VX", "position": 2208, "weight": 0.0990326}, 
+                {"id": 28, "lemma": "고", "type": "EC", "position": 2211, "weight": 0.25644}, 
+                {"id": 29, "lemma": "싶", "type": "VX", "position": 2215, "weight": 0.255916}, 
+                {"id": 30, "lemma": "다", "type": "EF", "position": 2218, "weight": 0.180366}, 
+                {"id": 31, "lemma": "”", "type": "SS", "position": 2221, "weight": 1}, 
+                {"id": 32, "lemma": "며", "type": "EC", "position": 2224, "weight": 0.00532489}, 
+                {"id": 33, "lemma": "“", "type": "SS", "position": 2228, "weight": 1}, 
+                {"id": 34, "lemma": "북한", "type": "NNP", "position": 2231, "weight": 0.0640904}, 
+                {"id": 35, "lemma": "응원", "type": "NNG", "position": 2238, "weight": 0.281325}, 
+                {"id": 36, "lemma": "단", "type": "XSN", "position": 2244, "weight": 0.00809175}, 
+                {"id": 37, "lemma": "도", "type": "JX", "position": 2247, "weight": 0.150897}, 
+                {"id": 38, "lemma": "참가", "type": "NNG", "position": 2251, "weight": 0.9}, 
+                {"id": 39, "lemma": "하", "type": "XSV", "position": 2257, "weight": 0.0001}, 
+                {"id": 40, "lemma": "어", "type": "EC", "position": 2257, "weight": 0.361326}, 
+                {"id": 41, "lemma": "남북", "type": "NNP", "position": 2261, "weight": 0.0189768}, 
+                {"id": 42, "lemma": "화해", "type": "NNG", "position": 2268, "weight": 0.9}, 
+                {"id": 43, "lemma": "의", "type": "JKG", "position": 2274, "weight": 0.0694213}, 
+                {"id": 44, "lemma": "전기", "type": "NNG", "position": 2278, "weight": 0.867268}, 
+                {"id": 45, "lemma": "를", "type": "JKO", "position": 2284, "weight": 0.137686}, 
+                {"id": 46, "lemma": "마련", "type": "NNG", "position": 2288, "weight": 0.0400296}, 
+                {"id": 47, "lemma": "하", "type": "XSV", "position": 2294, "weight": 0.0001}, 
+                {"id": 48, "lemma": "면", "type": "EC", "position": 2297, "weight": 0.344962}, 
+                {"id": 49, "lemma": "좋", "type": "VA", "position": 2301, "weight": 0.0501571}, 
+                {"id": 50, "lemma": "겠", "type": "EP", "position": 2304, "weight": 0.9}, 
+                {"id": 51, "lemma": "다", "type": "EF", "position": 2307, "weight": 0.640954}, 
+                {"id": 52, "lemma": "”", "type": "SS", "position": 2310, "weight": 1}, 
+                {"id": 53, "lemma": "고도", "type": "EC", "position": 2313, "weight": 0.00427398}, 
+                {"id": 54, "lemma": "하", "type": "VV", "position": 2320, "weight": 0.140183}, 
+                {"id": 55, "lemma": "었", "type": "EP", "position": 2320, "weight": 0.9}, 
+                {"id": 56, "lemma": "다", "type": "EF", "position": 2323, "weight": 0.640954}, 
+                {"id": 57, "lemma": ".", "type": "SF", "position": 2326, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "이어", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "“남북선수단", "type": "", "begin": 1, "end": 4}, 
+                {"id": 2, "text": "동시입장으로", "type": "", "begin": 5, "end": 7}, 
+                {"id": 3, "text": "세계인의", "type": "", "begin": 8, "end": 10}, 
+                {"id": 4, "text": "박수갈채를", "type": "", "begin": 11, "end": 13}, 
+                {"id": 5, "text": "받았던", "type": "", "begin": 14, "end": 16}, 
+                {"id": 6, "text": "2000년", "type": "", "begin": 17, "end": 18}, 
+                {"id": 7, "text": "시드니", "type": "", "begin": 19, "end": 19}, 
+                {"id": 8, "text": "올림픽의", "type": "", "begin": 20, "end": 21}, 
+                {"id": 9, "text": "감동을", "type": "", "begin": 22, "end": 23}, 
+                {"id": 10, "text": "다시", "type": "", "begin": 24, "end": 24}, 
+                {"id": 11, "text": "느껴보고", "type": "", "begin": 25, "end": 28}, 
+                {"id": 12, "text": "싶다”며", "type": "", "begin": 29, "end": 32}, 
+                {"id": 13, "text": "“북한", "type": "", "begin": 33, "end": 34}, 
+                {"id": 14, "text": "응원단도", "type": "", "begin": 35, "end": 37}, 
+                {"id": 15, "text": "참가해", "type": "", "begin": 38, "end": 40}, 
+                {"id": 16, "text": "남북", "type": "", "begin": 41, "end": 41}, 
+                {"id": 17, "text": "화해의", "type": "", "begin": 42, "end": 43}, 
+                {"id": 18, "text": "전기를", "type": "", "begin": 44, "end": 45}, 
+                {"id": 19, "text": "마련하면", "type": "", "begin": 46, "end": 48}, 
+                {"id": 20, "text": "좋겠다”고도", "type": "", "begin": 49, "end": 53}, 
+                {"id": 21, "text": "했다.", "type": "", "begin": 54, "end": 57}
+            ], 
+            "NE": [
+                {"id": 0, "text": "남북선수단", "type": "OGG_SPORTS", "begin": 2, "end": 4, "weight": 0.325212, "common_noun": 0}, 
+                {"id": 1, "text": "2000년", "type": "DT_YEAR", "begin": 17, "end": 18, "weight": 0.873251, "common_noun": 0}, 
+                {"id": 2, "text": "시드니 올림픽", "type": "EV_SPORTS", "begin": 19, "end": 20, "weight": 0.891153, "common_noun": 0}, 
+                {"id": 3, "text": "북한 응원단", "type": "OGG_SPORTS", "begin": 34, "end": 36, "weight": 0.444925, "common_noun": 0}, 
+                {"id": 4, "text": "남북", "type": "LCP_COUNTRY", "begin": 41, "end": 41, "weight": 0.36542, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "이어", "head": 21, "label": "AP", "mod": [], "weight": 0.606571}, 
+                {"id": 1, "text": "“남북선수단", "head": 2, "label": "NP", "mod": [], "weight": 0.580892}, 
+                {"id": 2, "text": "동시입장으로", "head": 5, "label": "NP_AJT", "mod": [1], "weight": 0.453188}, 
+                {"id": 3, "text": "세계인의", "head": 4, "label": "NP_MOD", "mod": [], "weight": 0.669954}, 
+                {"id": 4, "text": "박수갈채를", "head": 5, "label": "NP_OBJ", "mod": [3], "weight": 0.718764}, 
+                {"id": 5, "text": "받았던", "head": 8, "label": "VP_MOD", "mod": [2, 4], "weight": 0.413208}, 
+                {"id": 6, "text": "2000년", "head": 8, "label": "NP", "mod": [], "weight": 0.00723982}, 
+                {"id": 7, "text": "시드니", "head": 8, "label": "NP", "mod": [], "weight": 0.763912}, 
+                {"id": 8, "text": "올림픽의", "head": 9, "label": "NP_MOD", "mod": [5, 6, 7], "weight": 0.658375}, 
+                {"id": 9, "text": "감동을", "head": 11, "label": "NP_OBJ", "mod": [8], "weight": 0.672116}, 
+                {"id": 10, "text": "다시", "head": 11, "label": "AP", "mod": [], "weight": 0.855917}, 
+                {"id": 11, "text": "느껴보고", "head": 12, "label": "VP", "mod": [9, 10], "weight": 0.74422}, 
+                {"id": 12, "text": "싶다”며", "head": 20, "label": "VP", "mod": [11], "weight": 0.101439}, 
+                {"id": 13, "text": "“북한", "head": 14, "label": "NP", "mod": [], "weight": 0.59756}, 
+                {"id": 14, "text": "응원단도", "head": 15, "label": "NP_SBJ", "mod": [13], "weight": 0.310036}, 
+                {"id": 15, "text": "참가해", "head": 19, "label": "VP", "mod": [14], "weight": 0.710501}, 
+                {"id": 16, "text": "남북", "head": 17, "label": "NP", "mod": [], "weight": 0.871647}, 
+                {"id": 17, "text": "화해의", "head": 18, "label": "NP_MOD", "mod": [16], "weight": 0.651376}, 
+                {"id": 18, "text": "전기를", "head": 19, "label": "NP_OBJ", "mod": [17], "weight": 0.808722}, 
+                {"id": 19, "text": "마련하면", "head": 20, "label": "VP", "mod": [15, 18], "weight": 0.52304}, 
+                {"id": 20, "text": "좋겠다”고도", "head": 21, "label": "VP", "mod": [12, 19], "weight": 0.340199}, 
+                {"id": 21, "text": "했다.", "head": -1, "label": "VP", "mod": [0, 20], "weight": 3.786e-08}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "AP", "text": "이어", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP", "text": "“남북선수단 동시입장으로 세계인의 박수갈채를 받았던 2000년 시드니 올림픽의 감동을 다시 느껴보고 싶다”며", "begin": 1, "end": 12, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP", "text": "P#1@VP며 “북한 응원단도 참가해 남북 화해의 전기를 마련하면 좋겠다”고도", "begin": 1, "end": 20, "key_begin": 13, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP", "text": "P#0@AP이어 P#2@VP고도 했다.", "begin": 0, "end": 21, "key_begin": 21, "head_phrase": -1, "sub_phrase": [0, 2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "받", "sense": 1, "word_id": 5, "weight": 0.319401, "argument": [
+                    {"type": "ARGM-MNR", "word_id": 2, "text": "동시입장", "weight": 0.149728}, 
+                    {"type": "ARG1", "word_id": 4, "text": "박수갈채", "weight": 0.489073}
+                ]}, 
+                {"verb": "느끼", "sense": 1, "word_id": 11, "weight": 0.393918, "argument": [
+                    {"type": "ARG1", "word_id": 9, "text": "감동", "weight": 0.423798}, 
+                    {"type": "ARGM-ADV", "word_id": 10, "text": "다시", "weight": 1}, 
+                    {"type": "AUX", "word_id": 12, "text": "“남북선수단 동시입장으로 세계인의 박수갈채를 받았던 2000년 시드니 올림픽의 감동을 다시 느껴보고 싶다”며", "weight": 0.599647}
+                ]}, 
+                {"verb": "참가", "sense": 1, "word_id": 15, "weight": 0.262754, "argument": [
+                    {"type": "ARG0", "word_id": 14, "text": "응원단", "weight": 0.262754}
+                ]}, 
+                {"verb": "마련", "sense": 1, "word_id": 19, "weight": 0.325388, "argument": [
+                    {"type": "ARGM-MNR", "word_id": 15, "text": "참가해", "weight": 0.218685}, 
+                    {"type": "ARG1", "word_id": 18, "text": "전기", "weight": 0.432091}
+                ]}, 
+                {"verb": "좋", "sense": 1, "word_id": 20, "weight": 0.206071, "argument": [
+                    {"type": "ARGM-CND", "word_id": 19, "text": "마련하면", "weight": 0.206071}
+                ]}, 
+                {"verb": "하", "sense": 1, "word_id": 21, "weight": 0.201902, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 0, "text": "이어", "weight": 0.248711}, 
+                    {"type": "ARG1", "word_id": 20, "text": "“북한 응원단도 참가해 남북 화해의 전기를 마련하면 좋겠다”고도", "weight": 0.155093}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 11, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.941624}, 
+                {"id": 1, "type": "s", "head_wid": 19, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.889304}, 
+                {"id": 2, "type": "s", "head_wid": 20, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.886479}
+            ]
+        }, 
+        {
+            "id": 13, 
+            "text": " 남북 단일팀 및 동시 입장, 북한 응원단 참여 등 전방위적 북한 선수단의 평창올림픽 참석을 당부한 것이다.", 
+            "morp": [
+                {"id": 0, "lemma": "남북", "type": "NNP", "position": 2328, "weight": 0.0771222}, 
+                {"id": 1, "lemma": "단일", "type": "NNG", "position": 2335, "weight": 0.9}, 
+                {"id": 2, "lemma": "팀", "type": "NNG", "position": 2341, "weight": 0.184232}, 
+                {"id": 3, "lemma": "및", "type": "MAJ", "position": 2345, "weight": 0.00215414}, 
+                {"id": 4, "lemma": "동시", "type": "NNG", "position": 2349, "weight": 0.9}, 
+                {"id": 5, "lemma": "입장", "type": "NNG", "position": 2356, "weight": 0.184746}, 
+                {"id": 6, "lemma": ",", "type": "SP", "position": 2362, "weight": 1}, 
+                {"id": 7, "lemma": "북한", "type": "NNP", "position": 2364, "weight": 0.117623}, 
+                {"id": 8, "lemma": "응원", "type": "NNG", "position": 2371, "weight": 0.281325}, 
+                {"id": 9, "lemma": "단", "type": "XSN", "position": 2377, "weight": 0.00809175}, 
+                {"id": 10, "lemma": "참여", "type": "NNG", "position": 2381, "weight": 0.9}, 
+                {"id": 11, "lemma": "등", "type": "NNB", "position": 2388, "weight": 0.0146757}, 
+                {"id": 12, "lemma": "전", "type": "MM", "position": 2392, "weight": 0.00146779}, 
+                {"id": 13, "lemma": "방위", "type": "NNG", "position": 2395, "weight": 0.9}, 
+                {"id": 14, "lemma": "적", "type": "XSN", "position": 2401, "weight": 0.0168756}, 
+                {"id": 15, "lemma": "북한", "type": "NNP", "position": 2405, "weight": 0.00769265}, 
+                {"id": 16, "lemma": "선수", "type": "NNG", "position": 2412, "weight": 0.9}, 
+                {"id": 17, "lemma": "단", "type": "XSN", "position": 2418, "weight": 0.00809175}, 
+                {"id": 18, "lemma": "의", "type": "JKG", "position": 2421, "weight": 0.120732}, 
+                {"id": 19, "lemma": "평창", "type": "NNP", "position": 2425, "weight": 0.9}, 
+                {"id": 20, "lemma": "올림픽", "type": "NNG", "position": 2431, "weight": 0.9}, 
+                {"id": 21, "lemma": "참석", "type": "NNG", "position": 2441, "weight": 0.9}, 
+                {"id": 22, "lemma": "을", "type": "JKO", "position": 2447, "weight": 0.129611}, 
+                {"id": 23, "lemma": "당부", "type": "NNG", "position": 2451, "weight": 0.9}, 
+                {"id": 24, "lemma": "하", "type": "XSV", "position": 2457, "weight": 0.0001}, 
+                {"id": 25, "lemma": "ㄴ", "type": "ETM", "position": 2457, "weight": 0.392321}, 
+                {"id": 26, "lemma": "것", "type": "NNB", "position": 2461, "weight": 0.228788}, 
+                {"id": 27, "lemma": "이", "type": "VCP", "position": 2464, "weight": 0.0607843}, 
+                {"id": 28, "lemma": "다", "type": "EF", "position": 2467, "weight": 0.353579}, 
+                {"id": 29, "lemma": ".", "type": "SF", "position": 2470, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "남북", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "단일팀", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "및", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "동시", "type": "", "begin": 4, "end": 4}, 
+                {"id": 4, "text": "입장,", "type": "", "begin": 5, "end": 6}, 
+                {"id": 5, "text": "북한", "type": "", "begin": 7, "end": 7}, 
+                {"id": 6, "text": "응원단", "type": "", "begin": 8, "end": 9}, 
+                {"id": 7, "text": "참여", "type": "", "begin": 10, "end": 10}, 
+                {"id": 8, "text": "등", "type": "", "begin": 11, "end": 11}, 
+                {"id": 9, "text": "전방위적", "type": "", "begin": 12, "end": 14}, 
+                {"id": 10, "text": "북한", "type": "", "begin": 15, "end": 15}, 
+                {"id": 11, "text": "선수단의", "type": "", "begin": 16, "end": 18}, 
+                {"id": 12, "text": "평창올림픽", "type": "", "begin": 19, "end": 20}, 
+                {"id": 13, "text": "참석을", "type": "", "begin": 21, "end": 22}, 
+                {"id": 14, "text": "당부한", "type": "", "begin": 23, "end": 25}, 
+                {"id": 15, "text": "것이다.", "type": "", "begin": 26, "end": 29}
+            ], 
+            "NE": [
+                {"id": 0, "text": "남북", "type": "LCP_COUNTRY", "begin": 0, "end": 0, "weight": 0.292669, "common_noun": 0}, 
+                {"id": 1, "text": "북한 응원단", "type": "OGG_SPORTS", "begin": 7, "end": 9, "weight": 0.305327, "common_noun": 0}, 
+                {"id": 2, "text": "북한", "type": "LCP_COUNTRY", "begin": 15, "end": 15, "weight": 0.386487, "common_noun": 0}, 
+                {"id": 3, "text": "선수", "type": "CV_OCCUPATION", "begin": 16, "end": 16, "weight": 0.443138, "common_noun": 0}, 
+                {"id": 4, "text": "평창올림픽", "type": "EV_SPORTS", "begin": 19, "end": 20, "weight": 0.81759, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "남북", "head": 1, "label": "NP", "mod": [], "weight": 0.63787}, 
+                {"id": 1, "text": "단일팀", "head": 4, "label": "NP_CNJ", "mod": [0], "weight": 0.581902}, 
+                {"id": 2, "text": "및", "head": 4, "label": "AP", "mod": [], "weight": 0.529543}, 
+                {"id": 3, "text": "동시", "head": 4, "label": "NP", "mod": [], "weight": 0.699891}, 
+                {"id": 4, "text": "입장,", "head": 7, "label": "NP_CNJ", "mod": [1, 2, 3], "weight": 0.424249}, 
+                {"id": 5, "text": "북한", "head": 6, "label": "NP", "mod": [], "weight": 0.392151}, 
+                {"id": 6, "text": "응원단", "head": 7, "label": "NP", "mod": [5], "weight": 0.574801}, 
+                {"id": 7, "text": "참여", "head": 8, "label": "NP", "mod": [4, 6], "weight": 0.677034}, 
+                {"id": 8, "text": "등", "head": 11, "label": "NP", "mod": [7], "weight": 0.238576}, 
+                {"id": 9, "text": "전방위적", "head": 11, "label": "NP", "mod": [], "weight": 0.344457}, 
+                {"id": 10, "text": "북한", "head": 11, "label": "NP", "mod": [], "weight": 0.622627}, 
+                {"id": 11, "text": "선수단의", "head": 12, "label": "NP_MOD", "mod": [8, 9, 10], "weight": 0.0542354}, 
+                {"id": 12, "text": "평창올림픽", "head": 13, "label": "NP", "mod": [11], "weight": 0.710861}, 
+                {"id": 13, "text": "참석을", "head": 14, "label": "NP_OBJ", "mod": [12], "weight": 0.77538}, 
+                {"id": 14, "text": "당부한", "head": 15, "label": "VP_MOD", "mod": [13], "weight": 0.803055}, 
+                {"id": 15, "text": "것이다.", "head": -1, "label": "VNP", "mod": [14], "weight": 8.81779e-06}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_OBJ", "text": "남북 단일팀 및 동시 입장, 북한 응원단 참여 등 전방위적 북한 선수단의 평창올림픽 참석을", "begin": 0, "end": 13, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@OBJ을 당부한", "begin": 0, "end": 14, "key_begin": 14, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VNP", "text": "P#1@MODㄴ 것이다.", "begin": 0, "end": 15, "key_begin": 15, "head_phrase": -1, "sub_phrase": [1], "weight": 0, "element": [
+                    {"text": "것", "label": "NP", "begin": 26, "end": 26, "ne_type": ""}, 
+                    {"text": "이다.", "label": "VP", "begin": 27, "end": 29, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [
+                {"verb": "당부", "sense": 1, "word_id": 14, "weight": 0.34383, "argument": [
+                    {"type": "ARG1", "word_id": 13, "text": "남북 단일팀 및 동시 입장, 북한 응원단 참여 등 전방위적 북한 선수단의 평창올림픽 참석", "weight": 0.34383}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 14, 
+            "text": " 문 대통령은 “장웅 위원님의 많은 관심과 협조를 부탁드린다”고 했다.", 
+            "morp": [
+                {"id": 0, "lemma": "문", "type": "NNG", "position": 2472, "weight": 0.392443}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 2476, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 2485, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "“", "type": "SS", "position": 2489, "weight": 1}, 
+                {"id": 4, "lemma": "장웅", "type": "NNG", "position": 2492, "weight": 0}, 
+                {"id": 5, "lemma": "위원님", "type": "NNG", "position": 2499, "weight": 0}, 
+                {"id": 6, "lemma": "의", "type": "JKG", "position": 2508, "weight": 0.0694213}, 
+                {"id": 7, "lemma": "많", "type": "VA", "position": 2512, "weight": 0.0348509}, 
+                {"id": 8, "lemma": "은", "type": "ETM", "position": 2515, "weight": 0.155123}, 
+                {"id": 9, "lemma": "관심", "type": "NNG", "position": 2519, "weight": 0.9}, 
+                {"id": 10, "lemma": "과", "type": "JC", "position": 2525, "weight": 0.017569}, 
+                {"id": 11, "lemma": "협조", "type": "NNG", "position": 2529, "weight": 0.9}, 
+                {"id": 12, "lemma": "를", "type": "JKO", "position": 2535, "weight": 0.137686}, 
+                {"id": 13, "lemma": "부탁드리", "type": "VV", "position": 2539, "weight": 0}, 
+                {"id": 14, "lemma": "ㄴ다", "type": "EF", "position": 2548, "weight": 0.0793196}, 
+                {"id": 15, "lemma": "”", "type": "SS", "position": 2554, "weight": 1}, 
+                {"id": 16, "lemma": "고", "type": "JKQ", "position": 2557, "weight": 0.000541335}, 
+                {"id": 17, "lemma": "하", "type": "VV", "position": 2561, "weight": 0.525586}, 
+                {"id": 18, "lemma": "었", "type": "EP", "position": 2561, "weight": 0.9}, 
+                {"id": 19, "lemma": "다", "type": "EF", "position": 2564, "weight": 0.640954}, 
+                {"id": 20, "lemma": ".", "type": "SF", "position": 2567, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "문", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "“장웅", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "위원님의", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "많은", "type": "", "begin": 7, "end": 8}, 
+                {"id": 5, "text": "관심과", "type": "", "begin": 9, "end": 10}, 
+                {"id": 6, "text": "협조를", "type": "", "begin": 11, "end": 12}, 
+                {"id": 7, "text": "부탁드린다”고", "type": "", "begin": 13, "end": 16}, 
+                {"id": 8, "text": "했다.", "type": "", "begin": 17, "end": 20}
+            ], 
+            "NE": [
+                {"id": 0, "text": "문", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.571166, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.755737, "common_noun": 0}, 
+                {"id": 2, "text": "장웅", "type": "PS_NAME", "begin": 4, "end": 4, "weight": 0.659229, "common_noun": 0}, 
+                {"id": 3, "text": "위원님", "type": "CV_POSITION", "begin": 5, "end": 5, "weight": 0.183464, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "문", "head": 1, "label": "NP", "mod": [], "weight": 0.836963}, 
+                {"id": 1, "text": "대통령은", "head": 8, "label": "NP_SBJ", "mod": [0], "weight": 0.803159}, 
+                {"id": 2, "text": "“장웅", "head": 3, "label": "NP", "mod": [], "weight": 0.839575}, 
+                {"id": 3, "text": "위원님의", "head": 6, "label": "NP_MOD", "mod": [2], "weight": 0.786172}, 
+                {"id": 4, "text": "많은", "head": 6, "label": "VP_MOD", "mod": [], "weight": 0.70399}, 
+                {"id": 5, "text": "관심과", "head": 6, "label": "NP_CNJ", "mod": [], "weight": 0.617267}, 
+                {"id": 6, "text": "협조를", "head": 7, "label": "NP_OBJ", "mod": [3, 4, 5], "weight": 0.916513}, 
+                {"id": 7, "text": "부탁드린다”고", "head": 8, "label": "VP_CMP", "mod": [6], "weight": 0.592554}, 
+                {"id": 8, "text": "했다.", "head": -1, "label": "VP", "mod": [1, 7], "weight": 0.0886137}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "문 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_CMP", "text": "“장웅 위원님의 많은 관심과 협조를 부탁드린다”고", "begin": 2, "end": 7, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ은 P#1@CMP고 했다.", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": -1, "sub_phrase": [0, 1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "많", "sense": 1, "word_id": 4, "weight": 0.585909, "argument": [
+                    {"type": "ARG1", "word_id": 6, "text": "협조", "weight": 0.585909}
+                ]}, 
+                {"verb": "부탁드리", "sense": 1, "word_id": 7, "weight": 0.296213, "argument": [
+                    {"type": "ARG1", "word_id": 6, "text": "협조", "weight": 0.296213}
+                ]}, 
+                {"verb": "하", "sense": 2, "word_id": 8, "weight": 0.726834, "argument": [
+                    {"type": "ARG1", "word_id": 7, "text": "“장웅 위원님의 많은 관심과 협조를 부탁드리ㄴ다”", "weight": 0.726834}
+                ]}
+            ], 
+            "ZA": []
+        }
+    ], 
+    "entity": [
+        {"id": 0, "type": "PS_NAME", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 5, "sent_id": 1, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "문재인 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "문재인 대통령", "weight": 0.012}, 
+            {"id": 6, "sent_id": 1, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "문재인", "start_eid_short": 0, "end_eid_short": 0, "text_short": "문재인", "weight": 0.007}, 
+            {"id": 23, "sent_id": 3, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "문 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "문 대통령", "weight": 0.4}, 
+            {"id": 24, "sent_id": 3, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "문", "start_eid_short": 0, "end_eid_short": 0, "text_short": "문", "weight": 0.395}, 
+            {"id": 32, "sent_id": 4, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "문 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "문 대통령", "weight": 0.406}, 
+            {"id": 33, "sent_id": 4, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "문", "start_eid_short": 0, "end_eid_short": 0, "text_short": "문", "weight": 0.401}, 
+            {"id": 45, "sent_id": 5, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "문 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "문 대통령", "weight": 0.406}, 
+            {"id": 46, "sent_id": 5, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "문", "start_eid_short": 0, "end_eid_short": 0, "text_short": "문", "weight": 0.401}, 
+            {"id": 63, "sent_id": 7, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "문 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "문 대통령", "weight": 0.406}, 
+            {"id": 64, "sent_id": 7, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "문", "start_eid_short": 0, "end_eid_short": 0, "text_short": "문", "weight": 0.401}, 
+            {"id": 74, "sent_id": 8, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "문 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "문 대통령", "weight": 0.406}, 
+            {"id": 75, "sent_id": 8, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "문", "start_eid_short": 0, "end_eid_short": 0, "text_short": "문", "weight": 0.401}, 
+            {"id": 110, "sent_id": 11, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "문 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "문 대통령", "weight": 0.406}, 
+            {"id": 111, "sent_id": 11, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "문", "start_eid_short": 0, "end_eid_short": 0, "text_short": "문", "weight": 0.401}, 
+            {"id": 146, "sent_id": 14, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "문 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "문 대통령", "weight": 0.406}, 
+            {"id": 147, "sent_id": 14, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "문", "start_eid_short": 0, "end_eid_short": 0, "text_short": "문", "weight": 0.401}
+        ]}, 
+        {"id": 1, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 89, "sent_id": 9, "start_eid": 11, "end_eid": 11, "ne_id": -1, "text": "스포츠", "start_eid_short": 11, "end_eid_short": 11, "text_short": "스포츠", "weight": 0.072}, 
+            {"id": 30, "sent_id": 3, "start_eid": 7, "end_eid": 7, "ne_id": -1, "text": "스포츠", "start_eid_short": 7, "end_eid_short": 7, "text_short": "스포츠", "weight": 0.072}, 
+            {"id": 70, "sent_id": 7, "start_eid": 10, "end_eid": 10, "ne_id": -1, "text": "스포츠", "start_eid_short": 10, "end_eid_short": 10, "text_short": "스포츠", "weight": 0.072}, 
+            {"id": 3, "sent_id": 0, "start_eid": 1, "end_eid": 1, "ne_id": -1, "text": "스포츠", "start_eid_short": 1, "end_eid_short": 1, "text_short": "스포츠", "weight": 0.066}, 
+            {"id": 8, "sent_id": 1, "start_eid": 2, "end_eid": 3, "ne_id": -1, "text": "24일 스포츠", "start_eid_short": 2, "end_eid_short": 3, "text_short": "24일 스포츠", "weight": 0.05}
+        ]}, 
+        {"id": 2, "type": "DT_DAY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 9, "sent_id": 1, "start_eid": 2, "end_eid": 2, "ne_id": 2, "text": "24일", "start_eid_short": 2, "end_eid_short": 2, "text_short": "24일", "weight": 0.002}, 
+            {"id": 56, "sent_id": 6, "start_eid": 0, "end_eid": 0, "ne_id": -1, "text": "이날", "start_eid_short": 0, "end_eid_short": 0, "text_short": "이날", "weight": 0.006}, 
+            {"id": 25, "sent_id": 3, "start_eid": 2, "end_eid": 2, "ne_id": -1, "text": "이날", "start_eid_short": 2, "end_eid_short": 2, "text_short": "이날", "weight": 0.006}
+        ]}, 
+        {"id": 3, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 69, "sent_id": 7, "start_eid": 10, "end_eid": 12, "ne_id": -1, "text": "스포츠를 통한 화합", "start_eid_short": 12, "end_eid_short": 12, "text_short": "화합", "weight": 0.0035}, 
+            {"id": 31, "sent_id": 3, "start_eid": 10, "end_eid": 10, "ne_id": -1, "text": "화합", "start_eid_short": 10, "end_eid_short": 10, "text_short": "화합", "weight": 0.016}, 
+            {"id": 10, "sent_id": 1, "start_eid": 4, "end_eid": 4, "ne_id": -1, "text": "화합", "start_eid_short": 4, "end_eid_short": 4, "text_short": "화합", "weight": 0.01}
+        ]}, 
+        {"id": 4, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "북한", "mention": [
+            {"id": 13, "sent_id": 1, "start_eid": 7, "end_eid": 7, "ne_id": 3, "text": "북한", "start_eid_short": 7, "end_eid_short": 7, "text_short": "북한", "weight": 0.07}, 
+            {"id": 43, "sent_id": 4, "start_eid": 17, "end_eid": 17, "ne_id": 9, "text": "북한", "start_eid_short": 17, "end_eid_short": 17, "text_short": "북한", "weight": 0.076}, 
+            {"id": 145, "sent_id": 13, "start_eid": 10, "end_eid": 10, "ne_id": 2, "text": "북한", "start_eid_short": 10, "end_eid_short": 10, "text_short": "북한", "weight": 0.076}, 
+            {"id": 18, "sent_id": 2, "start_eid": 6, "end_eid": 6, "ne_id": 3, "text": "북한", "start_eid_short": 6, "end_eid_short": 6, "text_short": "북한", "weight": 0.076}, 
+            {"id": 107, "sent_id": 10, "start_eid": 5, "end_eid": 5, "ne_id": 2, "text": "북한", "start_eid_short": 5, "end_eid_short": 5, "text_short": "북한", "weight": 0.076}
+        ]}, 
+        {"id": 5, "type": "EV_SPORTS", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 120, "sent_id": 11, "start_eid": 10, "end_eid": 10, "ne_id": 5, "text": "세계청소년축구대회", "start_eid_short": 10, "end_eid_short": 10, "text_short": "세계청소년축구대회", "weight": 0.003}, 
+            {"id": 55, "sent_id": 6, "start_eid": 0, "end_eid": 4, "ne_id": 0, "text": "이날부터 열전에 돌입한 세계태권도 선수권대회", "start_eid_short": 4, "end_eid_short": 4, "text_short": "선수권대회", "weight": 0.003}, 
+            {"id": 15, "sent_id": 2, "start_eid": 0, "end_eid": 4, "ne_id": 2, "text": "전북 무주에서 열린 세계태권도 선수권대회", "start_eid_short": 4, "end_eid_short": 4, "text_short": "선수권대회", "weight": 0.002}, 
+            {"id": 119, "sent_id": 11, "start_eid": 9, "end_eid": 9, "ne_id": 4, "text": "세계탁구선수권대회", "start_eid_short": 9, "end_eid_short": 9, "text_short": "세계탁구선수권대회", "weight": 0.003}
+        ]}, 
+        {"id": 6, "type": "LCP_COUNTY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "무주", "mention": [
+            {"id": 16, "sent_id": 2, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "전북 무주", "start_eid_short": 0, "end_eid_short": 1, "text_short": "전북 무주", "weight": 0.01}, 
+            {"id": 27, "sent_id": 3, "start_eid": 3, "end_eid": 4, "ne_id": 3, "text": "전북 무주", "start_eid_short": 3, "end_eid_short": 4, "text_short": "전북 무주", "weight": 0.016}
+        ]}, 
+        {"id": 7, "type": "LCP_PROVINCE", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "전북", "mention": [
+            {"id": 17, "sent_id": 2, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "전북", "start_eid_short": 0, "end_eid_short": 0, "text_short": "전북", "weight": 0.01}, 
+            {"id": 28, "sent_id": 3, "start_eid": 3, "end_eid": 3, "ne_id": 2, "text": "전북", "start_eid_short": 3, "end_eid_short": 3, "text_short": "전북", "weight": 0.016}
+        ]}, 
+        {"id": 8, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 20, "sent_id": 2, "start_eid": 8, "end_eid": 8, "ne_id": -1, "text": "환영", "start_eid_short": 8, "end_eid_short": 8, "text_short": "환영", "weight": 0.003}, 
+            {"id": 19, "sent_id": 2, "start_eid": 8, "end_eid": 9, "ne_id": -1, "text": "환영의 뜻", "start_eid_short": 8, "end_eid_short": 9, "text_short": "환영의 뜻", "weight": 0.002}
+        ]}, 
+        {"id": 9, "type": "EV_SPORTS", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "북한", "mention": [
+            {"id": 135, "sent_id": 13, "start_eid": 0, "end_eid": 12, "ne_id": 4, "text": "남북 단일팀 및 동시 입장, 북한 응원단 참여 등 전방위적 북한 선수단의 평창올림픽", "start_eid_short": 3, "end_eid_short": 12, "text_short": "동시 입장, 북한 응원단 참여 등 전방위적 북한 선수단의 평창올림픽", "weight": 0.003}, 
+            {"id": 22, "sent_id": 2, "start_eid": 11, "end_eid": 13, "ne_id": 5, "text": "내년에 열릴 평창동계올림픽", "start_eid_short": 13, "end_eid_short": 13, "text_short": "평창동계올림픽", "weight": 0.006}, 
+            {"id": 109, "sent_id": 10, "start_eid": 11, "end_eid": 11, "ne_id": 4, "text": "동계올림픽", "start_eid_short": 11, "end_eid_short": 11, "text_short": "동계올림픽", "weight": 0.003}, 
+            {"id": 105, "sent_id": 10, "start_eid": 3, "end_eid": 4, "ne_id": 1, "text": "내년 평창동계올림픽", "start_eid_short": 3, "end_eid_short": 4, "text_short": "내년 평창동계올림픽", "weight": 0.01}
+        ]}, 
+        {"id": 10, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "남북", "mention": [
+            {"id": 99, "sent_id": 9, "start_eid": 24, "end_eid": 24, "ne_id": 9, "text": "남북", "start_eid_short": 24, "end_eid_short": 24, "text_short": "남북", "weight": 0.076}, 
+            {"id": 141, "sent_id": 13, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "남북", "start_eid_short": 0, "end_eid_short": 0, "text_short": "남북", "weight": 0.076}, 
+            {"id": 62, "sent_id": 6, "start_eid": 10, "end_eid": 10, "ne_id": 2, "text": "남북", "start_eid_short": 10, "end_eid_short": 10, "text_short": "남북", "weight": 0.07}, 
+            {"id": 122, "sent_id": 11, "start_eid": 15, "end_eid": 15, "ne_id": 6, "text": "남북", "start_eid_short": 15, "end_eid_short": 15, "text_short": "남북", "weight": 0.076}, 
+            {"id": 133, "sent_id": 12, "start_eid": 16, "end_eid": 16, "ne_id": 4, "text": "남북", "start_eid_short": 16, "end_eid_short": 16, "text_short": "남북", "weight": 0.076}
+        ]}, 
+        {"id": 11, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "미국", "mention": [
+            {"id": 76, "sent_id": 8, "start_eid": 3, "end_eid": 3, "ne_id": 2, "text": "미국", "start_eid_short": 3, "end_eid_short": 3, "text_short": "미국", "weight": 0.01}, 
+            {"id": 78, "sent_id": 8, "start_eid": 5, "end_eid": 5, "ne_id": 4, "text": "미국", "start_eid_short": 5, "end_eid_short": 5, "text_short": "미국", "weight": 0.016}
+        ]}, 
+        {"id": 12, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 98, "sent_id": 9, "start_eid": 23, "end_eid": 23, "ne_id": -1, "text": "이곳", "start_eid_short": 23, "end_eid_short": 23, "text_short": "이곳", "weight": 0.006}, 
+            {"id": 79, "sent_id": 8, "start_eid": 6, "end_eid": 6, "ne_id": 5, "text": "베트남", "start_eid_short": 6, "end_eid_short": 6, "text_short": "베트남", "weight": 0.002}
+        ]}, 
+        {"id": 13, "type": "QT_COUNT", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 102, "sent_id": 9, "start_eid": 28, "end_eid": 28, "ne_id": 11, "text": "하나", "start_eid_short": 28, "end_eid_short": 28, "text_short": "하나", "weight": 0.03}, 
+            {"id": 96, "sent_id": 9, "start_eid": 20, "end_eid": 20, "ne_id": 7, "text": "하나", "start_eid_short": 20, "end_eid_short": 20, "text_short": "하나", "weight": 0.024}, 
+            {"id": 100, "sent_id": 9, "start_eid": 25, "end_eid": 25, "ne_id": 10, "text": "하나", "start_eid_short": 25, "end_eid_short": 25, "text_short": "하나", "weight": 0.03}
+        ]}, 
+        {"id": 14, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 113, "sent_id": 11, "start_eid": 2, "end_eid": 2, "ne_id": -1, "text": "“최초", "start_eid_short": 2, "end_eid_short": 2, "text_short": "“최초", "weight": 0.0035}, 
+            {"id": 104, "sent_id": 10, "start_eid": 1, "end_eid": 1, "ne_id": -1, "text": "“이번", "start_eid_short": 1, "end_eid_short": 1, "text_short": "“이번", "weight": 0.002}
+        ]}, 
+        {"id": 15, "type": "CV_OCCUPATION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "북한", "mention": [
+            {"id": 106, "sent_id": 10, "start_eid": 5, "end_eid": 6, "ne_id": 3, "text": "북한 선수단", "start_eid_short": 5, "end_eid_short": 6, "text_short": "북한 선수단", "weight": 0.005}, 
+            {"id": 136, "sent_id": 13, "start_eid": 0, "end_eid": 11, "ne_id": 3, "text": "남북 단일팀 및 동시 입장, 북한 응원단 참여 등 전방위적 북한 선수단", "start_eid_short": 3, "end_eid_short": 11, "text_short": "동시 입장, 북한 응원단 참여 등 전방위적 북한 선수단", "weight": 0.0065}
+        ]}, 
+        {"id": 16, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "남북", "mention": [
+            {"id": 121, "sent_id": 11, "start_eid": 15, "end_eid": 16, "ne_id": -1, "text": "남북 단일팀", "start_eid_short": 15, "end_eid_short": 16, "text_short": "남북 단일팀", "weight": 0.018}, 
+            {"id": 140, "sent_id": 13, "start_eid": 0, "end_eid": 1, "ne_id": -1, "text": "남북 단일팀", "start_eid_short": 0, "end_eid_short": 1, "text_short": "남북 단일팀", "weight": 0.018}, 
+            {"id": 114, "sent_id": 11, "start_eid": 3, "end_eid": 3, "ne_id": 2, "text": "남북단일팀", "start_eid_short": 3, "end_eid_short": 3, "text_short": "남북단일팀", "weight": 0.012}
+        ]}, 
+        {"id": 17, "type": "OGG_SPORTS", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 143, "sent_id": 13, "start_eid": 5, "end_eid": 6, "ne_id": 1, "text": "북한 응원단", "start_eid_short": 5, "end_eid_short": 6, "text_short": "북한 응원단", "weight": 0.01}, 
+            {"id": 130, "sent_id": 12, "start_eid": 13, "end_eid": 14, "ne_id": 3, "text": "“북한 응원단", "start_eid_short": 13, "end_eid_short": 14, "text_short": "“북한 응원단", "weight": 0.006}
+        ]}, 
+        {"id": 18, "type": "PS_NAME", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 149, "sent_id": 14, "start_eid": 2, "end_eid": 3, "ne_id": 3, "text": "“장웅 위원님", "start_eid_short": 2, "end_eid_short": 3, "text_short": "“장웅 위원님", "weight": 0.012}, 
+            {"id": 150, "sent_id": 14, "start_eid": 2, "end_eid": 2, "ne_id": 2, "text": "“장웅", "start_eid_short": 2, "end_eid_short": 2, "text_short": "“장웅", "weight": 0.007}
+        ]}
+    ]
+}

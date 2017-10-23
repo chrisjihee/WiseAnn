@@ -1,0 +1,1831 @@
+{
+    "title": {
+        "text": "일본국헌법", 
+        "NE": ""
+    }, 
+    "metaInfo": {
+        "field": "법률", 
+        "num_sent": 21, 
+        "num_word": 206
+    }, 
+    "sentence": [
+        {
+            "id": 0, 
+            "text": "제1장 천황", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 0, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "1", "type": "SN", "position": 3, "weight": 1}, 
+                {"id": 2, "lemma": "장", "type": "NNG", "position": 4, "weight": 0.0331223}, 
+                {"id": 3, "lemma": "천황", "type": "NNG", "position": 8, "weight": 0.9}
+            ], 
+            "word": [
+                {"id": 0, "text": "제1장", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "천황", "type": "", "begin": 3, "end": 3}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제1장", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.502347, "common_noun": 0}, 
+                {"id": 1, "text": "천황", "type": "CV_POSITION", "begin": 3, "end": 3, "weight": 0.251808, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제1장", "head": 1, "label": "NP", "mod": [], "weight": 0.854526}, 
+                {"id": 1, "text": "천황", "head": -1, "label": "NP", "mod": [0], "weight": 0.680748}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제1장 천황", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 1, 
+            "text": "제1조 ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 14, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "1", "type": "SN", "position": 17, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 18, "weight": 0.208011}
+            ], 
+            "word": [
+                {"id": 0, "text": "제1조", "type": "", "begin": 0, "end": 2}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제1조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 1, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제1조", "head": -1, "label": "NP", "mod": [], "weight": 0.840586}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제1조", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 2, 
+            "text": "천황은 일본국의 상징이자 일본 국민 통합의 상징이며, 이 지위는 주권을 지닌 일본 국민의 총의에 근거한다.", 
+            "morp": [
+                {"id": 0, "lemma": "천황", "type": "NNG", "position": 22, "weight": 0.9}, 
+                {"id": 1, "lemma": "은", "type": "JX", "position": 28, "weight": 0.0449928}, 
+                {"id": 2, "lemma": "일본국", "type": "NNP", "position": 32, "weight": 0.9}, 
+                {"id": 3, "lemma": "의", "type": "JKG", "position": 41, "weight": 0.0987295}, 
+                {"id": 4, "lemma": "상징", "type": "NNG", "position": 45, "weight": 0.9}, 
+                {"id": 5, "lemma": "이", "type": "VCP", "position": 51, "weight": 0.0177525}, 
+                {"id": 6, "lemma": "자", "type": "EC", "position": 54, "weight": 0.109096}, 
+                {"id": 7, "lemma": "일본", "type": "NNP", "position": 58, "weight": 0.0219717}, 
+                {"id": 8, "lemma": "국민", "type": "NNG", "position": 65, "weight": 0.278417}, 
+                {"id": 9, "lemma": "통합", "type": "NNG", "position": 72, "weight": 0.9}, 
+                {"id": 10, "lemma": "의", "type": "JKG", "position": 78, "weight": 0.0694213}, 
+                {"id": 11, "lemma": "상징", "type": "NNG", "position": 82, "weight": 0.9}, 
+                {"id": 12, "lemma": "이", "type": "VCP", "position": 88, "weight": 0.0177525}, 
+                {"id": 13, "lemma": "며", "type": "EC", "position": 91, "weight": 0.250555}, 
+                {"id": 14, "lemma": ",", "type": "SP", "position": 94, "weight": 1}, 
+                {"id": 15, "lemma": "이", "type": "MM", "position": 96, "weight": 0.0017249}, 
+                {"id": 16, "lemma": "지위", "type": "NNG", "position": 100, "weight": 0.9}, 
+                {"id": 17, "lemma": "는", "type": "JX", "position": 106, "weight": 0.0287565}, 
+                {"id": 18, "lemma": "주권", "type": "NNG", "position": 110, "weight": 0.9}, 
+                {"id": 19, "lemma": "을", "type": "JKO", "position": 116, "weight": 0.129611}, 
+                {"id": 20, "lemma": "지니", "type": "VV", "position": 120, "weight": 0.776742}, 
+                {"id": 21, "lemma": "ㄴ", "type": "ETM", "position": 123, "weight": 0.304215}, 
+                {"id": 22, "lemma": "일본", "type": "NNP", "position": 127, "weight": 0.0280581}, 
+                {"id": 23, "lemma": "국민", "type": "NNG", "position": 134, "weight": 0.278417}, 
+                {"id": 24, "lemma": "의", "type": "JKG", "position": 140, "weight": 0.0694213}, 
+                {"id": 25, "lemma": "총의", "type": "NNG", "position": 144, "weight": 0.4}, 
+                {"id": 26, "lemma": "에", "type": "JKB", "position": 150, "weight": 0.153364}, 
+                {"id": 27, "lemma": "근거", "type": "NNG", "position": 154, "weight": 0.9}, 
+                {"id": 28, "lemma": "하", "type": "XSV", "position": 160, "weight": 0.0001}, 
+                {"id": 29, "lemma": "ㄴ다", "type": "EF", "position": 160, "weight": 0.0449045}, 
+                {"id": 30, "lemma": ".", "type": "SF", "position": 166, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "천황은", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "일본국의", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "상징이자", "type": "", "begin": 4, "end": 6}, 
+                {"id": 3, "text": "일본", "type": "", "begin": 7, "end": 7}, 
+                {"id": 4, "text": "국민", "type": "", "begin": 8, "end": 8}, 
+                {"id": 5, "text": "통합의", "type": "", "begin": 9, "end": 10}, 
+                {"id": 6, "text": "상징이며,", "type": "", "begin": 11, "end": 14}, 
+                {"id": 7, "text": "이", "type": "", "begin": 15, "end": 15}, 
+                {"id": 8, "text": "지위는", "type": "", "begin": 16, "end": 17}, 
+                {"id": 9, "text": "주권을", "type": "", "begin": 18, "end": 19}, 
+                {"id": 10, "text": "지닌", "type": "", "begin": 20, "end": 21}, 
+                {"id": 11, "text": "일본", "type": "", "begin": 22, "end": 22}, 
+                {"id": 12, "text": "국민의", "type": "", "begin": 23, "end": 24}, 
+                {"id": 13, "text": "총의에", "type": "", "begin": 25, "end": 26}, 
+                {"id": 14, "text": "근거한다.", "type": "", "begin": 27, "end": 30}
+            ], 
+            "NE": [
+                {"id": 0, "text": "천황", "type": "CV_POSITION", "begin": 0, "end": 0, "weight": 0.195559, "common_noun": 0}, 
+                {"id": 1, "text": "일본국", "type": "LCP_COUNTRY", "begin": 2, "end": 2, "weight": 0.575789, "common_noun": 0}, 
+                {"id": 2, "text": "일본", "type": "LCP_COUNTRY", "begin": 7, "end": 7, "weight": 0.783012, "common_noun": 0}, 
+                {"id": 3, "text": "국민", "type": "CV_POSITION", "begin": 8, "end": 8, "weight": 0.328454, "common_noun": 0}, 
+                {"id": 4, "text": "일본", "type": "LCP_COUNTRY", "begin": 22, "end": 22, "weight": 0.627407, "common_noun": 0}, 
+                {"id": 5, "text": "국민", "type": "CV_POSITION", "begin": 23, "end": 23, "weight": 0.318607, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "천황은", "head": 2, "label": "NP_SBJ", "mod": [], "weight": 0.717389}, 
+                {"id": 1, "text": "일본국의", "head": 2, "label": "NP_MOD", "mod": [], "weight": 0.837524}, 
+                {"id": 2, "text": "상징이자", "head": 6, "label": "VNP", "mod": [0, 1], "weight": 0.681658}, 
+                {"id": 3, "text": "일본", "head": 4, "label": "NP", "mod": [], "weight": 0.316354}, 
+                {"id": 4, "text": "국민", "head": 5, "label": "NP", "mod": [3], "weight": 0.643464}, 
+                {"id": 5, "text": "통합의", "head": 6, "label": "NP_MOD", "mod": [4], "weight": 0.763458}, 
+                {"id": 6, "text": "상징이며,", "head": 14, "label": "VNP", "mod": [2, 5], "weight": 0.703152}, 
+                {"id": 7, "text": "이", "head": 8, "label": "DP", "mod": [], "weight": 0.72829}, 
+                {"id": 8, "text": "지위는", "head": 14, "label": "NP_SBJ", "mod": [7], "weight": 0.675867}, 
+                {"id": 9, "text": "주권을", "head": 10, "label": "NP_OBJ", "mod": [], "weight": 0.802975}, 
+                {"id": 10, "text": "지닌", "head": 12, "label": "VP_MOD", "mod": [9], "weight": 0.412675}, 
+                {"id": 11, "text": "일본", "head": 12, "label": "NP", "mod": [], "weight": 0.663892}, 
+                {"id": 12, "text": "국민의", "head": 13, "label": "NP_MOD", "mod": [11, 10], "weight": 0.647724}, 
+                {"id": 13, "text": "총의에", "head": 14, "label": "NP_AJT", "mod": [12], "weight": 0.802181}, 
+                {"id": 14, "text": "근거한다.", "head": -1, "label": "VP", "mod": [6, 8, 13], "weight": 0.00227684}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "천황은", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S", "text": "P#0@SBJ은 일본국의 상징이자", "begin": 0, "end": 2, "key_begin": 1, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": [
+                    {"text": "일본국의 상징", "label": "NP", "begin": 2, "end": 4, "ne_type": ""}, 
+                    {"text": "이자", "label": "VP", "begin": 5, "end": 6, "ne_type": ""}
+                ]}, 
+                {"id": 2, "label": "S", "text": "S#1@S자 일본 국민 통합의 상징이며,", "begin": 0, "end": 6, "key_begin": 3, "head_phrase": 7, "sub_phrase": [1], "weight": 0, "element": [
+                    {"text": "일본 국민 통합의 상징", "label": "NP", "begin": 7, "end": 11, "ne_type": ""}, 
+                    {"text": "이며,", "label": "VP", "begin": 12, "end": 14, "ne_type": ""}
+                ]}, 
+                {"id": 3, "label": "NP_SBJ", "text": "이 지위는", "begin": 7, "end": 8, "key_begin": 7, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "주권을", "begin": 9, "end": 9, "key_begin": 9, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP_MOD", "text": "P#4@OBJ을 지닌", "begin": 9, "end": 10, "key_begin": 10, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "P#5@MODㄴ 일본 국민의 총의에", "begin": 9, "end": 13, "key_begin": 11, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "S#2@S며, P#3@SBJ는 P#6@AJT에 근거한다.", "begin": 0, "end": 14, "key_begin": 14, "head_phrase": -1, "sub_phrase": [2, 3, 6], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "지니", "sense": 1, "word_id": 10, "weight": 0.353592, "argument": [
+                    {"type": "ARG1", "word_id": 9, "text": "주권", "weight": 0.312149, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG0", "word_id": 13, "text": "일본 국민의 총의", "weight": 0.395036, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "근거", "sense": 1, "word_id": 14, "weight": 0.274697, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "이 지위", "weight": 0.214903, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG2", "word_id": 13, "text": "일본 국민의 총의", "weight": 0.334491, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 3, 
+            "text": "제2조 ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 167, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "2", "type": "SN", "position": 170, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 171, "weight": 0.208011}
+            ], 
+            "word": [
+                {"id": 0, "text": "제2조", "type": "", "begin": 0, "end": 2}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제2조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.580734, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제2조", "head": -1, "label": "NP", "mod": [], "weight": 0.840586}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제2조", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 4, 
+            "text": "황위는 세습되며, 국회가 의결한 황실전범이 정하는 바에 의하여 이를 계승한다.", 
+            "morp": [
+                {"id": 0, "lemma": "황위", "type": "NNG", "position": 175, "weight": 0.35}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 181, "weight": 0.0287565}, 
+                {"id": 2, "lemma": "세습", "type": "NNG", "position": 185, "weight": 0.9}, 
+                {"id": 3, "lemma": "되", "type": "XSV", "position": 191, "weight": 0.000224177}, 
+                {"id": 4, "lemma": "며", "type": "EC", "position": 194, "weight": 0.371165}, 
+                {"id": 5, "lemma": ",", "type": "SP", "position": 197, "weight": 1}, 
+                {"id": 6, "lemma": "국회", "type": "NNG", "position": 199, "weight": 0.9}, 
+                {"id": 7, "lemma": "가", "type": "JKS", "position": 205, "weight": 0.066324}, 
+                {"id": 8, "lemma": "의결", "type": "NNG", "position": 209, "weight": 0.9}, 
+                {"id": 9, "lemma": "하", "type": "XSV", "position": 215, "weight": 0.0001}, 
+                {"id": 10, "lemma": "ㄴ", "type": "ETM", "position": 215, "weight": 0.392321}, 
+                {"id": 11, "lemma": "황실", "type": "NNG", "position": 219, "weight": 0.648215}, 
+                {"id": 12, "lemma": "전범", "type": "NNG", "position": 225, "weight": 0.9}, 
+                {"id": 13, "lemma": "이", "type": "JKS", "position": 231, "weight": 0.0360723}, 
+                {"id": 14, "lemma": "정", "type": "NNG", "position": 235, "weight": 0.0910484}, 
+                {"id": 15, "lemma": "하", "type": "XSV", "position": 238, "weight": 0.0001}, 
+                {"id": 16, "lemma": "는", "type": "ETM", "position": 241, "weight": 0.238503}, 
+                {"id": 17, "lemma": "바", "type": "NNB", "position": 245, "weight": 0.216256}, 
+                {"id": 18, "lemma": "에", "type": "JKB", "position": 248, "weight": 0.135559}, 
+                {"id": 19, "lemma": "의하", "type": "VV", "position": 252, "weight": 0.9}, 
+                {"id": 20, "lemma": "어", "type": "EC", "position": 258, "weight": 0.41831}, 
+                {"id": 21, "lemma": "이", "type": "NP", "position": 262, "weight": 0.000657584}, 
+                {"id": 22, "lemma": "를", "type": "JKO", "position": 265, "weight": 0.0808985}, 
+                {"id": 23, "lemma": "계승", "type": "NNG", "position": 269, "weight": 0.101026}, 
+                {"id": 24, "lemma": "하", "type": "XSV", "position": 275, "weight": 0.0001}, 
+                {"id": 25, "lemma": "ㄴ다", "type": "EF", "position": 275, "weight": 0.0449045}, 
+                {"id": 26, "lemma": ".", "type": "SF", "position": 281, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "황위는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "세습되며,", "type": "", "begin": 2, "end": 5}, 
+                {"id": 2, "text": "국회가", "type": "", "begin": 6, "end": 7}, 
+                {"id": 3, "text": "의결한", "type": "", "begin": 8, "end": 10}, 
+                {"id": 4, "text": "황실전범이", "type": "", "begin": 11, "end": 13}, 
+                {"id": 5, "text": "정하는", "type": "", "begin": 14, "end": 16}, 
+                {"id": 6, "text": "바에", "type": "", "begin": 17, "end": 18}, 
+                {"id": 7, "text": "의하여", "type": "", "begin": 19, "end": 20}, 
+                {"id": 8, "text": "이를", "type": "", "begin": 21, "end": 22}, 
+                {"id": 9, "text": "계승한다.", "type": "", "begin": 23, "end": 26}
+            ], 
+            "NE": [
+                {"id": 0, "text": "국회", "type": "OGG_POLITICS", "begin": 6, "end": 6, "weight": 0.6471, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "황위는", "head": 1, "label": "NP_SBJ", "mod": [], "weight": 0.610938}, 
+                {"id": 1, "text": "세습되며,", "head": 7, "label": "VP", "mod": [0], "weight": 0.500231}, 
+                {"id": 2, "text": "국회가", "head": 3, "label": "NP_SBJ", "mod": [], "weight": 0.833105}, 
+                {"id": 3, "text": "의결한", "head": 4, "label": "VP_MOD", "mod": [2], "weight": 0.60757}, 
+                {"id": 4, "text": "황실전범이", "head": 5, "label": "NP_SBJ", "mod": [3], "weight": 0.637677}, 
+                {"id": 5, "text": "정하는", "head": 6, "label": "VP_MOD", "mod": [4], "weight": 0.746133}, 
+                {"id": 6, "text": "바에", "head": 7, "label": "NP_AJT", "mod": [5], "weight": 0.842887}, 
+                {"id": 7, "text": "의하여", "head": 9, "label": "VP", "mod": [1, 6], "weight": 0.812271}, 
+                {"id": 8, "text": "이를", "head": 9, "label": "NP_OBJ", "mod": [], "weight": 0.776884}, 
+                {"id": 9, "text": "계승한다.", "head": -1, "label": "VP", "mod": [7, 8], "weight": 0.0348615}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "황위는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S", "text": "P#0@SBJ는 세습되며,", "begin": 0, "end": 1, "key_begin": 1, "head_phrase": 7, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "국회가", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S_MOD", "text": "P#2@SBJ가 의결한", "begin": 2, "end": 3, "key_begin": 3, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "S#3@MODㄴ 황실전범이", "begin": 2, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S_MOD", "text": "P#4@SBJ이 정하는", "begin": 2, "end": 5, "key_begin": 5, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "S#5@MOD는 바에", "begin": 2, "end": 6, "key_begin": 6, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "S#1@S며, P#6@AJT에 의하여", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 9, "sub_phrase": [1, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_OBJ", "text": "이를", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "S#7@S어 P#8@OBJ를 계승한다.", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": -1, "sub_phrase": [7, 8], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "세습", "sense": 1, "word_id": 1, "weight": 0.321921, "argument": [
+                    {"type": "ARG1", "word_id": 0, "text": "황위", "weight": 0.321921, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "의결", "sense": 1, "word_id": 3, "weight": 0.42809, "argument": [
+                    {"type": "ARG0", "word_id": 2, "text": "국회", "weight": 0.683287, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 4, "text": "황실전범", "weight": 0.172892, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "정", "sense": 1, "word_id": 5, "weight": 0.370573, "argument": [
+                    {"type": "ARG0", "word_id": 4, "text": "황실전범", "weight": 0.370573, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "의하", "sense": 1, "word_id": 7, "weight": 0.559029, "argument": [
+                    {"type": "ARG2", "word_id": 6, "text": "바", "weight": 0.559029, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "계승", "sense": 1, "word_id": 9, "weight": 0.239612, "argument": [
+                    {"type": "ARGM-CAU", "word_id": 7, "text": "의하여", "weight": 0.0841509, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 8, "text": "이", "weight": 0.395073, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 9, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.982695}
+            ]
+        }, 
+        {
+            "id": 5, 
+            "text": "제3조 ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 282, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "3", "type": "SN", "position": 285, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 286, "weight": 0.208011}
+            ], 
+            "word": [
+                {"id": 0, "text": "제3조", "type": "", "begin": 0, "end": 2}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제3조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 1, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제3조", "head": -1, "label": "NP", "mod": [], "weight": 0.840586}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제3조", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 6, 
+            "text": "천황의 국사에 관한 모든 행위는 내각의 조언과 승인을 필요로 하며, 내각이 그 책임을 진다.", 
+            "morp": [
+                {"id": 0, "lemma": "천황", "type": "NNG", "position": 290, "weight": 0.9}, 
+                {"id": 1, "lemma": "의", "type": "JKG", "position": 296, "weight": 0.0694213}, 
+                {"id": 2, "lemma": "국사", "type": "NNG", "position": 300, "weight": 0.86479}, 
+                {"id": 3, "lemma": "에", "type": "JKB", "position": 306, "weight": 0.153364}, 
+                {"id": 4, "lemma": "관", "type": "NNG", "position": 310, "weight": 0.130437}, 
+                {"id": 5, "lemma": "하", "type": "XSV", "position": 313, "weight": 0.0001}, 
+                {"id": 6, "lemma": "ㄴ", "type": "ETM", "position": 313, "weight": 0.392321}, 
+                {"id": 7, "lemma": "모든", "type": "MM", "position": 317, "weight": 0.9}, 
+                {"id": 8, "lemma": "행위", "type": "NNG", "position": 324, "weight": 0.9}, 
+                {"id": 9, "lemma": "는", "type": "JX", "position": 330, "weight": 0.0287565}, 
+                {"id": 10, "lemma": "내각", "type": "NNG", "position": 334, "weight": 0.9}, 
+                {"id": 11, "lemma": "의", "type": "JKG", "position": 340, "weight": 0.0694213}, 
+                {"id": 12, "lemma": "조언", "type": "NNG", "position": 344, "weight": 0.9}, 
+                {"id": 13, "lemma": "과", "type": "JC", "position": 350, "weight": 0.017569}, 
+                {"id": 14, "lemma": "승인", "type": "NNG", "position": 354, "weight": 0.9}, 
+                {"id": 15, "lemma": "을", "type": "JKO", "position": 360, "weight": 0.129611}, 
+                {"id": 16, "lemma": "필요", "type": "NNG", "position": 364, "weight": 0.9}, 
+                {"id": 17, "lemma": "로", "type": "JKB", "position": 370, "weight": 0.153229}, 
+                {"id": 18, "lemma": "하", "type": "VV", "position": 374, "weight": 0.275522}, 
+                {"id": 19, "lemma": "며", "type": "EC", "position": 377, "weight": 0.429701}, 
+                {"id": 20, "lemma": ",", "type": "SP", "position": 380, "weight": 1}, 
+                {"id": 21, "lemma": "내각", "type": "NNG", "position": 382, "weight": 0.9}, 
+                {"id": 22, "lemma": "이", "type": "JKS", "position": 388, "weight": 0.0360723}, 
+                {"id": 23, "lemma": "그", "type": "MM", "position": 392, "weight": 0.0136755}, 
+                {"id": 24, "lemma": "책임", "type": "NNG", "position": 396, "weight": 0.9}, 
+                {"id": 25, "lemma": "을", "type": "JKO", "position": 402, "weight": 0.129611}, 
+                {"id": 26, "lemma": "지", "type": "VV", "position": 406, "weight": 0.0171379}, 
+                {"id": 27, "lemma": "ㄴ다", "type": "EF", "position": 406, "weight": 0.0793196}, 
+                {"id": 28, "lemma": ".", "type": "SF", "position": 412, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "천황의", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "국사에", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "관한", "type": "", "begin": 4, "end": 6}, 
+                {"id": 3, "text": "모든", "type": "", "begin": 7, "end": 7}, 
+                {"id": 4, "text": "행위는", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "내각의", "type": "", "begin": 10, "end": 11}, 
+                {"id": 6, "text": "조언과", "type": "", "begin": 12, "end": 13}, 
+                {"id": 7, "text": "승인을", "type": "", "begin": 14, "end": 15}, 
+                {"id": 8, "text": "필요로", "type": "", "begin": 16, "end": 17}, 
+                {"id": 9, "text": "하며,", "type": "", "begin": 18, "end": 20}, 
+                {"id": 10, "text": "내각이", "type": "", "begin": 21, "end": 22}, 
+                {"id": 11, "text": "그", "type": "", "begin": 23, "end": 23}, 
+                {"id": 12, "text": "책임을", "type": "", "begin": 24, "end": 25}, 
+                {"id": 13, "text": "진다.", "type": "", "begin": 26, "end": 28}
+            ], 
+            "NE": [
+                {"id": 0, "text": "천황", "type": "CV_POSITION", "begin": 0, "end": 0, "weight": 0.19361, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "천황의", "head": 1, "label": "NP_MOD", "mod": [], "weight": 0.614512}, 
+                {"id": 1, "text": "국사에", "head": 2, "label": "NP_AJT", "mod": [0], "weight": 0.746335}, 
+                {"id": 2, "text": "관한", "head": 4, "label": "VP_MOD", "mod": [1], "weight": 0.787244}, 
+                {"id": 3, "text": "모든", "head": 4, "label": "DP", "mod": [], "weight": 0.568145}, 
+                {"id": 4, "text": "행위는", "head": 9, "label": "NP_SBJ", "mod": [2, 3], "weight": 0.646364}, 
+                {"id": 5, "text": "내각의", "head": 7, "label": "NP_MOD", "mod": [], "weight": 0.732467}, 
+                {"id": 6, "text": "조언과", "head": 7, "label": "NP_CNJ", "mod": [], "weight": 0.734699}, 
+                {"id": 7, "text": "승인을", "head": 9, "label": "NP_OBJ", "mod": [5, 6], "weight": 0.777086}, 
+                {"id": 8, "text": "필요로", "head": 9, "label": "NP_AJT", "mod": [], "weight": 0.704995}, 
+                {"id": 9, "text": "하며,", "head": 13, "label": "VP", "mod": [4, 7, 8], "weight": 0.730875}, 
+                {"id": 10, "text": "내각이", "head": 13, "label": "NP_SBJ", "mod": [], "weight": 0.822998}, 
+                {"id": 11, "text": "그", "head": 12, "label": "DP", "mod": [], "weight": 0.706097}, 
+                {"id": 12, "text": "책임을", "head": 13, "label": "NP_OBJ", "mod": [11], "weight": 0.731221}, 
+                {"id": 13, "text": "진다.", "head": -1, "label": "VP", "mod": [9, 10, 12], "weight": 0.009422}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "천황의 국사에", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@AJT에 관한", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "P#1@MODㄴ 모든 행위는", "begin": 0, "end": 4, "key_begin": 3, "head_phrase": 5, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_OBJ", "text": "내각의 조언과 승인을", "begin": 5, "end": 7, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "필요로", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#2@SBJ는 P#3@OBJ을 P#4@AJT로 하며,", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 8, "sub_phrase": [2, 3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_SBJ", "text": "내각이", "begin": 10, "end": 10, "key_begin": 10, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_OBJ", "text": "그 책임을", "begin": 11, "end": 12, "key_begin": 11, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "S#5@S며, P#6@SBJ이 P#7@OBJ을 진다.", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": -1, "sub_phrase": [5, 6, 7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "관", "sense": 1, "word_id": 2, "weight": 0.4186, "argument": [
+                    {"type": "ARG2", "word_id": 1, "text": "천황의 국사", "weight": 0.228525, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 4, "text": "모든 행위", "weight": 0.608674, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "하", "sense": 3, "word_id": 9, "weight": 0.347227, "argument": [
+                    {"type": "ARG1", "word_id": 7, "text": "내각의 조언과 승인", "weight": 0.343869, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG2", "word_id": 8, "text": "필요", "weight": 0.350585, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "지", "sense": 2, "word_id": 13, "weight": 0.530149, "argument": [
+                    {"type": "ARG0", "word_id": 10, "text": "내각", "weight": 0.351297, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 12, "text": "그 책임", "weight": 0.709, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 7, 
+            "text": "제4조 ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 413, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "4", "type": "SN", "position": 416, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 417, "weight": 0.208011}
+            ], 
+            "word": [
+                {"id": 0, "text": "제4조", "type": "", "begin": 0, "end": 2}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제4조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.626689, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제4조", "head": -1, "label": "NP", "mod": [], "weight": 0.840586}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제4조", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 8, 
+            "text": "① 천황은 이 헌법이 정하는 국사에 관한 행위만을 행하며, 국정에 관한 권능을 지니지 아니한다.", 
+            "morp": [
+                {"id": 0, "lemma": "①", "type": "SW", "position": 421, "weight": 1}, 
+                {"id": 1, "lemma": "천황", "type": "NNG", "position": 425, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 431, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "이", "type": "MM", "position": 435, "weight": 0.00176496}, 
+                {"id": 4, "lemma": "헌법", "type": "NNG", "position": 439, "weight": 0.9}, 
+                {"id": 5, "lemma": "이", "type": "JKS", "position": 445, "weight": 0.0360723}, 
+                {"id": 6, "lemma": "정", "type": "NNG", "position": 449, "weight": 0.0910484}, 
+                {"id": 7, "lemma": "하", "type": "XSV", "position": 452, "weight": 0.0001}, 
+                {"id": 8, "lemma": "는", "type": "ETM", "position": 455, "weight": 0.238503}, 
+                {"id": 9, "lemma": "국사", "type": "NNG", "position": 459, "weight": 0.653812}, 
+                {"id": 10, "lemma": "에", "type": "JKB", "position": 465, "weight": 0.153364}, 
+                {"id": 11, "lemma": "관", "type": "NNG", "position": 469, "weight": 0.130437}, 
+                {"id": 12, "lemma": "하", "type": "XSV", "position": 472, "weight": 0.0001}, 
+                {"id": 13, "lemma": "ㄴ", "type": "ETM", "position": 472, "weight": 0.392321}, 
+                {"id": 14, "lemma": "행위", "type": "NNG", "position": 476, "weight": 0.9}, 
+                {"id": 15, "lemma": "만", "type": "JX", "position": 482, "weight": 0.0522241}, 
+                {"id": 16, "lemma": "을", "type": "JKO", "position": 485, "weight": 0.00312136}, 
+                {"id": 17, "lemma": "행하", "type": "VV", "position": 489, "weight": 0.773814}, 
+                {"id": 18, "lemma": "며", "type": "EC", "position": 495, "weight": 0.429701}, 
+                {"id": 19, "lemma": ",", "type": "SP", "position": 498, "weight": 1}, 
+                {"id": 20, "lemma": "국정", "type": "NNG", "position": 500, "weight": 0.9}, 
+                {"id": 21, "lemma": "에", "type": "JKB", "position": 506, "weight": 0.153364}, 
+                {"id": 22, "lemma": "관", "type": "NNG", "position": 510, "weight": 0.130437}, 
+                {"id": 23, "lemma": "하", "type": "XSV", "position": 513, "weight": 0.0001}, 
+                {"id": 24, "lemma": "ㄴ", "type": "ETM", "position": 513, "weight": 0.392321}, 
+                {"id": 25, "lemma": "권능", "type": "NNG", "position": 517, "weight": 0.9}, 
+                {"id": 26, "lemma": "을", "type": "JKO", "position": 523, "weight": 0.129611}, 
+                {"id": 27, "lemma": "지니", "type": "VV", "position": 527, "weight": 0.776742}, 
+                {"id": 28, "lemma": "지", "type": "EC", "position": 533, "weight": 0.301842}, 
+                {"id": 29, "lemma": "아니하", "type": "VX", "position": 537, "weight": 0.257113}, 
+                {"id": 30, "lemma": "ㄴ다", "type": "EF", "position": 543, "weight": 0.184394}, 
+                {"id": 31, "lemma": ".", "type": "SF", "position": 549, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "①", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "천황은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "이", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "헌법이", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "정하는", "type": "", "begin": 6, "end": 8}, 
+                {"id": 5, "text": "국사에", "type": "", "begin": 9, "end": 10}, 
+                {"id": 6, "text": "관한", "type": "", "begin": 11, "end": 13}, 
+                {"id": 7, "text": "행위만을", "type": "", "begin": 14, "end": 16}, 
+                {"id": 8, "text": "행하며,", "type": "", "begin": 17, "end": 19}, 
+                {"id": 9, "text": "국정에", "type": "", "begin": 20, "end": 21}, 
+                {"id": 10, "text": "관한", "type": "", "begin": 22, "end": 24}, 
+                {"id": 11, "text": "권능을", "type": "", "begin": 25, "end": 26}, 
+                {"id": 12, "text": "지니지", "type": "", "begin": 27, "end": 28}, 
+                {"id": 13, "text": "아니한다.", "type": "", "begin": 29, "end": 31}
+            ], 
+            "NE": [
+                {"id": 0, "text": "천황", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.242559, "common_noun": 0}, 
+                {"id": 1, "text": "헌법", "type": "CV_LAW", "begin": 4, "end": 4, "weight": 0.664624, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "①", "head": 13, "label": "NP", "mod": [], "weight": 0.669334}, 
+                {"id": 1, "text": "천황은", "head": 8, "label": "NP_SBJ", "mod": [], "weight": 0.663543}, 
+                {"id": 2, "text": "이", "head": 3, "label": "DP", "mod": [], "weight": 0.679699}, 
+                {"id": 3, "text": "헌법이", "head": 4, "label": "NP_SBJ", "mod": [2], "weight": 0.448662}, 
+                {"id": 4, "text": "정하는", "head": 5, "label": "VP_MOD", "mod": [3], "weight": 0.168076}, 
+                {"id": 5, "text": "국사에", "head": 6, "label": "NP_AJT", "mod": [4], "weight": 0.676161}, 
+                {"id": 6, "text": "관한", "head": 7, "label": "VP_MOD", "mod": [5], "weight": 0.688788}, 
+                {"id": 7, "text": "행위만을", "head": 8, "label": "NP_OBJ", "mod": [6], "weight": 0.666282}, 
+                {"id": 8, "text": "행하며,", "head": 12, "label": "VP", "mod": [1, 7], "weight": 0.754516}, 
+                {"id": 9, "text": "국정에", "head": 10, "label": "NP_AJT", "mod": [], "weight": 0.770942}, 
+                {"id": 10, "text": "관한", "head": 11, "label": "VP_MOD", "mod": [9], "weight": 0.764941}, 
+                {"id": 11, "text": "권능을", "head": 12, "label": "NP_OBJ", "mod": [10], "weight": 0.798922}, 
+                {"id": 12, "text": "지니지", "head": 13, "label": "VP", "mod": [8, 11], "weight": 0.767314}, 
+                {"id": 13, "text": "아니한다.", "head": -1, "label": "VP", "mod": [12, 0], "weight": 0.00166403}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "①", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "천황은", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "이 헌법이", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S_MOD", "text": "P#2@SBJ이 정하는", "begin": 2, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "S#3@MOD는 국사에", "begin": 2, "end": 5, "key_begin": 5, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP_MOD", "text": "P#4@AJT에 관한", "begin": 2, "end": 6, "key_begin": 6, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_OBJ", "text": "P#5@MODㄴ 행위만을", "begin": 2, "end": 7, "key_begin": 7, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "P#0@NP① P#1@SBJ은 P#6@OBJ을 행하며,", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": 11, "sub_phrase": [0, 1, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_AJT", "text": "국정에", "begin": 9, "end": 9, "key_begin": 9, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "VP_MOD", "text": "P#8@AJT에 관한", "begin": 9, "end": 10, "key_begin": 10, "head_phrase": 10, "sub_phrase": [8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "NP_OBJ", "text": "P#9@MODㄴ 권능을", "begin": 9, "end": 11, "key_begin": 11, "head_phrase": 11, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "S", "text": "S#7@S며, P#10@OBJ을 지니지 아니한다.", "begin": 0, "end": 13, "key_begin": 12, "head_phrase": -1, "sub_phrase": [7, 10], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "정", "sense": 1, "word_id": 4, "weight": 0.384819, "argument": [
+                    {"type": "ARG0", "word_id": 3, "text": "이 헌법", "weight": 0.384819, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "관", "sense": 1, "word_id": 6, "weight": 0.39086, "argument": [
+                    {"type": "ARG2", "word_id": 5, "text": "국사", "weight": 0.231965, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 7, "text": "행위", "weight": 0.549756, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "행하", "sense": 1, "word_id": 8, "weight": 0.462956, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "천황", "weight": 0.479642, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 7, "text": "행위", "weight": 0.44627, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "관", "sense": 1, "word_id": 10, "weight": 0.350119, "argument": [
+                    {"type": "ARG2", "word_id": 9, "text": "국정", "weight": 0.272593, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 11, "text": "권능", "weight": 0.427645, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "지니", "sense": 1, "word_id": 12, "weight": 0.532206, "argument": [
+                    {"type": "ARG1", "word_id": 11, "text": "권능", "weight": 0.370658, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-NEG", "word_id": 13, "text": "지니지 아니한다.", "weight": 0.693754, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 12, "ant_sid": 8, "ant_wid": 1, "ant_is_title": 0, "weight": 0.655696}
+            ]
+        }, 
+        {
+            "id": 9, 
+            "text": "② 천황은 법률이 정하는 바에 의하여 그 국사에 관한 행위를 위임할 수 있다.", 
+            "morp": [
+                {"id": 0, "lemma": "②", "type": "SW", "position": 550, "weight": 1}, 
+                {"id": 1, "lemma": "천황", "type": "NNG", "position": 554, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 560, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "법률", "type": "NNG", "position": 564, "weight": 0.9}, 
+                {"id": 4, "lemma": "이", "type": "JKS", "position": 570, "weight": 0.0360723}, 
+                {"id": 5, "lemma": "정", "type": "NNG", "position": 574, "weight": 0.0910484}, 
+                {"id": 6, "lemma": "하", "type": "XSV", "position": 577, "weight": 0.0001}, 
+                {"id": 7, "lemma": "는", "type": "ETM", "position": 580, "weight": 0.238503}, 
+                {"id": 8, "lemma": "바", "type": "NNB", "position": 584, "weight": 0.216256}, 
+                {"id": 9, "lemma": "에", "type": "JKB", "position": 587, "weight": 0.135559}, 
+                {"id": 10, "lemma": "의하", "type": "VV", "position": 591, "weight": 0.9}, 
+                {"id": 11, "lemma": "어", "type": "EC", "position": 597, "weight": 0.41831}, 
+                {"id": 12, "lemma": "그", "type": "MM", "position": 601, "weight": 0.0123347}, 
+                {"id": 13, "lemma": "국사", "type": "NNG", "position": 605, "weight": 0.731823}, 
+                {"id": 14, "lemma": "에", "type": "JKB", "position": 611, "weight": 0.153364}, 
+                {"id": 15, "lemma": "관", "type": "NNG", "position": 615, "weight": 0.130437}, 
+                {"id": 16, "lemma": "하", "type": "XSV", "position": 618, "weight": 0.0001}, 
+                {"id": 17, "lemma": "ㄴ", "type": "ETM", "position": 618, "weight": 0.392321}, 
+                {"id": 18, "lemma": "행위", "type": "NNG", "position": 622, "weight": 0.9}, 
+                {"id": 19, "lemma": "를", "type": "JKO", "position": 628, "weight": 0.137686}, 
+                {"id": 20, "lemma": "위임", "type": "NNG", "position": 632, "weight": 0.9}, 
+                {"id": 21, "lemma": "하", "type": "XSV", "position": 638, "weight": 0.0001}, 
+                {"id": 22, "lemma": "ㄹ", "type": "ETM", "position": 638, "weight": 0.387847}, 
+                {"id": 23, "lemma": "수", "type": "NNB", "position": 642, "weight": 0.215617}, 
+                {"id": 24, "lemma": "있", "type": "VA", "position": 646, "weight": 0.0518488}, 
+                {"id": 25, "lemma": "다", "type": "EF", "position": 649, "weight": 0.132573}, 
+                {"id": 26, "lemma": ".", "type": "SF", "position": 652, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "②", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "천황은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "법률이", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "정하는", "type": "", "begin": 5, "end": 7}, 
+                {"id": 4, "text": "바에", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "의하여", "type": "", "begin": 10, "end": 11}, 
+                {"id": 6, "text": "그", "type": "", "begin": 12, "end": 12}, 
+                {"id": 7, "text": "국사에", "type": "", "begin": 13, "end": 14}, 
+                {"id": 8, "text": "관한", "type": "", "begin": 15, "end": 17}, 
+                {"id": 9, "text": "행위를", "type": "", "begin": 18, "end": 19}, 
+                {"id": 10, "text": "위임할", "type": "", "begin": 20, "end": 22}, 
+                {"id": 11, "text": "수", "type": "", "begin": 23, "end": 23}, 
+                {"id": 12, "text": "있다.", "type": "", "begin": 24, "end": 26}
+            ], 
+            "NE": [
+                {"id": 0, "text": "천황", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.208159, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "②", "head": 12, "label": "NP", "mod": [], "weight": 0.352965}, 
+                {"id": 1, "text": "천황은", "head": 5, "label": "NP_SBJ", "mod": [], "weight": 0.625484}, 
+                {"id": 2, "text": "법률이", "head": 3, "label": "NP_SBJ", "mod": [], "weight": 0.76147}, 
+                {"id": 3, "text": "정하는", "head": 4, "label": "VP_MOD", "mod": [2], "weight": 0.765599}, 
+                {"id": 4, "text": "바에", "head": 5, "label": "NP_AJT", "mod": [3], "weight": 0.867389}, 
+                {"id": 5, "text": "의하여", "head": 10, "label": "VP", "mod": [1, 4], "weight": 0.76016}, 
+                {"id": 6, "text": "그", "head": 7, "label": "DP", "mod": [], "weight": 0.416515}, 
+                {"id": 7, "text": "국사에", "head": 8, "label": "NP_AJT", "mod": [6], "weight": 0.781052}, 
+                {"id": 8, "text": "관한", "head": 9, "label": "VP_MOD", "mod": [7], "weight": 0.819462}, 
+                {"id": 9, "text": "행위를", "head": 10, "label": "NP_OBJ", "mod": [8], "weight": 0.768133}, 
+                {"id": 10, "text": "위임할", "head": 11, "label": "VP_MOD", "mod": [5, 9], "weight": 0.749095}, 
+                {"id": 11, "text": "수", "head": 12, "label": "NP_SBJ", "mod": [10], "weight": 0.83706}, 
+                {"id": 12, "text": "있다.", "head": -1, "label": "VP", "mod": [11, 0], "weight": 0.00696118}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "②", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "천황은", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "법률이", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S_MOD", "text": "P#2@SBJ이 정하는", "begin": 2, "end": 3, "key_begin": 3, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "S#3@MOD는 바에", "begin": 2, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#0@NP② P#1@SBJ은 P#4@AJT에 의하여", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 9, "sub_phrase": [0, 1, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "그 국사에", "begin": 6, "end": 7, "key_begin": 6, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "VP_MOD", "text": "P#6@AJT에 관한", "begin": 6, "end": 8, "key_begin": 8, "head_phrase": 8, "sub_phrase": [6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_OBJ", "text": "P#7@MODㄴ 행위를", "begin": 6, "end": 9, "key_begin": 9, "head_phrase": 9, "sub_phrase": [7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S_MOD", "text": "S#5@S어 P#8@OBJ를 위임할", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": 10, "sub_phrase": [5, 8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "NP_SBJ", "text": "S#9@MODㄹ 수", "begin": 0, "end": 11, "key_begin": 11, "head_phrase": 11, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "S", "text": "P#10@SBJ수 있다.", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": -1, "sub_phrase": [10], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "정", "sense": 1, "word_id": 3, "weight": 0.476777, "argument": [
+                    {"type": "ARG0", "word_id": 2, "text": "법률", "weight": 0.476777, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "의하", "sense": 1, "word_id": 5, "weight": 0.563134, "argument": [
+                    {"type": "ARG2", "word_id": 4, "text": "바", "weight": 0.563134, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "관", "sense": 1, "word_id": 8, "weight": 0.450965, "argument": [
+                    {"type": "ARG2", "word_id": 7, "text": "그 국사", "weight": 0.299577, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 9, "text": "행위", "weight": 0.602354, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "위임", "sense": 1, "word_id": 10, "weight": 0.486295, "argument": [
+                    {"type": "ARGM-CAU", "word_id": 5, "text": "의하여", "weight": 0.27241, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 9, "text": "행위", "weight": 0.566801, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "AUX", "word_id": 12, "text": "있다.", "weight": 0.619674, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 10, "ant_sid": 9, "ant_wid": 1, "ant_is_title": 0, "weight": 0.665391}
+            ]
+        }, 
+        {
+            "id": 10, 
+            "text": "제5조 ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 653, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "5", "type": "SN", "position": 656, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 657, "weight": 0.208011}
+            ], 
+            "word": [
+                {"id": 0, "text": "제5조", "type": "", "begin": 0, "end": 2}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제5조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.627431, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제5조", "head": -1, "label": "NP", "mod": [], "weight": 0.840586}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제5조", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 11, 
+            "text": "황실전범이 정하는 바에 의하여 섭정을 둘 때는, 섭정은 천황의 이름으로 그 국사에 관한 행위를 행한다.", 
+            "morp": [
+                {"id": 0, "lemma": "황실", "type": "NNG", "position": 661, "weight": 0.430885}, 
+                {"id": 1, "lemma": "전범", "type": "NNG", "position": 667, "weight": 0.9}, 
+                {"id": 2, "lemma": "이", "type": "JKS", "position": 673, "weight": 0.0360723}, 
+                {"id": 3, "lemma": "정", "type": "NNG", "position": 677, "weight": 0.0910484}, 
+                {"id": 4, "lemma": "하", "type": "XSV", "position": 680, "weight": 0.0001}, 
+                {"id": 5, "lemma": "는", "type": "ETM", "position": 683, "weight": 0.238503}, 
+                {"id": 6, "lemma": "바", "type": "NNB", "position": 687, "weight": 0.216256}, 
+                {"id": 7, "lemma": "에", "type": "JKB", "position": 690, "weight": 0.135559}, 
+                {"id": 8, "lemma": "의하", "type": "VV", "position": 694, "weight": 0.9}, 
+                {"id": 9, "lemma": "어", "type": "EC", "position": 700, "weight": 0.41831}, 
+                {"id": 10, "lemma": "섭정", "type": "NNG", "position": 704, "weight": 0.9}, 
+                {"id": 11, "lemma": "을", "type": "JKO", "position": 710, "weight": 0.129611}, 
+                {"id": 12, "lemma": "두", "type": "VV", "position": 714, "weight": 0.192556}, 
+                {"id": 13, "lemma": "ㄹ", "type": "ETM", "position": 714, "weight": 0.300746}, 
+                {"id": 14, "lemma": "때", "type": "NNG", "position": 718, "weight": 0.656522}, 
+                {"id": 15, "lemma": "는", "type": "JX", "position": 721, "weight": 0.0287565}, 
+                {"id": 16, "lemma": ",", "type": "SP", "position": 724, "weight": 1}, 
+                {"id": 17, "lemma": "섭정", "type": "NNG", "position": 726, "weight": 0.9}, 
+                {"id": 18, "lemma": "은", "type": "JX", "position": 732, "weight": 0.0449928}, 
+                {"id": 19, "lemma": "천황", "type": "NNG", "position": 736, "weight": 0.9}, 
+                {"id": 20, "lemma": "의", "type": "JKG", "position": 742, "weight": 0.0694213}, 
+                {"id": 21, "lemma": "이름", "type": "NNG", "position": 746, "weight": 0.9}, 
+                {"id": 22, "lemma": "으로", "type": "JKB", "position": 752, "weight": 0.153406}, 
+                {"id": 23, "lemma": "그", "type": "MM", "position": 759, "weight": 0.0101525}, 
+                {"id": 24, "lemma": "국사", "type": "NNG", "position": 763, "weight": 0.731823}, 
+                {"id": 25, "lemma": "에", "type": "JKB", "position": 769, "weight": 0.153364}, 
+                {"id": 26, "lemma": "관", "type": "NNG", "position": 773, "weight": 0.130437}, 
+                {"id": 27, "lemma": "하", "type": "XSV", "position": 776, "weight": 0.0001}, 
+                {"id": 28, "lemma": "ㄴ", "type": "ETM", "position": 776, "weight": 0.392321}, 
+                {"id": 29, "lemma": "행위", "type": "NNG", "position": 780, "weight": 0.9}, 
+                {"id": 30, "lemma": "를", "type": "JKO", "position": 786, "weight": 0.137686}, 
+                {"id": 31, "lemma": "행하", "type": "VV", "position": 790, "weight": 0.773814}, 
+                {"id": 32, "lemma": "ㄴ다", "type": "EF", "position": 793, "weight": 0.0793196}, 
+                {"id": 33, "lemma": ".", "type": "SF", "position": 799, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "황실전범이", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "정하는", "type": "", "begin": 3, "end": 5}, 
+                {"id": 2, "text": "바에", "type": "", "begin": 6, "end": 7}, 
+                {"id": 3, "text": "의하여", "type": "", "begin": 8, "end": 9}, 
+                {"id": 4, "text": "섭정을", "type": "", "begin": 10, "end": 11}, 
+                {"id": 5, "text": "둘", "type": "", "begin": 12, "end": 13}, 
+                {"id": 6, "text": "때는,", "type": "", "begin": 14, "end": 16}, 
+                {"id": 7, "text": "섭정은", "type": "", "begin": 17, "end": 18}, 
+                {"id": 8, "text": "천황의", "type": "", "begin": 19, "end": 20}, 
+                {"id": 9, "text": "이름으로", "type": "", "begin": 21, "end": 22}, 
+                {"id": 10, "text": "그", "type": "", "begin": 23, "end": 23}, 
+                {"id": 11, "text": "국사에", "type": "", "begin": 24, "end": 25}, 
+                {"id": 12, "text": "관한", "type": "", "begin": 26, "end": 28}, 
+                {"id": 13, "text": "행위를", "type": "", "begin": 29, "end": 30}, 
+                {"id": 14, "text": "행한다.", "type": "", "begin": 31, "end": 33}
+            ], 
+            "NE": [
+                {"id": 0, "text": "천황", "type": "CV_POSITION", "begin": 19, "end": 19, "weight": 0.249965, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "황실전범이", "head": 1, "label": "NP_SBJ", "mod": [], "weight": 0.813248}, 
+                {"id": 1, "text": "정하는", "head": 2, "label": "VP_MOD", "mod": [0], "weight": 0.777376}, 
+                {"id": 2, "text": "바에", "head": 3, "label": "NP_AJT", "mod": [1], "weight": 0.836109}, 
+                {"id": 3, "text": "의하여", "head": 5, "label": "VP", "mod": [2], "weight": 0.780447}, 
+                {"id": 4, "text": "섭정을", "head": 5, "label": "NP_OBJ", "mod": [], "weight": 0.699093}, 
+                {"id": 5, "text": "둘", "head": 6, "label": "VP_MOD", "mod": [3, 4], "weight": 0.828373}, 
+                {"id": 6, "text": "때는,", "head": 14, "label": "NP_AJT", "mod": [5], "weight": 0.689518}, 
+                {"id": 7, "text": "섭정은", "head": 14, "label": "NP_SBJ", "mod": [], "weight": 0.632646}, 
+                {"id": 8, "text": "천황의", "head": 9, "label": "NP_MOD", "mod": [], "weight": 0.71384}, 
+                {"id": 9, "text": "이름으로", "head": 14, "label": "NP_AJT", "mod": [8], "weight": 0.830354}, 
+                {"id": 10, "text": "그", "head": 11, "label": "DP", "mod": [], "weight": 0.361702}, 
+                {"id": 11, "text": "국사에", "head": 12, "label": "NP_AJT", "mod": [10], "weight": 0.757323}, 
+                {"id": 12, "text": "관한", "head": 13, "label": "VP_MOD", "mod": [11], "weight": 0.823496}, 
+                {"id": 13, "text": "행위를", "head": 14, "label": "NP_OBJ", "mod": [12], "weight": 0.740417}, 
+                {"id": 14, "text": "행한다.", "head": -1, "label": "VP", "mod": [6, 7, 9, 13], "weight": 0.00812747}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "황실전범이", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S_MOD", "text": "P#0@SBJ이 정하는", "begin": 0, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "S#1@MOD는 바에", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP", "text": "P#2@AJT에 의하여", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 5, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "섭정을", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP_MOD", "text": "P#3@VP어 P#4@OBJ을 둘", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 6, "sub_phrase": [3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "P#5@MODㄹ 때는,", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 12, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_SBJ", "text": "섭정은", "begin": 7, "end": 7, "key_begin": 7, "head_phrase": 12, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_AJT", "text": "천황의 이름으로", "begin": 8, "end": 9, "key_begin": 8, "head_phrase": 12, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_AJT", "text": "그 국사에", "begin": 10, "end": 11, "key_begin": 10, "head_phrase": 10, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 10, "label": "VP_MOD", "text": "P#9@AJT에 관한", "begin": 10, "end": 12, "key_begin": 12, "head_phrase": 11, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "NP_OBJ", "text": "P#10@MODㄴ 행위를", "begin": 10, "end": 13, "key_begin": 13, "head_phrase": 12, "sub_phrase": [10], "weight": 0, "element": []}, 
+                {"id": 12, "label": "S", "text": "P#6@AJT는, P#7@SBJ은 P#8@AJT으로 P#11@OBJ를 행한다.", "begin": 0, "end": 14, "key_begin": 14, "head_phrase": -1, "sub_phrase": [6, 7, 8, 11], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "정", "sense": 1, "word_id": 1, "weight": 0.441008, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "황실전범", "weight": 0.441008, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "의하", "sense": 1, "word_id": 3, "weight": 0.446153, "argument": [
+                    {"type": "ARG2", "word_id": 2, "text": "바", "weight": 0.446153, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "두", "sense": 1, "word_id": 5, "weight": 0.342821, "argument": [
+                    {"type": "ARG1", "word_id": 4, "text": "섭정", "weight": 0.342821, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "관", "sense": 1, "word_id": 12, "weight": 0.392274, "argument": [
+                    {"type": "ARG2", "word_id": 11, "text": "그 국사", "weight": 0.300163, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 13, "text": "행위", "weight": 0.484385, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "행하", "sense": 1, "word_id": 14, "weight": 0.367733, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 6, "text": "때", "weight": 0.522508, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG0", "word_id": 7, "text": "섭정", "weight": 0.247614, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-PRD", "word_id": 9, "text": "천황의 이름", "weight": 0.113897, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 13, "text": "행위", "weight": 0.586914, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 12, 
+            "text": "이 경우에는 전조 제1항의 규정을 준용한다.", 
+            "morp": [
+                {"id": 0, "lemma": "이", "type": "MM", "position": 800, "weight": 0.0020222}, 
+                {"id": 1, "lemma": "경우", "type": "NNG", "position": 804, "weight": 0.737121}, 
+                {"id": 2, "lemma": "에", "type": "JKB", "position": 810, "weight": 0.153364}, 
+                {"id": 3, "lemma": "는", "type": "JX", "position": 813, "weight": 0.0387928}, 
+                {"id": 4, "lemma": "전조", "type": "NNG", "position": 817, "weight": 0.317424}, 
+                {"id": 5, "lemma": "제", "type": "XPN", "position": 824, "weight": 0.000343053}, 
+                {"id": 6, "lemma": "1", "type": "SN", "position": 827, "weight": 1}, 
+                {"id": 7, "lemma": "항", "type": "NNG", "position": 828, "weight": 0.0969824}, 
+                {"id": 8, "lemma": "의", "type": "JKG", "position": 831, "weight": 0.0694213}, 
+                {"id": 9, "lemma": "규정", "type": "NNG", "position": 835, "weight": 0.9}, 
+                {"id": 10, "lemma": "을", "type": "JKO", "position": 841, "weight": 0.129611}, 
+                {"id": 11, "lemma": "준용", "type": "NNG", "position": 845, "weight": 0.0985859}, 
+                {"id": 12, "lemma": "하", "type": "XSV", "position": 851, "weight": 0.0001}, 
+                {"id": 13, "lemma": "ㄴ다", "type": "EF", "position": 851, "weight": 0.0449045}, 
+                {"id": 14, "lemma": ".", "type": "SF", "position": 857, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "이", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "경우에는", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "전조", "type": "", "begin": 4, "end": 4}, 
+                {"id": 3, "text": "제1항의", "type": "", "begin": 5, "end": 8}, 
+                {"id": 4, "text": "규정을", "type": "", "begin": 9, "end": 10}, 
+                {"id": 5, "text": "준용한다.", "type": "", "begin": 11, "end": 14}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제1항", "type": "QT_ORDER", "begin": 5, "end": 7, "weight": 0.649024, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "이", "head": 1, "label": "DP", "mod": [], "weight": 0.680519}, 
+                {"id": 1, "text": "경우에는", "head": 5, "label": "NP_AJT", "mod": [0], "weight": 0.796187}, 
+                {"id": 2, "text": "전조", "head": 3, "label": "NP", "mod": [], "weight": 0.261742}, 
+                {"id": 3, "text": "제1항의", "head": 4, "label": "NP_MOD", "mod": [2], "weight": 0.622765}, 
+                {"id": 4, "text": "규정을", "head": 5, "label": "NP_OBJ", "mod": [3], "weight": 0.834956}, 
+                {"id": 5, "text": "준용한다.", "head": -1, "label": "VP", "mod": [1, 4], "weight": 0.0652766}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "이 경우에는", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "전조 제1항의 규정을", "begin": 2, "end": 4, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP", "text": "P#0@AJT는 P#1@OBJ을 준용한다.", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": -1, "sub_phrase": [0, 1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "준용", "sense": 1, "word_id": 5, "weight": 0.284159, "argument": [
+                    {"type": "ARGM-CND", "word_id": 1, "text": "이 경우", "weight": 0.268434, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 4, "text": "전조 제1항의 규정", "weight": 0.299883, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 5, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.989946}
+            ]
+        }, 
+        {
+            "id": 13, 
+            "text": "제6조 ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 858, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "6", "type": "SN", "position": 861, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 862, "weight": 0.208011}
+            ], 
+            "word": [
+                {"id": 0, "text": "제6조", "type": "", "begin": 0, "end": 2}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제6조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.618256, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제6조", "head": -1, "label": "NP", "mod": [], "weight": 0.840586}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제6조", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 14, 
+            "text": "① 천황은 국회의 지명에 의거하여 내각총리대신을 임명한다.", 
+            "morp": [
+                {"id": 0, "lemma": "①", "type": "SW", "position": 866, "weight": 1}, 
+                {"id": 1, "lemma": "천황", "type": "NNG", "position": 870, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 876, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "국회", "type": "NNG", "position": 880, "weight": 0.9}, 
+                {"id": 4, "lemma": "의", "type": "JKG", "position": 886, "weight": 0.0694213}, 
+                {"id": 5, "lemma": "지명", "type": "NNG", "position": 890, "weight": 0.7171}, 
+                {"id": 6, "lemma": "에", "type": "JKB", "position": 896, "weight": 0.153364}, 
+                {"id": 7, "lemma": "의거", "type": "NNG", "position": 900, "weight": 0.9}, 
+                {"id": 8, "lemma": "하", "type": "XSV", "position": 906, "weight": 0.0001}, 
+                {"id": 9, "lemma": "어", "type": "EC", "position": 909, "weight": 0.361326}, 
+                {"id": 10, "lemma": "내각", "type": "NNG", "position": 913, "weight": 0.9}, 
+                {"id": 11, "lemma": "총리", "type": "NNG", "position": 919, "weight": 0.9}, 
+                {"id": 12, "lemma": "대신", "type": "NNG", "position": 925, "weight": 0.18388}, 
+                {"id": 13, "lemma": "을", "type": "JKO", "position": 931, "weight": 0.129611}, 
+                {"id": 14, "lemma": "임명", "type": "NNG", "position": 935, "weight": 0.9}, 
+                {"id": 15, "lemma": "하", "type": "XSV", "position": 941, "weight": 0.0001}, 
+                {"id": 16, "lemma": "ㄴ다", "type": "EF", "position": 941, "weight": 0.0449045}, 
+                {"id": 17, "lemma": ".", "type": "SF", "position": 947, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "①", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "천황은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "국회의", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "지명에", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "의거하여", "type": "", "begin": 7, "end": 9}, 
+                {"id": 5, "text": "내각총리대신을", "type": "", "begin": 10, "end": 13}, 
+                {"id": 6, "text": "임명한다.", "type": "", "begin": 14, "end": 17}
+            ], 
+            "NE": [
+                {"id": 0, "text": "천황", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.31763, "common_noun": 0}, 
+                {"id": 1, "text": "국회", "type": "OGG_POLITICS", "begin": 3, "end": 3, "weight": 0.604338, "common_noun": 0}, 
+                {"id": 2, "text": "내각총리대신", "type": "CV_POSITION", "begin": 10, "end": 12, "weight": 0.563648, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "①", "head": 6, "label": "NP", "mod": [], "weight": 0.515758}, 
+                {"id": 1, "text": "천황은", "head": 4, "label": "NP_SBJ", "mod": [], "weight": 0.537527}, 
+                {"id": 2, "text": "국회의", "head": 3, "label": "NP_MOD", "mod": [], "weight": 0.673485}, 
+                {"id": 3, "text": "지명에", "head": 4, "label": "NP_AJT", "mod": [2], "weight": 0.741575}, 
+                {"id": 4, "text": "의거하여", "head": 6, "label": "VP", "mod": [1, 3], "weight": 0.753033}, 
+                {"id": 5, "text": "내각총리대신을", "head": 6, "label": "NP_OBJ", "mod": [], "weight": 0.724676}, 
+                {"id": 6, "text": "임명한다.", "head": -1, "label": "VP", "mod": [4, 5, 0], "weight": 0.0665544}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "①", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "천황은", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "국회의 지명에", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@NP① P#1@SBJ은 P#2@AJT에 의거하여", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "내각총리대신을", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "S#3@S어 P#4@OBJ을 임명한다.", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": -1, "sub_phrase": [3, 4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "의거", "sense": 1, "word_id": 4, "weight": 0.333832, "argument": [
+                    {"type": "ARG2", "word_id": 3, "text": "국회의 지명", "weight": 0.333832, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "임명", "sense": 1, "word_id": 6, "weight": 0.312326, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "천황", "weight": 0.425455, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-CND", "word_id": 4, "text": "의거하여", "weight": 0.125967, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 5, "text": "내각총리대신", "weight": 0.385555, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 6, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.846176}
+            ]
+        }, 
+        {
+            "id": 15, 
+            "text": "② 천황은 내각의 지명에 의거하여 최고재판소의 장인 재판관을 임명한다.", 
+            "morp": [
+                {"id": 0, "lemma": "②", "type": "SW", "position": 948, "weight": 1}, 
+                {"id": 1, "lemma": "천황", "type": "NNG", "position": 952, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 958, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "내각", "type": "NNG", "position": 962, "weight": 0.9}, 
+                {"id": 4, "lemma": "의", "type": "JKG", "position": 968, "weight": 0.0694213}, 
+                {"id": 5, "lemma": "지명", "type": "NNG", "position": 972, "weight": 0.7171}, 
+                {"id": 6, "lemma": "에", "type": "JKB", "position": 978, "weight": 0.153364}, 
+                {"id": 7, "lemma": "의거", "type": "NNG", "position": 982, "weight": 0.9}, 
+                {"id": 8, "lemma": "하", "type": "XSV", "position": 988, "weight": 0.0001}, 
+                {"id": 9, "lemma": "어", "type": "EC", "position": 991, "weight": 0.361326}, 
+                {"id": 10, "lemma": "최고", "type": "NNG", "position": 995, "weight": 0.9}, 
+                {"id": 11, "lemma": "재판", "type": "NNG", "position": 1001, "weight": 0.9}, 
+                {"id": 12, "lemma": "소", "type": "XSN", "position": 1007, "weight": 0.00141622}, 
+                {"id": 13, "lemma": "의", "type": "JKG", "position": 1010, "weight": 0.120732}, 
+                {"id": 14, "lemma": "장인", "type": "NNG", "position": 1014, "weight": 0.868864}, 
+                {"id": 15, "lemma": "재판", "type": "NNG", "position": 1021, "weight": 0.9}, 
+                {"id": 16, "lemma": "관", "type": "XSN", "position": 1027, "weight": 0.0123777}, 
+                {"id": 17, "lemma": "을", "type": "JKO", "position": 1030, "weight": 0.0819193}, 
+                {"id": 18, "lemma": "임명", "type": "NNG", "position": 1034, "weight": 0.9}, 
+                {"id": 19, "lemma": "하", "type": "XSV", "position": 1040, "weight": 0.0001}, 
+                {"id": 20, "lemma": "ㄴ다", "type": "EF", "position": 1040, "weight": 0.0449045}, 
+                {"id": 21, "lemma": ".", "type": "SF", "position": 1046, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "②", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "천황은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "내각의", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "지명에", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "의거하여", "type": "", "begin": 7, "end": 9}, 
+                {"id": 5, "text": "최고재판소의", "type": "", "begin": 10, "end": 13}, 
+                {"id": 6, "text": "장인", "type": "", "begin": 14, "end": 14}, 
+                {"id": 7, "text": "재판관을", "type": "", "begin": 15, "end": 17}, 
+                {"id": 8, "text": "임명한다.", "type": "", "begin": 18, "end": 21}
+            ], 
+            "NE": [
+                {"id": 0, "text": "천황", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.253864, "common_noun": 0}, 
+                {"id": 1, "text": "최고재판소", "type": "CV_LAW", "begin": 10, "end": 12, "weight": 0.372904, "common_noun": 0}, 
+                {"id": 2, "text": "장인", "type": "CV_RELATION", "begin": 14, "end": 14, "weight": 0.865328, "common_noun": 0}, 
+                {"id": 3, "text": "재판관", "type": "CV_POSITION", "begin": 15, "end": 16, "weight": 0.895616, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "②", "head": 8, "label": "NP", "mod": [], "weight": 0.72391}, 
+                {"id": 1, "text": "천황은", "head": 4, "label": "NP_SBJ", "mod": [], "weight": 0.585765}, 
+                {"id": 2, "text": "내각의", "head": 3, "label": "NP_MOD", "mod": [], "weight": 0.737952}, 
+                {"id": 3, "text": "지명에", "head": 4, "label": "NP_AJT", "mod": [2], "weight": 0.635624}, 
+                {"id": 4, "text": "의거하여", "head": 8, "label": "VP", "mod": [1, 3], "weight": 0.833005}, 
+                {"id": 5, "text": "최고재판소의", "head": 6, "label": "NP_MOD", "mod": [], "weight": 0.692749}, 
+                {"id": 6, "text": "장인", "head": 7, "label": "VNP_MOD", "mod": [5], "weight": 0.514404}, 
+                {"id": 7, "text": "재판관을", "head": 8, "label": "NP_OBJ", "mod": [6], "weight": 0.723917}, 
+                {"id": 8, "text": "임명한다.", "head": -1, "label": "VP", "mod": [4, 7, 0], "weight": 0.0377754}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "②", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "천황은", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "내각의 지명에", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@NP② P#1@SBJ은 P#2@AJT에 의거하여", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "최고재판소의 장인 재판관을", "begin": 5, "end": 7, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "S#3@S어 P#4@OBJ을 임명한다.", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": -1, "sub_phrase": [3, 4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "의거", "sense": 1, "word_id": 4, "weight": 0.315425, "argument": [
+                    {"type": "ARG2", "word_id": 3, "text": "내각의 지명", "weight": 0.315425, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "임명", "sense": 1, "word_id": 8, "weight": 0.35505, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "천황", "weight": 0.383613, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 7, "text": "최고재판소의 장인 재판관", "weight": 0.326487, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 8, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.821873}
+            ]
+        }, 
+        {
+            "id": 16, 
+            "text": "제7조 ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 1047, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "7", "type": "SN", "position": 1050, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 1051, "weight": 0.208011}
+            ], 
+            "word": [
+                {"id": 0, "text": "제7조", "type": "", "begin": 0, "end": 2}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제7조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.593594, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제7조", "head": -1, "label": "NP", "mod": [], "weight": 0.840586}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제7조", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 17, 
+            "text": "천황은 내각의 조언과 승인에 의하여, 국민을 위하여 아래의 국가에 관한 행사를 행한다.", 
+            "morp": [
+                {"id": 0, "lemma": "천황", "type": "NNG", "position": 1055, "weight": 0.9}, 
+                {"id": 1, "lemma": "은", "type": "JX", "position": 1061, "weight": 0.0449928}, 
+                {"id": 2, "lemma": "내각", "type": "NNG", "position": 1065, "weight": 0.9}, 
+                {"id": 3, "lemma": "의", "type": "JKG", "position": 1071, "weight": 0.0694213}, 
+                {"id": 4, "lemma": "조언", "type": "NNG", "position": 1075, "weight": 0.9}, 
+                {"id": 5, "lemma": "과", "type": "JC", "position": 1081, "weight": 0.017569}, 
+                {"id": 6, "lemma": "승인", "type": "NNG", "position": 1085, "weight": 0.9}, 
+                {"id": 7, "lemma": "에", "type": "JKB", "position": 1091, "weight": 0.153364}, 
+                {"id": 8, "lemma": "의하", "type": "VV", "position": 1095, "weight": 0.9}, 
+                {"id": 9, "lemma": "어", "type": "EC", "position": 1101, "weight": 0.41831}, 
+                {"id": 10, "lemma": ",", "type": "SP", "position": 1104, "weight": 1}, 
+                {"id": 11, "lemma": "국민", "type": "NNG", "position": 1106, "weight": 0.524861}, 
+                {"id": 12, "lemma": "을", "type": "JKO", "position": 1112, "weight": 0.129611}, 
+                {"id": 13, "lemma": "위하", "type": "VV", "position": 1116, "weight": 0.778555}, 
+                {"id": 14, "lemma": "어", "type": "EC", "position": 1122, "weight": 0.41831}, 
+                {"id": 15, "lemma": "아래", "type": "NNG", "position": 1126, "weight": 0.9}, 
+                {"id": 16, "lemma": "의", "type": "JKG", "position": 1132, "weight": 0.0694213}, 
+                {"id": 17, "lemma": "국가", "type": "NNG", "position": 1136, "weight": 0.87134}, 
+                {"id": 18, "lemma": "에", "type": "JKB", "position": 1142, "weight": 0.153364}, 
+                {"id": 19, "lemma": "관", "type": "NNG", "position": 1146, "weight": 0.130437}, 
+                {"id": 20, "lemma": "하", "type": "XSV", "position": 1149, "weight": 0.0001}, 
+                {"id": 21, "lemma": "ㄴ", "type": "ETM", "position": 1149, "weight": 0.392321}, 
+                {"id": 22, "lemma": "행사", "type": "NNG", "position": 1153, "weight": 0.658639}, 
+                {"id": 23, "lemma": "를", "type": "JKO", "position": 1159, "weight": 0.137686}, 
+                {"id": 24, "lemma": "행하", "type": "VV", "position": 1163, "weight": 0.773814}, 
+                {"id": 25, "lemma": "ㄴ다", "type": "EF", "position": 1166, "weight": 0.0793196}, 
+                {"id": 26, "lemma": ".", "type": "SF", "position": 1172, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "천황은", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "내각의", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "조언과", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "승인에", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "의하여,", "type": "", "begin": 8, "end": 10}, 
+                {"id": 5, "text": "국민을", "type": "", "begin": 11, "end": 12}, 
+                {"id": 6, "text": "위하여", "type": "", "begin": 13, "end": 14}, 
+                {"id": 7, "text": "아래의", "type": "", "begin": 15, "end": 16}, 
+                {"id": 8, "text": "국가에", "type": "", "begin": 17, "end": 18}, 
+                {"id": 9, "text": "관한", "type": "", "begin": 19, "end": 21}, 
+                {"id": 10, "text": "행사를", "type": "", "begin": 22, "end": 23}, 
+                {"id": 11, "text": "행한다.", "type": "", "begin": 24, "end": 26}
+            ], 
+            "NE": [
+                {"id": 0, "text": "천황", "type": "CV_POSITION", "begin": 0, "end": 0, "weight": 0.163035, "common_noun": 0}, 
+                {"id": 1, "text": "국민", "type": "CV_POSITION", "begin": 11, "end": 11, "weight": 0.270387, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "천황은", "head": 4, "label": "NP_SBJ", "mod": [], "weight": 0.561066}, 
+                {"id": 1, "text": "내각의", "head": 3, "label": "NP_MOD", "mod": [], "weight": 0.720522}, 
+                {"id": 2, "text": "조언과", "head": 3, "label": "NP_CNJ", "mod": [], "weight": 0.720087}, 
+                {"id": 3, "text": "승인에", "head": 4, "label": "NP_AJT", "mod": [1, 2], "weight": 0.766625}, 
+                {"id": 4, "text": "의하여,", "head": 6, "label": "VP", "mod": [0, 3], "weight": 0.647723}, 
+                {"id": 5, "text": "국민을", "head": 6, "label": "NP_OBJ", "mod": [], "weight": 0.77574}, 
+                {"id": 6, "text": "위하여", "head": 11, "label": "VP", "mod": [4, 5], "weight": 0.863533}, 
+                {"id": 7, "text": "아래의", "head": 10, "label": "NP_MOD", "mod": [], "weight": 0.2088}, 
+                {"id": 8, "text": "국가에", "head": 9, "label": "NP_AJT", "mod": [], "weight": 0.777468}, 
+                {"id": 9, "text": "관한", "head": 10, "label": "VP_MOD", "mod": [8], "weight": 0.823615}, 
+                {"id": 10, "text": "행사를", "head": 11, "label": "NP_OBJ", "mod": [9, 7], "weight": 0.73455}, 
+                {"id": 11, "text": "행한다.", "head": -1, "label": "VP", "mod": [6, 10], "weight": 0.0074375}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "천황은", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "내각의 조언과 승인에", "begin": 1, "end": 3, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ은 P#1@AJT에 의하여,", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_OBJ", "text": "국민을", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "S#2@S어, P#3@OBJ을 위하여", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 8, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "아래의 국가에", "begin": 7, "end": 8, "key_begin": 7, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "VP_MOD", "text": "P#5@AJT에 관한", "begin": 7, "end": 9, "key_begin": 9, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_OBJ", "text": "P#6@MODㄴ 행사를", "begin": 7, "end": 10, "key_begin": 10, "head_phrase": 8, "sub_phrase": [6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "S#4@S어 P#7@OBJ를 행한다.", "begin": 0, "end": 11, "key_begin": 11, "head_phrase": -1, "sub_phrase": [4, 7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "의하", "sense": 1, "word_id": 4, "weight": 0.372079, "argument": [
+                    {"type": "ARG1", "word_id": 0, "text": "천황", "weight": 0.20326, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG2", "word_id": 3, "text": "내각의 조언과 승인", "weight": 0.540898, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "위하", "sense": 1, "word_id": 6, "weight": 0.224287, "argument": [
+                    {"type": "ARG1", "word_id": 5, "text": "국민", "weight": 0.224287, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "관", "sense": 1, "word_id": 9, "weight": 0.427551, "argument": [
+                    {"type": "ARG2", "word_id": 8, "text": "아래의 국가", "weight": 0.280895, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 10, "text": "행사", "weight": 0.574207, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "행하", "sense": 1, "word_id": 11, "weight": 0.40097, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "천황", "weight": 0.367037, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-PRP", "word_id": 6, "text": "위하여", "weight": 0.265509, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 10, "text": "행사", "weight": 0.570365, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 6, "ant_sid": 17, "ant_wid": 0, "ant_is_title": 0, "weight": 0.701077}, 
+                {"id": 1, "type": "s", "head_wid": 11, "ant_sid": 17, "ant_wid": 0, "ant_is_title": 0, "weight": 0.493328}
+            ]
+        }, 
+        {
+            "id": 18, 
+            "text": "1 헌법 개정, 법률, 정령 및 조약을 공포하는 일.", 
+            "morp": [
+                {"id": 0, "lemma": "1", "type": "SN", "position": 1173, "weight": 1}, 
+                {"id": 1, "lemma": "헌법", "type": "NNG", "position": 1175, "weight": 0.9}, 
+                {"id": 2, "lemma": "개정", "type": "NNG", "position": 1182, "weight": 0.9}, 
+                {"id": 3, "lemma": ",", "type": "SP", "position": 1188, "weight": 1}, 
+                {"id": 4, "lemma": "법률", "type": "NNG", "position": 1190, "weight": 0.9}, 
+                {"id": 5, "lemma": ",", "type": "SP", "position": 1196, "weight": 1}, 
+                {"id": 6, "lemma": "정령", "type": "NNG", "position": 1198, "weight": 0.507436}, 
+                {"id": 7, "lemma": "및", "type": "MAJ", "position": 1205, "weight": 0.00215414}, 
+                {"id": 8, "lemma": "조약", "type": "NNG", "position": 1209, "weight": 0.9}, 
+                {"id": 9, "lemma": "을", "type": "JKO", "position": 1215, "weight": 0.129611}, 
+                {"id": 10, "lemma": "공포", "type": "NNG", "position": 1219, "weight": 0.101315}, 
+                {"id": 11, "lemma": "하", "type": "XSV", "position": 1225, "weight": 0.0001}, 
+                {"id": 12, "lemma": "는", "type": "ETM", "position": 1228, "weight": 0.238503}, 
+                {"id": 13, "lemma": "일", "type": "NNG", "position": 1232, "weight": 0.421798}, 
+                {"id": 14, "lemma": ".", "type": "SF", "position": 1235, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "1", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "헌법", "type": "", "begin": 1, "end": 1}, 
+                {"id": 2, "text": "개정,", "type": "", "begin": 2, "end": 3}, 
+                {"id": 3, "text": "법률,", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "정령", "type": "", "begin": 6, "end": 6}, 
+                {"id": 5, "text": "및", "type": "", "begin": 7, "end": 7}, 
+                {"id": 6, "text": "조약을", "type": "", "begin": 8, "end": 9}, 
+                {"id": 7, "text": "공포하는", "type": "", "begin": 10, "end": 12}, 
+                {"id": 8, "text": "일.", "type": "", "begin": 13, "end": 14}
+            ], 
+            "NE": [
+                {"id": 0, "text": "1", "type": "QT_ORDER", "begin": 0, "end": 0, "weight": 0.343809, "common_noun": 0}, 
+                {"id": 1, "text": "헌법", "type": "CV_LAW", "begin": 1, "end": 1, "weight": 0.595874, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "1", "head": 8, "label": "NP", "mod": [], "weight": 0.0651619}, 
+                {"id": 1, "text": "헌법", "head": 2, "label": "NP", "mod": [], "weight": 0.0764624}, 
+                {"id": 2, "text": "개정,", "head": 6, "label": "NP_CNJ", "mod": [1], "weight": 0.550126}, 
+                {"id": 3, "text": "법률,", "head": 6, "label": "NP_CNJ", "mod": [], "weight": 0.546721}, 
+                {"id": 4, "text": "정령", "head": 6, "label": "NP_CNJ", "mod": [], "weight": 0.459464}, 
+                {"id": 5, "text": "및", "head": 6, "label": "AP", "mod": [], "weight": 0.862432}, 
+                {"id": 6, "text": "조약을", "head": 7, "label": "NP_OBJ", "mod": [2, 3, 4, 5], "weight": 0.856902}, 
+                {"id": 7, "text": "공포하는", "head": 8, "label": "VP_MOD", "mod": [6], "weight": 0.828}, 
+                {"id": 8, "text": "일.", "head": -1, "label": "NP", "mod": [7, 0], "weight": 0.00034159}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "1", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "헌법 개정, 법률, 정령 및 조약을", "begin": 1, "end": 6, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "헌법 개정", "label": "NP_OBJ", "begin": 1, "end": 2, "ne_type": ""}, 
+                    {"text": "법률", "label": "NP_OBJ", "begin": 4, "end": 4, "ne_type": ""}, 
+                    {"text": "정령", "label": "NP_OBJ", "begin": 6, "end": 6, "ne_type": ""}, 
+                    {"text": "조약", "label": "NP_OBJ", "begin": 8, "end": 8, "ne_type": ""}
+                ]}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#0@AJT1 P#1@OBJ을 공포하는", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP", "text": "P#2@MOD는 일.", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": -1, "sub_phrase": [2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "공포", "sense": 1, "word_id": 7, "weight": 0.527186, "argument": [
+                    {"type": "ARG1", "word_id": 6, "text": "헌법 개정, 법률, 정령 및 조약", "weight": 0.527186, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 19, 
+            "text": "2 국회를 소집하는 일.", 
+            "morp": [
+                {"id": 0, "lemma": "2", "type": "SN", "position": 1236, "weight": 1}, 
+                {"id": 1, "lemma": "국회", "type": "NNG", "position": 1238, "weight": 0.9}, 
+                {"id": 2, "lemma": "를", "type": "JKO", "position": 1244, "weight": 0.137686}, 
+                {"id": 3, "lemma": "소집", "type": "NNG", "position": 1248, "weight": 0.9}, 
+                {"id": 4, "lemma": "하", "type": "XSV", "position": 1254, "weight": 0.0001}, 
+                {"id": 5, "lemma": "는", "type": "ETM", "position": 1257, "weight": 0.238503}, 
+                {"id": 6, "lemma": "일", "type": "NNG", "position": 1261, "weight": 0.421798}, 
+                {"id": 7, "lemma": ".", "type": "SF", "position": 1264, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "2", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "국회를", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "소집하는", "type": "", "begin": 3, "end": 5}, 
+                {"id": 3, "text": "일.", "type": "", "begin": 6, "end": 7}
+            ], 
+            "NE": [
+                {"id": 0, "text": "2", "type": "QT_ORDER", "begin": 0, "end": 0, "weight": 0.356398, "common_noun": 0}, 
+                {"id": 1, "text": "국회", "type": "OGG_POLITICS", "begin": 1, "end": 1, "weight": 0.668438, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "2", "head": 3, "label": "NP", "mod": [], "weight": 0.254993}, 
+                {"id": 1, "text": "국회를", "head": 2, "label": "NP_OBJ", "mod": [], "weight": 0.736224}, 
+                {"id": 2, "text": "소집하는", "head": 3, "label": "VP_MOD", "mod": [1], "weight": 0.823395}, 
+                {"id": 3, "text": "일.", "head": -1, "label": "NP", "mod": [2, 0], "weight": 0.126014}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_OBJ", "text": "2 국회를", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@OBJ를 소집하는", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP", "text": "P#1@MOD는 일.", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": -1, "sub_phrase": [1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "소집", "sense": 1, "word_id": 2, "weight": 0.274849, "argument": [
+                    {"type": "ARG1", "word_id": 1, "text": "2 국회", "weight": 0.274849, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 20, 
+            "text": "3 중의원을 해산하는 일.", 
+            "morp": [
+                {"id": 0, "lemma": "3", "type": "SN", "position": 1265, "weight": 1}, 
+                {"id": 1, "lemma": "중", "type": "NNG", "position": 1267, "weight": 0.0122838}, 
+                {"id": 2, "lemma": "의원", "type": "NNG", "position": 1270, "weight": 0.9}, 
+                {"id": 3, "lemma": "을", "type": "JKO", "position": 1276, "weight": 0.129611}, 
+                {"id": 4, "lemma": "해산", "type": "NNG", "position": 1280, "weight": 0.100263}, 
+                {"id": 5, "lemma": "하", "type": "XSV", "position": 1286, "weight": 0.0001}, 
+                {"id": 6, "lemma": "는", "type": "ETM", "position": 1289, "weight": 0.238503}, 
+                {"id": 7, "lemma": "일", "type": "NNG", "position": 1293, "weight": 0.421798}, 
+                {"id": 8, "lemma": ".", "type": "SF", "position": 1296, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "3", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "중의원을", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "해산하는", "type": "", "begin": 4, "end": 6}, 
+                {"id": 3, "text": "일.", "type": "", "begin": 7, "end": 8}
+            ], 
+            "NE": [
+                {"id": 0, "text": "3", "type": "QT_ORDER", "begin": 0, "end": 0, "weight": 0.427039, "common_noun": 0}, 
+                {"id": 1, "text": "중의원", "type": "CV_POSITION", "begin": 1, "end": 2, "weight": 0.571873, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "3", "head": 3, "label": "NP", "mod": [], "weight": 0.322665}, 
+                {"id": 1, "text": "중의원을", "head": 2, "label": "NP_OBJ", "mod": [], "weight": 0.777237}, 
+                {"id": 2, "text": "해산하는", "head": 3, "label": "VP_MOD", "mod": [1], "weight": 0.875011}, 
+                {"id": 3, "text": "일.", "head": -1, "label": "NP", "mod": [2, 0], "weight": 0.18338}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_OBJ", "text": "3 중의원을", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@OBJ을 해산하는", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP", "text": "P#1@MOD는 일.", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": -1, "sub_phrase": [1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "해산", "sense": 1, "word_id": 2, "weight": 0.234026, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "3 중의원", "weight": 0.234026, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 21, 
+            "text": "4 국회의원 총선거 시행을 공시하는 일.", 
+            "morp": [
+                {"id": 0, "lemma": "4", "type": "SN", "position": 1297, "weight": 1}, 
+                {"id": 1, "lemma": "국회", "type": "NNG", "position": 1299, "weight": 0.9}, 
+                {"id": 2, "lemma": "의원", "type": "NNG", "position": 1305, "weight": 0.9}, 
+                {"id": 3, "lemma": "총", "type": "XPN", "position": 1312, "weight": 0.00018715}, 
+                {"id": 4, "lemma": "선거", "type": "NNG", "position": 1315, "weight": 0.9}, 
+                {"id": 5, "lemma": "시행", "type": "NNG", "position": 1322, "weight": 0.9}, 
+                {"id": 6, "lemma": "을", "type": "JKO", "position": 1328, "weight": 0.129611}, 
+                {"id": 7, "lemma": "공시", "type": "NNG", "position": 1332, "weight": 0.9}, 
+                {"id": 8, "lemma": "하", "type": "XSV", "position": 1338, "weight": 0.0001}, 
+                {"id": 9, "lemma": "는", "type": "ETM", "position": 1341, "weight": 0.238503}, 
+                {"id": 10, "lemma": "일", "type": "NNG", "position": 1345, "weight": 0.421798}, 
+                {"id": 11, "lemma": ".", "type": "SF", "position": 1348, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "4", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "국회의원", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "총선거", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "시행을", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "공시하는", "type": "", "begin": 7, "end": 9}, 
+                {"id": 5, "text": "일.", "type": "", "begin": 10, "end": 11}
+            ], 
+            "NE": [
+                {"id": 0, "text": "4", "type": "QT_ORDER", "begin": 0, "end": 0, "weight": 0.307603, "common_noun": 0}, 
+                {"id": 1, "text": "국회의원", "type": "CV_POSITION", "begin": 1, "end": 2, "weight": 1, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "4", "head": 5, "label": "NP", "mod": [], "weight": 0.192185}, 
+                {"id": 1, "text": "국회의원", "head": 2, "label": "NP", "mod": [], "weight": 0.526657}, 
+                {"id": 2, "text": "총선거", "head": 3, "label": "NP", "mod": [1], "weight": 0.741238}, 
+                {"id": 3, "text": "시행을", "head": 4, "label": "NP_OBJ", "mod": [2], "weight": 0.848814}, 
+                {"id": 4, "text": "공시하는", "head": 5, "label": "VP_MOD", "mod": [3], "weight": 0.766242}, 
+                {"id": 5, "text": "일.", "head": -1, "label": "NP", "mod": [4, 0], "weight": 0.0396224}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "4", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "국회의원 총선거 시행을", "begin": 1, "end": 3, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#0@AJT4 P#1@OBJ을 공시하는", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP", "text": "P#2@MOD는 일.", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": -1, "sub_phrase": [2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "공시", "sense": 1, "word_id": 4, "weight": 0.362641, "argument": [
+                    {"type": "ARG1", "word_id": 3, "text": "국회의원 총선거 시행", "weight": 0.362641, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 22, 
+            "text": "5 국무대신 및 법률이 정하는 그 외 관리의 임면과 전권위임장 및 대사 및 공사의 신임장을 인증하는 일.", 
+            "morp": [
+                {"id": 0, "lemma": "5", "type": "SN", "position": 1349, "weight": 1}, 
+                {"id": 1, "lemma": "국무", "type": "NNG", "position": 1351, "weight": 0.9}, 
+                {"id": 2, "lemma": "대신", "type": "NNG", "position": 1357, "weight": 0.18388}, 
+                {"id": 3, "lemma": "및", "type": "MAJ", "position": 1364, "weight": 0.00215414}, 
+                {"id": 4, "lemma": "법률", "type": "NNG", "position": 1368, "weight": 0.9}, 
+                {"id": 5, "lemma": "이", "type": "JKS", "position": 1374, "weight": 0.0360723}, 
+                {"id": 6, "lemma": "정", "type": "NNG", "position": 1378, "weight": 0.0910484}, 
+                {"id": 7, "lemma": "하", "type": "XSV", "position": 1381, "weight": 0.0001}, 
+                {"id": 8, "lemma": "는", "type": "ETM", "position": 1384, "weight": 0.238503}, 
+                {"id": 9, "lemma": "그", "type": "MM", "position": 1388, "weight": 0.00782053}, 
+                {"id": 10, "lemma": "외", "type": "NNB", "position": 1392, "weight": 0.149991}, 
+                {"id": 11, "lemma": "관리", "type": "NNG", "position": 1396, "weight": 0.9}, 
+                {"id": 12, "lemma": "의", "type": "JKG", "position": 1402, "weight": 0.0694213}, 
+                {"id": 13, "lemma": "임면", "type": "NNG", "position": 1406, "weight": 0.9}, 
+                {"id": 14, "lemma": "과", "type": "JC", "position": 1412, "weight": 0.017569}, 
+                {"id": 15, "lemma": "전권", "type": "NNG", "position": 1416, "weight": 0.9}, 
+                {"id": 16, "lemma": "위임", "type": "NNG", "position": 1422, "weight": 0.9}, 
+                {"id": 17, "lemma": "장", "type": "XSN", "position": 1428, "weight": 0.0110513}, 
+                {"id": 18, "lemma": "및", "type": "MAJ", "position": 1432, "weight": 0.000850663}, 
+                {"id": 19, "lemma": "대사", "type": "NNG", "position": 1436, "weight": 0.9}, 
+                {"id": 20, "lemma": "및", "type": "MAJ", "position": 1443, "weight": 0.00215414}, 
+                {"id": 21, "lemma": "공사", "type": "NNG", "position": 1447, "weight": 0.413483}, 
+                {"id": 22, "lemma": "의", "type": "JKG", "position": 1453, "weight": 0.0694213}, 
+                {"id": 23, "lemma": "신임", "type": "NNG", "position": 1457, "weight": 0.9}, 
+                {"id": 24, "lemma": "장", "type": "XSN", "position": 1463, "weight": 0.0110513}, 
+                {"id": 25, "lemma": "을", "type": "JKO", "position": 1466, "weight": 0.0819193}, 
+                {"id": 26, "lemma": "인증", "type": "NNG", "position": 1470, "weight": 0.9}, 
+                {"id": 27, "lemma": "하", "type": "XSV", "position": 1476, "weight": 0.0001}, 
+                {"id": 28, "lemma": "는", "type": "ETM", "position": 1479, "weight": 0.238503}, 
+                {"id": 29, "lemma": "일", "type": "NNG", "position": 1483, "weight": 0.421798}, 
+                {"id": 30, "lemma": ".", "type": "SF", "position": 1486, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "5", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "국무대신", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "및", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "법률이", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "정하는", "type": "", "begin": 6, "end": 8}, 
+                {"id": 5, "text": "그", "type": "", "begin": 9, "end": 9}, 
+                {"id": 6, "text": "외", "type": "", "begin": 10, "end": 10}, 
+                {"id": 7, "text": "관리의", "type": "", "begin": 11, "end": 12}, 
+                {"id": 8, "text": "임면과", "type": "", "begin": 13, "end": 14}, 
+                {"id": 9, "text": "전권위임장", "type": "", "begin": 15, "end": 17}, 
+                {"id": 10, "text": "및", "type": "", "begin": 18, "end": 18}, 
+                {"id": 11, "text": "대사", "type": "", "begin": 19, "end": 19}, 
+                {"id": 12, "text": "및", "type": "", "begin": 20, "end": 20}, 
+                {"id": 13, "text": "공사의", "type": "", "begin": 21, "end": 22}, 
+                {"id": 14, "text": "신임장을", "type": "", "begin": 23, "end": 25}, 
+                {"id": 15, "text": "인증하는", "type": "", "begin": 26, "end": 28}, 
+                {"id": 16, "text": "일.", "type": "", "begin": 29, "end": 30}
+            ], 
+            "NE": [
+                {"id": 0, "text": "5", "type": "QT_ORDER", "begin": 0, "end": 0, "weight": 0.382912, "common_noun": 0}, 
+                {"id": 1, "text": "국무대신", "type": "CV_POSITION", "begin": 1, "end": 2, "weight": 0.780463, "common_noun": 0}, 
+                {"id": 2, "text": "대사", "type": "CV_POSITION", "begin": 19, "end": 19, "weight": 1, "common_noun": 0}, 
+                {"id": 3, "text": "신임장", "type": "CV_POSITION", "begin": 23, "end": 24, "weight": 0.452385, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "5", "head": 16, "label": "NP", "mod": [], "weight": 0.638374}, 
+                {"id": 1, "text": "국무대신", "head": 7, "label": "NP_CNJ", "mod": [], "weight": 0.340742}, 
+                {"id": 2, "text": "및", "head": 7, "label": "AP", "mod": [], "weight": 0.202042}, 
+                {"id": 3, "text": "법률이", "head": 4, "label": "NP_SBJ", "mod": [], "weight": 0.713046}, 
+                {"id": 4, "text": "정하는", "head": 7, "label": "VP_MOD", "mod": [3], "weight": 0.0966404}, 
+                {"id": 5, "text": "그", "head": 6, "label": "DP", "mod": [], "weight": 0.601433}, 
+                {"id": 6, "text": "외", "head": 7, "label": "NP_AJT", "mod": [5], "weight": 0.406437}, 
+                {"id": 7, "text": "관리의", "head": 8, "label": "NP_MOD", "mod": [4, 1, 2, 6], "weight": 0.741121}, 
+                {"id": 8, "text": "임면과", "head": 16, "label": "NP_CNJ", "mod": [7], "weight": 0.602837}, 
+                {"id": 9, "text": "전권위임장", "head": 14, "label": "NP_CNJ", "mod": [], "weight": 0.172172}, 
+                {"id": 10, "text": "및", "head": 14, "label": "AP", "mod": [], "weight": 0.53396}, 
+                {"id": 11, "text": "대사", "head": 13, "label": "NP_CNJ", "mod": [], "weight": 0.342644}, 
+                {"id": 12, "text": "및", "head": 13, "label": "AP", "mod": [], "weight": 0.114009}, 
+                {"id": 13, "text": "공사의", "head": 14, "label": "NP_MOD", "mod": [11, 12], "weight": 0.678951}, 
+                {"id": 14, "text": "신임장을", "head": 15, "label": "NP_OBJ", "mod": [9, 10, 13], "weight": 0.778461}, 
+                {"id": 15, "text": "인증하는", "head": 16, "label": "VP_MOD", "mod": [14], "weight": 0.869907}, 
+                {"id": 16, "text": "일.", "head": -1, "label": "NP", "mod": [0, 15, 8], "weight": 4.44784e-07}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "5", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "국무대신 및 법률이", "begin": 1, "end": 3, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "국무대신", "label": "NP_SBJ", "begin": 1, "end": 2, "ne_type": "CV_POSITION"}, 
+                    {"text": "법률", "label": "NP_SBJ", "begin": 4, "end": 4, "ne_type": ""}
+                ]}, 
+                {"id": 2, "label": "S_MOD", "text": "P#1@SBJ이 정하는", "begin": 1, "end": 4, "key_begin": 4, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "S#2@MOD는 그 외", "begin": 1, "end": 6, "key_begin": 5, "head_phrase": 5, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "관리의 임면과 전권위임장 및 대사 및 공사의 신임장을", "begin": 7, "end": 14, "key_begin": 7, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP_MOD", "text": "P#3@AJT외 P#4@OBJ을 인증하는", "begin": 1, "end": 15, "key_begin": 15, "head_phrase": 6, "sub_phrase": [3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP", "text": "P#0@NP5 P#5@MOD는 일.", "begin": 0, "end": 16, "key_begin": 16, "head_phrase": -1, "sub_phrase": [0, 5], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "정", "sense": 1, "word_id": 4, "weight": 0.337285, "argument": [
+                    {"type": "ARG0", "word_id": 3, "text": "국무대신 및 법률", "weight": 0.337285, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "인증", "sense": 1, "word_id": 15, "weight": 0.365801, "argument": [
+                    {"type": "ARGM-ADV", "word_id": 6, "text": "그 외", "weight": 0.1691, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 14, "text": "관리의 임면과 전권위임장 및 대사 및 공사의 신임장", "weight": 0.562502, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 23, 
+            "text": "6 대사(大赦), 특사, 감형, 형의 집행의 면제 및 복권을 인증하는 일.", 
+            "morp": [
+                {"id": 0, "lemma": "6", "type": "SN", "position": 1487, "weight": 1}, 
+                {"id": 1, "lemma": "대사", "type": "NNG", "position": 1489, "weight": 0.9}, 
+                {"id": 2, "lemma": "(", "type": "SS", "position": 1495, "weight": 1}, 
+                {"id": 3, "lemma": "大赦", "type": "SH", "position": 1496, "weight": 1}, 
+                {"id": 4, "lemma": ")", "type": "SS", "position": 1502, "weight": 1}, 
+                {"id": 5, "lemma": ",", "type": "SP", "position": 1503, "weight": 1}, 
+                {"id": 6, "lemma": "특사", "type": "NNG", "position": 1505, "weight": 0.9}, 
+                {"id": 7, "lemma": ",", "type": "SP", "position": 1511, "weight": 1}, 
+                {"id": 8, "lemma": "감형", "type": "NNG", "position": 1513, "weight": 0.9}, 
+                {"id": 9, "lemma": ",", "type": "SP", "position": 1519, "weight": 1}, 
+                {"id": 10, "lemma": "형", "type": "NNG", "position": 1521, "weight": 0.343941}, 
+                {"id": 11, "lemma": "의", "type": "JKG", "position": 1524, "weight": 0.0694213}, 
+                {"id": 12, "lemma": "집행", "type": "NNG", "position": 1528, "weight": 0.9}, 
+                {"id": 13, "lemma": "의", "type": "JKG", "position": 1534, "weight": 0.0694213}, 
+                {"id": 14, "lemma": "면제", "type": "NNG", "position": 1538, "weight": 0.9}, 
+                {"id": 15, "lemma": "및", "type": "MAJ", "position": 1545, "weight": 0.00215414}, 
+                {"id": 16, "lemma": "복권", "type": "NNG", "position": 1549, "weight": 0.9}, 
+                {"id": 17, "lemma": "을", "type": "JKO", "position": 1555, "weight": 0.129611}, 
+                {"id": 18, "lemma": "인증", "type": "NNG", "position": 1559, "weight": 0.9}, 
+                {"id": 19, "lemma": "하", "type": "XSV", "position": 1565, "weight": 0.0001}, 
+                {"id": 20, "lemma": "는", "type": "ETM", "position": 1568, "weight": 0.238503}, 
+                {"id": 21, "lemma": "일", "type": "NNG", "position": 1572, "weight": 0.421798}, 
+                {"id": 22, "lemma": ".", "type": "SF", "position": 1575, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "6", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대사(大赦),", "type": "", "begin": 1, "end": 5}, 
+                {"id": 2, "text": "특사,", "type": "", "begin": 6, "end": 7}, 
+                {"id": 3, "text": "감형,", "type": "", "begin": 8, "end": 9}, 
+                {"id": 4, "text": "형의", "type": "", "begin": 10, "end": 11}, 
+                {"id": 5, "text": "집행의", "type": "", "begin": 12, "end": 13}, 
+                {"id": 6, "text": "면제", "type": "", "begin": 14, "end": 14}, 
+                {"id": 7, "text": "및", "type": "", "begin": 15, "end": 15}, 
+                {"id": 8, "text": "복권을", "type": "", "begin": 16, "end": 17}, 
+                {"id": 9, "text": "인증하는", "type": "", "begin": 18, "end": 20}, 
+                {"id": 10, "text": "일.", "type": "", "begin": 21, "end": 22}
+            ], 
+            "NE": [
+                {"id": 0, "text": "6", "type": "QT_ORDER", "begin": 0, "end": 0, "weight": 0.576555, "common_noun": 0}, 
+                {"id": 1, "text": "대사", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.235174, "common_noun": 0}, 
+                {"id": 2, "text": "특사", "type": "CV_POSITION", "begin": 6, "end": 6, "weight": 0.255811, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "6", "head": 10, "label": "NP", "mod": [], "weight": 0.237349}, 
+                {"id": 1, "text": "대사(大赦),", "head": 8, "label": "NP_CNJ", "mod": [], "weight": 0.492384}, 
+                {"id": 2, "text": "특사,", "head": 8, "label": "NP_CNJ", "mod": [], "weight": 0.351791}, 
+                {"id": 3, "text": "감형,", "head": 8, "label": "NP_CNJ", "mod": [], "weight": 0.208297}, 
+                {"id": 4, "text": "형의", "head": 5, "label": "NP_MOD", "mod": [], "weight": 0.293012}, 
+                {"id": 5, "text": "집행의", "head": 6, "label": "NP_MOD", "mod": [4], "weight": 0.202766}, 
+                {"id": 6, "text": "면제", "head": 8, "label": "NP_CNJ", "mod": [5], "weight": 0.226628}, 
+                {"id": 7, "text": "및", "head": 8, "label": "AP", "mod": [], "weight": 0.815068}, 
+                {"id": 8, "text": "복권을", "head": 9, "label": "NP_OBJ", "mod": [1, 6, 7, 2, 3], "weight": 0.813375}, 
+                {"id": 9, "text": "인증하는", "head": 10, "label": "VP_MOD", "mod": [8], "weight": 0.849057}, 
+                {"id": 10, "text": "일.", "head": -1, "label": "NP", "mod": [9, 0], "weight": 5.28551e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_OBJ", "text": "6 대사(大赦), 특사, 감형, 형의 집행의 면제 및 복권을", "begin": 0, "end": 8, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "6 대사(大赦)", "label": "NP_OBJ", "begin": 0, "end": 4, "ne_type": ""}, 
+                    {"text": "특사, 감형, 형의 집행의 면제", "label": "NP_OBJ", "begin": 6, "end": 14, "ne_type": ""}, 
+                    {"text": "복권", "label": "NP_OBJ", "begin": 16, "end": 16, "ne_type": ""}
+                ]}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@OBJ을 인증하는", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP", "text": "P#1@MOD는 일.", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": -1, "sub_phrase": [1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "인증", "sense": 1, "word_id": 9, "weight": 0.243287, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "6 대사(大赦), 특사, 감형, 형의 집행의 면제 및 복권", "weight": 0.243287, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 24, 
+            "text": "7 영전을 수여하는 일.", 
+            "morp": [
+                {"id": 0, "lemma": "7", "type": "SN", "position": 1576, "weight": 1}, 
+                {"id": 1, "lemma": "영전", "type": "NNG", "position": 1578, "weight": 0.9}, 
+                {"id": 2, "lemma": "을", "type": "JKO", "position": 1584, "weight": 0.129611}, 
+                {"id": 3, "lemma": "수여", "type": "NNG", "position": 1588, "weight": 0.9}, 
+                {"id": 4, "lemma": "하", "type": "XSV", "position": 1594, "weight": 0.0001}, 
+                {"id": 5, "lemma": "는", "type": "ETM", "position": 1597, "weight": 0.238503}, 
+                {"id": 6, "lemma": "일", "type": "NNG", "position": 1601, "weight": 0.421798}, 
+                {"id": 7, "lemma": ".", "type": "SF", "position": 1604, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "7", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "영전을", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "수여하는", "type": "", "begin": 3, "end": 5}, 
+                {"id": 3, "text": "일.", "type": "", "begin": 6, "end": 7}
+            ], 
+            "NE": [
+                {"id": 0, "text": "7", "type": "QT_ORDER", "begin": 0, "end": 0, "weight": 0.332841, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "7", "head": 3, "label": "NP", "mod": [], "weight": 0.0732687}, 
+                {"id": 1, "text": "영전을", "head": 2, "label": "NP_OBJ", "mod": [], "weight": 0.858128}, 
+                {"id": 2, "text": "수여하는", "head": 3, "label": "VP_MOD", "mod": [1], "weight": 0.797227}, 
+                {"id": 3, "text": "일.", "head": -1, "label": "NP", "mod": [2, 0], "weight": 0.0410123}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_OBJ", "text": "7 영전을", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@OBJ을 수여하는", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP", "text": "P#1@MOD는 일.", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": -1, "sub_phrase": [1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "수여", "sense": 1, "word_id": 2, "weight": 0.206817, "argument": [
+                    {"type": "ARG1", "word_id": 1, "text": "7 영전", "weight": 0.206817, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 25, 
+            "text": "8 비준서 및 법률이 정하는 그 외 외교 문서를 인증하는 일.", 
+            "morp": [
+                {"id": 0, "lemma": "8", "type": "SN", "position": 1605, "weight": 1}, 
+                {"id": 1, "lemma": "비준", "type": "NNG", "position": 1607, "weight": 0.9}, 
+                {"id": 2, "lemma": "서", "type": "NNG", "position": 1613, "weight": 0.00374413}, 
+                {"id": 3, "lemma": "및", "type": "MAJ", "position": 1617, "weight": 0.00215414}, 
+                {"id": 4, "lemma": "법률", "type": "NNG", "position": 1621, "weight": 0.9}, 
+                {"id": 5, "lemma": "이", "type": "JKS", "position": 1627, "weight": 0.0360723}, 
+                {"id": 6, "lemma": "정", "type": "NNG", "position": 1631, "weight": 0.0910484}, 
+                {"id": 7, "lemma": "하", "type": "XSV", "position": 1634, "weight": 0.0001}, 
+                {"id": 8, "lemma": "는", "type": "ETM", "position": 1637, "weight": 0.238503}, 
+                {"id": 9, "lemma": "그", "type": "MM", "position": 1641, "weight": 0.00782053}, 
+                {"id": 10, "lemma": "외", "type": "NNB", "position": 1645, "weight": 0.149991}, 
+                {"id": 11, "lemma": "외교", "type": "NNG", "position": 1649, "weight": 0.9}, 
+                {"id": 12, "lemma": "문서", "type": "NNG", "position": 1656, "weight": 0.184505}, 
+                {"id": 13, "lemma": "를", "type": "JKO", "position": 1662, "weight": 0.137686}, 
+                {"id": 14, "lemma": "인증", "type": "NNG", "position": 1666, "weight": 0.9}, 
+                {"id": 15, "lemma": "하", "type": "XSV", "position": 1672, "weight": 0.0001}, 
+                {"id": 16, "lemma": "는", "type": "ETM", "position": 1675, "weight": 0.238503}, 
+                {"id": 17, "lemma": "일", "type": "NNG", "position": 1679, "weight": 0.421798}, 
+                {"id": 18, "lemma": ".", "type": "SF", "position": 1682, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "8", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "비준서", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "및", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "법률이", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "정하는", "type": "", "begin": 6, "end": 8}, 
+                {"id": 5, "text": "그", "type": "", "begin": 9, "end": 9}, 
+                {"id": 6, "text": "외", "type": "", "begin": 10, "end": 10}, 
+                {"id": 7, "text": "외교", "type": "", "begin": 11, "end": 11}, 
+                {"id": 8, "text": "문서를", "type": "", "begin": 12, "end": 13}, 
+                {"id": 9, "text": "인증하는", "type": "", "begin": 14, "end": 16}, 
+                {"id": 10, "text": "일.", "type": "", "begin": 17, "end": 18}
+            ], 
+            "NE": [
+                {"id": 0, "text": "8", "type": "QT_ORDER", "begin": 0, "end": 0, "weight": 0.540694, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "8", "head": 10, "label": "NP", "mod": [], "weight": 0.71611}, 
+                {"id": 1, "text": "비준서", "head": 8, "label": "NP_CNJ", "mod": [], "weight": 0.495377}, 
+                {"id": 2, "text": "및", "head": 8, "label": "AP", "mod": [], "weight": 0.061579}, 
+                {"id": 3, "text": "법률이", "head": 4, "label": "NP_SBJ", "mod": [], "weight": 0.72143}, 
+                {"id": 4, "text": "정하는", "head": 8, "label": "VP_MOD", "mod": [3], "weight": 0.754949}, 
+                {"id": 5, "text": "그", "head": 6, "label": "DP", "mod": [], "weight": 0.288327}, 
+                {"id": 6, "text": "외", "head": 8, "label": "NP", "mod": [5], "weight": 0.0422477}, 
+                {"id": 7, "text": "외교", "head": 8, "label": "NP", "mod": [], "weight": 0.851179}, 
+                {"id": 8, "text": "문서를", "head": 9, "label": "NP_OBJ", "mod": [4, 6, 7, 1, 2], "weight": 0.78043}, 
+                {"id": 9, "text": "인증하는", "head": 10, "label": "VP_MOD", "mod": [8], "weight": 0.793755}, 
+                {"id": 10, "text": "일.", "head": -1, "label": "NP", "mod": [0, 9], "weight": 6.17597e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "8", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "비준서 및 법률이", "begin": 1, "end": 3, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "비준서", "label": "NP_SBJ", "begin": 1, "end": 2, "ne_type": ""}, 
+                    {"text": "법률", "label": "NP_SBJ", "begin": 4, "end": 4, "ne_type": ""}
+                ]}, 
+                {"id": 2, "label": "S_MOD", "text": "P#1@SBJ이 정하는", "begin": 1, "end": 4, "key_begin": 4, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_OBJ", "text": "S#2@MOD는 그 외 외교 문서를", "begin": 1, "end": 8, "key_begin": 5, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#3@OBJ를 인증하는", "begin": 1, "end": 9, "key_begin": 9, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP", "text": "P#0@NP8 P#4@MOD는 일.", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": -1, "sub_phrase": [0, 4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "정", "sense": 1, "word_id": 4, "weight": 0.33512, "argument": [
+                    {"type": "ARG0", "word_id": 3, "text": "비준서 및 법률", "weight": 0.33512, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "인증", "sense": 1, "word_id": 9, "weight": 0.349372, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "그 외 외교 문서", "weight": 0.349372, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 26, 
+            "text": "9 외국의 대사 및 공사를 접수하는 일.", 
+            "morp": [
+                {"id": 0, "lemma": "9", "type": "SN", "position": 1683, "weight": 1}, 
+                {"id": 1, "lemma": "외국", "type": "NNG", "position": 1685, "weight": 0.9}, 
+                {"id": 2, "lemma": "의", "type": "JKG", "position": 1691, "weight": 0.0694213}, 
+                {"id": 3, "lemma": "대사", "type": "NNG", "position": 1695, "weight": 0.9}, 
+                {"id": 4, "lemma": "및", "type": "MAJ", "position": 1702, "weight": 0.00215414}, 
+                {"id": 5, "lemma": "공사", "type": "NNG", "position": 1706, "weight": 0.413483}, 
+                {"id": 6, "lemma": "를", "type": "JKO", "position": 1712, "weight": 0.137686}, 
+                {"id": 7, "lemma": "접수", "type": "NNG", "position": 1716, "weight": 0.9}, 
+                {"id": 8, "lemma": "하", "type": "XSV", "position": 1722, "weight": 0.0001}, 
+                {"id": 9, "lemma": "는", "type": "ETM", "position": 1725, "weight": 0.238503}, 
+                {"id": 10, "lemma": "일", "type": "NNG", "position": 1729, "weight": 0.421798}, 
+                {"id": 11, "lemma": ".", "type": "SF", "position": 1732, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "9", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "외국의", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "대사", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "및", "type": "", "begin": 4, "end": 4}, 
+                {"id": 4, "text": "공사를", "type": "", "begin": 5, "end": 6}, 
+                {"id": 5, "text": "접수하는", "type": "", "begin": 7, "end": 9}, 
+                {"id": 6, "text": "일.", "type": "", "begin": 10, "end": 11}
+            ], 
+            "NE": [
+                {"id": 0, "text": "9", "type": "QT_ORDER", "begin": 0, "end": 0, "weight": 0.373389, "common_noun": 0}, 
+                {"id": 1, "text": "대사", "type": "CV_POSITION", "begin": 3, "end": 3, "weight": 1, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "9", "head": 6, "label": "NP_AJT", "mod": [], "weight": 0.220439}, 
+                {"id": 1, "text": "외국의", "head": 4, "label": "NP_MOD", "mod": [], "weight": 0.00585005}, 
+                {"id": 2, "text": "대사", "head": 4, "label": "NP_CNJ", "mod": [], "weight": 0.218531}, 
+                {"id": 3, "text": "및", "head": 4, "label": "AP", "mod": [], "weight": 0.800071}, 
+                {"id": 4, "text": "공사를", "head": 5, "label": "NP_OBJ", "mod": [2, 3, 1], "weight": 0.740922}, 
+                {"id": 5, "text": "접수하는", "head": 6, "label": "VP_MOD", "mod": [4], "weight": 0.830495}, 
+                {"id": 6, "text": "일.", "head": -1, "label": "NP", "mod": [5, 0], "weight": 0.000110736}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "9", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "외국의 대사 및 공사를", "begin": 1, "end": 4, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "외국의 대사", "label": "NP_OBJ", "begin": 1, "end": 3, "ne_type": ""}, 
+                    {"text": "공사", "label": "NP_OBJ", "begin": 5, "end": 5, "ne_type": ""}
+                ]}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#0@AJT9 P#1@OBJ를 접수하는", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP", "text": "P#2@MOD는 일.", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": -1, "sub_phrase": [2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "접수", "sense": 1, "word_id": 5, "weight": 0.334159, "argument": [
+                    {"type": "ARG1", "word_id": 4, "text": "외국의 대사 및 공사", "weight": 0.334159, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 27, 
+            "text": "10 의식을 거행하는 일.", 
+            "morp": [
+                {"id": 0, "lemma": "10", "type": "SN", "position": 1733, "weight": 1}, 
+                {"id": 1, "lemma": "의식", "type": "NNG", "position": 1736, "weight": 0.100271}, 
+                {"id": 2, "lemma": "을", "type": "JKO", "position": 1742, "weight": 0.129611}, 
+                {"id": 3, "lemma": "거행", "type": "NNG", "position": 1746, "weight": 0.8}, 
+                {"id": 4, "lemma": "하", "type": "XSV", "position": 1752, "weight": 0.0001}, 
+                {"id": 5, "lemma": "는", "type": "ETM", "position": 1755, "weight": 0.238503}, 
+                {"id": 6, "lemma": "일", "type": "NNG", "position": 1759, "weight": 0.421798}, 
+                {"id": 7, "lemma": ".", "type": "SF", "position": 1762, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "10", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "의식을", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "거행하는", "type": "", "begin": 3, "end": 5}, 
+                {"id": 3, "text": "일.", "type": "", "begin": 6, "end": 7}
+            ], 
+            "NE": [
+                {"id": 0, "text": "10", "type": "QT_ORDER", "begin": 0, "end": 0, "weight": 0.308561, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "10", "head": 3, "label": "NP", "mod": [], "weight": 0.263589}, 
+                {"id": 1, "text": "의식을", "head": 2, "label": "NP_OBJ", "mod": [], "weight": 0.848833}, 
+                {"id": 2, "text": "거행하는", "head": 3, "label": "VP_MOD", "mod": [1], "weight": 0.828953}, 
+                {"id": 3, "text": "일.", "head": -1, "label": "NP", "mod": [2, 0], "weight": 0.152195}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_OBJ", "text": "10 의식을", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@OBJ을 거행하는", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP", "text": "P#1@MOD는 일.", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": -1, "sub_phrase": [1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "거행", "sense": 1, "word_id": 2, "weight": 0.31205, "argument": [
+                    {"type": "ARG1", "word_id": 1, "text": "10 의식", "weight": 0.31205, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 28, 
+            "text": "제8조 ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 1763, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "8", "type": "SN", "position": 1766, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 1767, "weight": 0.208011}
+            ], 
+            "word": [
+                {"id": 0, "text": "제8조", "type": "", "begin": 0, "end": 2}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제8조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.556018, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제8조", "head": -1, "label": "NP", "mod": [], "weight": 0.840586}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제8조", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 29, 
+            "text": "황실에 재산을 양도하거나, 또는 황실이 재산을 양도받거나 혹은 사여하는 것은 국회의 의결에 의거하여야 한다.", 
+            "morp": [
+                {"id": 0, "lemma": "황실", "type": "NNG", "position": 1771, "weight": 0.430885}, 
+                {"id": 1, "lemma": "에", "type": "JKB", "position": 1777, "weight": 0.153364}, 
+                {"id": 2, "lemma": "재산", "type": "NNG", "position": 1781, "weight": 0.9}, 
+                {"id": 3, "lemma": "을", "type": "JKO", "position": 1787, "weight": 0.129611}, 
+                {"id": 4, "lemma": "양도", "type": "NNG", "position": 1791, "weight": 0.9}, 
+                {"id": 5, "lemma": "하", "type": "XSV", "position": 1797, "weight": 0.0001}, 
+                {"id": 6, "lemma": "거나", "type": "EC", "position": 1800, "weight": 0.364324}, 
+                {"id": 7, "lemma": ",", "type": "SP", "position": 1806, "weight": 1}, 
+                {"id": 8, "lemma": "또는", "type": "MAJ", "position": 1808, "weight": 0.00654158}, 
+                {"id": 9, "lemma": "황실", "type": "NNG", "position": 1815, "weight": 0.407074}, 
+                {"id": 10, "lemma": "이", "type": "JKS", "position": 1821, "weight": 0.0360723}, 
+                {"id": 11, "lemma": "재산", "type": "NNG", "position": 1825, "weight": 0.9}, 
+                {"id": 12, "lemma": "을", "type": "JKO", "position": 1831, "weight": 0.129611}, 
+                {"id": 13, "lemma": "양도", "type": "NNG", "position": 1835, "weight": 0.9}, 
+                {"id": 14, "lemma": "받", "type": "VV", "position": 1841, "weight": 0.0147799}, 
+                {"id": 15, "lemma": "거나", "type": "EC", "position": 1844, "weight": 0.421781}, 
+                {"id": 16, "lemma": "혹은", "type": "MAJ", "position": 1851, "weight": 0.000558881}, 
+                {"id": 17, "lemma": "사여", "type": "NNG", "position": 1858, "weight": 0.25}, 
+                {"id": 18, "lemma": "하", "type": "XSV", "position": 1864, "weight": 0.0001}, 
+                {"id": 19, "lemma": "는", "type": "ETM", "position": 1867, "weight": 0.238503}, 
+                {"id": 20, "lemma": "것", "type": "NNB", "position": 1871, "weight": 0.228788}, 
+                {"id": 21, "lemma": "은", "type": "JX", "position": 1874, "weight": 0.0688243}, 
+                {"id": 22, "lemma": "국회", "type": "NNG", "position": 1878, "weight": 0.9}, 
+                {"id": 23, "lemma": "의", "type": "JKG", "position": 1884, "weight": 0.0694213}, 
+                {"id": 24, "lemma": "의결", "type": "NNG", "position": 1888, "weight": 0.9}, 
+                {"id": 25, "lemma": "에", "type": "JKB", "position": 1894, "weight": 0.153364}, 
+                {"id": 26, "lemma": "의거", "type": "NNG", "position": 1898, "weight": 0.9}, 
+                {"id": 27, "lemma": "하", "type": "XSV", "position": 1904, "weight": 0.0001}, 
+                {"id": 28, "lemma": "어야", "type": "EC", "position": 1907, "weight": 0.371703}, 
+                {"id": 29, "lemma": "하", "type": "VX", "position": 1914, "weight": 0.0899221}, 
+                {"id": 30, "lemma": "ㄴ다", "type": "EF", "position": 1914, "weight": 0.184394}, 
+                {"id": 31, "lemma": ".", "type": "SF", "position": 1920, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "황실에", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "재산을", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "양도하거나,", "type": "", "begin": 4, "end": 7}, 
+                {"id": 3, "text": "또는", "type": "", "begin": 8, "end": 8}, 
+                {"id": 4, "text": "황실이", "type": "", "begin": 9, "end": 10}, 
+                {"id": 5, "text": "재산을", "type": "", "begin": 11, "end": 12}, 
+                {"id": 6, "text": "양도받거나", "type": "", "begin": 13, "end": 15}, 
+                {"id": 7, "text": "혹은", "type": "", "begin": 16, "end": 16}, 
+                {"id": 8, "text": "사여하는", "type": "", "begin": 17, "end": 19}, 
+                {"id": 9, "text": "것은", "type": "", "begin": 20, "end": 21}, 
+                {"id": 10, "text": "국회의", "type": "", "begin": 22, "end": 23}, 
+                {"id": 11, "text": "의결에", "type": "", "begin": 24, "end": 25}, 
+                {"id": 12, "text": "의거하여야", "type": "", "begin": 26, "end": 28}, 
+                {"id": 13, "text": "한다.", "type": "", "begin": 29, "end": 31}
+            ], 
+            "NE": [
+                {"id": 0, "text": "국회", "type": "OGG_POLITICS", "begin": 22, "end": 22, "weight": 0.644803, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "황실에", "head": 2, "label": "NP_AJT", "mod": [], "weight": 0.722018}, 
+                {"id": 1, "text": "재산을", "head": 2, "label": "NP_OBJ", "mod": [], "weight": 0.764571}, 
+                {"id": 2, "text": "양도하거나,", "head": 6, "label": "VP", "mod": [0, 1], "weight": 0.82497}, 
+                {"id": 3, "text": "또는", "head": 6, "label": "AP", "mod": [], "weight": 0.054413}, 
+                {"id": 4, "text": "황실이", "head": 6, "label": "NP_SBJ", "mod": [], "weight": 0.801204}, 
+                {"id": 5, "text": "재산을", "head": 6, "label": "NP_OBJ", "mod": [], "weight": 0.788795}, 
+                {"id": 6, "text": "양도받거나", "head": 8, "label": "VP", "mod": [2, 3, 4, 5], "weight": 0.800599}, 
+                {"id": 7, "text": "혹은", "head": 8, "label": "AP", "mod": [], "weight": 0.342067}, 
+                {"id": 8, "text": "사여하는", "head": 9, "label": "VP_MOD", "mod": [6, 7], "weight": 0.787446}, 
+                {"id": 9, "text": "것은", "head": 12, "label": "NP_SBJ", "mod": [8], "weight": 0.0767266}, 
+                {"id": 10, "text": "국회의", "head": 11, "label": "NP_MOD", "mod": [], "weight": 0.651238}, 
+                {"id": 11, "text": "의결에", "head": 12, "label": "NP_AJT", "mod": [10], "weight": 0.755962}, 
+                {"id": 12, "text": "의거하여야", "head": 13, "label": "VP", "mod": [9, 11], "weight": 0.771197}, 
+                {"id": 13, "text": "한다.", "head": -1, "label": "VP", "mod": [12], "weight": 8.13364e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "황실에", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "재산을", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP", "text": "P#0@AJT에 P#1@OBJ을 양도하거나,", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 6, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "AP", "text": "또는", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "황실이", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_OBJ", "text": "재산을", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S", "text": "P#2@VP거나, P#3@AP또는 P#4@SBJ이 P#5@OBJ을 양도받거나", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 8, "sub_phrase": [2, 3, 4, 5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "AP", "text": "혹은", "begin": 7, "end": 7, "key_begin": 7, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S_MOD", "text": "S#6@S거나 P#7@AP혹은 사여하는", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": 9, "sub_phrase": [6, 7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_SBJ", "text": "S#8@MOD는 것은", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 11, "sub_phrase": [8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "NP_AJT", "text": "국회의 의결에", "begin": 10, "end": 11, "key_begin": 10, "head_phrase": 11, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 11, "label": "S", "text": "P#9@SBJ은 P#10@AJT에 의거하여야 한다.", "begin": 0, "end": 13, "key_begin": 12, "head_phrase": -1, "sub_phrase": [9, 10], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "양도", "sense": 1, "word_id": 2, "weight": 0.331301, "argument": [
+                    {"type": "ARG2", "word_id": 0, "text": "황실", "weight": 0.20451, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 1, "text": "재산", "weight": 0.458092, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "양도", "sense": 1, "word_id": 6, "weight": 0.344844, "argument": [
+                    {"type": "ARG1", "word_id": 4, "text": "황실", "weight": 0.20639, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 5, "text": "재산", "weight": 0.483298, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "의거", "sense": 1, "word_id": 12, "weight": 0.48263, "argument": [
+                    {"type": "ARG2", "word_id": 11, "text": "국회의 의결", "weight": 0.305437, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "AUX", "word_id": 13, "text": "의거하여야 한다.", "weight": 0.659824, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 2, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.99885}
+            ]
+        }
+    ], 
+    "entity": []
+}

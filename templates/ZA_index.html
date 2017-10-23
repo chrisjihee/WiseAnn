@@ -39,7 +39,7 @@
             <div class="progress" style="height:40px">
                 {% if progress >= 1.0 %}
                     <div class="progress-bar" style="width:{{ progress }}%; padding:13px">
-                        <b class="progress-msg">{{ progress }}%</b>
+                        <b class="progress-msg">{{ progress|floatformat:1 }}%</b>
                         {% if progress >= 4.0 %}<b class="progress-msg">완료</b>{% endif %}
                     </div>
                 {% else %}
@@ -52,7 +52,7 @@
     </div>
 
     <div class="panel panel-warning" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:20px">
-        <div class="panel-heading" style="padding:10px; font-size:11pt">Annotation 필요 문서</div>
+        <div class="panel-heading" style="padding:10px; font-size:11pt">Annotation 필요 문서 ({{ texts_yet_finished|length }})</div>
         <div class="panel-body" style="padding-top:2px; padding-bottom:10px">
             {% for x in texts_yet_finished %}
                 <div class="col-md-1" style="width:33.3%; height:30px; font-size:10pt; padding:0">
@@ -65,10 +65,10 @@
     </div>
 
     <div class="panel panel-success" style="width:980px; margin-left:auto; margin-right:auto; margin-bottom:90px">
-        <div class="panel-heading" style="padding:10px; font-size:11pt">Annotation 완료 문서</div>
+        <div class="panel-heading" style="padding:10px; font-size:11pt">Annotation 완료 문서 ({{ texts_yes_finished|length }})</div>
         <div class="panel-body" style="padding-top:2px; padding-bottom:10px">
             {% for x in texts_yes_finished %}
-                <div class="col-md-1" style="width:20%; height:30px; font-size:10pt; padding:0">
+                <div class="col-md-1" style="width:33.3%; height:30px; font-size:10pt; padding:0">
                     <a href="/ZA/{{ x.name }}">{{ x.label }}</a>
                 </div>
             {% empty %}

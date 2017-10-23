@@ -1,0 +1,1892 @@
+{
+    "title": {
+        "text": "청와대 앞에 선 세월호 유가족 \"꿈을 꾸고 있는 것 같다\".", 
+        "NE": ""
+    }, 
+    "metaInfo": {
+        "field": "뉴스3", 
+        "num_sent": 18, 
+        "num_word": 231
+    }, 
+    "sentence": [
+        {
+            "id": 0, 
+            "text": "청와대 앞에 선 세월호 유가족 \"꿈을 꾸고 있는 것 같다\".", 
+            "morp": [
+                {"id": 0, "lemma": "청와대", "type": "NNP", "position": 0, "weight": 0.0891232}, 
+                {"id": 1, "lemma": "앞", "type": "NNG", "position": 10, "weight": 0.9}, 
+                {"id": 2, "lemma": "에", "type": "JKB", "position": 13, "weight": 0.153364}, 
+                {"id": 3, "lemma": "서", "type": "VV", "position": 17, "weight": 0.180204}, 
+                {"id": 4, "lemma": "ㄴ", "type": "ETM", "position": 17, "weight": 0.304215}, 
+                {"id": 5, "lemma": "세월", "type": "NNG", "position": 21, "weight": 0.658493}, 
+                {"id": 6, "lemma": "호", "type": "NNB", "position": 27, "weight": 0.00820732}, 
+                {"id": 7, "lemma": "유", "type": "XPN", "position": 31, "weight": 0.0001}, 
+                {"id": 8, "lemma": "가족", "type": "NNG", "position": 34, "weight": 0.9}, 
+                {"id": 9, "lemma": "\"", "type": "SS", "position": 41, "weight": 1}, 
+                {"id": 10, "lemma": "꿈", "type": "NNG", "position": 42, "weight": 0.199806}, 
+                {"id": 11, "lemma": "을", "type": "JKO", "position": 45, "weight": 0.129611}, 
+                {"id": 12, "lemma": "꾸", "type": "VV", "position": 49, "weight": 0.768042}, 
+                {"id": 13, "lemma": "고", "type": "EC", "position": 52, "weight": 0.416679}, 
+                {"id": 14, "lemma": "있", "type": "VX", "position": 56, "weight": 0.125953}, 
+                {"id": 15, "lemma": "는", "type": "ETM", "position": 59, "weight": 0.183966}, 
+                {"id": 16, "lemma": "것", "type": "NNB", "position": 63, "weight": 0.228788}, 
+                {"id": 17, "lemma": "같", "type": "VA", "position": 67, "weight": 0.101272}, 
+                {"id": 18, "lemma": "다", "type": "EF", "position": 70, "weight": 0.132573}, 
+                {"id": 19, "lemma": "\"", "type": "SS", "position": 73, "weight": 1}, 
+                {"id": 20, "lemma": ".", "type": "SF", "position": 74, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "청와대", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "앞에", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "선", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "세월호", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "유가족", "type": "", "begin": 7, "end": 8}, 
+                {"id": 5, "text": "\"꿈을", "type": "", "begin": 9, "end": 11}, 
+                {"id": 6, "text": "꾸고", "type": "", "begin": 12, "end": 13}, 
+                {"id": 7, "text": "있는", "type": "", "begin": 14, "end": 15}, 
+                {"id": 8, "text": "것", "type": "", "begin": 16, "end": 16}, 
+                {"id": 9, "text": "같다\".", "type": "", "begin": 17, "end": 20}
+            ], 
+            "NE": [
+                {"id": 0, "text": "청와대", "type": "OGG_POLITICS", "begin": 0, "end": 0, "weight": 0.537576, "common_noun": 0}, 
+                {"id": 1, "text": "세월호", "type": "AF_TRANSPORT", "begin": 5, "end": 6, "weight": 0.214673, "common_noun": 0}, 
+                {"id": 2, "text": "유가족", "type": "CV_RELATION", "begin": 7, "end": 8, "weight": 0.657302, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "청와대", "head": 1, "label": "NP", "mod": [], "weight": 0.753962}, 
+                {"id": 1, "text": "앞에", "head": 2, "label": "NP_AJT", "mod": [0], "weight": 0.717488}, 
+                {"id": 2, "text": "선", "head": 5, "label": "VP_MOD", "mod": [1], "weight": 0.254505}, 
+                {"id": 3, "text": "세월호", "head": 4, "label": "NP", "mod": [], "weight": 0.522527}, 
+                {"id": 4, "text": "유가족", "head": 5, "label": "NP", "mod": [3], "weight": 0.0518755}, 
+                {"id": 5, "text": "\"꿈을", "head": 6, "label": "NP_OBJ", "mod": [2, 4], "weight": 0.315332}, 
+                {"id": 6, "text": "꾸고", "head": 7, "label": "VP", "mod": [5], "weight": 0.801005}, 
+                {"id": 7, "text": "있는", "head": 8, "label": "VP_MOD", "mod": [6], "weight": 0.802946}, 
+                {"id": 8, "text": "것", "head": 9, "label": "NP", "mod": [7], "weight": 0.556197}, 
+                {"id": 9, "text": "같다\".", "head": -1, "label": "VP", "mod": [8], "weight": 0.000120458}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "청와대 앞에", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@AJT에 선", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP", "text": "P#1@MODㄴ 세월호 유가족 \"꿈을 꾸고 있는 것 같다\".", "begin": 0, "end": 9, "key_begin": 3, "head_phrase": -1, "sub_phrase": [1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "서", "sense": 1, "word_id": 2, "weight": 0.266764, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 1, "text": "청와대 앞", "weight": 0.200003}, 
+                    {"type": "ARG0", "word_id": 5, "text": "\"꿈", "weight": 0.333526}
+                ]}, 
+                {"verb": "꾸", "sense": 1, "word_id": 6, "weight": 0.449453, "argument": [
+                    {"type": "ARG1", "word_id": 5, "text": "\"꿈", "weight": 0.241607}, 
+                    {"type": "AUX", "word_id": 7, "text": "있는", "weight": 0.657299}
+                ]}, 
+                {"verb": "같", "sense": 1, "word_id": 9, "weight": 0, "argument": []}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 6, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.981824}
+            ]
+        }, 
+        {
+            "id": 1, 
+            "text": "세월호 유가족에게 새 정부 출범을 실감케 하는 사진이 공개됐다.", 
+            "morp": [
+                {"id": 0, "lemma": "세월호", "type": "NNP", "position": 75, "weight": 0.6}, 
+                {"id": 1, "lemma": "유", "type": "XPN", "position": 85, "weight": 0.0001}, 
+                {"id": 2, "lemma": "가족", "type": "NNG", "position": 88, "weight": 0.9}, 
+                {"id": 3, "lemma": "에게", "type": "JKB", "position": 94, "weight": 0.153356}, 
+                {"id": 4, "lemma": "새", "type": "MM", "position": 101, "weight": 0.00897637}, 
+                {"id": 5, "lemma": "정부", "type": "NNG", "position": 105, "weight": 0.737349}, 
+                {"id": 6, "lemma": "출범", "type": "NNG", "position": 112, "weight": 0.9}, 
+                {"id": 7, "lemma": "을", "type": "JKO", "position": 118, "weight": 0.129611}, 
+                {"id": 8, "lemma": "실감", "type": "NNG", "position": 122, "weight": 0.9}, 
+                {"id": 9, "lemma": "하", "type": "XSV", "position": 128, "weight": 0.0001}, 
+                {"id": 10, "lemma": "게", "type": "EC", "position": 128, "weight": 0.369675}, 
+                {"id": 11, "lemma": "하", "type": "VX", "position": 132, "weight": 0.0899221}, 
+                {"id": 12, "lemma": "는", "type": "ETM", "position": 135, "weight": 0.183966}, 
+                {"id": 13, "lemma": "사진", "type": "NNG", "position": 139, "weight": 0.6585}, 
+                {"id": 14, "lemma": "이", "type": "JKS", "position": 145, "weight": 0.0360723}, 
+                {"id": 15, "lemma": "공개", "type": "NNG", "position": 149, "weight": 0.9}, 
+                {"id": 16, "lemma": "되", "type": "XSV", "position": 155, "weight": 0.000224177}, 
+                {"id": 17, "lemma": "었", "type": "EP", "position": 155, "weight": 0.9}, 
+                {"id": 18, "lemma": "다", "type": "EF", "position": 158, "weight": 0.640954}, 
+                {"id": 19, "lemma": ".", "type": "SF", "position": 161, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "세월호", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "유가족에게", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "새", "type": "", "begin": 4, "end": 4}, 
+                {"id": 3, "text": "정부", "type": "", "begin": 5, "end": 5}, 
+                {"id": 4, "text": "출범을", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "실감케", "type": "", "begin": 8, "end": 10}, 
+                {"id": 6, "text": "하는", "type": "", "begin": 11, "end": 12}, 
+                {"id": 7, "text": "사진이", "type": "", "begin": 13, "end": 14}, 
+                {"id": 8, "text": "공개됐다.", "type": "", "begin": 15, "end": 19}
+            ], 
+            "NE": [
+                {"id": 0, "text": "세월호", "type": "AF_TRANSPORT", "begin": 0, "end": 0, "weight": 0.144608, "common_noun": 0}, 
+                {"id": 1, "text": "유가족", "type": "CV_RELATION", "begin": 1, "end": 2, "weight": 0.345476, "common_noun": 0}, 
+                {"id": 2, "text": "정부", "type": "OGG_POLITICS", "begin": 5, "end": 5, "weight": 0.372247, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "세월호", "head": 1, "label": "NP", "mod": [], "weight": 0.671181}, 
+                {"id": 1, "text": "유가족에게", "head": 5, "label": "NP_AJT", "mod": [0], "weight": 0.16826}, 
+                {"id": 2, "text": "새", "head": 3, "label": "DP", "mod": [], "weight": 0.30732}, 
+                {"id": 3, "text": "정부", "head": 4, "label": "NP", "mod": [2], "weight": 0.756468}, 
+                {"id": 4, "text": "출범을", "head": 5, "label": "NP_OBJ", "mod": [3], "weight": 0.579482}, 
+                {"id": 5, "text": "실감케", "head": 6, "label": "VP", "mod": [1, 4], "weight": 0.573845}, 
+                {"id": 6, "text": "하는", "head": 7, "label": "VP_MOD", "mod": [5], "weight": 0.566761}, 
+                {"id": 7, "text": "사진이", "head": 8, "label": "NP_SBJ", "mod": [6], "weight": 0.6754}, 
+                {"id": 8, "text": "공개됐다.", "head": -1, "label": "VP", "mod": [7], "weight": 0.00276965}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "세월호 유가족에게", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "새 정부 출범을", "begin": 2, "end": 4, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#0@AJT에게 P#1@OBJ을 실감케 하는", "begin": 0, "end": 6, "key_begin": 5, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "P#2@MOD는 사진이", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "P#3@SBJ이 공개됐다.", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": -1, "sub_phrase": [3], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "실감", "sense": 1, "word_id": 5, "weight": 0.287549, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "세월호 유가족", "weight": 0.198542}, 
+                    {"type": "ARG1", "word_id": 4, "text": "새 정부 출범", "weight": 0.293829}, 
+                    {"type": "AUX", "word_id": 6, "text": "실감케 하는", "weight": 0.391157}, 
+                    {"type": "ARG0", "word_id": 7, "text": "사진", "weight": 0.266666}
+                ]}, 
+                {"verb": "공개", "sense": 1, "word_id": 8, "weight": 0.409142, "argument": [
+                    {"type": "ARG1", "word_id": 7, "text": "사진", "weight": 0.409142}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 2, 
+            "text": " 참사 직후인 2014년 5월 초부터 금지된 구역이었던 청와대 앞이 유가족들에게 열린 것이다.", 
+            "morp": [
+                {"id": 0, "lemma": "참사", "type": "NNG", "position": 163, "weight": 0.9}, 
+                {"id": 1, "lemma": "직후", "type": "NNG", "position": 170, "weight": 0.9}, 
+                {"id": 2, "lemma": "이", "type": "VCP", "position": 176, "weight": 0.0177525}, 
+                {"id": 3, "lemma": "ㄴ", "type": "ETM", "position": 176, "weight": 0.220712}, 
+                {"id": 4, "lemma": "2014", "type": "SN", "position": 180, "weight": 1}, 
+                {"id": 5, "lemma": "년", "type": "NNB", "position": 184, "weight": 0.414343}, 
+                {"id": 6, "lemma": "5", "type": "SN", "position": 188, "weight": 1}, 
+                {"id": 7, "lemma": "월", "type": "NNB", "position": 189, "weight": 0.408539}, 
+                {"id": 8, "lemma": "초", "type": "NNB", "position": 193, "weight": 0.00733198}, 
+                {"id": 9, "lemma": "부터", "type": "JX", "position": 196, "weight": 0.105319}, 
+                {"id": 10, "lemma": "금지", "type": "NNG", "position": 203, "weight": 0.324565}, 
+                {"id": 11, "lemma": "되", "type": "XSV", "position": 209, "weight": 0.000224177}, 
+                {"id": 12, "lemma": "ㄴ", "type": "ETM", "position": 209, "weight": 0.392321}, 
+                {"id": 13, "lemma": "구역", "type": "NNG", "position": 213, "weight": 0.9}, 
+                {"id": 14, "lemma": "이", "type": "VCP", "position": 219, "weight": 0.0177525}, 
+                {"id": 15, "lemma": "었", "type": "EP", "position": 222, "weight": 0.9}, 
+                {"id": 16, "lemma": "던", "type": "ETM", "position": 225, "weight": 0.107547}, 
+                {"id": 17, "lemma": "청와대", "type": "NNP", "position": 229, "weight": 0.0280046}, 
+                {"id": 18, "lemma": "앞", "type": "NNG", "position": 239, "weight": 0.9}, 
+                {"id": 19, "lemma": "이", "type": "JKS", "position": 242, "weight": 0.0360723}, 
+                {"id": 20, "lemma": "유", "type": "XPN", "position": 246, "weight": 0.0001}, 
+                {"id": 21, "lemma": "가족", "type": "NNG", "position": 249, "weight": 0.9}, 
+                {"id": 22, "lemma": "들", "type": "XSN", "position": 255, "weight": 0.0299841}, 
+                {"id": 23, "lemma": "에게", "type": "JKB", "position": 258, "weight": 0.121677}, 
+                {"id": 24, "lemma": "열리", "type": "VV", "position": 265, "weight": 0.9}, 
+                {"id": 25, "lemma": "ㄴ", "type": "ETM", "position": 268, "weight": 0.304215}, 
+                {"id": 26, "lemma": "것", "type": "NNB", "position": 272, "weight": 0.228788}, 
+                {"id": 27, "lemma": "이", "type": "VCP", "position": 275, "weight": 0.0607843}, 
+                {"id": 28, "lemma": "다", "type": "EF", "position": 278, "weight": 0.353579}, 
+                {"id": 29, "lemma": ".", "type": "SF", "position": 281, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "참사", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "직후인", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "2014년", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "5월", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "초부터", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "금지된", "type": "", "begin": 10, "end": 12}, 
+                {"id": 6, "text": "구역이었던", "type": "", "begin": 13, "end": 16}, 
+                {"id": 7, "text": "청와대", "type": "", "begin": 17, "end": 17}, 
+                {"id": 8, "text": "앞이", "type": "", "begin": 18, "end": 19}, 
+                {"id": 9, "text": "유가족들에게", "type": "", "begin": 20, "end": 23}, 
+                {"id": 10, "text": "열린", "type": "", "begin": 24, "end": 25}, 
+                {"id": 11, "text": "것이다.", "type": "", "begin": 26, "end": 29}
+            ], 
+            "NE": [
+                {"id": 0, "text": "2014년 5월 초부터", "type": "DT_OTHERS", "begin": 4, "end": 9, "weight": 0.726616, "common_noun": 0}, 
+                {"id": 1, "text": "청와대", "type": "OGG_POLITICS", "begin": 17, "end": 17, "weight": 0.622867, "common_noun": 0}, 
+                {"id": 2, "text": "유가족", "type": "CV_RELATION", "begin": 20, "end": 21, "weight": 0.487075, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "참사", "head": 1, "label": "NP", "mod": [], "weight": 0.389651}, 
+                {"id": 1, "text": "직후인", "head": 4, "label": "VNP_MOD", "mod": [0], "weight": 0.602892}, 
+                {"id": 2, "text": "2014년", "head": 3, "label": "NP", "mod": [], "weight": 0.599439}, 
+                {"id": 3, "text": "5월", "head": 4, "label": "NP", "mod": [2], "weight": 0.51776}, 
+                {"id": 4, "text": "초부터", "head": 5, "label": "NP_AJT", "mod": [1, 3], "weight": 0.751692}, 
+                {"id": 5, "text": "금지된", "head": 6, "label": "VP_MOD", "mod": [4], "weight": 0.643954}, 
+                {"id": 6, "text": "구역이었던", "head": 8, "label": "VNP_MOD", "mod": [5], "weight": 0.604241}, 
+                {"id": 7, "text": "청와대", "head": 8, "label": "NP", "mod": [], "weight": 0.797735}, 
+                {"id": 8, "text": "앞이", "head": 10, "label": "NP_SBJ", "mod": [6, 7], "weight": 0.758534}, 
+                {"id": 9, "text": "유가족들에게", "head": 10, "label": "NP_AJT", "mod": [], "weight": 0.858018}, 
+                {"id": 10, "text": "열린", "head": 11, "label": "VP_MOD", "mod": [8, 9], "weight": 0.822044}, 
+                {"id": 11, "text": "것이다.", "head": -1, "label": "VNP", "mod": [10], "weight": 0.00699841}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VNP_MOD", "text": "참사 직후인", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "P#0@MODㄴ 2014년 5월 초부터", "begin": 0, "end": 4, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#1@AJT부터 금지된", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VNP_MOD", "text": "P#2@MODㄴ 구역이었던", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "P#3@MOD던 청와대 앞이", "begin": 0, "end": 8, "key_begin": 7, "head_phrase": 6, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "유가족들에게", "begin": 9, "end": 9, "key_begin": 9, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S_MOD", "text": "P#4@SBJ이 P#5@AJT에게 열린", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": 7, "sub_phrase": [4, 5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "S#6@MODㄴ 것이다.", "begin": 0, "end": 11, "key_begin": 11, "head_phrase": -1, "sub_phrase": [6], "weight": 0, "element": [
+                    {"text": "것", "label": "NP", "begin": 26, "end": 26, "ne_type": ""}, 
+                    {"text": "이다.", "label": "VP", "begin": 27, "end": 29, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [
+                {"verb": "금지", "sense": 1, "word_id": 5, "weight": 0.257593, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 4, "text": "2014년 5월 초", "weight": 0.257593}
+                ]}, 
+                {"verb": "열리", "sense": 1, "word_id": 10, "weight": 0.215994, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "청와대 앞", "weight": 0.32881}, 
+                    {"type": "ARG2", "word_id": 9, "text": "유가족들", "weight": 0.103177}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 3, 
+            "text": "14일 밤 1인미디어 미디어몽구는 세월호 희생자인 최성호 학생 어머니가 보내온 사진을 SNS에 올렸다.", 
+            "morp": [
+                {"id": 0, "lemma": "14", "type": "SN", "position": 282, "weight": 1}, 
+                {"id": 1, "lemma": "일", "type": "NNB", "position": 284, "weight": 0.126777}, 
+                {"id": 2, "lemma": "밤", "type": "NNG", "position": 288, "weight": 0.110558}, 
+                {"id": 3, "lemma": "1", "type": "SN", "position": 292, "weight": 1}, 
+                {"id": 4, "lemma": "인미디어", "type": "NNG", "position": 293, "weight": 0}, 
+                {"id": 5, "lemma": "미디어", "type": "NNG", "position": 306, "weight": 0.9}, 
+                {"id": 6, "lemma": "몽구", "type": "NNP", "position": 315, "weight": 0.9}, 
+                {"id": 7, "lemma": "는", "type": "JX", "position": 321, "weight": 0.0332677}, 
+                {"id": 8, "lemma": "세월", "type": "NNG", "position": 325, "weight": 0.32475}, 
+                {"id": 9, "lemma": "호", "type": "NNB", "position": 331, "weight": 0.00820732}, 
+                {"id": 10, "lemma": "희생", "type": "NNG", "position": 335, "weight": 0.9}, 
+                {"id": 11, "lemma": "자", "type": "XSN", "position": 341, "weight": 0.00398741}, 
+                {"id": 12, "lemma": "이", "type": "VCP", "position": 344, "weight": 0.0165001}, 
+                {"id": 13, "lemma": "ㄴ", "type": "ETM", "position": 344, "weight": 0.220712}, 
+                {"id": 14, "lemma": "최성호", "type": "NNP", "position": 348, "weight": 0.65}, 
+                {"id": 15, "lemma": "학생", "type": "NNG", "position": 358, "weight": 0.9}, 
+                {"id": 16, "lemma": "어머니", "type": "NNG", "position": 365, "weight": 0.9}, 
+                {"id": 17, "lemma": "가", "type": "JKS", "position": 374, "weight": 0.066324}, 
+                {"id": 18, "lemma": "보내오", "type": "VV", "position": 378, "weight": 0.9}, 
+                {"id": 19, "lemma": "ㄴ", "type": "ETM", "position": 384, "weight": 0.304215}, 
+                {"id": 20, "lemma": "사진", "type": "NNG", "position": 388, "weight": 0.6585}, 
+                {"id": 21, "lemma": "을", "type": "JKO", "position": 394, "weight": 0.129611}, 
+                {"id": 22, "lemma": "SNS", "type": "SL", "position": 398, "weight": 1}, 
+                {"id": 23, "lemma": "에", "type": "JKB", "position": 401, "weight": 0.0327872}, 
+                {"id": 24, "lemma": "올리", "type": "VV", "position": 405, "weight": 0.44513}, 
+                {"id": 25, "lemma": "었", "type": "EP", "position": 408, "weight": 0.9}, 
+                {"id": 26, "lemma": "다", "type": "EF", "position": 411, "weight": 0.640954}, 
+                {"id": 27, "lemma": ".", "type": "SF", "position": 414, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "14일", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "밤", "type": "", "begin": 2, "end": 2}, 
+                {"id": 2, "text": "1인미디어", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "미디어몽구는", "type": "", "begin": 5, "end": 7}, 
+                {"id": 4, "text": "세월호", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "희생자인", "type": "", "begin": 10, "end": 13}, 
+                {"id": 6, "text": "최성호", "type": "", "begin": 14, "end": 14}, 
+                {"id": 7, "text": "학생", "type": "", "begin": 15, "end": 15}, 
+                {"id": 8, "text": "어머니가", "type": "", "begin": 16, "end": 17}, 
+                {"id": 9, "text": "보내온", "type": "", "begin": 18, "end": 19}, 
+                {"id": 10, "text": "사진을", "type": "", "begin": 20, "end": 21}, 
+                {"id": 11, "text": "SNS에", "type": "", "begin": 22, "end": 23}, 
+                {"id": 12, "text": "올렸다.", "type": "", "begin": 24, "end": 27}
+            ], 
+            "NE": [
+                {"id": 0, "text": "14일", "type": "DT_DAY", "begin": 0, "end": 1, "weight": 0.661217, "common_noun": 0}, 
+                {"id": 1, "text": "밤", "type": "TI_DURATION", "begin": 2, "end": 2, "weight": 0.464091, "common_noun": 0}, 
+                {"id": 2, "text": "1인미디어", "type": "QT_MAN_COUNT", "begin": 3, "end": 4, "weight": 0.386002, "common_noun": 0}, 
+                {"id": 3, "text": "세월호", "type": "AF_TRANSPORT", "begin": 8, "end": 9, "weight": 0.211574, "common_noun": 0}, 
+                {"id": 4, "text": "희생자", "type": "CV_POSITION", "begin": 10, "end": 11, "weight": 0.69669, "common_noun": 0}, 
+                {"id": 5, "text": "최성호", "type": "PS_NAME", "begin": 14, "end": 14, "weight": 0.926976, "common_noun": 0}, 
+                {"id": 6, "text": "학생", "type": "CV_OCCUPATION", "begin": 15, "end": 15, "weight": 0.881082, "common_noun": 0}, 
+                {"id": 7, "text": "어머니", "type": "CV_RELATION", "begin": 16, "end": 16, "weight": 0.721563, "common_noun": 0}, 
+                {"id": 8, "text": "SNS", "type": "TMI_SERVICE", "begin": 22, "end": 22, "weight": 0.260572, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "14일", "head": 1, "label": "NP", "mod": [], "weight": 0.61255}, 
+                {"id": 1, "text": "밤", "head": 12, "label": "NP_AJT", "mod": [0], "weight": 0.825515}, 
+                {"id": 2, "text": "1인미디어", "head": 3, "label": "NP", "mod": [], "weight": 0.758411}, 
+                {"id": 3, "text": "미디어몽구는", "head": 12, "label": "NP_SBJ", "mod": [2], "weight": 0.815206}, 
+                {"id": 4, "text": "세월호", "head": 5, "label": "NP", "mod": [], "weight": 0.0166916}, 
+                {"id": 5, "text": "희생자인", "head": 8, "label": "VNP_MOD", "mod": [4], "weight": 0.330551}, 
+                {"id": 6, "text": "최성호", "head": 7, "label": "NP", "mod": [], "weight": 0.377228}, 
+                {"id": 7, "text": "학생", "head": 8, "label": "NP", "mod": [6], "weight": 0.342219}, 
+                {"id": 8, "text": "어머니가", "head": 9, "label": "NP_SBJ", "mod": [5, 7], "weight": 0.53882}, 
+                {"id": 9, "text": "보내온", "head": 10, "label": "VP_MOD", "mod": [8], "weight": 0.72025}, 
+                {"id": 10, "text": "사진을", "head": 12, "label": "NP_OBJ", "mod": [9], "weight": 0.755974}, 
+                {"id": 11, "text": "SNS에", "head": 12, "label": "NP_AJT", "mod": [], "weight": 0.69761}, 
+                {"id": 12, "text": "올렸다.", "head": -1, "label": "VP", "mod": [1, 3, 10, 11], "weight": 3.68493e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "14일 밤", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "1인미디어 미디어몽구는", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VNP_MOD", "text": "세월호 희생자인", "begin": 4, "end": 5, "key_begin": 4, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "P#2@MODㄴ 최성호 학생 어머니가", "begin": 4, "end": 8, "key_begin": 6, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S_MOD", "text": "P#3@SBJ가 보내온", "begin": 4, "end": 9, "key_begin": 9, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_OBJ", "text": "S#4@MODㄴ 사진을", "begin": 4, "end": 10, "key_begin": 10, "head_phrase": 7, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "SNS에", "begin": 11, "end": 11, "key_begin": 11, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "P#0@AJT밤 P#1@SBJ는 P#5@OBJ을 P#6@AJT에 올렸다.", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": -1, "sub_phrase": [0, 1, 5, 6], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "보내오", "sense": 1, "word_id": 9, "weight": 0.282527, "argument": [
+                    {"type": "ARG0", "word_id": 8, "text": "최성호 학생 어머니", "weight": 0.435833}, 
+                    {"type": "ARG2", "word_id": 10, "text": "사진", "weight": 0.129221}
+                ]}, 
+                {"verb": "올리", "sense": 3, "word_id": 12, "weight": 0.329968, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 1, "text": "14일 밤", "weight": 0.503221}, 
+                    {"type": "ARG0", "word_id": 3, "text": "1인미디어 미디어몽구", "weight": 0.142415}, 
+                    {"type": "ARG1", "word_id": 10, "text": "사진", "weight": 0.553854}, 
+                    {"type": "ARG2", "word_id": 11, "text": "SNS", "weight": 0.120382}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 4, 
+            "text": " 최군 어머니가 청와대 앞에서 청와대 본관을 바라보는 모습을 찍었다.", 
+            "morp": [
+                {"id": 0, "lemma": "최", "type": "NNP", "position": 416, "weight": 0.0734863}, 
+                {"id": 1, "lemma": "군", "type": "NNB", "position": 419, "weight": 0.00622461}, 
+                {"id": 2, "lemma": "어머니", "type": "NNG", "position": 423, "weight": 0.9}, 
+                {"id": 3, "lemma": "가", "type": "JKS", "position": 432, "weight": 0.066324}, 
+                {"id": 4, "lemma": "청와대", "type": "NNP", "position": 436, "weight": 0.0197444}, 
+                {"id": 5, "lemma": "앞", "type": "NNG", "position": 446, "weight": 0.9}, 
+                {"id": 6, "lemma": "에서", "type": "JKB", "position": 449, "weight": 0.153407}, 
+                {"id": 7, "lemma": "청와대", "type": "NNP", "position": 456, "weight": 0.0229745}, 
+                {"id": 8, "lemma": "본관", "type": "NNG", "position": 466, "weight": 0.278569}, 
+                {"id": 9, "lemma": "을", "type": "JKO", "position": 472, "weight": 0.129611}, 
+                {"id": 10, "lemma": "바라보", "type": "VV", "position": 476, "weight": 0.9}, 
+                {"id": 11, "lemma": "는", "type": "ETM", "position": 485, "weight": 0.184941}, 
+                {"id": 12, "lemma": "모습", "type": "NNG", "position": 489, "weight": 0.9}, 
+                {"id": 13, "lemma": "을", "type": "JKO", "position": 495, "weight": 0.129611}, 
+                {"id": 14, "lemma": "찍", "type": "VV", "position": 499, "weight": 0.772248}, 
+                {"id": 15, "lemma": "었", "type": "EP", "position": 502, "weight": 0.9}, 
+                {"id": 16, "lemma": "다", "type": "EF", "position": 505, "weight": 0.640954}, 
+                {"id": 17, "lemma": ".", "type": "SF", "position": 508, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "최군", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "어머니가", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "청와대", "type": "", "begin": 4, "end": 4}, 
+                {"id": 3, "text": "앞에서", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "청와대", "type": "", "begin": 7, "end": 7}, 
+                {"id": 5, "text": "본관을", "type": "", "begin": 8, "end": 9}, 
+                {"id": 6, "text": "바라보는", "type": "", "begin": 10, "end": 11}, 
+                {"id": 7, "text": "모습을", "type": "", "begin": 12, "end": 13}, 
+                {"id": 8, "text": "찍었다.", "type": "", "begin": 14, "end": 17}
+            ], 
+            "NE": [
+                {"id": 0, "text": "최", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.73531, "common_noun": 0}, 
+                {"id": 1, "text": "어머니", "type": "CV_RELATION", "begin": 2, "end": 2, "weight": 0.630797, "common_noun": 0}, 
+                {"id": 2, "text": "청와대", "type": "OGG_POLITICS", "begin": 4, "end": 4, "weight": 0.471705, "common_noun": 0}, 
+                {"id": 3, "text": "청와대", "type": "OGG_POLITICS", "begin": 7, "end": 7, "weight": 0.471837, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "최군", "head": 1, "label": "NP", "mod": [], "weight": 0.400643}, 
+                {"id": 1, "text": "어머니가", "head": 6, "label": "NP_SBJ", "mod": [0], "weight": 0.149844}, 
+                {"id": 2, "text": "청와대", "head": 3, "label": "NP", "mod": [], "weight": 0.815879}, 
+                {"id": 3, "text": "앞에서", "head": 6, "label": "NP_AJT", "mod": [2], "weight": 0.555077}, 
+                {"id": 4, "text": "청와대", "head": 5, "label": "NP", "mod": [], "weight": 0.728612}, 
+                {"id": 5, "text": "본관을", "head": 6, "label": "NP_OBJ", "mod": [4], "weight": 0.691559}, 
+                {"id": 6, "text": "바라보는", "head": 7, "label": "VP_MOD", "mod": [1, 3, 5], "weight": 0.816415}, 
+                {"id": 7, "text": "모습을", "head": 8, "label": "NP_OBJ", "mod": [6], "weight": 0.797316}, 
+                {"id": 8, "text": "찍었다.", "head": -1, "label": "VP", "mod": [7], "weight": 0.00681074}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "최군 어머니가", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "청와대 앞에서", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "청와대 본관을", "begin": 4, "end": 5, "key_begin": 4, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S_MOD", "text": "P#0@SBJ가 P#1@AJT에서 P#2@OBJ을 바라보는", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 4, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "S#3@MOD는 모습을", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP", "text": "P#4@OBJ을 찍었다.", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": -1, "sub_phrase": [4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "바라보", "sense": 1, "word_id": 6, "weight": 0.229944, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 3, "text": "청와대 앞", "weight": 0.229713}, 
+                    {"type": "ARG1", "word_id": 5, "text": "청와대 본관", "weight": 0.230175}
+                ]}, 
+                {"verb": "찍", "sense": 1, "word_id": 8, "weight": 0.385175, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 3, "text": "청와대 앞", "weight": 0.188019}, 
+                    {"type": "ARG1", "word_id": 7, "text": "모습", "weight": 0.58233}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 8, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.990932}
+            ]
+        }, 
+        {
+            "id": 5, 
+            "text": " 미디어몽구는 “누구도 건드리지도 않고 묻지도 않는 평화로운 모습에 만감이 교차했다.", 
+            "morp": [
+                {"id": 0, "lemma": "미디어", "type": "NNG", "position": 510, "weight": 0.9}, 
+                {"id": 1, "lemma": "몽구", "type": "NNP", "position": 519, "weight": 0.9}, 
+                {"id": 2, "lemma": "는", "type": "JX", "position": 525, "weight": 0.0332677}, 
+                {"id": 3, "lemma": "“", "type": "SS", "position": 529, "weight": 1}, 
+                {"id": 4, "lemma": "누구", "type": "NP", "position": 532, "weight": 0.9}, 
+                {"id": 5, "lemma": "도", "type": "JX", "position": 538, "weight": 0.288304}, 
+                {"id": 6, "lemma": "건드리", "type": "VV", "position": 542, "weight": 0.9}, 
+                {"id": 7, "lemma": "지", "type": "EC", "position": 551, "weight": 0.301842}, 
+                {"id": 8, "lemma": "도", "type": "JX", "position": 554, "weight": 0.0271372}, 
+                {"id": 9, "lemma": "않", "type": "VX", "position": 558, "weight": 0.0278912}, 
+                {"id": 10, "lemma": "고", "type": "EC", "position": 561, "weight": 0.25644}, 
+                {"id": 11, "lemma": "묻", "type": "VV", "position": 565, "weight": 0.9}, 
+                {"id": 12, "lemma": "지", "type": "EC", "position": 568, "weight": 0.301842}, 
+                {"id": 13, "lemma": "도", "type": "JX", "position": 571, "weight": 0.0271372}, 
+                {"id": 14, "lemma": "않", "type": "VX", "position": 575, "weight": 0.0278912}, 
+                {"id": 15, "lemma": "는", "type": "ETM", "position": 578, "weight": 0.183966}, 
+                {"id": 16, "lemma": "평화", "type": "NNG", "position": 582, "weight": 0.648766}, 
+                {"id": 17, "lemma": "롭", "type": "XSA", "position": 588, "weight": 0.000351437}, 
+                {"id": 18, "lemma": "ㄴ", "type": "ETM", "position": 588, "weight": 0.488779}, 
+                {"id": 19, "lemma": "모습", "type": "NNG", "position": 595, "weight": 0.9}, 
+                {"id": 20, "lemma": "에", "type": "JKB", "position": 601, "weight": 0.153364}, 
+                {"id": 21, "lemma": "만감", "type": "NNG", "position": 605, "weight": 0.9}, 
+                {"id": 22, "lemma": "이", "type": "JKS", "position": 611, "weight": 0.0360723}, 
+                {"id": 23, "lemma": "교차", "type": "NNG", "position": 615, "weight": 0.9}, 
+                {"id": 24, "lemma": "하", "type": "XSV", "position": 621, "weight": 0.0001}, 
+                {"id": 25, "lemma": "었", "type": "EP", "position": 621, "weight": 0.9}, 
+                {"id": 26, "lemma": "다", "type": "EF", "position": 624, "weight": 0.640954}, 
+                {"id": 27, "lemma": ".", "type": "SF", "position": 627, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "미디어몽구는", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "“누구도", "type": "", "begin": 3, "end": 5}, 
+                {"id": 2, "text": "건드리지도", "type": "", "begin": 6, "end": 8}, 
+                {"id": 3, "text": "않고", "type": "", "begin": 9, "end": 10}, 
+                {"id": 4, "text": "묻지도", "type": "", "begin": 11, "end": 13}, 
+                {"id": 5, "text": "않는", "type": "", "begin": 14, "end": 15}, 
+                {"id": 6, "text": "평화로운", "type": "", "begin": 16, "end": 18}, 
+                {"id": 7, "text": "모습에", "type": "", "begin": 19, "end": 20}, 
+                {"id": 8, "text": "만감이", "type": "", "begin": 21, "end": 22}, 
+                {"id": 9, "text": "교차했다.", "type": "", "begin": 23, "end": 27}
+            ], 
+            "NE": [
+                {"id": 0, "text": "몽구", "type": "PS_NAME", "begin": 1, "end": 1, "weight": 0.172317, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "미디어몽구는", "head": 2, "label": "NP_SBJ", "mod": [], "weight": 0.324525}, 
+                {"id": 1, "text": "“누구도", "head": 2, "label": "NP_SBJ", "mod": [], "weight": 0.501204}, 
+                {"id": 2, "text": "건드리지도", "head": 3, "label": "VP", "mod": [0, 1], "weight": 0.592354}, 
+                {"id": 3, "text": "않고", "head": 4, "label": "VP", "mod": [2], "weight": 0.408963}, 
+                {"id": 4, "text": "묻지도", "head": 5, "label": "VP", "mod": [3], "weight": 0.584127}, 
+                {"id": 5, "text": "않는", "head": 7, "label": "VP_MOD", "mod": [4], "weight": 0.843039}, 
+                {"id": 6, "text": "평화로운", "head": 7, "label": "VP_MOD", "mod": [], "weight": 0.705603}, 
+                {"id": 7, "text": "모습에", "head": 9, "label": "NP_AJT", "mod": [5, 6], "weight": 0.76733}, 
+                {"id": 8, "text": "만감이", "head": 9, "label": "NP_SBJ", "mod": [], "weight": 0.767785}, 
+                {"id": 9, "text": "교차했다.", "head": -1, "label": "VP", "mod": [7, 8], "weight": 0.0068461}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "미디어몽구는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "“누구도", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S_MOD", "text": "P#0@SBJ는 P#1@SBJ도 건드리지도 않고 묻지도 않는", "begin": 0, "end": 5, "key_begin": 2, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "S#2@MOD는 평화로운 모습에", "begin": 0, "end": 7, "key_begin": 6, "head_phrase": 5, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "만감이", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#3@AJT에 P#4@SBJ이 교차했다.", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": -1, "sub_phrase": [3, 4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "건드리", "sense": 1, "word_id": 2, "weight": 0.398639, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "미디어몽구", "weight": 0.335805}, 
+                    {"type": "ARG1", "word_id": 1, "text": "“누구", "weight": 0.166396}, 
+                    {"type": "ARGM-NEG", "word_id": 3, "text": "않고", "weight": 0.693717}
+                ]}, 
+                {"verb": "묻", "sense": 3, "word_id": 4, "weight": 0.291262, "argument": [
+                    {"type": "ARGM-NEG", "word_id": 5, "text": "건드리지도 않고 묻지도 않는", "weight": 0.340085}, 
+                    {"type": "ARG1", "word_id": 7, "text": "평화로운 모습", "weight": 0.242439}
+                ]}, 
+                {"verb": "평화", "sense": 1, "word_id": 6, "weight": 0.484279, "argument": [
+                    {"type": "ARG1", "word_id": 7, "text": "평화로운 모습", "weight": 0.484279}
+                ]}, 
+                {"verb": "교차", "sense": 1, "word_id": 9, "weight": 0.208791, "argument": [
+                    {"type": "ARG2", "word_id": 7, "text": "평화로운 모습", "weight": 0.158811}, 
+                    {"type": "ARG1", "word_id": 8, "text": "만감", "weight": 0.258772}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "o", "head_wid": 2, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.850181}
+            ]
+        }, 
+        {
+            "id": 6, 
+            "text": " 믿기지가 않아 누가 감시하나 계속 뒤를 돌아봤다”는 최군 어머니의 소감을 전했다.", 
+            "morp": [
+                {"id": 0, "lemma": "믿기", "type": "VV", "position": 629, "weight": 0.9}, 
+                {"id": 1, "lemma": "지", "type": "EC", "position": 635, "weight": 0.301842}, 
+                {"id": 2, "lemma": "가", "type": "JX", "position": 638, "weight": 0.0001}, 
+                {"id": 3, "lemma": "않", "type": "VX", "position": 642, "weight": 0.0278912}, 
+                {"id": 4, "lemma": "아", "type": "EC", "position": 645, "weight": 0.245442}, 
+                {"id": 5, "lemma": "누구", "type": "NP", "position": 649, "weight": 0.9}, 
+                {"id": 6, "lemma": "가", "type": "JKS", "position": 652, "weight": 0.104973}, 
+                {"id": 7, "lemma": "감시", "type": "NNG", "position": 656, "weight": 0.9}, 
+                {"id": 8, "lemma": "하", "type": "XSV", "position": 662, "weight": 0.0001}, 
+                {"id": 9, "lemma": "나", "type": "EC", "position": 665, "weight": 0.0159468}, 
+                {"id": 10, "lemma": "계속", "type": "MAG", "position": 669, "weight": 0.0462275}, 
+                {"id": 11, "lemma": "뒤", "type": "NNG", "position": 676, "weight": 0.261297}, 
+                {"id": 12, "lemma": "를", "type": "JKO", "position": 679, "weight": 0.137686}, 
+                {"id": 13, "lemma": "돌아보", "type": "VV", "position": 683, "weight": 0.9}, 
+                {"id": 14, "lemma": "았", "type": "EP", "position": 689, "weight": 0.9}, 
+                {"id": 15, "lemma": "다", "type": "EF", "position": 692, "weight": 0.640954}, 
+                {"id": 16, "lemma": "”", "type": "SS", "position": 695, "weight": 1}, 
+                {"id": 17, "lemma": "는", "type": "JX", "position": 698, "weight": 0.00823314}, 
+                {"id": 18, "lemma": "최", "type": "NNP", "position": 702, "weight": 0.0369235}, 
+                {"id": 19, "lemma": "군", "type": "NNB", "position": 705, "weight": 0.00622461}, 
+                {"id": 20, "lemma": "어머니", "type": "NNG", "position": 709, "weight": 0.9}, 
+                {"id": 21, "lemma": "의", "type": "JKG", "position": 718, "weight": 0.0694213}, 
+                {"id": 22, "lemma": "소감", "type": "NNG", "position": 722, "weight": 0.867085}, 
+                {"id": 23, "lemma": "을", "type": "JKO", "position": 728, "weight": 0.129611}, 
+                {"id": 24, "lemma": "전하", "type": "VV", "position": 732, "weight": 0.734674}, 
+                {"id": 25, "lemma": "었", "type": "EP", "position": 735, "weight": 0.9}, 
+                {"id": 26, "lemma": "다", "type": "EF", "position": 738, "weight": 0.640954}, 
+                {"id": 27, "lemma": ".", "type": "SF", "position": 741, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "믿기지가", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "않아", "type": "", "begin": 3, "end": 4}, 
+                {"id": 2, "text": "누가", "type": "", "begin": 5, "end": 6}, 
+                {"id": 3, "text": "감시하나", "type": "", "begin": 7, "end": 9}, 
+                {"id": 4, "text": "계속", "type": "", "begin": 10, "end": 10}, 
+                {"id": 5, "text": "뒤를", "type": "", "begin": 11, "end": 12}, 
+                {"id": 6, "text": "돌아봤다”는", "type": "", "begin": 13, "end": 17}, 
+                {"id": 7, "text": "최군", "type": "", "begin": 18, "end": 19}, 
+                {"id": 8, "text": "어머니의", "type": "", "begin": 20, "end": 21}, 
+                {"id": 9, "text": "소감을", "type": "", "begin": 22, "end": 23}, 
+                {"id": 10, "text": "전했다.", "type": "", "begin": 24, "end": 27}
+            ], 
+            "NE": [
+                {"id": 0, "text": "최", "type": "PS_NAME", "begin": 18, "end": 18, "weight": 0.709371, "common_noun": 0}, 
+                {"id": 1, "text": "어머니", "type": "CV_RELATION", "begin": 20, "end": 20, "weight": 0.759398, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "믿기지가", "head": 1, "label": "VP", "mod": [], "weight": 0.484539}, 
+                {"id": 1, "text": "않아", "head": 3, "label": "VP", "mod": [0], "weight": 0.727822}, 
+                {"id": 2, "text": "누가", "head": 3, "label": "NP_SBJ", "mod": [], "weight": 0.748676}, 
+                {"id": 3, "text": "감시하나", "head": 6, "label": "VP", "mod": [1, 2], "weight": 0.731277}, 
+                {"id": 4, "text": "계속", "head": 6, "label": "AP", "mod": [], "weight": 0.774034}, 
+                {"id": 5, "text": "뒤를", "head": 6, "label": "NP_OBJ", "mod": [], "weight": 0.858919}, 
+                {"id": 6, "text": "돌아봤다”는", "head": 10, "label": "VP_SBJ", "mod": [3, 4, 5], "weight": 0.382228}, 
+                {"id": 7, "text": "최군", "head": 8, "label": "NP", "mod": [], "weight": 0.498424}, 
+                {"id": 8, "text": "어머니의", "head": 9, "label": "NP_MOD", "mod": [7], "weight": 0.679469}, 
+                {"id": 9, "text": "소감을", "head": 10, "label": "NP_OBJ", "mod": [8], "weight": 0.738548}, 
+                {"id": 10, "text": "전했다.", "head": -1, "label": "VP", "mod": [6, 9], "weight": 0.00904068}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VP", "text": "믿기지가 않아", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "누가", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@VP아 P#1@SBJ가 감시하나", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 5, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "AP", "text": "계속", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "뒤를", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S_SBJ", "text": "S#2@S나 P#3@AP계속 P#4@OBJ를 돌아봤다”는", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 7, "sub_phrase": [2, 3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_OBJ", "text": "최군 어머니의 소감을", "begin": 7, "end": 9, "key_begin": 7, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "S#5@SBJ는 P#6@OBJ을 전했다.", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": -1, "sub_phrase": [5, 6], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "믿기", "sense": 1, "word_id": 0, "weight": 0.475673, "argument": [
+                    {"type": "ARGM-NEG", "word_id": 1, "text": "믿기지가 않아", "weight": 0.475673}
+                ]}, 
+                {"verb": "감시", "sense": 1, "word_id": 3, "weight": 0.252852, "argument": [
+                    {"type": "ARG0", "word_id": 2, "text": "누구", "weight": 0.252852}
+                ]}, 
+                {"verb": "돌아보", "sense": 1, "word_id": 6, "weight": 0.203892, "argument": [
+                    {"type": "ARG1", "word_id": 5, "text": "뒤", "weight": 0.203892}
+                ]}, 
+                {"verb": "전하", "sense": 1, "word_id": 10, "weight": 0.554292, "argument": [
+                    {"type": "ARG1", "word_id": 9, "text": "최군 어머니의 소감", "weight": 0.554292}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 0, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.665848}, 
+                {"id": 1, "type": "o", "head_wid": 3, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.898211}, 
+                {"id": 2, "type": "s", "head_wid": 6, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.950729}
+            ]
+        }, 
+        {
+            "id": 7, 
+            "text": "세월호 참사 직후인 2014년 5월 초 아이들의 영정을 든 유가족들은 박근혜 전 대통령 면담을 요구하며 행진하다 청와대 앞에서 경찰에 제지당했다.", 
+            "morp": [
+                {"id": 0, "lemma": "세월호", "type": "NNP", "position": 742, "weight": 0.6}, 
+                {"id": 1, "lemma": "참사", "type": "NNG", "position": 752, "weight": 0.9}, 
+                {"id": 2, "lemma": "직후", "type": "NNG", "position": 759, "weight": 0.9}, 
+                {"id": 3, "lemma": "이", "type": "VCP", "position": 765, "weight": 0.0177525}, 
+                {"id": 4, "lemma": "ㄴ", "type": "ETM", "position": 765, "weight": 0.220712}, 
+                {"id": 5, "lemma": "2014", "type": "SN", "position": 769, "weight": 1}, 
+                {"id": 6, "lemma": "년", "type": "NNB", "position": 773, "weight": 0.414343}, 
+                {"id": 7, "lemma": "5", "type": "SN", "position": 777, "weight": 1}, 
+                {"id": 8, "lemma": "월", "type": "NNB", "position": 778, "weight": 0.408539}, 
+                {"id": 9, "lemma": "초", "type": "NNB", "position": 782, "weight": 0.00733198}, 
+                {"id": 10, "lemma": "아이", "type": "NNG", "position": 786, "weight": 0.109235}, 
+                {"id": 11, "lemma": "들", "type": "XSN", "position": 792, "weight": 0.0299841}, 
+                {"id": 12, "lemma": "의", "type": "JKG", "position": 795, "weight": 0.120732}, 
+                {"id": 13, "lemma": "영정", "type": "NNG", "position": 799, "weight": 0.9}, 
+                {"id": 14, "lemma": "을", "type": "JKO", "position": 805, "weight": 0.129611}, 
+                {"id": 15, "lemma": "들", "type": "VV", "position": 809, "weight": 0.0913247}, 
+                {"id": 16, "lemma": "ㄴ", "type": "ETM", "position": 809, "weight": 0.304215}, 
+                {"id": 17, "lemma": "유", "type": "XPN", "position": 813, "weight": 0.0001}, 
+                {"id": 18, "lemma": "가족", "type": "NNG", "position": 816, "weight": 0.9}, 
+                {"id": 19, "lemma": "들", "type": "XSN", "position": 822, "weight": 0.0299841}, 
+                {"id": 20, "lemma": "은", "type": "JX", "position": 825, "weight": 0.100393}, 
+                {"id": 21, "lemma": "박근혜", "type": "NNP", "position": 829, "weight": 0.9}, 
+                {"id": 22, "lemma": "전", "type": "MM", "position": 839, "weight": 0.00124885}, 
+                {"id": 23, "lemma": "대통령", "type": "NNG", "position": 843, "weight": 0.9}, 
+                {"id": 24, "lemma": "면담", "type": "NNG", "position": 853, "weight": 0.9}, 
+                {"id": 25, "lemma": "을", "type": "JKO", "position": 859, "weight": 0.129611}, 
+                {"id": 26, "lemma": "요구", "type": "NNG", "position": 863, "weight": 0.9}, 
+                {"id": 27, "lemma": "하", "type": "XSV", "position": 869, "weight": 0.0001}, 
+                {"id": 28, "lemma": "며", "type": "EC", "position": 872, "weight": 0.371165}, 
+                {"id": 29, "lemma": "행진", "type": "NNG", "position": 876, "weight": 0.21855}, 
+                {"id": 30, "lemma": "하", "type": "XSV", "position": 882, "weight": 0.0001}, 
+                {"id": 31, "lemma": "다", "type": "EF", "position": 885, "weight": 0.0439236}, 
+                {"id": 32, "lemma": "청와대", "type": "NNG", "position": 889, "weight": 0.0001}, 
+                {"id": 33, "lemma": "앞", "type": "NNG", "position": 899, "weight": 0.9}, 
+                {"id": 34, "lemma": "에서", "type": "JKB", "position": 902, "weight": 0.153407}, 
+                {"id": 35, "lemma": "경찰", "type": "NNG", "position": 909, "weight": 0.9}, 
+                {"id": 36, "lemma": "에", "type": "JKB", "position": 915, "weight": 0.153364}, 
+                {"id": 37, "lemma": "제지", "type": "NNG", "position": 919, "weight": 0.9}, 
+                {"id": 38, "lemma": "당", "type": "XSN", "position": 925, "weight": 0.0136365}, 
+                {"id": 39, "lemma": "하", "type": "VV", "position": 928, "weight": 0.0170152}, 
+                {"id": 40, "lemma": "었", "type": "EP", "position": 928, "weight": 0.9}, 
+                {"id": 41, "lemma": "다", "type": "EF", "position": 931, "weight": 0.640954}, 
+                {"id": 42, "lemma": ".", "type": "SF", "position": 934, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "세월호", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "참사", "type": "", "begin": 1, "end": 1}, 
+                {"id": 2, "text": "직후인", "type": "", "begin": 2, "end": 4}, 
+                {"id": 3, "text": "2014년", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "5월", "type": "", "begin": 7, "end": 8}, 
+                {"id": 5, "text": "초", "type": "", "begin": 9, "end": 9}, 
+                {"id": 6, "text": "아이들의", "type": "", "begin": 10, "end": 12}, 
+                {"id": 7, "text": "영정을", "type": "", "begin": 13, "end": 14}, 
+                {"id": 8, "text": "든", "type": "", "begin": 15, "end": 16}, 
+                {"id": 9, "text": "유가족들은", "type": "", "begin": 17, "end": 20}, 
+                {"id": 10, "text": "박근혜", "type": "", "begin": 21, "end": 21}, 
+                {"id": 11, "text": "전", "type": "", "begin": 22, "end": 22}, 
+                {"id": 12, "text": "대통령", "type": "", "begin": 23, "end": 23}, 
+                {"id": 13, "text": "면담을", "type": "", "begin": 24, "end": 25}, 
+                {"id": 14, "text": "요구하며", "type": "", "begin": 26, "end": 28}, 
+                {"id": 15, "text": "행진하다", "type": "", "begin": 29, "end": 31}, 
+                {"id": 16, "text": "청와대", "type": "", "begin": 32, "end": 32}, 
+                {"id": 17, "text": "앞에서", "type": "", "begin": 33, "end": 34}, 
+                {"id": 18, "text": "경찰에", "type": "", "begin": 35, "end": 36}, 
+                {"id": 19, "text": "제지당했다.", "type": "", "begin": 37, "end": 42}
+            ], 
+            "NE": [
+                {"id": 0, "text": "세월호", "type": "AF_TRANSPORT", "begin": 0, "end": 0, "weight": 0.198913, "common_noun": 0}, 
+                {"id": 1, "text": "2014년 5월 초", "type": "DT_DURATION", "begin": 5, "end": 9, "weight": 0.797483, "common_noun": 0}, 
+                {"id": 2, "text": "유가족", "type": "CV_RELATION", "begin": 17, "end": 18, "weight": 0.462303, "common_noun": 0}, 
+                {"id": 3, "text": "박근혜", "type": "PS_NAME", "begin": 21, "end": 21, "weight": 0.939217, "common_noun": 0}, 
+                {"id": 4, "text": "전 대통령", "type": "CV_POSITION", "begin": 22, "end": 23, "weight": 0.699813, "common_noun": 0}, 
+                {"id": 5, "text": "청와대", "type": "OGG_POLITICS", "begin": 32, "end": 32, "weight": 0.486084, "common_noun": 0}, 
+                {"id": 6, "text": "경찰", "type": "CV_OCCUPATION", "begin": 35, "end": 35, "weight": 0.370128, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "세월호", "head": 1, "label": "NP", "mod": [], "weight": 0.658273}, 
+                {"id": 1, "text": "참사", "head": 2, "label": "NP", "mod": [0], "weight": 0.439561}, 
+                {"id": 2, "text": "직후인", "head": 6, "label": "VNP_MOD", "mod": [1], "weight": 0.192284}, 
+                {"id": 3, "text": "2014년", "head": 4, "label": "NP", "mod": [], "weight": 0.416408}, 
+                {"id": 4, "text": "5월", "head": 5, "label": "NP", "mod": [3], "weight": 0.354004}, 
+                {"id": 5, "text": "초", "head": 6, "label": "NP", "mod": [4], "weight": 0.216988}, 
+                {"id": 6, "text": "아이들의", "head": 7, "label": "NP_MOD", "mod": [2, 5], "weight": 0.4301}, 
+                {"id": 7, "text": "영정을", "head": 8, "label": "NP_OBJ", "mod": [6], "weight": 0.833628}, 
+                {"id": 8, "text": "든", "head": 9, "label": "VP_MOD", "mod": [7], "weight": 0.632467}, 
+                {"id": 9, "text": "유가족들은", "head": 14, "label": "NP_SBJ", "mod": [8], "weight": 0.501093}, 
+                {"id": 10, "text": "박근혜", "head": 12, "label": "NP", "mod": [], "weight": 0.299097}, 
+                {"id": 11, "text": "전", "head": 12, "label": "DP", "mod": [], "weight": 0.0491161}, 
+                {"id": 12, "text": "대통령", "head": 13, "label": "NP", "mod": [10, 11], "weight": 0.672885}, 
+                {"id": 13, "text": "면담을", "head": 14, "label": "NP_OBJ", "mod": [12], "weight": 0.714783}, 
+                {"id": 14, "text": "요구하며", "head": 15, "label": "VP", "mod": [9, 13], "weight": 0.786583}, 
+                {"id": 15, "text": "행진하다", "head": 19, "label": "VP", "mod": [14], "weight": 0.604198}, 
+                {"id": 16, "text": "청와대", "head": 17, "label": "NP", "mod": [], "weight": 0.586928}, 
+                {"id": 17, "text": "앞에서", "head": 19, "label": "NP_AJT", "mod": [16], "weight": 0.807868}, 
+                {"id": 18, "text": "경찰에", "head": 19, "label": "NP_AJT", "mod": [], "weight": 0.717764}, 
+                {"id": 19, "text": "제지당했다.", "head": -1, "label": "VP", "mod": [15, 17, 18], "weight": 4.10024e-08}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VNP_MOD", "text": "세월호 참사 직후인", "begin": 0, "end": 2, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "P#0@MODㄴ 2014년 5월 초 아이들의 영정을", "begin": 0, "end": 7, "key_begin": 3, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#1@OBJ을 든", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "P#2@MODㄴ 유가족들은", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 5, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "박근혜 전 대통령 면담을", "begin": 10, "end": 13, "key_begin": 10, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#3@SBJ은 P#4@OBJ을 요구하며 행진하다", "begin": 0, "end": 15, "key_begin": 14, "head_phrase": 8, "sub_phrase": [3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "청와대 앞에서", "begin": 16, "end": 17, "key_begin": 16, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_AJT", "text": "경찰에", "begin": 18, "end": 18, "key_begin": 18, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "S#5@S다 P#6@AJT에서 P#7@AJT에 제지당했다.", "begin": 0, "end": 19, "key_begin": 19, "head_phrase": -1, "sub_phrase": [5, 6, 7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "들", "sense": 1, "word_id": 8, "weight": 0.350782, "argument": [
+                    {"type": "ARG1", "word_id": 7, "text": "2014년 5월 초 아이들의 영정", "weight": 0.292664}, 
+                    {"type": "ARG0", "word_id": 9, "text": "유가족들", "weight": 0.4089}
+                ]}, 
+                {"verb": "요구", "sense": 1, "word_id": 14, "weight": 0.625952, "argument": [
+                    {"type": "ARG1", "word_id": 13, "text": "박근혜 전 대통령 면담", "weight": 0.625952}
+                ]}, 
+                {"verb": "행진", "sense": 1, "word_id": 15, "weight": 0, "argument": [
+                    {"type": "ARG1", "word_id": 13, "text": "박근혜 전 대통령 면담", "weight": 0.625952}
+                ]}, 
+                {"verb": "제지", "sense": 1, "word_id": 19, "weight": 0.224673, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 17, "text": "청와대 앞", "weight": 0.282272}, 
+                    {"type": "ARG2", "word_id": 18, "text": "경찰", "weight": 0.167074}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 15, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.947312}, 
+                {"id": 1, "type": "s", "head_wid": 19, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.959814}, 
+                {"id": 2, "type": "o", "head_wid": 19, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.828539}
+            ]
+        }, 
+        {
+            "id": 8, 
+            "text": " 이후 이곳은 유가족들에게 금단의 구역이 됐다.", 
+            "morp": [
+                {"id": 0, "lemma": "이후", "type": "NNG", "position": 936, "weight": 0.437886}, 
+                {"id": 1, "lemma": "이곳", "type": "NP", "position": 943, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 949, "weight": 0.191811}, 
+                {"id": 3, "lemma": "유", "type": "XPN", "position": 953, "weight": 0.0001}, 
+                {"id": 4, "lemma": "가족", "type": "NNG", "position": 956, "weight": 0.9}, 
+                {"id": 5, "lemma": "들", "type": "XSN", "position": 962, "weight": 0.0299841}, 
+                {"id": 6, "lemma": "에게", "type": "JKB", "position": 965, "weight": 0.121677}, 
+                {"id": 7, "lemma": "금단", "type": "NNG", "position": 972, "weight": 0.188042}, 
+                {"id": 8, "lemma": "의", "type": "JKG", "position": 978, "weight": 0.0694213}, 
+                {"id": 9, "lemma": "구역", "type": "NNG", "position": 982, "weight": 0.9}, 
+                {"id": 10, "lemma": "이", "type": "JKC", "position": 988, "weight": 0.000287945}, 
+                {"id": 11, "lemma": "되", "type": "VV", "position": 992, "weight": 0.542406}, 
+                {"id": 12, "lemma": "었", "type": "EP", "position": 992, "weight": 0.9}, 
+                {"id": 13, "lemma": "다", "type": "EF", "position": 995, "weight": 0.640954}, 
+                {"id": 14, "lemma": ".", "type": "SF", "position": 998, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "이후", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "이곳은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "유가족들에게", "type": "", "begin": 3, "end": 6}, 
+                {"id": 3, "text": "금단의", "type": "", "begin": 7, "end": 8}, 
+                {"id": 4, "text": "구역이", "type": "", "begin": 9, "end": 10}, 
+                {"id": 5, "text": "됐다.", "type": "", "begin": 11, "end": 14}
+            ], 
+            "NE": [
+                {"id": 0, "text": "유가족", "type": "CV_RELATION", "begin": 3, "end": 4, "weight": 0.424504, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "이후", "head": 5, "label": "NP_AJT", "mod": [], "weight": 0.757941}, 
+                {"id": 1, "text": "이곳은", "head": 5, "label": "NP_SBJ", "mod": [], "weight": 0.794602}, 
+                {"id": 2, "text": "유가족들에게", "head": 5, "label": "NP_AJT", "mod": [], "weight": 0.764757}, 
+                {"id": 3, "text": "금단의", "head": 4, "label": "NP_MOD", "mod": [], "weight": 0.680429}, 
+                {"id": 4, "text": "구역이", "head": 5, "label": "NP_CMP", "mod": [3], "weight": 0.694504}, 
+                {"id": 5, "text": "됐다.", "head": -1, "label": "VP", "mod": [0, 1, 2, 4], "weight": 0.166554}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "이후", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "이곳은", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "유가족들에게", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_CMP", "text": "금단의 구역이", "begin": 3, "end": 4, "key_begin": 3, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "P#0@AJT이후 P#1@SBJ은 P#2@AJT에게 P#3@CMP이 됐다.", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": -1, "sub_phrase": [0, 1, 2, 3], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "되", "sense": 1, "word_id": 5, "weight": 0.534051, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 0, "text": "이후", "weight": 0.592849}, 
+                    {"type": "ARG1", "word_id": 1, "text": "이곳", "weight": 0.406165}, 
+                    {"type": "ARG2", "word_id": 2, "text": "유가족들", "weight": 0.369233}, 
+                    {"type": "ARG2", "word_id": 4, "text": "금단의 구역", "weight": 0.767958}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 9, 
+            "text": " 박근혜 최순실 국정농단 게이트로 시민들의 촛불이 타올랐을 때도 세월호 유가족들은 접근할 수 없었다.", 
+            "morp": [
+                {"id": 0, "lemma": "박근혜", "type": "NNP", "position": 1000, "weight": 0.9}, 
+                {"id": 1, "lemma": "최순실", "type": "NNP", "position": 1010, "weight": 0.6}, 
+                {"id": 2, "lemma": "국정", "type": "NNG", "position": 1020, "weight": 0.9}, 
+                {"id": 3, "lemma": "농단", "type": "NNG", "position": 1026, "weight": 0.25}, 
+                {"id": 4, "lemma": "게이트", "type": "NNG", "position": 1033, "weight": 0.9}, 
+                {"id": 5, "lemma": "로", "type": "JKB", "position": 1042, "weight": 0.153229}, 
+                {"id": 6, "lemma": "시민", "type": "NNG", "position": 1046, "weight": 0.9}, 
+                {"id": 7, "lemma": "들", "type": "XSN", "position": 1052, "weight": 0.0299841}, 
+                {"id": 8, "lemma": "의", "type": "JKG", "position": 1055, "weight": 0.120732}, 
+                {"id": 9, "lemma": "촛불", "type": "NNG", "position": 1059, "weight": 0.86688}, 
+                {"id": 10, "lemma": "이", "type": "JKS", "position": 1065, "weight": 0.0360723}, 
+                {"id": 11, "lemma": "타오르", "type": "VV", "position": 1069, "weight": 0.9}, 
+                {"id": 12, "lemma": "았", "type": "EP", "position": 1072, "weight": 0.9}, 
+                {"id": 13, "lemma": "을", "type": "ETM", "position": 1078, "weight": 0.00734398}, 
+                {"id": 14, "lemma": "때", "type": "NNG", "position": 1082, "weight": 0.656522}, 
+                {"id": 15, "lemma": "도", "type": "JX", "position": 1085, "weight": 0.0676272}, 
+                {"id": 16, "lemma": "세월", "type": "NNG", "position": 1089, "weight": 0.32475}, 
+                {"id": 17, "lemma": "호", "type": "NNB", "position": 1095, "weight": 0.00820732}, 
+                {"id": 18, "lemma": "유", "type": "XPN", "position": 1099, "weight": 0.0001}, 
+                {"id": 19, "lemma": "가족", "type": "NNG", "position": 1102, "weight": 0.9}, 
+                {"id": 20, "lemma": "들", "type": "XSN", "position": 1108, "weight": 0.0299841}, 
+                {"id": 21, "lemma": "은", "type": "JX", "position": 1111, "weight": 0.100393}, 
+                {"id": 22, "lemma": "접근", "type": "NNG", "position": 1115, "weight": 0.9}, 
+                {"id": 23, "lemma": "하", "type": "XSV", "position": 1121, "weight": 0.0001}, 
+                {"id": 24, "lemma": "ㄹ", "type": "ETM", "position": 1121, "weight": 0.387847}, 
+                {"id": 25, "lemma": "수", "type": "NNB", "position": 1125, "weight": 0.215617}, 
+                {"id": 26, "lemma": "없", "type": "VA", "position": 1129, "weight": 0.101269}, 
+                {"id": 27, "lemma": "었", "type": "EP", "position": 1132, "weight": 0.9}, 
+                {"id": 28, "lemma": "다", "type": "EF", "position": 1135, "weight": 0.640954}, 
+                {"id": 29, "lemma": ".", "type": "SF", "position": 1138, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "박근혜", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "최순실", "type": "", "begin": 1, "end": 1}, 
+                {"id": 2, "text": "국정농단", "type": "", "begin": 2, "end": 3}, 
+                {"id": 3, "text": "게이트로", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "시민들의", "type": "", "begin": 6, "end": 8}, 
+                {"id": 5, "text": "촛불이", "type": "", "begin": 9, "end": 10}, 
+                {"id": 6, "text": "타올랐을", "type": "", "begin": 11, "end": 13}, 
+                {"id": 7, "text": "때도", "type": "", "begin": 14, "end": 15}, 
+                {"id": 8, "text": "세월호", "type": "", "begin": 16, "end": 17}, 
+                {"id": 9, "text": "유가족들은", "type": "", "begin": 18, "end": 21}, 
+                {"id": 10, "text": "접근할", "type": "", "begin": 22, "end": 24}, 
+                {"id": 11, "text": "수", "type": "", "begin": 25, "end": 25}, 
+                {"id": 12, "text": "없었다.", "type": "", "begin": 26, "end": 29}
+            ], 
+            "NE": [
+                {"id": 0, "text": "박근혜", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.591129, "common_noun": 0}, 
+                {"id": 1, "text": "최순실", "type": "PS_NAME", "begin": 1, "end": 1, "weight": 0.274664, "common_noun": 0}, 
+                {"id": 2, "text": "시민", "type": "CV_POSITION", "begin": 6, "end": 6, "weight": 0.458323, "common_noun": 0}, 
+                {"id": 3, "text": "세월호", "type": "AF_TRANSPORT", "begin": 16, "end": 17, "weight": 0.183028, "common_noun": 0}, 
+                {"id": 4, "text": "유가족", "type": "CV_RELATION", "begin": 18, "end": 19, "weight": 0.596521, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "박근혜", "head": 1, "label": "NP", "mod": [], "weight": 0.0161211}, 
+                {"id": 1, "text": "최순실", "head": 2, "label": "NP", "mod": [0], "weight": 0.161317}, 
+                {"id": 2, "text": "국정농단", "head": 3, "label": "NP", "mod": [1], "weight": 0.698139}, 
+                {"id": 3, "text": "게이트로", "head": 6, "label": "NP_AJT", "mod": [2], "weight": 0.381949}, 
+                {"id": 4, "text": "시민들의", "head": 5, "label": "NP_MOD", "mod": [], "weight": 0.652067}, 
+                {"id": 5, "text": "촛불이", "head": 6, "label": "NP_SBJ", "mod": [4], "weight": 0.737657}, 
+                {"id": 6, "text": "타올랐을", "head": 7, "label": "VP_MOD", "mod": [3, 5], "weight": 0.823668}, 
+                {"id": 7, "text": "때도", "head": 10, "label": "NP_AJT", "mod": [6], "weight": 0.651676}, 
+                {"id": 8, "text": "세월호", "head": 9, "label": "NP", "mod": [], "weight": 0.564903}, 
+                {"id": 9, "text": "유가족들은", "head": 10, "label": "NP_SBJ", "mod": [8], "weight": 0.653339}, 
+                {"id": 10, "text": "접근할", "head": 11, "label": "VP_MOD", "mod": [7, 9], "weight": 0.659528}, 
+                {"id": 11, "text": "수", "head": 12, "label": "NP_SBJ", "mod": [10], "weight": 0.708774}, 
+                {"id": 12, "text": "없었다.", "head": -1, "label": "VP", "mod": [11], "weight": 2.14993e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "박근혜 최순실 국정농단 게이트로", "begin": 0, "end": 3, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "시민들의 촛불이", "begin": 4, "end": 5, "key_begin": 4, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S_MOD", "text": "P#0@AJT로 P#1@SBJ이 타올랐을", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "S#2@MOD을 때도", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 5, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "세월호 유가족들은", "begin": 8, "end": 9, "key_begin": 8, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S_MOD", "text": "P#3@AJT도 P#4@SBJ은 접근할", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": 6, "sub_phrase": [3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_SBJ", "text": "S#5@MODㄹ 수", "begin": 0, "end": 11, "key_begin": 11, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "P#6@SBJ수 없었다.", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": -1, "sub_phrase": [6], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "타오르", "sense": 1, "word_id": 6, "weight": 0.460616, "argument": [
+                    {"type": "ARG1", "word_id": 5, "text": "시민들의 촛불", "weight": 0.460616}
+                ]}, 
+                {"verb": "접근", "sense": 1, "word_id": 10, "weight": 0.548801, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 7, "text": "때", "weight": 0.664385}, 
+                    {"type": "ARGM-NEG", "word_id": 12, "text": "없었다.", "weight": 0.433218}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 10, 
+            "text": "사상 최대 규모인 232만명이 거리로 쏟아져 나온 지난해 12월 3일 처음으로 청와대 앞 100m 지점까지 행진이 허용됐다.", 
+            "morp": [
+                {"id": 0, "lemma": "사상", "type": "NNG", "position": 1139, "weight": 0.436313}, 
+                {"id": 1, "lemma": "최대", "type": "NNG", "position": 1146, "weight": 0.9}, 
+                {"id": 2, "lemma": "규모", "type": "NNG", "position": 1153, "weight": 0.9}, 
+                {"id": 3, "lemma": "이", "type": "VCP", "position": 1159, "weight": 0.0177525}, 
+                {"id": 4, "lemma": "ㄴ", "type": "ETM", "position": 1159, "weight": 0.220712}, 
+                {"id": 5, "lemma": "232", "type": "SN", "position": 1163, "weight": 1}, 
+                {"id": 6, "lemma": "만", "type": "NR", "position": 1166, "weight": 0.0178717}, 
+                {"id": 7, "lemma": "명", "type": "NNB", "position": 1169, "weight": 0.368717}, 
+                {"id": 8, "lemma": "이", "type": "JKS", "position": 1172, "weight": 0.0376169}, 
+                {"id": 9, "lemma": "거리", "type": "NNG", "position": 1176, "weight": 0.188794}, 
+                {"id": 10, "lemma": "로", "type": "JKB", "position": 1182, "weight": 0.153229}, 
+                {"id": 11, "lemma": "쏟아지", "type": "VV", "position": 1186, "weight": 0.9}, 
+                {"id": 12, "lemma": "어", "type": "EC", "position": 1192, "weight": 0.41831}, 
+                {"id": 13, "lemma": "나오", "type": "VV", "position": 1196, "weight": 0.9}, 
+                {"id": 14, "lemma": "ㄴ", "type": "ETM", "position": 1199, "weight": 0.304215}, 
+                {"id": 15, "lemma": "지난", "type": "NNG", "position": 1203, "weight": 0.479157}, 
+                {"id": 16, "lemma": "해", "type": "NNG", "position": 1209, "weight": 0.124011}, 
+                {"id": 17, "lemma": "12", "type": "SN", "position": 1213, "weight": 1}, 
+                {"id": 18, "lemma": "월", "type": "NNB", "position": 1215, "weight": 0.408539}, 
+                {"id": 19, "lemma": "3", "type": "SN", "position": 1219, "weight": 1}, 
+                {"id": 20, "lemma": "일", "type": "NNB", "position": 1220, "weight": 0.126777}, 
+                {"id": 21, "lemma": "처음", "type": "NNG", "position": 1224, "weight": 0.9}, 
+                {"id": 22, "lemma": "으로", "type": "JKB", "position": 1230, "weight": 0.153406}, 
+                {"id": 23, "lemma": "청와대", "type": "NNP", "position": 1237, "weight": 0.0229745}, 
+                {"id": 24, "lemma": "앞", "type": "NNG", "position": 1247, "weight": 0.9}, 
+                {"id": 25, "lemma": "100", "type": "SN", "position": 1251, "weight": 1}, 
+                {"id": 26, "lemma": "m", "type": "SL", "position": 1254, "weight": 1}, 
+                {"id": 27, "lemma": "지점", "type": "NNG", "position": 1256, "weight": 0.9}, 
+                {"id": 28, "lemma": "까지", "type": "JX", "position": 1262, "weight": 0.0687424}, 
+                {"id": 29, "lemma": "행진", "type": "NNG", "position": 1269, "weight": 0.323627}, 
+                {"id": 30, "lemma": "이", "type": "JKS", "position": 1275, "weight": 0.0360723}, 
+                {"id": 31, "lemma": "허용", "type": "NNG", "position": 1279, "weight": 0.208774}, 
+                {"id": 32, "lemma": "되", "type": "XSV", "position": 1285, "weight": 0.000224177}, 
+                {"id": 33, "lemma": "었", "type": "EP", "position": 1285, "weight": 0.9}, 
+                {"id": 34, "lemma": "다", "type": "EF", "position": 1288, "weight": 0.640954}, 
+                {"id": 35, "lemma": ".", "type": "SF", "position": 1291, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "사상", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "최대", "type": "", "begin": 1, "end": 1}, 
+                {"id": 2, "text": "규모인", "type": "", "begin": 2, "end": 4}, 
+                {"id": 3, "text": "232만명이", "type": "", "begin": 5, "end": 8}, 
+                {"id": 4, "text": "거리로", "type": "", "begin": 9, "end": 10}, 
+                {"id": 5, "text": "쏟아져", "type": "", "begin": 11, "end": 12}, 
+                {"id": 6, "text": "나온", "type": "", "begin": 13, "end": 14}, 
+                {"id": 7, "text": "지난해", "type": "", "begin": 15, "end": 16}, 
+                {"id": 8, "text": "12월", "type": "", "begin": 17, "end": 18}, 
+                {"id": 9, "text": "3일", "type": "", "begin": 19, "end": 20}, 
+                {"id": 10, "text": "처음으로", "type": "", "begin": 21, "end": 22}, 
+                {"id": 11, "text": "청와대", "type": "", "begin": 23, "end": 23}, 
+                {"id": 12, "text": "앞", "type": "", "begin": 24, "end": 24}, 
+                {"id": 13, "text": "100m", "type": "", "begin": 25, "end": 26}, 
+                {"id": 14, "text": "지점까지", "type": "", "begin": 27, "end": 28}, 
+                {"id": 15, "text": "행진이", "type": "", "begin": 29, "end": 30}, 
+                {"id": 16, "text": "허용됐다.", "type": "", "begin": 31, "end": 35}
+            ], 
+            "NE": [
+                {"id": 0, "text": "232만명", "type": "QT_MAN_COUNT", "begin": 5, "end": 7, "weight": 0.649607, "common_noun": 0}, 
+                {"id": 1, "text": "지난해 12월 3일", "type": "DT_OTHERS", "begin": 15, "end": 20, "weight": 0.872698, "common_noun": 0}, 
+                {"id": 2, "text": "청와대", "type": "OGG_POLITICS", "begin": 23, "end": 23, "weight": 0.512623, "common_noun": 0}, 
+                {"id": 3, "text": "100m", "type": "QT_LENGTH", "begin": 25, "end": 26, "weight": 0.659149, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "사상", "head": 2, "label": "NP", "mod": [], "weight": 0.378664}, 
+                {"id": 1, "text": "최대", "head": 2, "label": "NP", "mod": [], "weight": 0.79804}, 
+                {"id": 2, "text": "규모인", "head": 3, "label": "VNP_MOD", "mod": [0, 1], "weight": 0.68904}, 
+                {"id": 3, "text": "232만명이", "head": 5, "label": "NP_SBJ", "mod": [2], "weight": 0.714054}, 
+                {"id": 4, "text": "거리로", "head": 5, "label": "NP_AJT", "mod": [], "weight": 0.707868}, 
+                {"id": 5, "text": "쏟아져", "head": 6, "label": "VP", "mod": [3, 4], "weight": 0.704959}, 
+                {"id": 6, "text": "나온", "head": 9, "label": "VP_MOD", "mod": [5], "weight": 0.40358}, 
+                {"id": 7, "text": "지난해", "head": 8, "label": "NP", "mod": [], "weight": 0.374954}, 
+                {"id": 8, "text": "12월", "head": 9, "label": "NP", "mod": [7], "weight": 0.680451}, 
+                {"id": 9, "text": "3일", "head": 16, "label": "NP_AJT", "mod": [6, 8], "weight": 0.788093}, 
+                {"id": 10, "text": "처음으로", "head": 16, "label": "NP_AJT", "mod": [], "weight": 0.878324}, 
+                {"id": 11, "text": "청와대", "head": 12, "label": "NP", "mod": [], "weight": 0.722553}, 
+                {"id": 12, "text": "앞", "head": 13, "label": "NP", "mod": [11], "weight": 0.259785}, 
+                {"id": 13, "text": "100m", "head": 14, "label": "NP", "mod": [12], "weight": 0.644554}, 
+                {"id": 14, "text": "지점까지", "head": 16, "label": "NP_AJT", "mod": [13], "weight": 0.589659}, 
+                {"id": 15, "text": "행진이", "head": 16, "label": "NP_SBJ", "mod": [], "weight": 0.835702}, 
+                {"id": 16, "text": "허용됐다.", "head": -1, "label": "VP", "mod": [9, 10, 14, 15], "weight": 0.000253017}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VNP_MOD", "text": "사상 최대 규모인", "begin": 0, "end": 2, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "P#0@MODㄴ 232만명이", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 3, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "거리로", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S_MOD", "text": "P#1@SBJ이 P#2@AJT로 쏟아져 나온", "begin": 0, "end": 6, "key_begin": 5, "head_phrase": 4, "sub_phrase": [1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "S#3@MODㄴ 지난해 12월 3일", "begin": 0, "end": 9, "key_begin": 7, "head_phrase": 8, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "처음으로", "begin": 10, "end": 10, "key_begin": 10, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "청와대 앞 100m 지점까지", "begin": 11, "end": 14, "key_begin": 11, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_SBJ", "text": "행진이", "begin": 15, "end": 15, "key_begin": 15, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "P#4@AJT일 P#5@AJT으로 P#6@AJT까지 P#7@SBJ이 허용됐다.", "begin": 0, "end": 16, "key_begin": 16, "head_phrase": -1, "sub_phrase": [4, 5, 6, 7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "쏟아지", "sense": 1, "word_id": 5, "weight": 0.127279, "argument": [
+                    {"type": "ARG1", "word_id": 3, "text": "232만명", "weight": 0.128675}, 
+                    {"type": "ARG2", "word_id": 4, "text": "거리", "weight": 0.125883}
+                ]}, 
+                {"verb": "나오", "sense": 1, "word_id": 6, "weight": 0.1288, "argument": [
+                    {"type": "ARGM-MNR", "word_id": 5, "text": "쏟아져", "weight": 0.1288}
+                ]}, 
+                {"verb": "허용", "sense": 1, "word_id": 16, "weight": 0.217781, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 10, "text": "처음", "weight": 0.117857}, 
+                    {"type": "ARG2", "word_id": 14, "text": "청와대 앞 100m 지점", "weight": 0.114863}, 
+                    {"type": "ARG1", "word_id": 15, "text": "행진", "weight": 0.420624}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 11, 
+            "text": " 3년이 훨씬 지나서야 접근할 수 있었던 청와대 100m 앞에는 세월호 유가족들이 맨 앞에서 있었다.", 
+            "morp": [
+                {"id": 0, "lemma": "3", "type": "SN", "position": 1293, "weight": 1}, 
+                {"id": 1, "lemma": "년", "type": "NNB", "position": 1294, "weight": 0.414343}, 
+                {"id": 2, "lemma": "이", "type": "JKS", "position": 1297, "weight": 0.0376169}, 
+                {"id": 3, "lemma": "훨씬", "type": "MAG", "position": 1301, "weight": 0.9}, 
+                {"id": 4, "lemma": "지나", "type": "VV", "position": 1308, "weight": 0.389435}, 
+                {"id": 5, "lemma": "아서", "type": "EC", "position": 1314, "weight": 0.428178}, 
+                {"id": 6, "lemma": "야", "type": "JX", "position": 1317, "weight": 0.00619841}, 
+                {"id": 7, "lemma": "접근", "type": "NNG", "position": 1321, "weight": 0.9}, 
+                {"id": 8, "lemma": "하", "type": "XSV", "position": 1327, "weight": 0.0001}, 
+                {"id": 9, "lemma": "ㄹ", "type": "ETM", "position": 1327, "weight": 0.387847}, 
+                {"id": 10, "lemma": "수", "type": "NNB", "position": 1331, "weight": 0.215617}, 
+                {"id": 11, "lemma": "있", "type": "VA", "position": 1335, "weight": 0.0518488}, 
+                {"id": 12, "lemma": "었", "type": "EP", "position": 1338, "weight": 0.9}, 
+                {"id": 13, "lemma": "던", "type": "ETM", "position": 1341, "weight": 0.107547}, 
+                {"id": 14, "lemma": "청와대", "type": "NNP", "position": 1345, "weight": 0.0280046}, 
+                {"id": 15, "lemma": "100", "type": "SN", "position": 1355, "weight": 1}, 
+                {"id": 16, "lemma": "m", "type": "SL", "position": 1358, "weight": 1}, 
+                {"id": 17, "lemma": "앞", "type": "NNG", "position": 1360, "weight": 0.9}, 
+                {"id": 18, "lemma": "에", "type": "JKB", "position": 1363, "weight": 0.153364}, 
+                {"id": 19, "lemma": "는", "type": "JX", "position": 1366, "weight": 0.0387928}, 
+                {"id": 20, "lemma": "세월", "type": "NNG", "position": 1370, "weight": 0.32475}, 
+                {"id": 21, "lemma": "호", "type": "NNB", "position": 1376, "weight": 0.00820732}, 
+                {"id": 22, "lemma": "유", "type": "XPN", "position": 1380, "weight": 0.0001}, 
+                {"id": 23, "lemma": "가족", "type": "NNG", "position": 1383, "weight": 0.9}, 
+                {"id": 24, "lemma": "들", "type": "XSN", "position": 1389, "weight": 0.0299841}, 
+                {"id": 25, "lemma": "이", "type": "JKS", "position": 1392, "weight": 0.0731805}, 
+                {"id": 26, "lemma": "맨", "type": "MM", "position": 1396, "weight": 0.0219189}, 
+                {"id": 27, "lemma": "앞", "type": "NNG", "position": 1400, "weight": 0.9}, 
+                {"id": 28, "lemma": "에서", "type": "JKB", "position": 1403, "weight": 0.153407}, 
+                {"id": 29, "lemma": "있", "type": "VA", "position": 1410, "weight": 0.037292}, 
+                {"id": 30, "lemma": "었", "type": "EP", "position": 1413, "weight": 0.9}, 
+                {"id": 31, "lemma": "다", "type": "EF", "position": 1416, "weight": 0.640954}, 
+                {"id": 32, "lemma": ".", "type": "SF", "position": 1419, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "3년이", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "훨씬", "type": "", "begin": 3, "end": 3}, 
+                {"id": 2, "text": "지나서야", "type": "", "begin": 4, "end": 6}, 
+                {"id": 3, "text": "접근할", "type": "", "begin": 7, "end": 9}, 
+                {"id": 4, "text": "수", "type": "", "begin": 10, "end": 10}, 
+                {"id": 5, "text": "있었던", "type": "", "begin": 11, "end": 13}, 
+                {"id": 6, "text": "청와대", "type": "", "begin": 14, "end": 14}, 
+                {"id": 7, "text": "100m", "type": "", "begin": 15, "end": 16}, 
+                {"id": 8, "text": "앞에는", "type": "", "begin": 17, "end": 19}, 
+                {"id": 9, "text": "세월호", "type": "", "begin": 20, "end": 21}, 
+                {"id": 10, "text": "유가족들이", "type": "", "begin": 22, "end": 25}, 
+                {"id": 11, "text": "맨", "type": "", "begin": 26, "end": 26}, 
+                {"id": 12, "text": "앞에서", "type": "", "begin": 27, "end": 28}, 
+                {"id": 13, "text": "있었다.", "type": "", "begin": 29, "end": 32}
+            ], 
+            "NE": [
+                {"id": 0, "text": "3년", "type": "DT_DURATION", "begin": 0, "end": 1, "weight": 0.527159, "common_noun": 0}, 
+                {"id": 1, "text": "청와대", "type": "AF_BUILDING", "begin": 14, "end": 14, "weight": 0.368097, "common_noun": 0}, 
+                {"id": 2, "text": "100m", "type": "QT_LENGTH", "begin": 15, "end": 16, "weight": 0.37002, "common_noun": 0}, 
+                {"id": 3, "text": "세월호", "type": "AF_TRANSPORT", "begin": 20, "end": 21, "weight": 0.220498, "common_noun": 0}, 
+                {"id": 4, "text": "유가족", "type": "CV_RELATION", "begin": 22, "end": 23, "weight": 0.598182, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "3년이", "head": 2, "label": "NP_SBJ", "mod": [], "weight": 0.71136}, 
+                {"id": 1, "text": "훨씬", "head": 2, "label": "AP", "mod": [], "weight": 0.861747}, 
+                {"id": 2, "text": "지나서야", "head": 3, "label": "VP", "mod": [0, 1], "weight": 0.58529}, 
+                {"id": 3, "text": "접근할", "head": 4, "label": "VP_MOD", "mod": [2], "weight": 0.741249}, 
+                {"id": 4, "text": "수", "head": 5, "label": "NP_SBJ", "mod": [3], "weight": 0.769768}, 
+                {"id": 5, "text": "있었던", "head": 8, "label": "VP_MOD", "mod": [4], "weight": 0.395004}, 
+                {"id": 6, "text": "청와대", "head": 7, "label": "NP", "mod": [], "weight": 0.337902}, 
+                {"id": 7, "text": "100m", "head": 8, "label": "NP", "mod": [6], "weight": 0.812342}, 
+                {"id": 8, "text": "앞에는", "head": 13, "label": "NP_AJT", "mod": [5, 7], "weight": 0.644633}, 
+                {"id": 9, "text": "세월호", "head": 10, "label": "NP", "mod": [], "weight": 0.683588}, 
+                {"id": 10, "text": "유가족들이", "head": 13, "label": "NP_SBJ", "mod": [9], "weight": 0.744663}, 
+                {"id": 11, "text": "맨", "head": 12, "label": "DP", "mod": [], "weight": 0.600287}, 
+                {"id": 12, "text": "앞에서", "head": 13, "label": "NP_AJT", "mod": [11], "weight": 0.784198}, 
+                {"id": 13, "text": "있었다.", "head": -1, "label": "VP", "mod": [8, 10, 12], "weight": 0.00258386}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "3년이", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "AP", "text": "훨씬", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S_MOD", "text": "P#0@SBJ이 P#1@AP훨씬 지나서야 접근할", "begin": 0, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "S#2@MODㄹ 수", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S_MOD", "text": "P#3@SBJ수 있었던", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "S#4@MOD던 청와대 100m 앞에는", "begin": 0, "end": 8, "key_begin": 6, "head_phrase": 8, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_SBJ", "text": "세월호 유가족들이", "begin": 9, "end": 10, "key_begin": 9, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_AJT", "text": "맨 앞에서", "begin": 11, "end": 12, "key_begin": 11, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "P#5@AJT는 P#6@SBJ이 P#7@AJT에서 있었다.", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": -1, "sub_phrase": [5, 6, 7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "지나", "sense": 1, "word_id": 2, "weight": 0.171252, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "3년", "weight": 0.18906}, 
+                    {"type": "ARGM-EXT", "word_id": 1, "text": "훨씬", "weight": 0.153444}
+                ]}, 
+                {"verb": "접근", "sense": 1, "word_id": 3, "weight": 0.377083, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 2, "text": "지나아서", "weight": 0.162505}, 
+                    {"type": "AUX", "word_id": 5, "text": "있었던", "weight": 0.591661}
+                ]}, 
+                {"verb": "있", "sense": 1, "word_id": 13, "weight": 0.368275, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 8, "text": "청와대 100m 앞", "weight": 0.508917}, 
+                    {"type": "ARG1", "word_id": 10, "text": "세월호 유가족들", "weight": 0.255501}, 
+                    {"type": "ARGM-LOC", "word_id": 12, "text": "맨 앞", "weight": 0.340406}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 12, 
+            "text": "100m 앞에서 멈춰 섰던 최군 어머니는 청와대 입구에서 사진을 찍으며 “변화가 확 느껴진 행복한 시간이었다”라고 했다.", 
+            "morp": [
+                {"id": 0, "lemma": "100", "type": "SN", "position": 1420, "weight": 1}, 
+                {"id": 1, "lemma": "m", "type": "SL", "position": 1423, "weight": 1}, 
+                {"id": 2, "lemma": "앞", "type": "NNG", "position": 1425, "weight": 0.9}, 
+                {"id": 3, "lemma": "에서", "type": "JKB", "position": 1428, "weight": 0.153407}, 
+                {"id": 4, "lemma": "멈추", "type": "VV", "position": 1435, "weight": 0.9}, 
+                {"id": 5, "lemma": "어", "type": "EC", "position": 1438, "weight": 0.41831}, 
+                {"id": 6, "lemma": "서", "type": "VV", "position": 1442, "weight": 0.0916857}, 
+                {"id": 7, "lemma": "었", "type": "EP", "position": 1442, "weight": 0.9}, 
+                {"id": 8, "lemma": "던", "type": "ETM", "position": 1445, "weight": 0.107547}, 
+                {"id": 9, "lemma": "최", "type": "NNP", "position": 1449, "weight": 0.0230911}, 
+                {"id": 10, "lemma": "군", "type": "NNB", "position": 1452, "weight": 0.00622461}, 
+                {"id": 11, "lemma": "어머니", "type": "NNG", "position": 1456, "weight": 0.9}, 
+                {"id": 12, "lemma": "는", "type": "JX", "position": 1465, "weight": 0.0287565}, 
+                {"id": 13, "lemma": "청와대", "type": "NNP", "position": 1469, "weight": 0.0447803}, 
+                {"id": 14, "lemma": "입구", "type": "NNG", "position": 1479, "weight": 0.9}, 
+                {"id": 15, "lemma": "에서", "type": "JKB", "position": 1485, "weight": 0.153407}, 
+                {"id": 16, "lemma": "사진", "type": "NNG", "position": 1492, "weight": 0.207939}, 
+                {"id": 17, "lemma": "을", "type": "JKO", "position": 1498, "weight": 0.129611}, 
+                {"id": 18, "lemma": "찍", "type": "VV", "position": 1502, "weight": 0.772248}, 
+                {"id": 19, "lemma": "으며", "type": "EC", "position": 1505, "weight": 0.431045}, 
+                {"id": 20, "lemma": "“", "type": "SS", "position": 1512, "weight": 1}, 
+                {"id": 21, "lemma": "변화", "type": "NNG", "position": 1515, "weight": 0.9}, 
+                {"id": 22, "lemma": "가", "type": "JKS", "position": 1521, "weight": 0.066324}, 
+                {"id": 23, "lemma": "확", "type": "MAG", "position": 1525, "weight": 0.112097}, 
+                {"id": 24, "lemma": "느끼", "type": "VV", "position": 1529, "weight": 0.9}, 
+                {"id": 25, "lemma": "어", "type": "EC", "position": 1532, "weight": 0.41831}, 
+                {"id": 26, "lemma": "지", "type": "VX", "position": 1532, "weight": 0.0539764}, 
+                {"id": 27, "lemma": "ㄴ", "type": "ETM", "position": 1532, "weight": 0.302612}, 
+                {"id": 28, "lemma": "행복", "type": "NNG", "position": 1539, "weight": 0.9}, 
+                {"id": 29, "lemma": "하", "type": "XSA", "position": 1545, "weight": 0.0001}, 
+                {"id": 30, "lemma": "ㄴ", "type": "ETM", "position": 1545, "weight": 0.488779}, 
+                {"id": 31, "lemma": "시간", "type": "NNG", "position": 1549, "weight": 0.572329}, 
+                {"id": 32, "lemma": "이", "type": "VCP", "position": 1555, "weight": 0.0177525}, 
+                {"id": 33, "lemma": "었", "type": "EP", "position": 1558, "weight": 0.9}, 
+                {"id": 34, "lemma": "다", "type": "EF", "position": 1561, "weight": 0.640954}, 
+                {"id": 35, "lemma": "”", "type": "SS", "position": 1564, "weight": 1}, 
+                {"id": 36, "lemma": "이", "type": "VCP", "position": 1567, "weight": 0.00747344}, 
+                {"id": 37, "lemma": "라고", "type": "EC", "position": 1567, "weight": 0.204147}, 
+                {"id": 38, "lemma": "하", "type": "VV", "position": 1574, "weight": 0.140183}, 
+                {"id": 39, "lemma": "었", "type": "EP", "position": 1574, "weight": 0.9}, 
+                {"id": 40, "lemma": "다", "type": "EF", "position": 1577, "weight": 0.640954}, 
+                {"id": 41, "lemma": ".", "type": "SF", "position": 1580, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "100m", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "앞에서", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "멈춰", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "섰던", "type": "", "begin": 6, "end": 8}, 
+                {"id": 4, "text": "최군", "type": "", "begin": 9, "end": 10}, 
+                {"id": 5, "text": "어머니는", "type": "", "begin": 11, "end": 12}, 
+                {"id": 6, "text": "청와대", "type": "", "begin": 13, "end": 13}, 
+                {"id": 7, "text": "입구에서", "type": "", "begin": 14, "end": 15}, 
+                {"id": 8, "text": "사진을", "type": "", "begin": 16, "end": 17}, 
+                {"id": 9, "text": "찍으며", "type": "", "begin": 18, "end": 19}, 
+                {"id": 10, "text": "“변화가", "type": "", "begin": 20, "end": 22}, 
+                {"id": 11, "text": "확", "type": "", "begin": 23, "end": 23}, 
+                {"id": 12, "text": "느껴진", "type": "", "begin": 24, "end": 27}, 
+                {"id": 13, "text": "행복한", "type": "", "begin": 28, "end": 30}, 
+                {"id": 14, "text": "시간이었다”라고", "type": "", "begin": 31, "end": 37}, 
+                {"id": 15, "text": "했다.", "type": "", "begin": 38, "end": 41}
+            ], 
+            "NE": [
+                {"id": 0, "text": "100m", "type": "QT_LENGTH", "begin": 0, "end": 1, "weight": 0.458387, "common_noun": 0}, 
+                {"id": 1, "text": "최", "type": "PS_NAME", "begin": 9, "end": 9, "weight": 0.801572, "common_noun": 0}, 
+                {"id": 2, "text": "어머니", "type": "CV_RELATION", "begin": 11, "end": 11, "weight": 0.64671, "common_noun": 0}, 
+                {"id": 3, "text": "청와대", "type": "OGG_POLITICS", "begin": 13, "end": 13, "weight": 0.413404, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "100m", "head": 1, "label": "NP", "mod": [], "weight": 0.438776}, 
+                {"id": 1, "text": "앞에서", "head": 2, "label": "NP_AJT", "mod": [0], "weight": 0.812905}, 
+                {"id": 2, "text": "멈춰", "head": 3, "label": "VP", "mod": [1], "weight": 0.782868}, 
+                {"id": 3, "text": "섰던", "head": 5, "label": "VP_MOD", "mod": [2], "weight": 0.663495}, 
+                {"id": 4, "text": "최군", "head": 5, "label": "NP", "mod": [], "weight": 0.640159}, 
+                {"id": 5, "text": "어머니는", "head": 9, "label": "NP_SBJ", "mod": [3, 4], "weight": 0.777701}, 
+                {"id": 6, "text": "청와대", "head": 7, "label": "NP", "mod": [], "weight": 0.850862}, 
+                {"id": 7, "text": "입구에서", "head": 9, "label": "NP_AJT", "mod": [6], "weight": 0.801455}, 
+                {"id": 8, "text": "사진을", "head": 9, "label": "NP_OBJ", "mod": [], "weight": 0.806455}, 
+                {"id": 9, "text": "찍으며", "head": 15, "label": "VP", "mod": [5, 7, 8], "weight": 0.819812}, 
+                {"id": 10, "text": "“변화가", "head": 12, "label": "NP_SBJ", "mod": [], "weight": 0.830294}, 
+                {"id": 11, "text": "확", "head": 12, "label": "AP", "mod": [], "weight": 0.77179}, 
+                {"id": 12, "text": "느껴진", "head": 13, "label": "VP_MOD", "mod": [10, 11], "weight": 0.225167}, 
+                {"id": 13, "text": "행복한", "head": 14, "label": "VP_MOD", "mod": [12], "weight": 0.821264}, 
+                {"id": 14, "text": "시간이었다”라고", "head": 15, "label": "VNP_CMP", "mod": [13], "weight": 0.615846}, 
+                {"id": 15, "text": "했다.", "head": -1, "label": "VP", "mod": [9, 14], "weight": 0.00231337}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "100m 앞에서", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@AJT에서 멈춰 섰던", "begin": 0, "end": 3, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "P#1@MOD던 최군 어머니는", "begin": 0, "end": 5, "key_begin": 4, "head_phrase": 5, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "청와대 입구에서", "begin": 6, "end": 7, "key_begin": 6, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "사진을", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#2@SBJ는 P#3@AJT에서 P#4@OBJ을 찍으며", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 7, "sub_phrase": [2, 3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "VNP_CMP", "text": "“변화가 확 느껴진 행복한 시간이었다”라고", "begin": 10, "end": 14, "key_begin": 10, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "S#5@S으며 P#6@CMP라고 했다.", "begin": 0, "end": 15, "key_begin": 15, "head_phrase": -1, "sub_phrase": [5, 6], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "멈추", "sense": 1, "word_id": 2, "weight": 0.251394, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 1, "text": "100m 앞", "weight": 0.251394}
+                ]}, 
+                {"verb": "서", "sense": 1, "word_id": 3, "weight": 0.37124, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 1, "text": "100m 앞", "weight": 0.412447}, 
+                    {"type": "ARG1", "word_id": 5, "text": "최군 어머니", "weight": 0.330032}
+                ]}, 
+                {"verb": "찍", "sense": 1, "word_id": 9, "weight": 0.355098, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 7, "text": "청와대 입구", "weight": 0.381611}, 
+                    {"type": "ARG1", "word_id": 8, "text": "사진", "weight": 0.328584}
+                ]}, 
+                {"verb": "느끼", "sense": 1, "word_id": 12, "weight": 0.235587, "argument": [
+                    {"type": "ARG1", "word_id": 10, "text": "“변화", "weight": 0.370936}, 
+                    {"type": "ARGM-ADV", "word_id": 11, "text": "확", "weight": 0.100238}
+                ]}, 
+                {"verb": "행복", "sense": 1, "word_id": 13, "weight": 0.526621, "argument": [
+                    {"type": "ARG1", "word_id": 14, "text": "“변화가 확 느껴진 행복한 시간이었다”라고", "weight": 0.526621}
+                ]}, 
+                {"verb": "하", "sense": 2, "word_id": 15, "weight": 0.4352, "argument": [
+                    {"type": "ARG2", "word_id": 14, "text": "“변화가 확 느껴진 행복한 시간이었다”라고", "weight": 0.4352}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 2, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.960363}
+            ]
+        }, 
+        {
+            "id": 13, 
+            "text": " 청와대 분수대 앞에서 촬영한 사진도 함께 공개했다.", 
+            "morp": [
+                {"id": 0, "lemma": "청와대", "type": "NNP", "position": 1582, "weight": 0.0891232}, 
+                {"id": 1, "lemma": "분수", "type": "NNG", "position": 1592, "weight": 0.9}, 
+                {"id": 2, "lemma": "대", "type": "NNG", "position": 1598, "weight": 0.0277971}, 
+                {"id": 3, "lemma": "앞", "type": "NNG", "position": 1602, "weight": 0.9}, 
+                {"id": 4, "lemma": "에서", "type": "JKB", "position": 1605, "weight": 0.153407}, 
+                {"id": 5, "lemma": "촬영", "type": "NNG", "position": 1612, "weight": 0.9}, 
+                {"id": 6, "lemma": "하", "type": "XSV", "position": 1618, "weight": 0.0001}, 
+                {"id": 7, "lemma": "ㄴ", "type": "ETM", "position": 1618, "weight": 0.392321}, 
+                {"id": 8, "lemma": "사진", "type": "NNG", "position": 1622, "weight": 0.6585}, 
+                {"id": 9, "lemma": "도", "type": "JX", "position": 1628, "weight": 0.0676272}, 
+                {"id": 10, "lemma": "함께", "type": "MAG", "position": 1632, "weight": 0.9}, 
+                {"id": 11, "lemma": "공개", "type": "NNG", "position": 1639, "weight": 0.9}, 
+                {"id": 12, "lemma": "하", "type": "XSV", "position": 1645, "weight": 0.0001}, 
+                {"id": 13, "lemma": "었", "type": "EP", "position": 1645, "weight": 0.9}, 
+                {"id": 14, "lemma": "다", "type": "EF", "position": 1648, "weight": 0.640954}, 
+                {"id": 15, "lemma": ".", "type": "SF", "position": 1651, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "청와대", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "분수대", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "앞에서", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "촬영한", "type": "", "begin": 5, "end": 7}, 
+                {"id": 4, "text": "사진도", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "함께", "type": "", "begin": 10, "end": 10}, 
+                {"id": 6, "text": "공개했다.", "type": "", "begin": 11, "end": 15}
+            ], 
+            "NE": [
+                {"id": 0, "text": "청와대", "type": "OGG_POLITICS", "begin": 0, "end": 0, "weight": 0.399944, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "청와대", "head": 1, "label": "NP", "mod": [], "weight": 0.38075}, 
+                {"id": 1, "text": "분수대", "head": 2, "label": "NP", "mod": [0], "weight": 0.706353}, 
+                {"id": 2, "text": "앞에서", "head": 3, "label": "NP_AJT", "mod": [1], "weight": 0.610651}, 
+                {"id": 3, "text": "촬영한", "head": 4, "label": "VP_MOD", "mod": [2], "weight": 0.717288}, 
+                {"id": 4, "text": "사진도", "head": 6, "label": "NP_SBJ", "mod": [3], "weight": 0.270239}, 
+                {"id": 5, "text": "함께", "head": 6, "label": "AP", "mod": [], "weight": 0.672216}, 
+                {"id": 6, "text": "공개했다.", "head": -1, "label": "VP", "mod": [4, 5], "weight": 0.0173064}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "청와대 분수대 앞에서", "begin": 0, "end": 2, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@AJT에서 촬영한", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "P#1@MODㄴ 사진도", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "AP", "text": "함께", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "P#2@SBJ도 P#3@AP함께 공개했다.", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": -1, "sub_phrase": [2, 3], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "촬영", "sense": 1, "word_id": 3, "weight": 0.197248, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 2, "text": "청와대 분수대 앞", "weight": 0.177181}, 
+                    {"type": "ARG1", "word_id": 4, "text": "사진", "weight": 0.217315}
+                ]}, 
+                {"verb": "공개", "sense": 1, "word_id": 6, "weight": 0.336571, "argument": [
+                    {"type": "ARG0", "word_id": 4, "text": "사진", "weight": 0.519893}, 
+                    {"type": "ARGM-ADV", "word_id": 5, "text": "함께", "weight": 1}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "o", "head_wid": 6, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.927088}
+            ]
+        }, 
+        {
+            "id": 14, 
+            "text": " 그는 “경찰에 연행되고 물대포에 최루액까지 맞았지만 끝내 가보질 못했던 분수대 앞을 자유롭게 다니니 꿈을 꾸고 있는 것 같다”고 소회를 밝혔다.", 
+            "morp": [
+                {"id": 0, "lemma": "그", "type": "NP", "position": 1653, "weight": 0.0328001}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 1656, "weight": 0.122593}, 
+                {"id": 2, "lemma": "“", "type": "SS", "position": 1660, "weight": 1}, 
+                {"id": 3, "lemma": "경찰", "type": "NNG", "position": 1663, "weight": 0.9}, 
+                {"id": 4, "lemma": "에", "type": "JKB", "position": 1669, "weight": 0.153364}, 
+                {"id": 5, "lemma": "연행", "type": "NNG", "position": 1673, "weight": 0.206928}, 
+                {"id": 6, "lemma": "되", "type": "XSV", "position": 1679, "weight": 0.000224177}, 
+                {"id": 7, "lemma": "고", "type": "EC", "position": 1682, "weight": 0.359917}, 
+                {"id": 8, "lemma": "물", "type": "NNG", "position": 1686, "weight": 0.187657}, 
+                {"id": 9, "lemma": "대포", "type": "NNG", "position": 1689, "weight": 0.184238}, 
+                {"id": 10, "lemma": "에", "type": "JKB", "position": 1695, "weight": 0.153364}, 
+                {"id": 11, "lemma": "최루", "type": "NNG", "position": 1699, "weight": 0.9}, 
+                {"id": 12, "lemma": "액", "type": "XSN", "position": 1705, "weight": 0.0246425}, 
+                {"id": 13, "lemma": "까지", "type": "JX", "position": 1708, "weight": 0.153385}, 
+                {"id": 14, "lemma": "맞", "type": "VV", "position": 1715, "weight": 0.146632}, 
+                {"id": 15, "lemma": "았", "type": "EP", "position": 1718, "weight": 0.9}, 
+                {"id": 16, "lemma": "지만", "type": "EC", "position": 1721, "weight": 0.194093}, 
+                {"id": 17, "lemma": "끝내", "type": "MAG", "position": 1728, "weight": 0.0184282}, 
+                {"id": 18, "lemma": "가", "type": "VV", "position": 1735, "weight": 0.0315916}, 
+                {"id": 19, "lemma": "아", "type": "EC", "position": 1738, "weight": 0.398809}, 
+                {"id": 20, "lemma": "보", "type": "VX", "position": 1738, "weight": 0.0990326}, 
+                {"id": 21, "lemma": "지", "type": "EC", "position": 1741, "weight": 0.185764}, 
+                {"id": 22, "lemma": "ㄹ", "type": "JX", "position": 1741, "weight": 0.0001}, 
+                {"id": 23, "lemma": "못하", "type": "VX", "position": 1745, "weight": 0.0245493}, 
+                {"id": 24, "lemma": "었", "type": "EP", "position": 1748, "weight": 0.9}, 
+                {"id": 25, "lemma": "던", "type": "ETM", "position": 1751, "weight": 0.107547}, 
+                {"id": 26, "lemma": "분수", "type": "NNG", "position": 1755, "weight": 0.9}, 
+                {"id": 27, "lemma": "대", "type": "NNG", "position": 1761, "weight": 0.0277971}, 
+                {"id": 28, "lemma": "앞", "type": "NNG", "position": 1765, "weight": 0.9}, 
+                {"id": 29, "lemma": "을", "type": "JKO", "position": 1768, "weight": 0.129611}, 
+                {"id": 30, "lemma": "자유", "type": "NNG", "position": 1772, "weight": 0.101315}, 
+                {"id": 31, "lemma": "롭", "type": "XSA", "position": 1778, "weight": 0.000351437}, 
+                {"id": 32, "lemma": "게", "type": "EC", "position": 1781, "weight": 0.362254}, 
+                {"id": 33, "lemma": "다니", "type": "VV", "position": 1785, "weight": 0.181286}, 
+                {"id": 34, "lemma": "니", "type": "EC", "position": 1791, "weight": 0.314691}, 
+                {"id": 35, "lemma": "꿈", "type": "NNG", "position": 1795, "weight": 0.21921}, 
+                {"id": 36, "lemma": "을", "type": "JKO", "position": 1798, "weight": 0.129611}, 
+                {"id": 37, "lemma": "꾸", "type": "VV", "position": 1802, "weight": 0.768042}, 
+                {"id": 38, "lemma": "고", "type": "EC", "position": 1805, "weight": 0.416679}, 
+                {"id": 39, "lemma": "있", "type": "VX", "position": 1809, "weight": 0.125953}, 
+                {"id": 40, "lemma": "는", "type": "ETM", "position": 1812, "weight": 0.183966}, 
+                {"id": 41, "lemma": "것", "type": "NNB", "position": 1816, "weight": 0.228788}, 
+                {"id": 42, "lemma": "같", "type": "VA", "position": 1820, "weight": 0.101272}, 
+                {"id": 43, "lemma": "다", "type": "EF", "position": 1823, "weight": 0.132573}, 
+                {"id": 44, "lemma": "”", "type": "SS", "position": 1826, "weight": 1}, 
+                {"id": 45, "lemma": "고", "type": "JKQ", "position": 1829, "weight": 0.000541335}, 
+                {"id": 46, "lemma": "소회", "type": "NNG", "position": 1833, "weight": 0.65}, 
+                {"id": 47, "lemma": "를", "type": "JKO", "position": 1839, "weight": 0.137686}, 
+                {"id": 48, "lemma": "밝히", "type": "VV", "position": 1843, "weight": 0.77701}, 
+                {"id": 49, "lemma": "었", "type": "EP", "position": 1846, "weight": 0.9}, 
+                {"id": 50, "lemma": "다", "type": "EF", "position": 1849, "weight": 0.640954}, 
+                {"id": 51, "lemma": ".", "type": "SF", "position": 1852, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "그는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "“경찰에", "type": "", "begin": 2, "end": 4}, 
+                {"id": 2, "text": "연행되고", "type": "", "begin": 5, "end": 7}, 
+                {"id": 3, "text": "물대포에", "type": "", "begin": 8, "end": 10}, 
+                {"id": 4, "text": "최루액까지", "type": "", "begin": 11, "end": 13}, 
+                {"id": 5, "text": "맞았지만", "type": "", "begin": 14, "end": 16}, 
+                {"id": 6, "text": "끝내", "type": "", "begin": 17, "end": 17}, 
+                {"id": 7, "text": "가보질", "type": "", "begin": 18, "end": 22}, 
+                {"id": 8, "text": "못했던", "type": "", "begin": 23, "end": 25}, 
+                {"id": 9, "text": "분수대", "type": "", "begin": 26, "end": 27}, 
+                {"id": 10, "text": "앞을", "type": "", "begin": 28, "end": 29}, 
+                {"id": 11, "text": "자유롭게", "type": "", "begin": 30, "end": 32}, 
+                {"id": 12, "text": "다니니", "type": "", "begin": 33, "end": 34}, 
+                {"id": 13, "text": "꿈을", "type": "", "begin": 35, "end": 36}, 
+                {"id": 14, "text": "꾸고", "type": "", "begin": 37, "end": 38}, 
+                {"id": 15, "text": "있는", "type": "", "begin": 39, "end": 40}, 
+                {"id": 16, "text": "것", "type": "", "begin": 41, "end": 41}, 
+                {"id": 17, "text": "같다”고", "type": "", "begin": 42, "end": 45}, 
+                {"id": 18, "text": "소회를", "type": "", "begin": 46, "end": 47}, 
+                {"id": 19, "text": "밝혔다.", "type": "", "begin": 48, "end": 51}
+            ], 
+            "NE": [
+                {"id": 0, "text": "경찰", "type": "OGG_POLITICS", "begin": 3, "end": 3, "weight": 0.278578, "common_noun": 0}, 
+                {"id": 1, "text": "물대포", "type": "AF_WEAPON", "begin": 8, "end": 9, "weight": 1, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "그는", "head": 19, "label": "NP_SBJ", "mod": [], "weight": 0.801709}, 
+                {"id": 1, "text": "“경찰에", "head": 2, "label": "NP_AJT", "mod": [], "weight": 0.729528}, 
+                {"id": 2, "text": "연행되고", "head": 5, "label": "VP", "mod": [1], "weight": 0.797844}, 
+                {"id": 3, "text": "물대포에", "head": 5, "label": "NP_AJT", "mod": [], "weight": 0.684895}, 
+                {"id": 4, "text": "최루액까지", "head": 5, "label": "NP_OBJ", "mod": [], "weight": 0.540662}, 
+                {"id": 5, "text": "맞았지만", "head": 7, "label": "VP", "mod": [2, 3, 4], "weight": 0.34771}, 
+                {"id": 6, "text": "끝내", "head": 7, "label": "AP", "mod": [], "weight": 0.639838}, 
+                {"id": 7, "text": "가보질", "head": 8, "label": "VP", "mod": [5, 6], "weight": 0.505635}, 
+                {"id": 8, "text": "못했던", "head": 10, "label": "VP_MOD", "mod": [7], "weight": 0.530688}, 
+                {"id": 9, "text": "분수대", "head": 10, "label": "NP", "mod": [], "weight": 0.740912}, 
+                {"id": 10, "text": "앞을", "head": 12, "label": "NP_OBJ", "mod": [8, 9], "weight": 0.785783}, 
+                {"id": 11, "text": "자유롭게", "head": 12, "label": "VP_AJT", "mod": [], "weight": 0.601365}, 
+                {"id": 12, "text": "다니니", "head": 14, "label": "VP", "mod": [10, 11], "weight": 0.19988}, 
+                {"id": 13, "text": "꿈을", "head": 14, "label": "NP_OBJ", "mod": [], "weight": 0.410385}, 
+                {"id": 14, "text": "꾸고", "head": 15, "label": "VP", "mod": [12, 13], "weight": 0.775096}, 
+                {"id": 15, "text": "있는", "head": 16, "label": "VP_MOD", "mod": [14], "weight": 0.743965}, 
+                {"id": 16, "text": "것", "head": 17, "label": "NP", "mod": [15], "weight": 0.736815}, 
+                {"id": 17, "text": "같다”고", "head": 19, "label": "VP_CMP", "mod": [16], "weight": 0.715343}, 
+                {"id": 18, "text": "소회를", "head": 19, "label": "NP_OBJ", "mod": [], "weight": 0.735678}, 
+                {"id": 19, "text": "밝혔다.", "head": -1, "label": "VP", "mod": [0, 17, 18], "weight": 5.23045e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "그는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_CMP", "text": "“경찰에 연행되고 물대포에 최루액까지 맞았지만 끝내 가보질 못했던 분수대 앞을 자유롭게 다니니 꿈을 꾸고 있는 것 같다”고", "begin": 1, "end": 17, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "소회를", "begin": 18, "end": 18, "key_begin": 18, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@SBJ는 P#1@CMP고 P#2@OBJ를 밝혔다.", "begin": 0, "end": 19, "key_begin": 19, "head_phrase": -1, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "연행", "sense": 1, "word_id": 2, "weight": 0, "argument": []}, 
+                {"verb": "맞", "sense": 1, "word_id": 5, "weight": 0.219981, "argument": [
+                    {"type": "ARG2", "word_id": 3, "text": "물대포", "weight": 0.226487}, 
+                    {"type": "ARG2", "word_id": 4, "text": "최루액", "weight": 0.213475}
+                ]}, 
+                {"verb": "가", "sense": 1, "word_id": 7, "weight": 0.381414, "argument": [
+                    {"type": "ARGM-ADV", "word_id": 6, "text": "끝내", "weight": 0.127428}, 
+                    {"type": "ARGM-NEG", "word_id": 8, "text": "못했던", "weight": 0.6354}
+                ]}, 
+                {"verb": "자유", "sense": 1, "word_id": 11, "weight": 0, "argument": []}, 
+                {"verb": "다니", "sense": 1, "word_id": 12, "weight": 0.214365, "argument": [
+                    {"type": "ARG1", "word_id": 10, "text": "앞", "weight": 0.211649}, 
+                    {"type": "ARGM-MNR", "word_id": 11, "text": "자유롭게", "weight": 0.217081}
+                ]}, 
+                {"verb": "꾸", "sense": 1, "word_id": 14, "weight": 0.367767, "argument": [
+                    {"type": "ARG1", "word_id": 13, "text": "꿈", "weight": 0.221426}, 
+                    {"type": "AUX", "word_id": 15, "text": "있는", "weight": 0.682723}, 
+                    {"type": "AUX", "word_id": 17, "text": "“경찰에 연행되고 물대포에 최루액까지 맞았지만 끝내 가보질 못했던 분수대 앞을 자유롭게 다니니 꿈을 꾸고 있는 것 같다”", "weight": 0.199151}
+                ]}, 
+                {"verb": "같", "sense": 1, "word_id": 17, "weight": 0, "argument": []}, 
+                {"verb": "밝히", "sense": 1, "word_id": 19, "weight": 0.409315, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "그", "weight": 0.644422}, 
+                    {"type": "ARGM-CAU", "word_id": 17, "text": "“경찰에 연행되고 물대포에 최루액까지 맞았지만 끝내 가보질 못했던 분수대 앞을 자유롭게 다니니 꿈을 꾸고 있는 것 같다”", "weight": 0.183081}, 
+                    {"type": "ARG1", "word_id": 18, "text": "소회", "weight": 0.400443}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 2, "ant_sid": 14, "ant_wid": 0, "ant_is_title": 0, "weight": 0.730909}, 
+                {"id": 1, "type": "s", "head_wid": 5, "ant_sid": 14, "ant_wid": 0, "ant_is_title": 0, "weight": 0.697562}, 
+                {"id": 2, "type": "s", "head_wid": 12, "ant_sid": 14, "ant_wid": 0, "ant_is_title": 0, "weight": 0.393322}, 
+                {"id": 3, "type": "s", "head_wid": 14, "ant_sid": 14, "ant_wid": 0, "ant_is_title": 0, "weight": 0.812349}
+            ]
+        }, 
+        {
+            "id": 15, 
+            "text": "세월호 유가족이 보내온 사진은 트위터에서 3000회 넘게 리트윗 되며 엄청난 공감을 얻었다.", 
+            "morp": [
+                {"id": 0, "lemma": "세월호", "type": "NNP", "position": 1853, "weight": 0.6}, 
+                {"id": 1, "lemma": "유", "type": "XPN", "position": 1863, "weight": 0.0001}, 
+                {"id": 2, "lemma": "가족", "type": "NNG", "position": 1866, "weight": 0.9}, 
+                {"id": 3, "lemma": "이", "type": "JKS", "position": 1872, "weight": 0.0360723}, 
+                {"id": 4, "lemma": "보내오", "type": "VV", "position": 1876, "weight": 0.9}, 
+                {"id": 5, "lemma": "ㄴ", "type": "ETM", "position": 1882, "weight": 0.304215}, 
+                {"id": 6, "lemma": "사진", "type": "NNG", "position": 1886, "weight": 0.6585}, 
+                {"id": 7, "lemma": "은", "type": "JX", "position": 1892, "weight": 0.0449928}, 
+                {"id": 8, "lemma": "트위터", "type": "NNG", "position": 1896, "weight": 0}, 
+                {"id": 9, "lemma": "에서", "type": "JKB", "position": 1905, "weight": 0.153407}, 
+                {"id": 10, "lemma": "3000", "type": "SN", "position": 1912, "weight": 1}, 
+                {"id": 11, "lemma": "회", "type": "NNB", "position": 1916, "weight": 0.258682}, 
+                {"id": 12, "lemma": "넘", "type": "VV", "position": 1920, "weight": 0.0336366}, 
+                {"id": 13, "lemma": "게", "type": "EC", "position": 1923, "weight": 0.427975}, 
+                {"id": 14, "lemma": "리트윗", "type": "NNG", "position": 1927, "weight": 0}, 
+                {"id": 15, "lemma": "되", "type": "VV", "position": 1937, "weight": 0.0139267}, 
+                {"id": 16, "lemma": "며", "type": "EC", "position": 1940, "weight": 0.429701}, 
+                {"id": 17, "lemma": "엄청나", "type": "VA", "position": 1944, "weight": 0.9}, 
+                {"id": 18, "lemma": "ㄴ", "type": "ETM", "position": 1950, "weight": 0.430446}, 
+                {"id": 19, "lemma": "공감", "type": "NNG", "position": 1954, "weight": 0.9}, 
+                {"id": 20, "lemma": "을", "type": "JKO", "position": 1960, "weight": 0.129611}, 
+                {"id": 21, "lemma": "얻", "type": "VV", "position": 1964, "weight": 0.9}, 
+                {"id": 22, "lemma": "었", "type": "EP", "position": 1967, "weight": 0.9}, 
+                {"id": 23, "lemma": "다", "type": "EF", "position": 1970, "weight": 0.640954}, 
+                {"id": 24, "lemma": ".", "type": "SF", "position": 1973, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "세월호", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "유가족이", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "보내온", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "사진은", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "트위터에서", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "3000회", "type": "", "begin": 10, "end": 11}, 
+                {"id": 6, "text": "넘게", "type": "", "begin": 12, "end": 13}, 
+                {"id": 7, "text": "리트윗", "type": "", "begin": 14, "end": 14}, 
+                {"id": 8, "text": "되며", "type": "", "begin": 15, "end": 16}, 
+                {"id": 9, "text": "엄청난", "type": "", "begin": 17, "end": 18}, 
+                {"id": 10, "text": "공감을", "type": "", "begin": 19, "end": 20}, 
+                {"id": 11, "text": "얻었다.", "type": "", "begin": 21, "end": 24}
+            ], 
+            "NE": [
+                {"id": 0, "text": "세월호", "type": "AF_TRANSPORT", "begin": 0, "end": 0, "weight": 0.140865, "common_noun": 0}, 
+                {"id": 1, "text": "유가족", "type": "CV_RELATION", "begin": 1, "end": 2, "weight": 0.319322, "common_noun": 0}, 
+                {"id": 2, "text": "트위터", "type": "TMI_SERVICE", "begin": 8, "end": 8, "weight": 0.331427, "common_noun": 0}, 
+                {"id": 3, "text": "3000회", "type": "QT_COUNT", "begin": 10, "end": 11, "weight": 0.811807, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "세월호", "head": 1, "label": "NP", "mod": [], "weight": 0.652977}, 
+                {"id": 1, "text": "유가족이", "head": 2, "label": "NP_SBJ", "mod": [0], "weight": 0.805821}, 
+                {"id": 2, "text": "보내온", "head": 3, "label": "VP_MOD", "mod": [1], "weight": 0.734162}, 
+                {"id": 3, "text": "사진은", "head": 6, "label": "NP_SBJ", "mod": [2], "weight": 0.283458}, 
+                {"id": 4, "text": "트위터에서", "head": 6, "label": "NP_AJT", "mod": [], "weight": 0.407264}, 
+                {"id": 5, "text": "3000회", "head": 6, "label": "NP_OBJ", "mod": [], "weight": 0.0141562}, 
+                {"id": 6, "text": "넘게", "head": 8, "label": "VP", "mod": [3, 4, 5], "weight": 0.442208}, 
+                {"id": 7, "text": "리트윗", "head": 8, "label": "NP_CMP", "mod": [], "weight": 0.607675}, 
+                {"id": 8, "text": "되며", "head": 11, "label": "VP", "mod": [6, 7], "weight": 0.766376}, 
+                {"id": 9, "text": "엄청난", "head": 10, "label": "VP_MOD", "mod": [], "weight": 0.738481}, 
+                {"id": 10, "text": "공감을", "head": 11, "label": "NP_OBJ", "mod": [9], "weight": 0.791379}, 
+                {"id": 11, "text": "얻었다.", "head": -1, "label": "VP", "mod": [8, 10], "weight": 5.59762e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "세월호 유가족이", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S_MOD", "text": "P#0@SBJ이 보내온", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "S#1@MODㄴ 사진은", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 5, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "트위터에서", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "3000회", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#2@SBJ은 P#3@AJT에서 P#4@OBJ회 넘게", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 7, "sub_phrase": [2, 3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_CMP", "text": "리트윗", "begin": 7, "end": 7, "key_begin": 7, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "S#5@S게 P#6@CMP리트윗 되며", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": 9, "sub_phrase": [5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_OBJ", "text": "엄청난 공감을", "begin": 9, "end": 10, "key_begin": 9, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "S#7@S며 P#8@OBJ을 얻었다.", "begin": 0, "end": 11, "key_begin": 11, "head_phrase": -1, "sub_phrase": [7, 8], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "보내오", "sense": 1, "word_id": 2, "weight": 0.253619, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "세월호 유가족", "weight": 0.339115}, 
+                    {"type": "ARG1", "word_id": 3, "text": "사진", "weight": 0.168124}
+                ]}, 
+                {"verb": "넘", "sense": 2, "word_id": 6, "weight": 0.196959, "argument": [
+                    {"type": "ARG1", "word_id": 3, "text": "사진", "weight": 0.355595}, 
+                    {"type": "ARGM-TMP", "word_id": 4, "text": "트위터", "weight": 0.112513}, 
+                    {"type": "ARG2", "word_id": 5, "text": "3000회", "weight": 0.12277}
+                ]}, 
+                {"verb": "되", "sense": 1, "word_id": 8, "weight": 0.508147, "argument": [
+                    {"type": "ARG2", "word_id": 7, "text": "리트윗", "weight": 0.508147}
+                ]}, 
+                {"verb": "엄청나", "sense": 1, "word_id": 9, "weight": 0.742778, "argument": [
+                    {"type": "ARG1", "word_id": 10, "text": "엄청난 공감", "weight": 0.742778}
+                ]}, 
+                {"verb": "얻", "sense": 1, "word_id": 11, "weight": 0.632462, "argument": [
+                    {"type": "ARG1", "word_id": 10, "text": "엄청난 공감", "weight": 0.632462}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 8, "ant_sid": 15, "ant_wid": 3, "ant_is_title": 0, "weight": 0.534993}, 
+                {"id": 1, "type": "s", "head_wid": 11, "ant_sid": 15, "ant_wid": 3, "ant_is_title": 0, "weight": 0.757826}
+            ]
+        }, 
+        {
+            "id": 16, 
+            "text": "세월호 진상규명을 위한 조치는 새 정부 출범과 동시에 착착 진행되고 있다.", 
+            "morp": [
+                {"id": 0, "lemma": "세월호", "type": "NNP", "position": 1974, "weight": 0.6}, 
+                {"id": 1, "lemma": "진상", "type": "NNG", "position": 1984, "weight": 0.281571}, 
+                {"id": 2, "lemma": "규명", "type": "NNG", "position": 1990, "weight": 0.9}, 
+                {"id": 3, "lemma": "을", "type": "JKO", "position": 1996, "weight": 0.129611}, 
+                {"id": 4, "lemma": "위하", "type": "VV", "position": 2000, "weight": 0.778555}, 
+                {"id": 5, "lemma": "ㄴ", "type": "ETM", "position": 2003, "weight": 0.304215}, 
+                {"id": 6, "lemma": "조치", "type": "NNG", "position": 2007, "weight": 0.9}, 
+                {"id": 7, "lemma": "는", "type": "JX", "position": 2013, "weight": 0.0287565}, 
+                {"id": 8, "lemma": "새", "type": "MM", "position": 2017, "weight": 0.0203113}, 
+                {"id": 9, "lemma": "정부", "type": "NNG", "position": 2021, "weight": 0.737349}, 
+                {"id": 10, "lemma": "출범", "type": "NNG", "position": 2028, "weight": 0.9}, 
+                {"id": 11, "lemma": "과", "type": "JKB", "position": 2034, "weight": 0.0503087}, 
+                {"id": 12, "lemma": "동시", "type": "NNG", "position": 2038, "weight": 0.9}, 
+                {"id": 13, "lemma": "에", "type": "JKB", "position": 2044, "weight": 0.153364}, 
+                {"id": 14, "lemma": "착착", "type": "MAG", "position": 2048, "weight": 0.9}, 
+                {"id": 15, "lemma": "진행", "type": "NNG", "position": 2055, "weight": 0.9}, 
+                {"id": 16, "lemma": "되", "type": "XSV", "position": 2061, "weight": 0.000224177}, 
+                {"id": 17, "lemma": "고", "type": "EC", "position": 2064, "weight": 0.359917}, 
+                {"id": 18, "lemma": "있", "type": "VX", "position": 2068, "weight": 0.125953}, 
+                {"id": 19, "lemma": "다", "type": "EF", "position": 2071, "weight": 0.180366}, 
+                {"id": 20, "lemma": ".", "type": "SF", "position": 2074, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "세월호", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "진상규명을", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "위한", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "조치는", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "새", "type": "", "begin": 8, "end": 8}, 
+                {"id": 5, "text": "정부", "type": "", "begin": 9, "end": 9}, 
+                {"id": 6, "text": "출범과", "type": "", "begin": 10, "end": 11}, 
+                {"id": 7, "text": "동시에", "type": "", "begin": 12, "end": 13}, 
+                {"id": 8, "text": "착착", "type": "", "begin": 14, "end": 14}, 
+                {"id": 9, "text": "진행되고", "type": "", "begin": 15, "end": 17}, 
+                {"id": 10, "text": "있다.", "type": "", "begin": 18, "end": 20}
+            ], 
+            "NE": [
+                {"id": 0, "text": "세월호", "type": "AF_TRANSPORT", "begin": 0, "end": 0, "weight": 0.162508, "common_noun": 0}, 
+                {"id": 1, "text": "정부", "type": "OGG_POLITICS", "begin": 9, "end": 9, "weight": 0.427997, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "세월호", "head": 1, "label": "NP", "mod": [], "weight": 0.528117}, 
+                {"id": 1, "text": "진상규명을", "head": 2, "label": "NP_OBJ", "mod": [0], "weight": 0.751073}, 
+                {"id": 2, "text": "위한", "head": 3, "label": "VP_MOD", "mod": [1], "weight": 0.647775}, 
+                {"id": 3, "text": "조치는", "head": 9, "label": "NP_SBJ", "mod": [2], "weight": 0.752498}, 
+                {"id": 4, "text": "새", "head": 5, "label": "DP", "mod": [], "weight": 0.219488}, 
+                {"id": 5, "text": "정부", "head": 6, "label": "NP", "mod": [4], "weight": 0.695411}, 
+                {"id": 6, "text": "출범과", "head": 7, "label": "NP_AJT", "mod": [5], "weight": 0.21339}, 
+                {"id": 7, "text": "동시에", "head": 9, "label": "NP_AJT", "mod": [6], "weight": 0.671091}, 
+                {"id": 8, "text": "착착", "head": 9, "label": "AP", "mod": [], "weight": 0.818118}, 
+                {"id": 9, "text": "진행되고", "head": 10, "label": "VP", "mod": [3, 7, 8], "weight": 0.804359}, 
+                {"id": 10, "text": "있다.", "head": -1, "label": "VP", "mod": [9], "weight": 0.00231613}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_OBJ", "text": "세월호 진상규명을", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP_MOD", "text": "P#0@OBJ을 위한", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "P#1@MODㄴ 조치는", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 6, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "새 정부 출범과", "begin": 4, "end": 6, "key_begin": 4, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "P#3@AJT과 동시에", "begin": 4, "end": 7, "key_begin": 7, "head_phrase": 6, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "AP", "text": "착착", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S", "text": "P#2@SBJ는 P#4@AJT에 P#5@AP착착 진행되고 있다.", "begin": 0, "end": 10, "key_begin": 9, "head_phrase": -1, "sub_phrase": [2, 4, 5], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "위하", "sense": 1, "word_id": 2, "weight": 0.531474, "argument": [
+                    {"type": "ARG1", "word_id": 1, "text": "세월호 진상규명", "weight": 0.487051}, 
+                    {"type": "ARG0", "word_id": 3, "text": "조치", "weight": 0.575898}
+                ]}, 
+                {"verb": "진행", "sense": 1, "word_id": 9, "weight": 0.352405, "argument": [
+                    {"type": "ARG1", "word_id": 3, "text": "조치", "weight": 0.273295}, 
+                    {"type": "ARGM-TMP", "word_id": 7, "text": "동시", "weight": 0.183537}, 
+                    {"type": "ARGM-MNR", "word_id": 8, "text": "착착", "weight": 0.126426}, 
+                    {"type": "AUX", "word_id": 10, "text": "진행되고 있다.", "weight": 0.826361}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 17, 
+            "text": " 문재인 대통령은 취임 이튿날 사건 재조사를 지시한 데 이어 스승의날인 15일 참사로 희생된 안산 단원고 기간제 교사들에 대한 순직 인정을 지시했다.", 
+            "morp": [
+                {"id": 0, "lemma": "문재인", "type": "NNP", "position": 2076, "weight": 0.6}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 2086, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 2095, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "취임", "type": "NNG", "position": 2099, "weight": 0.9}, 
+                {"id": 4, "lemma": "이튿날", "type": "NNG", "position": 2106, "weight": 0.9}, 
+                {"id": 5, "lemma": "사건", "type": "NNG", "position": 2116, "weight": 0.9}, 
+                {"id": 6, "lemma": "재", "type": "XPN", "position": 2123, "weight": 0.000172001}, 
+                {"id": 7, "lemma": "조사", "type": "NNG", "position": 2126, "weight": 0.473831}, 
+                {"id": 8, "lemma": "를", "type": "JKO", "position": 2132, "weight": 0.137686}, 
+                {"id": 9, "lemma": "지시", "type": "NNG", "position": 2136, "weight": 0.101132}, 
+                {"id": 10, "lemma": "하", "type": "XSV", "position": 2142, "weight": 0.0001}, 
+                {"id": 11, "lemma": "ㄴ", "type": "ETM", "position": 2142, "weight": 0.392321}, 
+                {"id": 12, "lemma": "데", "type": "NNB", "position": 2146, "weight": 0.226476}, 
+                {"id": 13, "lemma": "잇", "type": "VV", "position": 2150, "weight": 0.0335536}, 
+                {"id": 14, "lemma": "어", "type": "EC", "position": 2153, "weight": 0.41831}, 
+                {"id": 15, "lemma": "스승", "type": "NNG", "position": 2157, "weight": 0.9}, 
+                {"id": 16, "lemma": "의날", "type": "NNG", "position": 2163, "weight": 0}, 
+                {"id": 17, "lemma": "이", "type": "VCP", "position": 2169, "weight": 0.0177525}, 
+                {"id": 18, "lemma": "ㄴ", "type": "ETM", "position": 2169, "weight": 0.220712}, 
+                {"id": 19, "lemma": "15", "type": "SN", "position": 2173, "weight": 1}, 
+                {"id": 20, "lemma": "일", "type": "NNB", "position": 2175, "weight": 0.126777}, 
+                {"id": 21, "lemma": "참사", "type": "NNG", "position": 2179, "weight": 0.9}, 
+                {"id": 22, "lemma": "로", "type": "JKB", "position": 2185, "weight": 0.153229}, 
+                {"id": 23, "lemma": "희생", "type": "NNG", "position": 2189, "weight": 0.9}, 
+                {"id": 24, "lemma": "되", "type": "XSV", "position": 2195, "weight": 0.000224177}, 
+                {"id": 25, "lemma": "ㄴ", "type": "ETM", "position": 2195, "weight": 0.392321}, 
+                {"id": 26, "lemma": "안산", "type": "NNP", "position": 2199, "weight": 0.0249637}, 
+                {"id": 27, "lemma": "단원고", "type": "NNG", "position": 2206, "weight": 0}, 
+                {"id": 28, "lemma": "기간", "type": "NNG", "position": 2216, "weight": 0.9}, 
+                {"id": 29, "lemma": "제", "type": "XSN", "position": 2222, "weight": 0.00596315}, 
+                {"id": 30, "lemma": "교사", "type": "NNG", "position": 2226, "weight": 0.9}, 
+                {"id": 31, "lemma": "들", "type": "XSN", "position": 2232, "weight": 0.0299841}, 
+                {"id": 32, "lemma": "에", "type": "JKB", "position": 2235, "weight": 0.121683}, 
+                {"id": 33, "lemma": "대", "type": "NNG", "position": 2239, "weight": 0.0312871}, 
+                {"id": 34, "lemma": "하", "type": "XSV", "position": 2242, "weight": 0.0001}, 
+                {"id": 35, "lemma": "ㄴ", "type": "ETM", "position": 2242, "weight": 0.392321}, 
+                {"id": 36, "lemma": "순직", "type": "NNG", "position": 2246, "weight": 0.35}, 
+                {"id": 37, "lemma": "인정", "type": "NNG", "position": 2253, "weight": 0.184215}, 
+                {"id": 38, "lemma": "을", "type": "JKO", "position": 2259, "weight": 0.129611}, 
+                {"id": 39, "lemma": "지시", "type": "NNG", "position": 2263, "weight": 0.101132}, 
+                {"id": 40, "lemma": "하", "type": "XSV", "position": 2269, "weight": 0.0001}, 
+                {"id": 41, "lemma": "었", "type": "EP", "position": 2269, "weight": 0.9}, 
+                {"id": 42, "lemma": "다", "type": "EF", "position": 2272, "weight": 0.640954}, 
+                {"id": 43, "lemma": ".", "type": "SF", "position": 2275, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "문재인", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "취임", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "이튿날", "type": "", "begin": 4, "end": 4}, 
+                {"id": 4, "text": "사건", "type": "", "begin": 5, "end": 5}, 
+                {"id": 5, "text": "재조사를", "type": "", "begin": 6, "end": 8}, 
+                {"id": 6, "text": "지시한", "type": "", "begin": 9, "end": 11}, 
+                {"id": 7, "text": "데", "type": "", "begin": 12, "end": 12}, 
+                {"id": 8, "text": "이어", "type": "", "begin": 13, "end": 14}, 
+                {"id": 9, "text": "스승의날인", "type": "", "begin": 15, "end": 18}, 
+                {"id": 10, "text": "15일", "type": "", "begin": 19, "end": 20}, 
+                {"id": 11, "text": "참사로", "type": "", "begin": 21, "end": 22}, 
+                {"id": 12, "text": "희생된", "type": "", "begin": 23, "end": 25}, 
+                {"id": 13, "text": "안산", "type": "", "begin": 26, "end": 26}, 
+                {"id": 14, "text": "단원고", "type": "", "begin": 27, "end": 27}, 
+                {"id": 15, "text": "기간제", "type": "", "begin": 28, "end": 29}, 
+                {"id": 16, "text": "교사들에", "type": "", "begin": 30, "end": 32}, 
+                {"id": 17, "text": "대한", "type": "", "begin": 33, "end": 35}, 
+                {"id": 18, "text": "순직", "type": "", "begin": 36, "end": 36}, 
+                {"id": 19, "text": "인정을", "type": "", "begin": 37, "end": 38}, 
+                {"id": 20, "text": "지시했다.", "type": "", "begin": 39, "end": 43}
+            ], 
+            "NE": [
+                {"id": 0, "text": "문재인", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.68091, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.724621, "common_noun": 0}, 
+                {"id": 2, "text": "스승의날", "type": "CV_RELATION", "begin": 15, "end": 16, "weight": 0.175902, "common_noun": 0}, 
+                {"id": 3, "text": "15일", "type": "DT_DAY", "begin": 19, "end": 20, "weight": 0.56624, "common_noun": 0}, 
+                {"id": 4, "text": "참사", "type": "CV_POSITION", "begin": 21, "end": 21, "weight": 0.2218, "common_noun": 0}, 
+                {"id": 5, "text": "안산", "type": "LCP_CITY", "begin": 26, "end": 26, "weight": 0.360928, "common_noun": 0}, 
+                {"id": 6, "text": "교사", "type": "CV_OCCUPATION", "begin": 30, "end": 30, "weight": 0.474964, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "문재인", "head": 1, "label": "NP", "mod": [], "weight": 0.759646}, 
+                {"id": 1, "text": "대통령은", "head": 8, "label": "NP_SBJ", "mod": [0], "weight": 0.74757}, 
+                {"id": 2, "text": "취임", "head": 3, "label": "NP", "mod": [], "weight": 0.609979}, 
+                {"id": 3, "text": "이튿날", "head": 6, "label": "NP_AJT", "mod": [2], "weight": 0.383998}, 
+                {"id": 4, "text": "사건", "head": 5, "label": "NP", "mod": [], "weight": 0.533587}, 
+                {"id": 5, "text": "재조사를", "head": 6, "label": "NP_OBJ", "mod": [4], "weight": 0.691205}, 
+                {"id": 6, "text": "지시한", "head": 7, "label": "VP_MOD", "mod": [3, 5], "weight": 0.745123}, 
+                {"id": 7, "text": "데", "head": 8, "label": "NP_AJT", "mod": [6], "weight": 0.578688}, 
+                {"id": 8, "text": "이어", "head": 20, "label": "VP", "mod": [1, 7], "weight": 0.776522}, 
+                {"id": 9, "text": "스승의날인", "head": 10, "label": "VNP_MOD", "mod": [], "weight": 0.349743}, 
+                {"id": 10, "text": "15일", "head": 12, "label": "NP_AJT", "mod": [9], "weight": 0.222482}, 
+                {"id": 11, "text": "참사로", "head": 12, "label": "NP_AJT", "mod": [], "weight": 0.652413}, 
+                {"id": 12, "text": "희생된", "head": 16, "label": "VP_MOD", "mod": [10, 11], "weight": 0.0527225}, 
+                {"id": 13, "text": "안산", "head": 15, "label": "NP", "mod": [], "weight": 0.251492}, 
+                {"id": 14, "text": "단원고", "head": 15, "label": "NP", "mod": [], "weight": 0.331739}, 
+                {"id": 15, "text": "기간제", "head": 16, "label": "NP", "mod": [13, 14], "weight": 0.605233}, 
+                {"id": 16, "text": "교사들에", "head": 17, "label": "NP_AJT", "mod": [12, 15], "weight": 0.688393}, 
+                {"id": 17, "text": "대한", "head": 19, "label": "VP_MOD", "mod": [16], "weight": 0.619679}, 
+                {"id": 18, "text": "순직", "head": 19, "label": "NP", "mod": [], "weight": 0.676317}, 
+                {"id": 19, "text": "인정을", "head": 20, "label": "NP_OBJ", "mod": [17, 18], "weight": 0.851739}, 
+                {"id": 20, "text": "지시했다.", "head": -1, "label": "VP", "mod": [8, 19], "weight": 4.85457e-07}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "문재인 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "취임 이튿날", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "사건 재조사를", "begin": 4, "end": 5, "key_begin": 4, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP_MOD", "text": "P#1@AJT이튿날 P#2@OBJ를 지시한", "begin": 2, "end": 6, "key_begin": 6, "head_phrase": 4, "sub_phrase": [1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "P#3@MODㄴ 데", "begin": 2, "end": 7, "key_begin": 7, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#0@SBJ은 P#4@AJT데 이어", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": 12, "sub_phrase": [0, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "스승의날인 15일", "begin": 9, "end": 10, "key_begin": 9, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_AJT", "text": "참사로", "begin": 11, "end": 11, "key_begin": 11, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "VP_MOD", "text": "P#6@AJT일 P#7@AJT로 희생된", "begin": 9, "end": 12, "key_begin": 12, "head_phrase": 9, "sub_phrase": [6, 7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_AJT", "text": "P#8@MODㄴ 안산 단원고 기간제 교사들에", "begin": 9, "end": 16, "key_begin": 13, "head_phrase": 10, "sub_phrase": [8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "VP_MOD", "text": "P#9@AJT에 대한", "begin": 9, "end": 17, "key_begin": 17, "head_phrase": 11, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "NP_OBJ", "text": "P#10@MODㄴ 순직 인정을", "begin": 9, "end": 19, "key_begin": 18, "head_phrase": 12, "sub_phrase": [10], "weight": 0, "element": []}, 
+                {"id": 12, "label": "S", "text": "S#5@S어 P#11@OBJ을 지시했다.", "begin": 0, "end": 20, "key_begin": 20, "head_phrase": -1, "sub_phrase": [5, 11], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "지시", "sense": 1, "word_id": 6, "weight": 0.516047, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 3, "text": "취임 이튿날", "weight": 0.558229}, 
+                    {"type": "ARG1", "word_id": 5, "text": "사건 재조사", "weight": 0.473866}
+                ]}, 
+                {"verb": "잇", "sense": 1, "word_id": 8, "weight": 0.134995, "argument": [
+                    {"type": "ARG3", "word_id": 7, "text": "데", "weight": 0.134995}
+                ]}, 
+                {"verb": "희생", "sense": 1, "word_id": 12, "weight": 0.3163, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 10, "text": "스승의날인 15일", "weight": 0.508195}, 
+                    {"type": "ARG0", "word_id": 11, "text": "참사", "weight": 0.13395}, 
+                    {"type": "ARG0", "word_id": 16, "text": "안산 단원고 기간제 교사들", "weight": 0.306754}
+                ]}, 
+                {"verb": "대", "sense": 1, "word_id": 17, "weight": 0.52524, "argument": [
+                    {"type": "ARG2", "word_id": 16, "text": "안산 단원고 기간제 교사들", "weight": 0.439325}, 
+                    {"type": "ARG1", "word_id": 19, "text": "순직 인정", "weight": 0.611154}
+                ]}, 
+                {"verb": "지시", "sense": 1, "word_id": 20, "weight": 0.448174, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "문재인 대통령", "weight": 0.508793}, 
+                    {"type": "ARGM-TMP", "word_id": 8, "text": "이어", "weight": 0.231225}, 
+                    {"type": "ARG1", "word_id": 19, "text": "순직 인정", "weight": 0.604504}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 20, "ant_sid": 17, "ant_wid": 1, "ant_is_title": 0, "weight": 0.629128}
+            ]
+        }
+    ], 
+    "entity": [
+        {"id": 0, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 0, "sent_id": 0, "start_eid": 0, "end_eid": 5, "ne_id": -1, "text": "청와대 앞에 선 세월호 유가족 \"꿈", "start_eid_short": 3, "end_eid_short": 5, "text_short": "세월호 유가족 \"꿈", "weight": 0.006}, 
+            {"id": 36, "sent_id": 5, "start_eid": 1, "end_eid": 1, "ne_id": -1, "text": "“누구", "start_eid_short": 1, "end_eid_short": 1, "text_short": "“누구", "weight": 0.01}, 
+            {"id": 95, "sent_id": 12, "start_eid": 10, "end_eid": 10, "ne_id": -1, "text": "“변화", "start_eid_short": 10, "end_eid_short": 10, "text_short": "“변화", "weight": 0.0035}
+        ]}, 
+        {"id": 1, "type": "OGG_POLITICS", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 31, "sent_id": 4, "start_eid": 2, "end_eid": 2, "ne_id": 2, "text": "청와대", "start_eid_short": 2, "end_eid_short": 2, "text_short": "청와대", "weight": 0.24}, 
+            {"id": 33, "sent_id": 4, "start_eid": 4, "end_eid": 4, "ne_id": 3, "text": "청와대", "start_eid_short": 4, "end_eid_short": 4, "text_short": "청와대", "weight": 0.24}, 
+            {"id": 2, "sent_id": 0, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "청와대", "start_eid_short": 0, "end_eid_short": 0, "text_short": "청와대", "weight": 0.234}, 
+            {"id": 53, "sent_id": 7, "start_eid": 16, "end_eid": 16, "ne_id": 5, "text": "청와대", "start_eid_short": 16, "end_eid_short": 16, "text_short": "청와대", "weight": 0.24}, 
+            {"id": 78, "sent_id": 10, "start_eid": 11, "end_eid": 11, "ne_id": 2, "text": "청와대", "start_eid_short": 11, "end_eid_short": 11, "text_short": "청와대", "weight": 0.24}, 
+            {"id": 83, "sent_id": 11, "start_eid": 6, "end_eid": 6, "ne_id": 1, "text": "청와대", "start_eid_short": 6, "end_eid_short": 6, "text_short": "청와대", "weight": 0.24}, 
+            {"id": 93, "sent_id": 12, "start_eid": 6, "end_eid": 6, "ne_id": 3, "text": "청와대", "start_eid_short": 6, "end_eid_short": 6, "text_short": "청와대", "weight": 0.24}, 
+            {"id": 14, "sent_id": 2, "start_eid": 7, "end_eid": 7, "ne_id": 1, "text": "청와대", "start_eid_short": 7, "end_eid_short": 7, "text_short": "청와대", "weight": 0.24}, 
+            {"id": 99, "sent_id": 13, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "청와대", "start_eid_short": 0, "end_eid_short": 0, "text_short": "청와대", "weight": 0.24}
+        ]}, 
+        {"id": 2, "type": "CV_RELATION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 3, "sent_id": 0, "start_eid": 3, "end_eid": 4, "ne_id": 2, "text": "세월호 유가족", "start_eid_short": 3, "end_eid_short": 4, "text_short": "세월호 유가족", "weight": 0.024}, 
+            {"id": 6, "sent_id": 1, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "세월호 유가족", "start_eid_short": 0, "end_eid_short": 1, "text_short": "세월호 유가족", "weight": 0.03}, 
+            {"id": 109, "sent_id": 15, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "세월호 유가족", "start_eid_short": 0, "end_eid_short": 1, "text_short": "세월호 유가족", "weight": 0.03}
+        ]}, 
+        {"id": 3, "type": "AF_TRANSPORT", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 22, "sent_id": 3, "start_eid": 4, "end_eid": 4, "ne_id": 3, "text": "세월호", "start_eid_short": 4, "end_eid_short": 4, "text_short": "세월호", "weight": 0.16}, 
+            {"id": 85, "sent_id": 11, "start_eid": 9, "end_eid": 9, "ne_id": 3, "text": "세월호", "start_eid_short": 9, "end_eid_short": 9, "text_short": "세월호", "weight": 0.16}, 
+            {"id": 47, "sent_id": 7, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "세월호", "start_eid_short": 0, "end_eid_short": 0, "text_short": "세월호", "weight": 0.16}, 
+            {"id": 7, "sent_id": 1, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "세월호", "start_eid_short": 0, "end_eid_short": 0, "text_short": "세월호", "weight": 0.16}, 
+            {"id": 68, "sent_id": 9, "start_eid": 8, "end_eid": 8, "ne_id": 3, "text": "세월호", "start_eid_short": 8, "end_eid_short": 8, "text_short": "세월호", "weight": 0.16}, 
+            {"id": 4, "sent_id": 0, "start_eid": 3, "end_eid": 3, "ne_id": 1, "text": "세월호", "start_eid_short": 3, "end_eid_short": 3, "text_short": "세월호", "weight": 0.154}, 
+            {"id": 110, "sent_id": 15, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "세월호", "start_eid_short": 0, "end_eid_short": 0, "text_short": "세월호", "weight": 0.16}, 
+            {"id": 117, "sent_id": 16, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "세월호", "start_eid_short": 0, "end_eid_short": 0, "text_short": "세월호", "weight": 0.16}
+        ]}, 
+        {"id": 4, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 8, "sent_id": 1, "start_eid": 2, "end_eid": 4, "ne_id": -1, "text": "새 정부 출범", "start_eid_short": 2, "end_eid_short": 4, "text_short": "새 정부 출범", "weight": 0.01}, 
+            {"id": 119, "sent_id": 16, "start_eid": 4, "end_eid": 6, "ne_id": -1, "text": "새 정부 출범", "start_eid_short": 4, "end_eid_short": 6, "text_short": "새 정부 출범", "weight": 0.016}
+        ]}, 
+        {"id": 5, "type": "OGG_POLITICS", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 9, "sent_id": 1, "start_eid": 2, "end_eid": 3, "ne_id": 2, "text": "새 정부", "start_eid_short": 2, "end_eid_short": 3, "text_short": "새 정부", "weight": 0.01}, 
+            {"id": 120, "sent_id": 16, "start_eid": 4, "end_eid": 5, "ne_id": 1, "text": "새 정부", "start_eid_short": 4, "end_eid_short": 5, "text_short": "새 정부", "weight": 0.016}
+        ]}, 
+        {"id": 6, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 10, "sent_id": 1, "start_eid": 2, "end_eid": 2, "ne_id": -1, "text": "새", "start_eid_short": 2, "end_eid_short": 2, "text_short": "새", "weight": 0.01}, 
+            {"id": 121, "sent_id": 16, "start_eid": 4, "end_eid": 4, "ne_id": -1, "text": "새", "start_eid_short": 4, "end_eid_short": 4, "text_short": "새", "weight": 0.016}
+        ]}, 
+        {"id": 7, "type": "DT_DURATION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 11, "sent_id": 2, "start_eid": 0, "end_eid": 4, "ne_id": 0, "text": "참사 직후인 2014년 5월 초", "start_eid_short": 2, "end_eid_short": 4, "text_short": "2014년 5월 초", "weight": 0.006}, 
+            {"id": 48, "sent_id": 7, "start_eid": 3, "end_eid": 5, "ne_id": 1, "text": "2014년 5월 초", "start_eid_short": 3, "end_eid_short": 5, "text_short": "2014년 5월 초", "weight": 0.01}
+        ]}, 
+        {"id": 8, "type": "PS_NAME", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 35, "sent_id": 5, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "미디어몽구", "start_eid_short": 0, "end_eid_short": 0, "text_short": "미디어몽구", "weight": 0.01}, 
+            {"id": 18, "sent_id": 3, "start_eid": 2, "end_eid": 3, "ne_id": -1, "text": "1인미디어 미디어몽구", "start_eid_short": 2, "end_eid_short": 3, "text_short": "1인미디어 미디어몽구", "weight": 0.006}
+        ]}, 
+        {"id": 9, "type": "QT_MAN_COUNT", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 19, "sent_id": 3, "start_eid": 2, "end_eid": 2, "ne_id": 2, "text": "1인미디어", "start_eid_short": 2, "end_eid_short": 2, "text_short": "1인미디어", "weight": 0.002}, 
+            {"id": 38, "sent_id": 6, "start_eid": 2, "end_eid": 2, "ne_id": -1, "text": "누구", "start_eid_short": 2, "end_eid_short": 2, "text_short": "누구", "weight": 0.006}, 
+            {"id": 32, "sent_id": 4, "start_eid": 4, "end_eid": 5, "ne_id": -1, "text": "청와대 본관", "start_eid_short": 4, "end_eid_short": 5, "text_short": "청와대 본관", "weight": 0.006}
+        ]}, 
+        {"id": 10, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 20, "sent_id": 3, "start_eid": 4, "end_eid": 10, "ne_id": -1, "text": "세월호 희생자인 최성호 학생 어머니가 보내온 사진", "start_eid_short": 10, "end_eid_short": 10, "text_short": "사진", "weight": 0.014}, 
+            {"id": 96, "sent_id": 13, "start_eid": 0, "end_eid": 4, "ne_id": -1, "text": "청와대 분수대 앞에서 촬영한 사진", "start_eid_short": 4, "end_eid_short": 4, "text_short": "사진", "weight": 0.0035}, 
+            {"id": 5, "sent_id": 1, "start_eid": 0, "end_eid": 7, "ne_id": -1, "text": "세월호 유가족에게 새 정부 출범을 실감케 하는 사진", "start_eid_short": 7, "end_eid_short": 7, "text_short": "사진", "weight": 0.018}, 
+            {"id": 108, "sent_id": 15, "start_eid": 0, "end_eid": 3, "ne_id": -1, "text": "세월호 유가족이 보내온 사진", "start_eid_short": 3, "end_eid_short": 3, "text_short": "사진", "weight": 0.022}, 
+            {"id": 94, "sent_id": 12, "start_eid": 8, "end_eid": 8, "ne_id": -1, "text": "사진", "start_eid_short": 8, "end_eid_short": 8, "text_short": "사진", "weight": 0.022}
+        ]}, 
+        {"id": 11, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 27, "sent_id": 4, "start_eid": 0, "end_eid": 7, "ne_id": -1, "text": "최군 어머니가 청와대 앞에서 청와대 본관을 바라보는 모습", "start_eid_short": 7, "end_eid_short": 7, "text_short": "모습", "weight": 0.002}, 
+            {"id": 34, "sent_id": 5, "start_eid": 0, "end_eid": 7, "ne_id": -1, "text": "미디어몽구는 “누구도 건드리지도 않고 묻지도 않는 평화로운 모습", "start_eid_short": 7, "end_eid_short": 7, "text_short": "모습", "weight": 0.0035}
+        ]}, 
+        {"id": 12, "type": "CV_RELATION", "number": "plural", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 57, "sent_id": 8, "start_eid": 2, "end_eid": 2, "ne_id": 0, "text": "유가족들", "start_eid_short": 2, "end_eid_short": 2, "text_short": "유가족들", "weight": 0.024}, 
+            {"id": 84, "sent_id": 11, "start_eid": 9, "end_eid": 10, "ne_id": 4, "text": "세월호 유가족들", "start_eid_short": 9, "end_eid_short": 10, "text_short": "세월호 유가족들", "weight": 0.0175}, 
+            {"id": 67, "sent_id": 9, "start_eid": 8, "end_eid": 9, "ne_id": 4, "text": "세월호 유가족들", "start_eid_short": 8, "end_eid_short": 9, "text_short": "세월호 유가족들", "weight": 0.0115}, 
+            {"id": 43, "sent_id": 7, "start_eid": 0, "end_eid": 9, "ne_id": 2, "text": "세월호 참사 직후인 2014년 5월 초 아이들의 영정을 든 유가족들", "start_eid_short": 9, "end_eid_short": 9, "text_short": "유가족들", "weight": 0.01}, 
+            {"id": 15, "sent_id": 2, "start_eid": 9, "end_eid": 9, "ne_id": 2, "text": "유가족들", "start_eid_short": 9, "end_eid_short": 9, "text_short": "유가족들", "weight": 0.018}
+        ]}, 
+        {"id": 13, "type": "CV_POSITION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 12, "sent_id": 2, "start_eid": 0, "end_eid": 0, "ne_id": -1, "text": "참사", "start_eid_short": 0, "end_eid_short": 0, "text_short": "참사", "weight": 0.02}, 
+            {"id": 46, "sent_id": 7, "start_eid": 0, "end_eid": 1, "ne_id": -1, "text": "세월호 참사", "start_eid_short": 0, "end_eid_short": 1, "text_short": "세월호 참사", "weight": 0.012}, 
+            {"id": 133, "sent_id": 17, "start_eid": 11, "end_eid": 11, "ne_id": 4, "text": "참사", "start_eid_short": 11, "end_eid_short": 11, "text_short": "참사", "weight": 0.026}
+        ]}, 
+        {"id": 14, "type": "CV_RELATION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 91, "sent_id": 12, "start_eid": 4, "end_eid": 4, "ne_id": 1, "text": "최군", "start_eid_short": 4, "end_eid_short": 4, "text_short": "최군", "weight": 0.074}, 
+            {"id": 23, "sent_id": 3, "start_eid": 5, "end_eid": 5, "ne_id": 4, "text": "희생자이ㄴ", "start_eid_short": 5, "end_eid_short": 5, "text_short": "희생자이ㄴ", "weight": 0.059}, 
+            {"id": 41, "sent_id": 6, "start_eid": 7, "end_eid": 8, "ne_id": 1, "text": "최군 어머니", "start_eid_short": 7, "end_eid_short": 8, "text_short": "최군 어머니", "weight": 0.079}, 
+            {"id": 50, "sent_id": 7, "start_eid": 10, "end_eid": 12, "ne_id": 4, "text": "박근혜 전 대통령", "start_eid_short": 10, "end_eid_short": 12, "text_short": "박근혜 전 대통령", "weight": 0.021}, 
+            {"id": 51, "sent_id": 7, "start_eid": 10, "end_eid": 10, "ne_id": 3, "text": "박근혜", "start_eid_short": 10, "end_eid_short": 10, "text_short": "박근혜", "weight": 0.016}, 
+            {"id": 63, "sent_id": 9, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "박근혜 최순실", "start_eid_short": 0, "end_eid_short": 1, "text_short": "박근혜 최순실", "weight": 0.002}, 
+            {"id": 64, "sent_id": 9, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "박근혜", "start_eid_short": 0, "end_eid_short": 0, "text_short": "박근혜", "weight": 0.022}, 
+            {"id": 42, "sent_id": 6, "start_eid": 7, "end_eid": 7, "ne_id": 0, "text": "최군", "start_eid_short": 7, "end_eid_short": 7, "text_short": "최군", "weight": 0.074}, 
+            {"id": 28, "sent_id": 4, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "최군 어머니", "start_eid_short": 0, "end_eid_short": 1, "text_short": "최군 어머니", "weight": 0.073}, 
+            {"id": 29, "sent_id": 4, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "최군", "start_eid_short": 0, "end_eid_short": 0, "text_short": "최군", "weight": 0.068}, 
+            {"id": 24, "sent_id": 3, "start_eid": 6, "end_eid": 7, "ne_id": 6, "text": "최성호 학생", "start_eid_short": 6, "end_eid_short": 7, "text_short": "최성호 학생", "weight": 0.013}, 
+            {"id": 25, "sent_id": 3, "start_eid": 6, "end_eid": 6, "ne_id": 5, "text": "최성호", "start_eid_short": 6, "end_eid_short": 6, "text_short": "최성호", "weight": 0.008}, 
+            {"id": 21, "sent_id": 3, "start_eid": 4, "end_eid": 8, "ne_id": 7, "text": "세월호 희생자인 최성호 학생 어머니", "start_eid_short": 6, "end_eid_short": 8, "text_short": "최성호 학생 어머니", "weight": 0.064}, 
+            {"id": 88, "sent_id": 12, "start_eid": 0, "end_eid": 5, "ne_id": 2, "text": "100m 앞에서 멈춰 섰던 최군 어머니", "start_eid_short": 4, "end_eid_short": 5, "text_short": "최군 어머니", "weight": 0.068}
+        ]}, 
+        {"id": 15, "type": "QT_MAN_COUNT", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 70, "sent_id": 10, "start_eid": 0, "end_eid": 3, "ne_id": 0, "text": "사상 최대 규모인 232만명", "start_eid_short": 3, "end_eid_short": 3, "text_short": "232만명", "weight": 0.002}, 
+            {"id": 100, "sent_id": 14, "start_eid": 0, "end_eid": 0, "ne_id": -1, "text": "그", "start_eid_short": 0, "end_eid_short": 0, "text_short": "그", "weight": 0.006}
+        ]}, 
+        {"id": 16, "type": "QT_LENGTH", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 76, "sent_id": 10, "start_eid": 11, "end_eid": 13, "ne_id": 3, "text": "청와대 앞 100m", "start_eid_short": 11, "end_eid_short": 13, "text_short": "청와대 앞 100m", "weight": 0.016}, 
+            {"id": 82, "sent_id": 11, "start_eid": 6, "end_eid": 7, "ne_id": 2, "text": "청와대 100m", "start_eid_short": 6, "end_eid_short": 7, "text_short": "청와대 100m", "weight": 0.02}, 
+            {"id": 90, "sent_id": 12, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "100m", "start_eid_short": 0, "end_eid_short": 0, "text_short": "100m", "weight": 0.02}
+        ]}, 
+        {"id": 17, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 89, "sent_id": 12, "start_eid": 0, "end_eid": 1, "ne_id": -1, "text": "100m 앞", "start_eid_short": 0, "end_eid_short": 1, "text_short": "100m 앞", "weight": 0.132}, 
+            {"id": 101, "sent_id": 14, "start_eid": 1, "end_eid": 10, "ne_id": -1, "text": "“경찰에 연행되고 물대포에 최루액까지 맞았지만 끝내 가보질 못했던 분수대 앞", "start_eid_short": 9, "end_eid_short": 10, "text_short": "분수대 앞", "weight": 0.0035}, 
+            {"id": 80, "sent_id": 11, "start_eid": 0, "end_eid": 8, "ne_id": -1, "text": "3년이 훨씬 지나서야 접근할 수 있었던 청와대 100m 앞", "start_eid_short": 6, "end_eid_short": 8, "text_short": "청와대 100m 앞", "weight": 0.068}, 
+            {"id": 30, "sent_id": 4, "start_eid": 2, "end_eid": 3, "ne_id": -1, "text": "청와대 앞", "start_eid_short": 2, "end_eid_short": 3, "text_short": "청와대 앞", "weight": 0.146}, 
+            {"id": 52, "sent_id": 7, "start_eid": 16, "end_eid": 17, "ne_id": -1, "text": "청와대 앞", "start_eid_short": 16, "end_eid_short": 17, "text_short": "청와대 앞", "weight": 0.146}, 
+            {"id": 77, "sent_id": 10, "start_eid": 11, "end_eid": 12, "ne_id": -1, "text": "청와대 앞", "start_eid_short": 11, "end_eid_short": 12, "text_short": "청와대 앞", "weight": 0.146}, 
+            {"id": 1, "sent_id": 0, "start_eid": 0, "end_eid": 1, "ne_id": -1, "text": "청와대 앞", "start_eid_short": 0, "end_eid_short": 1, "text_short": "청와대 앞", "weight": 0.14}, 
+            {"id": 86, "sent_id": 11, "start_eid": 11, "end_eid": 12, "ne_id": -1, "text": "맨 앞", "start_eid_short": 11, "end_eid_short": 12, "text_short": "맨 앞", "weight": 0.132}, 
+            {"id": 97, "sent_id": 13, "start_eid": 0, "end_eid": 2, "ne_id": -1, "text": "청와대 분수대 앞", "start_eid_short": 0, "end_eid_short": 2, "text_short": "청와대 분수대 앞", "weight": 0.0035}, 
+            {"id": 13, "sent_id": 2, "start_eid": 6, "end_eid": 8, "ne_id": -1, "text": "구역이었던 청와대 앞", "start_eid_short": 7, "end_eid_short": 8, "text_short": "청와대 앞", "weight": 0.124}
+        ]}, 
+        {"id": 18, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 98, "sent_id": 13, "start_eid": 0, "end_eid": 1, "ne_id": -1, "text": "청와대 분수대", "start_eid_short": 0, "end_eid_short": 1, "text_short": "청와대 분수대", "weight": 0.006}, 
+            {"id": 105, "sent_id": 14, "start_eid": 9, "end_eid": 9, "ne_id": -1, "text": "분수대", "start_eid_short": 9, "end_eid_short": 9, "text_short": "분수대", "weight": 0.01}
+        ]}, 
+        {"id": 19, "type": "CV_POSITION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 123, "sent_id": 17, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "문재인", "start_eid_short": 0, "end_eid_short": 0, "text_short": "문재인", "weight": 0.007}, 
+            {"id": 122, "sent_id": 17, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "문재인 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "문재인 대통령", "weight": 0.012}
+        ]}
+    ]
+}

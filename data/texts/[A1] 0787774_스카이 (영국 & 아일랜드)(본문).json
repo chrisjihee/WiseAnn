@@ -1,0 +1,322 @@
+{
+    "title": {
+        "text": "스카이 (영국 & 아일랜드)", 
+        "NE": "OGG_ECONOMY"
+    }, 
+    "metaInfo": {
+        "field": "백과사전1", 
+        "num_sent": 5, 
+        "num_word": 38
+    }, 
+    "sentence": [
+        {
+            "id": 0, 
+            "text": "스카이 (영국 & 아일랜드)", 
+            "morp": [
+                {"id": 0, "lemma": "스카이", "type": "NNG", "position": 0, "weight": 0.398135}, 
+                {"id": 1, "lemma": "(", "type": "SS", "position": 10, "weight": 1}, 
+                {"id": 2, "lemma": "영국", "type": "NNP", "position": 11, "weight": 0.9}, 
+                {"id": 3, "lemma": "&", "type": "SW", "position": 18, "weight": 1}, 
+                {"id": 4, "lemma": "아일랜드", "type": "NNP", "position": 20, "weight": 0.9}, 
+                {"id": 5, "lemma": ")", "type": "SS", "position": 32, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "스카이", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "(영국", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "&", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "아일랜드)", "type": "", "begin": 4, "end": 5}
+            ], 
+            "NE": [
+                {"id": 0, "text": "스카이", "type": "OGG_ECONOMY", "begin": 0, "end": 0, "weight": 0.156774, "common_noun": 0}, 
+                {"id": 1, "text": "영국", "type": "LCP_COUNTRY", "begin": 2, "end": 2, "weight": 0.586194, "common_noun": 0}, 
+                {"id": 2, "text": "아일랜드", "type": "LCP_COUNTRY", "begin": 4, "end": 4, "weight": 0.605737, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "스카이", "head": 3, "label": "NP", "mod": [], "weight": 0.679913}, 
+                {"id": 1, "text": "(영국", "head": 2, "label": "NP", "mod": [], "weight": 0.319322}, 
+                {"id": 2, "text": "&", "head": 3, "label": "NP", "mod": [1], "weight": 0.520043}, 
+                {"id": 3, "text": "아일랜드)", "head": -1, "label": "NP_PRN", "mod": [0, 2], "weight": 0.0441816}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_PRN", "text": "스카이 (영국 & 아일랜드)", "begin": 0, "end": 3, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 1, 
+            "text": "스카이(Sky)는 비 스카이 비에서 만든 디지털 위성 TV이다.", 
+            "morp": [
+                {"id": 0, "lemma": "스카이", "type": "NNP", "position": 33, "weight": 0.00811812}, 
+                {"id": 1, "lemma": "(", "type": "SS", "position": 42, "weight": 1}, 
+                {"id": 2, "lemma": "Sky", "type": "SL", "position": 43, "weight": 1}, 
+                {"id": 3, "lemma": ")", "type": "SS", "position": 46, "weight": 1}, 
+                {"id": 4, "lemma": "는", "type": "JX", "position": 47, "weight": 0.00823314}, 
+                {"id": 5, "lemma": "비", "type": "NNG", "position": 51, "weight": 0.146008}, 
+                {"id": 6, "lemma": "스카", "type": "NNP", "position": 55, "weight": 0.6}, 
+                {"id": 7, "lemma": "이", "type": "JKS", "position": 61, "weight": 0.0234517}, 
+                {"id": 8, "lemma": "비", "type": "NNG", "position": 65, "weight": 0.094026}, 
+                {"id": 9, "lemma": "에서", "type": "JKB", "position": 68, "weight": 0.153407}, 
+                {"id": 10, "lemma": "만들", "type": "VV", "position": 75, "weight": 0.9}, 
+                {"id": 11, "lemma": "ㄴ", "type": "ETM", "position": 78, "weight": 0.304215}, 
+                {"id": 12, "lemma": "디지털", "type": "NNG", "position": 82, "weight": 0.9}, 
+                {"id": 13, "lemma": "위성", "type": "NNG", "position": 92, "weight": 0.183987}, 
+                {"id": 14, "lemma": "TV", "type": "SL", "position": 99, "weight": 1}, 
+                {"id": 15, "lemma": "이", "type": "VCP", "position": 101, "weight": 0.0209823}, 
+                {"id": 16, "lemma": "다", "type": "EF", "position": 104, "weight": 0.353579}, 
+                {"id": 17, "lemma": ".", "type": "SF", "position": 107, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "스카이(Sky)는", "type": "", "begin": 0, "end": 4}, 
+                {"id": 1, "text": "비", "type": "", "begin": 5, "end": 5}, 
+                {"id": 2, "text": "스카이", "type": "", "begin": 6, "end": 7}, 
+                {"id": 3, "text": "비에서", "type": "", "begin": 8, "end": 9}, 
+                {"id": 4, "text": "만든", "type": "", "begin": 10, "end": 11}, 
+                {"id": 5, "text": "디지털", "type": "", "begin": 12, "end": 12}, 
+                {"id": 6, "text": "위성", "type": "", "begin": 13, "end": 13}, 
+                {"id": 7, "text": "TV이다.", "type": "", "begin": 14, "end": 17}
+            ], 
+            "NE": [
+                {"id": 0, "text": "스카이", "type": "OGG_ECONOMY", "begin": 0, "end": 0, "weight": 0.218952, "common_noun": 0}, 
+                {"id": 1, "text": "Sky", "type": "OGG_ECONOMY", "begin": 2, "end": 2, "weight": 0.27088, "common_noun": 0}, 
+                {"id": 2, "text": "비 스카", "type": "PS_NAME", "begin": 5, "end": 6, "weight": 0.190284, "common_noun": 0}, 
+                {"id": 3, "text": "TV", "type": "TMI_HW", "begin": 14, "end": 14, "weight": 0.318809, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "스카이(Sky)는", "head": 7, "label": "NP_SBJ", "mod": [], "weight": 0.24077}, 
+                {"id": 1, "text": "비", "head": 2, "label": "NP", "mod": [], "weight": 0.651957}, 
+                {"id": 2, "text": "스카이", "head": 4, "label": "NP_SBJ", "mod": [1], "weight": 0.837071}, 
+                {"id": 3, "text": "비에서", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.71627}, 
+                {"id": 4, "text": "만든", "head": 7, "label": "VP_MOD", "mod": [2, 3], "weight": 0.826781}, 
+                {"id": 5, "text": "디지털", "head": 6, "label": "NP", "mod": [], "weight": 0.777244}, 
+                {"id": 6, "text": "위성", "head": 7, "label": "NP", "mod": [5], "weight": 0.607904}, 
+                {"id": 7, "text": "TV이다.", "head": -1, "label": "VNP", "mod": [4, 6, 0], "weight": 0.0301979}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "스카이(Sky)는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "비 스카이", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "비에서", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S_MOD", "text": "P#1@SBJ이 P#2@AJT에서 만든", "begin": 1, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "P#0@SBJ는 S#3@MODㄴ 디지털 위성 TV이다.", "begin": 0, "end": 7, "key_begin": 5, "head_phrase": -1, "sub_phrase": [0, 3], "weight": 0, "element": [
+                    {"text": "디지털 위성 TV", "label": "NP", "begin": 12, "end": 14, "ne_type": ""}, 
+                    {"text": "이다.", "label": "VP", "begin": 15, "end": 17, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [
+                {"verb": "만들", "sense": 1, "word_id": 4, "weight": 0.381223, "argument": [
+                    {"type": "ARG0", "word_id": 2, "text": "스카이", "weight": 0.638681}, 
+                    {"type": "ARGM-LOC", "word_id": 3, "text": "비에서", "weight": 0.123764}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 2, 
+            "text": "1998년에 첫 서비스를 시작했으며, 당시에는 Sky Digital이라는 이름이었다.", 
+            "morp": [
+                {"id": 0, "lemma": "1998", "type": "SN", "position": 108, "weight": 1}, 
+                {"id": 1, "lemma": "년", "type": "NNB", "position": 112, "weight": 0.414343}, 
+                {"id": 2, "lemma": "에", "type": "JKB", "position": 115, "weight": 0.135559}, 
+                {"id": 3, "lemma": "첫", "type": "MM", "position": 119, "weight": 0.9}, 
+                {"id": 4, "lemma": "서비스", "type": "NNG", "position": 123, "weight": 0.9}, 
+                {"id": 5, "lemma": "를", "type": "JKO", "position": 132, "weight": 0.137686}, 
+                {"id": 6, "lemma": "시작", "type": "NNG", "position": 136, "weight": 0.9}, 
+                {"id": 7, "lemma": "하", "type": "XSV", "position": 142, "weight": 0.0001}, 
+                {"id": 8, "lemma": "었", "type": "EP", "position": 142, "weight": 0.9}, 
+                {"id": 9, "lemma": "으며", "type": "EC", "position": 145, "weight": 0.197482}, 
+                {"id": 10, "lemma": ",", "type": "SP", "position": 151, "weight": 1}, 
+                {"id": 11, "lemma": "당시", "type": "NNG", "position": 153, "weight": 0.9}, 
+                {"id": 12, "lemma": "에", "type": "JKB", "position": 159, "weight": 0.153364}, 
+                {"id": 13, "lemma": "는", "type": "JX", "position": 162, "weight": 0.0387928}, 
+                {"id": 14, "lemma": "Sky", "type": "SL", "position": 166, "weight": 1}, 
+                {"id": 15, "lemma": "Digital", "type": "SL", "position": 170, "weight": 1}, 
+                {"id": 16, "lemma": "이", "type": "VCP", "position": 177, "weight": 0.0209823}, 
+                {"id": 17, "lemma": "라는", "type": "ETM", "position": 180, "weight": 0.230361}, 
+                {"id": 18, "lemma": "이름", "type": "NNG", "position": 187, "weight": 0.9}, 
+                {"id": 19, "lemma": "이", "type": "VCP", "position": 193, "weight": 0.0177525}, 
+                {"id": 20, "lemma": "었", "type": "EP", "position": 196, "weight": 0.9}, 
+                {"id": 21, "lemma": "다", "type": "EF", "position": 199, "weight": 0.640954}, 
+                {"id": 22, "lemma": ".", "type": "SF", "position": 202, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "1998년에", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "첫", "type": "", "begin": 3, "end": 3}, 
+                {"id": 2, "text": "서비스를", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "시작했으며,", "type": "", "begin": 6, "end": 10}, 
+                {"id": 4, "text": "당시에는", "type": "", "begin": 11, "end": 13}, 
+                {"id": 5, "text": "Sky", "type": "", "begin": 14, "end": 14}, 
+                {"id": 6, "text": "Digital이라는", "type": "", "begin": 15, "end": 17}, 
+                {"id": 7, "text": "이름이었다.", "type": "", "begin": 18, "end": 22}
+            ], 
+            "NE": [
+                {"id": 0, "text": "1998년", "type": "DT_YEAR", "begin": 0, "end": 1, "weight": 0.809708, "common_noun": 0}, 
+                {"id": 1, "text": "첫 서비스", "type": "TMI_SERVICE", "begin": 3, "end": 4, "weight": 0.329364, "common_noun": 0}, 
+                {"id": 2, "text": "Sky", "type": "OGG_ECONOMY", "begin": 14, "end": 14, "weight": 0.291783, "common_noun": 0}, 
+                {"id": 3, "text": "Digital", "type": "TR_SCIENCE", "begin": 15, "end": 15, "weight": 0.0893747, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "1998년에", "head": 3, "label": "NP_AJT", "mod": [], "weight": 0.803527}, 
+                {"id": 1, "text": "첫", "head": 2, "label": "DP", "mod": [], "weight": 0.72159}, 
+                {"id": 2, "text": "서비스를", "head": 3, "label": "NP_OBJ", "mod": [1], "weight": 0.686465}, 
+                {"id": 3, "text": "시작했으며,", "head": 6, "label": "VP", "mod": [0, 2], "weight": 0.57497}, 
+                {"id": 4, "text": "당시에는", "head": 6, "label": "NP_AJT", "mod": [], "weight": 0.790817}, 
+                {"id": 5, "text": "Sky", "head": 6, "label": "NP", "mod": [], "weight": 0.727752}, 
+                {"id": 6, "text": "Digital이라는", "head": 7, "label": "VNP_MOD", "mod": [3, 4, 5], "weight": 0.642103}, 
+                {"id": 7, "text": "이름이었다.", "head": -1, "label": "VNP", "mod": [6], "weight": 0.0729921}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_AJT", "text": "1998년에", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "첫 서비스를", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP", "text": "P#0@AJT에 P#1@OBJ를 시작했으며,", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": 4, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "당시에는", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VNP_MOD", "text": "P#2@VP으며, P#3@AJT는 Sky Digital이라는", "begin": 0, "end": 6, "key_begin": 5, "head_phrase": 5, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VNP", "text": "P#4@MOD라는 이름이었다.", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": -1, "sub_phrase": [4], "weight": 0, "element": [
+                    {"text": "이름", "label": "NP", "begin": 18, "end": 18, "ne_type": ""}, 
+                    {"text": "이었다.", "label": "VP", "begin": 19, "end": 22, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [
+                {"verb": "시작", "sense": 1, "word_id": 3, "weight": 0.344069, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 0, "text": "1998년에", "weight": 1}, 
+                    {"type": "ARG1", "word_id": 2, "text": "서비스를", "weight": 0.220947}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 3, "ant_sid": 1, "ant_wid": 0, "ant_is_title": 0, "weight": 0.757934}
+            ]
+        }, 
+        {
+            "id": 3, 
+            "text": "편성표는 스카이 플랫폼에서 각 채널의 편성표를 알 수 있다.", 
+            "morp": [
+                {"id": 0, "lemma": "편성", "type": "NNG", "position": 203, "weight": 0.9}, 
+                {"id": 1, "lemma": "표", "type": "NNG", "position": 209, "weight": 0.182981}, 
+                {"id": 2, "lemma": "는", "type": "JX", "position": 212, "weight": 0.0287565}, 
+                {"id": 3, "lemma": "스카이", "type": "NNG", "position": 216, "weight": 0.295383}, 
+                {"id": 4, "lemma": "플랫폼", "type": "NNG", "position": 226, "weight": 0.9}, 
+                {"id": 5, "lemma": "에서", "type": "JKB", "position": 235, "weight": 0.153407}, 
+                {"id": 6, "lemma": "각", "type": "MM", "position": 242, "weight": 0.0169519}, 
+                {"id": 7, "lemma": "채널", "type": "NNG", "position": 246, "weight": 0.9}, 
+                {"id": 8, "lemma": "의", "type": "JKG", "position": 252, "weight": 0.0694213}, 
+                {"id": 9, "lemma": "편성", "type": "NNG", "position": 256, "weight": 0.9}, 
+                {"id": 10, "lemma": "표", "type": "NNG", "position": 262, "weight": 0.182981}, 
+                {"id": 11, "lemma": "를", "type": "JKO", "position": 265, "weight": 0.137686}, 
+                {"id": 12, "lemma": "알", "type": "VV", "position": 269, "weight": 0.722634}, 
+                {"id": 13, "lemma": "ㄹ", "type": "ETM", "position": 269, "weight": 0.300746}, 
+                {"id": 14, "lemma": "수", "type": "NNB", "position": 273, "weight": 0.215617}, 
+                {"id": 15, "lemma": "있", "type": "VA", "position": 277, "weight": 0.0518488}, 
+                {"id": 16, "lemma": "다", "type": "EF", "position": 280, "weight": 0.132573}, 
+                {"id": 17, "lemma": ".", "type": "SF", "position": 283, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "편성표는", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "스카이", "type": "", "begin": 3, "end": 3}, 
+                {"id": 2, "text": "플랫폼에서", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "각", "type": "", "begin": 6, "end": 6}, 
+                {"id": 4, "text": "채널의", "type": "", "begin": 7, "end": 8}, 
+                {"id": 5, "text": "편성표를", "type": "", "begin": 9, "end": 11}, 
+                {"id": 6, "text": "알", "type": "", "begin": 12, "end": 13}, 
+                {"id": 7, "text": "수", "type": "", "begin": 14, "end": 14}, 
+                {"id": 8, "text": "있다.", "type": "", "begin": 15, "end": 17}
+            ], 
+            "NE": [], 
+            "dependency": [
+                {"id": 0, "text": "편성표는", "head": 6, "label": "NP_SBJ", "mod": [], "weight": 0.555473}, 
+                {"id": 1, "text": "스카이", "head": 2, "label": "NP", "mod": [], "weight": 0.718416}, 
+                {"id": 2, "text": "플랫폼에서", "head": 6, "label": "NP_AJT", "mod": [1], "weight": 0.776973}, 
+                {"id": 3, "text": "각", "head": 4, "label": "DP", "mod": [], "weight": 0.796662}, 
+                {"id": 4, "text": "채널의", "head": 5, "label": "NP_MOD", "mod": [3], "weight": 0.676409}, 
+                {"id": 5, "text": "편성표를", "head": 6, "label": "NP_OBJ", "mod": [4], "weight": 0.590933}, 
+                {"id": 6, "text": "알", "head": 7, "label": "VP_MOD", "mod": [0, 2, 5], "weight": 0.773302}, 
+                {"id": 7, "text": "수", "head": 8, "label": "NP_SBJ", "mod": [6], "weight": 0.792249}, 
+                {"id": 8, "text": "있다.", "head": -1, "label": "VP", "mod": [7], "weight": 0.0388273}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "편성표는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "스카이 플랫폼에서", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "각 채널의 편성표를", "begin": 3, "end": 5, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S_MOD", "text": "P#0@SBJ는 P#1@AJT에서 P#2@OBJ를 알", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 4, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "S#3@MODㄹ 수", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#4@SBJ수 있다.", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": -1, "sub_phrase": [4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "알", "sense": 1, "word_id": 6, "weight": 0.630121, "argument": [
+                    {"type": "ARG1", "word_id": 5, "text": "편성표를", "weight": 0.594497}, 
+                    {"type": "AUX", "word_id": 8, "text": "있다.", "weight": 0.665746}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 4, 
+            "text": "TV 채널은 총 999개이고, 0101번부터 0214번 까지는 라디오 채널이다.", 
+            "morp": [
+                {"id": 0, "lemma": "TV", "type": "SL", "position": 284, "weight": 1}, 
+                {"id": 1, "lemma": "채널", "type": "NNG", "position": 287, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 293, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "총", "type": "MM", "position": 297, "weight": 0.00914108}, 
+                {"id": 4, "lemma": "999", "type": "SN", "position": 301, "weight": 1}, 
+                {"id": 5, "lemma": "개", "type": "NNB", "position": 304, "weight": 0.363274}, 
+                {"id": 6, "lemma": "이", "type": "VCP", "position": 307, "weight": 0.0607843}, 
+                {"id": 7, "lemma": "고", "type": "EC", "position": 310, "weight": 0.242962}, 
+                {"id": 8, "lemma": ",", "type": "SP", "position": 313, "weight": 1}, 
+                {"id": 9, "lemma": "0101", "type": "SN", "position": 315, "weight": 1}, 
+                {"id": 10, "lemma": "번", "type": "NNB", "position": 319, "weight": 0.413822}, 
+                {"id": 11, "lemma": "부터", "type": "JX", "position": 322, "weight": 0.105319}, 
+                {"id": 12, "lemma": "0214", "type": "SN", "position": 329, "weight": 1}, 
+                {"id": 13, "lemma": "번", "type": "NNB", "position": 333, "weight": 0.413822}, 
+                {"id": 14, "lemma": "까지", "type": "JX", "position": 337, "weight": 0.105153}, 
+                {"id": 15, "lemma": "는", "type": "JX", "position": 343, "weight": 0.00494613}, 
+                {"id": 16, "lemma": "라디오", "type": "NNG", "position": 347, "weight": 0.9}, 
+                {"id": 17, "lemma": "채널", "type": "NNG", "position": 357, "weight": 0.9}, 
+                {"id": 18, "lemma": "이", "type": "VCP", "position": 363, "weight": 0.0177525}, 
+                {"id": 19, "lemma": "다", "type": "EF", "position": 366, "weight": 0.353579}, 
+                {"id": 20, "lemma": ".", "type": "SF", "position": 369, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "TV", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "채널은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "총", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "999개이고,", "type": "", "begin": 4, "end": 8}, 
+                {"id": 4, "text": "0101번부터", "type": "", "begin": 9, "end": 11}, 
+                {"id": 5, "text": "0214번", "type": "", "begin": 12, "end": 13}, 
+                {"id": 6, "text": "까지는", "type": "", "begin": 14, "end": 15}, 
+                {"id": 7, "text": "라디오", "type": "", "begin": 16, "end": 16}, 
+                {"id": 8, "text": "채널이다.", "type": "", "begin": 17, "end": 20}
+            ], 
+            "NE": [
+                {"id": 0, "text": "TV", "type": "TMI_HW", "begin": 0, "end": 0, "weight": 0.440368, "common_noun": 0}, 
+                {"id": 1, "text": "999개", "type": "QT_COUNT", "begin": 4, "end": 5, "weight": 0.656113, "common_noun": 0}, 
+                {"id": 2, "text": "0101번부터", "type": "DT_OTHERS", "begin": 9, "end": 11, "weight": 0.396959, "common_noun": 0}, 
+                {"id": 3, "text": "0214번", "type": "QT_OTHERS", "begin": 12, "end": 13, "weight": 0.435841, "common_noun": 0}, 
+                {"id": 4, "text": "라디오", "type": "TMI_HW", "begin": 16, "end": 16, "weight": 0.53622, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "TV", "head": 1, "label": "NP", "mod": [], "weight": 0.700559}, 
+                {"id": 1, "text": "채널은", "head": 3, "label": "NP_SBJ", "mod": [0], "weight": 0.843195}, 
+                {"id": 2, "text": "총", "head": 3, "label": "DP", "mod": [], "weight": 0.768241}, 
+                {"id": 3, "text": "999개이고,", "head": 8, "label": "VNP", "mod": [1, 2], "weight": 0.719075}, 
+                {"id": 4, "text": "0101번부터", "head": 6, "label": "NP_AJT", "mod": [], "weight": 0.591294}, 
+                {"id": 5, "text": "0214번", "head": 6, "label": "NP", "mod": [], "weight": 0.55371}, 
+                {"id": 6, "text": "까지는", "head": 8, "label": "NP_SBJ", "mod": [5, 4], "weight": 0.736231}, 
+                {"id": 7, "text": "라디오", "head": 8, "label": "NP", "mod": [], "weight": 0.783908}, 
+                {"id": 8, "text": "채널이다.", "head": -1, "label": "VNP", "mod": [3, 6, 7], "weight": 0.0488468}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "TV 채널은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S", "text": "P#0@SBJ은 총 999개이고,", "begin": 0, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [0], "weight": 0, "element": [
+                    {"text": "총 999개", "label": "NP", "begin": 3, "end": 5, "ne_type": ""}, 
+                    {"text": "이고,", "label": "VP", "begin": 6, "end": 8, "ne_type": ""}
+                ]}, 
+                {"id": 2, "label": "NP_SBJ", "text": "0101번부터 0214번 까지는", "begin": 4, "end": 6, "key_begin": 4, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "S#1@S고, P#2@SBJ는 라디오 채널이다.", "begin": 0, "end": 8, "key_begin": 7, "head_phrase": -1, "sub_phrase": [1, 2], "weight": 0, "element": [
+                    {"text": "라디오 채널", "label": "NP", "begin": 16, "end": 17, "ne_type": ""}, 
+                    {"text": "이다.", "label": "VP", "begin": 18, "end": 20, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }
+    ], 
+    "entity": []
+}

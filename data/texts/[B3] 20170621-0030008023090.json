@@ -1,0 +1,2000 @@
+{
+    "title": {
+        "text": "[종합]트럼프 \"中의 노력 안 먹혀\"···백악관 \"북미 대화 더 멀어져\".", 
+        "NE": ""
+    }, 
+    "metaInfo": {
+        "field": "뉴스3", 
+        "num_sent": 16, 
+        "num_word": 251
+    }, 
+    "sentence": [
+        {
+            "id": 0, 
+            "text": "[종합]트럼프 \"中의 노력 안 먹혀\"···백악관 \"북미 대화 더 멀어져\".", 
+            "morp": [
+                {"id": 0, "lemma": "[", "type": "SS", "position": 0, "weight": 1}, 
+                {"id": 1, "lemma": "종합", "type": "NNG", "position": 1, "weight": 0.9}, 
+                {"id": 2, "lemma": "]", "type": "SS", "position": 7, "weight": 1}, 
+                {"id": 3, "lemma": "트럼프", "type": "NNP", "position": 8, "weight": 0.00911582}, 
+                {"id": 4, "lemma": "\"", "type": "SS", "position": 18, "weight": 1}, 
+                {"id": 5, "lemma": "中", "type": "SH", "position": 19, "weight": 1}, 
+                {"id": 6, "lemma": "의", "type": "JKG", "position": 22, "weight": 0.0209566}, 
+                {"id": 7, "lemma": "노력", "type": "NNG", "position": 26, "weight": 0.9}, 
+                {"id": 8, "lemma": "안", "type": "MAG", "position": 33, "weight": 0.00221905}, 
+                {"id": 9, "lemma": "먹히", "type": "VV", "position": 37, "weight": 0.9}, 
+                {"id": 10, "lemma": "어", "type": "EF", "position": 40, "weight": 0.00246243}, 
+                {"id": 11, "lemma": "\"", "type": "SS", "position": 43, "weight": 1}, 
+                {"id": 12, "lemma": "·", "type": "SP", "position": 44, "weight": 1}, 
+                {"id": 13, "lemma": "·", "type": "SP", "position": 46, "weight": 1}, 
+                {"id": 14, "lemma": "·", "type": "SP", "position": 48, "weight": 1}, 
+                {"id": 15, "lemma": "백악관", "type": "NNP", "position": 50, "weight": 0.122091}, 
+                {"id": 16, "lemma": "\"", "type": "SS", "position": 60, "weight": 1}, 
+                {"id": 17, "lemma": "북미", "type": "NNP", "position": 61, "weight": 0.9}, 
+                {"id": 18, "lemma": "대화", "type": "NNG", "position": 68, "weight": 0.278896}, 
+                {"id": 19, "lemma": "더", "type": "MAG", "position": 75, "weight": 0.00506399}, 
+                {"id": 20, "lemma": "멀어지", "type": "VV", "position": 79, "weight": 0.9}, 
+                {"id": 21, "lemma": "어", "type": "EF", "position": 85, "weight": 0.00246243}, 
+                {"id": 22, "lemma": "\"", "type": "SS", "position": 88, "weight": 1}, 
+                {"id": 23, "lemma": ".", "type": "SF", "position": 89, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "[종합]트럼프", "type": "", "begin": 0, "end": 3}, 
+                {"id": 1, "text": "\"中의", "type": "", "begin": 4, "end": 6}, 
+                {"id": 2, "text": "노력", "type": "", "begin": 7, "end": 7}, 
+                {"id": 3, "text": "안", "type": "", "begin": 8, "end": 8}, 
+                {"id": 4, "text": "먹혀\"···백악관", "type": "", "begin": 9, "end": 15}, 
+                {"id": 5, "text": "\"북미", "type": "", "begin": 16, "end": 17}, 
+                {"id": 6, "text": "대화", "type": "", "begin": 18, "end": 18}, 
+                {"id": 7, "text": "더", "type": "", "begin": 19, "end": 19}, 
+                {"id": 8, "text": "멀어져\".", "type": "", "begin": 20, "end": 23}
+            ], 
+            "NE": [
+                {"id": 0, "text": "中", "type": "LCP_COUNTRY", "begin": 5, "end": 5, "weight": 0.304088, "common_noun": 0}, 
+                {"id": 1, "text": "백악관", "type": "OGG_POLITICS", "begin": 15, "end": 15, "weight": 0.205458, "common_noun": 0}, 
+                {"id": 2, "text": "북미", "type": "LCG_CONTINENT", "begin": 17, "end": 17, "weight": 0.512942, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "[종합]트럼프", "head": 1, "label": "NP", "mod": [], "weight": 0.259223}, 
+                {"id": 1, "text": "\"中의", "head": 2, "label": "NP_MOD", "mod": [0], "weight": 0.782801}, 
+                {"id": 2, "text": "노력", "head": 4, "label": "NP_SBJ", "mod": [1], "weight": 0.233734}, 
+                {"id": 3, "text": "안", "head": 4, "label": "AP", "mod": [], "weight": 0.731033}, 
+                {"id": 4, "text": "먹혀\"···백악관", "head": 8, "label": "VP", "mod": [2, 3], "weight": 0.685273}, 
+                {"id": 5, "text": "\"북미", "head": 6, "label": "NP", "mod": [], "weight": 0.524576}, 
+                {"id": 6, "text": "대화", "head": 8, "label": "NP_SBJ", "mod": [5], "weight": 0.611068}, 
+                {"id": 7, "text": "더", "head": 8, "label": "AP", "mod": [], "weight": 0.798968}, 
+                {"id": 8, "text": "멀어져\".", "head": -1, "label": "VP", "mod": [4, 6, 7], "weight": 0.00279506}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VP", "text": "[종합]트럼프 \"中의 노력 안 먹혀\"···백악관", "begin": 0, "end": 4, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP", "text": "P#0@VP백악관 \"북미 대화 더 멀어져\".", "begin": 0, "end": 8, "key_begin": 5, "head_phrase": -1, "sub_phrase": [0], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "먹히", "sense": 1, "word_id": 4, "weight": 0.16725, "argument": [
+                    {"type": "ARG1", "word_id": 2, "text": "노력", "weight": 0.183439}, 
+                    {"type": "ARGM-NEG", "word_id": 3, "text": "안", "weight": 0.15106}
+                ]}, 
+                {"verb": "멀어지", "sense": 1, "word_id": 8, "weight": 0.222861, "argument": [
+                    {"type": "ARG1", "word_id": 6, "text": "대화", "weight": 0.19211}, 
+                    {"type": "ARGM-ADV", "word_id": 7, "text": "더", "weight": 1}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 1, 
+            "text": "도널드 트럼프 미국 대통령은 21일(현지시간) 북한을 압박하기 위한 중국의 노력이 먹히지 않고 있다고 지적했다.", 
+            "morp": [
+                {"id": 0, "lemma": "도널드", "type": "NNP", "position": 90, "weight": 0.9}, 
+                {"id": 1, "lemma": "트럼프", "type": "NNP", "position": 100, "weight": 0.0109417}, 
+                {"id": 2, "lemma": "미국", "type": "NNP", "position": 110, "weight": 0.0809629}, 
+                {"id": 3, "lemma": "대통령", "type": "NNG", "position": 117, "weight": 0.9}, 
+                {"id": 4, "lemma": "은", "type": "JX", "position": 126, "weight": 0.0449928}, 
+                {"id": 5, "lemma": "21", "type": "SN", "position": 130, "weight": 1}, 
+                {"id": 6, "lemma": "일", "type": "NNB", "position": 132, "weight": 0.126777}, 
+                {"id": 7, "lemma": "(", "type": "SS", "position": 135, "weight": 1}, 
+                {"id": 8, "lemma": "현지", "type": "NNG", "position": 136, "weight": 0.181161}, 
+                {"id": 9, "lemma": "시간", "type": "NNG", "position": 142, "weight": 0.160569}, 
+                {"id": 10, "lemma": ")", "type": "SS", "position": 148, "weight": 1}, 
+                {"id": 11, "lemma": "북한", "type": "NNP", "position": 150, "weight": 0.0640904}, 
+                {"id": 12, "lemma": "을", "type": "JKO", "position": 156, "weight": 0.0266447}, 
+                {"id": 13, "lemma": "압박", "type": "NNG", "position": 160, "weight": 0.9}, 
+                {"id": 14, "lemma": "하", "type": "XSV", "position": 166, "weight": 0.0001}, 
+                {"id": 15, "lemma": "기", "type": "ETN", "position": 169, "weight": 0.0556099}, 
+                {"id": 16, "lemma": "위하", "type": "VV", "position": 173, "weight": 0.176484}, 
+                {"id": 17, "lemma": "ㄴ", "type": "ETM", "position": 176, "weight": 0.304215}, 
+                {"id": 18, "lemma": "중국", "type": "NNP", "position": 180, "weight": 0.0280505}, 
+                {"id": 19, "lemma": "의", "type": "JKG", "position": 186, "weight": 0.0987295}, 
+                {"id": 20, "lemma": "노력", "type": "NNG", "position": 190, "weight": 0.9}, 
+                {"id": 21, "lemma": "이", "type": "JKS", "position": 196, "weight": 0.0360723}, 
+                {"id": 22, "lemma": "먹히", "type": "VV", "position": 200, "weight": 0.9}, 
+                {"id": 23, "lemma": "지", "type": "EC", "position": 206, "weight": 0.301842}, 
+                {"id": 24, "lemma": "않", "type": "VX", "position": 210, "weight": 0.256301}, 
+                {"id": 25, "lemma": "고", "type": "EC", "position": 213, "weight": 0.25644}, 
+                {"id": 26, "lemma": "있", "type": "VX", "position": 217, "weight": 0.125953}, 
+                {"id": 27, "lemma": "다고", "type": "EC", "position": 220, "weight": 0.260366}, 
+                {"id": 28, "lemma": "지적", "type": "NNG", "position": 227, "weight": 0.9}, 
+                {"id": 29, "lemma": "하", "type": "XSV", "position": 233, "weight": 0.0001}, 
+                {"id": 30, "lemma": "었", "type": "EP", "position": 233, "weight": 0.9}, 
+                {"id": 31, "lemma": "다", "type": "EF", "position": 236, "weight": 0.640954}, 
+                {"id": 32, "lemma": ".", "type": "SF", "position": 239, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "도널드", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "트럼프", "type": "", "begin": 1, "end": 1}, 
+                {"id": 2, "text": "미국", "type": "", "begin": 2, "end": 2}, 
+                {"id": 3, "text": "대통령은", "type": "", "begin": 3, "end": 4}, 
+                {"id": 4, "text": "21일(현지시간)", "type": "", "begin": 5, "end": 10}, 
+                {"id": 5, "text": "북한을", "type": "", "begin": 11, "end": 12}, 
+                {"id": 6, "text": "압박하기", "type": "", "begin": 13, "end": 15}, 
+                {"id": 7, "text": "위한", "type": "", "begin": 16, "end": 17}, 
+                {"id": 8, "text": "중국의", "type": "", "begin": 18, "end": 19}, 
+                {"id": 9, "text": "노력이", "type": "", "begin": 20, "end": 21}, 
+                {"id": 10, "text": "먹히지", "type": "", "begin": 22, "end": 23}, 
+                {"id": 11, "text": "않고", "type": "", "begin": 24, "end": 25}, 
+                {"id": 12, "text": "있다고", "type": "", "begin": 26, "end": 27}, 
+                {"id": 13, "text": "지적했다.", "type": "", "begin": 28, "end": 32}
+            ], 
+            "NE": [
+                {"id": 0, "text": "도널드 트럼프", "type": "PS_NAME", "begin": 0, "end": 1, "weight": 0.336676, "common_noun": 0}, 
+                {"id": 1, "text": "미국", "type": "LCP_COUNTRY", "begin": 2, "end": 2, "weight": 0.562779, "common_noun": 0}, 
+                {"id": 2, "text": "대통령", "type": "CV_POSITION", "begin": 3, "end": 3, "weight": 0.634587, "common_noun": 0}, 
+                {"id": 3, "text": "21일", "type": "DT_DAY", "begin": 5, "end": 6, "weight": 0.58025, "common_noun": 0}, 
+                {"id": 4, "text": "북한", "type": "LCP_COUNTRY", "begin": 11, "end": 11, "weight": 0.796278, "common_noun": 0}, 
+                {"id": 5, "text": "중국", "type": "LCP_COUNTRY", "begin": 18, "end": 18, "weight": 0.554295, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "도널드", "head": 1, "label": "NP", "mod": [], "weight": 0.703023}, 
+                {"id": 1, "text": "트럼프", "head": 3, "label": "NP", "mod": [0], "weight": 0.640252}, 
+                {"id": 2, "text": "미국", "head": 3, "label": "NP", "mod": [], "weight": 0.713632}, 
+                {"id": 3, "text": "대통령은", "head": 10, "label": "NP_SBJ", "mod": [1, 2], "weight": 0.431427}, 
+                {"id": 4, "text": "21일(현지시간)", "head": 10, "label": "NP_AJT", "mod": [], "weight": 0.368351}, 
+                {"id": 5, "text": "북한을", "head": 6, "label": "NP_OBJ", "mod": [], "weight": 0.759807}, 
+                {"id": 6, "text": "압박하기", "head": 7, "label": "VP_OBJ", "mod": [5], "weight": 0.623137}, 
+                {"id": 7, "text": "위한", "head": 9, "label": "VP_MOD", "mod": [6], "weight": 0.707467}, 
+                {"id": 8, "text": "중국의", "head": 9, "label": "NP_MOD", "mod": [], "weight": 0.682753}, 
+                {"id": 9, "text": "노력이", "head": 10, "label": "NP_SBJ", "mod": [7, 8], "weight": 0.755828}, 
+                {"id": 10, "text": "먹히지", "head": 11, "label": "VP", "mod": [3, 4, 9], "weight": 0.692052}, 
+                {"id": 11, "text": "않고", "head": 12, "label": "VP", "mod": [10], "weight": 0.741766}, 
+                {"id": 12, "text": "있다고", "head": 13, "label": "VP_CMP", "mod": [11], "weight": 0.778513}, 
+                {"id": 13, "text": "지적했다.", "head": -1, "label": "VP", "mod": [12], "weight": 0.00277677}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "도널드 트럼프 미국 대통령은", "begin": 0, "end": 3, "key_begin": 0, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "21일(현지시간)", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "북한을", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP_OBJ", "text": "P#2@OBJ을 압박하기", "begin": 5, "end": 6, "key_begin": 6, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#3@OBJ기 위한", "begin": 5, "end": 7, "key_begin": 7, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_SBJ", "text": "P#4@MODㄴ 중국의 노력이", "begin": 5, "end": 9, "key_begin": 8, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S_CMP", "text": "P#0@SBJ은 P#1@AJT시간) P#5@SBJ이 먹히지 않고 있다고", "begin": 0, "end": 12, "key_begin": 10, "head_phrase": 7, "sub_phrase": [0, 1, 5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "S#6@CMP다고 지적했다.", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": -1, "sub_phrase": [6], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "압박", "sense": 1, "word_id": 6, "weight": 0.238061, "argument": [
+                    {"type": "ARG1", "word_id": 5, "text": "북한", "weight": 0.238061}
+                ]}, 
+                {"verb": "위하", "sense": 1, "word_id": 7, "weight": 0.490185, "argument": [
+                    {"type": "ARG1", "word_id": 6, "text": "압박하기", "weight": 0.461017}, 
+                    {"type": "ARG0", "word_id": 9, "text": "중국의 노력", "weight": 0.519353}
+                ]}, 
+                {"verb": "먹히", "sense": 1, "word_id": 10, "weight": 0.504196, "argument": [
+                    {"type": "ARG1", "word_id": 9, "text": "중국의 노력", "weight": 0.19016}, 
+                    {"type": "ARGM-NEG", "word_id": 11, "text": "않고", "weight": 0.61267}, 
+                    {"type": "AUX", "word_id": 12, "text": "먹히지 않고 있다고", "weight": 0.709758}
+                ]}, 
+                {"verb": "지적", "sense": 1, "word_id": 13, "weight": 0.550848, "argument": [
+                    {"type": "ARG0", "word_id": 3, "text": "도널드 트럼프 미국 대통령", "weight": 0.621398}, 
+                    {"type": "ARGM-TMP", "word_id": 4, "text": "21일(현지시간)", "weight": 0.512776}, 
+                    {"type": "ARG1", "word_id": 12, "text": "먹히지 않고 있다고", "weight": 0.518371}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 13, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.785519}
+            ]
+        }, 
+        {
+            "id": 2, 
+            "text": "트럼프 대통령은 21일 오전 3시 38분 트위터에 \"시진핑(習近平) 주석과 중국이 북한 문제를 돕기 위해 노력을 기울이고 있는 데 매우 감사하다\"면서도 \"일이 잘 되어가고 있지 않다\"고 주장했다.", 
+            "morp": [
+                {"id": 0, "lemma": "트럼프", "type": "NNG", "position": 240, "weight": 0.378766}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 250, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 259, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "21", "type": "SN", "position": 263, "weight": 1}, 
+                {"id": 4, "lemma": "일", "type": "NNB", "position": 265, "weight": 0.126777}, 
+                {"id": 5, "lemma": "오전", "type": "NNG", "position": 269, "weight": 0.110508}, 
+                {"id": 6, "lemma": "3", "type": "SN", "position": 276, "weight": 1}, 
+                {"id": 7, "lemma": "시", "type": "NNB", "position": 277, "weight": 0.084652}, 
+                {"id": 8, "lemma": "38", "type": "SN", "position": 281, "weight": 1}, 
+                {"id": 9, "lemma": "분", "type": "NNB", "position": 283, "weight": 0.322424}, 
+                {"id": 10, "lemma": "트위터", "type": "NNG", "position": 287, "weight": 0}, 
+                {"id": 11, "lemma": "에", "type": "JKB", "position": 296, "weight": 0.153364}, 
+                {"id": 12, "lemma": "\"", "type": "SS", "position": 300, "weight": 1}, 
+                {"id": 13, "lemma": "시진핑", "type": "NNG", "position": 301, "weight": 0}, 
+                {"id": 14, "lemma": "(", "type": "SS", "position": 310, "weight": 1}, 
+                {"id": 15, "lemma": "習近平", "type": "SH", "position": 311, "weight": 1}, 
+                {"id": 16, "lemma": ")", "type": "SS", "position": 320, "weight": 1}, 
+                {"id": 17, "lemma": "주석", "type": "NNG", "position": 322, "weight": 0.9}, 
+                {"id": 18, "lemma": "과", "type": "JC", "position": 328, "weight": 0.017569}, 
+                {"id": 19, "lemma": "중국", "type": "NNP", "position": 332, "weight": 0.0704877}, 
+                {"id": 20, "lemma": "이", "type": "JKS", "position": 338, "weight": 0.0234517}, 
+                {"id": 21, "lemma": "북한", "type": "NNP", "position": 342, "weight": 0.0187961}, 
+                {"id": 22, "lemma": "문제", "type": "NNG", "position": 349, "weight": 0.281642}, 
+                {"id": 23, "lemma": "를", "type": "JKO", "position": 355, "weight": 0.137686}, 
+                {"id": 24, "lemma": "돕", "type": "VV", "position": 359, "weight": 0.777582}, 
+                {"id": 25, "lemma": "기", "type": "ETN", "position": 362, "weight": 0.0380514}, 
+                {"id": 26, "lemma": "위하", "type": "VV", "position": 366, "weight": 0.176484}, 
+                {"id": 27, "lemma": "어", "type": "EC", "position": 369, "weight": 0.41831}, 
+                {"id": 28, "lemma": "노력", "type": "NNG", "position": 373, "weight": 0.9}, 
+                {"id": 29, "lemma": "을", "type": "JKO", "position": 379, "weight": 0.129611}, 
+                {"id": 30, "lemma": "기울이", "type": "VV", "position": 383, "weight": 0.9}, 
+                {"id": 31, "lemma": "고", "type": "EC", "position": 392, "weight": 0.416679}, 
+                {"id": 32, "lemma": "있", "type": "VX", "position": 396, "weight": 0.125953}, 
+                {"id": 33, "lemma": "는", "type": "ETM", "position": 399, "weight": 0.183966}, 
+                {"id": 34, "lemma": "데", "type": "NNB", "position": 403, "weight": 0.226476}, 
+                {"id": 35, "lemma": "매우", "type": "MAG", "position": 407, "weight": 0.0110797}, 
+                {"id": 36, "lemma": "감사", "type": "NNG", "position": 414, "weight": 0.260757}, 
+                {"id": 37, "lemma": "하", "type": "XSV", "position": 420, "weight": 0.0001}, 
+                {"id": 38, "lemma": "다", "type": "EF", "position": 423, "weight": 0.0439236}, 
+                {"id": 39, "lemma": "\"", "type": "SS", "position": 426, "weight": 1}, 
+                {"id": 40, "lemma": "면서", "type": "EC", "position": 427, "weight": 0.00531519}, 
+                {"id": 41, "lemma": "도", "type": "JX", "position": 433, "weight": 0.0271372}, 
+                {"id": 42, "lemma": "\"", "type": "SS", "position": 437, "weight": 1}, 
+                {"id": 43, "lemma": "일", "type": "NNG", "position": 438, "weight": 0.128043}, 
+                {"id": 44, "lemma": "이", "type": "JKS", "position": 441, "weight": 0.0360723}, 
+                {"id": 45, "lemma": "잘", "type": "MAG", "position": 445, "weight": 0.111775}, 
+                {"id": 46, "lemma": "되", "type": "VV", "position": 449, "weight": 0.361346}, 
+                {"id": 47, "lemma": "어", "type": "EC", "position": 452, "weight": 0.41831}, 
+                {"id": 48, "lemma": "가", "type": "VX", "position": 455, "weight": 0.00757084}, 
+                {"id": 49, "lemma": "고", "type": "EC", "position": 458, "weight": 0.25644}, 
+                {"id": 50, "lemma": "있", "type": "VX", "position": 462, "weight": 0.125953}, 
+                {"id": 51, "lemma": "지", "type": "EC", "position": 465, "weight": 0.185764}, 
+                {"id": 52, "lemma": "않", "type": "VX", "position": 469, "weight": 0.256301}, 
+                {"id": 53, "lemma": "다", "type": "EF", "position": 472, "weight": 0.180366}, 
+                {"id": 54, "lemma": "\"", "type": "SS", "position": 475, "weight": 1}, 
+                {"id": 55, "lemma": "고", "type": "JKQ", "position": 476, "weight": 0.000541335}, 
+                {"id": 56, "lemma": "주장", "type": "NNG", "position": 480, "weight": 0.076886}, 
+                {"id": 57, "lemma": "하", "type": "XSV", "position": 486, "weight": 0.0001}, 
+                {"id": 58, "lemma": "었", "type": "EP", "position": 486, "weight": 0.9}, 
+                {"id": 59, "lemma": "다", "type": "EF", "position": 489, "weight": 0.640954}, 
+                {"id": 60, "lemma": ".", "type": "SF", "position": 492, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "트럼프", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "21일", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "오전", "type": "", "begin": 5, "end": 5}, 
+                {"id": 4, "text": "3시", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "38분", "type": "", "begin": 8, "end": 9}, 
+                {"id": 6, "text": "트위터에", "type": "", "begin": 10, "end": 11}, 
+                {"id": 7, "text": "\"시진핑(習近平)", "type": "", "begin": 12, "end": 16}, 
+                {"id": 8, "text": "주석과", "type": "", "begin": 17, "end": 18}, 
+                {"id": 9, "text": "중국이", "type": "", "begin": 19, "end": 20}, 
+                {"id": 10, "text": "북한", "type": "", "begin": 21, "end": 21}, 
+                {"id": 11, "text": "문제를", "type": "", "begin": 22, "end": 23}, 
+                {"id": 12, "text": "돕기", "type": "", "begin": 24, "end": 25}, 
+                {"id": 13, "text": "위해", "type": "", "begin": 26, "end": 27}, 
+                {"id": 14, "text": "노력을", "type": "", "begin": 28, "end": 29}, 
+                {"id": 15, "text": "기울이고", "type": "", "begin": 30, "end": 31}, 
+                {"id": 16, "text": "있는", "type": "", "begin": 32, "end": 33}, 
+                {"id": 17, "text": "데", "type": "", "begin": 34, "end": 34}, 
+                {"id": 18, "text": "매우", "type": "", "begin": 35, "end": 35}, 
+                {"id": 19, "text": "감사하다\"면서도", "type": "", "begin": 36, "end": 41}, 
+                {"id": 20, "text": "\"일이", "type": "", "begin": 42, "end": 44}, 
+                {"id": 21, "text": "잘", "type": "", "begin": 45, "end": 45}, 
+                {"id": 22, "text": "되어가고", "type": "", "begin": 46, "end": 49}, 
+                {"id": 23, "text": "있지", "type": "", "begin": 50, "end": 51}, 
+                {"id": 24, "text": "않다\"고", "type": "", "begin": 52, "end": 55}, 
+                {"id": 25, "text": "주장했다.", "type": "", "begin": 56, "end": 60}
+            ], 
+            "NE": [
+                {"id": 0, "text": "트럼프", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.354977, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.511909, "common_noun": 0}, 
+                {"id": 2, "text": "21일", "type": "DT_DAY", "begin": 3, "end": 4, "weight": 0.813235, "common_noun": 0}, 
+                {"id": 3, "text": "오전 3시 38분", "type": "TI_OTHERS", "begin": 5, "end": 9, "weight": 0.692366, "common_noun": 0}, 
+                {"id": 4, "text": "트위터", "type": "TMI_SERVICE", "begin": 10, "end": 10, "weight": 0.346266, "common_noun": 0}, 
+                {"id": 5, "text": "시진핑", "type": "PS_NAME", "begin": 13, "end": 13, "weight": 0.290491, "common_noun": 0}, 
+                {"id": 6, "text": "習近平", "type": "PS_NAME", "begin": 15, "end": 15, "weight": 1, "common_noun": 0}, 
+                {"id": 7, "text": "주석", "type": "CV_POSITION", "begin": 17, "end": 17, "weight": 0.234867, "common_noun": 0}, 
+                {"id": 8, "text": "중국", "type": "LCP_COUNTRY", "begin": 19, "end": 19, "weight": 0.638883, "common_noun": 0}, 
+                {"id": 9, "text": "북한", "type": "LCP_COUNTRY", "begin": 21, "end": 21, "weight": 0.890594, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "트럼프", "head": 1, "label": "NP", "mod": [], "weight": 0.814811}, 
+                {"id": 1, "text": "대통령은", "head": 19, "label": "NP_SBJ", "mod": [0], "weight": 0.544022}, 
+                {"id": 2, "text": "21일", "head": 5, "label": "NP", "mod": [], "weight": 0.153172}, 
+                {"id": 3, "text": "오전", "head": 5, "label": "NP", "mod": [], "weight": 0.117645}, 
+                {"id": 4, "text": "3시", "head": 5, "label": "NP", "mod": [], "weight": 0.532152}, 
+                {"id": 5, "text": "38분", "head": 6, "label": "NP", "mod": [2, 3, 4], "weight": 0.108171}, 
+                {"id": 6, "text": "트위터에", "head": 19, "label": "NP_AJT", "mod": [5], "weight": 0.861629}, 
+                {"id": 7, "text": "\"시진핑(習近平)", "head": 8, "label": "NP", "mod": [], "weight": 0.55657}, 
+                {"id": 8, "text": "주석과", "head": 9, "label": "NP_CNJ", "mod": [7], "weight": 0.530802}, 
+                {"id": 9, "text": "중국이", "head": 12, "label": "NP_SBJ", "mod": [8], "weight": 0.837028}, 
+                {"id": 10, "text": "북한", "head": 11, "label": "NP", "mod": [], "weight": 0.753354}, 
+                {"id": 11, "text": "문제를", "head": 12, "label": "NP_OBJ", "mod": [10], "weight": 0.753364}, 
+                {"id": 12, "text": "돕기", "head": 13, "label": "VP_OBJ", "mod": [9, 11], "weight": 0.615387}, 
+                {"id": 13, "text": "위해", "head": 15, "label": "VP", "mod": [12], "weight": 0.687625}, 
+                {"id": 14, "text": "노력을", "head": 15, "label": "NP_OBJ", "mod": [], "weight": 0.638073}, 
+                {"id": 15, "text": "기울이고", "head": 16, "label": "VP", "mod": [13, 14], "weight": 0.784973}, 
+                {"id": 16, "text": "있는", "head": 17, "label": "VP_MOD", "mod": [15], "weight": 0.88582}, 
+                {"id": 17, "text": "데", "head": 19, "label": "NP_AJT", "mod": [16], "weight": 0.626571}, 
+                {"id": 18, "text": "매우", "head": 19, "label": "AP", "mod": [], "weight": 0.841021}, 
+                {"id": 19, "text": "감사하다\"면서도", "head": 25, "label": "VP", "mod": [1, 6, 17, 18], "weight": 0.263629}, 
+                {"id": 20, "text": "\"일이", "head": 22, "label": "NP_SBJ", "mod": [], "weight": 0.687403}, 
+                {"id": 21, "text": "잘", "head": 22, "label": "AP", "mod": [], "weight": 0.783802}, 
+                {"id": 22, "text": "되어가고", "head": 23, "label": "VP", "mod": [20, 21], "weight": 0.63137}, 
+                {"id": 23, "text": "있지", "head": 24, "label": "VP", "mod": [22], "weight": 0.764151}, 
+                {"id": 24, "text": "않다\"고", "head": 25, "label": "VP_CMP", "mod": [23], "weight": 0.737663}, 
+                {"id": 25, "text": "주장했다.", "head": -1, "label": "VP", "mod": [19, 24], "weight": 2.48048e-07}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "트럼프 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "21일 오전 3시 38분 트위터에", "begin": 2, "end": 6, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ은 P#1@AJT에 \"시진핑(習近平) 주석과 중국이 북한 문제를 돕기 위해 노력을 기울이고 있는 데 매우 감사하다\"면서도", "begin": 0, "end": 19, "key_begin": 7, "head_phrase": 4, "sub_phrase": [0, 1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP_CMP", "text": "\"일이 잘 되어가고 있지 않다\"고", "begin": 20, "end": 24, "key_begin": 20, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "S#2@S도 P#3@CMP고 주장했다.", "begin": 0, "end": 25, "key_begin": 25, "head_phrase": -1, "sub_phrase": [2, 3], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "돕", "sense": 1, "word_id": 12, "weight": 0.523212, "argument": [
+                    {"type": "ARG1", "word_id": 11, "text": "문제", "weight": 0.523212}
+                ]}, 
+                {"verb": "위하", "sense": 1, "word_id": 13, "weight": 0.344587, "argument": [
+                    {"type": "ARG1", "word_id": 12, "text": "돕기", "weight": 0.344587}
+                ]}, 
+                {"verb": "기울이", "sense": 1, "word_id": 15, "weight": 0.409734, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "트럼프 대통령", "weight": 0.340183}, 
+                    {"type": "ARG0", "word_id": 9, "text": "중국", "weight": 0.43511}, 
+                    {"type": "ARG2", "word_id": 13, "text": "위해", "weight": 0.296687}, 
+                    {"type": "ARG1", "word_id": 14, "text": "노력", "weight": 0.23811}, 
+                    {"type": "AUX", "word_id": 16, "text": "있는", "weight": 0.738582}
+                ]}, 
+                {"verb": "감사", "sense": 1, "word_id": 19, "weight": 0.20641, "argument": [
+                    {"type": "ARG1", "word_id": 17, "text": "데", "weight": 0.134623}, 
+                    {"type": "ARGM-EXT", "word_id": 18, "text": "매우", "weight": 0.278196}
+                ]}, 
+                {"verb": "되", "sense": 1, "word_id": 22, "weight": 0.598389, "argument": [
+                    {"type": "ARG1", "word_id": 20, "text": "\"일", "weight": 0.554694}, 
+                    {"type": "ARGM-ADV", "word_id": 21, "text": "잘", "weight": 1}, 
+                    {"type": "AUX", "word_id": 23, "text": "있지", "weight": 0.829887}, 
+                    {"type": "ARGM-NEG", "word_id": 24, "text": "\"일이 잘 되어가고 있지 않다\"", "weight": 0.561801}
+                ]}, 
+                {"verb": "주장", "sense": 1, "word_id": 25, "weight": 0.145685, "argument": [
+                    {"type": "ARGM-NEG", "word_id": 24, "text": "\"일이 잘 되어가고 있지 않다\"", "weight": 0.145685}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 25, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.77631}, 
+                {"id": 1, "type": "o", "head_wid": 25, "ant_sid": 2, "ant_wid": 1, "ant_is_title": 0, "weight": 0.513877}
+            ]
+        }, 
+        {
+            "id": 3, 
+            "text": "트럼프 대통령은 그러면서 \"최소한 중국이 시도를 했다는 것만은 안다\"고 강조했다.", 
+            "morp": [
+                {"id": 0, "lemma": "트럼프", "type": "NNG", "position": 493, "weight": 0.378766}, 
+                {"id": 1, "lemma": "대통령", "type": "NNG", "position": 503, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 512, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "그러", "type": "VV", "position": 516, "weight": 0.147137}, 
+                {"id": 4, "lemma": "면서", "type": "EC", "position": 522, "weight": 0.428918}, 
+                {"id": 5, "lemma": "\"", "type": "SS", "position": 529, "weight": 1}, 
+                {"id": 6, "lemma": "최소", "type": "NNG", "position": 530, "weight": 0.9}, 
+                {"id": 7, "lemma": "한", "type": "NNG", "position": 536, "weight": 0.00760564}, 
+                {"id": 8, "lemma": "중국", "type": "NNP", "position": 540, "weight": 0.00710113}, 
+                {"id": 9, "lemma": "이", "type": "JKS", "position": 546, "weight": 0.0234517}, 
+                {"id": 10, "lemma": "시도", "type": "NNG", "position": 550, "weight": 0.208629}, 
+                {"id": 11, "lemma": "를", "type": "JKO", "position": 556, "weight": 0.137686}, 
+                {"id": 12, "lemma": "하", "type": "VV", "position": 560, "weight": 0.48169}, 
+                {"id": 13, "lemma": "었", "type": "EP", "position": 560, "weight": 0.9}, 
+                {"id": 14, "lemma": "다는", "type": "ETM", "position": 563, "weight": 0.107585}, 
+                {"id": 15, "lemma": "것", "type": "NNB", "position": 570, "weight": 0.228788}, 
+                {"id": 16, "lemma": "만", "type": "JX", "position": 573, "weight": 0.0798858}, 
+                {"id": 17, "lemma": "은", "type": "JX", "position": 576, "weight": 0.00773878}, 
+                {"id": 18, "lemma": "알", "type": "VV", "position": 580, "weight": 0.136619}, 
+                {"id": 19, "lemma": "ㄴ다", "type": "EF", "position": 580, "weight": 0.0793196}, 
+                {"id": 20, "lemma": "\"", "type": "SS", "position": 586, "weight": 1}, 
+                {"id": 21, "lemma": "고", "type": "JKQ", "position": 587, "weight": 0.000541335}, 
+                {"id": 22, "lemma": "강조", "type": "NNG", "position": 591, "weight": 0.0755266}, 
+                {"id": 23, "lemma": "하", "type": "XSV", "position": 597, "weight": 0.0001}, 
+                {"id": 24, "lemma": "었", "type": "EP", "position": 597, "weight": 0.9}, 
+                {"id": 25, "lemma": "다", "type": "EF", "position": 600, "weight": 0.640954}, 
+                {"id": 26, "lemma": ".", "type": "SF", "position": 603, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "트럼프", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대통령은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "그러면서", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "\"최소한", "type": "", "begin": 5, "end": 7}, 
+                {"id": 4, "text": "중국이", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "시도를", "type": "", "begin": 10, "end": 11}, 
+                {"id": 6, "text": "했다는", "type": "", "begin": 12, "end": 14}, 
+                {"id": 7, "text": "것만은", "type": "", "begin": 15, "end": 17}, 
+                {"id": 8, "text": "안다\"고", "type": "", "begin": 18, "end": 21}, 
+                {"id": 9, "text": "강조했다.", "type": "", "begin": 22, "end": 26}
+            ], 
+            "NE": [
+                {"id": 0, "text": "트럼프", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.349648, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 1, "end": 1, "weight": 0.504413, "common_noun": 0}, 
+                {"id": 2, "text": "중국", "type": "LCP_COUNTRY", "begin": 8, "end": 8, "weight": 0.603568, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "트럼프", "head": 1, "label": "NP", "mod": [], "weight": 0.767695}, 
+                {"id": 1, "text": "대통령은", "head": 2, "label": "NP_SBJ", "mod": [0], "weight": 0.549595}, 
+                {"id": 2, "text": "그러면서", "head": 8, "label": "VP", "mod": [1], "weight": 0.470092}, 
+                {"id": 3, "text": "\"최소한", "head": 6, "label": "NP_AJT", "mod": [], "weight": 0.0676374}, 
+                {"id": 4, "text": "중국이", "head": 6, "label": "NP_SBJ", "mod": [], "weight": 0.822196}, 
+                {"id": 5, "text": "시도를", "head": 6, "label": "NP_OBJ", "mod": [], "weight": 0.746056}, 
+                {"id": 6, "text": "했다는", "head": 7, "label": "VP_MOD", "mod": [3, 4, 5], "weight": 0.685701}, 
+                {"id": 7, "text": "것만은", "head": 8, "label": "NP_OBJ", "mod": [6], "weight": 0.649102}, 
+                {"id": 8, "text": "안다\"고", "head": 9, "label": "VP_CMP", "mod": [2, 7], "weight": 0.671771}, 
+                {"id": 9, "text": "강조했다.", "head": -1, "label": "VP", "mod": [8], "weight": 0.00209867}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "트럼프 대통령은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S", "text": "P#0@SBJ은 그러면서", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S_CMP", "text": "S#1@S면서 \"최소한 중국이 시도를 했다는 것만은 안다\"고", "begin": 0, "end": 8, "key_begin": 3, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "S#2@CMP고 강조했다.", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": -1, "sub_phrase": [2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "그러", "sense": 1, "word_id": 2, "weight": 0.234957, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "트럼프 대통령", "weight": 0.234957}
+                ]}, 
+                {"verb": "하", "sense": 1, "word_id": 6, "weight": 0.46811, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 3, "text": "\"최소한", "weight": 0.255654}, 
+                    {"type": "ARG0", "word_id": 4, "text": "중국", "weight": 0.651338}, 
+                    {"type": "ARG1", "word_id": 5, "text": "시도", "weight": 0.497339}
+                ]}, 
+                {"verb": "알", "sense": 1, "word_id": 8, "weight": 0.333196, "argument": [
+                    {"type": "ARGM-DIS", "word_id": 2, "text": "그러면서", "weight": 0.15736}, 
+                    {"type": "ARG1", "word_id": 7, "text": "것", "weight": 0.509031}
+                ]}, 
+                {"verb": "강조", "sense": 1, "word_id": 9, "weight": 0.39977, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "\"최소한 중국이 시도를 했다는 것만은 알ㄴ다\"", "weight": 0.39977}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 8, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.492802}, 
+                {"id": 1, "type": "s", "head_wid": 9, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.583413}
+            ]
+        }, 
+        {
+            "id": 4, 
+            "text": "트럼프는 북한에 억류됐다 혼수상태로 석방된 미국인 오토 웜비어(22)가 사망한 일에 대해서는 \"미국은 다시 한 번 북한 정권의 잔혹함을 규탄한다\"며 \"그들로 인한 가장 최근의 희생자를 애도한다\"고 밝혔다.", 
+            "morp": [
+                {"id": 0, "lemma": "트럼프", "type": "NNP", "position": 604, "weight": 0.0120675}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 613, "weight": 0.0332677}, 
+                {"id": 2, "lemma": "북한", "type": "NNP", "position": 617, "weight": 0.0426295}, 
+                {"id": 3, "lemma": "에", "type": "JKB", "position": 623, "weight": 0.0823628}, 
+                {"id": 4, "lemma": "억류", "type": "NNG", "position": 627, "weight": 0.9}, 
+                {"id": 5, "lemma": "되", "type": "XSV", "position": 633, "weight": 0.000224177}, 
+                {"id": 6, "lemma": "었", "type": "EP", "position": 633, "weight": 0.9}, 
+                {"id": 7, "lemma": "다", "type": "EF", "position": 636, "weight": 0.640954}, 
+                {"id": 8, "lemma": "혼수", "type": "NNG", "position": 640, "weight": 0.9}, 
+                {"id": 9, "lemma": "상태", "type": "NNG", "position": 646, "weight": 0.184766}, 
+                {"id": 10, "lemma": "로", "type": "JKB", "position": 652, "weight": 0.153229}, 
+                {"id": 11, "lemma": "석방", "type": "NNG", "position": 656, "weight": 0.9}, 
+                {"id": 12, "lemma": "되", "type": "XSV", "position": 662, "weight": 0.000224177}, 
+                {"id": 13, "lemma": "ㄴ", "type": "ETM", "position": 662, "weight": 0.392321}, 
+                {"id": 14, "lemma": "미국", "type": "NNP", "position": 666, "weight": 0.0280581}, 
+                {"id": 15, "lemma": "인", "type": "XSN", "position": 672, "weight": 0.00915919}, 
+                {"id": 16, "lemma": "오토", "type": "NNG", "position": 676, "weight": 0.0347493}, 
+                {"id": 17, "lemma": "웜비어", "type": "NNG", "position": 683, "weight": 0}, 
+                {"id": 18, "lemma": "(", "type": "SS", "position": 692, "weight": 1}, 
+                {"id": 19, "lemma": "22", "type": "SN", "position": 693, "weight": 1}, 
+                {"id": 20, "lemma": ")", "type": "SS", "position": 695, "weight": 1}, 
+                {"id": 21, "lemma": "가", "type": "JKS", "position": 696, "weight": 0.0144542}, 
+                {"id": 22, "lemma": "사망", "type": "NNG", "position": 700, "weight": 0.9}, 
+                {"id": 23, "lemma": "하", "type": "XSV", "position": 706, "weight": 0.0001}, 
+                {"id": 24, "lemma": "ㄴ", "type": "ETM", "position": 706, "weight": 0.392321}, 
+                {"id": 25, "lemma": "일", "type": "NNG", "position": 710, "weight": 0.421798}, 
+                {"id": 26, "lemma": "에", "type": "JKB", "position": 713, "weight": 0.153364}, 
+                {"id": 27, "lemma": "대", "type": "NNG", "position": 717, "weight": 0.0312871}, 
+                {"id": 28, "lemma": "하", "type": "XSV", "position": 720, "weight": 0.0001}, 
+                {"id": 29, "lemma": "어서", "type": "EC", "position": 720, "weight": 0.364511}, 
+                {"id": 30, "lemma": "는", "type": "JX", "position": 726, "weight": 0.0115393}, 
+                {"id": 31, "lemma": "\"", "type": "SS", "position": 730, "weight": 1}, 
+                {"id": 32, "lemma": "미국", "type": "NNP", "position": 731, "weight": 0.0674526}, 
+                {"id": 33, "lemma": "은", "type": "JX", "position": 737, "weight": 0.0520511}, 
+                {"id": 34, "lemma": "다시", "type": "MAG", "position": 741, "weight": 0.12604}, 
+                {"id": 35, "lemma": "한", "type": "MM", "position": 748, "weight": 0.0320197}, 
+                {"id": 36, "lemma": "번", "type": "NNB", "position": 752, "weight": 0.179863}, 
+                {"id": 37, "lemma": "북한", "type": "NNP", "position": 756, "weight": 0.0145052}, 
+                {"id": 38, "lemma": "정권", "type": "NNG", "position": 763, "weight": 0.9}, 
+                {"id": 39, "lemma": "의", "type": "JKG", "position": 769, "weight": 0.0694213}, 
+                {"id": 40, "lemma": "잔혹", "type": "NNG", "position": 773, "weight": 0.9}, 
+                {"id": 41, "lemma": "하", "type": "XSA", "position": 779, "weight": 0.0001}, 
+                {"id": 42, "lemma": "ㅁ", "type": "ETN", "position": 779, "weight": 0.0422948}, 
+                {"id": 43, "lemma": "을", "type": "JKO", "position": 782, "weight": 0.0925684}, 
+                {"id": 44, "lemma": "규탄", "type": "NNG", "position": 786, "weight": 0.9}, 
+                {"id": 45, "lemma": "하", "type": "XSV", "position": 792, "weight": 0.0001}, 
+                {"id": 46, "lemma": "ㄴ다", "type": "EF", "position": 792, "weight": 0.0449045}, 
+                {"id": 47, "lemma": "\"", "type": "SS", "position": 798, "weight": 1}, 
+                {"id": 48, "lemma": "며", "type": "EC", "position": 799, "weight": 0.00532489}, 
+                {"id": 49, "lemma": "\"", "type": "SS", "position": 803, "weight": 1}, 
+                {"id": 50, "lemma": "그", "type": "NP", "position": 804, "weight": 0.00832802}, 
+                {"id": 51, "lemma": "들", "type": "XSN", "position": 807, "weight": 0.055005}, 
+                {"id": 52, "lemma": "로", "type": "JKB", "position": 810, "weight": 0.121577}, 
+                {"id": 53, "lemma": "인", "type": "NNG", "position": 814, "weight": 0.0846637}, 
+                {"id": 54, "lemma": "하", "type": "XSV", "position": 817, "weight": 0.0001}, 
+                {"id": 55, "lemma": "ㄴ", "type": "ETM", "position": 817, "weight": 0.392321}, 
+                {"id": 56, "lemma": "가장", "type": "MAG", "position": 821, "weight": 0.00258324}, 
+                {"id": 57, "lemma": "최근", "type": "NNG", "position": 828, "weight": 0.9}, 
+                {"id": 58, "lemma": "의", "type": "JKG", "position": 834, "weight": 0.0694213}, 
+                {"id": 59, "lemma": "희생", "type": "NNG", "position": 838, "weight": 0.9}, 
+                {"id": 60, "lemma": "자", "type": "XSN", "position": 844, "weight": 0.00398741}, 
+                {"id": 61, "lemma": "를", "type": "JKO", "position": 847, "weight": 0.0870227}, 
+                {"id": 62, "lemma": "애도", "type": "NNG", "position": 851, "weight": 0.0956629}, 
+                {"id": 63, "lemma": "하", "type": "XSV", "position": 857, "weight": 0.0001}, 
+                {"id": 64, "lemma": "ㄴ다", "type": "EF", "position": 857, "weight": 0.0449045}, 
+                {"id": 65, "lemma": "\"", "type": "SS", "position": 863, "weight": 1}, 
+                {"id": 66, "lemma": "고", "type": "JKQ", "position": 864, "weight": 0.000541335}, 
+                {"id": 67, "lemma": "밝히", "type": "VV", "position": 868, "weight": 0.847819}, 
+                {"id": 68, "lemma": "었", "type": "EP", "position": 871, "weight": 0.9}, 
+                {"id": 69, "lemma": "다", "type": "EF", "position": 874, "weight": 0.640954}, 
+                {"id": 70, "lemma": ".", "type": "SF", "position": 877, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "트럼프는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "북한에", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "억류됐다", "type": "", "begin": 4, "end": 7}, 
+                {"id": 3, "text": "혼수상태로", "type": "", "begin": 8, "end": 10}, 
+                {"id": 4, "text": "석방된", "type": "", "begin": 11, "end": 13}, 
+                {"id": 5, "text": "미국인", "type": "", "begin": 14, "end": 15}, 
+                {"id": 6, "text": "오토", "type": "", "begin": 16, "end": 16}, 
+                {"id": 7, "text": "웜비어(22)가", "type": "", "begin": 17, "end": 21}, 
+                {"id": 8, "text": "사망한", "type": "", "begin": 22, "end": 24}, 
+                {"id": 9, "text": "일에", "type": "", "begin": 25, "end": 26}, 
+                {"id": 10, "text": "대해서는", "type": "", "begin": 27, "end": 30}, 
+                {"id": 11, "text": "\"미국은", "type": "", "begin": 31, "end": 33}, 
+                {"id": 12, "text": "다시", "type": "", "begin": 34, "end": 34}, 
+                {"id": 13, "text": "한", "type": "", "begin": 35, "end": 35}, 
+                {"id": 14, "text": "번", "type": "", "begin": 36, "end": 36}, 
+                {"id": 15, "text": "북한", "type": "", "begin": 37, "end": 37}, 
+                {"id": 16, "text": "정권의", "type": "", "begin": 38, "end": 39}, 
+                {"id": 17, "text": "잔혹함을", "type": "", "begin": 40, "end": 43}, 
+                {"id": 18, "text": "규탄한다\"며", "type": "", "begin": 44, "end": 48}, 
+                {"id": 19, "text": "\"그들로", "type": "", "begin": 49, "end": 52}, 
+                {"id": 20, "text": "인한", "type": "", "begin": 53, "end": 55}, 
+                {"id": 21, "text": "가장", "type": "", "begin": 56, "end": 56}, 
+                {"id": 22, "text": "최근의", "type": "", "begin": 57, "end": 58}, 
+                {"id": 23, "text": "희생자를", "type": "", "begin": 59, "end": 61}, 
+                {"id": 24, "text": "애도한다\"고", "type": "", "begin": 62, "end": 66}, 
+                {"id": 25, "text": "밝혔다.", "type": "", "begin": 67, "end": 70}
+            ], 
+            "NE": [
+                {"id": 0, "text": "트럼프", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.122283, "common_noun": 0}, 
+                {"id": 1, "text": "북한", "type": "LCP_COUNTRY", "begin": 2, "end": 2, "weight": 0.854319, "common_noun": 0}, 
+                {"id": 2, "text": "미국인", "type": "CV_TRIBE", "begin": 14, "end": 15, "weight": 0.326084, "common_noun": 0}, 
+                {"id": 3, "text": "오토 웜비어", "type": "PS_NAME", "begin": 16, "end": 17, "weight": 0.139947, "common_noun": 0}, 
+                {"id": 4, "text": "22", "type": "QT_AGE", "begin": 19, "end": 19, "weight": 0.491169, "common_noun": 0}, 
+                {"id": 5, "text": "미국", "type": "LCP_COUNTRY", "begin": 32, "end": 32, "weight": 0.823322, "common_noun": 0}, 
+                {"id": 6, "text": "한 번", "type": "QT_COUNT", "begin": 35, "end": 36, "weight": 0.523792, "common_noun": 0}, 
+                {"id": 7, "text": "북한", "type": "LCP_COUNTRY", "begin": 37, "end": 37, "weight": 0.781646, "common_noun": 0}, 
+                {"id": 8, "text": "희생자", "type": "CV_POSITION", "begin": 59, "end": 60, "weight": 0.48483, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "트럼프는", "head": 10, "label": "NP_SBJ", "mod": [], "weight": 0.679391}, 
+                {"id": 1, "text": "북한에", "head": 2, "label": "NP_AJT", "mod": [], "weight": 0.630319}, 
+                {"id": 2, "text": "억류됐다", "head": 4, "label": "VP", "mod": [1], "weight": 0.070244}, 
+                {"id": 3, "text": "혼수상태로", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.619509}, 
+                {"id": 4, "text": "석방된", "head": 7, "label": "VP_MOD", "mod": [2, 3], "weight": 0.755451}, 
+                {"id": 5, "text": "미국인", "head": 6, "label": "NP", "mod": [], "weight": 0.220483}, 
+                {"id": 6, "text": "오토", "head": 7, "label": "NP", "mod": [5], "weight": 0.609364}, 
+                {"id": 7, "text": "웜비어(22)가", "head": 8, "label": "NP_SBJ", "mod": [4, 6], "weight": 0.672762}, 
+                {"id": 8, "text": "사망한", "head": 9, "label": "VP_MOD", "mod": [7], "weight": 0.725227}, 
+                {"id": 9, "text": "일에", "head": 10, "label": "NP_AJT", "mod": [8], "weight": 0.7186}, 
+                {"id": 10, "text": "대해서는", "head": 18, "label": "VP", "mod": [0, 9], "weight": 0.178368}, 
+                {"id": 11, "text": "\"미국은", "head": 17, "label": "NP_SBJ", "mod": [], "weight": 0.586904}, 
+                {"id": 12, "text": "다시", "head": 14, "label": "AP", "mod": [], "weight": 0.541368}, 
+                {"id": 13, "text": "한", "head": 14, "label": "DP", "mod": [], "weight": 0.682946}, 
+                {"id": 14, "text": "번", "head": 17, "label": "NP_AJT", "mod": [12, 13], "weight": 0.714849}, 
+                {"id": 15, "text": "북한", "head": 16, "label": "NP", "mod": [], "weight": 0.781799}, 
+                {"id": 16, "text": "정권의", "head": 17, "label": "NP_MOD", "mod": [15], "weight": 0.650201}, 
+                {"id": 17, "text": "잔혹함을", "head": 18, "label": "VP_OBJ", "mod": [11, 14, 16], "weight": 0.479431}, 
+                {"id": 18, "text": "규탄한다\"며", "head": 24, "label": "VP", "mod": [10, 17], "weight": 0.0148597}, 
+                {"id": 19, "text": "\"그들로", "head": 20, "label": "NP_AJT", "mod": [], "weight": 0.562288}, 
+                {"id": 20, "text": "인한", "head": 23, "label": "VP_MOD", "mod": [19], "weight": 0.385722}, 
+                {"id": 21, "text": "가장", "head": 22, "label": "AP", "mod": [], "weight": 0.451182}, 
+                {"id": 22, "text": "최근의", "head": 23, "label": "NP_MOD", "mod": [21], "weight": 0.700012}, 
+                {"id": 23, "text": "희생자를", "head": 24, "label": "NP_OBJ", "mod": [20, 22], "weight": 0.830835}, 
+                {"id": 24, "text": "애도한다\"고", "head": 25, "label": "VP_CMP", "mod": [18, 23], "weight": 0.216933}, 
+                {"id": 25, "text": "밝혔다.", "head": -1, "label": "VP", "mod": [24], "weight": 6.84284e-10}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "트럼프는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "북한에", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP", "text": "P#1@AJT에 억류됐다", "begin": 1, "end": 2, "key_begin": 2, "head_phrase": 4, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "혼수상태로", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#2@VP다 P#3@AJT로 석방된", "begin": 1, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_SBJ", "text": "P#4@MODㄴ 미국인 오토 웜비어(22)가", "begin": 1, "end": 7, "key_begin": 5, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S_MOD", "text": "P#5@SBJ가 사망한", "begin": 1, "end": 8, "key_begin": 8, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_AJT", "text": "S#6@MODㄴ 일에", "begin": 1, "end": 9, "key_begin": 9, "head_phrase": 8, "sub_phrase": [6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "P#0@SBJ는 P#7@AJT에 대해서는", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": 9, "sub_phrase": [0, 7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "S#8@S는 \"미국은 다시 한 번 북한 정권의 잔혹함을 규탄한다\"며", "begin": 0, "end": 18, "key_begin": 11, "head_phrase": 10, "sub_phrase": [8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "S_CMP", "text": "S#9@S며 \"그들로 인한 가장 최근의 희생자를 애도한다\"고", "begin": 0, "end": 24, "key_begin": 19, "head_phrase": 11, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "S", "text": "S#10@CMP고 밝혔다.", "begin": 0, "end": 25, "key_begin": 25, "head_phrase": -1, "sub_phrase": [10], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "억류", "sense": 1, "word_id": 2, "weight": 0.206973, "argument": [
+                    {"type": "ARG1", "word_id": 0, "text": "트럼프", "weight": 0.223947}, 
+                    {"type": "ARG2", "word_id": 1, "text": "북한", "weight": 0.189999}
+                ]}, 
+                {"verb": "석방", "sense": 1, "word_id": 4, "weight": 0.293458, "argument": [
+                    {"type": "ARGM-CAU", "word_id": 3, "text": "혼수상태", "weight": 0.0916074}, 
+                    {"type": "ARG1", "word_id": 7, "text": "미국인 오토 웜비어(22)", "weight": 0.495308}
+                ]}, 
+                {"verb": "사망", "sense": 1, "word_id": 8, "weight": 0.371326, "argument": [
+                    {"type": "ARG1", "word_id": 7, "text": "미국인 오토 웜비어(22)", "weight": 0.371326}
+                ]}, 
+                {"verb": "대", "sense": 1, "word_id": 10, "weight": 0.509389, "argument": [
+                    {"type": "ARG2", "word_id": 9, "text": "일", "weight": 0.509389}
+                ]}, 
+                {"verb": "잔혹", "sense": 1, "word_id": 17, "weight": 0.18694, "argument": [
+                    {"type": "ARGM-EXT", "word_id": 14, "text": "번", "weight": 0.18694}
+                ]}, 
+                {"verb": "규탄", "sense": 1, "word_id": 18, "weight": 0.387338, "argument": [
+                    {"type": "ARG1", "word_id": 17, "text": "잔혹하ㅁ", "weight": 0.387338}
+                ]}, 
+                {"verb": "인", "sense": 2, "word_id": 20, "weight": 0.244424, "argument": [
+                    {"type": "ARG1", "word_id": 19, "text": "\"그들", "weight": 0.139931}, 
+                    {"type": "ARG2", "word_id": 23, "text": "희생자", "weight": 0.348916}
+                ]}, 
+                {"verb": "애도", "sense": 1, "word_id": 24, "weight": 0.475539, "argument": [
+                    {"type": "ARG1", "word_id": 23, "text": "희생자", "weight": 0.475539}
+                ]}, 
+                {"verb": "밝히", "sense": 1, "word_id": 25, "weight": 0.515749, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "트럼프", "weight": 0.444405}, 
+                    {"type": "ARG1", "word_id": 24, "text": "\"그들로 인한 가장 최근의 희생자를 애도하ㄴ다\"", "weight": 0.587093}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 2, "ant_sid": 4, "ant_wid": 0, "ant_is_title": 0, "weight": 0.623442}, 
+                {"id": 1, "type": "s", "head_wid": 18, "ant_sid": 4, "ant_wid": 0, "ant_is_title": 0, "weight": 0.518859}, 
+                {"id": 2, "type": "s", "head_wid": 24, "ant_sid": 4, "ant_wid": 0, "ant_is_title": 0, "weight": 0.845578}, 
+                {"id": 3, "type": "s", "head_wid": 25, "ant_sid": 4, "ant_wid": 11, "ant_is_title": 0, "weight": 0.576749}
+            ]
+        }, 
+        {
+            "id": 5, 
+            "text": "트럼프는 앞서 백악관에서 기자들과 만난 자리에서 \"오토에게 일어난 일은 불명예스러운 일\"이라며 \"절대로 일어나선 안 되는 일었다\"고 말했다.", 
+            "morp": [
+                {"id": 0, "lemma": "트럼프", "type": "NNP", "position": 878, "weight": 0.0120675}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 887, "weight": 0.0332677}, 
+                {"id": 2, "lemma": "앞서", "type": "VV", "position": 891, "weight": 0.116604}, 
+                {"id": 3, "lemma": "어", "type": "EC", "position": 894, "weight": 0.41831}, 
+                {"id": 4, "lemma": "백악", "type": "NNG", "position": 898, "weight": 0.153597}, 
+                {"id": 5, "lemma": "관", "type": "XSN", "position": 904, "weight": 0.0123777}, 
+                {"id": 6, "lemma": "에서", "type": "JKB", "position": 907, "weight": 0.121718}, 
+                {"id": 7, "lemma": "기자", "type": "NNG", "position": 914, "weight": 0.207865}, 
+                {"id": 8, "lemma": "들", "type": "XSN", "position": 920, "weight": 0.0299841}, 
+                {"id": 9, "lemma": "과", "type": "JKB", "position": 923, "weight": 0.0399165}, 
+                {"id": 10, "lemma": "만나", "type": "VV", "position": 927, "weight": 0.445131}, 
+                {"id": 11, "lemma": "ㄴ", "type": "ETM", "position": 930, "weight": 0.304215}, 
+                {"id": 12, "lemma": "자리", "type": "NNG", "position": 934, "weight": 0.657755}, 
+                {"id": 13, "lemma": "에서", "type": "JKB", "position": 940, "weight": 0.153407}, 
+                {"id": 14, "lemma": "\"", "type": "SS", "position": 947, "weight": 1}, 
+                {"id": 15, "lemma": "오토", "type": "NNG", "position": 948, "weight": 0.0529414}, 
+                {"id": 16, "lemma": "에게", "type": "JKB", "position": 954, "weight": 0.153356}, 
+                {"id": 17, "lemma": "일어나", "type": "VV", "position": 961, "weight": 0.9}, 
+                {"id": 18, "lemma": "ㄴ", "type": "ETM", "position": 967, "weight": 0.304215}, 
+                {"id": 19, "lemma": "일", "type": "NNG", "position": 971, "weight": 0.421798}, 
+                {"id": 20, "lemma": "은", "type": "JX", "position": 974, "weight": 0.0449928}, 
+                {"id": 21, "lemma": "불명예", "type": "NNG", "position": 978, "weight": 0.9}, 
+                {"id": 22, "lemma": "스럽", "type": "XSA", "position": 987, "weight": 0.9}, 
+                {"id": 23, "lemma": "ㄴ", "type": "ETM", "position": 990, "weight": 0.488779}, 
+                {"id": 24, "lemma": "일", "type": "NNG", "position": 997, "weight": 0.421798}, 
+                {"id": 25, "lemma": "\"", "type": "SS", "position": 1000, "weight": 1}, 
+                {"id": 26, "lemma": "이", "type": "VCP", "position": 1001, "weight": 0.00747344}, 
+                {"id": 27, "lemma": "라며", "type": "EC", "position": 1004, "weight": 0.249566}, 
+                {"id": 28, "lemma": "\"", "type": "SS", "position": 1011, "weight": 1}, 
+                {"id": 29, "lemma": "절대로", "type": "MAG", "position": 1012, "weight": 0.9}, 
+                {"id": 30, "lemma": "일어나서", "type": "VV", "position": 1022, "weight": 0}, 
+                {"id": 31, "lemma": "ㄴ", "type": "ETM", "position": 1031, "weight": 0.304215}, 
+                {"id": 32, "lemma": "안", "type": "MAG", "position": 1035, "weight": 0.0011553}, 
+                {"id": 33, "lemma": "되", "type": "VV", "position": 1039, "weight": 0.361346}, 
+                {"id": 34, "lemma": "는", "type": "ETM", "position": 1042, "weight": 0.184941}, 
+                {"id": 35, "lemma": "일", "type": "NNG", "position": 1046, "weight": 0.421798}, 
+                {"id": 36, "lemma": "었", "type": "EP", "position": 1049, "weight": 0.9}, 
+                {"id": 37, "lemma": "다", "type": "EF", "position": 1052, "weight": 0.640954}, 
+                {"id": 38, "lemma": "\"", "type": "SS", "position": 1055, "weight": 1}, 
+                {"id": 39, "lemma": "고", "type": "JKQ", "position": 1056, "weight": 0.000541335}, 
+                {"id": 40, "lemma": "말", "type": "NNG", "position": 1060, "weight": 0.0618649}, 
+                {"id": 41, "lemma": "하", "type": "XSV", "position": 1063, "weight": 0.0001}, 
+                {"id": 42, "lemma": "었", "type": "EP", "position": 1063, "weight": 0.9}, 
+                {"id": 43, "lemma": "다", "type": "EF", "position": 1066, "weight": 0.640954}, 
+                {"id": 44, "lemma": ".", "type": "SF", "position": 1069, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "트럼프는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "앞서", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "백악관에서", "type": "", "begin": 4, "end": 6}, 
+                {"id": 3, "text": "기자들과", "type": "", "begin": 7, "end": 9}, 
+                {"id": 4, "text": "만난", "type": "", "begin": 10, "end": 11}, 
+                {"id": 5, "text": "자리에서", "type": "", "begin": 12, "end": 13}, 
+                {"id": 6, "text": "\"오토에게", "type": "", "begin": 14, "end": 16}, 
+                {"id": 7, "text": "일어난", "type": "", "begin": 17, "end": 18}, 
+                {"id": 8, "text": "일은", "type": "", "begin": 19, "end": 20}, 
+                {"id": 9, "text": "불명예스러운", "type": "", "begin": 21, "end": 23}, 
+                {"id": 10, "text": "일\"이라며", "type": "", "begin": 24, "end": 27}, 
+                {"id": 11, "text": "\"절대로", "type": "", "begin": 28, "end": 29}, 
+                {"id": 12, "text": "일어나선", "type": "", "begin": 30, "end": 31}, 
+                {"id": 13, "text": "안", "type": "", "begin": 32, "end": 32}, 
+                {"id": 14, "text": "되는", "type": "", "begin": 33, "end": 34}, 
+                {"id": 15, "text": "일었다\"고", "type": "", "begin": 35, "end": 39}, 
+                {"id": 16, "text": "말했다.", "type": "", "begin": 40, "end": 44}
+            ], 
+            "NE": [
+                {"id": 0, "text": "트럼프", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.135787, "common_noun": 0}, 
+                {"id": 1, "text": "백악관", "type": "OGG_POLITICS", "begin": 4, "end": 5, "weight": 0.253057, "common_noun": 0}, 
+                {"id": 2, "text": "기자", "type": "CV_OCCUPATION", "begin": 7, "end": 7, "weight": 0.729549, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "트럼프는", "head": 1, "label": "NP_SBJ", "mod": [], "weight": 0.779983}, 
+                {"id": 1, "text": "앞서", "head": 16, "label": "VP", "mod": [0], "weight": 0.77293}, 
+                {"id": 2, "text": "백악관에서", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.544449}, 
+                {"id": 3, "text": "기자들과", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.599145}, 
+                {"id": 4, "text": "만난", "head": 5, "label": "VP_MOD", "mod": [2, 3], "weight": 0.73698}, 
+                {"id": 5, "text": "자리에서", "head": 16, "label": "NP_AJT", "mod": [4], "weight": 0.764255}, 
+                {"id": 6, "text": "\"오토에게", "head": 7, "label": "NP_AJT", "mod": [], "weight": 0.842341}, 
+                {"id": 7, "text": "일어난", "head": 8, "label": "VP_MOD", "mod": [6], "weight": 0.663115}, 
+                {"id": 8, "text": "일은", "head": 9, "label": "NP_SBJ", "mod": [7], "weight": 0.252384}, 
+                {"id": 9, "text": "불명예스러운", "head": 10, "label": "VP_MOD", "mod": [8], "weight": 0.734122}, 
+                {"id": 10, "text": "일\"이라며", "head": 15, "label": "VNP", "mod": [9], "weight": 0.132279}, 
+                {"id": 11, "text": "\"절대로", "head": 12, "label": "AP", "mod": [], "weight": 0.798101}, 
+                {"id": 12, "text": "일어나선", "head": 14, "label": "VP_MOD", "mod": [11], "weight": 0.325701}, 
+                {"id": 13, "text": "안", "head": 14, "label": "AP", "mod": [], "weight": 0.75691}, 
+                {"id": 14, "text": "되는", "head": 15, "label": "VP_MOD", "mod": [12, 13], "weight": 0.842782}, 
+                {"id": 15, "text": "일었다\"고", "head": 16, "label": "VNP_CMP", "mod": [10, 14], "weight": 0.339276}, 
+                {"id": 16, "text": "말했다.", "head": -1, "label": "VP", "mod": [1, 5, 15], "weight": 6.72811e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "트럼프는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S", "text": "P#0@SBJ는 앞서", "begin": 0, "end": 1, "key_begin": 1, "head_phrase": 8, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "백악관에서", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "기자들과", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#2@AJT에서 P#3@AJT과 만난", "begin": 2, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "P#4@MODㄴ 자리에서", "begin": 2, "end": 5, "key_begin": 5, "head_phrase": 8, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "VNP", "text": "\"오토에게 일어난 일은 불명예스러운 일\"이라며", "begin": 6, "end": 10, "key_begin": 6, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "\"오토에게 일어난 일은 불명예스러운 일\"", "label": "NP", "begin": 14, "end": 25, "ne_type": ""}, 
+                    {"text": "이라며", "label": "VP", "begin": 26, "end": 27, "ne_type": ""}
+                ]}, 
+                {"id": 7, "label": "VNP_CMP", "text": "P#6@VNP라며 \"절대로 일어나선 안 되는 일었다\"고", "begin": 6, "end": 15, "key_begin": 11, "head_phrase": 8, "sub_phrase": [6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "S#1@S어 P#5@AJT에서 P#7@CMP고 말했다.", "begin": 0, "end": 16, "key_begin": 16, "head_phrase": -1, "sub_phrase": [1, 5, 7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "앞서", "sense": 1, "word_id": 1, "weight": 0.405336, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "트럼프", "weight": 0.405336}
+                ]}, 
+                {"verb": "만나", "sense": 1, "word_id": 4, "weight": 0.325818, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 2, "text": "백악관", "weight": 0.333849}, 
+                    {"type": "ARG1", "word_id": 3, "text": "기자들", "weight": 0.317788}
+                ]}, 
+                {"verb": "일어나", "sense": 1, "word_id": 7, "weight": 0.387227, "argument": [
+                    {"type": "ARG2", "word_id": 6, "text": "\"오토", "weight": 0.238897}, 
+                    {"type": "ARG1", "word_id": 8, "text": "일", "weight": 0.535557}
+                ]}, 
+                {"verb": "불명예", "sense": 1, "word_id": 9, "weight": 0.340971, "argument": [
+                    {"type": "ARG1", "word_id": 10, "text": "\"오토에게 일어난 일은 불명예스러운 일\"이라며", "weight": 0.340971}
+                ]}, 
+                {"verb": "일어나서", "sense": 1, "word_id": 12, "weight": 0.138595, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 11, "text": "\"절대로", "weight": 0.12707}, 
+                    {"type": "ARG0", "word_id": 14, "text": "되는", "weight": 0.15012}
+                ]}, 
+                {"verb": "되", "sense": 1, "word_id": 14, "weight": 0.309592, "argument": [
+                    {"type": "ARGM-NEG", "word_id": 13, "text": "안", "weight": 0.309592}
+                ]}, 
+                {"verb": "말", "sense": 1, "word_id": 16, "weight": 0.379459, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "트럼프", "weight": 0.442922}, 
+                    {"type": "ARGM-TMP", "word_id": 1, "text": "앞서", "weight": 0.369}, 
+                    {"type": "ARGM-LOC", "word_id": 5, "text": "자리", "weight": 0.427671}, 
+                    {"type": "ARG1", "word_id": 15, "text": "\"절대로 일어나선 안 되는 일었다\"", "weight": 0.278241}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 16, "ant_sid": 5, "ant_wid": 0, "ant_is_title": 0, "weight": 0.524269}
+            ]
+        }, 
+        {
+            "id": 6, 
+            "text": "이어 \"솔직히 말해 그가 집으로 더 일찍 돌아올 수 있었다면 결과는 엄청나게 달랐을 것\"이라고 주장했다.", 
+            "morp": [
+                {"id": 0, "lemma": "이어", "type": "MAG", "position": 1070, "weight": 0.0644394}, 
+                {"id": 1, "lemma": "\"", "type": "SS", "position": 1077, "weight": 1}, 
+                {"id": 2, "lemma": "솔직히", "type": "MAG", "position": 1078, "weight": 0.9}, 
+                {"id": 3, "lemma": "말", "type": "NNG", "position": 1088, "weight": 0.209933}, 
+                {"id": 4, "lemma": "하", "type": "XSV", "position": 1091, "weight": 0.0001}, 
+                {"id": 5, "lemma": "어", "type": "EC", "position": 1091, "weight": 0.361326}, 
+                {"id": 6, "lemma": "그", "type": "NP", "position": 1095, "weight": 0.0116164}, 
+                {"id": 7, "lemma": "가", "type": "JKS", "position": 1098, "weight": 0.104973}, 
+                {"id": 8, "lemma": "집", "type": "NNG", "position": 1102, "weight": 0.195768}, 
+                {"id": 9, "lemma": "으로", "type": "JKB", "position": 1105, "weight": 0.153406}, 
+                {"id": 10, "lemma": "더", "type": "MAG", "position": 1112, "weight": 0.0557614}, 
+                {"id": 11, "lemma": "일찍", "type": "MAG", "position": 1116, "weight": 0.0452406}, 
+                {"id": 12, "lemma": "돌아오", "type": "VV", "position": 1123, "weight": 0.9}, 
+                {"id": 13, "lemma": "ㄹ", "type": "ETM", "position": 1129, "weight": 0.300746}, 
+                {"id": 14, "lemma": "수", "type": "NNB", "position": 1133, "weight": 0.215617}, 
+                {"id": 15, "lemma": "있", "type": "VA", "position": 1137, "weight": 0.0518488}, 
+                {"id": 16, "lemma": "었", "type": "EP", "position": 1140, "weight": 0.9}, 
+                {"id": 17, "lemma": "다면", "type": "EC", "position": 1143, "weight": 0.193062}, 
+                {"id": 18, "lemma": "결과", "type": "NNG", "position": 1150, "weight": 0.9}, 
+                {"id": 19, "lemma": "는", "type": "JX", "position": 1156, "weight": 0.0287565}, 
+                {"id": 20, "lemma": "엄청나", "type": "VA", "position": 1160, "weight": 0.9}, 
+                {"id": 21, "lemma": "게", "type": "EC", "position": 1169, "weight": 0.31879}, 
+                {"id": 22, "lemma": "다르", "type": "VA", "position": 1173, "weight": 0.0501177}, 
+                {"id": 23, "lemma": "았", "type": "EP", "position": 1173, "weight": 0.9}, 
+                {"id": 24, "lemma": "을", "type": "ETM", "position": 1179, "weight": 0.00734398}, 
+                {"id": 25, "lemma": "것", "type": "NNB", "position": 1183, "weight": 0.228788}, 
+                {"id": 26, "lemma": "\"", "type": "SS", "position": 1186, "weight": 1}, 
+                {"id": 27, "lemma": "이라고", "type": "JKQ", "position": 1187, "weight": 0.0202133}, 
+                {"id": 28, "lemma": "주장", "type": "NNG", "position": 1197, "weight": 0.076886}, 
+                {"id": 29, "lemma": "하", "type": "XSV", "position": 1203, "weight": 0.0001}, 
+                {"id": 30, "lemma": "었", "type": "EP", "position": 1203, "weight": 0.9}, 
+                {"id": 31, "lemma": "다", "type": "EF", "position": 1206, "weight": 0.640954}, 
+                {"id": 32, "lemma": ".", "type": "SF", "position": 1209, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "이어", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "\"솔직히", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "말해", "type": "", "begin": 3, "end": 5}, 
+                {"id": 3, "text": "그가", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "집으로", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "더", "type": "", "begin": 10, "end": 10}, 
+                {"id": 6, "text": "일찍", "type": "", "begin": 11, "end": 11}, 
+                {"id": 7, "text": "돌아올", "type": "", "begin": 12, "end": 13}, 
+                {"id": 8, "text": "수", "type": "", "begin": 14, "end": 14}, 
+                {"id": 9, "text": "있었다면", "type": "", "begin": 15, "end": 17}, 
+                {"id": 10, "text": "결과는", "type": "", "begin": 18, "end": 19}, 
+                {"id": 11, "text": "엄청나게", "type": "", "begin": 20, "end": 21}, 
+                {"id": 12, "text": "달랐을", "type": "", "begin": 22, "end": 24}, 
+                {"id": 13, "text": "것\"이라고", "type": "", "begin": 25, "end": 27}, 
+                {"id": 14, "text": "주장했다.", "type": "", "begin": 28, "end": 32}
+            ], 
+            "NE": [], 
+            "dependency": [
+                {"id": 0, "text": "이어", "head": 13, "label": "AP", "mod": [], "weight": 0.34655}, 
+                {"id": 1, "text": "\"솔직히", "head": 2, "label": "AP", "mod": [], "weight": 0.866306}, 
+                {"id": 2, "text": "말해", "head": 7, "label": "VP", "mod": [1], "weight": 0.707377}, 
+                {"id": 3, "text": "그가", "head": 7, "label": "NP_SBJ", "mod": [], "weight": 0.712602}, 
+                {"id": 4, "text": "집으로", "head": 7, "label": "NP_AJT", "mod": [], "weight": 0.784617}, 
+                {"id": 5, "text": "더", "head": 6, "label": "AP", "mod": [], "weight": 0.539771}, 
+                {"id": 6, "text": "일찍", "head": 7, "label": "AP", "mod": [5], "weight": 0.817123}, 
+                {"id": 7, "text": "돌아올", "head": 8, "label": "VP_MOD", "mod": [2, 3, 4, 6], "weight": 0.808766}, 
+                {"id": 8, "text": "수", "head": 9, "label": "NP_SBJ", "mod": [7], "weight": 0.662747}, 
+                {"id": 9, "text": "있었다면", "head": 12, "label": "VP", "mod": [8], "weight": 0.554539}, 
+                {"id": 10, "text": "결과는", "head": 12, "label": "NP_SBJ", "mod": [], "weight": 0.383604}, 
+                {"id": 11, "text": "엄청나게", "head": 12, "label": "VP_AJT", "mod": [], "weight": 0.689348}, 
+                {"id": 12, "text": "달랐을", "head": 13, "label": "VP_MOD", "mod": [9, 10, 11], "weight": 0.735681}, 
+                {"id": 13, "text": "것\"이라고", "head": 14, "label": "VNP_CMP", "mod": [0, 12], "weight": 0.732098}, 
+                {"id": 14, "text": "주장했다.", "head": -1, "label": "VP", "mod": [13], "weight": 0.00186123}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VNP_CMP", "text": "이어 \"솔직히 말해 그가 집으로 더 일찍 돌아올 수 있었다면 결과는 엄청나게 달랐을 것\"이라고", "begin": 0, "end": 13, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP", "text": "P#0@CMP이라고 주장했다.", "begin": 0, "end": 14, "key_begin": 14, "head_phrase": -1, "sub_phrase": [0], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "말", "sense": 1, "word_id": 2, "weight": 0.209085, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 0, "text": "이어", "weight": 0.268306}, 
+                    {"type": "ARGM-ADV", "word_id": 1, "text": "\"솔직히", "weight": 0.149865}
+                ]}, 
+                {"verb": "돌아오", "sense": 1, "word_id": 7, "weight": 0.343246, "argument": [
+                    {"type": "ARG3", "word_id": 4, "text": "집", "weight": 0.24862}, 
+                    {"type": "ARGM-TMP", "word_id": 6, "text": "일찍", "weight": 0.123855}, 
+                    {"type": "AUX", "word_id": 9, "text": "있었다면", "weight": 0.657262}
+                ]}, 
+                {"verb": "다르", "sense": 1, "word_id": 12, "weight": 0.321452, "argument": [
+                    {"type": "ARGM-DIS", "word_id": 2, "text": "말해", "weight": 0.180633}, 
+                    {"type": "ARGM-CND", "word_id": 9, "text": "있었다면", "weight": 0.300231}, 
+                    {"type": "ARG1", "word_id": 10, "text": "결과", "weight": 0.327284}, 
+                    {"type": "ARGM-EXT", "word_id": 11, "text": "엄청나게", "weight": 0.162219}, 
+                    {"type": "AUX", "word_id": 13, "text": "이어 \"솔직히 말해 그가 집으로 더 일찍 돌아올 수 있었다면 결과는 엄청나게 달랐을 것\"", "weight": 0.636895}
+                ]}, 
+                {"verb": "주장", "sense": 1, "word_id": 14, "weight": 0.371453, "argument": [
+                    {"type": "ARG1", "word_id": 13, "text": "이어 \"솔직히 말해 그가 집으로 더 일찍 돌아올 수 있었다면 결과는 엄청나게 달랐을 것\"", "weight": 0.371453}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 2, "ant_sid": 5, "ant_wid": 0, "ant_is_title": 0, "weight": 0.344227}, 
+                {"id": 1, "type": "s", "head_wid": 14, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.63546}
+            ]
+        }, 
+        {
+            "id": 7, 
+            "text": "웜비어는 작년 1월 북한 관광을 갔다가 평양의 한 호텔에서 정치선전물을 훔치려 한 혐의로 체포됐다.", 
+            "morp": [
+                {"id": 0, "lemma": "웜비어", "type": "NNG", "position": 1210, "weight": 0}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 1219, "weight": 0.0287565}, 
+                {"id": 2, "lemma": "작년", "type": "NNG", "position": 1223, "weight": 0.9}, 
+                {"id": 3, "lemma": "1", "type": "SN", "position": 1230, "weight": 1}, 
+                {"id": 4, "lemma": "월", "type": "NNB", "position": 1231, "weight": 0.408539}, 
+                {"id": 5, "lemma": "북한", "type": "NNP", "position": 1235, "weight": 0.0145052}, 
+                {"id": 6, "lemma": "관광", "type": "NNG", "position": 1242, "weight": 0.9}, 
+                {"id": 7, "lemma": "을", "type": "JKO", "position": 1248, "weight": 0.129611}, 
+                {"id": 8, "lemma": "가", "type": "VV", "position": 1252, "weight": 0.0630745}, 
+                {"id": 9, "lemma": "았", "type": "EP", "position": 1252, "weight": 0.9}, 
+                {"id": 10, "lemma": "다가", "type": "EC", "position": 1255, "weight": 0.188685}, 
+                {"id": 11, "lemma": "평양", "type": "NNP", "position": 1262, "weight": 0.0219075}, 
+                {"id": 12, "lemma": "의", "type": "JKG", "position": 1268, "weight": 0.0987295}, 
+                {"id": 13, "lemma": "한", "type": "MM", "position": 1272, "weight": 0.0231003}, 
+                {"id": 14, "lemma": "호텔", "type": "NNG", "position": 1276, "weight": 0.735941}, 
+                {"id": 15, "lemma": "에서", "type": "JKB", "position": 1282, "weight": 0.153407}, 
+                {"id": 16, "lemma": "정치", "type": "NNG", "position": 1289, "weight": 0.9}, 
+                {"id": 17, "lemma": "선전", "type": "NNG", "position": 1295, "weight": 0.181251}, 
+                {"id": 18, "lemma": "물", "type": "XSN", "position": 1301, "weight": 0.00142289}, 
+                {"id": 19, "lemma": "을", "type": "JKO", "position": 1304, "weight": 0.0819193}, 
+                {"id": 20, "lemma": "훔치", "type": "VV", "position": 1308, "weight": 0.9}, 
+                {"id": 21, "lemma": "려", "type": "EC", "position": 1314, "weight": 0.431076}, 
+                {"id": 22, "lemma": "한", "type": "MM", "position": 1318, "weight": 0.0206582}, 
+                {"id": 23, "lemma": "혐의", "type": "NNG", "position": 1322, "weight": 0.9}, 
+                {"id": 24, "lemma": "로", "type": "JKB", "position": 1328, "weight": 0.153229}, 
+                {"id": 25, "lemma": "체포", "type": "NNG", "position": 1332, "weight": 0.9}, 
+                {"id": 26, "lemma": "되", "type": "XSV", "position": 1338, "weight": 0.000224177}, 
+                {"id": 27, "lemma": "었", "type": "EP", "position": 1338, "weight": 0.9}, 
+                {"id": 28, "lemma": "다", "type": "EF", "position": 1341, "weight": 0.640954}, 
+                {"id": 29, "lemma": ".", "type": "SF", "position": 1344, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "웜비어는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "작년", "type": "", "begin": 2, "end": 2}, 
+                {"id": 2, "text": "1월", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "북한", "type": "", "begin": 5, "end": 5}, 
+                {"id": 4, "text": "관광을", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "갔다가", "type": "", "begin": 8, "end": 10}, 
+                {"id": 6, "text": "평양의", "type": "", "begin": 11, "end": 12}, 
+                {"id": 7, "text": "한", "type": "", "begin": 13, "end": 13}, 
+                {"id": 8, "text": "호텔에서", "type": "", "begin": 14, "end": 15}, 
+                {"id": 9, "text": "정치선전물을", "type": "", "begin": 16, "end": 19}, 
+                {"id": 10, "text": "훔치려", "type": "", "begin": 20, "end": 21}, 
+                {"id": 11, "text": "한", "type": "", "begin": 22, "end": 22}, 
+                {"id": 12, "text": "혐의로", "type": "", "begin": 23, "end": 24}, 
+                {"id": 13, "text": "체포됐다.", "type": "", "begin": 25, "end": 29}
+            ], 
+            "NE": [
+                {"id": 0, "text": "웜비어", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.154366, "common_noun": 0}, 
+                {"id": 1, "text": "작년 1월", "type": "DT_OTHERS", "begin": 2, "end": 4, "weight": 0.802346, "common_noun": 0}, 
+                {"id": 2, "text": "북한", "type": "LCP_COUNTRY", "begin": 5, "end": 5, "weight": 0.904901, "common_noun": 0}, 
+                {"id": 3, "text": "평양", "type": "LCP_CAPITALCITY", "begin": 11, "end": 11, "weight": 0.453665, "common_noun": 0}, 
+                {"id": 4, "text": "한 호텔", "type": "QT_COUNT", "begin": 13, "end": 14, "weight": 0.273089, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "웜비어는", "head": 5, "label": "NP_SBJ", "mod": [], "weight": 0.607342}, 
+                {"id": 1, "text": "작년", "head": 2, "label": "NP", "mod": [], "weight": 0.596147}, 
+                {"id": 2, "text": "1월", "head": 5, "label": "NP_AJT", "mod": [1], "weight": 0.654779}, 
+                {"id": 3, "text": "북한", "head": 4, "label": "NP", "mod": [], "weight": 0.718637}, 
+                {"id": 4, "text": "관광을", "head": 5, "label": "NP_OBJ", "mod": [3], "weight": 0.759213}, 
+                {"id": 5, "text": "갔다가", "head": 10, "label": "VP", "mod": [0, 2, 4], "weight": 0.837903}, 
+                {"id": 6, "text": "평양의", "head": 8, "label": "NP_MOD", "mod": [], "weight": 0.708168}, 
+                {"id": 7, "text": "한", "head": 8, "label": "DP", "mod": [], "weight": 0.736125}, 
+                {"id": 8, "text": "호텔에서", "head": 10, "label": "NP_AJT", "mod": [6, 7], "weight": 0.705387}, 
+                {"id": 9, "text": "정치선전물을", "head": 10, "label": "NP_OBJ", "mod": [], "weight": 0.658663}, 
+                {"id": 10, "text": "훔치려", "head": 13, "label": "VP", "mod": [5, 8, 9], "weight": 0.748175}, 
+                {"id": 11, "text": "한", "head": 12, "label": "DP", "mod": [], "weight": 0.589703}, 
+                {"id": 12, "text": "혐의로", "head": 13, "label": "NP_AJT", "mod": [11], "weight": 0.800629}, 
+                {"id": 13, "text": "체포됐다.", "head": -1, "label": "VP", "mod": [10, 12], "weight": 0.00798073}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "웜비어는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "작년 1월", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "북한 관광을", "begin": 3, "end": 4, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "P#0@SBJ는 P#1@AJT월 P#2@OBJ을 갔다가", "begin": 0, "end": 5, "key_begin": 5, "head_phrase": 6, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_AJT", "text": "평양의 한 호텔에서", "begin": 6, "end": 8, "key_begin": 6, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_OBJ", "text": "정치선전물을", "begin": 9, "end": 9, "key_begin": 9, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S", "text": "S#3@S다가 P#4@AJT에서 P#5@OBJ을 훔치려", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": 8, "sub_phrase": [3, 4, 5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_AJT", "text": "한 혐의로", "begin": 11, "end": 12, "key_begin": 11, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "S#6@S려 P#7@AJT로 체포됐다.", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": -1, "sub_phrase": [6, 7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "가", "sense": 1, "word_id": 5, "weight": 0.375468, "argument": [
+                    {"type": "ARG1", "word_id": 4, "text": "북한 관광", "weight": 0.375468}
+                ]}, 
+                {"verb": "훔치", "sense": 1, "word_id": 10, "weight": 0.319294, "argument": [
+                    {"type": "ARGM-LOC", "word_id": 8, "text": "평양의 한 호텔", "weight": 0.358844}, 
+                    {"type": "ARG1", "word_id": 9, "text": "정치선전물", "weight": 0.279744}
+                ]}, 
+                {"verb": "체포", "sense": 1, "word_id": 13, "weight": 0.201758, "argument": [
+                    {"type": "ARGM-CAU", "word_id": 12, "text": "한 혐의", "weight": 0.201758}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 10, "ant_sid": 7, "ant_wid": 0, "ant_is_title": 0, "weight": 0.292452}, 
+                {"id": 1, "type": "s", "head_wid": 13, "ant_sid": 5, "ant_wid": 0, "ant_is_title": 0, "weight": 0.349542}
+            ]
+        }, 
+        {
+            "id": 8, 
+            "text": " 그는 같은 해 3월 북한으로부터 15년 노동교화형을 선고받았다.", 
+            "morp": [
+                {"id": 0, "lemma": "그", "type": "NP", "position": 1346, "weight": 0.0328001}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 1349, "weight": 0.122593}, 
+                {"id": 2, "lemma": "같", "type": "VA", "position": 1353, "weight": 0.109107}, 
+                {"id": 3, "lemma": "은", "type": "ETM", "position": 1356, "weight": 0.155123}, 
+                {"id": 4, "lemma": "해", "type": "NNG", "position": 1360, "weight": 0.442025}, 
+                {"id": 5, "lemma": "3", "type": "SN", "position": 1364, "weight": 1}, 
+                {"id": 6, "lemma": "월", "type": "NNB", "position": 1365, "weight": 0.408539}, 
+                {"id": 7, "lemma": "북한", "type": "NNP", "position": 1369, "weight": 0.0145052}, 
+                {"id": 8, "lemma": "으로부터", "type": "JKB", "position": 1375, "weight": 0.9}, 
+                {"id": 9, "lemma": "15", "type": "SN", "position": 1388, "weight": 1}, 
+                {"id": 10, "lemma": "년", "type": "NNB", "position": 1390, "weight": 0.414343}, 
+                {"id": 11, "lemma": "노동", "type": "NNG", "position": 1394, "weight": 0.9}, 
+                {"id": 12, "lemma": "교화", "type": "NNG", "position": 1400, "weight": 0.9}, 
+                {"id": 13, "lemma": "형", "type": "XSN", "position": 1406, "weight": 0.0121759}, 
+                {"id": 14, "lemma": "을", "type": "JKO", "position": 1409, "weight": 0.0819193}, 
+                {"id": 15, "lemma": "선고", "type": "NNG", "position": 1413, "weight": 0.9}, 
+                {"id": 16, "lemma": "받", "type": "VV", "position": 1419, "weight": 0.0147799}, 
+                {"id": 17, "lemma": "았", "type": "EP", "position": 1422, "weight": 0.9}, 
+                {"id": 18, "lemma": "다", "type": "EF", "position": 1425, "weight": 0.640954}, 
+                {"id": 19, "lemma": ".", "type": "SF", "position": 1428, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "그는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "같은", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "해", "type": "", "begin": 4, "end": 4}, 
+                {"id": 3, "text": "3월", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "북한으로부터", "type": "", "begin": 7, "end": 8}, 
+                {"id": 5, "text": "15년", "type": "", "begin": 9, "end": 10}, 
+                {"id": 6, "text": "노동교화형을", "type": "", "begin": 11, "end": 14}, 
+                {"id": 7, "text": "선고받았다.", "type": "", "begin": 15, "end": 19}
+            ], 
+            "NE": [
+                {"id": 0, "text": "같은 해", "type": "DT_YEAR", "begin": 2, "end": 4, "weight": 1, "common_noun": 0}, 
+                {"id": 1, "text": "3월", "type": "DT_MONTH", "begin": 5, "end": 6, "weight": 0.501245, "common_noun": 0}, 
+                {"id": 2, "text": "북한", "type": "LCP_COUNTRY", "begin": 7, "end": 7, "weight": 0.823092, "common_noun": 0}, 
+                {"id": 3, "text": "15년", "type": "DT_DURATION", "begin": 9, "end": 10, "weight": 0.42558, "common_noun": 0}, 
+                {"id": 4, "text": "노동교화형", "type": "CV_LAW", "begin": 11, "end": 13, "weight": 0.653516, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "그는", "head": 7, "label": "NP_SBJ", "mod": [], "weight": 0.613375}, 
+                {"id": 1, "text": "같은", "head": 2, "label": "VP_MOD", "mod": [], "weight": 0.596849}, 
+                {"id": 2, "text": "해", "head": 3, "label": "NP", "mod": [1], "weight": 0.698766}, 
+                {"id": 3, "text": "3월", "head": 7, "label": "NP_AJT", "mod": [2], "weight": 0.770638}, 
+                {"id": 4, "text": "북한으로부터", "head": 7, "label": "NP_AJT", "mod": [], "weight": 0.774193}, 
+                {"id": 5, "text": "15년", "head": 7, "label": "NP_AJT", "mod": [], "weight": 0.520904}, 
+                {"id": 6, "text": "노동교화형을", "head": 7, "label": "NP_OBJ", "mod": [], "weight": 0.819808}, 
+                {"id": 7, "text": "선고받았다.", "head": -1, "label": "VP", "mod": [0, 3, 4, 5, 6], "weight": 0.0505292}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "그는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "같은 해 3월", "begin": 1, "end": 3, "key_begin": 1, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "북한으로부터", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "15년", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "노동교화형을", "begin": 6, "end": 6, "key_begin": 6, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#0@SBJ는 P#1@AJT월 P#2@AJT으로부터 P#3@AJT년 P#4@OBJ을 선고받았다.", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": -1, "sub_phrase": [0, 1, 2, 3, 4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "같", "sense": 1, "word_id": 1, "weight": 0.561664, "argument": [
+                    {"type": "ARG1", "word_id": 2, "text": "해", "weight": 0.561664}
+                ]}, 
+                {"verb": "선고", "sense": 1, "word_id": 7, "weight": 0.312712, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "그", "weight": 0.267433}, 
+                    {"type": "ARGM-TMP", "word_id": 3, "text": "같은 해 3월", "weight": 0.33627}, 
+                    {"type": "ARG2", "word_id": 4, "text": "북한", "weight": 0.393136}, 
+                    {"type": "ARGM-TMP", "word_id": 5, "text": "15년", "weight": 0.2224}, 
+                    {"type": "ARG1", "word_id": 6, "text": "노동교화형", "weight": 0.344323}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 9, 
+            "text": "웜비어는 지난 13일 북한에 들어간 지 17개월 만에 혼수상태로 석방됐지만 엿새 만에 사망했다.", 
+            "morp": [
+                {"id": 0, "lemma": "웜비어", "type": "NNG", "position": 1429, "weight": 0}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 1438, "weight": 0.0287565}, 
+                {"id": 2, "lemma": "지나", "type": "VV", "position": 1442, "weight": 0.146998}, 
+                {"id": 3, "lemma": "ㄴ", "type": "ETM", "position": 1445, "weight": 0.304215}, 
+                {"id": 4, "lemma": "13", "type": "SN", "position": 1449, "weight": 1}, 
+                {"id": 5, "lemma": "일", "type": "NNB", "position": 1451, "weight": 0.126777}, 
+                {"id": 6, "lemma": "북한", "type": "NNP", "position": 1455, "weight": 0.0145052}, 
+                {"id": 7, "lemma": "에", "type": "JKB", "position": 1461, "weight": 0.0823628}, 
+                {"id": 8, "lemma": "들어가", "type": "VV", "position": 1465, "weight": 0.9}, 
+                {"id": 9, "lemma": "ㄴ", "type": "ETM", "position": 1471, "weight": 0.304215}, 
+                {"id": 10, "lemma": "지", "type": "NNB", "position": 1475, "weight": 0.00345007}, 
+                {"id": 11, "lemma": "17", "type": "SN", "position": 1479, "weight": 1}, 
+                {"id": 12, "lemma": "개월", "type": "NNB", "position": 1481, "weight": 0.9}, 
+                {"id": 13, "lemma": "만", "type": "NNB", "position": 1488, "weight": 0.000432077}, 
+                {"id": 14, "lemma": "에", "type": "JKB", "position": 1491, "weight": 0.135559}, 
+                {"id": 15, "lemma": "혼수", "type": "NNG", "position": 1495, "weight": 0.9}, 
+                {"id": 16, "lemma": "상태", "type": "NNG", "position": 1501, "weight": 0.184766}, 
+                {"id": 17, "lemma": "로", "type": "JKB", "position": 1507, "weight": 0.153229}, 
+                {"id": 18, "lemma": "석방", "type": "NNG", "position": 1511, "weight": 0.9}, 
+                {"id": 19, "lemma": "되", "type": "XSV", "position": 1517, "weight": 0.000224177}, 
+                {"id": 20, "lemma": "었", "type": "EP", "position": 1517, "weight": 0.9}, 
+                {"id": 21, "lemma": "지만", "type": "EC", "position": 1520, "weight": 0.194093}, 
+                {"id": 22, "lemma": "엿새", "type": "NNG", "position": 1527, "weight": 0.9}, 
+                {"id": 23, "lemma": "만", "type": "NNB", "position": 1534, "weight": 0.000680063}, 
+                {"id": 24, "lemma": "에", "type": "JKB", "position": 1537, "weight": 0.135559}, 
+                {"id": 25, "lemma": "사망", "type": "NNG", "position": 1541, "weight": 0.9}, 
+                {"id": 26, "lemma": "하", "type": "XSV", "position": 1547, "weight": 0.0001}, 
+                {"id": 27, "lemma": "었", "type": "EP", "position": 1547, "weight": 0.9}, 
+                {"id": 28, "lemma": "다", "type": "EF", "position": 1550, "weight": 0.640954}, 
+                {"id": 29, "lemma": ".", "type": "SF", "position": 1553, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "웜비어는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "지난", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "13일", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "북한에", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "들어간", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "지", "type": "", "begin": 10, "end": 10}, 
+                {"id": 6, "text": "17개월", "type": "", "begin": 11, "end": 12}, 
+                {"id": 7, "text": "만에", "type": "", "begin": 13, "end": 14}, 
+                {"id": 8, "text": "혼수상태로", "type": "", "begin": 15, "end": 17}, 
+                {"id": 9, "text": "석방됐지만", "type": "", "begin": 18, "end": 21}, 
+                {"id": 10, "text": "엿새", "type": "", "begin": 22, "end": 22}, 
+                {"id": 11, "text": "만에", "type": "", "begin": 23, "end": 24}, 
+                {"id": 12, "text": "사망했다.", "type": "", "begin": 25, "end": 29}
+            ], 
+            "NE": [
+                {"id": 0, "text": "웜비어", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.149958, "common_noun": 0}, 
+                {"id": 1, "text": "지난 13일", "type": "DT_DAY", "begin": 2, "end": 5, "weight": 0.824739, "common_noun": 0}, 
+                {"id": 2, "text": "북한", "type": "LCP_COUNTRY", "begin": 6, "end": 6, "weight": 0.774483, "common_noun": 0}, 
+                {"id": 3, "text": "17개월", "type": "DT_DURATION", "begin": 11, "end": 12, "weight": 0.768856, "common_noun": 0}, 
+                {"id": 4, "text": "엿새", "type": "DT_DURATION", "begin": 22, "end": 22, "weight": 0.232296, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "웜비어는", "head": 9, "label": "NP_SBJ", "mod": [], "weight": 0.619095}, 
+                {"id": 1, "text": "지난", "head": 2, "label": "VP_MOD", "mod": [], "weight": 0.673853}, 
+                {"id": 2, "text": "13일", "head": 4, "label": "NP_AJT", "mod": [1], "weight": 0.280836}, 
+                {"id": 3, "text": "북한에", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.801986}, 
+                {"id": 4, "text": "들어간", "head": 5, "label": "VP_MOD", "mod": [2, 3], "weight": 0.820628}, 
+                {"id": 5, "text": "지", "head": 7, "label": "NP_SBJ", "mod": [4], "weight": 0.335288}, 
+                {"id": 6, "text": "17개월", "head": 7, "label": "NP", "mod": [], "weight": 0.753442}, 
+                {"id": 7, "text": "만에", "head": 9, "label": "NP_AJT", "mod": [5, 6], "weight": 0.890576}, 
+                {"id": 8, "text": "혼수상태로", "head": 9, "label": "NP_AJT", "mod": [], "weight": 0.809187}, 
+                {"id": 9, "text": "석방됐지만", "head": 12, "label": "VP", "mod": [0, 7, 8], "weight": 0.833434}, 
+                {"id": 10, "text": "엿새", "head": 11, "label": "NP", "mod": [], "weight": 0.675835}, 
+                {"id": 11, "text": "만에", "head": 12, "label": "NP_AJT", "mod": [10], "weight": 0.835405}, 
+                {"id": 12, "text": "사망했다.", "head": -1, "label": "VP", "mod": [9, 11], "weight": 0.00561546}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "웜비어는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "지난 13일", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "북한에", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP_MOD", "text": "P#1@AJT일 P#2@AJT에 들어간", "begin": 1, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "P#3@MODㄴ 지", "begin": 1, "end": 5, "key_begin": 5, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S_AJT", "text": "P#4@SBJ지 17개월 만에", "begin": 1, "end": 7, "key_begin": 6, "head_phrase": 7, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "혼수상태로", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "P#0@SBJ는 S#5@AJT에 P#6@AJT로 석방됐지만", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 9, "sub_phrase": [0, 5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "NP_AJT", "text": "엿새 만에", "begin": 10, "end": 11, "key_begin": 10, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "S#7@S지만 P#8@AJT에 사망했다.", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": -1, "sub_phrase": [7, 8], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "지나", "sense": 1, "word_id": 1, "weight": 0.215023, "argument": [
+                    {"type": "ARG1", "word_id": 0, "text": "웜비어", "weight": 0.215023}
+                ]}, 
+                {"verb": "들어가", "sense": 2, "word_id": 4, "weight": 0.44981, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 2, "text": "지난 13일", "weight": 0.4051}, 
+                    {"type": "ARG2", "word_id": 3, "text": "북한", "weight": 0.494519}
+                ]}, 
+                {"verb": "석방", "sense": 1, "word_id": 9, "weight": 0.219172, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 7, "text": "17개월 만", "weight": 0.354977}, 
+                    {"type": "ARGM-MNR", "word_id": 8, "text": "혼수상태", "weight": 0.0833664}
+                ]}, 
+                {"verb": "사망", "sense": 1, "word_id": 12, "weight": 0.164011, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 11, "text": "엿새 만", "weight": 0.164011}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 12, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.598145}
+            ]
+        }, 
+        {
+            "id": 10, 
+            "text": "웜비어 사망을 계기로 북미 관계가 더욱 악화되는 것 아니냐는 우려가 높아지고 있다.", 
+            "morp": [
+                {"id": 0, "lemma": "웜비어", "type": "NNG", "position": 1554, "weight": 0}, 
+                {"id": 1, "lemma": "사망", "type": "NNG", "position": 1564, "weight": 0.9}, 
+                {"id": 2, "lemma": "을", "type": "JKO", "position": 1570, "weight": 0.129611}, 
+                {"id": 3, "lemma": "계기", "type": "NNG", "position": 1574, "weight": 0.101355}, 
+                {"id": 4, "lemma": "로", "type": "JKB", "position": 1580, "weight": 0.153229}, 
+                {"id": 5, "lemma": "북미", "type": "NNP", "position": 1584, "weight": 0.9}, 
+                {"id": 6, "lemma": "관계", "type": "NNG", "position": 1591, "weight": 0.9}, 
+                {"id": 7, "lemma": "가", "type": "JKS", "position": 1597, "weight": 0.066324}, 
+                {"id": 8, "lemma": "더욱", "type": "MAG", "position": 1601, "weight": 0.9}, 
+                {"id": 9, "lemma": "악화", "type": "NNG", "position": 1608, "weight": 0.9}, 
+                {"id": 10, "lemma": "되", "type": "XSV", "position": 1614, "weight": 0.000224177}, 
+                {"id": 11, "lemma": "는", "type": "ETM", "position": 1617, "weight": 0.238503}, 
+                {"id": 12, "lemma": "것", "type": "NNB", "position": 1621, "weight": 0.228788}, 
+                {"id": 13, "lemma": "아니", "type": "VCN", "position": 1625, "weight": 0.00241196}, 
+                {"id": 14, "lemma": "냐는", "type": "ETM", "position": 1631, "weight": 0.148344}, 
+                {"id": 15, "lemma": "우려", "type": "NNG", "position": 1638, "weight": 0.9}, 
+                {"id": 16, "lemma": "가", "type": "JKS", "position": 1644, "weight": 0.066324}, 
+                {"id": 17, "lemma": "높아지", "type": "VV", "position": 1648, "weight": 0.9}, 
+                {"id": 18, "lemma": "고", "type": "EC", "position": 1657, "weight": 0.416679}, 
+                {"id": 19, "lemma": "있", "type": "VX", "position": 1661, "weight": 0.125953}, 
+                {"id": 20, "lemma": "다", "type": "EF", "position": 1664, "weight": 0.180366}, 
+                {"id": 21, "lemma": ".", "type": "SF", "position": 1667, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "웜비어", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "사망을", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "계기로", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "북미", "type": "", "begin": 5, "end": 5}, 
+                {"id": 4, "text": "관계가", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "더욱", "type": "", "begin": 8, "end": 8}, 
+                {"id": 6, "text": "악화되는", "type": "", "begin": 9, "end": 11}, 
+                {"id": 7, "text": "것", "type": "", "begin": 12, "end": 12}, 
+                {"id": 8, "text": "아니냐는", "type": "", "begin": 13, "end": 14}, 
+                {"id": 9, "text": "우려가", "type": "", "begin": 15, "end": 16}, 
+                {"id": 10, "text": "높아지고", "type": "", "begin": 17, "end": 18}, 
+                {"id": 11, "text": "있다.", "type": "", "begin": 19, "end": 21}
+            ], 
+            "NE": [
+                {"id": 0, "text": "웜비어", "type": "PS_NAME", "begin": 0, "end": 0, "weight": 0.110187, "common_noun": 0}, 
+                {"id": 1, "text": "북미", "type": "LCG_CONTINENT", "begin": 5, "end": 5, "weight": 0.542711, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "웜비어", "head": 1, "label": "NP", "mod": [], "weight": 0.643621}, 
+                {"id": 1, "text": "사망을", "head": 2, "label": "NP_OBJ", "mod": [0], "weight": 0.520669}, 
+                {"id": 2, "text": "계기로", "head": 6, "label": "NP_AJT", "mod": [1], "weight": 0.579675}, 
+                {"id": 3, "text": "북미", "head": 4, "label": "NP", "mod": [], "weight": 0.688238}, 
+                {"id": 4, "text": "관계가", "head": 6, "label": "NP_SBJ", "mod": [3], "weight": 0.796295}, 
+                {"id": 5, "text": "더욱", "head": 6, "label": "AP", "mod": [], "weight": 0.684732}, 
+                {"id": 6, "text": "악화되는", "head": 7, "label": "VP_MOD", "mod": [2, 4, 5], "weight": 0.842947}, 
+                {"id": 7, "text": "것", "head": 8, "label": "NP_CMP", "mod": [6], "weight": 0.296109}, 
+                {"id": 8, "text": "아니냐는", "head": 9, "label": "VP_MOD", "mod": [7], "weight": 0.608086}, 
+                {"id": 9, "text": "우려가", "head": 10, "label": "NP_SBJ", "mod": [8], "weight": 0.795889}, 
+                {"id": 10, "text": "높아지고", "head": 11, "label": "VP", "mod": [9], "weight": 0.671931}, 
+                {"id": 11, "text": "있다.", "head": -1, "label": "VP", "mod": [10], "weight": 0.00447272}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_OBJ", "text": "웜비어 사망을", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "P#0@OBJ을 계기로", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 4, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "북미 관계가", "begin": 3, "end": 4, "key_begin": 3, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "AP", "text": "더욱", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S_MOD", "text": "P#1@AJT로 P#2@SBJ가 P#3@AP더욱 악화되는", "begin": 0, "end": 6, "key_begin": 6, "head_phrase": 5, "sub_phrase": [1, 2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_CMP", "text": "S#4@MOD는 것", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "VP_MOD", "text": "P#5@CMP것 아니냐는", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_SBJ", "text": "P#6@MOD냐는 우려가", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": 8, "sub_phrase": [6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "P#7@SBJ가 높아지고 있다.", "begin": 0, "end": 11, "key_begin": 10, "head_phrase": -1, "sub_phrase": [7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "악화", "sense": 1, "word_id": 6, "weight": 0.402928, "argument": [
+                    {"type": "ARGM-CAU", "word_id": 2, "text": "계기", "weight": 0.450401}, 
+                    {"type": "ARG1", "word_id": 4, "text": "북미 관계", "weight": 0.433181}, 
+                    {"type": "ARGM-EXT", "word_id": 5, "text": "더욱", "weight": 0.325201}
+                ]}, 
+                {"verb": "아니", "sense": 1, "word_id": 8, "weight": 0.357905, "argument": [
+                    {"type": "ARG1", "word_id": 7, "text": "것", "weight": 0.357905}
+                ]}, 
+                {"verb": "높아지", "sense": 1, "word_id": 10, "weight": 0.419732, "argument": [
+                    {"type": "ARG1", "word_id": 9, "text": "우려", "weight": 0.243984}, 
+                    {"type": "AUX", "word_id": 11, "text": "높아지고 있다.", "weight": 0.595479}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 11, 
+            "text": " 백악관은 일단 중국, 동맹들과 협력해 대북 압박을 계속하겠다고 밝혔다.", 
+            "morp": [
+                {"id": 0, "lemma": "백악관", "type": "NNP", "position": 1669, "weight": 0.0880648}, 
+                {"id": 1, "lemma": "은", "type": "JX", "position": 1678, "weight": 0.0520511}, 
+                {"id": 2, "lemma": "일단", "type": "MAG", "position": 1682, "weight": 0.119675}, 
+                {"id": 3, "lemma": "중국", "type": "NNP", "position": 1689, "weight": 0.0267146}, 
+                {"id": 4, "lemma": ",", "type": "SP", "position": 1695, "weight": 1}, 
+                {"id": 5, "lemma": "동맹", "type": "NNG", "position": 1697, "weight": 0.9}, 
+                {"id": 6, "lemma": "들", "type": "XSN", "position": 1703, "weight": 0.0299841}, 
+                {"id": 7, "lemma": "과", "type": "JKB", "position": 1706, "weight": 0.0399165}, 
+                {"id": 8, "lemma": "협력", "type": "NNG", "position": 1710, "weight": 0.9}, 
+                {"id": 9, "lemma": "하", "type": "XSV", "position": 1716, "weight": 0.0001}, 
+                {"id": 10, "lemma": "어", "type": "EC", "position": 1716, "weight": 0.361326}, 
+                {"id": 11, "lemma": "대북", "type": "NNG", "position": 1720, "weight": 0.219151}, 
+                {"id": 12, "lemma": "압박", "type": "NNG", "position": 1727, "weight": 0.9}, 
+                {"id": 13, "lemma": "을", "type": "JKO", "position": 1733, "weight": 0.129611}, 
+                {"id": 14, "lemma": "계속", "type": "NNG", "position": 1737, "weight": 0.00250775}, 
+                {"id": 15, "lemma": "하", "type": "XSV", "position": 1743, "weight": 0.0001}, 
+                {"id": 16, "lemma": "겠", "type": "EP", "position": 1746, "weight": 0.9}, 
+                {"id": 17, "lemma": "다고", "type": "EC", "position": 1749, "weight": 0.193823}, 
+                {"id": 18, "lemma": "밝히", "type": "VV", "position": 1756, "weight": 0.226128}, 
+                {"id": 19, "lemma": "었", "type": "EP", "position": 1759, "weight": 0.9}, 
+                {"id": 20, "lemma": "다", "type": "EF", "position": 1762, "weight": 0.640954}, 
+                {"id": 21, "lemma": ".", "type": "SF", "position": 1765, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "백악관은", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "일단", "type": "", "begin": 2, "end": 2}, 
+                {"id": 2, "text": "중국,", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "동맹들과", "type": "", "begin": 5, "end": 7}, 
+                {"id": 4, "text": "협력해", "type": "", "begin": 8, "end": 10}, 
+                {"id": 5, "text": "대북", "type": "", "begin": 11, "end": 11}, 
+                {"id": 6, "text": "압박을", "type": "", "begin": 12, "end": 13}, 
+                {"id": 7, "text": "계속하겠다고", "type": "", "begin": 14, "end": 17}, 
+                {"id": 8, "text": "밝혔다.", "type": "", "begin": 18, "end": 21}
+            ], 
+            "NE": [
+                {"id": 0, "text": "백악관", "type": "OGG_POLITICS", "begin": 0, "end": 0, "weight": 0.386881, "common_noun": 0}, 
+                {"id": 1, "text": "중국", "type": "LCP_COUNTRY", "begin": 3, "end": 3, "weight": 0.488159, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "백악관은", "head": 4, "label": "NP_SBJ", "mod": [], "weight": 0.262088}, 
+                {"id": 1, "text": "일단", "head": 4, "label": "AP", "mod": [], "weight": 0.53867}, 
+                {"id": 2, "text": "중국,", "head": 3, "label": "NP_CNJ", "mod": [], "weight": 0.484644}, 
+                {"id": 3, "text": "동맹들과", "head": 4, "label": "NP_AJT", "mod": [2], "weight": 0.85723}, 
+                {"id": 4, "text": "협력해", "head": 7, "label": "VP", "mod": [0, 1, 3], "weight": 0.847992}, 
+                {"id": 5, "text": "대북", "head": 6, "label": "NP", "mod": [], "weight": 0.814722}, 
+                {"id": 6, "text": "압박을", "head": 7, "label": "NP_OBJ", "mod": [5], "weight": 0.812415}, 
+                {"id": 7, "text": "계속하겠다고", "head": 8, "label": "VP_CMP", "mod": [4, 6], "weight": 0.617824}, 
+                {"id": 8, "text": "밝혔다.", "head": -1, "label": "VP", "mod": [7], "weight": 0.0169886}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "백악관은", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "AP", "text": "일단", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "중국, 동맹들과", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "중국", "label": "NP_AJT", "begin": 3, "end": 3, "ne_type": "LCP_COUNTRY"}, 
+                    {"text": "동맹들", "label": "NP_AJT", "begin": 5, "end": 6, "ne_type": ""}
+                ]}, 
+                {"id": 3, "label": "S", "text": "P#0@SBJ은 P#1@AP일단 P#2@AJT과 협력해", "begin": 0, "end": 4, "key_begin": 4, "head_phrase": 5, "sub_phrase": [0, 1, 2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "대북 압박을", "begin": 5, "end": 6, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S_CMP", "text": "S#3@S어 P#4@OBJ을 계속하겠다고", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 6, "sub_phrase": [3, 4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S", "text": "S#5@CMP다고 밝혔다.", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": -1, "sub_phrase": [5], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "협력", "sense": 1, "word_id": 4, "weight": 0.33251, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "백악관", "weight": 0.321484}, 
+                    {"type": "ARGM-ADV", "word_id": 1, "text": "일단", "weight": 1}, 
+                    {"type": "ARG2", "word_id": 3, "text": "중국, 동맹들", "weight": 0.416044}
+                ]}, 
+                {"verb": "계속", "sense": 1, "word_id": 7, "weight": 0.243389, "argument": [
+                    {"type": "ARGM-INS", "word_id": 4, "text": "협력해", "weight": 0.164205}, 
+                    {"type": "ARG1", "word_id": 6, "text": "대북 압박", "weight": 0.322572}
+                ]}, 
+                {"verb": "밝히", "sense": 1, "word_id": 8, "weight": 0.501769, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "백악관", "weight": 0.387168}, 
+                    {"type": "ARG1", "word_id": 7, "text": "계속하겠다고", "weight": 0.61637}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 7, "ant_sid": 11, "ant_wid": 0, "ant_is_title": 0, "weight": 0.90904}, 
+                {"id": 1, "type": "s", "head_wid": 8, "ant_sid": 11, "ant_wid": 0, "ant_is_title": 0, "weight": 0.978415}
+            ]
+        }, 
+        {
+            "id": 12, 
+            "text": "션 스파이서 백악관 대변인은 이날 언론 브리핑에서 트럼프와 김정은 북한 노동당 위원장의 만남 가능성에 대해 \"대화를 위한 여건에 가까워지는 것이 아니라 분명 점점 더 멀어지고 있다\"고 말했다.", 
+            "morp": [
+                {"id": 0, "lemma": "션", "type": "NNP", "position": 1766, "weight": 0.0558121}, 
+                {"id": 1, "lemma": "스파이서", "type": "NNG", "position": 1770, "weight": 0}, 
+                {"id": 2, "lemma": "백악관", "type": "NNP", "position": 1783, "weight": 0.00700533}, 
+                {"id": 3, "lemma": "대변", "type": "NNG", "position": 1793, "weight": 0.9}, 
+                {"id": 4, "lemma": "인", "type": "XSN", "position": 1799, "weight": 0.0198339}, 
+                {"id": 5, "lemma": "은", "type": "JX", "position": 1802, "weight": 0.100393}, 
+                {"id": 6, "lemma": "이날", "type": "NNG", "position": 1806, "weight": 0.9}, 
+                {"id": 7, "lemma": "언론", "type": "NNG", "position": 1813, "weight": 0.9}, 
+                {"id": 8, "lemma": "브리핑", "type": "NNG", "position": 1820, "weight": 0.9}, 
+                {"id": 9, "lemma": "에서", "type": "JKB", "position": 1829, "weight": 0.153407}, 
+                {"id": 10, "lemma": "트럼프", "type": "NNG", "position": 1836, "weight": 0.179932}, 
+                {"id": 11, "lemma": "와", "type": "JC", "position": 1845, "weight": 0.0169714}, 
+                {"id": 12, "lemma": "김정", "type": "NNP", "position": 1849, "weight": 0.9}, 
+                {"id": 13, "lemma": "은", "type": "JX", "position": 1855, "weight": 0.0520511}, 
+                {"id": 14, "lemma": "북한", "type": "NNP", "position": 1859, "weight": 0.0426295}, 
+                {"id": 15, "lemma": "노동", "type": "NNG", "position": 1866, "weight": 0.9}, 
+                {"id": 16, "lemma": "당", "type": "NNG", "position": 1872, "weight": 0.107866}, 
+                {"id": 17, "lemma": "위원", "type": "NNG", "position": 1876, "weight": 0.184216}, 
+                {"id": 18, "lemma": "장", "type": "XSN", "position": 1882, "weight": 0.0110513}, 
+                {"id": 19, "lemma": "의", "type": "JKG", "position": 1885, "weight": 0.120732}, 
+                {"id": 20, "lemma": "만남", "type": "NNG", "position": 1889, "weight": 0.867288}, 
+                {"id": 21, "lemma": "가능", "type": "NNG", "position": 1896, "weight": 0.184025}, 
+                {"id": 22, "lemma": "성", "type": "XSN", "position": 1902, "weight": 0.0161708}, 
+                {"id": 23, "lemma": "에", "type": "JKB", "position": 1905, "weight": 0.121683}, 
+                {"id": 24, "lemma": "대", "type": "NNG", "position": 1909, "weight": 0.0312871}, 
+                {"id": 25, "lemma": "하", "type": "XSV", "position": 1912, "weight": 0.0001}, 
+                {"id": 26, "lemma": "어", "type": "EC", "position": 1912, "weight": 0.361326}, 
+                {"id": 27, "lemma": "\"", "type": "SS", "position": 1916, "weight": 1}, 
+                {"id": 28, "lemma": "대화", "type": "NNG", "position": 1917, "weight": 0.197806}, 
+                {"id": 29, "lemma": "를", "type": "JKO", "position": 1923, "weight": 0.137686}, 
+                {"id": 30, "lemma": "위하", "type": "VV", "position": 1927, "weight": 0.778555}, 
+                {"id": 31, "lemma": "ㄴ", "type": "ETM", "position": 1930, "weight": 0.304215}, 
+                {"id": 32, "lemma": "여건", "type": "NNG", "position": 1934, "weight": 0.9}, 
+                {"id": 33, "lemma": "에", "type": "JKB", "position": 1940, "weight": 0.153364}, 
+                {"id": 34, "lemma": "가깝", "type": "VA", "position": 1944, "weight": 0.9}, 
+                {"id": 35, "lemma": "어", "type": "EC", "position": 1947, "weight": 0.311591}, 
+                {"id": 36, "lemma": "지", "type": "VX", "position": 1953, "weight": 0.0539764}, 
+                {"id": 37, "lemma": "는", "type": "ETM", "position": 1956, "weight": 0.183966}, 
+                {"id": 38, "lemma": "것", "type": "NNB", "position": 1960, "weight": 0.228788}, 
+                {"id": 39, "lemma": "이", "type": "JKC", "position": 1963, "weight": 0.000435795}, 
+                {"id": 40, "lemma": "아니", "type": "VCN", "position": 1967, "weight": 0.354175}, 
+                {"id": 41, "lemma": "라", "type": "EC", "position": 1973, "weight": 0.366752}, 
+                {"id": 42, "lemma": "분명", "type": "MAG", "position": 1977, "weight": 0.0472797}, 
+                {"id": 43, "lemma": "점점", "type": "MAG", "position": 1984, "weight": 0.0451858}, 
+                {"id": 44, "lemma": "더", "type": "MAG", "position": 1991, "weight": 0.0451387}, 
+                {"id": 45, "lemma": "멀어지", "type": "VV", "position": 1995, "weight": 0.9}, 
+                {"id": 46, "lemma": "고", "type": "EC", "position": 2004, "weight": 0.416679}, 
+                {"id": 47, "lemma": "있", "type": "VX", "position": 2008, "weight": 0.125953}, 
+                {"id": 48, "lemma": "다", "type": "EF", "position": 2011, "weight": 0.180366}, 
+                {"id": 49, "lemma": "\"", "type": "SS", "position": 2014, "weight": 1}, 
+                {"id": 50, "lemma": "고", "type": "JKQ", "position": 2015, "weight": 0.000541335}, 
+                {"id": 51, "lemma": "말", "type": "NNG", "position": 2019, "weight": 0.0618649}, 
+                {"id": 52, "lemma": "하", "type": "XSV", "position": 2022, "weight": 0.0001}, 
+                {"id": 53, "lemma": "었", "type": "EP", "position": 2022, "weight": 0.9}, 
+                {"id": 54, "lemma": "다", "type": "EF", "position": 2025, "weight": 0.640954}, 
+                {"id": 55, "lemma": ".", "type": "SF", "position": 2028, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "션", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "스파이서", "type": "", "begin": 1, "end": 1}, 
+                {"id": 2, "text": "백악관", "type": "", "begin": 2, "end": 2}, 
+                {"id": 3, "text": "대변인은", "type": "", "begin": 3, "end": 5}, 
+                {"id": 4, "text": "이날", "type": "", "begin": 6, "end": 6}, 
+                {"id": 5, "text": "언론", "type": "", "begin": 7, "end": 7}, 
+                {"id": 6, "text": "브리핑에서", "type": "", "begin": 8, "end": 9}, 
+                {"id": 7, "text": "트럼프와", "type": "", "begin": 10, "end": 11}, 
+                {"id": 8, "text": "김정은", "type": "", "begin": 12, "end": 13}, 
+                {"id": 9, "text": "북한", "type": "", "begin": 14, "end": 14}, 
+                {"id": 10, "text": "노동당", "type": "", "begin": 15, "end": 16}, 
+                {"id": 11, "text": "위원장의", "type": "", "begin": 17, "end": 19}, 
+                {"id": 12, "text": "만남", "type": "", "begin": 20, "end": 20}, 
+                {"id": 13, "text": "가능성에", "type": "", "begin": 21, "end": 23}, 
+                {"id": 14, "text": "대해", "type": "", "begin": 24, "end": 26}, 
+                {"id": 15, "text": "\"대화를", "type": "", "begin": 27, "end": 29}, 
+                {"id": 16, "text": "위한", "type": "", "begin": 30, "end": 31}, 
+                {"id": 17, "text": "여건에", "type": "", "begin": 32, "end": 33}, 
+                {"id": 18, "text": "가까워지는", "type": "", "begin": 34, "end": 37}, 
+                {"id": 19, "text": "것이", "type": "", "begin": 38, "end": 39}, 
+                {"id": 20, "text": "아니라", "type": "", "begin": 40, "end": 41}, 
+                {"id": 21, "text": "분명", "type": "", "begin": 42, "end": 42}, 
+                {"id": 22, "text": "점점", "type": "", "begin": 43, "end": 43}, 
+                {"id": 23, "text": "더", "type": "", "begin": 44, "end": 44}, 
+                {"id": 24, "text": "멀어지고", "type": "", "begin": 45, "end": 46}, 
+                {"id": 25, "text": "있다\"고", "type": "", "begin": 47, "end": 50}, 
+                {"id": 26, "text": "말했다.", "type": "", "begin": 51, "end": 55}
+            ], 
+            "NE": [
+                {"id": 0, "text": "션 스파이서", "type": "PS_NAME", "begin": 0, "end": 1, "weight": 0.11516, "common_noun": 0}, 
+                {"id": 1, "text": "백악관", "type": "OGG_POLITICS", "begin": 2, "end": 2, "weight": 0.212077, "common_noun": 0}, 
+                {"id": 2, "text": "대변인", "type": "CV_POSITION", "begin": 3, "end": 4, "weight": 0.838964, "common_noun": 0}, 
+                {"id": 3, "text": "트럼프", "type": "PS_NAME", "begin": 10, "end": 10, "weight": 0.186164, "common_noun": 0}, 
+                {"id": 4, "text": "김정은", "type": "PS_NAME", "begin": 12, "end": 13, "weight": 0.753106, "common_noun": 0}, 
+                {"id": 5, "text": "북한 노동당", "type": "OGG_POLITICS", "begin": 14, "end": 16, "weight": 0.422746, "common_noun": 0}, 
+                {"id": 6, "text": "위원장", "type": "CV_POSITION", "begin": 17, "end": 18, "weight": 0.780847, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "션", "head": 1, "label": "NP", "mod": [], "weight": 0.570173}, 
+                {"id": 1, "text": "스파이서", "head": 3, "label": "NP", "mod": [0], "weight": 0.386009}, 
+                {"id": 2, "text": "백악관", "head": 3, "label": "NP", "mod": [], "weight": 0.732742}, 
+                {"id": 3, "text": "대변인은", "head": 14, "label": "NP_SBJ", "mod": [1, 2], "weight": 0.76752}, 
+                {"id": 4, "text": "이날", "head": 6, "label": "NP", "mod": [], "weight": 0.0183731}, 
+                {"id": 5, "text": "언론", "head": 6, "label": "NP", "mod": [], "weight": 0.620798}, 
+                {"id": 6, "text": "브리핑에서", "head": 14, "label": "NP_AJT", "mod": [4, 5], "weight": 0.77304}, 
+                {"id": 7, "text": "트럼프와", "head": 8, "label": "NP_CNJ", "mod": [], "weight": 0.810878}, 
+                {"id": 8, "text": "김정은", "head": 14, "label": "NP_SBJ", "mod": [7], "weight": 0.847677}, 
+                {"id": 9, "text": "북한", "head": 10, "label": "NP", "mod": [], "weight": 0.348578}, 
+                {"id": 10, "text": "노동당", "head": 11, "label": "NP", "mod": [9], "weight": 0.748504}, 
+                {"id": 11, "text": "위원장의", "head": 13, "label": "NP_MOD", "mod": [10], "weight": 0.595692}, 
+                {"id": 12, "text": "만남", "head": 13, "label": "NP", "mod": [], "weight": 0.766075}, 
+                {"id": 13, "text": "가능성에", "head": 14, "label": "NP_AJT", "mod": [11, 12], "weight": 0.721429}, 
+                {"id": 14, "text": "대해", "head": 26, "label": "VP", "mod": [3, 6, 8, 13], "weight": 0.806165}, 
+                {"id": 15, "text": "\"대화를", "head": 16, "label": "NP_OBJ", "mod": [], "weight": 0.62422}, 
+                {"id": 16, "text": "위한", "head": 17, "label": "VP_MOD", "mod": [15], "weight": 0.670705}, 
+                {"id": 17, "text": "여건에", "head": 18, "label": "NP_AJT", "mod": [16], "weight": 0.762654}, 
+                {"id": 18, "text": "가까워지는", "head": 19, "label": "VP_MOD", "mod": [17], "weight": 0.811618}, 
+                {"id": 19, "text": "것이", "head": 20, "label": "NP_CMP", "mod": [18], "weight": 0.826415}, 
+                {"id": 20, "text": "아니라", "head": 24, "label": "VP", "mod": [19], "weight": 0.63462}, 
+                {"id": 21, "text": "분명", "head": 24, "label": "AP", "mod": [], "weight": 0.772484}, 
+                {"id": 22, "text": "점점", "head": 23, "label": "AP", "mod": [], "weight": 0.320241}, 
+                {"id": 23, "text": "더", "head": 24, "label": "AP", "mod": [22], "weight": 0.695264}, 
+                {"id": 24, "text": "멀어지고", "head": 25, "label": "VP", "mod": [20, 21, 23], "weight": 0.800716}, 
+                {"id": 25, "text": "있다\"고", "head": 26, "label": "VP_CMP", "mod": [24], "weight": 0.690963}, 
+                {"id": 26, "text": "말했다.", "head": -1, "label": "VP", "mod": [14, 25], "weight": 5.90483e-07}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "션 스파이서 백악관 대변인은", "begin": 0, "end": 3, "key_begin": 0, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "이날 언론 브리핑에서", "begin": 4, "end": 6, "key_begin": 4, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "트럼프와 김정은", "begin": 7, "end": 8, "key_begin": 7, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "트럼프", "label": "NP_SBJ", "begin": 10, "end": 10, "ne_type": "PS_NAME"}, 
+                    {"text": "김정", "label": "NP_SBJ", "begin": 12, "end": 12, "ne_type": ""}
+                ]}, 
+                {"id": 3, "label": "NP_AJT", "text": "북한 노동당 위원장의 만남 가능성에", "begin": 9, "end": 13, "key_begin": 9, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "P#0@SBJ은 P#1@AJT에서 P#2@SBJ은 P#3@AJT에 대해", "begin": 0, "end": 14, "key_begin": 14, "head_phrase": 6, "sub_phrase": [0, 1, 2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "VP_CMP", "text": "\"대화를 위한 여건에 가까워지는 것이 아니라 분명 점점 더 멀어지고 있다\"고", "begin": 15, "end": 25, "key_begin": 15, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S", "text": "S#4@S어 P#5@CMP고 말했다.", "begin": 0, "end": 26, "key_begin": 26, "head_phrase": -1, "sub_phrase": [4, 5], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "대", "sense": 1, "word_id": 14, "weight": 0.657031, "argument": [
+                    {"type": "ARG2", "word_id": 13, "text": "북한 노동당 위원장의 만남 가능성", "weight": 0.657031}
+                ]}, 
+                {"verb": "위하", "sense": 1, "word_id": 16, "weight": 0.383028, "argument": [
+                    {"type": "ARG1", "word_id": 15, "text": "\"대화", "weight": 0.489834}, 
+                    {"type": "ARG0", "word_id": 17, "text": "여건", "weight": 0.276222}
+                ]}, 
+                {"verb": "가깝", "sense": 1, "word_id": 18, "weight": 0.363015, "argument": [
+                    {"type": "ARG2", "word_id": 17, "text": "여건", "weight": 0.363015}
+                ]}, 
+                {"verb": "아니", "sense": 1, "word_id": 20, "weight": 0.427369, "argument": [
+                    {"type": "ARG2", "word_id": 19, "text": "것", "weight": 0.427369}
+                ]}, 
+                {"verb": "멀어지", "sense": 1, "word_id": 24, "weight": 0.459335, "argument": [
+                    {"type": "ARGM-ADV", "word_id": 23, "text": "더", "weight": 1}, 
+                    {"type": "AUX", "word_id": 25, "text": "\"대화를 위한 여건에 가까워지는 것이 아니라 분명 점점 더 멀어지고 있다\"", "weight": 0.662194}
+                ]}, 
+                {"verb": "말", "sense": 1, "word_id": 26, "weight": 0.466287, "argument": [
+                    {"type": "ARG0", "word_id": 3, "text": "션 스파이서 백악관 대변인", "weight": 0.679212}, 
+                    {"type": "ARGM-TMP", "word_id": 6, "text": "이날 언론 브리핑", "weight": 0.381883}, 
+                    {"type": "ARG1", "word_id": 25, "text": "\"대화를 위한 여건에 가까워지는 것이 아니라 분명 점점 더 멀어지고 있다\"", "weight": 0.337766}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 24, "ant_sid": 11, "ant_wid": 0, "ant_is_title": 0, "weight": 0.506961}, 
+                {"id": 1, "type": "s", "head_wid": 26, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.396445}
+            ]
+        }, 
+        {
+            "id": 13, 
+            "text": "스파이서 대변인은 웜비어 사태를 계기로 국무부가 북한에 대한 새로운 여행 제한을 검토 중이라고 전했다.", 
+            "morp": [
+                {"id": 0, "lemma": "스파이서", "type": "NNG", "position": 2029, "weight": 0}, 
+                {"id": 1, "lemma": "대변", "type": "NNG", "position": 2042, "weight": 0.9}, 
+                {"id": 2, "lemma": "인", "type": "XSN", "position": 2048, "weight": 0.0198339}, 
+                {"id": 3, "lemma": "은", "type": "JX", "position": 2051, "weight": 0.100393}, 
+                {"id": 4, "lemma": "웜비", "type": "NNG", "position": 2055, "weight": 0}, 
+                {"id": 5, "lemma": "어", "type": "EC", "position": 2061, "weight": 0.0001}, 
+                {"id": 6, "lemma": "사태", "type": "NNG", "position": 2065, "weight": 0.9}, 
+                {"id": 7, "lemma": "를", "type": "JKO", "position": 2071, "weight": 0.137686}, 
+                {"id": 8, "lemma": "계기", "type": "NNG", "position": 2075, "weight": 0.101355}, 
+                {"id": 9, "lemma": "로", "type": "JKB", "position": 2081, "weight": 0.153229}, 
+                {"id": 10, "lemma": "국무", "type": "NNG", "position": 2085, "weight": 0.9}, 
+                {"id": 11, "lemma": "부", "type": "XSN", "position": 2091, "weight": 0.0112289}, 
+                {"id": 12, "lemma": "가", "type": "JKS", "position": 2094, "weight": 0.134553}, 
+                {"id": 13, "lemma": "북한", "type": "NNP", "position": 2098, "weight": 0.0187961}, 
+                {"id": 14, "lemma": "에", "type": "JKB", "position": 2104, "weight": 0.0823628}, 
+                {"id": 15, "lemma": "대", "type": "NNG", "position": 2108, "weight": 0.0312871}, 
+                {"id": 16, "lemma": "하", "type": "XSV", "position": 2111, "weight": 0.0001}, 
+                {"id": 17, "lemma": "ㄴ", "type": "ETM", "position": 2111, "weight": 0.392321}, 
+                {"id": 18, "lemma": "새롭", "type": "VA", "position": 2115, "weight": 0.9}, 
+                {"id": 19, "lemma": "ㄴ", "type": "ETM", "position": 2118, "weight": 0.430446}, 
+                {"id": 20, "lemma": "여행", "type": "NNG", "position": 2125, "weight": 0.9}, 
+                {"id": 21, "lemma": "제한", "type": "NNG", "position": 2132, "weight": 0.9}, 
+                {"id": 22, "lemma": "을", "type": "JKO", "position": 2138, "weight": 0.129611}, 
+                {"id": 23, "lemma": "검토", "type": "NNG", "position": 2142, "weight": 0.9}, 
+                {"id": 24, "lemma": "중", "type": "NNB", "position": 2149, "weight": 0.013531}, 
+                {"id": 25, "lemma": "이", "type": "VCP", "position": 2152, "weight": 0.0607843}, 
+                {"id": 26, "lemma": "라고", "type": "EC", "position": 2155, "weight": 0.204147}, 
+                {"id": 27, "lemma": "전하", "type": "VV", "position": 2162, "weight": 0.213807}, 
+                {"id": 28, "lemma": "었", "type": "EP", "position": 2165, "weight": 0.9}, 
+                {"id": 29, "lemma": "다", "type": "EF", "position": 2168, "weight": 0.640954}, 
+                {"id": 30, "lemma": ".", "type": "SF", "position": 2171, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "스파이서", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대변인은", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "웜비어", "type": "", "begin": 4, "end": 5}, 
+                {"id": 3, "text": "사태를", "type": "", "begin": 6, "end": 7}, 
+                {"id": 4, "text": "계기로", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "국무부가", "type": "", "begin": 10, "end": 12}, 
+                {"id": 6, "text": "북한에", "type": "", "begin": 13, "end": 14}, 
+                {"id": 7, "text": "대한", "type": "", "begin": 15, "end": 17}, 
+                {"id": 8, "text": "새로운", "type": "", "begin": 18, "end": 19}, 
+                {"id": 9, "text": "여행", "type": "", "begin": 20, "end": 20}, 
+                {"id": 10, "text": "제한을", "type": "", "begin": 21, "end": 22}, 
+                {"id": 11, "text": "검토", "type": "", "begin": 23, "end": 23}, 
+                {"id": 12, "text": "중이라고", "type": "", "begin": 24, "end": 26}, 
+                {"id": 13, "text": "전했다.", "type": "", "begin": 27, "end": 30}
+            ], 
+            "NE": [
+                {"id": 0, "text": "스파이서", "type": "OGG_ECONOMY", "begin": 0, "end": 0, "weight": 0.171262, "common_noun": 0}, 
+                {"id": 1, "text": "대변인", "type": "CV_POSITION", "begin": 1, "end": 2, "weight": 0.618989, "common_noun": 0}, 
+                {"id": 2, "text": "국무부", "type": "OGG_POLITICS", "begin": 10, "end": 11, "weight": 0.743684, "common_noun": 0}, 
+                {"id": 3, "text": "북한", "type": "LCP_COUNTRY", "begin": 13, "end": 13, "weight": 0.838552, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "스파이서", "head": 1, "label": "NP", "mod": [], "weight": 0.627645}, 
+                {"id": 1, "text": "대변인은", "head": 2, "label": "NP_SBJ", "mod": [0], "weight": 0.414809}, 
+                {"id": 2, "text": "웜비어", "head": 12, "label": "VP", "mod": [1], "weight": 0.409577}, 
+                {"id": 3, "text": "사태를", "head": 4, "label": "NP_OBJ", "mod": [], "weight": 0.579339}, 
+                {"id": 4, "text": "계기로", "head": 12, "label": "NP_AJT", "mod": [3], "weight": 0.69382}, 
+                {"id": 5, "text": "국무부가", "head": 12, "label": "NP_SBJ", "mod": [], "weight": 0.713792}, 
+                {"id": 6, "text": "북한에", "head": 7, "label": "NP_AJT", "mod": [], "weight": 0.771259}, 
+                {"id": 7, "text": "대한", "head": 10, "label": "VP_MOD", "mod": [6], "weight": 0.58597}, 
+                {"id": 8, "text": "새로운", "head": 10, "label": "VP_MOD", "mod": [], "weight": 0.717044}, 
+                {"id": 9, "text": "여행", "head": 10, "label": "NP", "mod": [], "weight": 0.770489}, 
+                {"id": 10, "text": "제한을", "head": 12, "label": "NP_OBJ", "mod": [7, 8, 9], "weight": 0.700558}, 
+                {"id": 11, "text": "검토", "head": 12, "label": "NP", "mod": [], "weight": 0.76569}, 
+                {"id": 12, "text": "중이라고", "head": 13, "label": "VNP_CMP", "mod": [2, 4, 5, 10, 11], "weight": 0.624607}, 
+                {"id": 13, "text": "전했다.", "head": -1, "label": "VP", "mod": [12], "weight": 0.00207481}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "스파이서 대변인은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S", "text": "P#0@SBJ은 웜비어", "begin": 0, "end": 2, "key_begin": 2, "head_phrase": 8, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "사태를", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "P#2@OBJ를 계기로", "begin": 3, "end": 4, "key_begin": 4, "head_phrase": 8, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "국무부가", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "북한에", "begin": 6, "end": 6, "key_begin": 6, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "VP_MOD", "text": "P#5@AJT에 대한", "begin": 6, "end": 7, "key_begin": 7, "head_phrase": 7, "sub_phrase": [5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_OBJ", "text": "P#6@MODㄴ 새로운 여행 제한을", "begin": 6, "end": 10, "key_begin": 8, "head_phrase": 8, "sub_phrase": [6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S_CMP", "text": "S#1@S어 P#3@AJT로 P#4@SBJ가 P#7@OBJ을 검토 중이라고", "begin": 0, "end": 12, "key_begin": 11, "head_phrase": 9, "sub_phrase": [1, 3, 4, 7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S", "text": "S#8@CMP라고 전했다.", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": -1, "sub_phrase": [8], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "대", "sense": 1, "word_id": 7, "weight": 0.351621, "argument": [
+                    {"type": "ARGM-CAU", "word_id": 4, "text": "계기", "weight": 0.206753}, 
+                    {"type": "ARG2", "word_id": 6, "text": "북한", "weight": 0.428483}, 
+                    {"type": "ARG1", "word_id": 10, "text": "새로운 여행 제한", "weight": 0.419625}
+                ]}, 
+                {"verb": "새롭", "sense": 1, "word_id": 8, "weight": 0.643252, "argument": [
+                    {"type": "ARG1", "word_id": 10, "text": "새로운 여행 제한", "weight": 0.643252}
+                ]}, 
+                {"verb": "전하", "sense": 1, "word_id": 13, "weight": 0.416804, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "스파이서 대변인", "weight": 0.473933}, 
+                    {"type": "ARG1", "word_id": 12, "text": "검토 중이라고", "weight": 0.359674}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 13, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.868811}
+            ]
+        }, 
+        {
+            "id": 14, 
+            "text": " 또 \"우리는 계속해서 (북한에) 압력을 가할 것이고 동맹들과 협력해 나갈 것\"이라고 했다.", 
+            "morp": [
+                {"id": 0, "lemma": "또", "type": "MAG", "position": 2173, "weight": 0.0653014}, 
+                {"id": 1, "lemma": "\"", "type": "SS", "position": 2177, "weight": 1}, 
+                {"id": 2, "lemma": "우리", "type": "NP", "position": 2178, "weight": 0.0185322}, 
+                {"id": 3, "lemma": "는", "type": "JX", "position": 2184, "weight": 0.122593}, 
+                {"id": 4, "lemma": "계속", "type": "NNG", "position": 2188, "weight": 0.00803553}, 
+                {"id": 5, "lemma": "하", "type": "XSV", "position": 2194, "weight": 0.0001}, 
+                {"id": 6, "lemma": "어서", "type": "EC", "position": 2194, "weight": 0.364511}, 
+                {"id": 7, "lemma": "(", "type": "SS", "position": 2201, "weight": 1}, 
+                {"id": 8, "lemma": "북한", "type": "NNP", "position": 2202, "weight": 0.0640904}, 
+                {"id": 9, "lemma": "에", "type": "JKB", "position": 2208, "weight": 0.0823628}, 
+                {"id": 10, "lemma": ")", "type": "SS", "position": 2211, "weight": 1}, 
+                {"id": 11, "lemma": "압력", "type": "NNG", "position": 2213, "weight": 0.9}, 
+                {"id": 12, "lemma": "을", "type": "JKO", "position": 2219, "weight": 0.129611}, 
+                {"id": 13, "lemma": "가", "type": "NNG", "position": 2223, "weight": 0.000183184}, 
+                {"id": 14, "lemma": "하", "type": "XSV", "position": 2226, "weight": 0.0001}, 
+                {"id": 15, "lemma": "ㄹ", "type": "ETM", "position": 2226, "weight": 0.387847}, 
+                {"id": 16, "lemma": "것", "type": "NNB", "position": 2230, "weight": 0.228788}, 
+                {"id": 17, "lemma": "이", "type": "VCP", "position": 2233, "weight": 0.0607843}, 
+                {"id": 18, "lemma": "고", "type": "EC", "position": 2236, "weight": 0.242962}, 
+                {"id": 19, "lemma": "동맹", "type": "NNG", "position": 2240, "weight": 0.9}, 
+                {"id": 20, "lemma": "들", "type": "XSN", "position": 2246, "weight": 0.0299841}, 
+                {"id": 21, "lemma": "과", "type": "JKB", "position": 2249, "weight": 0.0399165}, 
+                {"id": 22, "lemma": "협력", "type": "NNG", "position": 2253, "weight": 0.9}, 
+                {"id": 23, "lemma": "하", "type": "XSV", "position": 2259, "weight": 0.0001}, 
+                {"id": 24, "lemma": "어", "type": "EC", "position": 2259, "weight": 0.361326}, 
+                {"id": 25, "lemma": "나가", "type": "VX", "position": 2263, "weight": 0.103911}, 
+                {"id": 26, "lemma": "ㄹ", "type": "ETM", "position": 2266, "weight": 0.299161}, 
+                {"id": 27, "lemma": "것", "type": "NNB", "position": 2270, "weight": 0.228788}, 
+                {"id": 28, "lemma": "\"", "type": "SS", "position": 2273, "weight": 1}, 
+                {"id": 29, "lemma": "이라고", "type": "JKQ", "position": 2274, "weight": 0.0202133}, 
+                {"id": 30, "lemma": "하", "type": "VV", "position": 2284, "weight": 0.525586}, 
+                {"id": 31, "lemma": "었", "type": "EP", "position": 2284, "weight": 0.9}, 
+                {"id": 32, "lemma": "다", "type": "EF", "position": 2287, "weight": 0.640954}, 
+                {"id": 33, "lemma": ".", "type": "SF", "position": 2290, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "또", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "\"우리는", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "계속해서", "type": "", "begin": 4, "end": 6}, 
+                {"id": 3, "text": "(북한에)", "type": "", "begin": 7, "end": 10}, 
+                {"id": 4, "text": "압력을", "type": "", "begin": 11, "end": 12}, 
+                {"id": 5, "text": "가할", "type": "", "begin": 13, "end": 15}, 
+                {"id": 6, "text": "것이고", "type": "", "begin": 16, "end": 18}, 
+                {"id": 7, "text": "동맹들과", "type": "", "begin": 19, "end": 21}, 
+                {"id": 8, "text": "협력해", "type": "", "begin": 22, "end": 24}, 
+                {"id": 9, "text": "나갈", "type": "", "begin": 25, "end": 26}, 
+                {"id": 10, "text": "것\"이라고", "type": "", "begin": 27, "end": 29}, 
+                {"id": 11, "text": "했다.", "type": "", "begin": 30, "end": 33}
+            ], 
+            "NE": [
+                {"id": 0, "text": "북한", "type": "LCP_COUNTRY", "begin": 8, "end": 8, "weight": 0.780216, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "또", "head": 10, "label": "AP", "mod": [], "weight": 0.320218}, 
+                {"id": 1, "text": "\"우리는", "head": 2, "label": "NP_SBJ", "mod": [], "weight": 0.601246}, 
+                {"id": 2, "text": "계속해서", "head": 5, "label": "VP", "mod": [1], "weight": 0.791813}, 
+                {"id": 3, "text": "(북한에)", "head": 5, "label": "NP_AJT", "mod": [], "weight": 0.808824}, 
+                {"id": 4, "text": "압력을", "head": 5, "label": "NP_OBJ", "mod": [], "weight": 0.777938}, 
+                {"id": 5, "text": "가할", "head": 6, "label": "VP_MOD", "mod": [2, 3, 4], "weight": 0.736131}, 
+                {"id": 6, "text": "것이고", "head": 10, "label": "VNP", "mod": [5], "weight": 0.5503}, 
+                {"id": 7, "text": "동맹들과", "head": 8, "label": "NP_AJT", "mod": [], "weight": 0.786773}, 
+                {"id": 8, "text": "협력해", "head": 9, "label": "VP", "mod": [7], "weight": 0.741369}, 
+                {"id": 9, "text": "나갈", "head": 10, "label": "VP_MOD", "mod": [8], "weight": 0.718945}, 
+                {"id": 10, "text": "것\"이라고", "head": 11, "label": "VNP_CMP", "mod": [0, 6, 9], "weight": 0.57677}, 
+                {"id": 11, "text": "했다.", "head": -1, "label": "VP", "mod": [10], "weight": 0.00800538}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "VNP_CMP", "text": "또 \"우리는 계속해서 (북한에) 압력을 가할 것이고 동맹들과 협력해 나갈 것\"이라고", "begin": 0, "end": 10, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "VP", "text": "P#0@CMP이라고 했다.", "begin": 0, "end": 11, "key_begin": 11, "head_phrase": -1, "sub_phrase": [0], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "계속", "sense": 1, "word_id": 2, "weight": 0.307411, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "\"우리", "weight": 0.307411}
+                ]}, 
+                {"verb": "가", "sense": 1, "word_id": 5, "weight": 0.318343, "argument": [
+                    {"type": "ARGM-CAU", "word_id": 2, "text": "계속해서", "weight": 0.0861004}, 
+                    {"type": "ARG2", "word_id": 3, "text": "(북한", "weight": 0.144429}, 
+                    {"type": "ARG1", "word_id": 4, "text": "압력", "weight": 0.327073}, 
+                    {"type": "AUX", "word_id": 6, "text": "것이고", "weight": 0.71577}
+                ]}, 
+                {"verb": "협력", "sense": 1, "word_id": 8, "weight": 0.61501, "argument": [
+                    {"type": "ARG2", "word_id": 7, "text": "동맹들", "weight": 0.308136}, 
+                    {"type": "AUX", "word_id": 9, "text": "나갈", "weight": 0.802995}, 
+                    {"type": "AUX", "word_id": 10, "text": "또 \"우리는 계속해서 (북한에) 압력을 가할 것이고 동맹들과 협력해 나갈 것\"", "weight": 0.733899}
+                ]}, 
+                {"verb": "하", "sense": 2, "word_id": 11, "weight": 0.287264, "argument": [
+                    {"type": "ARGM-DIS", "word_id": 0, "text": "또", "weight": 0.262532}, 
+                    {"type": "ARG1", "word_id": 10, "text": "또 \"우리는 계속해서 (북한에) 압력을 가할 것이고 동맹들과 협력해 나갈 것\"", "weight": 0.311997}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "o", "head_wid": 2, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.795419}
+            ]
+        }, 
+        {
+            "id": 15, 
+            "text": "스파이서 대변인은 \"지난 5개월간 이번 행정부와 중국이 긍정적인 움직임을 보여 왔다고 생각한다\"며 \"북한의 태도와 정권을 바꾸기 위해 중국 등 다른 이들과 계속 협력할 것\"이라고 말했다.", 
+            "morp": [
+                {"id": 0, "lemma": "스파이서", "type": "NNG", "position": 2291, "weight": 0}, 
+                {"id": 1, "lemma": "대변", "type": "NNG", "position": 2304, "weight": 0.9}, 
+                {"id": 2, "lemma": "인", "type": "XSN", "position": 2310, "weight": 0.0198339}, 
+                {"id": 3, "lemma": "은", "type": "JX", "position": 2313, "weight": 0.100393}, 
+                {"id": 4, "lemma": "\"", "type": "SS", "position": 2317, "weight": 1}, 
+                {"id": 5, "lemma": "지나", "type": "VV", "position": 2318, "weight": 0.028123}, 
+                {"id": 6, "lemma": "ㄴ", "type": "ETM", "position": 2321, "weight": 0.304215}, 
+                {"id": 7, "lemma": "5", "type": "SN", "position": 2325, "weight": 1}, 
+                {"id": 8, "lemma": "개월", "type": "NNB", "position": 2326, "weight": 0.9}, 
+                {"id": 9, "lemma": "간", "type": "XSN", "position": 2332, "weight": 0.0078671}, 
+                {"id": 10, "lemma": "이번", "type": "NNG", "position": 2336, "weight": 0.9}, 
+                {"id": 11, "lemma": "행정", "type": "NNG", "position": 2343, "weight": 0.9}, 
+                {"id": 12, "lemma": "부", "type": "NNG", "position": 2349, "weight": 0.0693022}, 
+                {"id": 13, "lemma": "와", "type": "JC", "position": 2352, "weight": 0.0169714}, 
+                {"id": 14, "lemma": "중국", "type": "NNP", "position": 2356, "weight": 0.0704877}, 
+                {"id": 15, "lemma": "이", "type": "JKS", "position": 2362, "weight": 0.0234517}, 
+                {"id": 16, "lemma": "긍정", "type": "NNG", "position": 2366, "weight": 0.9}, 
+                {"id": 17, "lemma": "적", "type": "XSN", "position": 2372, "weight": 0.0168756}, 
+                {"id": 18, "lemma": "이", "type": "VCP", "position": 2375, "weight": 0.0165001}, 
+                {"id": 19, "lemma": "ㄴ", "type": "ETM", "position": 2375, "weight": 0.220712}, 
+                {"id": 20, "lemma": "움직임", "type": "NNG", "position": 2379, "weight": 0.9}, 
+                {"id": 21, "lemma": "을", "type": "JKO", "position": 2388, "weight": 0.129611}, 
+                {"id": 22, "lemma": "보이", "type": "VV", "position": 2392, "weight": 0.776105}, 
+                {"id": 23, "lemma": "어", "type": "EC", "position": 2395, "weight": 0.41831}, 
+                {"id": 24, "lemma": "오", "type": "VX", "position": 2399, "weight": 0.0910275}, 
+                {"id": 25, "lemma": "았", "type": "EP", "position": 2399, "weight": 0.9}, 
+                {"id": 26, "lemma": "다고", "type": "EC", "position": 2402, "weight": 0.193823}, 
+                {"id": 27, "lemma": "생각", "type": "NNG", "position": 2409, "weight": 0.9}, 
+                {"id": 28, "lemma": "하", "type": "XSV", "position": 2415, "weight": 0.0001}, 
+                {"id": 29, "lemma": "ㄴ다", "type": "EF", "position": 2415, "weight": 0.0449045}, 
+                {"id": 30, "lemma": "\"", "type": "SS", "position": 2421, "weight": 1}, 
+                {"id": 31, "lemma": "며", "type": "EC", "position": 2422, "weight": 0.00532489}, 
+                {"id": 32, "lemma": "\"", "type": "SS", "position": 2426, "weight": 1}, 
+                {"id": 33, "lemma": "북한", "type": "NNP", "position": 2427, "weight": 0.0640904}, 
+                {"id": 34, "lemma": "의", "type": "JKG", "position": 2433, "weight": 0.0987295}, 
+                {"id": 35, "lemma": "태도", "type": "NNG", "position": 2437, "weight": 0.9}, 
+                {"id": 36, "lemma": "와", "type": "JC", "position": 2443, "weight": 0.0169714}, 
+                {"id": 37, "lemma": "정권", "type": "NNG", "position": 2447, "weight": 0.9}, 
+                {"id": 38, "lemma": "을", "type": "JKO", "position": 2453, "weight": 0.129611}, 
+                {"id": 39, "lemma": "바꾸", "type": "VV", "position": 2457, "weight": 0.9}, 
+                {"id": 40, "lemma": "기", "type": "ETN", "position": 2463, "weight": 0.0380514}, 
+                {"id": 41, "lemma": "위하", "type": "VV", "position": 2467, "weight": 0.176484}, 
+                {"id": 42, "lemma": "어", "type": "EC", "position": 2470, "weight": 0.41831}, 
+                {"id": 43, "lemma": "중국", "type": "NNP", "position": 2474, "weight": 0.0219657}, 
+                {"id": 44, "lemma": "등", "type": "NNB", "position": 2481, "weight": 0.0459798}, 
+                {"id": 45, "lemma": "다른", "type": "MM", "position": 2485, "weight": 0.9}, 
+                {"id": 46, "lemma": "이", "type": "NP", "position": 2492, "weight": 0.000113081}, 
+                {"id": 47, "lemma": "들", "type": "XSN", "position": 2495, "weight": 0.055005}, 
+                {"id": 48, "lemma": "과", "type": "JKB", "position": 2498, "weight": 0.0399165}, 
+                {"id": 49, "lemma": "계속", "type": "MAG", "position": 2502, "weight": 0.0545415}, 
+                {"id": 50, "lemma": "협력", "type": "NNG", "position": 2509, "weight": 0.9}, 
+                {"id": 51, "lemma": "하", "type": "XSV", "position": 2515, "weight": 0.0001}, 
+                {"id": 52, "lemma": "ㄹ", "type": "ETM", "position": 2515, "weight": 0.387847}, 
+                {"id": 53, "lemma": "것", "type": "NNB", "position": 2519, "weight": 0.228788}, 
+                {"id": 54, "lemma": "\"", "type": "SS", "position": 2522, "weight": 1}, 
+                {"id": 55, "lemma": "이라고", "type": "JKQ", "position": 2523, "weight": 0.0202133}, 
+                {"id": 56, "lemma": "말", "type": "NNG", "position": 2533, "weight": 0.0618649}, 
+                {"id": 57, "lemma": "하", "type": "XSV", "position": 2536, "weight": 0.0001}, 
+                {"id": 58, "lemma": "었", "type": "EP", "position": 2536, "weight": 0.9}, 
+                {"id": 59, "lemma": "다", "type": "EF", "position": 2539, "weight": 0.640954}, 
+                {"id": 60, "lemma": ".", "type": "SF", "position": 2542, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "스파이서", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "대변인은", "type": "", "begin": 1, "end": 3}, 
+                {"id": 2, "text": "\"지난", "type": "", "begin": 4, "end": 6}, 
+                {"id": 3, "text": "5개월간", "type": "", "begin": 7, "end": 9}, 
+                {"id": 4, "text": "이번", "type": "", "begin": 10, "end": 10}, 
+                {"id": 5, "text": "행정부와", "type": "", "begin": 11, "end": 13}, 
+                {"id": 6, "text": "중국이", "type": "", "begin": 14, "end": 15}, 
+                {"id": 7, "text": "긍정적인", "type": "", "begin": 16, "end": 19}, 
+                {"id": 8, "text": "움직임을", "type": "", "begin": 20, "end": 21}, 
+                {"id": 9, "text": "보여", "type": "", "begin": 22, "end": 23}, 
+                {"id": 10, "text": "왔다고", "type": "", "begin": 24, "end": 26}, 
+                {"id": 11, "text": "생각한다\"며", "type": "", "begin": 27, "end": 31}, 
+                {"id": 12, "text": "\"북한의", "type": "", "begin": 32, "end": 34}, 
+                {"id": 13, "text": "태도와", "type": "", "begin": 35, "end": 36}, 
+                {"id": 14, "text": "정권을", "type": "", "begin": 37, "end": 38}, 
+                {"id": 15, "text": "바꾸기", "type": "", "begin": 39, "end": 40}, 
+                {"id": 16, "text": "위해", "type": "", "begin": 41, "end": 42}, 
+                {"id": 17, "text": "중국", "type": "", "begin": 43, "end": 43}, 
+                {"id": 18, "text": "등", "type": "", "begin": 44, "end": 44}, 
+                {"id": 19, "text": "다른", "type": "", "begin": 45, "end": 45}, 
+                {"id": 20, "text": "이들과", "type": "", "begin": 46, "end": 48}, 
+                {"id": 21, "text": "계속", "type": "", "begin": 49, "end": 49}, 
+                {"id": 22, "text": "협력할", "type": "", "begin": 50, "end": 52}, 
+                {"id": 23, "text": "것\"이라고", "type": "", "begin": 53, "end": 55}, 
+                {"id": 24, "text": "말했다.", "type": "", "begin": 56, "end": 60}
+            ], 
+            "NE": [
+                {"id": 0, "text": "스파이서", "type": "OGG_ECONOMY", "begin": 0, "end": 0, "weight": 0.171017, "common_noun": 0}, 
+                {"id": 1, "text": "대변인", "type": "CV_POSITION", "begin": 1, "end": 2, "weight": 0.687552, "common_noun": 0}, 
+                {"id": 2, "text": "지난 5개월간", "type": "DT_DURATION", "begin": 5, "end": 9, "weight": 0.705083, "common_noun": 0}, 
+                {"id": 3, "text": "행정부", "type": "OGG_POLITICS", "begin": 11, "end": 12, "weight": 0.539165, "common_noun": 0}, 
+                {"id": 4, "text": "중국", "type": "LCP_COUNTRY", "begin": 14, "end": 14, "weight": 0.59389, "common_noun": 0}, 
+                {"id": 5, "text": "북한", "type": "LCP_COUNTRY", "begin": 33, "end": 33, "weight": 0.872485, "common_noun": 0}, 
+                {"id": 6, "text": "중국", "type": "LCP_COUNTRY", "begin": 43, "end": 43, "weight": 0.610886, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "스파이서", "head": 1, "label": "NP", "mod": [], "weight": 0.612855}, 
+                {"id": 1, "text": "대변인은", "head": 11, "label": "NP_SBJ", "mod": [0], "weight": 0.64107}, 
+                {"id": 2, "text": "\"지난", "head": 3, "label": "VP_MOD", "mod": [], "weight": 0.679463}, 
+                {"id": 3, "text": "5개월간", "head": 9, "label": "NP_AJT", "mod": [2], "weight": 0.683391}, 
+                {"id": 4, "text": "이번", "head": 5, "label": "NP", "mod": [], "weight": 0.172113}, 
+                {"id": 5, "text": "행정부와", "head": 6, "label": "NP_CNJ", "mod": [4], "weight": 0.190652}, 
+                {"id": 6, "text": "중국이", "head": 9, "label": "NP_SBJ", "mod": [5], "weight": 0.836085}, 
+                {"id": 7, "text": "긍정적인", "head": 8, "label": "VNP_MOD", "mod": [], "weight": 0.640534}, 
+                {"id": 8, "text": "움직임을", "head": 9, "label": "NP_OBJ", "mod": [7], "weight": 0.820202}, 
+                {"id": 9, "text": "보여", "head": 10, "label": "VP", "mod": [3, 6, 8], "weight": 0.817833}, 
+                {"id": 10, "text": "왔다고", "head": 11, "label": "VP_CMP", "mod": [9], "weight": 0.638238}, 
+                {"id": 11, "text": "생각한다\"며", "head": 24, "label": "VP", "mod": [1, 10], "weight": 0.543898}, 
+                {"id": 12, "text": "\"북한의", "head": 14, "label": "NP_MOD", "mod": [], "weight": 0.685881}, 
+                {"id": 13, "text": "태도와", "head": 14, "label": "NP_CNJ", "mod": [], "weight": 0.549284}, 
+                {"id": 14, "text": "정권을", "head": 15, "label": "NP_OBJ", "mod": [12, 13], "weight": 0.863143}, 
+                {"id": 15, "text": "바꾸기", "head": 16, "label": "VP_OBJ", "mod": [14], "weight": 0.73145}, 
+                {"id": 16, "text": "위해", "head": 22, "label": "VP", "mod": [15], "weight": 0.578267}, 
+                {"id": 17, "text": "중국", "head": 18, "label": "NP", "mod": [], "weight": 0.811598}, 
+                {"id": 18, "text": "등", "head": 20, "label": "NP", "mod": [17], "weight": 0.147259}, 
+                {"id": 19, "text": "다른", "head": 20, "label": "DP", "mod": [], "weight": 0.607557}, 
+                {"id": 20, "text": "이들과", "head": 22, "label": "NP_AJT", "mod": [18, 19], "weight": 0.704274}, 
+                {"id": 21, "text": "계속", "head": 22, "label": "AP", "mod": [], "weight": 0.858956}, 
+                {"id": 22, "text": "협력할", "head": 23, "label": "VP_MOD", "mod": [16, 20, 21], "weight": 0.731978}, 
+                {"id": 23, "text": "것\"이라고", "head": 24, "label": "VNP_CMP", "mod": [22], "weight": 0.747372}, 
+                {"id": 24, "text": "말했다.", "head": -1, "label": "VP", "mod": [11, 23], "weight": 1.98051e-06}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "스파이서 대변인은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 1, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "S", "text": "P#0@SBJ은 \"지난 5개월간 이번 행정부와 중국이 긍정적인 움직임을 보여 왔다고 생각한다\"며", "begin": 0, "end": 11, "key_begin": 2, "head_phrase": 3, "sub_phrase": [0], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VNP_CMP", "text": "\"북한의 태도와 정권을 바꾸기 위해 중국 등 다른 이들과 계속 협력할 것\"이라고", "begin": 12, "end": 23, "key_begin": 12, "head_phrase": 3, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "S", "text": "S#1@S며 P#2@CMP이라고 말했다.", "begin": 0, "end": 24, "key_begin": 24, "head_phrase": -1, "sub_phrase": [1, 2], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "지나", "sense": 1, "word_id": 2, "weight": 0, "argument": []}, 
+                {"verb": "보이", "sense": 1, "word_id": 9, "weight": 0.428745, "argument": [
+                    {"type": "ARGA", "word_id": 6, "text": "중국", "weight": 0.27067}, 
+                    {"type": "ARG1", "word_id": 8, "text": "움직임", "weight": 0.274324}, 
+                    {"type": "AUX", "word_id": 10, "text": "왔다고", "weight": 0.741241}
+                ]}, 
+                {"verb": "생각", "sense": 1, "word_id": 11, "weight": 0.29831, "argument": [
+                    {"type": "ARG1", "word_id": 10, "text": "왔다고", "weight": 0.29831}
+                ]}, 
+                {"verb": "바꾸", "sense": 1, "word_id": 15, "weight": 0.429689, "argument": [
+                    {"type": "ARG1", "word_id": 14, "text": "정권", "weight": 0.429689}
+                ]}, 
+                {"verb": "위하", "sense": 1, "word_id": 16, "weight": 0.37438, "argument": [
+                    {"type": "ARG1", "word_id": 15, "text": "바꾸기", "weight": 0.37438}
+                ]}, 
+                {"verb": "협력", "sense": 1, "word_id": 22, "weight": 0.443789, "argument": [
+                    {"type": "ARGM-DIS", "word_id": 11, "text": "\"지난 5개월간 이번 행정부와 중국이 긍정적인 움직임을 보여 왔다고 생각한다\"며", "weight": 0.328909}, 
+                    {"type": "ARGM-PRP", "word_id": 16, "text": "위해", "weight": 0.332005}, 
+                    {"type": "ARG1", "word_id": 20, "text": "이들", "weight": 0.153253}, 
+                    {"type": "ARGM-TMP", "word_id": 21, "text": "계속", "weight": 0.538516}, 
+                    {"type": "AUX", "word_id": 23, "text": "\"북한의 태도와 정권을 바꾸기 위해 중국 등 다른 이들과 계속 협력할 것\"", "weight": 0.866261}
+                ]}, 
+                {"verb": "말", "sense": 1, "word_id": 24, "weight": 0.500767, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "스파이서 대변인", "weight": 0.61175}, 
+                    {"type": "ARG1", "word_id": 23, "text": "\"북한의 태도와 정권을 바꾸기 위해 중국 등 다른 이들과 계속 협력할 것\"", "weight": 0.389785}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 15, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.45466}, 
+                {"id": 1, "type": "s", "head_wid": 24, "ant_sid": 15, "ant_wid": 1, "ant_is_title": 0, "weight": 0.49419}
+            ]
+        }
+    ], 
+    "entity": [
+        {"id": 0, "type": "PS_NAME", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "미국", "mention": [
+            {"id": 6, "sent_id": 1, "start_eid": 0, "end_eid": 3, "ne_id": 2, "text": "도널드 트럼프 미국 대통령", "start_eid_short": 0, "end_eid_short": 3, "text_short": "도널드 트럼프 미국 대통령", "weight": 0.144}, 
+            {"id": 7, "sent_id": 1, "start_eid": 0, "end_eid": 1, "ne_id": 0, "text": "도널드 트럼프", "start_eid_short": 0, "end_eid_short": 1, "text_short": "도널드 트럼프", "weight": 0.139}, 
+            {"id": 13, "sent_id": 2, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "트럼프 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "트럼프 대통령", "weight": 0.153}, 
+            {"id": 14, "sent_id": 2, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "트럼프", "start_eid_short": 0, "end_eid_short": 0, "text_short": "트럼프", "weight": 0.148}, 
+            {"id": 26, "sent_id": 3, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "트럼프 대통령", "start_eid_short": 0, "end_eid_short": 1, "text_short": "트럼프 대통령", "weight": 0.159}, 
+            {"id": 27, "sent_id": 3, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "트럼프", "start_eid_short": 0, "end_eid_short": 0, "text_short": "트럼프", "weight": 0.154}, 
+            {"id": 31, "sent_id": 4, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "트럼프", "start_eid_short": 0, "end_eid_short": 0, "text_short": "트럼프", "weight": 0.154}, 
+            {"id": 44, "sent_id": 5, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "트럼프", "start_eid_short": 0, "end_eid_short": 0, "text_short": "트럼프", "weight": 0.154}, 
+            {"id": 96, "sent_id": 12, "start_eid": 7, "end_eid": 7, "ne_id": 3, "text": "트럼프", "start_eid_short": 7, "end_eid_short": 7, "text_short": "트럼프", "weight": 0.154}
+        ]}, 
+        {"id": 1, "type": "DT_DAY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 17, "sent_id": 2, "start_eid": 2, "end_eid": 2, "ne_id": 2, "text": "21일", "start_eid_short": 2, "end_eid_short": 2, "text_short": "21일", "weight": 0.01}, 
+            {"id": 9, "sent_id": 1, "start_eid": 4, "end_eid": 4, "ne_id": 3, "text": "21일(현지시간)", "start_eid_short": 4, "end_eid_short": 4, "text_short": "21일(현지시간)", "weight": 0.006}
+        ]}, 
+        {"id": 2, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 24, "sent_id": 2, "start_eid": 14, "end_eid": 14, "ne_id": -1, "text": "노력", "start_eid_short": 14, "end_eid_short": 14, "text_short": "노력", "weight": 0.018}, 
+            {"id": 10, "sent_id": 1, "start_eid": 5, "end_eid": 9, "ne_id": -1, "text": "북한을 압박하기 위한 중국의 노력", "start_eid_short": 8, "end_eid_short": 9, "text_short": "중국의 노력", "weight": 0.01}, 
+            {"id": 0, "sent_id": 0, "start_eid": 0, "end_eid": 2, "ne_id": -1, "text": "[종합]트럼프 \"中의 노력", "start_eid_short": 0, "end_eid_short": 2, "text_short": "[종합]트럼프 \"中의 노력", "weight": 0.014}
+        ]}, 
+        {"id": 3, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "북한", "mention": [
+            {"id": 34, "sent_id": 4, "start_eid": 1, "end_eid": 1, "ne_id": 1, "text": "북한", "start_eid_short": 1, "end_eid_short": 1, "text_short": "북한", "weight": 0.19}, 
+            {"id": 40, "sent_id": 4, "start_eid": 15, "end_eid": 15, "ne_id": 7, "text": "북한", "start_eid_short": 15, "end_eid_short": 15, "text_short": "북한", "weight": 0.19}, 
+            {"id": 11, "sent_id": 1, "start_eid": 5, "end_eid": 5, "ne_id": 4, "text": "북한", "start_eid_short": 5, "end_eid_short": 5, "text_short": "북한", "weight": 0.184}, 
+            {"id": 56, "sent_id": 7, "start_eid": 3, "end_eid": 3, "ne_id": 2, "text": "북한", "start_eid_short": 3, "end_eid_short": 3, "text_short": "북한", "weight": 0.19}, 
+            {"id": 65, "sent_id": 8, "start_eid": 4, "end_eid": 4, "ne_id": 2, "text": "북한", "start_eid_short": 4, "end_eid_short": 4, "text_short": "북한", "weight": 0.19}, 
+            {"id": 71, "sent_id": 9, "start_eid": 3, "end_eid": 3, "ne_id": 2, "text": "북한", "start_eid_short": 3, "end_eid_short": 3, "text_short": "북한", "weight": 0.19}, 
+            {"id": 23, "sent_id": 2, "start_eid": 10, "end_eid": 10, "ne_id": 9, "text": "북한", "start_eid_short": 10, "end_eid_short": 10, "text_short": "북한", "weight": 0.19}, 
+            {"id": 110, "sent_id": 13, "start_eid": 6, "end_eid": 6, "ne_id": 3, "text": "북한", "start_eid_short": 6, "end_eid_short": 6, "text_short": "북한", "weight": 0.19}
+        ]}, 
+        {"id": 4, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "중국", "mention": [
+            {"id": 85, "sent_id": 11, "start_eid": 2, "end_eid": 2, "ne_id": 1, "text": "중국", "start_eid_short": 2, "end_eid_short": 2, "text_short": "중국,", "weight": 0.076}, 
+            {"id": 29, "sent_id": 3, "start_eid": 4, "end_eid": 4, "ne_id": 2, "text": "중국", "start_eid_short": 4, "end_eid_short": 4, "text_short": "중국", "weight": 0.076}, 
+            {"id": 12, "sent_id": 1, "start_eid": 8, "end_eid": 8, "ne_id": 5, "text": "중국", "start_eid_short": 8, "end_eid_short": 8, "text_short": "중국", "weight": 0.07}, 
+            {"id": 123, "sent_id": 15, "start_eid": 6, "end_eid": 6, "ne_id": 4, "text": "중국", "start_eid_short": 6, "end_eid_short": 6, "text_short": "중국", "weight": 0.076}, 
+            {"id": 130, "sent_id": 15, "start_eid": 17, "end_eid": 17, "ne_id": 6, "text": "중국", "start_eid_short": 17, "end_eid_short": 17, "text_short": "중국", "weight": 0.076}
+        ]}, 
+        {"id": 5, "type": "LCP_COUNTRY", "number": "plural", "gender": "", "person": "", "animacy": "", "loc": "중국", "mention": [
+            {"id": 19, "sent_id": 2, "start_eid": 7, "end_eid": 9, "ne_id": 8, "text": "\"시진핑(習近平) 주석과 중국", "start_eid_short": 9, "end_eid_short": 9, "text_short": "중국", "weight": 0.002}, 
+            {"id": 120, "sent_id": 15, "start_eid": 4, "end_eid": 6, "ne_id": 4, "text": "이번 행정부와 중국", "start_eid_short": 6, "end_eid_short": 6, "text_short": "중국", "weight": 0.0035}
+        ]}, 
+        {"id": 6, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 48, "sent_id": 5, "start_eid": 6, "end_eid": 8, "ne_id": -1, "text": "\"오토에게 일어난 일", "start_eid_short": 8, "end_eid_short": 8, "text_short": "일", "weight": 0.01}, 
+            {"id": 32, "sent_id": 4, "start_eid": 1, "end_eid": 9, "ne_id": -1, "text": "북한에 억류됐다 혼수상태로 석방된 미국인 오토 웜비어(22)가 사망한 일", "start_eid_short": 9, "end_eid_short": 9, "text_short": "일", "weight": 0.006}
+        ]}, 
+        {"id": 7, "type": "PS_NAME", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 33, "sent_id": 4, "start_eid": 1, "end_eid": 7, "ne_id": -1, "text": "북한에 억류됐다 혼수상태로 석방된 미국인 오토 웜비어(22)", "start_eid_short": 5, "end_eid_short": 7, "text_short": "미국인 오토 웜비어(22)", "weight": 0.04}, 
+            {"id": 80, "sent_id": 10, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "웜비어", "start_eid_short": 0, "end_eid_short": 0, "text_short": "웜비어", "weight": 0.05}, 
+            {"id": 53, "sent_id": 7, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "웜비어", "start_eid_short": 0, "end_eid_short": 0, "text_short": "웜비어", "weight": 0.044}, 
+            {"id": 68, "sent_id": 9, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "웜비어", "start_eid_short": 0, "end_eid_short": 0, "text_short": "웜비어", "weight": 0.05}
+        ]}, 
+        {"id": 8, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 74, "sent_id": 9, "start_eid": 8, "end_eid": 8, "ne_id": -1, "text": "혼수상태", "start_eid_short": 8, "end_eid_short": 8, "text_short": "혼수상태", "weight": 0.016}, 
+            {"id": 35, "sent_id": 4, "start_eid": 3, "end_eid": 3, "ne_id": -1, "text": "혼수상태", "start_eid_short": 3, "end_eid_short": 3, "text_short": "혼수상태", "weight": 0.01}
+        ]}, 
+        {"id": 9, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 128, "sent_id": 15, "start_eid": 14, "end_eid": 14, "ne_id": -1, "text": "정권", "start_eid_short": 14, "end_eid_short": 14, "text_short": "정권", "weight": 0.01}, 
+            {"id": 39, "sent_id": 4, "start_eid": 15, "end_eid": 16, "ne_id": -1, "text": "북한 정권", "start_eid_short": 15, "end_eid_short": 16, "text_short": "북한 정권", "weight": 0.006}
+        ]}, 
+        {"id": 10, "type": "CV_POSITION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 41, "sent_id": 4, "start_eid": 19, "end_eid": 23, "ne_id": 8, "text": "\"그들로 인한 가장 최근의 희생자", "start_eid_short": 21, "end_eid_short": 23, "text_short": "가장 최근의 희생자", "weight": 0.005}, 
+            {"id": 50, "sent_id": 6, "start_eid": 3, "end_eid": 3, "ne_id": -1, "text": "그", "start_eid_short": 3, "end_eid_short": 3, "text_short": "그", "weight": 0.006}, 
+            {"id": 62, "sent_id": 8, "start_eid": 0, "end_eid": 0, "ne_id": -1, "text": "그", "start_eid_short": 0, "end_eid_short": 0, "text_short": "그", "weight": 0.006}
+        ]}, 
+        {"id": 11, "type": "OGG_POLITICS", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 83, "sent_id": 11, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "백악관", "start_eid_short": 0, "end_eid_short": 0, "text_short": "백악관", "weight": 0.03}, 
+            {"id": 46, "sent_id": 5, "start_eid": 2, "end_eid": 2, "ne_id": 1, "text": "백악관", "start_eid_short": 2, "end_eid_short": 2, "text_short": "백악관", "weight": 0.024}, 
+            {"id": 91, "sent_id": 12, "start_eid": 2, "end_eid": 2, "ne_id": 1, "text": "백악관", "start_eid_short": 2, "end_eid_short": 2, "text_short": "백악관", "weight": 0.03}
+        ]}, 
+        {"id": 12, "type": "DT_DURATION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 76, "sent_id": 9, "start_eid": 10, "end_eid": 10, "ne_id": 4, "text": "엿새", "start_eid_short": 10, "end_eid_short": 10, "text_short": "엿새", "weight": 0.002}, 
+            {"id": 93, "sent_id": 12, "start_eid": 4, "end_eid": 4, "ne_id": -1, "text": "이날", "start_eid_short": 4, "end_eid_short": 4, "text_short": "이날", "weight": 0.006}
+        ]}, 
+        {"id": 13, "type": "", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 106, "sent_id": 13, "start_eid": 3, "end_eid": 4, "ne_id": -1, "text": "사태를 계기", "start_eid_short": 4, "end_eid_short": 4, "text_short": "계기", "weight": 0.0035}, 
+            {"id": 78, "sent_id": 10, "start_eid": 0, "end_eid": 2, "ne_id": -1, "text": "웜비어 사망을 계기", "start_eid_short": 2, "end_eid_short": 2, "text_short": "계기", "weight": 0.002}
+        ]}, 
+        {"id": 14, "type": "", "number": "plural", "gender": "", "person": "", "animacy": "", "loc": "중국", "mention": [
+            {"id": 84, "sent_id": 11, "start_eid": 2, "end_eid": 3, "ne_id": -1, "text": "중국, 동맹들", "start_eid_short": 2, "end_eid_short": 3, "text_short": "중국, 동맹들", "weight": 0.02}, 
+            {"id": 116, "sent_id": 14, "start_eid": 7, "end_eid": 7, "ne_id": -1, "text": "동맹들", "start_eid_short": 7, "end_eid_short": 7, "text_short": "동맹들", "weight": 0.03}, 
+            {"id": 86, "sent_id": 11, "start_eid": 3, "end_eid": 3, "ne_id": -1, "text": "동맹들", "start_eid_short": 3, "end_eid_short": 3, "text_short": "동맹들", "weight": 0.024}
+        ]}, 
+        {"id": 15, "type": "CV_POSITION", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 117, "sent_id": 15, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "스파이서 대변인", "start_eid_short": 0, "end_eid_short": 1, "text_short": "스파이서 대변인", "weight": 0.071}, 
+            {"id": 118, "sent_id": 15, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "스파이서", "start_eid_short": 0, "end_eid_short": 0, "text_short": "스파이서", "weight": 0.067}, 
+            {"id": 105, "sent_id": 13, "start_eid": 0, "end_eid": 0, "ne_id": 0, "text": "스파이서", "start_eid_short": 0, "end_eid_short": 0, "text_short": "스파이서", "weight": 0.061}, 
+            {"id": 90, "sent_id": 12, "start_eid": 0, "end_eid": 1, "ne_id": 0, "text": "션 스파이서", "start_eid_short": 0, "end_eid_short": 1, "text_short": "션 스파이서", "weight": 0.061}, 
+            {"id": 89, "sent_id": 12, "start_eid": 0, "end_eid": 3, "ne_id": 2, "text": "션 스파이서 백악관 대변인", "start_eid_short": 0, "end_eid_short": 3, "text_short": "션 스파이서 백악관 대변인", "weight": 0.066}, 
+            {"id": 104, "sent_id": 13, "start_eid": 0, "end_eid": 1, "ne_id": 1, "text": "스파이서 대변인", "start_eid_short": 0, "end_eid_short": 1, "text_short": "스파이서 대변인", "weight": 0.065}
+        ]}, 
+        {"id": 16, "type": "PS_NAME", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "", "mention": [
+            {"id": 99, "sent_id": 12, "start_eid": 9, "end_eid": 11, "ne_id": 6, "text": "북한 노동당 위원장", "start_eid_short": 9, "end_eid_short": 11, "text_short": "북한 노동당 위원장", "weight": 0.012}, 
+            {"id": 97, "sent_id": 12, "start_eid": 8, "end_eid": 8, "ne_id": 4, "text": "김정", "start_eid_short": 8, "end_eid_short": 8, "text_short": "김정", "weight": 0.007}
+        ]}, 
+        {"id": 17, "type": "LCP_COUNTRY", "number": "singular", "gender": "", "person": "", "animacy": "", "loc": "中", "mention": [
+            {"id": 1, "sent_id": 0, "start_eid": 0, "end_eid": 1, "ne_id": 0, "text": "[종합]트럼프 \"中", "start_eid_short": 0, "end_eid_short": 1, "text_short": "[종합]트럼프 \"中", "weight": 0.192}, 
+            {"id": 2, "sent_id": 0, "start_eid": 0, "end_eid": 0, "ne_id": -1, "text": "[종합]트럼프", "start_eid_short": 0, "end_eid_short": 0, "text_short": "[종합]트럼프", "weight": 0.196}, 
+            {"id": 25, "sent_id": 2, "start_eid": 20, "end_eid": 20, "ne_id": -1, "text": "\"일", "start_eid_short": 20, "end_eid_short": 20, "text_short": "\"일", "weight": 0.148}, 
+            {"id": 113, "sent_id": 14, "start_eid": 1, "end_eid": 3, "ne_id": -1, "text": "\"우리는 계속해서 (북한", "start_eid_short": 2, "end_eid_short": 3, "text_short": "계속해서 (북한", "weight": 0.0999999}, 
+            {"id": 114, "sent_id": 14, "start_eid": 1, "end_eid": 1, "ne_id": -1, "text": "\"우리", "start_eid_short": 1, "end_eid_short": 1, "text_short": "\"우리", "weight": 0.196}, 
+            {"id": 103, "sent_id": 12, "start_eid": 15, "end_eid": 15, "ne_id": -1, "text": "\"대화", "start_eid_short": 15, "end_eid_short": 15, "text_short": "\"대화", "weight": 0.108}, 
+            {"id": 49, "sent_id": 5, "start_eid": 6, "end_eid": 6, "ne_id": -1, "text": "\"오토", "start_eid_short": 6, "end_eid_short": 6, "text_short": "\"오토", "weight": 0.116}, 
+            {"id": 20, "sent_id": 2, "start_eid": 7, "end_eid": 8, "ne_id": 7, "text": "\"시진핑(習近平) 주석", "start_eid_short": 7, "end_eid_short": 8, "text_short": "\"시진핑(習近平) 주석", "weight": 0.165}, 
+            {"id": 21, "sent_id": 2, "start_eid": 7, "end_eid": 7, "ne_id": 5, "text": "\"시진핑(習近平)", "start_eid_short": 7, "end_eid_short": 7, "text_short": "\"시진핑(習近平)", "weight": 0.16}, 
+            {"id": 28, "sent_id": 3, "start_eid": 3, "end_eid": 3, "ne_id": -1, "text": "\"최소한", "start_eid_short": 3, "end_eid_short": 3, "text_short": "\"최소한", "weight": 0.136}, 
+            {"id": 126, "sent_id": 15, "start_eid": 12, "end_eid": 12, "ne_id": 5, "text": "\"북한", "start_eid_short": 12, "end_eid_short": 12, "text_short": "\"북한", "weight": 0.196}, 
+            {"id": 5, "sent_id": 0, "start_eid": 5, "end_eid": 5, "ne_id": 2, "text": "\"북미", "start_eid_short": 5, "end_eid_short": 5, "text_short": "\"북미", "weight": 0.196}, 
+            {"id": 37, "sent_id": 4, "start_eid": 11, "end_eid": 11, "ne_id": 5, "text": "\"미국", "start_eid_short": 11, "end_eid_short": 11, "text_short": "\"미국", "weight": 0.196}
+        ]}
+    ]
+}

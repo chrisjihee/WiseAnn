@@ -1,0 +1,486 @@
+{
+    "title": {
+        "text": "국회법", 
+        "NE": ""
+    }, 
+    "metaInfo": {
+        "field": "법률", 
+        "num_sent": 4, 
+        "num_word": 53
+    }, 
+    "sentence": [
+        {
+            "id": 32, 
+            "text": "제2장 국회의 회기와 휴회", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 3615, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "2", "type": "SN", "position": 3618, "weight": 1}, 
+                {"id": 2, "lemma": "장", "type": "NNG", "position": 3619, "weight": 0.0331223}, 
+                {"id": 3, "lemma": "국회", "type": "NNG", "position": 3623, "weight": 0.9}, 
+                {"id": 4, "lemma": "의", "type": "JKG", "position": 3629, "weight": 0.0694213}, 
+                {"id": 5, "lemma": "회기", "type": "NNG", "position": 3633, "weight": 0.9}, 
+                {"id": 6, "lemma": "와", "type": "JKB", "position": 3639, "weight": 0.0567862}, 
+                {"id": 7, "lemma": "휴회", "type": "NNG", "position": 3643, "weight": 0.7}
+            ], 
+            "word": [
+                {"id": 0, "text": "제2장", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "국회의", "type": "", "begin": 3, "end": 4}, 
+                {"id": 2, "text": "회기와", "type": "", "begin": 5, "end": 6}, 
+                {"id": 3, "text": "휴회", "type": "", "begin": 7, "end": 7}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제2장", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.529825, "common_noun": 0}, 
+                {"id": 1, "text": "국회", "type": "OGG_POLITICS", "begin": 3, "end": 3, "weight": 0.57589, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제2장", "head": 3, "label": "NP", "mod": [], "weight": 0.798731}, 
+                {"id": 1, "text": "국회의", "head": 2, "label": "NP_MOD", "mod": [], "weight": 0.637935}, 
+                {"id": 2, "text": "회기와", "head": 3, "label": "NP_CNJ", "mod": [1], "weight": 0.309931}, 
+                {"id": 3, "text": "휴회", "head": -1, "label": "NP", "mod": [0, 2], "weight": 0.125718}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제2장", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "국회의 회기와", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP", "text": "P#0@NP장 P#1@AJT와 휴회", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": -1, "sub_phrase": [0, 1], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 33, 
+            "text": "제7조(회기) ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 3649, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "7", "type": "SN", "position": 3652, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 3653, "weight": 0.208011}, 
+                {"id": 3, "lemma": "(", "type": "SS", "position": 3656, "weight": 1}, 
+                {"id": 4, "lemma": "회기", "type": "NNG", "position": 3657, "weight": 0.9}, 
+                {"id": 5, "lemma": ")", "type": "SS", "position": 3663, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "제7조(회기)", "type": "", "begin": 0, "end": 5}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제7조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.562591, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제7조(회기)", "head": -1, "label": "NP", "mod": [], "weight": 0.767616}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제7조(회기)", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 34, 
+            "text": "① 국회의 회기는 의결로 이를 정하되, 의결로 연장할 수 있다.", 
+            "morp": [
+                {"id": 0, "lemma": "①", "type": "SW", "position": 3665, "weight": 1}, 
+                {"id": 1, "lemma": "국회", "type": "NNG", "position": 3669, "weight": 0.9}, 
+                {"id": 2, "lemma": "의", "type": "JKG", "position": 3675, "weight": 0.0694213}, 
+                {"id": 3, "lemma": "회기", "type": "NNG", "position": 3679, "weight": 0.9}, 
+                {"id": 4, "lemma": "는", "type": "JX", "position": 3685, "weight": 0.0287565}, 
+                {"id": 5, "lemma": "의결", "type": "NNG", "position": 3689, "weight": 0.9}, 
+                {"id": 6, "lemma": "로", "type": "JKB", "position": 3695, "weight": 0.153229}, 
+                {"id": 7, "lemma": "이", "type": "NP", "position": 3699, "weight": 0.000361143}, 
+                {"id": 8, "lemma": "를", "type": "JKO", "position": 3702, "weight": 0.0808985}, 
+                {"id": 9, "lemma": "정", "type": "NNG", "position": 3706, "weight": 0.0441235}, 
+                {"id": 10, "lemma": "하", "type": "XSV", "position": 3709, "weight": 0.0001}, 
+                {"id": 11, "lemma": "되", "type": "EC", "position": 3712, "weight": 0.00388349}, 
+                {"id": 12, "lemma": ",", "type": "SP", "position": 3715, "weight": 1}, 
+                {"id": 13, "lemma": "의결", "type": "NNG", "position": 3717, "weight": 0.9}, 
+                {"id": 14, "lemma": "로", "type": "JKB", "position": 3723, "weight": 0.153229}, 
+                {"id": 15, "lemma": "연장", "type": "NNG", "position": 3727, "weight": 0.9}, 
+                {"id": 16, "lemma": "하", "type": "XSV", "position": 3733, "weight": 0.0001}, 
+                {"id": 17, "lemma": "ㄹ", "type": "ETM", "position": 3733, "weight": 0.387847}, 
+                {"id": 18, "lemma": "수", "type": "NNB", "position": 3737, "weight": 0.215617}, 
+                {"id": 19, "lemma": "있", "type": "VA", "position": 3741, "weight": 0.0518488}, 
+                {"id": 20, "lemma": "다", "type": "EF", "position": 3744, "weight": 0.132573}, 
+                {"id": 21, "lemma": ".", "type": "SF", "position": 3747, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "①", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "국회의", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "회기는", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "의결로", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "이를", "type": "", "begin": 7, "end": 8}, 
+                {"id": 5, "text": "정하되,", "type": "", "begin": 9, "end": 12}, 
+                {"id": 6, "text": "의결로", "type": "", "begin": 13, "end": 14}, 
+                {"id": 7, "text": "연장할", "type": "", "begin": 15, "end": 17}, 
+                {"id": 8, "text": "수", "type": "", "begin": 18, "end": 18}, 
+                {"id": 9, "text": "있다.", "type": "", "begin": 19, "end": 21}
+            ], 
+            "NE": [
+                {"id": 0, "text": "국회", "type": "OGG_POLITICS", "begin": 1, "end": 1, "weight": 0.548196, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "①", "head": 9, "label": "NP", "mod": [], "weight": 0.713091}, 
+                {"id": 1, "text": "국회의", "head": 2, "label": "NP_MOD", "mod": [], "weight": 0.58504}, 
+                {"id": 2, "text": "회기는", "head": 5, "label": "NP_SBJ", "mod": [1], "weight": 0.662975}, 
+                {"id": 3, "text": "의결로", "head": 5, "label": "NP_AJT", "mod": [], "weight": 0.648243}, 
+                {"id": 4, "text": "이를", "head": 5, "label": "NP_OBJ", "mod": [], "weight": 0.890194}, 
+                {"id": 5, "text": "정하되,", "head": 7, "label": "VP", "mod": [2, 3, 4], "weight": 0.663402}, 
+                {"id": 6, "text": "의결로", "head": 7, "label": "NP_AJT", "mod": [], "weight": 0.79427}, 
+                {"id": 7, "text": "연장할", "head": 8, "label": "VP_MOD", "mod": [5, 6], "weight": 0.772898}, 
+                {"id": 8, "text": "수", "head": 9, "label": "NP_SBJ", "mod": [7], "weight": 0.837447}, 
+                {"id": 9, "text": "있다.", "head": -1, "label": "VP", "mod": [8, 0], "weight": 0.0345358}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "①", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "국회의 회기는", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "의결로", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_OBJ", "text": "이를", "begin": 4, "end": 4, "key_begin": 4, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "P#1@SBJ는 P#2@AJT로 P#3@OBJ를 정하되,", "begin": 1, "end": 5, "key_begin": 5, "head_phrase": 6, "sub_phrase": [1, 2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "의결로", "begin": 6, "end": 6, "key_begin": 6, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S_MOD", "text": "P#0@NP① S#4@S되, P#5@AJT로 연장할", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": 7, "sub_phrase": [0, 4, 5], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_SBJ", "text": "S#6@MODㄹ 수", "begin": 0, "end": 8, "key_begin": 8, "head_phrase": 8, "sub_phrase": [6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "P#7@SBJ수 있다.", "begin": 0, "end": 9, "key_begin": 9, "head_phrase": -1, "sub_phrase": [7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "정", "sense": 1, "word_id": 5, "weight": 0.245166, "argument": [
+                    {"type": "ARG0", "word_id": 2, "text": "국회의 회기", "weight": 0.188845, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-PRD", "word_id": 3, "text": "의결", "weight": 0.10266, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 4, "text": "이", "weight": 0.443993, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "연장", "sense": 1, "word_id": 7, "weight": 0.440017, "argument": [
+                    {"type": "ARG3", "word_id": 6, "text": "의결", "weight": 0.163247, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "AUX", "word_id": 9, "text": "있다.", "weight": 0.716787, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 7, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.654558}, 
+                {"id": 1, "type": "o", "head_wid": 7, "ant_sid": 34, "ant_wid": 2, "ant_is_title": 0, "weight": 0.708655}
+            ]
+        }, 
+        {
+            "id": 35, 
+            "text": "② 국회의 회기는 집회 후 즉시 이를 정하여야 한다.", 
+            "morp": [
+                {"id": 0, "lemma": "②", "type": "SW", "position": 3748, "weight": 1}, 
+                {"id": 1, "lemma": "국회", "type": "NNG", "position": 3752, "weight": 0.9}, 
+                {"id": 2, "lemma": "의", "type": "JKG", "position": 3758, "weight": 0.0694213}, 
+                {"id": 3, "lemma": "회기", "type": "NNG", "position": 3762, "weight": 0.9}, 
+                {"id": 4, "lemma": "는", "type": "JX", "position": 3768, "weight": 0.0287565}, 
+                {"id": 5, "lemma": "집회", "type": "NNG", "position": 3772, "weight": 0.9}, 
+                {"id": 6, "lemma": "후", "type": "NNG", "position": 3779, "weight": 0.18399}, 
+                {"id": 7, "lemma": "즉시", "type": "NNG", "position": 3783, "weight": 0.184537}, 
+                {"id": 8, "lemma": "이", "type": "NP", "position": 3790, "weight": 0.0001}, 
+                {"id": 9, "lemma": "를", "type": "JKO", "position": 3793, "weight": 0.0808985}, 
+                {"id": 10, "lemma": "정", "type": "NNG", "position": 3797, "weight": 0.0441235}, 
+                {"id": 11, "lemma": "하", "type": "XSV", "position": 3800, "weight": 0.0001}, 
+                {"id": 12, "lemma": "어야", "type": "EC", "position": 3803, "weight": 0.371703}, 
+                {"id": 13, "lemma": "하", "type": "VX", "position": 3810, "weight": 0.0899221}, 
+                {"id": 14, "lemma": "ㄴ다", "type": "EF", "position": 3810, "weight": 0.184394}, 
+                {"id": 15, "lemma": ".", "type": "SF", "position": 3816, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "②", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "국회의", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "회기는", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "집회", "type": "", "begin": 5, "end": 5}, 
+                {"id": 4, "text": "후", "type": "", "begin": 6, "end": 6}, 
+                {"id": 5, "text": "즉시", "type": "", "begin": 7, "end": 7}, 
+                {"id": 6, "text": "이를", "type": "", "begin": 8, "end": 9}, 
+                {"id": 7, "text": "정하여야", "type": "", "begin": 10, "end": 12}, 
+                {"id": 8, "text": "한다.", "type": "", "begin": 13, "end": 15}
+            ], 
+            "NE": [
+                {"id": 0, "text": "국회", "type": "OGG_POLITICS", "begin": 1, "end": 1, "weight": 0.451624, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "②", "head": 8, "label": "NP", "mod": [], "weight": 0.685719}, 
+                {"id": 1, "text": "국회의", "head": 2, "label": "NP_MOD", "mod": [], "weight": 0.650051}, 
+                {"id": 2, "text": "회기는", "head": 7, "label": "NP_SBJ", "mod": [1], "weight": 0.696598}, 
+                {"id": 3, "text": "집회", "head": 4, "label": "NP", "mod": [], "weight": 0.832262}, 
+                {"id": 4, "text": "후", "head": 7, "label": "NP_AJT", "mod": [3], "weight": 0.642517}, 
+                {"id": 5, "text": "즉시", "head": 7, "label": "NP_AJT", "mod": [], "weight": 0.719995}, 
+                {"id": 6, "text": "이를", "head": 7, "label": "NP_OBJ", "mod": [], "weight": 0.739768}, 
+                {"id": 7, "text": "정하여야", "head": 8, "label": "VP", "mod": [2, 4, 5, 6], "weight": 0.74225}, 
+                {"id": 8, "text": "한다.", "head": -1, "label": "VP", "mod": [7, 0], "weight": 0.0558385}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "②", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "국회의 회기는", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "집회 후", "begin": 3, "end": 4, "key_begin": 3, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_AJT", "text": "즉시", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_OBJ", "text": "이를", "begin": 6, "end": 6, "key_begin": 6, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#0@NP② P#1@SBJ는 P#2@AJT후 P#3@AJT즉시 P#4@OBJ를 정하여야 한다.", "begin": 0, "end": 8, "key_begin": 7, "head_phrase": -1, "sub_phrase": [0, 1, 2, 3, 4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "정", "sense": 1, "word_id": 7, "weight": 0.406261, "argument": [
+                    {"type": "ARG0", "word_id": 2, "text": "국회의 회기", "weight": 0.150007, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-TMP", "word_id": 4, "text": "집회 후", "weight": 0.403799, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-TMP", "word_id": 5, "text": "즉시", "weight": 0.241108, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 6, "text": "이", "weight": 0.44467, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "AUX", "word_id": 8, "text": "정하여야 한다.", "weight": 0.791723, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 36, 
+            "text": "제8조(휴회) ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 3817, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "8", "type": "SN", "position": 3820, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 3821, "weight": 0.208011}, 
+                {"id": 3, "lemma": "(", "type": "SS", "position": 3824, "weight": 1}, 
+                {"id": 4, "lemma": "휴회", "type": "NNG", "position": 3825, "weight": 0.7}, 
+                {"id": 5, "lemma": ")", "type": "SS", "position": 3831, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "제8조(휴회)", "type": "", "begin": 0, "end": 5}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제8조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.522609, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제8조(휴회)", "head": -1, "label": "NP", "mod": [], "weight": 0.769286}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제8조(휴회)", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 37, 
+            "text": "① 국회는 의결로 기간을 정하여 휴회할 수 있다.", 
+            "morp": [
+                {"id": 0, "lemma": "①", "type": "SW", "position": 3833, "weight": 1}, 
+                {"id": 1, "lemma": "국회", "type": "NNG", "position": 3837, "weight": 0.9}, 
+                {"id": 2, "lemma": "는", "type": "JX", "position": 3843, "weight": 0.0287565}, 
+                {"id": 3, "lemma": "의결", "type": "NNG", "position": 3847, "weight": 0.9}, 
+                {"id": 4, "lemma": "로", "type": "JKB", "position": 3853, "weight": 0.153229}, 
+                {"id": 5, "lemma": "기간", "type": "NNG", "position": 3857, "weight": 0.9}, 
+                {"id": 6, "lemma": "을", "type": "JKO", "position": 3863, "weight": 0.129611}, 
+                {"id": 7, "lemma": "정", "type": "NNG", "position": 3867, "weight": 0.0441235}, 
+                {"id": 8, "lemma": "하", "type": "XSV", "position": 3870, "weight": 0.0001}, 
+                {"id": 9, "lemma": "어", "type": "EC", "position": 3873, "weight": 0.361326}, 
+                {"id": 10, "lemma": "휴회", "type": "NNG", "position": 3877, "weight": 0.7}, 
+                {"id": 11, "lemma": "하", "type": "XSV", "position": 3883, "weight": 0.0001}, 
+                {"id": 12, "lemma": "ㄹ", "type": "ETM", "position": 3883, "weight": 0.387847}, 
+                {"id": 13, "lemma": "수", "type": "NNB", "position": 3887, "weight": 0.215617}, 
+                {"id": 14, "lemma": "있", "type": "VA", "position": 3891, "weight": 0.0518488}, 
+                {"id": 15, "lemma": "다", "type": "EF", "position": 3894, "weight": 0.132573}, 
+                {"id": 16, "lemma": ".", "type": "SF", "position": 3897, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "①", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "국회는", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "의결로", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "기간을", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "정하여", "type": "", "begin": 7, "end": 9}, 
+                {"id": 5, "text": "휴회할", "type": "", "begin": 10, "end": 12}, 
+                {"id": 6, "text": "수", "type": "", "begin": 13, "end": 13}, 
+                {"id": 7, "text": "있다.", "type": "", "begin": 14, "end": 16}
+            ], 
+            "NE": [
+                {"id": 0, "text": "국회", "type": "OGG_POLITICS", "begin": 1, "end": 1, "weight": 0.571493, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "①", "head": 7, "label": "NP", "mod": [], "weight": 0.745397}, 
+                {"id": 1, "text": "국회는", "head": 4, "label": "NP_SBJ", "mod": [], "weight": 0.753082}, 
+                {"id": 2, "text": "의결로", "head": 4, "label": "NP_AJT", "mod": [], "weight": 0.570762}, 
+                {"id": 3, "text": "기간을", "head": 4, "label": "NP_OBJ", "mod": [], "weight": 0.422783}, 
+                {"id": 4, "text": "정하여", "head": 5, "label": "VP", "mod": [2, 3, 1], "weight": 0.711019}, 
+                {"id": 5, "text": "휴회할", "head": 6, "label": "VP_MOD", "mod": [4], "weight": 0.711099}, 
+                {"id": 6, "text": "수", "head": 7, "label": "NP_SBJ", "mod": [5], "weight": 0.817694}, 
+                {"id": 7, "text": "있다.", "head": -1, "label": "VP", "mod": [0, 6], "weight": 0.0359247}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "①", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "국회는", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "의결로", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_OBJ", "text": "기간을", "begin": 3, "end": 3, "key_begin": 3, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#2@AJT로 P#3@OBJ을 정하여 휴회할", "begin": 2, "end": 5, "key_begin": 4, "head_phrase": 5, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_SBJ", "text": "P#4@MODㄹ 수", "begin": 2, "end": 6, "key_begin": 6, "head_phrase": 6, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S", "text": "P#0@NP① P#1@SBJ는 P#5@SBJ수 있다.", "begin": 0, "end": 7, "key_begin": 7, "head_phrase": -1, "sub_phrase": [0, 1, 5], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "정", "sense": 1, "word_id": 4, "weight": 0.353037, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "국회", "weight": 0.305554, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 3, "text": "기간", "weight": 0.40052, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "휴회", "sense": 1, "word_id": 5, "weight": 0.280761, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "국회", "weight": 0.222708, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-MNR", "word_id": 4, "text": "정하여", "weight": 0.0972139, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "AUX", "word_id": 7, "text": "있다.", "weight": 0.522362, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 4, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.969965}
+            ]
+        }, 
+        {
+            "id": 38, 
+            "text": "② 국회는 휴회 중이라도 대통령의 요구가 있을 때, 의장이 긴급한 필요가 있다고 인정할 때 또는 재적의원 4분의 1 이상의 요구가 있을 때에는 회의를 재개한다. <개정 2003.2.4.>", 
+            "morp": [
+                {"id": 0, "lemma": "②", "type": "SW", "position": 3898, "weight": 1}, 
+                {"id": 1, "lemma": "국회", "type": "NNG", "position": 3902, "weight": 0.9}, 
+                {"id": 2, "lemma": "는", "type": "JX", "position": 3908, "weight": 0.0287565}, 
+                {"id": 3, "lemma": "휴회", "type": "NNG", "position": 3912, "weight": 0.7}, 
+                {"id": 4, "lemma": "중", "type": "NNB", "position": 3919, "weight": 0.013531}, 
+                {"id": 5, "lemma": "이라도", "type": "JX", "position": 3922, "weight": 0.9}, 
+                {"id": 6, "lemma": "대통령", "type": "NNG", "position": 3932, "weight": 0.9}, 
+                {"id": 7, "lemma": "의", "type": "JKG", "position": 3941, "weight": 0.0694213}, 
+                {"id": 8, "lemma": "요구", "type": "NNG", "position": 3945, "weight": 0.9}, 
+                {"id": 9, "lemma": "가", "type": "JKS", "position": 3951, "weight": 0.066324}, 
+                {"id": 10, "lemma": "있", "type": "VA", "position": 3955, "weight": 0.12767}, 
+                {"id": 11, "lemma": "을", "type": "ETM", "position": 3958, "weight": 0.0306722}, 
+                {"id": 12, "lemma": "때", "type": "NNG", "position": 3962, "weight": 0.656522}, 
+                {"id": 13, "lemma": ",", "type": "SP", "position": 3965, "weight": 1}, 
+                {"id": 14, "lemma": "의장", "type": "NNG", "position": 3967, "weight": 0.9}, 
+                {"id": 15, "lemma": "이", "type": "JKS", "position": 3973, "weight": 0.0360723}, 
+                {"id": 16, "lemma": "긴급", "type": "NNG", "position": 3977, "weight": 0.9}, 
+                {"id": 17, "lemma": "하", "type": "XSA", "position": 3983, "weight": 0.0001}, 
+                {"id": 18, "lemma": "ㄴ", "type": "ETM", "position": 3983, "weight": 0.488779}, 
+                {"id": 19, "lemma": "필요", "type": "NNG", "position": 3987, "weight": 0.9}, 
+                {"id": 20, "lemma": "가", "type": "JKS", "position": 3993, "weight": 0.066324}, 
+                {"id": 21, "lemma": "있", "type": "VA", "position": 3997, "weight": 0.12767}, 
+                {"id": 22, "lemma": "다고", "type": "EC", "position": 4000, "weight": 0.315127}, 
+                {"id": 23, "lemma": "인정", "type": "NNG", "position": 4007, "weight": 0.218682}, 
+                {"id": 24, "lemma": "하", "type": "XSV", "position": 4013, "weight": 0.0001}, 
+                {"id": 25, "lemma": "ㄹ", "type": "ETM", "position": 4013, "weight": 0.387847}, 
+                {"id": 26, "lemma": "때", "type": "NNG", "position": 4017, "weight": 0.656522}, 
+                {"id": 27, "lemma": "또는", "type": "MAJ", "position": 4021, "weight": 0.0017557}, 
+                {"id": 28, "lemma": "재적", "type": "NNG", "position": 4028, "weight": 0.9}, 
+                {"id": 29, "lemma": "의원", "type": "NNG", "position": 4034, "weight": 0.9}, 
+                {"id": 30, "lemma": "4", "type": "SN", "position": 4041, "weight": 1}, 
+                {"id": 31, "lemma": "분", "type": "XSN", "position": 4042, "weight": 0.00279557}, 
+                {"id": 32, "lemma": "의", "type": "JKG", "position": 4045, "weight": 0.120732}, 
+                {"id": 33, "lemma": "1", "type": "SN", "position": 4049, "weight": 1}, 
+                {"id": 34, "lemma": "이상", "type": "NNG", "position": 4051, "weight": 0.0997095}, 
+                {"id": 35, "lemma": "의", "type": "JKG", "position": 4057, "weight": 0.0694213}, 
+                {"id": 36, "lemma": "요구", "type": "NNG", "position": 4061, "weight": 0.9}, 
+                {"id": 37, "lemma": "가", "type": "JKS", "position": 4067, "weight": 0.066324}, 
+                {"id": 38, "lemma": "있", "type": "VA", "position": 4071, "weight": 0.12767}, 
+                {"id": 39, "lemma": "을", "type": "ETM", "position": 4074, "weight": 0.0306722}, 
+                {"id": 40, "lemma": "때", "type": "NNG", "position": 4078, "weight": 0.656522}, 
+                {"id": 41, "lemma": "에", "type": "JKB", "position": 4081, "weight": 0.153364}, 
+                {"id": 42, "lemma": "는", "type": "JX", "position": 4084, "weight": 0.0387928}, 
+                {"id": 43, "lemma": "회의", "type": "NNG", "position": 4088, "weight": 0.324851}, 
+                {"id": 44, "lemma": "를", "type": "JKO", "position": 4094, "weight": 0.137686}, 
+                {"id": 45, "lemma": "재개", "type": "NNG", "position": 4098, "weight": 0.9}, 
+                {"id": 46, "lemma": "하", "type": "XSV", "position": 4104, "weight": 0.0001}, 
+                {"id": 47, "lemma": "ㄴ다", "type": "EF", "position": 4104, "weight": 0.0449045}, 
+                {"id": 48, "lemma": ".", "type": "SF", "position": 4110, "weight": 1}, 
+                {"id": 49, "lemma": "<", "type": "SS", "position": 4112, "weight": 1}, 
+                {"id": 50, "lemma": "개정", "type": "NNG", "position": 4113, "weight": 0.9}, 
+                {"id": 51, "lemma": "2003.2.4", "type": "SN", "position": 4120, "weight": 1}, 
+                {"id": 52, "lemma": ".", "type": "SF", "position": 4128, "weight": 1}, 
+                {"id": 53, "lemma": ">", "type": "SS", "position": 4129, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "②", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "국회는", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "휴회", "type": "", "begin": 3, "end": 3}, 
+                {"id": 3, "text": "중이라도", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "대통령의", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "요구가", "type": "", "begin": 8, "end": 9}, 
+                {"id": 6, "text": "있을", "type": "", "begin": 10, "end": 11}, 
+                {"id": 7, "text": "때,", "type": "", "begin": 12, "end": 13}, 
+                {"id": 8, "text": "의장이", "type": "", "begin": 14, "end": 15}, 
+                {"id": 9, "text": "긴급한", "type": "", "begin": 16, "end": 18}, 
+                {"id": 10, "text": "필요가", "type": "", "begin": 19, "end": 20}, 
+                {"id": 11, "text": "있다고", "type": "", "begin": 21, "end": 22}, 
+                {"id": 12, "text": "인정할", "type": "", "begin": 23, "end": 25}, 
+                {"id": 13, "text": "때", "type": "", "begin": 26, "end": 26}, 
+                {"id": 14, "text": "또는", "type": "", "begin": 27, "end": 27}, 
+                {"id": 15, "text": "재적의원", "type": "", "begin": 28, "end": 29}, 
+                {"id": 16, "text": "4분의", "type": "", "begin": 30, "end": 32}, 
+                {"id": 17, "text": "1", "type": "", "begin": 33, "end": 33}, 
+                {"id": 18, "text": "이상의", "type": "", "begin": 34, "end": 35}, 
+                {"id": 19, "text": "요구가", "type": "", "begin": 36, "end": 37}, 
+                {"id": 20, "text": "있을", "type": "", "begin": 38, "end": 39}, 
+                {"id": 21, "text": "때에는", "type": "", "begin": 40, "end": 42}, 
+                {"id": 22, "text": "회의를", "type": "", "begin": 43, "end": 44}, 
+                {"id": 23, "text": "재개한다.", "type": "", "begin": 45, "end": 48}, 
+                {"id": 24, "text": "<개정", "type": "", "begin": 49, "end": 50}, 
+                {"id": 25, "text": "2003.2.4.>", "type": "", "begin": 51, "end": 53}
+            ], 
+            "NE": [
+                {"id": 0, "text": "국회", "type": "OGG_POLITICS", "begin": 1, "end": 1, "weight": 0.434727, "common_noun": 0}, 
+                {"id": 1, "text": "대통령", "type": "CV_POSITION", "begin": 6, "end": 6, "weight": 0.402841, "common_noun": 0}, 
+                {"id": 2, "text": "의장", "type": "CV_POSITION", "begin": 14, "end": 14, "weight": 0.441126, "common_noun": 0}, 
+                {"id": 3, "text": "재적의원", "type": "CV_POSITION", "begin": 28, "end": 29, "weight": 0.538622, "common_noun": 0}, 
+                {"id": 4, "text": "4분의 1 이상", "type": "QT_PERCENTAGE", "begin": 30, "end": 34, "weight": 0.802824, "common_noun": 0}, 
+                {"id": 5, "text": "2003.2.4.", "type": "DT_OTHERS", "begin": 51, "end": 52, "weight": 0.360181, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "②", "head": 23, "label": "NP", "mod": [], "weight": 0.731341}, 
+                {"id": 1, "text": "국회는", "head": 23, "label": "NP_SBJ", "mod": [], "weight": 0.473239}, 
+                {"id": 2, "text": "휴회", "head": 3, "label": "NP", "mod": [], "weight": 0.83467}, 
+                {"id": 3, "text": "중이라도", "head": 23, "label": "VNP", "mod": [2], "weight": 0.071189}, 
+                {"id": 4, "text": "대통령의", "head": 5, "label": "NP_MOD", "mod": [], "weight": 0.570907}, 
+                {"id": 5, "text": "요구가", "head": 6, "label": "NP_SBJ", "mod": [4], "weight": 0.768427}, 
+                {"id": 6, "text": "있을", "head": 7, "label": "VP_MOD", "mod": [5], "weight": 0.849975}, 
+                {"id": 7, "text": "때,", "head": 21, "label": "NP_CNJ", "mod": [6], "weight": 0.0458998}, 
+                {"id": 8, "text": "의장이", "head": 11, "label": "NP_SBJ", "mod": [], "weight": 0.818401}, 
+                {"id": 9, "text": "긴급한", "head": 10, "label": "VP_MOD", "mod": [], "weight": 0.703081}, 
+                {"id": 10, "text": "필요가", "head": 11, "label": "NP_SBJ", "mod": [9], "weight": 0.720149}, 
+                {"id": 11, "text": "있다고", "head": 12, "label": "VP_CMP", "mod": [8, 10], "weight": 0.764515}, 
+                {"id": 12, "text": "인정할", "head": 13, "label": "VP_MOD", "mod": [11], "weight": 0.730579}, 
+                {"id": 13, "text": "때", "head": 21, "label": "NP_CNJ", "mod": [12], "weight": 0.0666268}, 
+                {"id": 14, "text": "또는", "head": 21, "label": "AP", "mod": [], "weight": 0.399601}, 
+                {"id": 15, "text": "재적의원", "head": 17, "label": "NP", "mod": [], "weight": 0.214943}, 
+                {"id": 16, "text": "4분의", "head": 17, "label": "NP_MOD", "mod": [], "weight": 0.526212}, 
+                {"id": 17, "text": "1", "head": 18, "label": "NP", "mod": [16, 15], "weight": 0.775605}, 
+                {"id": 18, "text": "이상의", "head": 19, "label": "NP_MOD", "mod": [17], "weight": 0.421849}, 
+                {"id": 19, "text": "요구가", "head": 20, "label": "NP_SBJ", "mod": [18], "weight": 0.794934}, 
+                {"id": 20, "text": "있을", "head": 21, "label": "VP_MOD", "mod": [19], "weight": 0.698194}, 
+                {"id": 21, "text": "때에는", "head": 23, "label": "NP_AJT", "mod": [20, 7, 13, 14], "weight": 0.76847}, 
+                {"id": 22, "text": "회의를", "head": 23, "label": "NP_OBJ", "mod": [], "weight": 0.719215}, 
+                {"id": 23, "text": "재개한다.", "head": 25, "label": "VP", "mod": [0, 1, 21, 22, 3], "weight": 0.0993817}, 
+                {"id": 24, "text": "<개정", "head": 25, "label": "NP", "mod": [], "weight": 0.741995}, 
+                {"id": 25, "text": "2003.2.4.>", "head": -1, "label": "NP_PRN", "mod": [23, 24], "weight": 1.47327e-09}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "②", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 15, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "국회는", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 15, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_AJT", "text": "휴회 중이라도", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "대통령의 요구가", "begin": 4, "end": 5, "key_begin": 4, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S_MOD", "text": "P#3@SBJ가 있을", "begin": 4, "end": 6, "key_begin": 6, "head_phrase": 5, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_AJT", "text": "S#4@MOD을 때,", "begin": 4, "end": 7, "key_begin": 7, "head_phrase": 8, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_SBJ", "text": "의장이", "begin": 8, "end": 8, "key_begin": 8, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "NP_SBJ", "text": "긴급한 필요가", "begin": 9, "end": 10, "key_begin": 9, "head_phrase": 8, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S_CMP", "text": "P#2@AJT이라도 P#5@AJT때, P#6@SBJ이 P#7@SBJ가 있다고", "begin": 2, "end": 11, "key_begin": 11, "head_phrase": 9, "sub_phrase": [2, 5, 6, 7], "weight": 0, "element": []}, 
+                {"id": 9, "label": "S_MOD", "text": "S#8@CMP다고 인정할", "begin": 2, "end": 12, "key_begin": 12, "head_phrase": 10, "sub_phrase": [8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "NP_AJT", "text": "S#9@MODㄹ 때", "begin": 2, "end": 13, "key_begin": 13, "head_phrase": 12, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "NP_SBJ", "text": "또는 재적의원 4분의 1 이상의 요구가", "begin": 14, "end": 19, "key_begin": 14, "head_phrase": 12, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 12, "label": "S_MOD", "text": "P#10@AJT때 P#11@SBJ가 있을", "begin": 2, "end": 20, "key_begin": 20, "head_phrase": 13, "sub_phrase": [10, 11], "weight": 0, "element": []}, 
+                {"id": 13, "label": "NP_AJT", "text": "S#12@MOD을 때에는", "begin": 2, "end": 21, "key_begin": 21, "head_phrase": 15, "sub_phrase": [12], "weight": 0, "element": []}, 
+                {"id": 14, "label": "NP_OBJ", "text": "회의를", "begin": 22, "end": 22, "key_begin": 22, "head_phrase": 15, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 15, "label": "S", "text": "P#0@NP② P#1@SBJ는 P#13@AJT는 P#14@OBJ를 재개한다.", "begin": 0, "end": 23, "key_begin": 23, "head_phrase": 16, "sub_phrase": [0, 1, 13, 14], "weight": 0, "element": []}, 
+                {"id": 16, "label": "NP", "text": "S#15@Sㄴ다. <개정 2003.2.4.>", "begin": 0, "end": 25, "key_begin": 24, "head_phrase": -1, "sub_phrase": [15], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "있", "sense": 1, "word_id": 6, "weight": 0.357186, "argument": [
+                    {"type": "ARG1", "word_id": 5, "text": "대통령의 요구", "weight": 0.357186, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "긴급", "sense": 1, "word_id": 9, "weight": 0.149856, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "의장", "weight": 0.149856, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "있", "sense": 1, "word_id": 11, "weight": 0.254897, "argument": [
+                    {"type": "ARG1", "word_id": 10, "text": "긴급한 필요", "weight": 0.254897, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "인정", "sense": 1, "word_id": 12, "weight": 0.292973, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 7, "text": "때,", "weight": 0.288085, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 11, "text": "있다고", "weight": 0.297861, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "있", "sense": 1, "word_id": 20, "weight": 0.408741, "argument": [
+                    {"type": "ARGM-TMP", "word_id": 13, "text": "때", "weight": 0.415191, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 19, "text": "또는 재적의원 4분의 1 이상의 요구", "weight": 0.402291, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "재개", "sense": 1, "word_id": 23, "weight": 0.318925, "argument": [
+                    {"type": "ARG0", "word_id": 1, "text": "국회", "weight": 0.230512, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-TMP", "word_id": 21, "text": "때", "weight": 0.324374, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 22, "text": "회의", "weight": 0.401889, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }
+    ], 
+    "entity": []
+}

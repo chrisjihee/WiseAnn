@@ -5,11 +5,9 @@
         <form class="form-signin well" onsubmit="doLogin(); return false;">
             {% csrf_token %}
             <label for="username" class="sr-only">Email address</label>
-            <input id="username" type="email" class="form-control" placeholder="Email address" required autofocus
-                   value="ZA.chrisjihee@etri.re.kr">
+            <input id="username" type="text" class="form-control" placeholder="Username" required autofocus>
             <label for="password" class="sr-only">Password</label>
-            <input id="password" type="password" class="form-control" placeholder="Password" required
-                   value="chrisjihee">
+            <input id="password" type="password" class="form-control" placeholder="Password" required>
             <label style="font-weight: normal"><input id="remember" type="checkbox"> Remember me</label>
             <button id="signin" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
         </form>

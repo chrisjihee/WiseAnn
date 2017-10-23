@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 import json
 from collections import OrderedDict
 
+from pandas import read_excel
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 
@@ -261,13 +262,19 @@ def reset_texts(dirname=os.path.join(BASE_DIR, "data/texts")):
     return num
 
 
-def reset_tasks():
+def reset_tasks(filename=os.path.join(BASE_DIR, "data/tasks.xlsx")):
+    data = read_excel(filename)
     num = 0
     for x in Task.objects.all():
         x.delete()
     for x in User.objects.all():
+        _, annotator = x.username.split(".")
+        textnames1 = [(data.ix[i]["filename"].split(".")[0], data.ix[i]["finished1"]) for i in range(len(data)) if data.ix[i]["annotator1"] == annotator]
+        textnames2 = [(data.ix[i]["filename"].split(".")[0], data.ix[i]["finished2"]) for i in range(len(data)) if data.ix[i]["annotator2"] == annotator]
+        textnames = dict(textnames1 + textnames2)
         for y in Text.objects.all():
-            Task(user=x, text=y).save()
-            num += 1
+            if y.textname in textnames:
+                Task(user=x, text=y, finished=textnames[y.textname]).save()
+                num += 1
     print(">>> [ZA.views.reset_tasks] Insert: %d tasks" % num)
     return num

@@ -1,0 +1,378 @@
+{
+    "title": {
+        "text": "프랑스 헌법", 
+        "NE": ""
+    }, 
+    "metaInfo": {
+        "field": "법률", 
+        "num_sent": 5, 
+        "num_word": 44
+    }, 
+    "sentence": [
+        {
+            "id": 0, 
+            "text": "제1조", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 0, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "1", "type": "SN", "position": 3, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 4, "weight": 0.208011}
+            ], 
+            "word": [
+                {"id": 0, "text": "제1조", "type": "", "begin": 0, "end": 2}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제1조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 1, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제1조", "head": -1, "label": "NP", "mod": [], "weight": 0.840586}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제1조", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 1, 
+            "text": "① 프랑스는 불가분적, 비종교적, 민주적, 사회적 공화국이다.", 
+            "morp": [
+                {"id": 0, "lemma": "①", "type": "SW", "position": 7, "weight": 1}, 
+                {"id": 1, "lemma": "프랑스", "type": "NNP", "position": 11, "weight": 0.097581}, 
+                {"id": 2, "lemma": "는", "type": "JX", "position": 20, "weight": 0.0332677}, 
+                {"id": 3, "lemma": "불가분", "type": "NNG", "position": 24, "weight": 0.9}, 
+                {"id": 4, "lemma": "적", "type": "NNG", "position": 33, "weight": 0.0169769}, 
+                {"id": 5, "lemma": ",", "type": "SP", "position": 36, "weight": 1}, 
+                {"id": 6, "lemma": "비", "type": "XPN", "position": 38, "weight": 0.000698341}, 
+                {"id": 7, "lemma": "종교", "type": "NNG", "position": 41, "weight": 0.9}, 
+                {"id": 8, "lemma": "적", "type": "XSN", "position": 47, "weight": 0.0168756}, 
+                {"id": 9, "lemma": ",", "type": "SP", "position": 50, "weight": 1}, 
+                {"id": 10, "lemma": "민주", "type": "NNG", "position": 52, "weight": 0.364079}, 
+                {"id": 11, "lemma": "적", "type": "XSN", "position": 58, "weight": 0.0168756}, 
+                {"id": 12, "lemma": ",", "type": "SP", "position": 61, "weight": 1}, 
+                {"id": 13, "lemma": "사회", "type": "NNG", "position": 63, "weight": 0.531502}, 
+                {"id": 14, "lemma": "적", "type": "XSN", "position": 69, "weight": 0.0168756}, 
+                {"id": 15, "lemma": "공화", "type": "NNG", "position": 73, "weight": 0.0416238}, 
+                {"id": 16, "lemma": "국", "type": "XSN", "position": 79, "weight": 0.0205107}, 
+                {"id": 17, "lemma": "이", "type": "VCP", "position": 82, "weight": 0.0165001}, 
+                {"id": 18, "lemma": "다", "type": "EF", "position": 85, "weight": 0.353579}, 
+                {"id": 19, "lemma": ".", "type": "SF", "position": 88, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "①", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "프랑스는", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "불가분적,", "type": "", "begin": 3, "end": 5}, 
+                {"id": 3, "text": "비종교적,", "type": "", "begin": 6, "end": 9}, 
+                {"id": 4, "text": "민주적,", "type": "", "begin": 10, "end": 12}, 
+                {"id": 5, "text": "사회적", "type": "", "begin": 13, "end": 14}, 
+                {"id": 6, "text": "공화국이다.", "type": "", "begin": 15, "end": 19}
+            ], 
+            "NE": [
+                {"id": 0, "text": "프랑스", "type": "LCP_COUNTRY", "begin": 1, "end": 1, "weight": 0.726845, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "①", "head": 6, "label": "NP", "mod": [], "weight": 0.803314}, 
+                {"id": 1, "text": "프랑스는", "head": 6, "label": "NP_SBJ", "mod": [], "weight": 0.822616}, 
+                {"id": 2, "text": "불가분적,", "head": 5, "label": "NP_CNJ", "mod": [], "weight": 0.314852}, 
+                {"id": 3, "text": "비종교적,", "head": 5, "label": "NP_CNJ", "mod": [], "weight": 0.578269}, 
+                {"id": 4, "text": "민주적,", "head": 5, "label": "NP_CNJ", "mod": [], "weight": 0.638274}, 
+                {"id": 5, "text": "사회적", "head": 6, "label": "NP", "mod": [2, 3, 4], "weight": 0.670699}, 
+                {"id": 6, "text": "공화국이다.", "head": -1, "label": "VNP", "mod": [0, 1, 5], "weight": 0.0416097}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "①", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "프랑스는", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@NP① P#1@SBJ는 불가분적, 비종교적, 민주적, 사회적 공화국이다.", "begin": 0, "end": 6, "key_begin": 2, "head_phrase": -1, "sub_phrase": [0, 1], "weight": 0, "element": [
+                    {"text": "불가분적, 비종교적, 민주적, 사회적 공화국", "label": "NP", "begin": 3, "end": 16, "ne_type": ""}, 
+                    {"text": "이다.", "label": "VP", "begin": 17, "end": 19, "ne_type": ""}
+                ]}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 2, 
+            "text": "프랑스는 출신, 인종 또는 종교에 따른 차별 없이 모든 시민이 법 앞에서 평등함을 보장한다.", 
+            "morp": [
+                {"id": 0, "lemma": "프랑스", "type": "NNP", "position": 89, "weight": 0.0892825}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 98, "weight": 0.0332677}, 
+                {"id": 2, "lemma": "출신", "type": "NNG", "position": 102, "weight": 0.9}, 
+                {"id": 3, "lemma": ",", "type": "SP", "position": 108, "weight": 1}, 
+                {"id": 4, "lemma": "인종", "type": "NNG", "position": 110, "weight": 0.454813}, 
+                {"id": 5, "lemma": "또는", "type": "MAJ", "position": 117, "weight": 0.0017557}, 
+                {"id": 6, "lemma": "종교", "type": "NNG", "position": 124, "weight": 0.9}, 
+                {"id": 7, "lemma": "에", "type": "JKB", "position": 130, "weight": 0.153364}, 
+                {"id": 8, "lemma": "따르", "type": "VV", "position": 134, "weight": 0.9}, 
+                {"id": 9, "lemma": "ㄴ", "type": "ETM", "position": 137, "weight": 0.304215}, 
+                {"id": 10, "lemma": "차별", "type": "NNG", "position": 141, "weight": 0.9}, 
+                {"id": 11, "lemma": "없이", "type": "MAG", "position": 148, "weight": 0.9}, 
+                {"id": 12, "lemma": "모든", "type": "MM", "position": 155, "weight": 0.9}, 
+                {"id": 13, "lemma": "시민", "type": "NNG", "position": 162, "weight": 0.9}, 
+                {"id": 14, "lemma": "이", "type": "JKS", "position": 168, "weight": 0.0360723}, 
+                {"id": 15, "lemma": "법", "type": "NNG", "position": 172, "weight": 0.132176}, 
+                {"id": 16, "lemma": "앞", "type": "NNG", "position": 176, "weight": 0.9}, 
+                {"id": 17, "lemma": "에서", "type": "JKB", "position": 179, "weight": 0.153407}, 
+                {"id": 18, "lemma": "평등", "type": "NNG", "position": 186, "weight": 0.9}, 
+                {"id": 19, "lemma": "하", "type": "XSA", "position": 192, "weight": 0.0001}, 
+                {"id": 20, "lemma": "ㅁ", "type": "ETN", "position": 192, "weight": 0.0422948}, 
+                {"id": 21, "lemma": "을", "type": "JKO", "position": 195, "weight": 0.0925684}, 
+                {"id": 22, "lemma": "보장", "type": "NNG", "position": 199, "weight": 0.9}, 
+                {"id": 23, "lemma": "하", "type": "XSV", "position": 205, "weight": 0.0001}, 
+                {"id": 24, "lemma": "ㄴ다", "type": "EF", "position": 205, "weight": 0.0449045}, 
+                {"id": 25, "lemma": ".", "type": "SF", "position": 211, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "프랑스는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "출신,", "type": "", "begin": 2, "end": 3}, 
+                {"id": 2, "text": "인종", "type": "", "begin": 4, "end": 4}, 
+                {"id": 3, "text": "또는", "type": "", "begin": 5, "end": 5}, 
+                {"id": 4, "text": "종교에", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "따른", "type": "", "begin": 8, "end": 9}, 
+                {"id": 6, "text": "차별", "type": "", "begin": 10, "end": 10}, 
+                {"id": 7, "text": "없이", "type": "", "begin": 11, "end": 11}, 
+                {"id": 8, "text": "모든", "type": "", "begin": 12, "end": 12}, 
+                {"id": 9, "text": "시민이", "type": "", "begin": 13, "end": 14}, 
+                {"id": 10, "text": "법", "type": "", "begin": 15, "end": 15}, 
+                {"id": 11, "text": "앞에서", "type": "", "begin": 16, "end": 17}, 
+                {"id": 12, "text": "평등함을", "type": "", "begin": 18, "end": 21}, 
+                {"id": 13, "text": "보장한다.", "type": "", "begin": 22, "end": 25}
+            ], 
+            "NE": [
+                {"id": 0, "text": "프랑스", "type": "LCP_COUNTRY", "begin": 0, "end": 0, "weight": 0.749536, "common_noun": 0}, 
+                {"id": 1, "text": "인종", "type": "PS_NAME", "begin": 4, "end": 4, "weight": 1, "common_noun": 0}, 
+                {"id": 2, "text": "시민", "type": "CV_POSITION", "begin": 13, "end": 13, "weight": 0.632855, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "프랑스는", "head": 13, "label": "NP_SBJ", "mod": [], "weight": 0.689488}, 
+                {"id": 1, "text": "출신,", "head": 4, "label": "NP_CNJ", "mod": [], "weight": 0.171922}, 
+                {"id": 2, "text": "인종", "head": 4, "label": "NP_CNJ", "mod": [], "weight": 0.160601}, 
+                {"id": 3, "text": "또는", "head": 4, "label": "AP", "mod": [], "weight": 0.399169}, 
+                {"id": 4, "text": "종교에", "head": 5, "label": "NP_AJT", "mod": [1, 2, 3], "weight": 0.395175}, 
+                {"id": 5, "text": "따른", "head": 6, "label": "VP_MOD", "mod": [4], "weight": 0.408345}, 
+                {"id": 6, "text": "차별", "head": 7, "label": "NP_SBJ", "mod": [5], "weight": 0.695678}, 
+                {"id": 7, "text": "없이", "head": 13, "label": "AP", "mod": [6], "weight": 0.852504}, 
+                {"id": 8, "text": "모든", "head": 9, "label": "DP", "mod": [], "weight": 0.669392}, 
+                {"id": 9, "text": "시민이", "head": 12, "label": "NP_SBJ", "mod": [8], "weight": 0.81883}, 
+                {"id": 10, "text": "법", "head": 11, "label": "NP", "mod": [], "weight": 0.685799}, 
+                {"id": 11, "text": "앞에서", "head": 12, "label": "NP_AJT", "mod": [10], "weight": 0.677072}, 
+                {"id": 12, "text": "평등함을", "head": 13, "label": "VP_OBJ", "mod": [9, 11], "weight": 0.468436}, 
+                {"id": 13, "text": "보장한다.", "head": -1, "label": "VP", "mod": [12, 0, 7], "weight": 7.43288e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "프랑스는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_AJT", "text": "출신, 인종 또는 종교에", "begin": 1, "end": 4, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "출신", "label": "NP_AJT", "begin": 2, "end": 2, "ne_type": ""}, 
+                    {"text": "인종", "label": "NP_AJT", "begin": 4, "end": 4, "ne_type": "PS_NAME"}, 
+                    {"text": "종교", "label": "NP_AJT", "begin": 6, "end": 6, "ne_type": ""}
+                ]}, 
+                {"id": 2, "label": "VP_MOD", "text": "P#1@AJT에 따른", "begin": 1, "end": 5, "key_begin": 5, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "NP_SBJ", "text": "P#2@MODㄴ 차별", "begin": 1, "end": 6, "key_begin": 6, "head_phrase": 4, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "S", "text": "P#3@SBJ차별 없이", "begin": 1, "end": 7, "key_begin": 7, "head_phrase": 7, "sub_phrase": [3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_SBJ", "text": "모든 시민이", "begin": 8, "end": 9, "key_begin": 8, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "NP_AJT", "text": "법 앞에서", "begin": 10, "end": 11, "key_begin": 10, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S_OBJ", "text": "P#0@SBJ는 S#4@S없이 P#5@SBJ이 P#6@AJT에서 평등함을", "begin": 0, "end": 12, "key_begin": 12, "head_phrase": 8, "sub_phrase": [0, 4, 5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "S", "text": "S#7@OBJ을 보장한다.", "begin": 0, "end": 13, "key_begin": 13, "head_phrase": -1, "sub_phrase": [7], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "따르", "sense": 2, "word_id": 5, "weight": 0.420599, "argument": [
+                    {"type": "ARG2", "word_id": 4, "text": "출신, 인종 또는 종교", "weight": 0.591458, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 6, "text": "차별", "weight": 0.249741, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "평등", "sense": 1, "word_id": 12, "weight": 0.344103, "argument": [
+                    {"type": "ARG1", "word_id": 9, "text": "모든 시민", "weight": 0.488654, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-LOC", "word_id": 11, "text": "법 앞", "weight": 0.199551, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "보장", "sense": 1, "word_id": 13, "weight": 0.215252, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "프랑스", "weight": 0.232046, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-LOC", "word_id": 11, "text": "법 앞", "weight": 0.282006, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 12, "text": "평등하ㅁ", "weight": 0.131706, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 13, "ant_sid": 2, "ant_wid": 0, "ant_is_title": 0, "weight": 0.665988}
+            ]
+        }, 
+        {
+            "id": 3, 
+            "text": "프랑스는 모든 신념을 존중한다.", 
+            "morp": [
+                {"id": 0, "lemma": "프랑스", "type": "NNP", "position": 212, "weight": 0.0892825}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 221, "weight": 0.0332677}, 
+                {"id": 2, "lemma": "모든", "type": "MM", "position": 225, "weight": 0.9}, 
+                {"id": 3, "lemma": "신념", "type": "NNG", "position": 232, "weight": 0.9}, 
+                {"id": 4, "lemma": "을", "type": "JKO", "position": 238, "weight": 0.129611}, 
+                {"id": 5, "lemma": "존중", "type": "NNG", "position": 242, "weight": 0.9}, 
+                {"id": 6, "lemma": "하", "type": "XSV", "position": 248, "weight": 0.0001}, 
+                {"id": 7, "lemma": "ㄴ다", "type": "EF", "position": 248, "weight": 0.0449045}, 
+                {"id": 8, "lemma": ".", "type": "SF", "position": 254, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "프랑스는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "모든", "type": "", "begin": 2, "end": 2}, 
+                {"id": 2, "text": "신념을", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "존중한다.", "type": "", "begin": 5, "end": 8}
+            ], 
+            "NE": [
+                {"id": 0, "text": "프랑스", "type": "LCP_COUNTRY", "begin": 0, "end": 0, "weight": 0.737032, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "프랑스는", "head": 3, "label": "NP_SBJ", "mod": [], "weight": 0.820175}, 
+                {"id": 1, "text": "모든", "head": 2, "label": "DP", "mod": [], "weight": 0.629577}, 
+                {"id": 2, "text": "신념을", "head": 3, "label": "NP_OBJ", "mod": [1], "weight": 0.834605}, 
+                {"id": 3, "text": "존중한다.", "head": -1, "label": "VP", "mod": [0, 2], "weight": 0.371309}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "프랑스는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "모든 신념을", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ는 P#1@OBJ을 존중한다.", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": -1, "sub_phrase": [0, 1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "존중", "sense": 1, "word_id": 3, "weight": 0.467256, "argument": [
+                    {"type": "ARG1", "word_id": 2, "text": "모든 신념", "weight": 0.467256, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 4, 
+            "text": "프랑스는 지방분권화된 조직을 갖는다.", 
+            "morp": [
+                {"id": 0, "lemma": "프랑스", "type": "NNP", "position": 255, "weight": 0.0892825}, 
+                {"id": 1, "lemma": "는", "type": "JX", "position": 264, "weight": 0.0332677}, 
+                {"id": 2, "lemma": "지방", "type": "NNG", "position": 268, "weight": 0.9}, 
+                {"id": 3, "lemma": "분권", "type": "NNG", "position": 274, "weight": 0.9}, 
+                {"id": 4, "lemma": "화", "type": "XSN", "position": 280, "weight": 0.0240371}, 
+                {"id": 5, "lemma": "되", "type": "VV", "position": 283, "weight": 0.0254844}, 
+                {"id": 6, "lemma": "ㄴ", "type": "ETM", "position": 283, "weight": 0.304215}, 
+                {"id": 7, "lemma": "조직", "type": "NNG", "position": 287, "weight": 0.658701}, 
+                {"id": 8, "lemma": "을", "type": "JKO", "position": 293, "weight": 0.129611}, 
+                {"id": 9, "lemma": "갖", "type": "VV", "position": 297, "weight": 0.775071}, 
+                {"id": 10, "lemma": "는다", "type": "EF", "position": 300, "weight": 0.0782495}, 
+                {"id": 11, "lemma": ".", "type": "SF", "position": 306, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "프랑스는", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "지방분권화된", "type": "", "begin": 2, "end": 6}, 
+                {"id": 2, "text": "조직을", "type": "", "begin": 7, "end": 8}, 
+                {"id": 3, "text": "갖는다.", "type": "", "begin": 9, "end": 11}
+            ], 
+            "NE": [
+                {"id": 0, "text": "프랑스", "type": "LCP_COUNTRY", "begin": 0, "end": 0, "weight": 0.8, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "프랑스는", "head": 3, "label": "NP_SBJ", "mod": [], "weight": 0.740053}, 
+                {"id": 1, "text": "지방분권화된", "head": 2, "label": "VP_MOD", "mod": [], "weight": 0.580194}, 
+                {"id": 2, "text": "조직을", "head": 3, "label": "NP_OBJ", "mod": [1], "weight": 0.779868}, 
+                {"id": 3, "text": "갖는다.", "head": -1, "label": "VP", "mod": [0, 2], "weight": 0.279147}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "프랑스는", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "지방분권화된 조직을", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ는 P#1@OBJ을 갖는다.", "begin": 0, "end": 3, "key_begin": 3, "head_phrase": -1, "sub_phrase": [0, 1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "지방", "sense": 1, "word_id": 1, "weight": 0.286319, "argument": [
+                    {"type": "ARG1", "word_id": 2, "text": "지방분권화된 조직", "weight": 0.286319, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "갖", "sense": 1, "word_id": 3, "weight": 0.361507, "argument": [
+                    {"type": "ARG0", "word_id": 0, "text": "프랑스", "weight": 0.275258, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 2, "text": "지방분권화된 조직", "weight": 0.447756, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 5, 
+            "text": "② 법률은 남성과 여성이 선출직 및 그 임기 그리고 직업적, 사회적 책무에 동등하게 접근하도록 한다.", 
+            "morp": [
+                {"id": 0, "lemma": "②", "type": "SW", "position": 307, "weight": 1}, 
+                {"id": 1, "lemma": "법률", "type": "NNG", "position": 311, "weight": 0.9}, 
+                {"id": 2, "lemma": "은", "type": "JX", "position": 317, "weight": 0.0449928}, 
+                {"id": 3, "lemma": "남성", "type": "NNG", "position": 321, "weight": 0.32427}, 
+                {"id": 4, "lemma": "과", "type": "JC", "position": 327, "weight": 0.017569}, 
+                {"id": 5, "lemma": "여성", "type": "NNG", "position": 331, "weight": 0.802843}, 
+                {"id": 6, "lemma": "이", "type": "JKS", "position": 337, "weight": 0.0360723}, 
+                {"id": 7, "lemma": "선출", "type": "NNG", "position": 341, "weight": 0.9}, 
+                {"id": 8, "lemma": "직", "type": "NNG", "position": 347, "weight": 0.183317}, 
+                {"id": 9, "lemma": "및", "type": "MAJ", "position": 351, "weight": 0.00215414}, 
+                {"id": 10, "lemma": "그", "type": "MM", "position": 355, "weight": 0.100598}, 
+                {"id": 11, "lemma": "임기", "type": "NNG", "position": 359, "weight": 0.9}, 
+                {"id": 12, "lemma": "그리고", "type": "MAJ", "position": 366, "weight": 0.00143682}, 
+                {"id": 13, "lemma": "직업", "type": "NNG", "position": 376, "weight": 0.9}, 
+                {"id": 14, "lemma": "적", "type": "XSN", "position": 382, "weight": 0.0168756}, 
+                {"id": 15, "lemma": ",", "type": "SP", "position": 385, "weight": 1}, 
+                {"id": 16, "lemma": "사회", "type": "NNG", "position": 387, "weight": 0.531502}, 
+                {"id": 17, "lemma": "적", "type": "XSN", "position": 393, "weight": 0.0168756}, 
+                {"id": 18, "lemma": "책무", "type": "NNG", "position": 397, "weight": 0.9}, 
+                {"id": 19, "lemma": "에", "type": "JKB", "position": 403, "weight": 0.153364}, 
+                {"id": 20, "lemma": "동등", "type": "NNG", "position": 407, "weight": 0.65}, 
+                {"id": 21, "lemma": "하", "type": "XSA", "position": 413, "weight": 0.0001}, 
+                {"id": 22, "lemma": "게", "type": "EC", "position": 416, "weight": 0.362254}, 
+                {"id": 23, "lemma": "접근", "type": "NNG", "position": 420, "weight": 0.9}, 
+                {"id": 24, "lemma": "하", "type": "XSV", "position": 426, "weight": 0.0001}, 
+                {"id": 25, "lemma": "도록", "type": "EC", "position": 429, "weight": 0.370757}, 
+                {"id": 26, "lemma": "하", "type": "VX", "position": 436, "weight": 0.0899221}, 
+                {"id": 27, "lemma": "ㄴ다", "type": "EF", "position": 436, "weight": 0.184394}, 
+                {"id": 28, "lemma": ".", "type": "SF", "position": 442, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "②", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "법률은", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "남성과", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "여성이", "type": "", "begin": 5, "end": 6}, 
+                {"id": 4, "text": "선출직", "type": "", "begin": 7, "end": 8}, 
+                {"id": 5, "text": "및", "type": "", "begin": 9, "end": 9}, 
+                {"id": 6, "text": "그", "type": "", "begin": 10, "end": 10}, 
+                {"id": 7, "text": "임기", "type": "", "begin": 11, "end": 11}, 
+                {"id": 8, "text": "그리고", "type": "", "begin": 12, "end": 12}, 
+                {"id": 9, "text": "직업적,", "type": "", "begin": 13, "end": 15}, 
+                {"id": 10, "text": "사회적", "type": "", "begin": 16, "end": 17}, 
+                {"id": 11, "text": "책무에", "type": "", "begin": 18, "end": 19}, 
+                {"id": 12, "text": "동등하게", "type": "", "begin": 20, "end": 22}, 
+                {"id": 13, "text": "접근하도록", "type": "", "begin": 23, "end": 25}, 
+                {"id": 14, "text": "한다.", "type": "", "begin": 26, "end": 28}
+            ], 
+            "NE": [], 
+            "dependency": [
+                {"id": 0, "text": "②", "head": 14, "label": "NP", "mod": [], "weight": 0.74929}, 
+                {"id": 1, "text": "법률은", "head": 13, "label": "NP_SBJ", "mod": [], "weight": 0.735716}, 
+                {"id": 2, "text": "남성과", "head": 3, "label": "NP_CNJ", "mod": [], "weight": 0.490275}, 
+                {"id": 3, "text": "여성이", "head": 13, "label": "NP_SBJ", "mod": [2], "weight": 0.791521}, 
+                {"id": 4, "text": "선출직", "head": 11, "label": "NP_CNJ", "mod": [], "weight": 0.129915}, 
+                {"id": 5, "text": "및", "head": 11, "label": "AP", "mod": [], "weight": 0.744574}, 
+                {"id": 6, "text": "그", "head": 7, "label": "DP", "mod": [], "weight": 0.255647}, 
+                {"id": 7, "text": "임기", "head": 11, "label": "NP_CNJ", "mod": [6], "weight": 0.132256}, 
+                {"id": 8, "text": "그리고", "head": 11, "label": "AP", "mod": [], "weight": 0.64781}, 
+                {"id": 9, "text": "직업적,", "head": 10, "label": "NP_CNJ", "mod": [], "weight": 0.279695}, 
+                {"id": 10, "text": "사회적", "head": 11, "label": "NP", "mod": [9], "weight": 0.569885}, 
+                {"id": 11, "text": "책무에", "head": 13, "label": "NP_AJT", "mod": [4, 5, 7, 8, 10], "weight": 0.698776}, 
+                {"id": 12, "text": "동등하게", "head": 13, "label": "VP_AJT", "mod": [], "weight": 0.581066}, 
+                {"id": 13, "text": "접근하도록", "head": 14, "label": "VP", "mod": [1, 3, 11, 12], "weight": 0.81695}, 
+                {"id": 14, "text": "한다.", "head": -1, "label": "VP", "mod": [13, 0], "weight": 2.04475e-05}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "②", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "법률은", "begin": 1, "end": 1, "key_begin": 1, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_SBJ", "text": "남성과 여성이", "begin": 2, "end": 3, "key_begin": 2, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "남성", "label": "NP_SBJ", "begin": 3, "end": 3, "ne_type": ""}, 
+                    {"text": "여성", "label": "NP_SBJ", "begin": 5, "end": 5, "ne_type": ""}
+                ]}, 
+                {"id": 3, "label": "NP_AJT", "text": "선출직 및 그 임기 그리고 직업적, 사회적 책무에", "begin": 4, "end": 11, "key_begin": 4, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "선출직", "label": "NP_AJT", "begin": 7, "end": 8, "ne_type": ""}, 
+                    {"text": "그 임기", "label": "NP_AJT", "begin": 10, "end": 11, "ne_type": ""}, 
+                    {"text": "직업적, 사회적 책무", "label": "NP_AJT", "begin": 13, "end": 18, "ne_type": ""}
+                ]}, 
+                {"id": 4, "label": "VP_AJT", "text": "동등하게", "begin": 12, "end": 12, "key_begin": 12, "head_phrase": 5, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "S", "text": "P#0@NP② P#1@SBJ은 P#2@SBJ이 P#3@AJT에 P#4@AJT게 접근하도록 한다.", "begin": 0, "end": 14, "key_begin": 13, "head_phrase": -1, "sub_phrase": [0, 1, 2, 3, 4], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "접근", "sense": 1, "word_id": 13, "weight": 0.294228, "argument": [
+                    {"type": "ARG0", "word_id": 3, "text": "남성과 여성", "weight": 0.314645, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG2", "word_id": 11, "text": "선출직 및 그 임기 그리고 직업적, 사회적 책무", "weight": 0.360016, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-MNR", "word_id": 12, "text": "동등하게", "weight": 0.208022, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }
+    ], 
+    "entity": []
+}

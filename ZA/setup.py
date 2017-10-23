@@ -14,16 +14,13 @@ def export(username, addr="127.0.0.1:8000", app="ZA"):
 
 
 def reset(addr="127.0.0.1:8000", app="ZA"):
-    pass
-
-
-#     try:
-#         u = "http://%s/%s/api/reset/" % (addr, app)
-#         print(">>> [ZA.setup.reset] Send request: %s" % u)
-#         f = urlopen(u, "password=%s" % TRUTH)
-#         print(">>> [ZA.setup.reset] Recv response: %s" % f.read(500))
-#     except URLError as e:
-#         print(">>> [ZA.setup.reset] Error message: %s" % e.reason)
+    try:
+        u = "http://%s/%s/api/reset/" % (addr, app)
+        print(">>> [ZA.setup.reset] Send request: %s" % u)
+        f = urlopen(u, "password=%s" % TRUTH)
+        print(">>> [ZA.setup.reset] Recv response: %s" % f.read(500))
+    except URLError as e:
+        print(">>> [ZA.setup.reset] Error message: %s" % e.reason)
 
 
 if __name__ == '__main__':

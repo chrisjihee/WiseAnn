@@ -1,0 +1,369 @@
+{
+    "title": {
+        "text": "일본국헌법", 
+        "NE": ""
+    }, 
+    "metaInfo": {
+        "field": "법률", 
+        "num_sent": 3, 
+        "num_word": 44
+    }, 
+    "sentence": [
+        {
+            "id": 30, 
+            "text": "제2장 전쟁의 포기", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 1921, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "2", "type": "SN", "position": 1924, "weight": 1}, 
+                {"id": 2, "lemma": "장", "type": "NNG", "position": 1925, "weight": 0.0331223}, 
+                {"id": 3, "lemma": "전쟁", "type": "NNG", "position": 1929, "weight": 0.9}, 
+                {"id": 4, "lemma": "의", "type": "JKG", "position": 1935, "weight": 0.0694213}, 
+                {"id": 5, "lemma": "포기", "type": "NNG", "position": 1939, "weight": 0.9}
+            ], 
+            "word": [
+                {"id": 0, "text": "제2장", "type": "", "begin": 0, "end": 2}, 
+                {"id": 1, "text": "전쟁의", "type": "", "begin": 3, "end": 4}, 
+                {"id": 2, "text": "포기", "type": "", "begin": 5, "end": 5}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제2장", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 0.513629, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제2장", "head": 2, "label": "NP", "mod": [], "weight": 0.859095}, 
+                {"id": 1, "text": "전쟁의", "head": 2, "label": "NP_MOD", "mod": [], "weight": 0.682914}, 
+                {"id": 2, "text": "포기", "head": -1, "label": "NP", "mod": [0, 1], "weight": 0.46622}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제2장 전쟁의 포기", "begin": 0, "end": 2, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 31, 
+            "text": "제9조 ", 
+            "morp": [
+                {"id": 0, "lemma": "제", "type": "XPN", "position": 1945, "weight": 0.00190521}, 
+                {"id": 1, "lemma": "9", "type": "SN", "position": 1948, "weight": 1}, 
+                {"id": 2, "lemma": "조", "type": "NNB", "position": 1949, "weight": 0.208011}
+            ], 
+            "word": [
+                {"id": 0, "text": "제9조", "type": "", "begin": 0, "end": 2}
+            ], 
+            "NE": [
+                {"id": 0, "text": "제9조", "type": "QT_ORDER", "begin": 0, "end": 2, "weight": 1, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "제9조", "head": -1, "label": "NP", "mod": [], "weight": 0.840586}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "제9조", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": -1, "sub_phrase": [], "weight": 0, "element": []}
+            ], 
+            "SRL": [], 
+            "ZA": []
+        }, 
+        {
+            "id": 32, 
+            "text": "① 일본 국민은 정의와 질서를 기조로 하는 국제 평화를 성실히 희구하며, 국권의 발동인 전쟁과 무력에 의한 위협 또는 무력의 행사는, 국제 분쟁을 해결할 수단으로서는 영구히 이를 포기한다.", 
+            "morp": [
+                {"id": 0, "lemma": "①", "type": "SW", "position": 1953, "weight": 1}, 
+                {"id": 1, "lemma": "일본", "type": "NNP", "position": 1957, "weight": 0.0975932}, 
+                {"id": 2, "lemma": "국민", "type": "NNG", "position": 1964, "weight": 0.278417}, 
+                {"id": 3, "lemma": "은", "type": "JX", "position": 1970, "weight": 0.0449928}, 
+                {"id": 4, "lemma": "정의", "type": "NNG", "position": 1974, "weight": 0.322096}, 
+                {"id": 5, "lemma": "와", "type": "JC", "position": 1980, "weight": 0.0169714}, 
+                {"id": 6, "lemma": "질서", "type": "NNG", "position": 1984, "weight": 0.9}, 
+                {"id": 7, "lemma": "를", "type": "JKO", "position": 1990, "weight": 0.137686}, 
+                {"id": 8, "lemma": "기조", "type": "NNG", "position": 1994, "weight": 0.9}, 
+                {"id": 9, "lemma": "로", "type": "JKB", "position": 2000, "weight": 0.153229}, 
+                {"id": 10, "lemma": "하", "type": "VV", "position": 2004, "weight": 0.275522}, 
+                {"id": 11, "lemma": "는", "type": "ETM", "position": 2007, "weight": 0.184941}, 
+                {"id": 12, "lemma": "국제", "type": "NNG", "position": 2011, "weight": 0.655952}, 
+                {"id": 13, "lemma": "평화", "type": "NNG", "position": 2018, "weight": 0.182013}, 
+                {"id": 14, "lemma": "를", "type": "JKO", "position": 2024, "weight": 0.137686}, 
+                {"id": 15, "lemma": "성실히", "type": "MAG", "position": 2028, "weight": 0.9}, 
+                {"id": 16, "lemma": "희구", "type": "NNG", "position": 2038, "weight": 0.245153}, 
+                {"id": 17, "lemma": "하", "type": "XSV", "position": 2044, "weight": 0.0001}, 
+                {"id": 18, "lemma": "며", "type": "EC", "position": 2047, "weight": 0.371165}, 
+                {"id": 19, "lemma": ",", "type": "SP", "position": 2050, "weight": 1}, 
+                {"id": 20, "lemma": "국권", "type": "NNG", "position": 2052, "weight": 0.9}, 
+                {"id": 21, "lemma": "의", "type": "JKG", "position": 2058, "weight": 0.0694213}, 
+                {"id": 22, "lemma": "발동", "type": "NNG", "position": 2062, "weight": 0.9}, 
+                {"id": 23, "lemma": "이", "type": "VCP", "position": 2068, "weight": 0.0177525}, 
+                {"id": 24, "lemma": "ㄴ", "type": "ETM", "position": 2068, "weight": 0.220712}, 
+                {"id": 25, "lemma": "전쟁", "type": "NNG", "position": 2072, "weight": 0.9}, 
+                {"id": 26, "lemma": "과", "type": "JC", "position": 2078, "weight": 0.017569}, 
+                {"id": 27, "lemma": "무력", "type": "NNG", "position": 2082, "weight": 0.9}, 
+                {"id": 28, "lemma": "에", "type": "JKB", "position": 2088, "weight": 0.153364}, 
+                {"id": 29, "lemma": "의하", "type": "VV", "position": 2092, "weight": 0.9}, 
+                {"id": 30, "lemma": "ㄴ", "type": "ETM", "position": 2095, "weight": 0.304215}, 
+                {"id": 31, "lemma": "위협", "type": "NNG", "position": 2099, "weight": 0.9}, 
+                {"id": 32, "lemma": "또는", "type": "MAJ", "position": 2106, "weight": 0.0017557}, 
+                {"id": 33, "lemma": "무력", "type": "NNG", "position": 2113, "weight": 0.9}, 
+                {"id": 34, "lemma": "의", "type": "JKG", "position": 2119, "weight": 0.0694213}, 
+                {"id": 35, "lemma": "행사", "type": "NNG", "position": 2123, "weight": 0.871175}, 
+                {"id": 36, "lemma": "는", "type": "JX", "position": 2129, "weight": 0.0287565}, 
+                {"id": 37, "lemma": ",", "type": "SP", "position": 2132, "weight": 1}, 
+                {"id": 38, "lemma": "국제", "type": "NNG", "position": 2134, "weight": 0.529269}, 
+                {"id": 39, "lemma": "분쟁", "type": "NNG", "position": 2141, "weight": 0.9}, 
+                {"id": 40, "lemma": "을", "type": "JKO", "position": 2147, "weight": 0.129611}, 
+                {"id": 41, "lemma": "해결", "type": "NNG", "position": 2151, "weight": 0.9}, 
+                {"id": 42, "lemma": "하", "type": "XSV", "position": 2157, "weight": 0.0001}, 
+                {"id": 43, "lemma": "ㄹ", "type": "ETM", "position": 2157, "weight": 0.387847}, 
+                {"id": 44, "lemma": "수단", "type": "NNG", "position": 2161, "weight": 0.643773}, 
+                {"id": 45, "lemma": "으로서", "type": "JKB", "position": 2167, "weight": 0.9}, 
+                {"id": 46, "lemma": "는", "type": "JX", "position": 2176, "weight": 0.0387928}, 
+                {"id": 47, "lemma": "영구히", "type": "MAG", "position": 2180, "weight": 0.9}, 
+                {"id": 48, "lemma": "이", "type": "NP", "position": 2190, "weight": 0.000853593}, 
+                {"id": 49, "lemma": "를", "type": "JKO", "position": 2193, "weight": 0.0808985}, 
+                {"id": 50, "lemma": "포기", "type": "NNG", "position": 2197, "weight": 0.9}, 
+                {"id": 51, "lemma": "하", "type": "XSV", "position": 2203, "weight": 0.0001}, 
+                {"id": 52, "lemma": "ㄴ다", "type": "EF", "position": 2203, "weight": 0.0449045}, 
+                {"id": 53, "lemma": ".", "type": "SF", "position": 2209, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "①", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "일본", "type": "", "begin": 1, "end": 1}, 
+                {"id": 2, "text": "국민은", "type": "", "begin": 2, "end": 3}, 
+                {"id": 3, "text": "정의와", "type": "", "begin": 4, "end": 5}, 
+                {"id": 4, "text": "질서를", "type": "", "begin": 6, "end": 7}, 
+                {"id": 5, "text": "기조로", "type": "", "begin": 8, "end": 9}, 
+                {"id": 6, "text": "하는", "type": "", "begin": 10, "end": 11}, 
+                {"id": 7, "text": "국제", "type": "", "begin": 12, "end": 12}, 
+                {"id": 8, "text": "평화를", "type": "", "begin": 13, "end": 14}, 
+                {"id": 9, "text": "성실히", "type": "", "begin": 15, "end": 15}, 
+                {"id": 10, "text": "희구하며,", "type": "", "begin": 16, "end": 19}, 
+                {"id": 11, "text": "국권의", "type": "", "begin": 20, "end": 21}, 
+                {"id": 12, "text": "발동인", "type": "", "begin": 22, "end": 24}, 
+                {"id": 13, "text": "전쟁과", "type": "", "begin": 25, "end": 26}, 
+                {"id": 14, "text": "무력에", "type": "", "begin": 27, "end": 28}, 
+                {"id": 15, "text": "의한", "type": "", "begin": 29, "end": 30}, 
+                {"id": 16, "text": "위협", "type": "", "begin": 31, "end": 31}, 
+                {"id": 17, "text": "또는", "type": "", "begin": 32, "end": 32}, 
+                {"id": 18, "text": "무력의", "type": "", "begin": 33, "end": 34}, 
+                {"id": 19, "text": "행사는,", "type": "", "begin": 35, "end": 37}, 
+                {"id": 20, "text": "국제", "type": "", "begin": 38, "end": 38}, 
+                {"id": 21, "text": "분쟁을", "type": "", "begin": 39, "end": 40}, 
+                {"id": 22, "text": "해결할", "type": "", "begin": 41, "end": 43}, 
+                {"id": 23, "text": "수단으로서는", "type": "", "begin": 44, "end": 46}, 
+                {"id": 24, "text": "영구히", "type": "", "begin": 47, "end": 47}, 
+                {"id": 25, "text": "이를", "type": "", "begin": 48, "end": 49}, 
+                {"id": 26, "text": "포기한다.", "type": "", "begin": 50, "end": 53}
+            ], 
+            "NE": [
+                {"id": 0, "text": "일본", "type": "LCP_COUNTRY", "begin": 1, "end": 1, "weight": 0.695174, "common_noun": 0}, 
+                {"id": 1, "text": "국민", "type": "CV_POSITION", "begin": 2, "end": 2, "weight": 0.28211, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "①", "head": 26, "label": "NP", "mod": [], "weight": 0.306805}, 
+                {"id": 1, "text": "일본", "head": 2, "label": "NP", "mod": [], "weight": 0.612661}, 
+                {"id": 2, "text": "국민은", "head": 10, "label": "NP_SBJ", "mod": [1], "weight": 0.829924}, 
+                {"id": 3, "text": "정의와", "head": 4, "label": "NP_CNJ", "mod": [], "weight": 0.726912}, 
+                {"id": 4, "text": "질서를", "head": 6, "label": "NP_OBJ", "mod": [3], "weight": 0.79018}, 
+                {"id": 5, "text": "기조로", "head": 6, "label": "NP_AJT", "mod": [], "weight": 0.676519}, 
+                {"id": 6, "text": "하는", "head": 8, "label": "VP_MOD", "mod": [4, 5], "weight": 0.735182}, 
+                {"id": 7, "text": "국제", "head": 8, "label": "NP", "mod": [], "weight": 0.714304}, 
+                {"id": 8, "text": "평화를", "head": 10, "label": "NP_OBJ", "mod": [6, 7], "weight": 0.77052}, 
+                {"id": 9, "text": "성실히", "head": 10, "label": "AP", "mod": [], "weight": 0.73587}, 
+                {"id": 10, "text": "희구하며,", "head": 26, "label": "VP", "mod": [2, 8, 9], "weight": 0.535922}, 
+                {"id": 11, "text": "국권의", "head": 12, "label": "NP_MOD", "mod": [], "weight": 0.292127}, 
+                {"id": 12, "text": "발동인", "head": 14, "label": "VNP_MOD", "mod": [11], "weight": 0.592434}, 
+                {"id": 13, "text": "전쟁과", "head": 14, "label": "NP_CNJ", "mod": [], "weight": 0.214826}, 
+                {"id": 14, "text": "무력에", "head": 15, "label": "NP_AJT", "mod": [12, 13], "weight": 0.67364}, 
+                {"id": 15, "text": "의한", "head": 19, "label": "VP_MOD", "mod": [14], "weight": 0.692033}, 
+                {"id": 16, "text": "위협", "head": 18, "label": "NP_CNJ", "mod": [], "weight": 0.18932}, 
+                {"id": 17, "text": "또는", "head": 18, "label": "AP", "mod": [], "weight": 0.34608}, 
+                {"id": 18, "text": "무력의", "head": 19, "label": "NP_MOD", "mod": [16, 17], "weight": 0.593589}, 
+                {"id": 19, "text": "행사는,", "head": 26, "label": "NP_OBJ", "mod": [15, 18], "weight": 0.630669}, 
+                {"id": 20, "text": "국제", "head": 21, "label": "NP", "mod": [], "weight": 0.777915}, 
+                {"id": 21, "text": "분쟁을", "head": 22, "label": "NP_OBJ", "mod": [20], "weight": 0.441588}, 
+                {"id": 22, "text": "해결할", "head": 23, "label": "VP_MOD", "mod": [21], "weight": 0.74176}, 
+                {"id": 23, "text": "수단으로서는", "head": 26, "label": "NP_AJT", "mod": [22], "weight": 0.811484}, 
+                {"id": 24, "text": "영구히", "head": 26, "label": "AP", "mod": [], "weight": 0.77641}, 
+                {"id": 25, "text": "이를", "head": 26, "label": "NP_OBJ", "mod": [], "weight": 0.761711}, 
+                {"id": 26, "text": "포기한다.", "head": -1, "label": "VP", "mod": [10, 23, 24, 25, 0, 19], "weight": 4.59999e-07}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "①", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_SBJ", "text": "일본 국민은", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "NP_OBJ", "text": "정의와 질서를", "begin": 3, "end": 4, "key_begin": 3, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": [
+                    {"text": "정의", "label": "NP_OBJ", "begin": 4, "end": 4, "ne_type": ""}, 
+                    {"text": "질서", "label": "NP_OBJ", "begin": 6, "end": 6, "ne_type": ""}
+                ]}, 
+                {"id": 3, "label": "NP_AJT", "text": "기조로", "begin": 5, "end": 5, "key_begin": 5, "head_phrase": 4, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 4, "label": "VP_MOD", "text": "P#2@OBJ를 P#3@AJT로 하는", "begin": 3, "end": 6, "key_begin": 6, "head_phrase": 5, "sub_phrase": [2, 3], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_OBJ", "text": "P#4@MOD는 국제 평화를", "begin": 3, "end": 8, "key_begin": 7, "head_phrase": 7, "sub_phrase": [4], "weight": 0, "element": []}, 
+                {"id": 6, "label": "AP", "text": "성실히", "begin": 9, "end": 9, "key_begin": 9, "head_phrase": 7, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 7, "label": "S", "text": "P#0@NP① P#1@SBJ은 P#5@OBJ를 P#6@AP성실히 희구하며,", "begin": 0, "end": 10, "key_begin": 10, "head_phrase": 17, "sub_phrase": [0, 1, 5, 6], "weight": 0, "element": []}, 
+                {"id": 8, "label": "VNP_MOD", "text": "국권의 발동인", "begin": 11, "end": 12, "key_begin": 11, "head_phrase": 9, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 9, "label": "NP_AJT", "text": "P#8@MODㄴ 전쟁과 무력에", "begin": 11, "end": 14, "key_begin": 13, "head_phrase": 10, "sub_phrase": [8], "weight": 0, "element": []}, 
+                {"id": 10, "label": "VP_MOD", "text": "P#9@AJT에 의한", "begin": 11, "end": 15, "key_begin": 15, "head_phrase": 11, "sub_phrase": [9], "weight": 0, "element": []}, 
+                {"id": 11, "label": "NP_SBJ", "text": "P#10@MODㄴ 위협 또는 무력의 행사는,", "begin": 11, "end": 19, "key_begin": 16, "head_phrase": 17, "sub_phrase": [10], "weight": 0, "element": []}, 
+                {"id": 12, "label": "NP_OBJ", "text": "국제 분쟁을", "begin": 20, "end": 21, "key_begin": 20, "head_phrase": 13, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 13, "label": "VP_MOD", "text": "P#12@OBJ을 해결할", "begin": 20, "end": 22, "key_begin": 22, "head_phrase": 14, "sub_phrase": [12], "weight": 0, "element": []}, 
+                {"id": 14, "label": "NP_AJT", "text": "P#13@MODㄹ 수단으로서는", "begin": 20, "end": 23, "key_begin": 23, "head_phrase": 17, "sub_phrase": [13], "weight": 0, "element": []}, 
+                {"id": 15, "label": "AP", "text": "영구히", "begin": 24, "end": 24, "key_begin": 24, "head_phrase": 17, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 16, "label": "NP_OBJ", "text": "이를", "begin": 25, "end": 25, "key_begin": 25, "head_phrase": 17, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 17, "label": "S", "text": "S#7@S며, P#11@SBJ는, P#14@AJT는 P#15@AP영구히 P#16@OBJ를 포기한다.", "begin": 0, "end": 26, "key_begin": 26, "head_phrase": -1, "sub_phrase": [7, 11, 14, 15, 16], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "하", "sense": 3, "word_id": 6, "weight": 0.333364, "argument": [
+                    {"type": "ARG1", "word_id": 4, "text": "정의와 질서", "weight": 0.357741, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG2", "word_id": 5, "text": "기조", "weight": 0.341046, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG0", "word_id": 8, "text": "국제 평화", "weight": 0.301304, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "희구", "sense": 1, "word_id": 10, "weight": 0.317748, "argument": [
+                    {"type": "ARG1", "word_id": 8, "text": "국제 평화", "weight": 0.520611, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-MNR", "word_id": 9, "text": "성실히", "weight": 0.114886, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "의하", "sense": 1, "word_id": 15, "weight": 0.418992, "argument": [
+                    {"type": "ARG2", "word_id": 14, "text": "전쟁과 무력", "weight": 0.427738, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 19, "text": "위협 또는 무력의 행사", "weight": 0.410246, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "해결", "sense": 1, "word_id": 22, "weight": 0.222908, "argument": [
+                    {"type": "ARG1", "word_id": 21, "text": "국제 분쟁", "weight": 0.222908, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "포기", "sense": 1, "word_id": 26, "weight": 0.202262, "argument": [
+                    {"type": "ARGM-CND", "word_id": 23, "text": "수단", "weight": 0.108135, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-ADV", "word_id": 24, "text": "영구히", "weight": 0.179435, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 25, "text": "이", "weight": 0.319217, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }, 
+        {
+            "id": 33, 
+            "text": "② 전항의 목적을 달성하기 위하여 육해공군 그 외 전력은 이를 보지하지 아니한다.", 
+            "morp": [
+                {"id": 0, "lemma": "②", "type": "SW", "position": 2210, "weight": 1}, 
+                {"id": 1, "lemma": "전항", "type": "NNG", "position": 2214, "weight": 0.9}, 
+                {"id": 2, "lemma": "의", "type": "JKG", "position": 2220, "weight": 0.0694213}, 
+                {"id": 3, "lemma": "목적", "type": "NNG", "position": 2224, "weight": 0.9}, 
+                {"id": 4, "lemma": "을", "type": "JKO", "position": 2230, "weight": 0.129611}, 
+                {"id": 5, "lemma": "달성", "type": "NNG", "position": 2234, "weight": 0.0991492}, 
+                {"id": 6, "lemma": "하", "type": "XSV", "position": 2240, "weight": 0.0001}, 
+                {"id": 7, "lemma": "기", "type": "ETN", "position": 2243, "weight": 0.0556099}, 
+                {"id": 8, "lemma": "위하", "type": "VV", "position": 2247, "weight": 0.176484}, 
+                {"id": 9, "lemma": "어", "type": "EC", "position": 2253, "weight": 0.41831}, 
+                {"id": 10, "lemma": "육해공군", "type": "NNG", "position": 2257, "weight": 0.9}, 
+                {"id": 11, "lemma": "그", "type": "MM", "position": 2270, "weight": 0.00185049}, 
+                {"id": 12, "lemma": "외", "type": "NNB", "position": 2274, "weight": 0.149991}, 
+                {"id": 13, "lemma": "전력", "type": "NNG", "position": 2278, "weight": 0.9}, 
+                {"id": 14, "lemma": "은", "type": "JX", "position": 2284, "weight": 0.0449928}, 
+                {"id": 15, "lemma": "이", "type": "NP", "position": 2288, "weight": 0.00112648}, 
+                {"id": 16, "lemma": "를", "type": "JKO", "position": 2291, "weight": 0.0808985}, 
+                {"id": 17, "lemma": "보지", "type": "NNG", "position": 2295, "weight": 0.4}, 
+                {"id": 18, "lemma": "하", "type": "XSV", "position": 2301, "weight": 0.0001}, 
+                {"id": 19, "lemma": "지", "type": "EC", "position": 2304, "weight": 0.260723}, 
+                {"id": 20, "lemma": "아니하", "type": "VX", "position": 2308, "weight": 0.257113}, 
+                {"id": 21, "lemma": "ㄴ다", "type": "EF", "position": 2314, "weight": 0.184394}, 
+                {"id": 22, "lemma": ".", "type": "SF", "position": 2320, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "②", "type": "", "begin": 0, "end": 0}, 
+                {"id": 1, "text": "전항의", "type": "", "begin": 1, "end": 2}, 
+                {"id": 2, "text": "목적을", "type": "", "begin": 3, "end": 4}, 
+                {"id": 3, "text": "달성하기", "type": "", "begin": 5, "end": 7}, 
+                {"id": 4, "text": "위하여", "type": "", "begin": 8, "end": 9}, 
+                {"id": 5, "text": "육해공군", "type": "", "begin": 10, "end": 10}, 
+                {"id": 6, "text": "그", "type": "", "begin": 11, "end": 11}, 
+                {"id": 7, "text": "외", "type": "", "begin": 12, "end": 12}, 
+                {"id": 8, "text": "전력은", "type": "", "begin": 13, "end": 14}, 
+                {"id": 9, "text": "이를", "type": "", "begin": 15, "end": 16}, 
+                {"id": 10, "text": "보지하지", "type": "", "begin": 17, "end": 19}, 
+                {"id": 11, "text": "아니한다.", "type": "", "begin": 20, "end": 22}
+            ], 
+            "NE": [
+                {"id": 0, "text": "육해공군", "type": "OGG_MILITARY", "begin": 10, "end": 10, "weight": 0.239032, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "②", "head": 11, "label": "NP", "mod": [], "weight": 0.298683}, 
+                {"id": 1, "text": "전항의", "head": 2, "label": "NP_MOD", "mod": [], "weight": 0.526354}, 
+                {"id": 2, "text": "목적을", "head": 3, "label": "NP_OBJ", "mod": [1], "weight": 0.731309}, 
+                {"id": 3, "text": "달성하기", "head": 4, "label": "VP_OBJ", "mod": [2], "weight": 0.669747}, 
+                {"id": 4, "text": "위하여", "head": 10, "label": "VP", "mod": [3], "weight": 0.746237}, 
+                {"id": 5, "text": "육해공군", "head": 8, "label": "NP", "mod": [], "weight": 0.0739181}, 
+                {"id": 6, "text": "그", "head": 7, "label": "DP", "mod": [], "weight": 0.605506}, 
+                {"id": 7, "text": "외", "head": 8, "label": "NP", "mod": [6], "weight": 0.179678}, 
+                {"id": 8, "text": "전력은", "head": 10, "label": "NP_OBJ", "mod": [5, 7], "weight": 0.642399}, 
+                {"id": 9, "text": "이를", "head": 10, "label": "NP_OBJ", "mod": [], "weight": 0.789752}, 
+                {"id": 10, "text": "보지하지", "head": 11, "label": "VP", "mod": [4, 8, 9], "weight": 0.733242}, 
+                {"id": 11, "text": "아니한다.", "head": -1, "label": "VP", "mod": [10, 0], "weight": 0.000144017}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP", "text": "②", "begin": 0, "end": 0, "key_begin": 0, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "전항의 목적을", "begin": 1, "end": 2, "key_begin": 1, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "VP_OBJ", "text": "P#1@OBJ을 달성하기", "begin": 1, "end": 3, "key_begin": 3, "head_phrase": 3, "sub_phrase": [1], "weight": 0, "element": []}, 
+                {"id": 3, "label": "VP", "text": "P#2@OBJ기 위하여", "begin": 1, "end": 4, "key_begin": 4, "head_phrase": 6, "sub_phrase": [2], "weight": 0, "element": []}, 
+                {"id": 4, "label": "NP_SBJ", "text": "육해공군 그 외 전력은", "begin": 5, "end": 8, "key_begin": 5, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 5, "label": "NP_OBJ", "text": "이를", "begin": 9, "end": 9, "key_begin": 9, "head_phrase": 6, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 6, "label": "S", "text": "P#0@NP② P#3@VP어 P#4@SBJ은 P#5@OBJ를 보지하지 아니한다.", "begin": 0, "end": 11, "key_begin": 10, "head_phrase": -1, "sub_phrase": [0, 3, 4, 5], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "달성", "sense": 1, "word_id": 3, "weight": 0.322411, "argument": [
+                    {"type": "ARG1", "word_id": 2, "text": "전항의 목적", "weight": 0.322411, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "위하", "sense": 1, "word_id": 4, "weight": 0.394457, "argument": [
+                    {"type": "ARG1", "word_id": 3, "text": "달성하기", "weight": 0.394457, "srlroleEN": "", "srlroleKR": ""}
+                ]}, 
+                {"verb": "보지", "sense": 1, "word_id": 10, "weight": 0.490449, "argument": [
+                    {"type": "ARGM-PRP", "word_id": 4, "text": "위하여", "weight": 0.389664, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARG1", "word_id": 9, "text": "이", "weight": 0.481519, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-NEG", "word_id": 11, "text": "보지하지 아니한다.", "weight": 0.600163, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 3, "ant_sid": -1, "ant_wid": -1, "ant_is_title": 0, "weight": 0.768395}
+            ]
+        }, 
+        {
+            "id": 34, 
+            "text": "국가의 교전권은 이를 인정하지 아니한다.", 
+            "morp": [
+                {"id": 0, "lemma": "국가", "type": "NNG", "position": 2321, "weight": 0.437897}, 
+                {"id": 1, "lemma": "의", "type": "JKG", "position": 2327, "weight": 0.0694213}, 
+                {"id": 2, "lemma": "교전", "type": "NNG", "position": 2331, "weight": 0.9}, 
+                {"id": 3, "lemma": "권", "type": "XSN", "position": 2337, "weight": 0.0140728}, 
+                {"id": 4, "lemma": "은", "type": "JX", "position": 2340, "weight": 0.100393}, 
+                {"id": 5, "lemma": "이", "type": "NP", "position": 2344, "weight": 0.00112648}, 
+                {"id": 6, "lemma": "를", "type": "JKO", "position": 2347, "weight": 0.0808985}, 
+                {"id": 7, "lemma": "인정", "type": "NNG", "position": 2351, "weight": 0.10106}, 
+                {"id": 8, "lemma": "하", "type": "XSV", "position": 2357, "weight": 0.0001}, 
+                {"id": 9, "lemma": "지", "type": "EC", "position": 2360, "weight": 0.260723}, 
+                {"id": 10, "lemma": "아니하", "type": "VX", "position": 2364, "weight": 0.257113}, 
+                {"id": 11, "lemma": "ㄴ다", "type": "EF", "position": 2370, "weight": 0.184394}, 
+                {"id": 12, "lemma": ".", "type": "SF", "position": 2376, "weight": 1}
+            ], 
+            "word": [
+                {"id": 0, "text": "국가의", "type": "", "begin": 0, "end": 1}, 
+                {"id": 1, "text": "교전권은", "type": "", "begin": 2, "end": 4}, 
+                {"id": 2, "text": "이를", "type": "", "begin": 5, "end": 6}, 
+                {"id": 3, "text": "인정하지", "type": "", "begin": 7, "end": 9}, 
+                {"id": 4, "text": "아니한다.", "type": "", "begin": 10, "end": 12}
+            ], 
+            "NE": [
+                {"id": 0, "text": "교전권", "type": "CV_LAW", "begin": 2, "end": 3, "weight": 0.39569, "common_noun": 0}
+            ], 
+            "dependency": [
+                {"id": 0, "text": "국가의", "head": 1, "label": "NP_MOD", "mod": [], "weight": 0.626023}, 
+                {"id": 1, "text": "교전권은", "head": 3, "label": "NP_OBJ", "mod": [0], "weight": 0.715353}, 
+                {"id": 2, "text": "이를", "head": 3, "label": "NP_OBJ", "mod": [], "weight": 0.7792}, 
+                {"id": 3, "text": "인정하지", "head": 4, "label": "VP", "mod": [1, 2], "weight": 0.741238}, 
+                {"id": 4, "text": "아니한다.", "head": -1, "label": "VP", "mod": [3], "weight": 0.218326}
+            ], 
+            "phrase_dependency": [
+                {"id": 0, "label": "NP_SBJ", "text": "국가의 교전권은", "begin": 0, "end": 1, "key_begin": 0, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 1, "label": "NP_OBJ", "text": "이를", "begin": 2, "end": 2, "key_begin": 2, "head_phrase": 2, "sub_phrase": [], "weight": 0, "element": []}, 
+                {"id": 2, "label": "S", "text": "P#0@SBJ은 P#1@OBJ를 인정하지 아니한다.", "begin": 0, "end": 4, "key_begin": 3, "head_phrase": -1, "sub_phrase": [0, 1], "weight": 0, "element": []}
+            ], 
+            "SRL": [
+                {"verb": "인정", "sense": 1, "word_id": 3, "weight": 0.509174, "argument": [
+                    {"type": "ARG1", "word_id": 2, "text": "이", "weight": 0.363206, "srlroleEN": "", "srlroleKR": ""}, 
+                    {"type": "ARGM-NEG", "word_id": 4, "text": "인정하지 아니한다.", "weight": 0.655141, "srlroleEN": "", "srlroleKR": ""}
+                ]}
+            ], 
+            "ZA": []
+        }
+    ], 
+    "entity": []
+}
