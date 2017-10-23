@@ -59,7 +59,7 @@
             entities["[UNKNOWN]"] = {ant_text: "[Unknown]", ant_sid: -1, ant_wid: -1, ant_is_title: 0};
         }
         var textcont = JSON.parse("{{ textcont2|escapejs }}");
-        textcont["sents"].forEach(function (x) {
+        textcont["sentence"].forEach(function (x) {
             if (!(x["id"] in relations))
                 relations[x["id"]] = {};
         });
@@ -216,13 +216,6 @@
                 if (autosave)
                     saveAnn();
             }
-
-            {# var sent = textcont["sents"][head["head_sid"]];#}
-            {# if (!("ZA" in sent))#}
-            {# sent["ZA"] = [];#}
-            {# sent["ZA"].push(za);#}
-            {# console.log(sent);#}
-            {# console.log(textcont);#}
         };
 
         const loadAnn = function () {
@@ -277,12 +270,12 @@
             const sent_td = $("td.sent");
             const offset = sent_td.offset().left;
             var max_h, act_h, h, d;
-            {% for sent in textcont.sents %}
+            {% for sent in textcont.sentence %}
                 max_h = Math.ceil(Math.pow($("#{{ sent.id }}.sent").width(), 0.75) - Math.pow($("#{{ sent.id }}.sent").width(), 0.95) / 12);
                 act_h = 0;
                 sent_td.width(document.body.clientWidth - 1);
                 $("div#{{ sent.id }}.deps").append('<canvas id="{{ sent.id }}" class="deps" width="' + sent_td.width() + '" height="' + max_h + '" style="position:relative; top:11px;">');
-                {% for word in sent.words %}
+                {% for word in sent.dependency %}
                     {% if word.head >= 0 %}
                         h = linkTwo($("canvas#{{ sent.id }}.deps")[0], offset, $("#{{ sent.id }}.sent #{{ word.id }}.word"), $("#{{ sent.id }}.sent #{{ word.head }}.word"), max_h);
                         act_h = Math.max(act_h, h);
@@ -414,7 +407,7 @@
             <th style="text-align:center;">command</th>
             <th style="text-align:center;">sentence</th>
         </tr>
-        {% for sent in textcont.sents %}
+        {% for sent in textcont.sentence %}
             <tr>
                 <th style="text-align:right; vertical-align:top; padding-top:5px">{{ sent.id }}</th>
                 <td class="cmd" id="{{ sent.id }}" style="text-align:right; vertical-align:top; padding-top:5px">
@@ -425,7 +418,7 @@
                 <td class="sent" id="{{ sent.id }}" style="line-height:150%; padding-top:5px; vertical-align:middle;">
                     <div class="deps" id="{{ sent.id }}" style="display:none;"></div>
                     <ul role="tablist" class="nav navbar-nav nav-pills" style="width:max-content; ">
-                        {% for word in sent.words %}
+                        {% for word in sent.dependency %}
                             <li class="dropdown">
                                 <a role="button" class="dropdown-toggle" data-toggle="dropdown" style="padding:5px; color:#555">
                                     <table class="word tagged-none" id="{{ word.id }}" style="padding:0; margin:0" data-text="{{ word.text }}" data-sid="{{ sent.id }}" data-wid="{{ word.id }}">
