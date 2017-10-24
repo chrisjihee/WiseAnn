@@ -206,6 +206,14 @@ def export(request, username, datadir=os.path.join(BASE_DIR, "data/")):
 
 
 @csrf_exempt
+def append(request):
+    if request.POST.has_key("password") and request.POST["password"] == TRUTH:
+        return JsonResponse({"status": 200, "msg": "OK", "num_texts": append_texts(), "num_tasks": append_tasks()}, status=200)
+    else:
+        return JsonResponse({"status": 401, "msg": "Unauthorized"}, status=401)
+
+
+@csrf_exempt
 def reset(request):
     if request.POST.has_key("password") and request.POST["password"] == TRUTH:
         return JsonResponse({"status": 200, "msg": "OK", "num_users": reset_users(), "num_texts": reset_texts(), "num_tasks": reset_tasks()}, status=200)
@@ -230,6 +238,18 @@ def reset_users(datadir=os.path.join(BASE_DIR, "data/")):
     return num
 
 
+def append_texts(datadir=os.path.join(BASE_DIR, "data/")):
+    texts = sorted(os.listdir(os.path.join(datadir, "texts")))
+    num = 0
+    prev = [x.textname for x in Text.objects.all()]
+    for x in texts:
+        if x.split(".")[0] not in prev:
+            Text(textname=x.split(".")[0]).save()
+            num += 1
+    print(">>> [ZA.views.append_texts] Insert: %d texts" % num)
+    return num
+
+
 def reset_texts(datadir=os.path.join(BASE_DIR, "data/")):
     texts = sorted(os.listdir(os.path.join(datadir, "texts")))
     num = 0
@@ -239,6 +259,32 @@ def reset_texts(datadir=os.path.join(BASE_DIR, "data/")):
         Text(textname=x.split(".")[0]).save()
         num += 1
     print(">>> [ZA.views.reset_texts] Insert: %d texts" % num)
+    return num
+
+
+def append_tasks(datadir=os.path.join(BASE_DIR, "data/")):
+    tasks = read_excel(os.path.join(datadir, "tasks.xlsx"))
+    num = 0
+    for x in User.objects.all():
+        tagsdir = os.path.join(datadir + "tags", x.username)
+        textnames = [(tasks.ix[i]["filename"].split(".")[0], tasks.ix[i]["ZA.finished1"]) for i in range(len(tasks)) if tasks.ix[i]["ZA.annotator1"] == x.username] + \
+                    [(tasks.ix[i]["filename"].split(".")[0], tasks.ix[i]["ZA.finished2"]) for i in range(len(tasks)) if tasks.ix[i]["ZA.annotator2"] == x.username]
+        textnames = dict(textnames)
+        for y in Text.objects.all():
+            if y.textname in textnames:
+                q = Task.objects.filter(user=User.objects.get(username=x.username), text=Text.objects.get(textname=y.textname))
+                if not q.exists():
+                    tagfile1 = os.path.join(tagsdir, y.textname + ".entities")
+                    tagfile2 = os.path.join(tagsdir, y.textname + ".relations")
+                    if os.path.isfile(tagfile1) and os.path.isfile(tagfile2):
+                        tags1 = open(tagfile1).read()
+                        tags2 = open(tagfile2).read()
+                        Task(user=x, text=y, finished=textnames[y.textname], entities=tags1, relations=tags2).save()
+                        num += 1
+                    else:
+                        Task(user=x, text=y, finished=textnames[y.textname]).save()
+                        num += 1
+    print(">>> [ZA.views.append_tasks] Insert: %d tasks" % num)
     return num
 
 

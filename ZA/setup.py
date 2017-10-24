@@ -13,6 +13,16 @@ def export(username, addr="127.0.0.1:8000", app="ZA"):
         print(">>> [ZA.setup.export] Error message: %s" % e.reason)
 
 
+def append(addr="127.0.0.1:8000", app="ZA"):
+    try:
+        u = "http://%s/%s/api/append/" % (addr, app)
+        print(">>> [ZA.setup.append] Send request: %s" % u)
+        f = urlopen(u, "password=%s" % TRUTH)
+        print(">>> [ZA.setup.append] Recv response: %s" % f.read(500))
+    except URLError as e:
+        print(">>> [ZA.setup.append] Error message: %s" % e.reason)
+
+
 def reset(addr="127.0.0.1:8000", app="ZA"):
     try:
         u = "http://%s/%s/api/reset/" % (addr, app)
@@ -27,8 +37,8 @@ if __name__ == '__main__':
     from sys import argv
 
     if len(argv) < 2:
-        print("[Usage] python setup.py function [arg1=127.0.0.1:8000] [arg2=ZA]")
-        print("      - function : reset, export")
+        print("[Usage] python setup.py function args...")
+        print("      - function : reset, append, export")
 
     elif argv[1] == "reset":
         if len(argv) > 3:
@@ -37,6 +47,14 @@ if __name__ == '__main__':
             reset(argv[2])
         else:
             reset()
+
+    elif argv[1] == "append":
+        if len(argv) > 3:
+            append(argv[2], argv[3])
+        elif len(argv) > 2:
+            append(argv[2])
+        else:
+            append()
 
     elif argv[1] == "export":
         if len(argv) > 4:
@@ -47,5 +65,5 @@ if __name__ == '__main__':
             export(argv[2])
 
     else:
-        print("[Usage] python setup.py function [arg1=127.0.0.1:8000] [arg2=ZA]")
-        print("      - function : reset, export")
+        print("[Usage] python setup.py function args...")
+        print("      - function : reset, append, export")
