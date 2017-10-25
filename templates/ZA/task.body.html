@@ -71,19 +71,6 @@
         var zerotype = undefined;
         var antecand = undefined;
 
-        {# throw new Error("Something went badly wrong!"); #}
-
-        if (!getAuthCode())
-            window.location = "/login/";
-        $.ajax({
-            url: "/ZA/",
-            type: "get",
-            async: true,
-            beforeSend: function (req) {
-                req.setRequestHeader("Authorization", authcode);
-            }
-        });
-
         const test = function () {
             console.log("autosave =", autosave);
             console.log("taskdone =", taskdone);
@@ -91,10 +78,6 @@
             console.log("antecand =", antecand);
             console.log("entities = ", entities);
             console.log("relations = ", relations);
-        };
-
-        const goList = function () {
-            window.location = "/ZA/";
         };
 
         const showDeps = function (i) {
@@ -185,8 +168,6 @@
         };
 
         const pushZero = function (saving, head, zero, cmd) {
-            {% comment %}console.log("pushZero", "zero =", zero);{% endcomment %}
-
             if (cmd === "insert") {
                 const e = $("#" + head["head_sid"] + ".sent #" + head["head_wid"] + ".word .word_text");
                 var x = $(".tag.zero").first().clone();
@@ -248,21 +229,19 @@
                     entities: JSON.stringify(entities),
                     relations: JSON.stringify(relations)
                 },
-                beforeSend: function (req) {
-                    req.setRequestHeader("Authorization", authcode);
-                },
-                success: function () {
+                success: function (data) {
                     console.log("[result] Annotation 기록 저장에 성공했습니다.");
+                    console.log(data);
                 },
-                error: function () {
+                error: function (data) {
                     console.log("[result] Annotation 기록 저장에 실패했습니다. 서버에 문제가 있는 것 같습니다. 담당자에게 연락해주시기 바랍니다.");
+                    console.log(data["responseJSON"]);
                 }
             });
         };
 
         $(function () {
             loadAnn();
-            $("#username").text(username);
             autosave = $(":radio[name=autosave]:checked").val() === "yes";
             taskdone = $(":radio[name=taskdone]:checked").val() === "yes";
             zerotype = $(":radio[name=zerotype]:checked").val();
@@ -388,15 +367,16 @@
             <i class="glyphicon glyphicon-info-sign"><span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">확인</span></i>
         </button>
 
-        <button id="list" onclick="goList()" class="btn btn-warning" style="width:70px; position:relative; top:-4px;">
+        <button id="list" onclick="location.href='/ZA/'" class="btn btn-warning" style="width:70px; position:relative; top:-4px;">
             <i class="glyphicon glyphicon-th-list"><span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">목록</span></i>
         </button>
 
         <div class="well well-sm" style="display:inline-block; text-align:center; font-size:11pt; width:350px; height:35px; margin-bottom:0">
-            <i class="glyphicon glyphicon-user"> </i> <span id="username"></span>
+            <i class="glyphicon glyphicon-user"> </i>
+            <span id="username">{{ user.username }}</span>
         </div>
 
-        <button id="exit" onclick="doLogout()" class="btn btn-danger" style="width:70px; position:relative; top:-4px;">
+        <button id="exit" onclick="location.href='{% url 'logout' %}'" class="btn btn-danger" style="width:70px; position:relative; top:-4px;">
             <i class="glyphicon glyphicon-off"><span style="padding-left:3px; font-size:10.5pt; position:relative; top:-2px;">종료</span></i>
         </button>
     </div>

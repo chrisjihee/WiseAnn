@@ -1,33 +1,13 @@
 {% extends "index.html" %}
 
-{% block script_header %}
-    <script type="text/javascript">
-        if (!getAuthCode())
-            window.location = "/login/";
-        $.ajax({
-            url: "/ZA/",
-            type: "get",
-            async: true,
-            beforeSend: function (req) {
-                req.setRequestHeader("Authorization", authcode);
-            }
-        });
-
-        $(function () {
-            $("#username").text(username);
-        });
-    </script>
-{% endblock script_header %}
-
 {% block body %}
     <div class="row" style="width:1040px; margin-left:auto; margin-right:auto; margin-bottom:30px">
-        <div class="col-md-offset-8 col-md-3 well well-sm"
-             style="text-align:center; font-size:9pt; height:35px; margin-bottom:0; max-width:240px">
+        <div class="col-md-offset-8 col-md-3 well well-sm" style="text-align:center; font-size:9pt; height:35px; margin-bottom:0; max-width:240px">
             <i class="glyphicon glyphicon-user"> </i>
-            <span id="username"></span>
+            <span id="username">{{ user.username }}</span>
         </div>
         <div class="col-md-1" style="padding-left:8px; padding-right:8px">
-            <button id="signout" class="btn btn-block btn-danger" style="max-width:70px" onclick="doLogout()">
+            <button id="signout" class="btn btn-block btn-danger" style="max-width:70px" onclick="location.href='{% url 'logout' %}'">
                 <i class="glyphicon glyphicon-off"> </i>
             </button>
         </div>
@@ -76,5 +56,4 @@
             {% endfor %}
         </div>
     </div>
-
 {% endblock body %}

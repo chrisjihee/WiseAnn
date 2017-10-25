@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+
+{% block body %}
+    <script type="text/javascript">
+        const g = $("#guide");
+        {% if form.errors %}
+            g.html("WiseAnn 시스템 로그인에 실패하였습니다. 사용자 정보를 다시 확인해주세요.")
+                .removeClass("alert-info").removeClass("alert-success").addClass("alert-danger");
+        {% else %}
+            g.html("WiseAnn을 사용하기 위해서 사용자 로그인이 필요합니다. 관리자로부터 허가된 사용자 정보로 로그인하세요.");
+        {% endif %}
+    </script>
+    <div>
+        <form class="form-signin well" method="POST" action="{% url 'login' %}">
+            {% csrf_token %}
+            <label for="username" class="sr-only">Username</label>
+            <input class="form-control" id="id_username" maxlength="15" name="username" type="text" placeholder="Username" required autofocus>
+            <label for="password" class="sr-only">Password</label>
+            <input class="form-control" id="id_password" maxlength="120" name="password" type="password" placeholder="Password" required>
+            <button id="signin" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            <input type="hidden" name="next" value="/ZA/"/>
+        </form>
+    </div>
+{% endblock body %}
