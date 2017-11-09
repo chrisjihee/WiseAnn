@@ -209,10 +209,20 @@ def export(request, username, datadir=os.path.join(BASE_DIR, "data/")):
             for si, zas in rels.items():
                 si = int(si)
                 zi = 0
-                doc["sentence"][si]["ZA"] = list()
+                try:
+                    doc["sentence"][si]["ZA"] = list()
+                except Exception as e:
+                    print("[ERROR1] \t%s\t~~~>\t%d" % (x.text.textname, num_valid))
+                    print(e)
+
                 for za in sorted(zas.values(), key=lambda zz: zz["head_wid"] * 1000000000 + zz["ant_sid"] * 1000000 + zz["ant_wid"] * 1000000):
                     if za["valid"]:
-                        doc["sentence"][si]["ZA"].append(clone_tagged_za(za, zi))
+                        try:
+                            doc["sentence"][si]["ZA"].append(clone_tagged_za(za, zi))
+                        except Exception as e:
+                            print("[ERROR2] \t%s\t~~~>\t%d" % (x.text.textname, num_valid))
+                            print(e)
+
                         zi += 1
                         num_valid += 1
 

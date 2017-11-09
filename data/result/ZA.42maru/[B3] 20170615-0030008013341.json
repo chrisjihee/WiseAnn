@@ -1384,7 +1384,9 @@
                     {"type": "ARG1", "word_id": 24, "text": "“15층에서 4세~8세 사이의 어린이 3명이 떨어지는 것을 봤다”라고", "weight": 0.279571}
                 ]}
             ], 
-            "ZA": []
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 12, "ant_sid": 10, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}
+            ]
         }, 
         {
             "id": 11, 
@@ -1541,7 +1543,9 @@
                     {"type": "ARG1", "word_id": 9, "text": "안타까운 심정", "weight": 0.73204}
                 ]}
             ], 
-            "ZA": []
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 10, "ant_sid": 12, "ant_wid": 4, "ant_is_title": 0, "weight": 1.01}
+            ]
         }, 
         {
             "id": 13, 
@@ -1725,7 +1729,11 @@
                     {"type": "ARGM-NEG", "word_id": 27, "text": "없었다.", "weight": 0.408663}
                 ]}
             ], 
-            "ZA": []
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 10, "ant_sid": 13, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 14, "ant_sid": 13, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 2, "type": "s", "head_wid": 24, "ant_sid": 13, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}
+            ]
         }, 
         {
             "id": 14, 
@@ -1838,7 +1846,9 @@
                     {"type": "ARGM-NEG", "word_id": 14, "text": "“난 밖에 앉아서 우리 집이 타는 모습, 사람들이 도와달라고 울부짖는 모습을 바라만볼 수밖에 없었다”", "weight": 0.23811}
                 ]}
             ], 
-            "ZA": []
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 14, "ant_sid": 14, "ant_wid": 1, "ant_is_title": 0, "weight": 1.01}
+            ]
         }, 
         {
             "id": 15, 
@@ -2084,7 +2094,14 @@
                     {"type": "ARGM-NEG", "word_id": 20, "text": "“그 후 계속 건물 밖에 있을 수밖에 없었다”", "weight": 0.218127}
                 ]}
             ], 
-            "ZA": []
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 3, "ant_sid": 16, "ant_wid": 0, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 6, "ant_sid": 16, "ant_wid": 0, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 2, "type": "s", "head_wid": 10, "ant_sid": 16, "ant_wid": 0, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 3, "type": "o", "head_wid": 10, "ant_sid": 16, "ant_wid": 2, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 4, "type": "s", "head_wid": 18, "ant_sid": 16, "ant_wid": 0, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 5, "type": "s", "head_wid": 22, "ant_sid": 16, "ant_wid": 0, "ant_is_title": 0, "weight": 1.01}
+            ]
         }, 
         {
             "id": 17, 
@@ -2221,7 +2238,11 @@
                     {"type": "ARG1", "word_id": 16, "text": "“비명을 지르는 사람들을 봤다”라고", "weight": 0.187513}
                 ]}
             ], 
-            "ZA": []
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 9, "ant_sid": 17, "ant_wid": 6, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 1, "type": "s", "head_wid": 16, "ant_sid": 17, "ant_wid": 6, "ant_is_title": 0, "weight": 1.01}, 
+                {"id": 2, "type": "s", "head_wid": 17, "ant_sid": 17, "ant_wid": 6, "ant_is_title": 0, "weight": 1.01}
+            ]
         }, 
         {
             "id": 18, 
@@ -2760,7 +2781,9 @@
                     {"type": "ARGM-NEG", "word_id": 13, "text": "없다‘", "weight": 0.324565}
                 ]}
             ], 
-            "ZA": []
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 11, "ant_sid": 22, "ant_wid": 3, "ant_is_title": 0, "weight": 1.01}
+            ]
         }, 
         {
             "id": 23, 
@@ -2851,7 +2874,9 @@
                     {"type": "ARG1", "word_id": 12, "text": "풀어야 한다고", "weight": 0.422111}
                 ]}
             ], 
-            "ZA": []
+            "ZA": [
+                {"id": 0, "type": "s", "head_wid": 13, "ant_sid": 23, "ant_wid": 2, "ant_is_title": 0, "weight": 1.01}
+            ]
         }
     ], 
     "entity": [
