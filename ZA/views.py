@@ -122,7 +122,7 @@ def read_text(textname, dirname=os.path.join(BASE_DIR, "data/texts")):
     if os.path.isdir(dirname):
         filename = os.path.join(dirname, textname + ".json")
         if os.path.isfile(filename):
-            text = json.load(open(filename))
+            text = json.load(open(filename, encoding='utf8'))
             for sent in text["sentence"]:
                 for word in sent["dependency"]:
                     if word["label"].startswith("N"):
