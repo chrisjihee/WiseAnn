@@ -7,7 +7,7 @@ from pandas import read_excel, isnull, json
 
 from WiseAnn.json2 import WiseJson
 from common.io import list_files
-from common.task import Task
+from common.task import Task as MyTask
 
 
 def check():
@@ -26,7 +26,7 @@ def reset_database(reset_db=True, reset_user=True, reset_text=True, reset_annota
     load()
 
     if reset_db:
-        with Task("[Reset DB]"):
+        with MyTask("[Reset DB]"):
             from django.core.management import execute_from_command_line
             if os.path.exists("db.sqlite3"):
                 os.remove("db.sqlite3")
@@ -35,7 +35,7 @@ def reset_database(reset_db=True, reset_user=True, reset_text=True, reset_annota
 
     from django.contrib.auth.models import User
     if reset_user:
-        with Task("[Reset User]"):
+        with MyTask("[Reset User]"):
             User.objects.all().delete()
             User.objects.create_superuser(username="chrisjihee", password="jiheeryu", first_name="Jihee", last_name="Ryu", email="chrisjihee@etri.re.kr")
             User.objects.create_user(username="etri", password="etri.re.kr")
@@ -45,7 +45,7 @@ def reset_database(reset_db=True, reset_user=True, reset_text=True, reset_annota
 
     from ZA.models import Text
     if reset_text:
-        with Task("[Reset Text]"):
+        with MyTask("[Reset Text]"):
             Text.objects.all().delete()
             num = 0
             for file in list_files("data/texts", ".json"):
@@ -54,10 +54,10 @@ def reset_database(reset_db=True, reset_user=True, reset_text=True, reset_annota
                 num += 1
             print(" Text:\n  {} texts".format(len(Text.objects.all())))
 
-    from ZA.models import Task as TaskModel
+    from ZA.models import Task
     if reset_annotation:
-        with Task("[Reset Task]"):
-            TaskModel.objects.all().delete()
+        with MyTask("[Reset Task]"):
+            Task.objects.all().delete()
             num = 0
             for _, r in read_excel("data/tasks.xlsx").iterrows():
                 text = Text.objects.get(textname=r["name"])
@@ -65,7 +65,7 @@ def reset_database(reset_db=True, reset_user=True, reset_text=True, reset_annota
                     user = User.objects.get(username=username)
                     text.task_set.create(user=user)
                     num += 1
-            print(" Task:\n  {} tasks".format(len(TaskModel.objects.all())))
+            print(" Task:\n  {} tasks".format(len(Task.objects.all())))
 
 
 def clone_tagged_za(za1, zi):
@@ -80,8 +80,8 @@ def clone_tagged_za(za1, zi):
     return za2
 
 
-@csrf_exempt
-def export(request, username, datadir="data/"):
+def export(username, datadir="data/"):
+    from ZA.models import Task
     print("[INIT] export")
     print("=" * 100)
     print(" Data Export : %s" % username)
@@ -148,8 +148,8 @@ def export(request, username, datadir="data/"):
 
 
 if __name__ == "__main__":
-    # with Task("버전 확인"):
+    # with MyTask("버전 확인"):
     #     check()
 
-    with Task("DB 초기화"):
+    with MyTask("DB 초기화"):
         reset_database()
