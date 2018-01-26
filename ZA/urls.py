@@ -5,8 +5,6 @@ from ZA import views
 
 urlpatterns = [
     # Admin call
-    url(r'^api/reset/', views.reset, name='reset'),
-    url(r'^api/append/', views.append, name='reset'),
     url(r'^api/export/(?P<username>[^/]+)$', views.export, name='export'),
     # User call
     url(r'^$', views.index, name='index'),
